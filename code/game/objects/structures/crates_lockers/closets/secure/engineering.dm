@@ -12,7 +12,7 @@
 
 /obj/structure/closet/secure_closet/engineering_chief/fill()
 	new /obj/item/storage/backpack/satchel/locker_clothing/ce(src)
-	new /obj/item/storage/backpack/duffel/eng(src)
+	new /obj/item/storage/backpack/duffel/ce(src)
 	new /obj/item/blueprints(src)
 	new /obj/item/clothing/head/welding(src)
 	new /obj/item/device/megaphone/engi(src)
@@ -20,7 +20,6 @@
 	new /obj/item/device/multitool(src)
 	new /obj/item/device/flash(src)
 	new /obj/item/taperoll/engineering(src)
-	new /obj/item/rfd/piping(src)
 	new /obj/item/gun/energy/disruptorpistol/miniature(src)
 	new /obj/item/clothing/accessory/holster/waist(src)
 	new /obj/item/device/gps/engineering(src)
@@ -45,6 +44,7 @@
 		/obj/item/clothing/gloves/yellow = 1,
 		/obj/item/clothing/gloves/yellow/specialu = 1,
 		/obj/item/clothing/gloves/yellow/specialt = 1,
+		/obj/item/clothing/glasses/welding/superior = 1,
 		/obj/item/clothing/shoes/sneakers/brown = 1,
 		/obj/item/device/radio/headset/heads/ce = 1,
 		/obj/item/device/radio/headset/heads/ce/alt = 1,
