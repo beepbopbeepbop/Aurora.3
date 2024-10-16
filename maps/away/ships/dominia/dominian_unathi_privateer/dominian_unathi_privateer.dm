@@ -23,7 +23,7 @@
 	icon_state = "dragoon"
 	moving_state = "dragoon_moving"
 	colors = list("#e67f09", "#fcf9f5")
-	designer = "Zhurong Naval Arsenal, Empire of Dominia"
+	designer = "Imperial Engineering & Shipbuilding Corporation"
 	volume = "54 meters length, 25 meters beam/width, 17 meters vertical height"
 	sizeclass = "Dragoon-class corvette"
 	shiptype = "Long-distance patrol and scouting action"
@@ -36,7 +36,7 @@
 	vessel_size = SHIP_SIZE_SMALL
 	invisible_until_ghostrole_spawn = TRUE
 	initial_restricted_waypoints = list(
-		"Kazhkz Fighter" = list("nav_hangar_kazhkz")
+		"Kazhkz Boarding Pod" = list("nav_hangar_kazhkz")
 	)
 	initial_generic_waypoints = list(
 		"nav_dominian_unathi_1",
@@ -76,11 +76,11 @@
 
 //Shuttle
 /obj/effect/overmap/visitable/ship/landable/dominian_unathi_shuttle
-	name = "Kazhkz Fighter"
+	name = "Kazhkz Boarding Pod"
 	class = "ICV"
 	designation = "Dagger"
-	desc = "The Lanying-class is often seen in the ranks of the Imperial Fleet - a small gunship craft, capable of carrying a boarding party of up to five soldiers, and equipped with a rotary cannon. This one's transponder does not mark it as an Imperial vessel, however."
-	shuttle = "Kazhkz Fighter"
+	desc = "The Lanying-class is often seen in the ranks of the Imperial Fleet - a void craft, capable of carrying a boarding party of up to five armsmen, and equipped with a rotary cannon. This one's transponder does not mark it as an Imperial vessel, however."
+	shuttle = "Kazhkz Boarding Pod"
 	icon_state = "shuttle"
 	moving_state = "shuttle_moving"
 	colors = list("#e67f09", "#fcf9f5")
@@ -92,30 +92,30 @@
 
 /obj/machinery/computer/shuttle_control/explore/dominian_unathi_shuttle
 	name = "shuttle control console"
-	shuttle_tag = "Kazhkz Fighter"
+	shuttle_tag = "Kazhkz Boarding Pod"
 	req_access = list(ACCESS_IMPERIAL_FLEET_VOIDSMAN_SHIP)
 
 /datum/shuttle/autodock/overmap/dominian_unathi_shuttle
-	name = "Kazhkz Fighter"
+	name = "Kazhkz Boarding Pod"
 	move_time = 20
 	shuttle_area = list(/area/shuttle/dominian_unathi)
 	current_location = "nav_hangar_kazhkz"
-	landmark_transition = "nav_transit_kazhkz_shuttle"
-	dock_target = "airlock_kazhkz_shuttle"
+	landmark_transition = "nav_transit_kazhkz_boarding_pod"
+	dock_target = "airlock_kazhkz_boarding_pod"
 	range = 1
 	fuel_consumption = 2
 	logging_home_tag = "nav_hangar_kazhkz"
 	defer_initialisation = TRUE
 
 /obj/effect/shuttle_landmark/dominian_unathi_shuttle/hangar
-	name = "Kazhkz Privateer Ship - Fighter Bay"
+	name = "Kazhkz Privateer Ship - Pod Bay"
 	landmark_tag = "nav_hangar_kazhkz"
-	docking_controller = "kazhkz_shuttle_dock"
+	docking_controller = "kazhkz_boarding_pod_dock"
 	base_area = /area/ship/dominian_unathi/hangar
 	base_turf = /turf/simulated/floor/plating
 	movable_flags = MOVABLE_FLAG_EFFECTMOVE
 
 /obj/effect/shuttle_landmark/dominian_unathi_shuttle/transit
 	name = "In transit"
-	landmark_tag = "nav_transit_kazhkz_shuttle"
+	landmark_tag = "nav_transit_kazhkz_boarding_pod"
 	base_turf = /turf/space/transit/north
