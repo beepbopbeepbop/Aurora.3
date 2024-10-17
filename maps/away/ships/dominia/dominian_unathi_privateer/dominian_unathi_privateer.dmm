@@ -245,10 +245,10 @@
 /obj/structure/lattice/catwalk/indoor,
 /obj/effect/map_effect/marker/airlock/shuttle{
 	cycle_to_external_air = 1;
-	master_tag = "airlock_sadar_shuttle";
-	name = "airlock_sadar_shuttle";
+	master_tag = "airlock_kazhkz_boarding_pod";
+	name = "airlock_kazkhz_boarding_pod";
 	req_one_access = null;
-	shuttle_tag = "United Sadar Fleet Shuttle"
+	shuttle_tag = "Kazhkz Boarding Pod"
 	},
 /turf/simulated/floor,
 /area/shuttle/dominian_unathi)
@@ -403,10 +403,10 @@
 	},
 /obj/effect/map_effect/marker/airlock/shuttle{
 	cycle_to_external_air = 1;
-	master_tag = "airlock_sadar_shuttle";
-	name = "airlock_sadar_shuttle";
+	master_tag = "airlock_kazhkz_boarding_pod";
+	name = "airlock_kazhkz_boarding_pod";
 	req_one_access = null;
-	shuttle_tag = "United Sadar Fleet Shuttle"
+	shuttle_tag = "Kazhkz Boarding Pod"
 	},
 /turf/simulated/floor,
 /area/shuttle/dominian_unathi)
@@ -830,7 +830,7 @@
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
 /obj/effect/map_effect/marker/airlock/docking{
-	landmark_tag = "nav_hangar_sadar_scout";
+	landmark_tag = "nav_hangar_kazhkz";
 	master_tag = "kazhkz_boarding_pod_dock";
 	name = "kazhkz_boarding_pod_dock"
 	},
@@ -915,7 +915,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/aux,
 /obj/effect/map_effect/marker_helper/airlock/interior,
 /obj/effect/map_effect/marker/airlock/docking{
-	landmark_tag = "nav_hangar_sadar_scout";
+	landmark_tag = "nav_hangar_kazhkz";
 	master_tag = "kazhkz_boarding_pod_dock";
 	name = "kazhkz_boarding_pod_dock"
 	},
@@ -960,7 +960,7 @@
 	dir = 1
 	},
 /obj/effect/map_effect/marker/airlock/docking{
-	landmark_tag = "nav_hangar_sadar_scout";
+	landmark_tag = "nav_hangar_kazhkz";
 	master_tag = "kazhkz_boarding_pod_dock";
 	name = "kazhkz_boarding_pod_dock"
 	},
@@ -1006,7 +1006,7 @@
 /obj/effect/floor_decal/corner/orange/full,
 /obj/structure/table/reinforced/steel,
 /obj/machinery/button/remote/blast_door{
-	id = "kazkhz_shuttle";
+	id = "kazkhz_boarding_pod_shield";
 	name = "Breaching Shield";
 	req_access = list(212);
 	dir = 5;
@@ -1065,7 +1065,7 @@
 "sT" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/aux{
 	dir = 8;
-	id_tag = "ipc_refugee_shuttle_pump_out_external";
+	id_tag = "kazhkz_boarding_pod_pump_out_external";
 	frequency = 1380
 	},
 /obj/structure/lattice/catwalk/indoor,
@@ -1074,10 +1074,10 @@
 	},
 /obj/effect/map_effect/marker/airlock/shuttle{
 	cycle_to_external_air = 1;
-	master_tag = "airlock_sadar_shuttle";
-	name = "airlock_sadar_shuttle";
+	master_tag = "airlock_kazhkz_boarding_pod";
+	name = "airlock_kazhkz_boarding_pod";
 	req_one_access = null;
-	shuttle_tag = "United Sadar Fleet Shuttle"
+	shuttle_tag = "Kazhkz Boarding Pod"
 	},
 /turf/simulated/floor,
 /area/shuttle/dominian_unathi)
@@ -1128,10 +1128,10 @@
 	},
 /obj/effect/map_effect/marker/airlock/shuttle{
 	cycle_to_external_air = 1;
-	master_tag = "airlock_sadar_shuttle";
-	name = "airlock_sadar_shuttle";
+	master_tag = "airlock_kazkhz_boarding_pod";
+	name = "airlock_kazkhz_boarding_pod";
 	req_one_access = null;
-	shuttle_tag = "United Sadar Fleet Shuttle"
+	shuttle_tag = "Kazhkz Boarding Pod"
 	},
 /turf/simulated/floor,
 /area/shuttle/dominian_unathi)
@@ -1222,11 +1222,11 @@
 "uZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/aux{
 	dir = 8;
-	id_tag = "ipc_refugee_shuttle_pump_out_external";
+	id_tag = "kazkhz_boarding_pod_pump_out_external";
 	frequency = 1380
 	},
 /obj/effect/map_effect/marker/airlock/docking{
-	landmark_tag = "nav_hangar_sadar_scout";
+	landmark_tag = "nav_hangar_kazhkz";
 	master_tag = "kazhkz_boarding_pod_dock";
 	name = "kazhkz_boarding_pod_dock"
 	},
@@ -1334,7 +1334,7 @@
 	},
 /obj/machinery/door/airlock/hatch{
 	req_access = list(212);
-	name = "
+	name = "maintenance hatch"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
@@ -1757,12 +1757,12 @@
 	density = 0;
 	dir = 8;
 	icon_state = "pdoor0";
-	id = "kazhkz_boarding_pod";
-	name = "Blast Doors";
+	id = "kazhkz_boarding_pod_shield";
+	name = "Breaching Shield";
 	opacity = 0
 	},
 /obj/machinery/button/remote/blast_door{
-	id = "kazkhz_shuttle";
+	id = "kazkhz_boarding_pod_shield";
 	name = "Breaching Shield";
 	req_access = list(212);
 	dir = 1;
@@ -2257,10 +2257,10 @@
 /obj/effect/map_effect/marker_helper/airlock/out,
 /obj/effect/map_effect/marker/airlock/shuttle{
 	cycle_to_external_air = 1;
-	master_tag = "airlock_sadar_shuttle";
-	name = "airlock_sadar_shuttle";
+	master_tag = "airlock_kazkhz_boarding_pod";
+	name = "airlock_kazkhz_boarding_pod";
 	req_one_access = null;
-	shuttle_tag = "United Sadar Fleet Shuttle"
+	shuttle_tag = "Kazhkz Boarding Pod"
 	},
 /turf/simulated/floor,
 /area/shuttle/dominian_unathi)
@@ -2612,7 +2612,7 @@
 	dir = 4
 	},
 /obj/effect/map_effect/marker/airlock/docking{
-	landmark_tag = "nav_hangar_sadar_scout";
+	landmark_tag = "nav_hangar_kazhkz";
 	master_tag = "kazhkz_boarding_pod_dock";
 	name = "kazhkz_boarding_pod_dock"
 	},
@@ -2730,10 +2730,10 @@
 /obj/effect/map_effect/marker_helper/airlock/out,
 /obj/effect/map_effect/marker/airlock/shuttle{
 	cycle_to_external_air = 1;
-	master_tag = "airlock_sadar_shuttle";
-	name = "airlock_sadar_shuttle";
+	master_tag = "airlock_kazkhz_boarding_pod";
+	name = "airlock_kazkhz_boarding_pod";
 	req_one_access = null;
-	shuttle_tag = "United Sadar Fleet Shuttle"
+	shuttle_tag = "Kazhkz Boarding Pod"
 	},
 /turf/simulated/floor,
 /area/shuttle/dominian_unathi)
@@ -2749,7 +2749,7 @@
 /obj/machinery/ship_weapon/francisca/compact{
 	pixel_x = -39;
 	pixel_y = -91;
-	weapon_id = "Kazhkz Shuttle Francisca Rotary Gun"
+	weapon_id = "Kazhkz Boarding Pod Francisca Rotary Gun"
 	},
 /obj/effect/floor_decal/industrial/warning/cee{
 	dir = 1
