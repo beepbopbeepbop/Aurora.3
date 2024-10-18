@@ -54,25 +54,41 @@
 	base_area = /area/space
 
 /obj/effect/shuttle_landmark/dominian_unathi/nav1
-	name = "Fore"
+	name = "First Deck, Fore"
 	landmark_tag = "nav_dominian_unathi_1"
 
 /obj/effect/shuttle_landmark/dominian_unathi/nav2
-	name = "Starboard"
+	name = "First Deck, Starboard"
 	landmark_tag = "nav_dominian_unathi_2"
 
 /obj/effect/shuttle_landmark/dominian_unathi/nav3
-	name = "Port"
+	name = "First Deck, Port"
 	landmark_tag = "nav_dominian_unathi_3"
 
 /obj/effect/shuttle_landmark/dominian_unathi/nav4
-	name = "Aft"
+	name = "First Deck, Aft"
 	landmark_tag = "nav_dominian_unathi_4"
 
+/obj/effect/shuttle_landmark/dominian_unathi/nav5
+	name = "Second Deck, Fore"
+	landmark_tag = "nav_dominian_unathi_5"
+
+/obj/effect/shuttle_landmark/dominian_unathi/nav6
+	name = "Second Deck, Starboard"
+	landmark_tag = "nav_dominian_unathi_6"
+
+/obj/effect/shuttle_landmark/dominian_unathi/nav7
+	name = "Second Deck, Port"
+	landmark_tag = "nav_dominian_unathi_7"
+
+/obj/effect/shuttle_landmark/dominian_unathi/nav8
+	name = "Second Deck, Aft"
+	landmark_tag = "nav_dominian_unathi_8"
+
 /obj/effect/shuttle_landmark/dominian_unathi/dock
-	name = "Port Docking Bay"
-	landmark_tag = "nav_dominian_unathi_dock"
-	docking_controller = "airlock_dominian_unathi_dock"
+	name = "Second Deck, Aft Docking Bay"
+	landmark_tag = "nav_dominian_unathi_second_deck_aft_dock"
+	docking_controller = "airlock_dominian_unathi_second_deck_aft_dock"
 
 //Lift
 /datum/shuttle/autodock/multi/lift/dominian_unathi
