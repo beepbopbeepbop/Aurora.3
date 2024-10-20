@@ -22,14 +22,17 @@
 /obj/outfit/admin/kazhkz_privateer
 	name = "Grudgebearer Privateer"
 	uniform = /obj/item/clothing/under/unathi
-	shoes = /obj/item/clothing/shoes/jackboots/toeless
+	accessory = /obj/item/clothing/accessory/dominia
 	id = /obj/item/card/id
+	gloves = /obj/item/clothing/gloves/orange/unathi
+	shoes = /obj/item/clothing/shoes/jackboots/toeless
 	back = /obj/item/storage/backpack/satchel/eng
 	l_ear = /obj/item/device/radio/headset/ship
 
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
 		/obj/item/storage/box/donkpockets = 1,
+		/obj/item/clothing/accessory/passport/dominia = 1
 	)
 
 /obj/outfit/admin/kazhkz_privateer/post_equip(mob/living/carbon/human/H, visualsOnly)
@@ -62,5 +65,6 @@
 	name = "Kazhkz Privateer Captain"
 	uniform = /obj/item/clothing/under/dominia/imperial_suit/kazhkz
 	suit = /obj/item/clothing/suit/storage/dominia/coat
-	accessory = /obj/item/clothing/accessory/holster/waist/brown
+	gloves = /obj/item/clothing/ring/seal
+	belt = /obj/item/clothing/accessory/holster/waist/brown
 	back = /obj/item/storage/backpack/satchel/leather

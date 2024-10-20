@@ -23,12 +23,12 @@
 	icon_state = "dragoon"
 	moving_state = "dragoon_moving"
 	colors = list("#e67f09", "#fcf9f5")
-	designer = "Imperial Engineering & Shipbuilding Corporation"
-	volume = "54 meters length, 25 meters beam/width, 17 meters vertical height"
+	designer = "Imperial Engineering & Shipbuilding Corporation, Zhurong Imperial Naval Arsenal"
+	volume = "50 meters length, 35 meters beam/width, 20 meters vertical height"
 	sizeclass = "Modified Dragoon-class corvette"
 	shiptype = "Fleet escort, long-distance patrol, and scouting action"
 	drive = "Low-Speed Warp Acceleration FTL Drive"
-	weapons = "Port wingtip-mounted extruding medium-caliber ballistic armament, aft boarding pod dock"
+	weapons = "Dual ballistic gunnery pods, aft boarding pod dock"
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 1 SECONDS
 	vessel_mass = 5000
@@ -36,13 +36,15 @@
 	vessel_size = SHIP_SIZE_SMALL
 	invisible_until_ghostrole_spawn = TRUE
 	initial_restricted_waypoints = list(
-		"Kazhkz Boarding Pod" = list("nav_hangar_kazhkz")
+		"Kazhkz Boarding Pod" = list("nav_kazhkz_second_aft_dock_aft")
 	)
 	initial_generic_waypoints = list(
-		"nav_dominian_unathi_1",
-		"nav_dominian_unathi_2",
-		"nav_dominian_unathi_3",
-		"nav_dominian_unathi_4"
+		"nav_kazhkz_second_aft_dock_starboard",
+		"nav_kazhkz_second_aft_dock_port",
+		"nav_kazhkz_first_starboard_dock_aft",
+		"nav_kazhkz_first_starboard_dock_fore",
+		"First Deck, Port Docking Arm, Aft",
+		"nav_kazhkz_first_port_dock_fore",
 	)
 
 /obj/effect/overmap/visitable/ship/dominian_unathi/New()
@@ -50,45 +52,64 @@
 	..()
 
 /obj/effect/shuttle_landmark/dominian_unathi
-	base_turf = /turf/space/dynamic
+	base_turf = /turf/space
 	base_area = /area/space
 
-/obj/effect/shuttle_landmark/dominian_unathi/nav1
-	name = "First Deck, Fore"
-	landmark_tag = "nav_dominian_unathi_1"
+/obj/effect/shuttle_landmark/dominian_unathi/dock/second/aft/boarding_pod
+	name = "Second Deck, Aft Docking Arm, Boarding Pod Dock"
+	docking_controller = "airlock_kazhkz_second_aft_dock_boarding_pod"
+	landmark_tag = "nav_kazhkz_second_aft_dock_boarding_pod"
 
-/obj/effect/shuttle_landmark/dominian_unathi/nav2
+/obj/effect/shuttle_landmark/dominian_unathi/dock/second/aft/starboard
+	name = "Second Deck, Aft Docking Arm, Starboard"
+	docking_controller = "airlock_kazhkz_second_docking_arm_starboard"
+	landmark_tag = "nav_kazhkz_second_aft_dock_starboard"
+
+/obj/effect/shuttle_landmark/dominian_unathi/dock/second/aft/port
+	name = "Second Deck, Aft Docking Arm, Port"
+	docking_controller = "airlock_kazhkz_second_docking_arm_port
+	landmark_tag = "nav_kazhkz_second_aft_dock_port"
+
+/obj/effect/shuttle_landmark/dominian_unathi/dock/first/starboard/aft
+	name = "First Deck, Starboard Docking Arm, Aft"
+	docking_controller = "airlock_kazhkz_first_starboard_dock_aft"
+	landmark_tag = "nav_kazhkz_first_starboard_dock_aft"
+
+/obj/effect/shuttle_landmark/dominian_unathi/dock/first/starboard/fore
+	name = "First Deck, Starboard Docking Arm, Fore"
+	docking_controller = "airlock_kazhkz_first_starboard_dock_fore
+	landmark_tag = "nav_kazhkz_first_starboard_dock_fore"
+
+/obj/effect/shuttle_landmark/dominian_unathi/dock/first/port/aft
+	name = "First Deck, Port Docking Arm, Aft"
+	docking_controller = "airlock_kazhkz_first_starboard_dock_aft"
+	landmark_tag = "nav_kazhkz_first_starboard_dock_aft"
+
+/obj/effect/shuttle_landmark/dominian_unathi/dock/first/port/fore
+	name = "First Deck, Port Docking Arm, Fore"
+	docking_controller = "airlock_kazhkz_first_port_dock_fore
+	landmark_tag = "nav_kazhkz_first_port_dock_fore"
+
+//Non-dockable airlocks
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_starboard
+	name = "Second Deck, Starboard Gunnery"
+	master_tag = "airlock_kazhkz_second_starboard"
+
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_port
+	name = "Second Deck, Port Gunnery"
+	master_tag = "airlock_kazhkz_second_port"
+
+/obj/effect/map_effect/marker/airlock/dominian_unathi/sensors
+	name = "Second Deck, Sensor Array"
+	master_tag = "airlock_kazhkz_sensors"
+
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_starboard
 	name = "First Deck, Starboard"
-	landmark_tag = "nav_dominian_unathi_2"
+	master_tag = "airlock_kazhkz_first_starboard"
 
-/obj/effect/shuttle_landmark/dominian_unathi/nav3
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_port
 	name = "First Deck, Port"
-	landmark_tag = "nav_dominian_unathi_3"
-
-/obj/effect/shuttle_landmark/dominian_unathi/nav4
-	name = "First Deck, Aft"
-	landmark_tag = "nav_dominian_unathi_4"
-
-/obj/effect/shuttle_landmark/dominian_unathi/nav5
-	name = "Second Deck, Fore"
-	landmark_tag = "nav_dominian_unathi_5"
-
-/obj/effect/shuttle_landmark/dominian_unathi/nav6
-	name = "Second Deck, Starboard"
-	landmark_tag = "nav_dominian_unathi_6"
-
-/obj/effect/shuttle_landmark/dominian_unathi/nav7
-	name = "Second Deck, Port"
-	landmark_tag = "nav_dominian_unathi_7"
-
-/obj/effect/shuttle_landmark/dominian_unathi/nav8
-	name = "Second Deck, Aft"
-	landmark_tag = "nav_dominian_unathi_8"
-
-/obj/effect/shuttle_landmark/dominian_unathi/dock
-	name = "Second Deck, Aft Docking Bay"
-	landmark_tag = "nav_dominian_unathi_second_deck_aft_dock"
-	docking_controller = "airlock_dominian_unathi_second_deck_aft_dock"
+	master_tag = "airlock_kazhkz_first_port"
 
 //Lift
 /datum/shuttle/autodock/multi/lift/dominian_unathi
@@ -140,20 +161,20 @@
 	name = "Kazhkz Boarding Pod"
 	move_time = 20
 	shuttle_area = list(/area/shuttle/dominian_unathi)
-	current_location = "nav_hangar_kazhkz"
+	current_location = "nav_kazhkz_second_aft_dock_boarding_pod"
 	landmark_transition = "nav_transit_kazhkz_boarding_pod"
 	dock_target = "airlock_kazhkz_boarding_pod"
 	range = 1
 	fuel_consumption = 2
-	logging_home_tag = "nav_hangar_kazhkz"
+	logging_home_tag = "nav_kazhkz_second_aft_dock_boarding_pod"
 	defer_initialisation = TRUE
 
-/obj/effect/shuttle_landmark/dominian_unathi_shuttle/hangar
+/obj/effect/shuttle_landmark/dominian_unathi_shuttle/boarding_pod_dock
 	name = "Kazhkz Privateer Ship - Boarding Pod Dock"
-	landmark_tag = "nav_hangar_kazhkz"
-	docking_controller = "kazhkz_boarding_pod_dock"
-	base_area = /area/ship/dominian_unathi/hangar
-	base_turf = /turf/simulated/floor/plating
+	landmark_tag = "nav_kazhkz_second_aft_dock_boarding_pod"
+	docking_controller = "airlock_kazhkz_second_aft_dock_boarding_pod"
+	base_area = /area/ship/dominian_unathi/boarding_preperation
+	base_turf = /turf/space
 	movable_flags = MOVABLE_FLAG_EFFECTMOVE
 
 /obj/effect/shuttle_landmark/dominian_unathi_shuttle/transit
