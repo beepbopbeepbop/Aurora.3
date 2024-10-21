@@ -67,7 +67,7 @@
 
 /obj/effect/shuttle_landmark/dominian_unathi/dock/second/aft/port
 	name = "Second Deck, Aft Docking Arm, Port"
-	docking_controller = "airlock_kazhkz_second_docking_arm_port
+	docking_controller = "airlock_kazhkz_second_docking_arm_port"
 	landmark_tag = "nav_kazhkz_second_aft_dock_port"
 
 /obj/effect/shuttle_landmark/dominian_unathi/dock/first/starboard/aft
@@ -77,7 +77,7 @@
 
 /obj/effect/shuttle_landmark/dominian_unathi/dock/first/starboard/fore
 	name = "First Deck, Starboard Docking Arm, Fore"
-	docking_controller = "airlock_kazhkz_first_starboard_dock_fore
+	docking_controller = "airlock_kazhkz_first_starboard_dock_fore"
 	landmark_tag = "nav_kazhkz_first_starboard_dock_fore"
 
 /obj/effect/shuttle_landmark/dominian_unathi/dock/first/port/aft
@@ -87,7 +87,7 @@
 
 /obj/effect/shuttle_landmark/dominian_unathi/dock/first/port/fore
 	name = "First Deck, Port Docking Arm, Fore"
-	docking_controller = "airlock_kazhkz_first_port_dock_fore
+	docking_controller = "airlock_kazhkz_first_port_dock_fore"
 	landmark_tag = "nav_kazhkz_first_port_dock_fore"
 
 //Non-dockable airlocks

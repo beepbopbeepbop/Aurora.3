@@ -6,6 +6,10 @@
 	name = "Kazhkz Privateer Ship - Second Deck Cargo Lift"
 	icon_state = "red"
 
+/area/ship/dominian_unathi/boarding_preperation
+	name = "Kazhkz Privateer Ship - Boarding Preperation"
+	icon_state = "red"
+
 //Lift Area
 /area/turbolift/dominian_unathi/dominian_unathi_lift
 	name = "Kazhkz Privateer Cargo Lift"
