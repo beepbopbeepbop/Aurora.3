@@ -5,7 +5,8 @@
 	prefix = "ships/dominia/dominian_unathi_privateer/"
 	suffix = "dominian_unathi_privateer.dmm"
 
-	sectors = list(SECTOR_BADLANDS, SECTOR_WEEPING_STARS)
+	sectors = list(ALL_POSSIBLE_SECTORS)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 	spawn_weight = 1
 	ship_cost = 1
 	id = "dominian_unathi"

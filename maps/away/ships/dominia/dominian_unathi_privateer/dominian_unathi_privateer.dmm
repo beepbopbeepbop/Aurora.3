@@ -80,7 +80,7 @@
 	stand_icon = "banner"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "aD" = (
 /obj/item/clothing/suit/unathi/jokfar{
 	color = "#ba650b";
@@ -186,7 +186,7 @@
 /obj/structure/lattice/catwalk/indoor,
 /obj/item/hullbeacon/red,
 /obj/structure/railing/mapped,
-/turf/simulated/open/airless,
+/turf/simulated/floor,
 /area/space)
 "br" = (
 /turf/simulated/floor/tiled/white,
@@ -259,7 +259,7 @@
 "bY" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/aux,
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "cd" = (
 /obj/item/device/versebook/tribunal,
 /turf/template_noop,
@@ -397,7 +397,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor,
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "cN" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -423,7 +423,7 @@
 /obj/item/clothing/head/helmet/dominia,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "cR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -496,7 +496,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "dl" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -526,6 +526,22 @@
 	},
 /obj/effect/floor_decal/industrial/outline/engineering,
 /turf/simulated/floor/tiled/dark,
+/area/space)
+"do" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 2
+	},
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/machinery/access_button{
+	pixel_y = -27;
+	dir = 4;
+	pixel_x = 6
+	},
+/obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_port,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "dB" = (
 /obj/structure/undies_wardrobe,
@@ -566,6 +582,7 @@
 	pixel_y = -6
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_starboard,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "dS" = (
@@ -591,7 +608,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "dZ" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -758,7 +775,7 @@
 	req_one_access = list(212)
 	},
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "eW" = (
 /obj/structure/table/rack/folding_table,
 /obj/structure/lattice/catwalk/indoor,
@@ -781,7 +798,7 @@
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "fi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -836,6 +853,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/aux{
 	dir = 4
 	},
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_starboard,
 /turf/simulated/floor,
 /area/space)
 "fx" = (
@@ -855,6 +873,10 @@
 /obj/item/clothing/suit/storage/dominia/coat,
 /turf/template_noop,
 /area/space)
+"fz" = (
+/obj/structure/lattice/catwalk/indoor,
+/turf/simulated/floor,
+/area/ship/dominian_unathi/boarding_preperation)
 "fE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
@@ -884,6 +906,7 @@
 	frequency = 1380
 	},
 /obj/structure/lattice/catwalk/indoor,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_port,
 /turf/simulated/floor,
 /area/space)
 "fX" = (
@@ -1033,6 +1056,13 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"gM" = (
+/obj/structure/lattice/catwalk/indoor,
+/obj/effect/shuttle_landmark/dominian_unathi/dock/first/port/fore{
+	dir = 1
+	},
+/turf/simulated/open/airless,
+/area/space)
 "gR" = (
 /obj/structure/railing/mapped,
 /obj/machinery/computer/ship/navigation/terminal{
@@ -1066,6 +1096,15 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor,
+/area/space)
+"he" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 9
+	},
+/obj/machinery/alarm/west{
+	req_one_access = list(212)
+	},
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "hf" = (
 /obj/effect/floor_decal/corner/orange/full{
@@ -1135,7 +1174,7 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "hv" = (
 /obj/machinery/light_switch{
 	pixel_y = 26;
@@ -1382,6 +1421,7 @@
 	pixel_x = -6
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_port,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "jf" = (
@@ -1431,6 +1471,7 @@
 	dir = 1
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_starboard,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "jy" = (
@@ -1531,6 +1572,13 @@
 /obj/structure/ship_weapon_dummy,
 /turf/simulated/floor/reinforced,
 /area/space)
+"jR" = (
+/obj/structure/lattice/catwalk/indoor,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/open/airless,
+/area/space)
 "jU" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 2
@@ -1544,6 +1592,7 @@
 	pixel_x = -6
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_starboard,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "jW" = (
@@ -1561,12 +1610,19 @@
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "kc" = (
-/obj/effect/shuttle_landmark/dominian_unathi/nav3,
-/turf/template_noop,
+/obj/structure/lattice/catwalk/indoor,
+/obj/effect/shuttle_landmark/dominian_unathi/dock/second/aft/port{
+	dir = 8
+	},
+/turf/simulated/open/airless,
 /area/space)
 "ke" = (
-/obj/effect/shuttle_landmark/dominian_unathi/nav4,
-/turf/template_noop,
+/obj/structure/lattice/catwalk/indoor,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/item/hullbeacon/red,
+/turf/simulated/floor,
 /area/space)
 "kg" = (
 /obj/machinery/atmospherics/portables_connector{
@@ -1666,6 +1722,14 @@
 /obj/effect/floor_decal/corner/full{
 	dir = 1
 	},
+/obj/structure/closet/cabinet{
+	req_access = list(212)
+	},
+/obj/item/storage/box/fancy/candle_box,
+/obj/item/storage/box/fancy/candle_box,
+/obj/item/storage/box/fancy/candle_box,
+/obj/item/storage/box/fancy/candle_box,
+/obj/item/flame/lighter/zippo/dominia,
 /turf/simulated/floor/marble/dark,
 /area/space)
 "kT" = (
@@ -1721,7 +1785,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "ls" = (
 /obj/machinery/air_sensor{
 	frequency = 1441;
@@ -1907,6 +1971,7 @@
 	pixel_x = -6
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/sensors,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "mf" = (
@@ -1940,6 +2005,12 @@
 	},
 /turf/simulated/floor,
 /area/shuttle/dominian_unathi)
+"mr" = (
+/obj/effect/floor_decal/corner/orange/full{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/dominian_unathi/boarding_preperation)
 "mt" = (
 /obj/item/device/versebook/tribunal{
 	pixel_y = -1;
@@ -2034,6 +2105,10 @@
 /obj/item/flame/candle{
 	pixel_y = -1;
 	pixel_x = 12
+	},
+/obj/item/device/versebook/tribunal{
+	pixel_x = -7;
+	pixel_y = 3
 	},
 /turf/simulated/floor/marble/dark,
 /area/space)
@@ -2172,6 +2247,12 @@
 /obj/item/clothing/accessory/storage/pouches/white,
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"nH" = (
+/obj/effect/floor_decal/corner/orange/full{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/dominian_unathi/boarding_preperation)
 "nN" = (
 /obj/structure/sign/flag/dominia{
 	pixel_x = -32
@@ -2179,6 +2260,17 @@
 /obj/effect/floor_decal/corner/full{
 	dir = 8
 	},
+/obj/structure/closet/cabinet{
+	req_access = list(212)
+	},
+/obj/item/device/versebook/tribunal,
+/obj/item/device/versebook/tribunal,
+/obj/item/device/versebook/tribunal,
+/obj/item/device/versebook/tribunal,
+/obj/item/sign/painting_frame/goddess/soldier,
+/obj/item/sign/painting_frame/goddess/soldier,
+/obj/item/sign/painting_frame/goddess/soldier,
+/obj/item/sign/painting_frame/goddess/soldier,
 /turf/simulated/floor/marble/dark,
 /area/space)
 "nP" = (
@@ -2315,7 +2407,7 @@
 /obj/item/ammo_magazine/c762/dominia,
 /obj/item/gun/projectile/automatic/rifle/dominia_carbine,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "oL" = (
 /obj/structure/closet/walllocker/emerglocker/west{
 	pixel_x = 0;
@@ -2347,7 +2439,7 @@
 	dir = 1
 	},
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "pc" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
@@ -2382,7 +2474,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "pm" = (
 /obj/item/clothing/accessory/holster/waist,
 /turf/template_noop,
@@ -2599,7 +2691,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor,
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "qH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10
@@ -2712,6 +2804,14 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/dominian_unathi/first_deck_cargo_lift)
+"rd" = (
+/obj/structure/lattice/catwalk/indoor,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/item/hullbeacon/red,
+/turf/simulated/floor,
+/area/space)
 "rj" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 10
@@ -2720,7 +2820,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "rl" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -2730,7 +2830,7 @@
 "ro" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/aux,
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "rs" = (
 /obj/machinery/light{
 	dir = 4
@@ -2757,6 +2857,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 6
 	},
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_port,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "ru" = (
@@ -2772,7 +2873,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "rx" = (
 /obj/structure/bed/stool/chair/wood{
 	dir = 4
@@ -2817,7 +2918,7 @@
 /obj/item/clothing/accessory/flagpatch/dominia,
 /obj/item/clothing/accessory/flagpatch/dominia,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "rM" = (
 /obj/effect/shuttle_landmark/dominian_unathi_shuttle/transit,
 /turf/space/transit/north,
@@ -2872,7 +2973,7 @@
 /obj/structure/table/reinforced/steel,
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "sh" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -3016,7 +3117,7 @@
 	req_one_access = list(212)
 	},
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "sU" = (
 /obj/effect/floor_decal/corner/orange/full,
 /obj/structure/closet/cabinet{
@@ -3223,7 +3324,7 @@
 /obj/structure/table/reinforced/steel,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "ur" = (
 /obj/machinery/light{
 	dir = 1
@@ -3304,7 +3405,7 @@
 /obj/structure/dispenser/oxygen,
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "uT" = (
 /obj/effect/floor_decal/industrial/outline_straight/red,
 /obj/machinery/alarm/west{
@@ -3356,7 +3457,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "vg" = (
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/structure/cable/green{
@@ -3451,7 +3552,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "vz" = (
 /obj/structure/platform/dark{
 	dir = 8
@@ -3468,7 +3569,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "vH" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 2
@@ -3478,7 +3579,7 @@
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "vK" = (
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 8;
@@ -3658,7 +3759,7 @@
 /obj/item/ammo_magazine/a556/dlmg,
 /obj/item/ammo_magazine/a556/dlmg,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "wT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 5
@@ -3681,7 +3782,7 @@
 	req_access = list(212)
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "xc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 6
@@ -3691,7 +3792,7 @@
 	req_one_access = list(212)
 	},
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "xj" = (
 /obj/effect/floor_decal/corner/orange/full{
 	dir = 1
@@ -3710,9 +3811,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/dominian_unathi/first_deck_cargo_lift)
 "xs" = (
-/obj/effect/shuttle_landmark/dominian_unathi/nav1,
-/turf/template_noop,
-/area/space)
+/turf/simulated/wall/shuttle/space_ship,
+/area/ship/dominian_unathi/boarding_preperation)
 "xt" = (
 /obj/structure/closet/crate/coffin,
 /obj/structure/closet/crate/coffin{
@@ -3836,7 +3936,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "yb" = (
 /obj/machinery/computer/ship/sensors/terminal{
 	dir = 1
@@ -3904,6 +4004,7 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk/indoor,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_starboard,
 /turf/simulated/floor,
 /area/space)
 "yp" = (
@@ -3997,6 +4098,11 @@
 	icon_state = "4-8"
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor,
 /area/space)
 "yC" = (
@@ -4044,6 +4150,13 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor,
+/area/space)
+"yG" = (
+/obj/structure/lattice/catwalk/indoor,
+/obj/effect/shuttle_landmark/dominian_unathi/dock/second/aft/starboard{
+	dir = 4
+	},
+/turf/simulated/open/airless,
 /area/space)
 "yJ" = (
 /obj/effect/floor_decal/corner/orange{
@@ -4236,6 +4349,16 @@
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor,
+/area/ship/dominian_unathi/boarding_preperation)
+"zZ" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
+	},
+/obj/machinery/alarm/north{
+	req_access = list(212);
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "Af" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
@@ -4250,6 +4373,7 @@
 	pixel_x = 6
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/sensors,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Ah" = (
@@ -4465,7 +4589,7 @@
 	stand_icon = "banner"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "AT" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
@@ -4553,6 +4677,12 @@
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/space)
+"Bw" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/dominian_unathi/boarding_preperation)
 "BE" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 2
@@ -4647,7 +4777,7 @@
 	dir = 1;
 	pixel_y = 0
 	},
-/turf/simulated/open/airless,
+/turf/simulated/floor,
 /area/space)
 "CA" = (
 /obj/structure/platform_deco/dark{
@@ -4747,16 +4877,11 @@
 /area/space)
 "CQ" = (
 /obj/structure/table/stone/marble,
-/obj/item/device/versebook/tribunal{
-	pixel_x = 15;
-	pixel_y = 3
-	},
-/obj/item/clothing/accessory/dominia{
-	pixel_x = -14;
-	pixel_y = 2
-	},
 /obj/item/sign/painting_frame/goddess/soldier{
 	pixel_y = -32
+	},
+/obj/item/nullrod/dominia{
+	pixel_y = 2
 	},
 /turf/simulated/floor/marble/dark,
 /area/space)
@@ -4881,7 +5006,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "Dx" = (
 /obj/machinery/atmospherics/binary/passive_gate/on{
 	dir = 4;
@@ -4998,12 +5123,20 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark/full,
+/area/ship/dominian_unathi/boarding_preperation)
+"Em" = (
+/obj/structure/lattice/catwalk/indoor,
+/obj/effect/shuttle_landmark/dominian_unathi/dock/first/port/aft,
+/turf/simulated/open/airless,
 /area/space)
 "Eo" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
+"Eq" = (
+/turf/simulated/floor,
+/area/ship/dominian_unathi/boarding_preperation)
 "Er" = (
 /turf/simulated/floor,
 /turf/simulated/wall/shuttle/space_ship,
@@ -5236,10 +5369,6 @@
 	dir = 1
 	},
 /obj/machinery/door/airlock/external,
-/obj/effect/shuttle_landmark/dominian_unathi_shuttle/hangar{
-	dir = 2;
-	landmark_tag = "nav_kazhkz_docking_arm_aft"
-	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
 /obj/machinery/access_button{
 	pixel_x = 27;
@@ -5256,8 +5385,9 @@
 	name = "kazhkz_boarding_pod_dock";
 	req_one_access = list(212)
 	},
+/obj/effect/shuttle_landmark/dominian_unathi/dock/second/aft/boarding_pod,
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "FW" = (
 /obj/machinery/cryopod{
 	dir = 8
@@ -5297,7 +5427,7 @@
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "Gj" = (
 /obj/item/clothing/shoes/winter/toeless,
 /turf/template_noop,
@@ -5423,7 +5553,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "Hi" = (
 /obj/machinery/atmospherics/pipe/tank/carbon_dioxide{
 	dir = 4
@@ -5603,6 +5733,7 @@
 	pixel_x = 6
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_starboard,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Ix" = (
@@ -5948,6 +6079,16 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark,
 /area/ship/dominian_unathi/second_deck_cargo_lift)
+"JV" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
+/obj/machinery/alarm/south{
+	req_one_access = null;
+	req_access = list(212)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "JZ" = (
 /obj/machinery/computer/ship/engines/terminal{
 	dir = 8
@@ -6028,6 +6169,7 @@
 	dir = 4;
 	pixel_x = 6
 	},
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_port,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "KF" = (
@@ -6247,12 +6389,18 @@
 /obj/structure/closet/crate/bin/filled,
 /turf/simulated/floor/tiled/dark,
 /area/ship/dominian_unathi/first_deck_cargo_lift)
+"LV" = (
+/obj/effect/shuttle_landmark/dominian_unathi/dock/first/starboard/fore{
+	dir = 1
+	},
+/turf/template_noop,
+/area/space)
 "LW" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/aux{
 	dir = 4
 	},
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "LZ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -6362,7 +6510,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "MC" = (
 /obj/structure/closet/secure_closet/engineering_welding{
 	req_access = null
@@ -6432,7 +6580,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "MU" = (
 /obj/machinery/sparker{
 	id = "kazhkz_igniter_tank";
@@ -6456,6 +6604,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/blue,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/dominian_unathi)
+"Nd" = (
+/obj/effect/shuttle_landmark/dominian_unathi/dock/first/starboard/aft,
+/turf/template_noop,
+/area/space)
 "Ng" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
@@ -6497,7 +6649,7 @@
 /obj/structure/sign/flag/kazhkz{
 	pixel_x = -32
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Nm" = (
 /obj/structure/ship_weapon_dummy,
@@ -6549,7 +6701,7 @@
 /obj/item/shield/energy/dominia,
 /obj/item/shield/energy/dominia,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "Nw" = (
 /obj/machinery/light{
 	dir = 4
@@ -6568,7 +6720,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "Ny" = (
 /obj/structure/closet/crate/weapon,
 /obj/effect/floor_decal/industrial/outline/red,
@@ -6654,7 +6806,7 @@
 	dir = 8
 	},
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "NX" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/unathi/mogazali/orange,
@@ -6703,6 +6855,26 @@
 	dir = 4
 	},
 /turf/simulated/floor,
+/area/space)
+"Oi" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
+	},
+/obj/machinery/power/apc/north{
+	req_access = list(212)
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"Oj" = (
+/obj/item/sign/painting_frame/goddess/soldier{
+	pixel_y = 0;
+	pixel_x = 32
+	},
+/turf/simulated/floor/carpet/red,
 /area/space)
 "Op" = (
 /obj/effect/map_effect/window_spawner/full/shuttle{
@@ -6829,6 +7001,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 4
 	},
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_port,
 /turf/simulated/floor,
 /area/space)
 "Pg" = (
@@ -6888,7 +7061,7 @@
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "PE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -6944,6 +7117,7 @@
 	pixel_y = -6
 	},
 /obj/effect/map_effect/marker_helper/airlock/interior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_port,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "PM" = (
@@ -6988,7 +7162,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "Qh" = (
 /obj/effect/floor_decal/industrial/warning/cee,
 /turf/simulated/floor/reinforced,
@@ -7062,7 +7236,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "QL" = (
 /obj/structure/lattice/catwalk/indoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow{
@@ -7092,6 +7266,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/dominian_unathi)
+"QR" = (
+/obj/effect/floor_decal/corner/orange/full,
+/turf/simulated/floor/tiled/dark,
+/area/ship/dominian_unathi/boarding_preperation)
 "QT" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -7251,7 +7429,7 @@
 /obj/item/grenade/frag,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "RV" = (
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
 	dir = 4;
@@ -7279,6 +7457,7 @@
 /obj/machinery/light/small/emergency{
 	dir = 8
 	},
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_starboard,
 /turf/simulated/floor,
 /area/space)
 "RY" = (
@@ -7401,6 +7580,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
+"SI" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
+/obj/machinery/alarm/east{
+	req_one_access = null;
+	req_access = list(212)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "SV" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -7440,6 +7629,7 @@
 	dir = 1
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_port,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "Tr" = (
@@ -7499,7 +7689,7 @@
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "TZ" = (
 /obj/machinery/computer/ship/helm/terminal,
 /obj/effect/floor_decal/corner/orange/full{
@@ -7618,6 +7808,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 10
 	},
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_starboard,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "UP" = (
@@ -7726,6 +7917,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/dominian_unathi/second_deck_cargo_lift)
+"Vm" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/dominian_unathi/boarding_preperation)
 "Vs" = (
 /obj/structure/closet/crate/coffin,
 /obj/structure/closet/crate/coffin{
@@ -7836,9 +8033,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/dominian_unathi/second_deck_cargo_lift)
 "VJ" = (
-/obj/effect/shuttle_landmark/dominian_unathi/nav2,
-/turf/template_noop,
-/area/space)
+/obj/effect/floor_decal/corner/orange{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/ship/dominian_unathi/boarding_preperation)
 "VM" = (
 /obj/machinery/light,
 /obj/machinery/computer/ship/targeting/terminal{
@@ -7857,7 +8056,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "VT" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/aux{
 	dir = 8;
@@ -7875,6 +8074,7 @@
 	dir = 2;
 	pixel_y = 24
 	},
+/obj/effect/map_effect/marker/airlock/dominian_unathi/sensors,
 /turf/simulated/floor,
 /area/space)
 "VU" = (
@@ -7920,7 +8120,7 @@
 /obj/effect/floor_decal/industrial/outline,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /turf/simulated/floor,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "Wf" = (
 /turf/template_noop,
 /area/space)
@@ -8186,7 +8386,7 @@
 	req_one_access = list(212)
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/space)
+/area/ship/dominian_unathi/boarding_preperation)
 "Ye" = (
 /obj/structure/ship_weapon_dummy,
 /obj/effect/floor_decal/industrial/warning{
@@ -8243,6 +8443,10 @@
 /obj/item/flame/candle{
 	pixel_y = -1;
 	pixel_x = -11
+	},
+/obj/item/clothing/accessory/dominia{
+	pixel_x = 7;
+	pixel_y = 2
 	},
 /turf/simulated/floor/marble/dark,
 /area/space)
@@ -8359,6 +8563,7 @@
 	id_tag = "kazkhz_boarding_pod_pump_out_external";
 	frequency = 1380
 	},
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_port,
 /turf/simulated/floor,
 /area/space)
 "ZE" = (
@@ -8391,11 +8596,7 @@
 	pixel_x = -6
 	},
 /obj/effect/map_effect/marker_helper/airlock/exterior,
-/obj/machinery/access_button{
-	pixel_y = -27;
-	dir = 8;
-	pixel_x = -6
-	},
+/obj/effect/map_effect/marker/airlock/dominian_unathi/first_starboard,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "ZP" = (
@@ -29892,7 +30093,7 @@ Wf
 Wf
 Wf
 Wf
-VJ
+Wf
 Wf
 Wf
 Wf
@@ -33493,34 +33694,34 @@ Wf
 Wf
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+gc
 Wf
 Wf
 Wf
@@ -33712,34 +33913,34 @@ Wf
 Wf
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+gc
 Wf
 Wf
 Wf
@@ -34005,7 +34206,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -34255,7 +34456,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -34776,7 +34977,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -35026,7 +35227,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -35547,7 +35748,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -35797,7 +35998,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -36056,10 +36257,10 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
+ke
+jR
+jR
+ke
 Wf
 Wf
 Wf
@@ -36312,12 +36513,12 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+Nd
+HC
+HC
+HC
+HC
+LV
 Wf
 Wf
 Wf
@@ -36570,10 +36771,10 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
+rd
+HC
+HC
+rd
 Wf
 Wf
 Wf
@@ -36827,12 +37028,12 @@ Wf
 Wf
 Wf
 Wf
+nP
+HC
+HC
+nP
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -37082,12 +37283,12 @@ Wf
 Wf
 Wf
 Wf
+sR
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -37341,10 +37542,10 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -37598,12 +37799,12 @@ Wf
 Wf
 Wf
 Wf
+nP
+HC
+HC
+nP
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -37853,12 +38054,12 @@ Wf
 Wf
 Wf
 Wf
+sR
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -38112,10 +38313,10 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -38369,12 +38570,12 @@ Wf
 Wf
 Wf
 Wf
+nP
+HC
+HC
+nP
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -38624,12 +38825,12 @@ Wf
 Wf
 Wf
 Wf
+sR
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -38883,41 +39084,41 @@ Wf
 Wf
 Wf
 Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+gc
 Wf
 Wf
 Wf
@@ -39109,41 +39310,41 @@ Wf
 Wf
 Wf
 Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -39396,12 +39597,12 @@ Wf
 Wf
 Wf
 Wf
-Wf
+nP
 HC
 HC
 HC
 HC
-Wf
+nP
 Wf
 Wf
 Wf
@@ -39653,12 +39854,12 @@ Wf
 Wf
 Wf
 Wf
-Wf
+nP
 yj
 ZL
 jU
 yj
-Wf
+nP
 Wf
 Wf
 Wf
@@ -39910,7 +40111,7 @@ Wf
 nP
 Wf
 Wf
-Wf
+nP
 yj
 fv
 yk
@@ -41226,13 +41427,13 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+Pa
+KF
+Me
+fy
+Ey
+Gj
+Yl
 Wf
 Wf
 Wf
@@ -41483,13 +41684,13 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+sP
+cd
+NO
+Xh
+nT
+gm
+dg
 Wf
 Wf
 Wf
@@ -41739,6 +41940,14 @@ yj
 Wf
 Wf
 Wf
+bT
+cp
+GW
+Bh
+df
+Pl
+XI
+Os
 Wf
 Wf
 Wf
@@ -41759,14 +41968,6 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-xs
 Wf
 Wf
 Wf
@@ -41904,7 +42105,7 @@ Wf
 Wf
 Wf
 Wf
-ke
+Wf
 Wf
 Wf
 Wf
@@ -41996,14 +42197,14 @@ yj
 yj
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+pM
+pm
+fI
+bL
+aD
+Mk
+Di
+Mw
 Wf
 Wf
 Wf
@@ -42240,7 +42441,7 @@ pt
 yj
 hv
 rx
-KR
+Oj
 Mn
 yj
 yj
@@ -42256,9 +42457,9 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
+we
+rX
+AU
 Wf
 Wf
 Wf
@@ -42513,7 +42714,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+jW
 Wf
 Wf
 Wf
@@ -42770,7 +42971,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+UD
 Wf
 Wf
 Wf
@@ -44022,7 +44223,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+nP
 yj
 ZC
 fS
@@ -44279,11 +44480,12 @@ Wf
 Wf
 Wf
 Wf
-Wf
+nP
 yj
 KD
-Af
+do
 yj
+nP
 Wf
 Wf
 Wf
@@ -44295,13 +44497,12 @@ Wf
 Wf
 Wf
 Wf
-Pa
-KF
-Me
-fy
-Ey
-Gj
-Yl
+Wf
+Wf
+Wf
+Wf
+Wf
+Wf
 Wf
 Wf
 Wf
@@ -44536,11 +44737,12 @@ Wf
 Wf
 Wf
 Wf
-Wf
+nP
 HC
 HC
 HC
 HC
+nP
 Wf
 Wf
 Wf
@@ -44552,13 +44754,12 @@ Wf
 Wf
 Wf
 Wf
-sP
-cd
-NO
-Xh
-nT
-gm
-dg
+Wf
+Wf
+Wf
+Wf
+Wf
+Wf
 Wf
 Wf
 Wf
@@ -44794,40 +44995,40 @@ Wf
 Wf
 Wf
 Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
-bT
-cp
-GW
-Bh
-df
-Pl
-XI
-Os
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+gc
 Wf
 Wf
 Wf
@@ -45021,6 +45222,40 @@ Wf
 Wf
 Wf
 Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+gc
+Wf
+Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -45039,40 +45274,6 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-pM
-pm
-fI
-bL
-aD
-Mk
-Di
-Mw
 Wf
 Wf
 Wf
@@ -45308,6 +45509,11 @@ Wf
 Wf
 Wf
 Wf
+nP
+HC
+HC
+nP
+sR
 Wf
 Wf
 Wf
@@ -45323,11 +45529,6 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-we
-rX
-AU
 Wf
 Wf
 Wf
@@ -45564,6 +45765,11 @@ Wf
 Wf
 Wf
 Wf
+sR
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -45578,11 +45784,6 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-jW
 Wf
 Wf
 Wf
@@ -45822,6 +46023,10 @@ Wf
 Wf
 Wf
 Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -45836,10 +46041,6 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-UD
 Wf
 Wf
 Wf
@@ -46079,11 +46280,11 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+nP
+HC
+HC
+nP
+sR
 Wf
 Wf
 Wf
@@ -46335,11 +46536,11 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+sR
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -46593,10 +46794,10 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -46850,11 +47051,11 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+nP
+HC
+HC
+nP
+sR
 Wf
 Wf
 Wf
@@ -47106,11 +47307,11 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+sR
+nP
+HC
+HC
+nP
 Wf
 Wf
 Wf
@@ -47364,10 +47565,10 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
+ke
+HC
+HC
+ke
 Wf
 Wf
 Wf
@@ -47621,10 +47822,10 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
+Em
+HC
+HC
+gM
 Wf
 Wf
 Wf
@@ -47878,10 +48079,10 @@ Wf
 Wf
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
+rd
+LQ
+LQ
+rd
 Wf
 Wf
 Wf
@@ -48139,7 +48340,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -48391,7 +48592,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -48910,7 +49111,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -49162,7 +49363,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -49681,7 +49882,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -49933,7 +50134,7 @@ Wf
 Wf
 Wf
 Wf
-Wf
+sR
 Wf
 Wf
 Wf
@@ -50197,34 +50398,34 @@ Wf
 Wf
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+gc
 Wf
 Wf
 Wf
@@ -50418,34 +50619,34 @@ Wf
 Wf
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
+gc
 Wf
 Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
-Wf
+gc
 Wf
 Wf
 Wf
@@ -53536,7 +53737,7 @@ Wf
 Wf
 Wf
 Wf
-kc
+Wf
 Wf
 Wf
 Wf
@@ -95428,7 +95629,7 @@ Wf
 Wf
 Wf
 Wf
-VJ
+Wf
 Wf
 Wf
 Wf
@@ -104145,7 +104346,7 @@ Wf
 Wf
 nP
 Cz
-HC
+yG
 bj
 nP
 Wf
@@ -105435,10 +105636,10 @@ nP
 nP
 nP
 fY
-yj
-yj
-yj
-yj
+xs
+xs
+xs
+xs
 mF
 as
 Ny
@@ -105691,11 +105892,11 @@ HC
 nP
 nP
 fY
-yj
-yj
+xs
+xs
 VX
 VX
-yj
+xs
 yj
 yj
 yj
@@ -105705,7 +105906,7 @@ SD
 pZ
 qk
 pZ
-pZ
+he
 pZ
 pZ
 Sz
@@ -105948,11 +106149,11 @@ at
 HC
 HC
 lx
-yj
+xs
 xc
 fc
 qB
-yj
+xs
 co
 pZ
 zQ
@@ -106199,17 +106400,17 @@ Wf
 nP
 lw
 lx
-yj
-yj
+xs
+xs
 vH
-yj
-yj
-yj
-yj
+xs
+xs
+xs
+xs
 pe
-yj
-yj
-yj
+xs
+xs
+xs
 xv
 td
 Zi
@@ -106456,17 +106657,17 @@ Wf
 nP
 lw
 lx
-yj
-jL
+xs
+Eq
 LW
-jL
-yj
-yj
+Eq
+xs
+xs
 xQ
 MA
-zQ
+QR
 rK
-yj
+xs
 Uc
 MM
 xA
@@ -106713,11 +106914,11 @@ uD
 nP
 lw
 lx
-yj
+xs
 ro
 bY
 oZ
-yj
+xs
 aB
 QI
 dY
@@ -106968,19 +107169,19 @@ BQ
 BQ
 BQ
 BQ
-yj
-yj
-yj
-yj
+xs
+xs
+xs
+xs
 PD
-yj
-yj
+xs
+xs
 vw
 QI
 sg
 rj
 cP
-yj
+xs
 Uc
 jI
 yj
@@ -107225,19 +107426,19 @@ BQ
 xP
 ZP
 BQ
-yj
+xs
 hu
-yj
+xs
 TU
 qB
 zU
-yj
+xs
 uR
 QI
 rv
-PR
+VJ
 wS
-yj
+xs
 Uc
 jI
 yj
@@ -107302,7 +107503,7 @@ Wf
 Wf
 Wf
 Wf
-xs
+Wf
 Wf
 Wf
 Wf
@@ -107440,7 +107641,7 @@ Wf
 Wf
 Wf
 Wf
-ke
+Wf
 Wf
 Wf
 Wf
@@ -107485,17 +107686,17 @@ EN
 FQ
 eN
 Yc
-AA
-AA
-AA
+fz
+fz
+fz
 wW
 Gd
 ve
 VP
 lp
 oF
-yj
-Uc
+xs
+Oi
 yB
 AD
 wg
@@ -107507,7 +107708,7 @@ cV
 WK
 yj
 jI
-PR
+JV
 yj
 pc
 wn
@@ -107739,19 +107940,19 @@ BQ
 AI
 ez
 QM
-yj
+xs
 sT
-yj
+xs
 TU
 cM
 zU
-yj
+xs
 Eo
-Uc
+Vm
 dY
 Hf
 AS
-yj
+xs
 Uc
 jI
 yj
@@ -107996,19 +108197,19 @@ BQ
 BQ
 GG
 nQ
-yj
-yj
-yj
-yj
+xs
+xs
+xs
+xs
 PD
-yj
-yj
+xs
+xs
 vw
-Uc
+Vm
 un
 Qd
 RQ
-yj
+xs
 Uc
 jI
 yj
@@ -108255,13 +108456,13 @@ Ea
 nP
 lw
 lx
-yj
+xs
 ro
 bY
 oZ
-yj
+xs
 aB
-Uc
+Vm
 rv
 dh
 Dw
@@ -108512,18 +108713,18 @@ si
 Qh
 lw
 lx
-yj
-jL
+xs
+Eq
 NW
-jL
-yj
-yj
-qm
-Oq
-lV
+Eq
+xs
+xs
+nH
+Bw
+mr
 Np
-yj
-Uc
+xs
+zZ
 Kv
 vu
 yj
@@ -108769,17 +108970,17 @@ Wf
 nP
 lw
 lx
-yj
-yj
+xs
+xs
 vH
-yj
-yj
-yj
-yj
-yj
-yj
-yj
-yj
+xs
+xs
+xs
+xs
+xs
+xs
+xs
+xs
 Uc
 wL
 WI
@@ -109302,7 +109503,7 @@ yj
 qm
 FH
 Oq
-Oq
+SI
 Oq
 pu
 Ii
@@ -110827,7 +111028,7 @@ Wf
 Wf
 nP
 Cz
-HC
+kc
 bj
 nP
 Wf
@@ -119072,7 +119273,7 @@ Wf
 Wf
 Wf
 Wf
-kc
+Wf
 Wf
 Wf
 Wf
