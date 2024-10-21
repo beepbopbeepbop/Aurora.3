@@ -22,39 +22,36 @@
 
 /area/ship/dominian_unathi/starboard_gunnery
 	name = "Kazhkz Privateer Ship - Starboard Gunnery"
-	icon_state - "Tactical"
+	icon_state = "Tactical"
 
 /area/ship/dominian_unathi/starboard_magazine
 	name = "Kazhkz Privateer Ship - Starboard Magazine"
-	icon_state - "Tactical"
+	icon_state = "Tactical"
 
 /area/ship/dominian_unathi/port_gunnery
 	name = "Kazhkz Privateer Ship - Port Gunnery"
-	icon_state - "Tactical"
+	icon_state = "Tactical"
 
 /area/ship/dominian_unathi/port_magazine
 	name = "Kazhkz Privateer Ship - Port Magazine"
-	icon_state - "Tactical"
+	icon_state = "Tactical"
 
 /area/ship/dominian_unathi/first_deck_cargo_lift
 	name = "Kazhkz Privateer Ship - First Deck Cargo Lift"
-	icon_state = "red"
 
 /area/ship/dominian_unathi/infirmary
 	name = "Kazhkz Privateer Ship - Healer's Bay"
-	icon_state - "medbay"
+	icon_state = "medbay"
 
 /area/ship/dominian_unathi/cell
 	name = "Kazhkz Privateer Ship - Cell"
-	icon_state - "brig"
+	icon_state = "brig"
 
 /area/ship/dominian_unathi/chapel
 	name = "Kazhkz Privateer Ship - Chapel"
-	icon_state - "red"
 
 /area/ship/dominian_unathi/second_deck_cargo_lift
 	name = "Kazhkz Privateer Ship - Second Deck Cargo Lift"
-	icon_state = "red"
 
 /area/ship/dominian_unathi/cafeteria
 	name = "Kazhkz Privateer Ship - Cafeteria"
@@ -74,7 +71,6 @@
 
 /area/ship/dominian_unathi/engineering_hallway
 	name = "Kazhkz Privateer Ship - Engineering Hallway"
-	icon_state = "red"
 
 /area/ship/dominian_unathi/atmospherics
 	name = "Kazhkz Privateer Ship - Atmospherics"
@@ -90,7 +86,6 @@
 
 /area/ship/dominian_unathi/telecomms
 	name = "Kazhkz Privateer Ship - Telecommunications"
-	icon_state = "red"
 
 /area/ship/dominian_unathi/propulsion
 	name = "Kazhkz Privateer Ship - Propulsion"

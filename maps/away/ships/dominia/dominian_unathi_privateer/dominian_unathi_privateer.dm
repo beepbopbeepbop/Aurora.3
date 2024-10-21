@@ -61,16 +61,6 @@
 	docking_controller = "airlock_kazhkz_second_aft_dock_boarding_pod"
 	landmark_tag = "nav_kazhkz_second_aft_dock_boarding_pod"
 
-/obj/effect/shuttle_landmark/dominian_unathi/dock/second/aft/starboard
-	name = "Second Deck, Aft Docking Arm, Starboard"
-	docking_controller = "airlock_kazhkz_second_docking_arm_starboard"
-	landmark_tag = "nav_kazhkz_second_aft_dock_starboard"
-
-/obj/effect/shuttle_landmark/dominian_unathi/dock/second/aft/port
-	name = "Second Deck, Aft Docking Arm, Port"
-	docking_controller = "airlock_kazhkz_second_docking_arm_port"
-	landmark_tag = "nav_kazhkz_second_aft_dock_port"
-
 /obj/effect/shuttle_landmark/dominian_unathi/dock/first/starboard/aft
 	name = "First Deck, Starboard Docking Arm, Aft"
 	docking_controller = "airlock_kazhkz_first_starboard_dock_aft"
@@ -92,6 +82,14 @@
 	landmark_tag = "nav_kazhkz_first_port_dock_fore"
 
 //Non-dockable airlocks
+/obj/effect/map_effect/marker/airlock?dominian_unathi/second_aft_starboard
+	name = "Second Deck, Aft Docking Arm, Starboard"
+	master_tag = "airlock_kazhkz_second_aft_starboard"
+
+/obj/effect/map_effect/marker/airlock?dominian_unathi/second_aft_port
+	name = "Second Deck, Aft Docking Arm, Port"
+	master_tag = "airlock_kazhkz_second_aft_port"
+
 /obj/effect/map_effect/marker/airlock/dominian_unathi/second_starboard
 	name = "Second Deck, Starboard Gunnery"
 	master_tag = "airlock_kazhkz_second_starboard"
