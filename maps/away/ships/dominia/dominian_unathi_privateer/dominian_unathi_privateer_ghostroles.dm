@@ -14,7 +14,7 @@
 
 	assigned_role = "Kazhkz Privateer"
 	special_role = "Kazhkz Privateer"
-	respawn_flag = TRUE
+	respawn_flag = null
 	extra_languages = list(LANGUAGE_TRADEBAND, LANGUAGE_AZAZIBA)
 	uses_species_whitelist = FALSE
 	welcome_message = "You are a privateer of the Grudgebearers, the pirate fleet of Clan Kazhkz - a plausibly deniable weapon of the Empire of Dominia, sent to scourge the Emperor's enemies in the Badlands. Though the two nations are not enemies, the Kazhkz hold a particular hatred of the Izweski Hegemony, and will often attack their merchant vessels. The Unathi in Dominia wiki page may have some useful information for roleplaying a Kazhkz privateer."

@@ -61,6 +61,10 @@
 	name = "Kazhkz Privateer Ship - Crew Bunks"
 	icon_state = "crew_quarters"
 
+/area/ship/dominian_unathi/washroom
+	name = "Kazhkz Privateer Ship - Washroom"
+	icon_state = "washroom"
+
 /area/ship/dominian_unathi/captains_quarters
 	name = "Kazhkz Privateer Ship - Lord-Captain's Quarters"
 	icon_state = "captain"

@@ -5,12 +5,19 @@
 	prefix = "ships/dominia/dominian_unathi_privateer/"
 	suffix = "dominian_unathi_privateer.dmm"
 
+	traits = list(
+		// Deck one
+		list(ZTRAIT_AWAY = TRUE, ZTRAIT_UP = TRUE, ZTRAIT_DOWN = FALSE),
+		// Deck two
+		list(ZTRAIT_AWAY = TRUE, ZTRAIT_UP = FALSE, ZTRAIT_DOWN = TRUE),
+	)
+
 	sectors = list(ALL_POSSIBLE_SECTORS)
 	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 	spawn_weight = 1
 	ship_cost = 1
 	id = "dominian_unathi"
-	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/dominian_unathi_shuttle)
+	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/dominian_unathi_shuttle, /datum/shuttle/autodock/multi/lift/dominian_unathi)
 	unit_test_groups = list(2)
 
 /singleton/submap_archetype/dominian_unathi
@@ -82,11 +89,11 @@
 	landmark_tag = "nav_kazhkz_first_port_dock_fore"
 
 //Non-dockable airlocks
-/obj/effect/map_effect/marker/airlock?dominian_unathi/second_aft_starboard
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_aft_starboard
 	name = "Second Deck, Aft Docking Arm, Starboard"
 	master_tag = "airlock_kazhkz_second_aft_starboard"
 
-/obj/effect/map_effect/marker/airlock?dominian_unathi/second_aft_port
+/obj/effect/map_effect/marker/airlock/dominian_unathi/second_aft_port
 	name = "Second Deck, Aft Docking Arm, Port"
 	master_tag = "airlock_kazhkz_second_aft_port"
 
