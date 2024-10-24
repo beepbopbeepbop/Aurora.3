@@ -3909,6 +3909,7 @@
 #include "maps\away\ships\coc\himean_corvette\himean_corvette_areas.dm"
 #include "maps\away\ships\coc\himean_corvette\himean_corvette_ghostroles.dm"
 #include "maps\away\ships\coc\himean_corvette\himean_corvette_landmarks.dm"
+#include "maps\away\ships\coc\himean_corvette\himean_corvette.dmm"
 #include "maps\away\ships\dionae\diona_rokz_ship\diona_rokz_ship.dm"
 #include "maps\away\ships\dionae\diona_rokz_ship\diona_rokz_ship_ghostroles.dm"
 #include "maps\away\ships\dionae\diona_serz_ship\diona_serz_ship.dm"
