@@ -5,7 +5,7 @@
 	prefix = "ships/coc/himean_corvette/"
 	suffix = "himean_corvette.dmm"
 
-		traits = list(
+	traits = list(
 		// Deck one
 		list(ZTRAIT_AWAY = TRUE, ZTRAIT_UP = TRUE, ZTRAIT_DOWN = FALSE),
 		// Deck two
@@ -16,7 +16,7 @@
 	spawn_weight = 1
 	spawn_cost = 1
 	id = "himean_corvette"
-	shuttles_to_initialize = list(/datum/shuttle/autodock/overmap/himean_shuttle)
+	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/himean_shuttle)
 
 	unit_test_groups = list(3)
 
