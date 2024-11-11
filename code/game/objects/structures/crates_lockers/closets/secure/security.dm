@@ -5,12 +5,11 @@
 
 /obj/structure/closet/secure_closet/captains/fill()
 	// Backpack
-	if(prob(50))
-		new /obj/item/storage/backpack/captain(src)
-	else
-		new /obj/item/storage/backpack/satchel/cap(src)
+	new /obj/item/storage/backpack/captain(src)
+	new /obj/item/storage/backpack/satchel/cap(src)
 	new /obj/item/storage/backpack/duffel/cap(src)
 	// Armor
+	new /obj/item/clothing/glasses/sunglasses(src)
 	new /obj/item/clothing/head/helmet(src)
 	new /obj/item/clothing/suit/armor/carrier/generic(src)
 	//Tools
@@ -72,10 +71,9 @@
 	new /obj/item/device/megaphone/command(src)
 	new /obj/item/storage/stickersheet/goldstar(src)
 	new /obj/item/gun/energy/repeater/pistol(src)
-	new /obj/item/gun/projectile/sec/flash(src)
+	new /obj/item/melee/telebaton(src)
 	new /obj/item/device/flash(src)
 	new /obj/item/device/eftpos(src)
-	new /obj/item/book/manual/wiki/security_space_law(src)
 	new /obj/item/device/radio/off(src)
 
 /obj/structure/closet/secure_closet/xo2
@@ -109,10 +107,8 @@
 	new /obj/item/storage/box/ids(src)
 	new /obj/item/storage/box/stingers(src)
 	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
+	new /obj/item/clothing/under/rank/head_of_security
+	new /obj/item/storage/backpack/satchel/sec(src)
 	new /obj/item/storage/backpack/duffel/sec(src)
 	new /obj/item/clothing/suit/armor/carrier/hos(src)
 	new /obj/item/clothing/accessory/leg_guard(src)
@@ -182,10 +178,8 @@
 	new /obj/item/storage/box/teargas(src)
 	new /obj/item/storage/box/stingers(src)
 	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
+	new /obj/item/storage/backpack/security(src)
+	new /obj/item/storage/backpack/satchel/sec(src)
 	new /obj/item/storage/backpack/duffel/sec(src)
 	new /obj/item/clothing/suit/armor/carrier/officer(src)
 	new /obj/item/clothing/accessory/arm_guard(src)
@@ -211,6 +205,7 @@
 	new /obj/item/device/flashlight/maglight(src)
 	new /obj/item/wrench(src)
 	new /obj/item/device/multitool(src)
+	new /obj/item/device/eftpos(src)
 
 
 /obj/structure/closet/secure_closet/security_cadet
@@ -221,10 +216,8 @@
 
 /obj/structure/closet/secure_closet/security_cadet/fill()
 	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
+	new /obj/item/storage/backpack/security(src)
+	new /obj/item/storage/backpack/satchel/sec(src)
 	new /obj/item/storage/backpack/duffel/sec(src)
 	new /obj/item/clothing/head/beret/security(src)
 	new /obj/item/clothing/head/softcap/security(src)
@@ -250,10 +243,8 @@
 
 /obj/structure/closet/secure_closet/security/fill()
 	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
+	new /obj/item/storage/backpack/security(src)
+	new /obj/item/storage/backpack/satchel/sec(src)
 	new /obj/item/storage/backpack/duffel/sec(src)
 	new /obj/item/clothing/suit/armor/carrier/officer(src)
 	new /obj/item/clothing/accessory/arm_guard(src)

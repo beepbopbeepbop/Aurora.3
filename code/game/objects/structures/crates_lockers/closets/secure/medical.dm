@@ -117,10 +117,7 @@
 	icon_state = "cmo"
 
 /obj/structure/closet/secure_closet/CMO/fill()
-	if(prob(50))
-		new /obj/item/storage/backpack/medic(src)
-	else
-		new /obj/item/storage/backpack/satchel/med(src)
+	new /obj/item/storage/backpack/satchel/med(src)
 	new /obj/item/storage/backpack/duffel/med(src)
 	new /obj/item/clothing/shoes/sneakers/medsci(src)
 	new /obj/item/clothing/under/rank/chief_medical_officer(src)
