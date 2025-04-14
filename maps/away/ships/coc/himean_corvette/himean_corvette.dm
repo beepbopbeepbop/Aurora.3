@@ -37,7 +37,7 @@ obj/effect/overmap/visitable/ship/himean_corvette
 	fore_dir = SOUTH
 	vessel_size = SHIP_SIZE_SMALL
 	scanimage = "N/a"
-	designer = "Himean People's Unified Armed Forces, Free Consortium of Defense and Aerospace Manufacturers"
+	designer = "Himean People's Unified Armed Forces, Free Consortium of Defence and Aerospace Manufacturers"
 	volume = "N/a"
 	drive = "Mid-range Warp Acceleration FTL Drive"
 	weapons = "N/a"
