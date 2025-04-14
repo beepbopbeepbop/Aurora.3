@@ -1,6 +1,6 @@
 /datum/ghostspawner/human/himean_crewman
 	name = "Himean Planetary Navy Crewman"
-	short_name = "tcaf_crewman"
+	short_name = "himean_crewman"
 	desc = "sigma"
 	tags = list("External")
 	mob_name_prefix = "Smn. "
