@@ -9,7 +9,8 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	ambience = AMBIENCE_ENGINEERING
 
-x
+/area/himean_corvette/hangar
+	name = "HImean Planetary Navy Corvette - Hangar Bay"
 
 /area/himean_corvette/exterior
 	name = "Himean Planetary Navy Corvette - Exterior"
@@ -18,7 +19,7 @@ x
 	has_gravity = FALSE
 
 //Lift Area
-/area/turbolift/himean_corvette/himean_lift
+/area/turbolift/himean_corvette/himean_corvette_lift
 	name = "Himean Planetary Navy Lift"
 	station_area = FALSE
 

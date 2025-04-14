@@ -8,7 +8,7 @@
 	spawnpoints = list("himean_crewman")
 	max_count = 4
 
-outfit = /obj/outfit/admin/himean_crewman
+	outfit = /obj/outfit/admin/himean_crewman
 	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_TAJARA, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_ZHAN, SPECIES_IPC, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
@@ -18,10 +18,9 @@ outfit = /obj/outfit/admin/himean_crewman
 
 /obj/outfit/admin/himean_crewman
 	name = "Himean Planetary Navy Crewman"
-	uniform = /
 	gloves = /obj/item/clothing/gloves/black
 	shoes = /obj/item/clothing/shoes/jackboots
-	id = /obj/item/card/id/
+	id = /obj/item/card/id/coalition
 	l_ear = /obj/item/device/radio/headset/ship
 	backpack_contents = list(/obj/item/storage/box/survival = 1)
 
@@ -32,10 +31,10 @@ outfit = /obj/outfit/admin/himean_crewman
 	)
 
 /obj/outfit/admin/himean_crewman/get_id_access()
-	return list(ACCESS_EXTERNAL_AIRLOCKS)
+	return list(ACCESS_HIMEAN_CORVETTE, ACCESS_EXTERNAL_AIRLOCKS)
 
 /datum/ghostspawner/human/himean_crewman/captain
-name = "Himean Planetary Navy Captain"
+	name = "Himean Planetary Navy Captain"
 	short_name = "himean_captain"
 	desc = "sigma"
 	tags = list("External")
@@ -44,7 +43,7 @@ name = "Himean Planetary Navy Captain"
 	spawnpoints = list("himean_captain")
 	max_count = 4
 
-outfit = /obj/outfit/admin/himean_crewman/captain
+	outfit = /obj/outfit/admin/himean_crewman/captain
 	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
@@ -54,10 +53,9 @@ outfit = /obj/outfit/admin/himean_crewman/captain
 
 /obj/outfit/admin/himean_crewman/captain
 	name = "Himean Planetary Navy Captain"
-	uniform = /
 	gloves = /obj/item/clothing/gloves/black
 	shoes = /obj/item/clothing/shoes/jackboots
-	id = /obj/item/card/id/
+	id = /obj/item/card/id/coalition
 	l_ear = /obj/item/device/radio/headset/ship
 	backpack_contents = list(/obj/item/storage/box/survival = 1)
 

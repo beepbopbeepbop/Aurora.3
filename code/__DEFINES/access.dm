@@ -815,3 +815,7 @@
 	id = ACCESS_LONE_SPACER
 	desc = "Independent Skiff Access"
 
+#define ACCESS_HIMEAN_CORVETTE 244
+/datum/access/himean_corvette_access
+	id = ACCESS_HIMEAN_CORVETTE
+	desc = "Himean Corvette Access"

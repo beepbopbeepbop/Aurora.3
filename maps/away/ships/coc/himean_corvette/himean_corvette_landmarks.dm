@@ -17,7 +17,7 @@
 /obj/effect/shuttle_landmark/lift/himean_corvette_second_deck
 	name = "Republican Fleet Corvette - Second Deck"
 	landmark_tag = "nav_himean_corvette_lift_second_deck"
-	base_area = /area/himean_corvette/central_lift
+	base_area = /area/turbolift/himean_corvette/himean_corvette_lift
 	base_turf = /turf/simulated/open
 
 /obj/machinery/computer/shuttle_control/multi/lift/himean_corvette
