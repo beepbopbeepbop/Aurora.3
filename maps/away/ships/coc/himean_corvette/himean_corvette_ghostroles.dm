@@ -1,5 +1,5 @@
 /datum/ghostspawner/human/himean_crewman
-name = "Himean Planetary Navy Crewman"
+	name = "Himean Planetary Navy Crewman"
 	short_name = "tcaf_crewman"
 	desc = "sigma"
 	tags = list("External")
@@ -21,10 +21,7 @@ outfit = /obj/outfit/admin/himean_crewman
 	uniform = /
 	gloves = /obj/item/clothing/gloves/black
 	shoes = /obj/item/clothing/shoes/jackboots
-	back =
-	head =
 	id = /obj/item/card/id/
-	accessory =
 	l_ear = /obj/item/device/radio/headset/ship
 	backpack_contents = list(/obj/item/storage/box/survival = 1)
 
@@ -60,10 +57,7 @@ outfit = /obj/outfit/admin/himean_crewman/captain
 	uniform = /
 	gloves = /obj/item/clothing/gloves/black
 	shoes = /obj/item/clothing/shoes/jackboots
-	back =
-	head =
 	id = /obj/item/card/id/
-	accessory =
 	l_ear = /obj/item/device/radio/headset/ship
 	backpack_contents = list(/obj/item/storage/box/survival = 1)
 
