@@ -864,3 +864,8 @@
 /datum/access/enviro_testing_facility_access_sec
 	id = 252
 	desc = "Env-Test Facility Zoya, Security Access"
+
+#define ACCESS_SOL_CONSULATE 253
+/datum/access/sol_consulate_access
+	id = ACCESS_SOL_CONSULATE
+	desc = "Sol Consulate Access"
