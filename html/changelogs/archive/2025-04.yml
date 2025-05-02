@@ -102,3 +102,11 @@
   - bugfix: Fixes being unable to order proto-humans from cargo.
   hazelmouse:
   - bugfix: Telecommunications servers no longer continue to appear active while unpowered.
+2025-04-26:
+  FlamingLily:
+  - rscadd: Added a low chance of the random crate spawn to spawn full of contraband.
+  notagonk:
+  - qol: Updates the Sol Recon Corvette with minor remapping and a new ghostrole.
+2025-04-27:
+  kermit:
+  - rscdel: Unmaps the Hivebot Transmitter from Xenoarchaeology.
