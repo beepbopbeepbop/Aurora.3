@@ -10,20 +10,9 @@
 /turf/simulated/floor,
 /area/heph_security_ship/kitchen)
 "aj" = (
-/obj/effect/overmap/visitable/ship/heph_security,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/structure/cable/green{
-	icon_state = "1-8"
-	},
-/obj/machinery/hologram/holopad/long_range,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled,
-/area/heph_security_ship/bridge)
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel,
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/heph_security_ship/atmos)
 "ao" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 5
@@ -74,24 +63,6 @@
 /obj/effect/shuttle_landmark/heph_security/nav3,
 /turf/template_noop,
 /area/space)
-"aG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 5
-	},
-/obj/structure/cable/green{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc/south{
-	req_access = list(216)
-	},
-/obj/machinery/alarm/west{
-	req_one_access = null;
-	req_access = list(216)
-	},
-/obj/random/junk,
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterstarb)
 "aH" = (
 /obj/machinery/computer/ship/helm{
 	req_access = list(216)
@@ -137,7 +108,6 @@
 	dir = 4
 	},
 /obj/structure/extinguisher_cabinet/north,
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/armory)
 "aZ" = (
@@ -160,7 +130,6 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/armory)
 "be" = (
@@ -318,7 +287,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/armory)
 "ch" = (
@@ -464,14 +432,12 @@
 /turf/simulated/floor/carpet,
 /area/heph_security_ship/crew)
 "dv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "2-8"
+/obj/machinery/atmospherics/unary/engine,
+/obj/effect/landmark/entry_point/aft{
+	name = "aft, port thruster"
 	},
 /turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
+/area/heph_security_ship/engineering)
 "dy" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -498,15 +464,6 @@
 "dA" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/heph_security_ship/brig)
-"dE" = (
-/obj/structure/plasticflaps/airtight,
-/obj/machinery/door/airlock/hatch{
-	name = "Telecomms";
-	req_access = list(216);
-	dir = 4
-	},
-/turf/simulated/floor/plating/cooled,
-/area/heph_security_ship/thrusterport)
 "dJ" = (
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 9
@@ -556,17 +513,9 @@
 /turf/simulated/floor,
 /area/shuttle/heph_security)
 "dU" = (
-/obj/machinery/door/airlock/highsecurity{
-	name = "Bridge";
-	dir = 1;
-	req_access = list(216)
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/firedoor/noid,
+/obj/effect/overmap/visitable/ship/heph_security,
+/obj/machinery/hologram/holopad/long_range,
+/obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "eb" = (
@@ -598,17 +547,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/heph_security_ship/francisca)
 "ef" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/computer/ship/navigation{
+/obj/machinery/computer/ship/targeting/terminal{
 	dir = 4
 	},
-/obj/structure/cable/green{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc/west{
-	req_access = list(216)
-	},
-/turf/simulated/floor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
 /area/heph_security_ship/bridge)
 "ej" = (
 /obj/effect/floor_decal/industrial/outline/emergency_closet,
@@ -626,14 +569,6 @@
 	},
 /turf/simulated/floor,
 /area/heph_security_ship/engineering)
-"eo" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 9
-	},
-/obj/random/junk,
-/obj/structure/closet/crate/trashcart,
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
 "eu" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/reinforced,
@@ -717,13 +652,9 @@
 /turf/simulated/floor/tiled/white,
 /area/heph_security_ship/kitchen)
 "eS" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/effect/floor_decal/corner/black{
+	dir = 9
 	},
-/obj/structure/bed/handrail,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "eV" = (
@@ -749,9 +680,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/heph_security_ship/grauwolf)
 "fd" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/turf/simulated/wall/shuttle/raider,
-/area/heph_security_ship/thrusterstarb)
+/obj/machinery/computer/ship/helm/terminal{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
+/area/heph_security_ship/bridge)
 "ff" = (
 /obj/effect/floor_decal/corner_wide/orange{
 	dir = 4
@@ -774,16 +708,6 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/heph_security_ship/bathroom)
-"fl" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 4
-	},
-/obj/machinery/air_sensor{
-	frequency = 0451;
-	id_tag = "hephsec_sensor"
-	},
-/turf/simulated/floor/reinforced/carbon_dioxide,
-/area/heph_security_ship/atmos)
 "fn" = (
 /obj/structure/table/stone/marble,
 /obj/effect/floor_decal/corner/paleblue/diagonal,
@@ -827,12 +751,10 @@
 /turf/simulated/floor/tiled,
 /area/heph_security_ship)
 "fD" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/computer/ship/targeting{
-	dir = 8;
-	req_access = list(216)
+/obj/effect/floor_decal/corner/black{
+	dir = 6
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "fF" = (
 /obj/structure/bed/stool/chair/shuttle{
@@ -878,15 +800,11 @@
 /turf/simulated/floor,
 /area/shuttle/heph_security)
 "fT" = (
-/obj/machinery/iff_beacon/name_change,
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
+/obj/machinery/computer/ship/sensors/terminal{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 10
-	},
-/turf/simulated/floor/airless,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
 /area/heph_security_ship/bridge)
 "gg" = (
 /obj/structure/ship_weapon_dummy,
@@ -940,10 +858,8 @@
 /turf/simulated/floor,
 /area/shuttle/heph_security)
 "gE" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 8
-	},
+/obj/structure/bed/stool/chair/office/bridge/generic,
+/obj/effect/floor_decal/industrial/outline/engineering,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "gG" = (
@@ -1045,13 +961,6 @@
 	},
 /turf/simulated/floor/carpet,
 /area/heph_security_ship/captain)
-"hr" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/heph_security_ship/bridge)
 "hu" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
@@ -1102,8 +1011,10 @@
 /turf/simulated/floor,
 /area/heph_security_ship/engineering)
 "hY" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 4
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
+	frequency = 0451;
+	id = "hephsec_fuel_in"
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/heph_security_ship/atmos)
@@ -1308,11 +1219,11 @@
 /turf/simulated/floor,
 /area/heph_security_ship/atmos)
 "jc" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/computer/ship/engines{
+/obj/machinery/computer/ship/sensors/terminal{
 	dir = 4
 	},
-/turf/simulated/floor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
 /area/heph_security_ship/bridge)
 "jp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1369,7 +1280,6 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/brig)
 "jL" = (
@@ -1411,7 +1321,6 @@
 	dir = 9
 	},
 /obj/random/dirt_75,
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark,
 /area/heph_security_ship/grauwolf)
 "jT" = (
@@ -1444,17 +1353,9 @@
 /turf/simulated/floor/tiled/white,
 /area/heph_security_ship/medbay)
 "kd" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/fuel,
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/light,
+/obj/machinery/atmospherics/unary/engine,
 /turf/simulated/floor,
-/area/heph_security_ship/thrusterstarb)
+/area/heph_security_ship/atmos)
 "ke" = (
 /obj/structure/ship_weapon_dummy/barrel,
 /turf/template_noop,
@@ -1627,11 +1528,11 @@
 /turf/simulated/floor/airless,
 /area/heph_security_ship/francisca)
 "kP" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/computer/ship/sensors{
-	dir = 8
+/obj/structure/bed/stool/chair/office/bridge/pilot{
+	dir = 4
 	},
-/turf/simulated/floor,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "kR" = (
 /obj/structure/railing/mapped,
@@ -1665,17 +1566,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/heph_security_ship/francisca)
-"le" = (
-/obj/machinery/shipsensors/weak,
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 6
-	},
-/turf/simulated/floor/airless,
-/area/heph_security_ship/bridge)
 "lj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -1707,31 +1597,16 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/heph_security)
 "ls" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/door/airlock/hatch{
-	name = "Port Engine Compartment";
-	req_access = list(216)
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/firedoor/noid,
-/turf/simulated/floor,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
+/turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/heph_security_ship/engineering)
 "lu" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/papershredder{
-	pixel_x = 6
+/obj/machinery/air_sensor{
+	frequency = 0451;
+	id_tag = "hephsec_sensor"
 	},
-/obj/structure/filingcabinet/filingcabinet{
-	pixel_x = -9;
-	pixel_y = 1
-	},
-/turf/simulated/floor,
-/area/heph_security_ship/bridge)
+/turf/simulated/floor/reinforced/carbon_dioxide,
+/area/heph_security_ship/atmos)
 "lv" = (
 /obj/structure/railing/mapped,
 /obj/structure/flora/ausbushes/brflowers,
@@ -1747,7 +1622,6 @@
 /turf/simulated/floor,
 /area/heph_security_ship/atmos)
 "lz" = (
-/obj/random/dirt_75,
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship)
@@ -1775,11 +1649,8 @@
 /turf/simulated/floor/carpet/rubber,
 /area/heph_security_ship/brig)
 "lN" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/machinery/computer/ship/helm{
-	dir = 1;
-	req_access = list(216)
-	},
+/obj/structure/bed/stool/chair/office/bridge/pilot,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "lW" = (
@@ -1875,8 +1746,11 @@
 /turf/simulated/floor,
 /area/heph_security_ship/atmos)
 "mv" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 5
+	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
-/area/heph_security_ship/thrusterstarb)
+/area/heph_security_ship/atmos)
 "mz" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 2;
@@ -2026,17 +1900,6 @@
 	},
 /turf/simulated/floor,
 /area/heph_security_ship/engineering)
-"nX" = (
-/obj/effect/floor_decal/spline/plain/black{
-	dir = 5
-	},
-/obj/structure/sign/nosmoking_1{
-	pixel_y = 32
-	},
-/obj/random/dirt_75,
-/obj/random/dirt_75,
-/turf/simulated/floor/carpet/rubber,
-/area/heph_security_ship/francisca)
 "nY" = (
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 9
@@ -2183,7 +2046,6 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/brig)
 "oL" = (
@@ -2383,17 +2245,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/armory)
-"pI" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube_empty"
-	},
-/obj/structure/janitorialcart,
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
 "pM" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2405,11 +2256,6 @@
 /obj/random/dirt_75,
 /turf/simulated/floor,
 /area/heph_security_ship/atmos)
-"pO" = (
-/obj/random/dirt_75,
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/heph_security_ship/francisca)
 "pZ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/cyan{
 	dir = 4
@@ -2647,28 +2493,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/shuttle/heph_security)
-"rg" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/extinguisher_cabinet/north,
-/obj/structure/sign/flag/heph{
-	pixel_y = 32;
-	stand_icon = null
-	},
-/obj/structure/table/reinforced/steel,
-/obj/item/paper_bin{
-	pixel_y = 4;
-	pixel_x = 4
-	},
-/obj/item/pen/black{
-	pixel_y = 4;
-	pixel_x = 3
-	},
-/obj/item/stamp/hephaestus{
-	pixel_x = -7;
-	pixel_y = 4
-	},
-/turf/simulated/floor,
-/area/heph_security_ship/bridge)
 "rj" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
@@ -2769,19 +2593,12 @@
 /turf/simulated/floor/carpet/rubber,
 /area/heph_security_ship/medbay)
 "ru" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
+/obj/machinery/atmospherics/unary/engine,
+/obj/effect/landmark/entry_point/aft{
+	name = "aft, starboard thruster"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/random/junk,
 /turf/simulated/floor,
-/area/heph_security_ship/thrusterstarb)
+/area/heph_security_ship/atmos)
 "rw" = (
 /obj/structure/railing/mapped,
 /obj/random/dirt_75,
@@ -2848,19 +2665,9 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/heph_security)
 "sc" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Starboard Engine Compartment";
-	req_access = list(216)
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/firedoor/noid,
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterstarb)
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/heph_security_ship/atmos)
 "sh" = (
 /obj/item/clothing/suit/storage/toggle/corp/heph,
 /obj/item/clothing/head/beret/corporate/heph,
@@ -2883,11 +2690,6 @@
 /turf/simulated/floor/carpet,
 /area/heph_security_ship/captain)
 "sw" = (
-/obj/structure/table/reinforced/steel,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/electrical{
-	pixel_y = 10
-	},
 /obj/structure/sign/nosmoking_1{
 	pixel_x = -32
 	},
@@ -2898,6 +2700,7 @@
 	dir = 8;
 	icon_state = "tube_empty"
 	},
+/obj/machinery/telecomms/allinone/ship,
 /turf/simulated/floor,
 /area/heph_security_ship/engineering)
 "sx" = (
@@ -3202,9 +3005,11 @@
 /turf/simulated/floor/tiled,
 /area/heph_security_ship)
 "vi" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/structure/bed/stool/chair/office/bridge/generic,
-/turf/simulated/floor/tiled,
+/obj/machinery/computer/ship/sensors/terminal{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
 /area/heph_security_ship/bridge)
 "vj" = (
 /obj/structure/lattice/catwalk,
@@ -3386,9 +3191,6 @@
 	},
 /turf/simulated/floor,
 /area/heph_security_ship/engineering)
-"vZ" = (
-/turf/simulated/wall/shuttle/raider,
-/area/heph_security_ship/thrusterstarb)
 "wb" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/decal/cleanable/blood/oil,
@@ -3563,13 +3365,11 @@
 /turf/simulated/floor/carpet/rubber,
 /area/heph_security_ship/francisca)
 "xP" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/effect/floor_decal/corner/black{
 	dir = 10
 	},
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
+/turf/simulated/floor/tiled,
+/area/heph_security_ship/bridge)
 "xR" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
@@ -3776,19 +3576,10 @@
 /area/heph_security_ship/bathroom)
 "zW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 5
+	dir = 9
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/machinery/alarm/west{
-	req_one_access = null;
-	req_access = list(216)
-	},
-/obj/structure/mopbucket,
-/obj/item/mop,
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/heph_security_ship/engineering)
 "zZ" = (
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /obj/machinery/photocopier,
@@ -3825,20 +3616,17 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/heph_security)
 "Af" = (
-/obj/effect/floor_decal/corner/black{
+/obj/effect/floor_decal/corner/orange{
 	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
 	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/structure/cable/green{
-	icon_state = "2-8"
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/heph_security_ship)
@@ -3847,21 +3635,22 @@
 /turf/space/dynamic,
 /area/space)
 "Aj" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light,
-/obj/structure/table/reinforced/steel,
-/obj/machinery/photocopier/faxmachine{
-	department = "Hephaestus Asset Protection Vessel"
+/obj/machinery/computer/ship/targeting/terminal{
+	dir = 8
 	},
-/turf/simulated/floor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
 /area/heph_security_ship/bridge)
 "Au" = (
-/obj/machinery/telecomms/allinone/ship,
-/obj/machinery/light{
-	dir = 1
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 5
 	},
-/turf/simulated/floor/plating/cooled,
-/area/heph_security_ship/thrusterport)
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/carpet/rubber,
+/area/heph_security_ship/francisca)
 "AD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 5
@@ -3975,9 +3764,10 @@
 /turf/space/transit/north,
 /area/space)
 "BA" = (
-/obj/machinery/atmospherics/unary/engine,
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterstarb)
+/obj/effect/floor_decal/industrial/outline/emergency_closet,
+/obj/structure/closet/emcloset/communal,
+/turf/simulated/floor/tiled,
+/area/heph_security_ship/bridge)
 "BF" = (
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /obj/structure/table/reinforced/steel,
@@ -4056,8 +3846,9 @@
 /turf/simulated/floor,
 /area/shuttle/heph_security)
 "Cc" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/random/dirt_75,
+/obj/effect/floor_decal/corner/black{
+	dir = 5
+	},
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "Cg" = (
@@ -4137,9 +3928,11 @@
 /turf/simulated/floor/tiled/ramp,
 /area/shuttle/heph_security)
 "CV" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/table/reinforced/steel,
-/turf/simulated/floor,
+/obj/machinery/computer/ship/engines/terminal{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
 /area/heph_security_ship/bridge)
 "Dc" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -4224,7 +4017,6 @@
 /obj/item/gun/energy/disruptorpistol,
 /obj/item/gun/energy/disruptorpistol,
 /obj/item/gun/energy/disruptorpistol,
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
 /area/heph_security_ship/brig)
 "DI" = (
@@ -4320,14 +4112,6 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship)
-"EG" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/obj/random/dirt_75,
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark,
-/area/heph_security_ship/francisca)
 "EJ" = (
 /obj/machinery/door/blast/shutters/open{
 	id = "heph_shuttle_shutters";
@@ -4409,8 +4193,8 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/heph_security)
 "Fh" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/structure/bed/handrail,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/table/rack,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "Fm" = (
@@ -4425,13 +4209,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/heph_security_ship)
-"FB" = (
-/obj/machinery/atmospherics/unary/engine,
-/obj/effect/landmark/entry_point/aft{
-	name = "aft, starboard thruster"
-	},
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterstarb)
 "FF" = (
 /obj/machinery/computer/ship/targeting{
 	req_access = list(216)
@@ -4577,10 +4354,7 @@
 /turf/simulated/floor/wood,
 /area/heph_security_ship/kitchen)
 "GD" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/structure/bed/stool/chair/office/bridge/generic{
-	dir = 4
-	},
+/obj/effect/floor_decal/corner/black/diagonal,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "GG" = (
@@ -4664,13 +4438,20 @@
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/dock)
 "Hw" = (
-/obj/machinery/door/airlock/highsecurity{
-	name = "Bridge";
-	dir = 1;
-	req_access = list(216)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	icon_state = "1-2"
 	},
 /obj/machinery/door/firedoor/noid,
-/turf/simulated/floor/tiled,
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 1
+	},
+/obj/machinery/door/airlock/highsecurity{
+	name = "Combat Information Centre";
+	req_access = list(216)
+	},
+/turf/simulated/floor/tiled/full,
 /area/heph_security_ship/bridge)
 "Hx" = (
 /obj/effect/floor_decal/industrial/warning,
@@ -4821,12 +4602,12 @@
 /turf/simulated/floor,
 /area/shuttle/heph_security)
 "If" = (
-/obj/machinery/atmospherics/unary/engine,
-/obj/effect/landmark/entry_point/aft{
-	name = "aft, port thruster"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
 	},
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/heph_security_ship/francisca)
 "Ig" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/structure/cable{
@@ -4926,18 +4707,6 @@
 	},
 /turf/simulated/floor/airless,
 /area/shuttle/heph_security)
-"IC" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled,
-/area/heph_security_ship/bridge)
 "IJ" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -5436,17 +5205,20 @@
 /obj/effect/floor_decal/corner/black{
 	dir = 10
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
 /obj/structure/cable/green{
 	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled,
 /area/heph_security_ship)
@@ -5496,9 +5268,6 @@
 /turf/simulated/floor,
 /area/heph_security_ship/atmos)
 "My" = (
-/obj/structure/bed/stool/chair/wood{
-	dir = 4
-	},
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
@@ -5507,6 +5276,16 @@
 	},
 /obj/machinery/power/apc/north{
 	req_access = list(216)
+	},
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/bottle/soju/shochu{
+	pixel_x = -7;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot,
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot{
+	pixel_y = 4;
+	pixel_x = 5
 	},
 /turf/simulated/floor/carpet,
 /area/heph_security_ship/captain)
@@ -5617,9 +5396,6 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark,
 /area/heph_security_ship/grauwolf)
-"Nm" = (
-/turf/simulated/wall/shuttle/raider,
-/area/heph_security_ship/thrusterport)
 "No" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 5
@@ -5634,19 +5410,17 @@
 /turf/simulated/floor/tiled/white,
 /area/heph_security_ship/medbay)
 "Ns" = (
-/obj/machinery/atmospherics/unary/engine,
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
-"Nv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
+/obj/machinery/computer/ship/engines/terminal{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
-	dir = 9
-	},
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterstarb)
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
+/area/heph_security_ship/bridge)
+"Nv" = (
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/structure/closet/secure_closet/guncabinet,
+/turf/simulated/floor/tiled,
+/area/heph_security_ship/bridge)
 "Ny" = (
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 4
@@ -5704,26 +5478,14 @@
 /turf/simulated/floor,
 /area/heph_security_ship/dock)
 "NV" = (
-/obj/structure/cable/green{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc/west{
-	req_access = list(216)
-	},
-/obj/structure/closet,
-/obj/effect/floor_decal/industrial/outline/custodial,
-/obj/item/clothing/gloves/janitor,
-/obj/item/clothing/shoes/galoshes,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/item/reagent_containers/glass/rag,
+/obj/machinery/atmospherics/unary/engine,
 /turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
+/area/heph_security_ship/engineering)
 "NW" = (
 /obj/effect/floor_decal/spline/plain/black,
 /obj/effect/floor_decal/industrial/loading/security{
 	dir = 4
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/carpet/rubber,
 /area/heph_security_ship/brig)
 "NY" = (
@@ -5807,16 +5569,6 @@
 /turf/simulated/floor/carpet/rubber,
 /area/shuttle/heph_security)
 "OL" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/bottle/soju/shochu{
-	pixel_x = -7;
-	pixel_y = 7
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot,
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/shot{
-	pixel_y = 4;
-	pixel_x = 5
-	},
 /obj/structure/sign/poster{
 	pixel_y = 32
 	},
@@ -5824,6 +5576,9 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
+	},
 /turf/simulated/floor/carpet,
 /area/heph_security_ship/captain)
 "OO" = (
@@ -5874,7 +5629,6 @@
 	pixel_y = 32;
 	stand_icon = null
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/carpet/rubber,
 /area/heph_security_ship/brig)
 "Pp" = (
@@ -5911,7 +5665,6 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/armory)
 "PF" = (
@@ -6055,7 +5808,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/armory)
 "QR" = (
@@ -6097,11 +5849,6 @@
 "Ro" = (
 /obj/machinery/light{
 	dir = 8
-	},
-/obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 4;
-	frequency = 0451;
-	id = "hephsec_fuel_in"
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/heph_security_ship/atmos)
@@ -6221,18 +5968,25 @@
 	req_one_access = null;
 	req_access = list(216)
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/brig)
 "SD" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/alarm/north{
+/obj/structure/table/reinforced/steel,
+/obj/machinery/photocopier/faxmachine{
+	department = "Hephaestus Asset Protection Vessel";
 	req_one_access = null;
 	req_access = list(216)
 	},
-/obj/structure/table/reinforced/steel,
-/obj/machinery/recharger,
-/turf/simulated/floor,
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment/grey{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "SM" = (
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
@@ -6251,9 +6005,11 @@
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/brig)
 "SO" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/fuel,
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 9
+	},
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/heph_security_ship/atmos)
 "SQ" = (
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -6505,7 +6261,6 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 10
 	},
-/obj/random/dirt_75,
 /turf/simulated/floor/carpet/rubber,
 /area/heph_security_ship/brig)
 "UP" = (
@@ -6546,14 +6301,6 @@
 "Vt" = (
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/heph_security_ship/crew)
-"Vu" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/machinery/computer/ship/targeting{
-	dir = 1;
-	req_access = list(216)
-	},
-/turf/simulated/floor/tiled,
-/area/heph_security_ship/bridge)
 "Vy" = (
 /obj/effect/floor_decal/corner_wide/orange{
 	dir = 6
@@ -6570,12 +6317,8 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/heph_security)
 "Vz" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/machinery/button/remote/blast_door{
-	name = "Ship Lockdown";
-	id = "heph_lockdown";
-	pixel_y = -32
-	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/table/reinforced/steel,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "VA" = (
@@ -6637,10 +6380,6 @@
 	},
 /turf/simulated/floor,
 /area/heph_security_ship)
-"VK" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/turf/simulated/wall/shuttle/raider,
-/area/heph_security_ship/thrusterport)
 "VL" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 10
@@ -6704,37 +6443,34 @@
 /turf/simulated/floor/tiled/dark,
 /area/heph_security_ship/grauwolf)
 "VZ" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/turf/simulated/floor/tiled,
-/area/heph_security_ship/bridge)
-"Wg" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/photocopier,
-/turf/simulated/floor,
-/area/heph_security_ship/bridge)
-"Wi" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/table/reinforced/steel,
-/turf/simulated/floor,
-/area/heph_security_ship/bridge)
-"Wj" = (
-/obj/effect/landmark/entry_point/fore{
-	name = "fore, CIC"
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 5
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/heph_security_ship/engineering)
+"Wg" = (
+/obj/effect/floor_decal/industrial/outline/firefighting_closet,
+/obj/structure/closet/firecloset/full,
+/turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
-"Wl" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
+"Wi" = (
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 9;
+	pixel_y = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor,
-/area/heph_security_ship/thrusterport)
+/obj/machinery/papershredder{
+	pixel_x = -6
+	},
+/obj/effect/floor_decal/industrial/hatch/grey,
+/turf/simulated/floor/tiled/full,
+/area/heph_security_ship/bridge)
+"Wj" = (
+/obj/machinery/computer/ship/targeting/terminal{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/full,
+/area/heph_security_ship/bridge)
 "Wm" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/spline/plain/corner/black{
@@ -6744,15 +6480,9 @@
 /turf/simulated/floor/carpet/rubber,
 /area/heph_security_ship/brig)
 "Wr" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled,
-/area/heph_security_ship/bridge)
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel,
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/heph_security_ship/engineering)
 "Ws" = (
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /obj/effect/floor_decal/industrial/warning{
@@ -6830,17 +6560,9 @@
 /turf/simulated/floor/tiled/white,
 /area/heph_security_ship/medbay)
 "WR" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/table/reinforced/steel,
-/obj/machinery/recharger/wallcharger{
-	pixel_y = 21;
-	pixel_x = 3
-	},
-/obj/machinery/recharger/wallcharger{
-	pixel_y = 31;
-	pixel_x = 3
-	},
-/turf/simulated/floor,
+/obj/machinery/photocopier,
+/obj/effect/floor_decal/industrial/hatch/grey,
+/turf/simulated/floor/tiled/full,
 /area/heph_security_ship/bridge)
 "WT" = (
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -6894,13 +6616,24 @@
 /turf/simulated/floor/tiled/white,
 /area/heph_security_ship/medbay)
 "Xn" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/structure/sign/flag/heph{
-	pixel_y = 32;
-	stand_icon = null
+/obj/structure/table/reinforced/steel,
+/obj/item/paper_bin{
+	pixel_y = 4
 	},
-/obj/machinery/recharge_station,
-/turf/simulated/floor,
+/obj/item/folder/sec{
+	pixel_y = 4
+	},
+/obj/item/pen/multi{
+	pixel_y = 5
+	},
+/obj/effect/floor_decal/industrial/outline_corner/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_segment/grey,
+/obj/effect/floor_decal/industrial/outline_segment/grey{
+	dir = 9
+	},
+/turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "Xr" = (
 /obj/structure/cable{
@@ -7049,10 +6782,10 @@
 /turf/simulated/floor/tiled/white,
 /area/heph_security_ship/kitchen)
 "YJ" = (
-/obj/effect/floor_decal/corner_wide/black/diagonal,
-/obj/structure/bed/stool/chair/office/bridge/generic{
+/obj/structure/bed/stool/chair/office/bridge/pilot{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled,
 /area/heph_security_ship/bridge)
 "YO" = (
@@ -7122,15 +6855,6 @@
 	},
 /turf/simulated/wall/shuttle/space_ship/mercenary,
 /area/heph_security_ship/francisca)
-"Zq" = (
-/obj/structure/lattice/catwalk/indoor/grate,
-/obj/machinery/light,
-/obj/structure/table/reinforced/steel,
-/obj/machinery/button/distress{
-	pixel_y = 8
-	},
-/turf/simulated/floor,
-/area/heph_security_ship/bridge)
 "Zs" = (
 /obj/structure/lattice/catwalk/indoor/grate,
 /obj/effect/decal/cleanable/dirt,
@@ -35632,13 +35356,13 @@ CE
 CE
 CE
 CE
+CE
+CE
 cq
-jQ
-Ag
 mp
 JH
 Ro
-YO
+lu
 ed
 ed
 VF
@@ -35889,13 +35613,13 @@ CE
 CE
 CE
 CE
+CE
+CE
 VR
-vZ
-vZ
-vZ
-vZ
+JH
+JH
 hY
-fl
+YO
 ed
 WC
 lC
@@ -36146,10 +35870,10 @@ CE
 CE
 CE
 CE
+CE
+CE
 Ag
-BA
-fd
-aG
+kd
 mv
 pw
 pw
@@ -36403,11 +36127,11 @@ CE
 CE
 CE
 CE
+CE
+CE
 Ag
-FB
-fd
 kd
-mv
+aj
 AT
 ob
 Qt
@@ -36660,9 +36384,9 @@ CE
 CE
 CE
 CE
+CE
+CE
 Ag
-BA
-fd
 ru
 sc
 PF
@@ -36917,11 +36641,11 @@ CE
 CE
 CE
 CE
+CE
+CE
 Ag
-BA
-fd
-Nv
-mv
+kd
+SO
 rn
 BO
 be
@@ -37174,11 +36898,11 @@ CE
 CE
 CE
 CE
+CE
+CE
 PM
-vZ
-vZ
-vZ
-vZ
+JH
+JH
 JH
 ed
 kD
@@ -37431,9 +37155,9 @@ CE
 CE
 CE
 CE
+CE
+CE
 PR
-pD
-Ag
 qP
 pD
 Ag
@@ -38496,7 +38220,7 @@ tn
 tn
 tn
 tn
-Ts
+tn
 CE
 CE
 CE
@@ -38745,15 +38469,15 @@ VE
 qf
 mz
 tn
-Wi
+tn
 ef
 jc
 CV
 tn
 tn
-tn
-le
-CQ
+CE
+CE
+CE
 CE
 CE
 CE
@@ -39005,12 +38729,12 @@ tn
 SD
 eS
 YJ
-Wg
+eS
+Nv
 tn
 tn
-tn
-Ag
-Lv
+CE
+CE
 CE
 CE
 CE
@@ -39260,13 +38984,13 @@ LJ
 vF
 tn
 Xn
-IC
-VZ
-Aj
+GD
+GD
+GD
+Fh
 tn
 tn
-Ag
-Lv
+CE
 CE
 CE
 CE
@@ -39515,15 +39239,15 @@ kN
 VE
 Rk
 Af
-dU
-Wr
-aj
-vi
-lN
 tn
+Cc
+GD
+dU
+GD
+xP
 Wj
-CQ
-CE
+tn
+tn
 CE
 CE
 CE
@@ -39776,11 +39500,11 @@ Hw
 Cc
 gE
 vi
-Vu
+GD
+lN
+fd
 tn
 tn
-CQ
-CE
 CE
 CE
 CE
@@ -40030,14 +39754,14 @@ dA
 cO
 po
 tn
-rg
-hr
+Cc
+GD
 Vz
-Zq
+GD
+xP
+vi
 tn
 tn
-Ag
-uF
 CE
 CE
 CE
@@ -40288,14 +40012,14 @@ md
 Gl
 tn
 WR
-Fh
 GD
-lu
+GD
+GD
+BA
 tn
 tn
-tn
-mp
-uF
+CE
+CE
 CE
 CE
 CE
@@ -40547,13 +40271,13 @@ tn
 Wi
 fD
 kP
-CV
+fD
+Wg
 tn
 tn
-tn
-fT
-Ag
-uF
+CE
+CE
+CE
 CE
 CE
 CE
@@ -40802,15 +40526,15 @@ jM
 yw
 tn
 tn
+fT
+Aj
+Ns
 tn
 tn
-tn
-tn
-tn
-tn
-tn
-tn
-tU
+CE
+CE
+CE
+CE
 CE
 CE
 CE
@@ -41057,16 +40781,16 @@ Uc
 dA
 LN
 yw
-Sq
-dJ
-wk
-Kv
-OO
-Pk
-UF
-UF
-UF
-US
+tn
+tn
+tn
+tn
+tn
+tn
+tn
+tn
+tn
+tn
 CE
 CE
 CE
@@ -41286,12 +41010,12 @@ CE
 CE
 CE
 CE
+CE
+CE
+CE
+CE
 cq
-jQ
-jQ
-KK
-jQ
-Ag
+mp
 lm
 lm
 lm
@@ -41315,15 +41039,15 @@ dA
 Lt
 yw
 Sq
-xO
-hw
-uG
+dJ
+wk
+Kv
 OO
-me
-me
-me
-me
-HV
+Pk
+UF
+UF
+UF
+US
 CE
 CE
 CE
@@ -41543,12 +41267,12 @@ CE
 CE
 CE
 CE
+CE
+CE
+CE
+CE
 VR
-Nm
-Nm
-Nm
-Nm
-Nm
+Zc
 lm
 vU
 or
@@ -41572,15 +41296,15 @@ dA
 nI
 vF
 Sq
-nX
-Rw
-Kv
+xO
+hw
+uG
 OO
-kO
 me
 me
-yP
-jx
+me
+me
+HV
 CE
 CE
 CE
@@ -41800,13 +41524,13 @@ CE
 CE
 CE
 CE
+CE
+CE
+CE
+CE
 Ag
-Ns
-VK
-zW
-pI
 NV
-lm
+VZ
 HT
 qU
 lX
@@ -41829,16 +41553,16 @@ dA
 nt
 cA
 Sq
-EU
-fQ
+Au
+Rw
 Kv
-Sq
-TD
-Sq
-Sq
-Sq
-Sq
-tU
+OO
+kO
+me
+me
+yP
+jx
+CE
 CE
 CE
 CE
@@ -42057,11 +41781,11 @@ CE
 CE
 CE
 CE
+CE
+CE
+CE
+CE
 Ag
-Ns
-VK
-xP
-Wl
 dv
 ls
 lk
@@ -42086,16 +41810,16 @@ dA
 qf
 mz
 Sq
-fK
-mE
-oS
-la
-mP
-oA
-Zn
-Ag
-pD
-Lv
+EU
+fQ
+Kv
+Sq
+TD
+Sq
+Sq
+Sq
+Sq
+tU
 CE
 CE
 CE
@@ -42314,13 +42038,13 @@ CE
 CE
 CE
 CE
+CE
+CE
+CE
+CE
 Ag
-If
-VK
-SO
-Nm
-dE
-lm
+NV
+Wr
 Ib
 JR
 tY
@@ -42342,17 +42066,17 @@ xR
 Il
 mg
 vq
-NL
-lc
-Nd
-aZ
-BH
-pO
-ui
 Sq
-CQ
-CE
-CE
+fK
+mE
+oS
+la
+mP
+oA
+Zn
+Ag
+pD
+Lv
 CE
 CE
 CE
@@ -42571,13 +42295,13 @@ CE
 CE
 CE
 CE
+CE
+CE
+CE
+CE
 Ag
-Ns
-VK
-eo
-Nm
-Au
-lm
+NV
+zW
 pg
 JR
 nb
@@ -42599,15 +42323,15 @@ bS
 KP
 lz
 GG
-Sq
-ao
-EG
-CI
+NL
+lc
+Nd
+aZ
+BH
 KY
-PW
-gi
+ui
 Sq
-Ts
+CQ
 CE
 CE
 CE
@@ -42828,12 +42552,12 @@ CE
 CE
 CE
 CE
+CE
+CE
+CE
+CE
 VR
-Nm
-Nm
-Nm
-Nm
-Nm
+Zc
 lm
 KU
 en
@@ -42857,14 +42581,14 @@ MK
 Dj
 ZR
 Sq
-ee
-yF
-ar
-ky
-Sv
+ao
+If
+CI
+KY
+PW
+gi
 Sq
-Sq
-CQ
+Ts
 CE
 CE
 CE
@@ -43085,12 +42809,12 @@ CE
 CE
 CE
 CE
+CE
+CE
+CE
+CE
 tT
-pD
-pD
 qP
-pD
-Ag
 lm
 lm
 lm
@@ -43114,14 +42838,14 @@ DD
 vr
 iD
 Sq
-bH
-bH
-bH
-ex
+ee
+yF
+ar
+ky
+Sv
 Sq
 Sq
-Ag
-Lv
+CQ
 CE
 CE
 CE
@@ -43370,15 +43094,15 @@ jT
 DD
 HO
 oi
-Ry
+Sq
+bH
+bH
+bH
+ex
+Sq
+Sq
 Ag
-pD
-pD
-qP
-pD
-pD
 Lv
-CE
 CE
 CE
 CE
@@ -43628,13 +43352,13 @@ DD
 VH
 vl
 Ry
-CQ
-CE
-CE
-CE
-CE
-CE
-CE
+Ag
+pD
+pD
+qP
+pD
+pD
+Lv
 CE
 CE
 CE
