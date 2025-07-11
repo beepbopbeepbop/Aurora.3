@@ -4332,6 +4332,8 @@
 #include "maps\random_ruins\exoplanets\uueoaesa\pid_crashed_shuttle.dm"
 #include "maps\random_ruins\exoplanets\uueoaesa\pid_kois_farm.dm"
 #include "maps\random_ruins\exoplanets\uueoaesa\sol_listening_post.dm"
+#include "maps\random_ruins\exoplanets\xanu\xanu_nayakhyber_army_base.dm"
+#include "maps\random_ruins\exoplanets\xanu\xanu_nayakhyber_army_base.dmm"
 #include "maps\random_ruins\space_ruins\space_ruins.dm"
 #include "maps\runtime\runtime_overmap.dm"
 #include "maps\runtime\code\runtime.dm"

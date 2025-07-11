@@ -95,7 +95,7 @@
 			possible_themes = list(/datum/exoplanet_theme/grass/xanu_nayakhyber)
 			surface_color = "#7c945c"
 
-			ruin_type_whitelist = list(/datum/map_template/ruin/exoplanet/delivery_site, /datum/map_template/ruin/exoplanet/crashed_coc_skipjack)
+			ruin_type_whitelist = list(/datum/map_template/ruin/exoplanet/delivery_site, /datum/map_template/ruin/exoplanet/crashed_coc_skipjack, /datum/map_template/ruin/exoplanet/xanu_nayakhyber_army_base)
 
 			desc += " The local government only permits Scientific Sampling operations in this area; other operations are not permitted."
 
