@@ -40,7 +40,7 @@
 	may specialize in specific fields such as infantry or security"
 
 	spawnpoints = list("xanu_nayakhyber_army_soldier")
-	max_count = 4
+	max_count = 3
 	mob_name_prefix = "SOLD. 1RE CL. "
 
 	outfit = /obj/outfit/admin/xanu_nayakhyber_army_soldier
@@ -153,3 +153,7 @@
 		/obj/item/storage/box/survival/engineer = 1,
 		/obj/item/device/radio
 		)
+
+
+/obj/outfit/admin/xanu_nayakhyber_army_soldier/get_id_access()
+	return list(ACCESS_COALITION, ACCESS_COALITION_NAVY, ACCESS_EXTERNAL_AIRLOCKS)
