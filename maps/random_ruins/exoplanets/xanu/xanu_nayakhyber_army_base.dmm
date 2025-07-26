@@ -14,10 +14,10 @@
 /area/exoplanet/grass/xanu)
 "as" = (
 /obj/effect/floor_decal/corner/lime,
-/obj/effect/floor_decal/industrial/outline_straight/red{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
+"at" = (
+/turf/simulated/floor/exoplanet/grass,
 /area/moghes/xanu_nayakhyber_army_base)
 "aX" = (
 /turf/simulated/floor/concrete/square,
@@ -59,10 +59,17 @@
 	},
 /turf/simulated/floor/marble/dark,
 /area/moghes/xanu_nayakhyber_army_base)
+"bZ" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
 "ch" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(222)
+	req_access = list(222);
+	name = "gun cabinet (Materials)"
 	},
 /obj/item/stack/liquidbags/full,
 /obj/item/stack/liquidbags/full,
@@ -80,6 +87,9 @@
 /obj/item/ammo_display,
 /obj/item/ammo_display,
 /obj/item/ammo_display,
+/obj/item/storage/box/zipties,
+/obj/item/storage/box/zipties,
+/obj/item/storage/box/zipties,
 /turf/simulated/floor/tiled/dark/full,
 /area/moghes/xanu_nayakhyber_army_base)
 "cj" = (
@@ -112,6 +122,17 @@
 	temperature = 315.15
 	},
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"cH" = (
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 4
+	},
+/mob/living/heavy_vehicle/premade/firefighter,
+/obj/machinery/mech_recharger,
+/turf/simulated/floor/tiled/techmaint,
+/area/moghes/xanu_nayakhyber_army_base)
 "cI" = (
 /obj/structure/bed/padded,
 /obj/structure/bed/padded/bunk,
@@ -132,9 +153,9 @@
 /turf/simulated/floor/exoplanet/grass,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
 "cV" = (
-/obj/effect/floor_decal/corner/orange,
-/obj/effect/floor_decal/corner/lime{
-	dir = 8
+/obj/structure/platform_stairs/full/east_west_cap,
+/obj/structure/platform/cutout{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
@@ -152,6 +173,15 @@
 "de" = (
 /obj/machinery/appliance/cooker/stove,
 /turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
+"ds" = (
+/obj/effect/floor_decal/industrial/hatch_door/red,
+/obj/machinery/door/airlock/glass_security{
+	dir = 4;
+	req_access = list(222);
+	name = "Brig Office"
+	},
+/turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
 "du" = (
 /obj/effect/decal/curb{
@@ -180,6 +210,11 @@
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
 "dE" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
+/obj/machinery/door/airlock/glass_service{
+	dir = 4;
+	name = "Kitchen";
+	req_access = list(222)
+	},
 /turf/simulated/floor/tiled/full,
 /area/moghes/xanu_nayakhyber_army_base)
 "dI" = (
@@ -188,6 +223,16 @@
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"dO" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/medical{
+	req_access = list(222);
+	name = "Operating Theatre"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "dW" = (
 /obj/machinery/appliance/cooker/fryer,
 /turf/simulated/floor/tiled/gridded,
@@ -251,6 +296,12 @@
 	temperature = 315.15
 	},
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"eL" = (
+/obj/structure/closet/secure_closet/brig{
+	req_access = list(222)
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
 "eW" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -277,7 +328,14 @@
 	},
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
 "fr" = (
-/turf/simulated/floor/exoplanet/grass,
+/obj/effect/floor_decal/corner/lime{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/orange,
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
 /area/moghes/xanu_nayakhyber_army_base)
 "fB" = (
 /obj/effect/floor_decal/concrete{
@@ -288,6 +346,7 @@
 	},
 /area/moghes/xanu_nayakhyber_army_base)
 "fL" = (
+/obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/tiled/ridged,
 /area/moghes/xanu_nayakhyber_army_base)
@@ -367,6 +426,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
@@ -428,6 +490,17 @@
 	},
 /turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"hE" = (
+/obj/effect/floor_decal/industrial/hatch_door/service{
+	dir = 1
+	},
+/obj/machinery/door/airlock{
+	dir = 1;
+	name = "Stall #2";
+	id_tag = "xanu_army_base_stall_2"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "hK" = (
 /obj/machinery/computer/ship/navigation/terminal{
 	dir = 4;
@@ -456,12 +529,32 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/moghes/xanu_nayakhyber_army_base)
+"hZ" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/service{
+	req_access = list(222);
+	name = "Head"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "ir" = (
 /obj/effect/decal/curb{
 	dir = 5
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"iw" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/command{
+	req_access = list(222);
+	name = "Base Control Room"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "ix" = (
 /obj/structure/bed/stool/bar,
 /turf/simulated/floor/concrete/square{
@@ -479,7 +572,8 @@
 /obj/item/gun/projectile/automatic/xanusmg,
 /obj/item/gun/projectile/automatic/xanusmg,
 /obj/structure/weapons_rack{
-	req_access = list(222)
+	req_access = list(222);
+	name = "weapon rack (Longarms)"
 	},
 /obj/item/gun/projectile/automatic/xanusmg,
 /obj/item/gun/projectile/automatic/xanusmg,
@@ -510,18 +604,54 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "jf" = (
 /obj/structure/closet/walllocker/medical/secure{
-	pixel_x = 32
+	pixel_x = 32;
+	req_access = list(222);
+	name = "Medic Equipment Locker"
 	},
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
 	},
+/obj/item/clothing/under/xanu/med,
+/obj/item/storage/belt/medical/paramedic/combat,
+/obj/item/clothing/accessory/stethoscope,
+/obj/item/clothing/glasses/safety/goggles/medical,
+/obj/item/reagent_containers/hypospray/combat/empty,
+/obj/item/reagent_containers/glass/bottle/butazoline,
+/obj/item/reagent_containers/glass/bottle/coagzolug,
+/obj/item/reagent_containers/glass/bottle/dermaline,
+/obj/item/reagent_containers/glass/bottle/dexalin_plus,
+/obj/item/reagent_containers/glass/bottle/inaprovaline,
+/obj/item/reagent_containers/glass/bottle/mortaphenyl,
+/obj/item/reagent_containers/glass/bottle/perconol,
+/obj/item/reagent_containers/glass/bottle/thetamycin,
+/obj/item/reagent_containers/inhaler/pneumalin,
+/obj/item/reagent_containers/inhaler/pneumalin,
+/obj/item/reagent_containers/glass/bottle/peridaxon,
+/obj/item/clothing/accessory/armband/medgreen,
+/obj/item/device/flashlight/pen,
+/obj/item/storage/box/syringes,
 /turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
 "ji" = (
 /obj/effect/floor_decal/industrial/hatch_door/service{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/full,
+/obj/machinery/door/airlock{
+	dir = 1;
+	name = "Recharging Station";
+	id_tag = "xanu_army_base_stall_4"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
+"jz" = (
+/obj/effect/floor_decal/industrial/outline_straight/operations{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_straight/operations{
+	dir = 8
+	},
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled/techfloor,
 /area/moghes/xanu_nayakhyber_army_base)
 "jG" = (
 /obj/effect/floor_decal/concrete{
@@ -540,6 +670,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
 "jN" = (
@@ -595,10 +726,12 @@
 /turf/simulated/floor/marble/dark,
 /area/moghes/xanu_nayakhyber_army_base)
 "km" = (
-/obj/structure/closet/secure_closet/engineering_electrical{
-	req_access = list(222)
-	},
+/obj/structure/reagent_dispensers/extinguisher,
 /turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
+"kE" = (
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled/techfloor,
 /area/moghes/xanu_nayakhyber_army_base)
 "kO" = (
 /obj/effect/decal/curb{
@@ -647,13 +780,9 @@
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
 "ll" = (
-/obj/effect/floor_decal/industrial/outline_door/operations{
-	dir = 8
-	},
-/obj/effect/floor_decal/industrial/outline_door/operations{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techmaint,
+/obj/structure/table/reinforced/glass,
+/obj/item/storage/box/fancy/tray/machinist,
+/turf/simulated/floor/tiled/techfloor,
 /area/moghes/xanu_nayakhyber_army_base)
 "ln" = (
 /obj/effect/floor_decal/corner/blue/full{
@@ -710,7 +839,8 @@
 "ma" = (
 /obj/structure/closet/walllocker/medical/secure{
 	pixel_x = 32;
-	req_access = list(222)
+	req_access = list(222);
+	name = "Supply Closet"
 	},
 /obj/effect/floor_decal/industrial/outline_straight/medical{
 	dir = 8
@@ -718,6 +848,27 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
 	},
+/obj/item/tank/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/tank/oxygen,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor,
+/obj/item/vitals_monitor,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
+/obj/item/auto_cpr,
+/obj/item/auto_cpr,
+/obj/item/auto_cpr,
 /turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
 "mg" = (
@@ -763,14 +914,28 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/effect/floor_decal/concrete/large,
 /obj/structure/barricade/metal/wired{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete/large,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"mr" = (
+/obj/structure/toilet{
+	dir = 1;
+	pixel_y = -1
+	},
+/obj/machinery/light/small,
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/moghes/xanu_nayakhyber_army_base)
 "mt" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -779,6 +944,7 @@
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
 "mx" = (
 /obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/outline_door/red,
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -819,10 +985,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/effect/floor_decal/concrete/large{
+/obj/structure/barricade/metal/wired{
 	dir = 4
 	},
-/obj/structure/barricade/metal/wired{
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete/large{
 	dir = 4
 	},
 /turf/simulated/floor/sidewalk/flat{
@@ -861,6 +1030,12 @@
 	},
 /turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
+"nT" = (
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/moghes/xanu_nayakhyber_army_base)
 "nW" = (
 /obj/structure/closet/secure_closet/freezer,
 /turf/simulated/floor/tiled/gridded,
@@ -886,6 +1061,7 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "od" = (
 /obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/outline_door/red,
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
@@ -893,12 +1069,29 @@
 	temperature = 315.15
 	},
 /area/moghes/xanu_nayakhyber_army_base)
+"og" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/service{
+	req_access = list(222);
+	name = "Barracks"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "ol" = (
 /obj/effect/decal/curb{
 	dir = 6
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/exoplanet/grass/xanu)
+"on" = (
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/operations,
+/turf/simulated/floor/tiled/ridged,
+/area/moghes/xanu_nayakhyber_army_base)
 "oo" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -943,10 +1136,11 @@
 "oA" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/obj/effect/floor_decal/concrete{
 	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/red,
+/obj/effect/floor_decal/concrete{
+	dir = 6
 	},
 /turf/simulated/floor/sidewalk/flat,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
@@ -980,6 +1174,24 @@
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"pb" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/highsecurity{
+	req_access = list(222);
+	dir = 1;
+	name = "Armoury"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
+"pc" = (
+/obj/structure/fireaxecabinet/west,
+/obj/structure/closet/secure_closet/engineering_electrical{
+	req_access = list(222)
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
 "pp" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -1015,11 +1227,48 @@
 /obj/effect/floor_decal/spline/fancy,
 /turf/simulated/floor/tiled/ridged,
 /area/moghes/xanu_nayakhyber_army_base)
+"pG" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "xanu_army_base_checkpoint_exterior"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
+"pH" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/command/gold{
+	req_access = list(222);
+	name = "Base Commander's Quarters"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "pI" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(222)
 	},
+/obj/item/storage/belt/security/full/alt,
+/obj/item/device/flashlight/maglight,
+/obj/item/storage/box/handcuffs,
+/obj/item/shield/riot/tact,
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 34;
+	pixel_y = 2
+	},
+/obj/machinery/recharger/wallcharger{
+	pixel_x = 34;
+	pixel_y = -8
+	},
+/obj/item/ammo_magazine/xanan_shotgun/beanbag,
+/obj/item/ammo_magazine/xanan_shotgun/beanbag,
+/obj/item/ammo_magazine/xanan_shotgun/beanbag,
+/obj/item/ammo_magazine/xanan_shotgun/stun,
+/obj/item/ammo_magazine/xanan_shotgun/stun,
+/obj/item/ammo_magazine/xanan_shotgun/stun,
+/obj/item/clothing/under/xanu/maa,
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "pN" = (
@@ -1040,6 +1289,16 @@
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
+"qa" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/command/gold{
+	req_access = list(222);
+	name = "Base Commander's Office"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "qh" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/corner/lime{
@@ -1048,12 +1307,7 @@
 /turf/simulated/floor/tiled,
 /area/moghes/xanu_nayakhyber_army_base)
 "qk" = (
-/obj/effect/floor_decal/industrial/outline_straight/operations{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline_straight/operations{
-	dir = 8
-	},
+/obj/machinery/mecha_part_fabricator,
 /turf/simulated/floor/tiled/techfloor,
 /area/moghes/xanu_nayakhyber_army_base)
 "qx" = (
@@ -1100,15 +1354,18 @@
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "qN" = (
-/obj/item/ammo_magazine/xanan_shotgun/beanbag,
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_y = 1;
+	pixel_x = 10
+	},
+/obj/machinery/papershredder{
+	pixel_x = -5
+	},
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "qV" = (
 /obj/structure/table/steel,
-/obj/effect/floor_decal/corner/orange{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "rl" = (
 /obj/structure/barricade/metal/wired{
@@ -1125,6 +1382,10 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "rt" = (
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(222);
+	name = "gun cabinet (Confiscated Storage)"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/moghes/xanu_nayakhyber_army_base)
 "rw" = (
@@ -1149,6 +1410,10 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
+"sd" = (
+/obj/machinery/optable,
+/turf/simulated/floor/tiled/techfloor,
+/area/moghes/xanu_nayakhyber_army_base)
 "sg" = (
 /obj/machinery/vending/engineering{
 	req_access = list(222)
@@ -1161,6 +1426,12 @@
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/exoplanet/grass/xanu)
+"sn" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
 "sq" = (
 /obj/machinery/vending/tool{
 	req_access = list(222)
@@ -1204,12 +1475,51 @@
 	},
 /turf/simulated/floor/sidewalk/flat,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"sW" = (
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/surgery{
+	pixel_y = 12
+	},
+/obj/item/storage/firstaid/large/stab{
+	pixel_y = 8
+	},
+/obj/item/storage/firstaid/combat{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/storage/firstaid/adv{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/turf/simulated/floor/tiled/white,
+/area/moghes/xanu_nayakhyber_army_base)
 "ta" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/grass,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"te" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
+"tl" = (
+/obj/machinery/photocopier,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/techfloor,
+/area/moghes/xanu_nayakhyber_army_base)
+"tt" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/command{
+	req_access = list(222);
+	name = "Base Headquarters"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "tA" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -1227,7 +1537,8 @@
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
 "tD" = (
 /obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(222)
+	req_access = list(222);
+	name = "gun cabinet (Explosives)"
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/item/storage/box/frags,
@@ -1240,6 +1551,12 @@
 /obj/item/landmine/claymore,
 /obj/item/landmine/claymore,
 /obj/item/landmine/claymore,
+/obj/item/gun/projectile/peac/unloaded,
+/obj/item/ammo_casing/peac,
+/obj/item/ammo_casing/peac,
+/obj/item/ammo_casing/peac,
+/obj/item/ammo_casing/peac/he,
+/obj/item/ammo_casing/peac/shrapnel,
 /turf/simulated/floor/tiled/dark/full,
 /area/moghes/xanu_nayakhyber_army_base)
 "tL" = (
@@ -1298,7 +1615,22 @@
 	dir = 4
 	},
 /obj/machinery/mech_recharger,
+/mob/living/heavy_vehicle/premade/combat/coalition,
+/obj/structure/platform{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techmaint,
+/area/moghes/xanu_nayakhyber_army_base)
+"uw" = (
+/obj/effect/floor_decal/industrial/hatch_door/service{
+	dir = 1
+	},
+/obj/machinery/door/airlock{
+	dir = 1;
+	name = "Stall #1";
+	id_tag = "xanu_army_base_stall_1"
+	},
+/turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
 "uG" = (
 /obj/effect/floor_decal/corner/lime{
@@ -1340,7 +1672,8 @@
 "vn" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(222)
+	req_access = list(222);
+	name = "gun cabinet (Ammunition)"
 	},
 /obj/item/ammo_magazine/c46m,
 /obj/item/ammo_magazine/c46m,
@@ -1362,6 +1695,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
+"vE" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/medical{
+	req_access = list(222);
+	name = "Infirmary"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "vM" = (
 /obj/structure/coatrack{
 	pixel_x = -4;
@@ -1374,6 +1717,11 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "vR" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
+/obj/machinery/door/airlock/glass_security{
+	dir = 4;
+	req_access = list(222);
+	name = "Cell"
+	},
 /turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
 "vT" = (
@@ -1400,6 +1748,12 @@
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/sidewalk/flat,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"wt" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 5
+	},
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
 "wA" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -1462,6 +1816,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
+"xf" = (
+/obj/structure/closet/secure_closet{
+	req_access = list(222)
+	},
+/obj/item/clothing/under/xanu/pilot,
+/obj/item/device/robotanalyzer,
+/obj/item/storage/belt/utility/alt,
+/obj/item/powerdrill,
+/turf/simulated/floor/tiled/techfloor,
+/area/moghes/xanu_nayakhyber_army_base)
 "xi" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/dirt_konyang,
@@ -1473,10 +1837,24 @@
 /turf/simulated/floor/exoplanet/grass,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
 "xr" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
 	},
-/turf/simulated/floor/concrete,
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
+"xD" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red,
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "xI" = (
 /obj/effect/decal/curb{
@@ -1498,11 +1876,11 @@
 /turf/simulated/floor/sidewalk/flat,
 /area/exoplanet/grass/xanu)
 "xR" = (
-/obj/effect/floor_decal/corner/orange{
-	dir = 1
+/obj/structure/platform_stairs/full{
+	dir = 8
 	},
-/obj/effect/floor_decal/corner/lime{
-	dir = 4
+/obj/structure/platform{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
@@ -1513,6 +1891,16 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
+"xW" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/service{
+	req_access = list(222);
+	name = "Canteen"
+	},
+/turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
 "xZ" = (
 /obj/effect/floor_decal/corner/orange,
@@ -1552,6 +1940,10 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/ridged,
+/area/moghes/xanu_nayakhyber_army_base)
+"yU" = (
+/obj/machinery/autolathe,
+/turf/simulated/floor/tiled/techfloor,
 /area/moghes/xanu_nayakhyber_army_base)
 "yW" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
@@ -1602,6 +1994,9 @@
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -1611,6 +2006,19 @@
 /obj/structure/sign/flag/xanu,
 /turf/simulated/floor/sidewalk/detail,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"zS" = (
+/obj/structure/closet/secure_closet{
+	req_access = list(222)
+	},
+/obj/item/clothing/under/xanu/engi,
+/obj/item/gun/energy/plasmacutter,
+/obj/item/storage/belt/utility/alt,
+/obj/item/powerdrill,
+/obj/item/pipewrench,
+/obj/item/storage/backpack/duffel/eng,
+/obj/item/clothing/accessory/armband/engine,
+/turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
 "zU" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
@@ -1663,6 +2071,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
@@ -1679,7 +2090,14 @@
 	req_access = list(222)
 	},
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/blast/regular{
+	id = "xanu_army_base_checkpoint_window"
+	},
 /turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
+"BC" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "BG" = (
 /obj/effect/floor_decal/corner/lime{
@@ -1709,7 +2127,10 @@
 /obj/effect/floor_decal/industrial/outline_door/red{
 	dir = 4
 	},
-/obj/effect/floor_decal/concrete/large,
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled,
 /area/moghes/xanu_nayakhyber_army_base)
 "BK" = (
@@ -1720,14 +2141,31 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/outline_straight/red{
-	dir = 1
+/obj/structure/table/reinforced/glass,
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 8
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 3
+	},
+/obj/item/stack/nanopaste{
+	pixel_y = 7
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "BY" = (
 /obj/structure/bed/stool/chair{
 	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
+"Cf" = (
+/obj/effect/floor_decal/corner/lime,
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 10
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
@@ -1771,16 +2209,37 @@
 	},
 /turf/simulated/floor/tiled,
 /area/moghes/xanu_nayakhyber_army_base)
+"CH" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
 "CQ" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
 	},
 /turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"CU" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 2;
+	req_access = list(222);
+	name = "Infirmary"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "Df" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille,
 /obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/blast/regular{
+	id = "xanu_army_base_checkpoint_window"
+	},
 /turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
+"Dh" = (
+/turf/simulated/floor/tiled/techfloor,
 /area/moghes/xanu_nayakhyber_army_base)
 "Dn" = (
 /turf/simulated/wall/concrete,
@@ -1794,9 +2253,6 @@
 	},
 /obj/effect/floor_decal/industrial/outline_door/red{
 	dir = 4
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 9
 	},
 /turf/simulated/floor/tiled,
 /area/moghes/xanu_nayakhyber_army_base)
@@ -1832,7 +2288,6 @@
 /obj/effect/floor_decal/corner/orange{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/outline_straight/red,
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "DU" = (
@@ -1863,7 +2318,8 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "Eh" = (
 /obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(222)
+	req_access = list(222);
+	name = "gun cabinet (Body Armour)"
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/item/clothing/suit/armor/carrier/heavy,
@@ -1890,6 +2346,12 @@
 /obj/item/clothing/mask/gas/half,
 /obj/item/clothing/mask/gas/half,
 /obj/item/clothing/mask/gas/half,
+/obj/item/clothing/accessory/flagpatch/all_xanu,
+/obj/item/clothing/accessory/flagpatch/all_xanu,
+/obj/item/clothing/accessory/flagpatch/all_xanu,
+/obj/item/clothing/accessory/flagpatch/all_xanu,
+/obj/item/clothing/accessory/flagpatch/all_xanu,
+/obj/item/clothing/accessory/flagpatch/all_xanu,
 /turf/simulated/floor/tiled/dark/full,
 /area/moghes/xanu_nayakhyber_army_base)
 "Ej" = (
@@ -1932,7 +2394,21 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "EI" = (
 /obj/structure/closet/walllocker/medical/secure{
-	pixel_x = 32
+	pixel_x = 32;
+	name = "Surgical Supplies";
+	req_access = list(222)
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/tank/oxygen,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/storage/box/sharps,
+/obj/item/clothing/suit/storage/surgical_gown/nt,
+/obj/item/clothing/head/surgery,
+/obj/item/reagent_containers/spray/cleaner{
+	desc = "Someone has crossed out the Space from Space Cleaner and written in Surgery. 'Do not remove under punishment of death!!!' is scrawled on the back.";
+	icon_state = "sterilesprayblue";
+	name = "surgery cleaner"
 	},
 /turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
@@ -1973,6 +2449,13 @@
 	},
 /turf/simulated/floor/sidewalk/flat,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"Fp" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/blast/regular{
+	id = "xanu_army_base_armoury"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "Fr" = (
 /obj/effect/floor_decal/corner/lime/full,
 /obj/effect/floor_decal/concrete/large,
@@ -2014,6 +2497,9 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "Gb" = (
 /obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/red{
 	dir = 1
 	},
 /obj/effect/floor_decal/concrete{
@@ -2107,6 +2593,7 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "GS" = (
 /obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/outline_door/red,
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
@@ -2142,6 +2629,13 @@
 /obj/structure/table/reinforced/glass,
 /obj/item/storage/box/fancy/tray,
 /turf/simulated/floor/tiled/white,
+/area/moghes/xanu_nayakhyber_army_base)
+"Hz" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/blast/regular{
+	id = "xanu_army_base_checkpoint_turrets"
+	},
+/turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
 "HD" = (
 /obj/effect/decal/curb{
@@ -2189,6 +2683,15 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
+/area/moghes/xanu_nayakhyber_army_base)
+"Ie" = (
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
 /area/moghes/xanu_nayakhyber_army_base)
 "Io" = (
 /obj/effect/floor_decal/corner/orange{
@@ -2260,6 +2763,13 @@
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/exoplanet/grass,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"JO" = (
+/obj/effect/floor_decal/industrial/outline_door/operations,
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
 "JV" = (
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled/white,
@@ -2279,7 +2789,8 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "Kf" = (
 /obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(222)
+	req_access = list(222);
+	name = "gun cabinet (Sidearms)"
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/item/gun/projectile/xanupistol,
@@ -2288,6 +2799,12 @@
 /obj/item/gun/projectile/xanupistol,
 /obj/item/gun/projectile/xanupistol,
 /obj/item/gun/projectile/xanupistol,
+/obj/item/melee/energy/sword/knife,
+/obj/item/melee/energy/sword/knife,
+/obj/item/melee/energy/sword/knife,
+/obj/item/melee/energy/sword/knife,
+/obj/item/melee/energy/sword/knife,
+/obj/item/melee/energy/sword/knife,
 /turf/simulated/floor/tiled/dark/full,
 /area/moghes/xanu_nayakhyber_army_base)
 "KT" = (
@@ -2299,7 +2816,8 @@
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
 "KW" = (
 /obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(222)
+	req_access = list(222);
+	name = "gun cabinet (Utilities)"
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/item/storage/belt/military,
@@ -2325,17 +2843,55 @@
 /obj/item/clothing/accessory/goon_coif,
 /obj/item/clothing/accessory/goon_coif,
 /obj/item/clothing/accessory/goon_coif,
-/obj/item/melee/energy/sword/knife,
-/obj/item/melee/energy/sword/knife,
-/obj/item/melee/energy/sword/knife,
-/obj/item/melee/energy/sword/knife,
-/obj/item/melee/energy/sword/knife,
-/obj/item/melee/energy/sword/knife,
+/obj/item/clothing/accessory/goon_coif,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/clothing/accessory/holster/modular,
+/obj/item/clothing/accessory/holster/modular,
+/obj/item/clothing/accessory/holster/modular,
+/obj/item/clothing/accessory/holster/modular,
+/obj/item/clothing/accessory/holster/modular,
+/obj/item/clothing/accessory/holster/modular,
 /turf/simulated/floor/tiled/dark/full,
 /area/moghes/xanu_nayakhyber_army_base)
 "KY" = (
 /obj/machinery/smartfridge/foodheater,
 /turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
+"KZ" = (
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 4
+	},
+/obj/machinery/mech_recharger,
+/mob/living/heavy_vehicle/premade/light/coalition,
+/turf/simulated/floor/tiled/techmaint,
+/area/moghes/xanu_nayakhyber_army_base)
+"Le" = (
+/obj/structure/table/standard,
+/obj/structure/roller_rack,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_y = 17
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_y = 17;
+	pixel_x = -7
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_y = 17;
+	pixel_x = 7
+	},
+/turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
 "Lh" = (
 /obj/effect/floor_decal/concrete{
@@ -2386,10 +2942,21 @@
 /obj/item/gun/projectile/automatic/rifle/dnac,
 /obj/item/gun/projectile/automatic/rifle/dnac,
 /obj/structure/weapons_rack{
-	req_access = list(222)
+	req_access = list(222);
+	name = "weapon rack (Shortarms)"
 	},
 /obj/item/gun/projectile/automatic/rifle/shotgun/xanan,
 /turf/simulated/floor/tiled/dark/full,
+/area/moghes/xanu_nayakhyber_army_base)
+"Lx" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/machinery/door/airlock/security{
+	req_access = list(222);
+	name = "Brig"
+	},
+/turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
 "Lz" = (
 /obj/effect/floor_decal/industrial/outline_door/red,
@@ -2421,12 +2988,20 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/moghes/xanu_nayakhyber_army_base)
-"Md" = (
-/obj/structure/toilet{
-	dir = 1;
-	pixel_y = -1
+"LW" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "xanu_army_base_checkpoint_interior"
 	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
+"Md" = (
+/obj/machinery/recharge_station,
 /obj/machinery/light/small,
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
 "Mi" = (
@@ -2450,6 +3025,37 @@
 	},
 /turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
+"MG" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/masks{
+	pixel_y = 7;
+	pixel_x = 5
+	},
+/obj/item/storage/box/gloves{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/item/storage/box/bodybags{
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/obj/item/storage/box/sharps{
+	pixel_x = -10;
+	pixel_y = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/moghes/xanu_nayakhyber_army_base)
+"MM" = (
+/obj/effect/floor_decal/industrial/hatch_door/service{
+	dir = 1
+	},
+/obj/machinery/door/airlock{
+	dir = 1;
+	name = "Stall #3";
+	id_tag = "xanu_army_base_stall_3"
+	},
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
 "MR" = (
 /obj/machinery/computer/ship/navigation/terminal{
 	dir = 8;
@@ -2457,6 +3063,14 @@
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
+"MV" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id = "xanu_army_base_garage"
+	},
+/turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
 "Nd" = (
 /obj/effect/floor_decal/corner/blue{
@@ -2503,10 +3117,51 @@
 /turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
 "NX" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/orange,
+/obj/effect/floor_decal/corner/lime{
+	dir = 8
+	},
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 4
 	},
-/turf/simulated/floor/concrete,
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
+"Ob" = (
+/obj/effect/floor_decal/corner/orange,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/lime{
+	dir = 4
+	},
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
+"Of" = (
+/obj/structure/closet/walllocker/medical/secure{
+	pixel_x = 32;
+	req_access = list(222);
+	name = "O- Blood Storage"
+	},
+/obj/effect/floor_decal/industrial/outline_straight/medical{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
+	},
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/obj/item/reagent_containers/blood/OMinus,
+/turf/simulated/floor/tiled/white,
 /area/moghes/xanu_nayakhyber_army_base)
 "Ow" = (
 /obj/effect/floor_decal/corner/blue{
@@ -2519,10 +3174,7 @@
 /area/moghes/xanu_nayakhyber_army_base)
 "OI" = (
 /obj/structure/bed/stool/chair,
-/obj/effect/floor_decal/corner/orange{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "OM" = (
 /obj/effect/floor_decal/corner/orange{
@@ -2568,6 +3220,20 @@
 "Pu" = (
 /turf/simulated/wall/r_wall,
 /area/moghes/xanu_nayakhyber_army_base)
+"PA" = (
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 4
+	},
+/obj/structure/table/rack,
+/obj/structure/platform{
+	dir = 8
+	},
+/obj/item/rig/zero/xanu,
+/turf/simulated/floor/tiled/techmaint,
+/area/moghes/xanu_nayakhyber_army_base)
 "PB" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
@@ -2577,9 +3243,6 @@
 	},
 /obj/effect/floor_decal/industrial/outline_door/red{
 	dir = 4
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 9
 	},
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 8
@@ -2598,6 +3261,14 @@
 "PM" = (
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled/ridged,
+/area/moghes/xanu_nayakhyber_army_base)
+"PN" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red,
+/obj/structure/platform_deco,
+/turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "PT" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
@@ -2618,13 +3289,20 @@
 /obj/effect/floor_decal/corner/lime{
 	dir = 1
 	},
-/obj/effect/floor_decal/industrial/outline_straight/red,
+/obj/structure/extinguisher_cabinet/east,
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "QM" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/optable,
 /turf/simulated/floor/tiled/white,
+/area/moghes/xanu_nayakhyber_army_base)
+"QW" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/orange,
+/turf/simulated/floor/tiled,
 /area/moghes/xanu_nayakhyber_army_base)
 "QY" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -2643,8 +3321,15 @@
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
+/obj/effect/floor_decal/industrial/outline_door/red,
 /turf/simulated/floor/sidewalk/flat,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"Rs" = (
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
 "Rw" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/corner/lime{
@@ -2665,41 +3350,47 @@
 "RV" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(222)
+	req_access = list(222);
+	name = "gun cabinet (Ammunition)"
 	},
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/c46m/extended,
+/obj/item/ammo_magazine/a65,
+/obj/item/ammo_magazine/a65,
+/obj/item/ammo_magazine/a65,
+/obj/item/ammo_magazine/a65,
+/obj/item/ammo_magazine/a65,
+/obj/item/ammo_magazine/a65,
+/obj/item/ammo_magazine/a65,
+/obj/item/ammo_magazine/a65,
+/obj/item/ammo_magazine/a65,
 /obj/item/ammo_magazine/xanan_shotgun/shells,
 /obj/item/ammo_magazine/xanan_shotgun/shells,
+/obj/item/ammo_magazine/xanan_shotgun/shells,
+/obj/item/ammo_magazine/xanan_shotgun/slugs,
 /obj/item/ammo_magazine/xanan_shotgun/slugs,
 /obj/item/ammo_magazine/xanan_shotgun/slugs,
 /obj/item/ammo_magazine/xanan_shotgun/incendiary,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/c46m/extended,
-/obj/item/ammo_magazine/a65,
-/obj/item/ammo_magazine/a65,
-/obj/item/ammo_magazine/a65,
-/obj/item/ammo_magazine/a65,
-/obj/item/ammo_magazine/a65,
-/obj/item/ammo_magazine/a65,
-/obj/item/ammo_magazine/a65,
-/obj/item/ammo_magazine/a65,
-/obj/item/ammo_magazine/a65,
 /turf/simulated/floor/tiled/dark/full,
 /area/moghes/xanu_nayakhyber_army_base)
 "Sc" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 6
+	},
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
@@ -2771,6 +3462,9 @@
 	dir = 4;
 	name = "Perimeter Access"
 	},
+/obj/machinery/door/blast/regular{
+	id = "xanu_army_base_perimeter"
+	},
 /turf/simulated/floor/tiled/full,
 /area/moghes/xanu_nayakhyber_army_base)
 "TZ" = (
@@ -2796,6 +3490,9 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline_door/operations,
+/obj/effect/floor_decal/industrial/outline_door/operations{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/moghes/xanu_nayakhyber_army_base)
 "Ui" = (
@@ -2806,6 +3503,10 @@
 	req_access = list(222);
 	dir = 1;
 	name = "Perimeter Access"
+	},
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id = "xanu_army_base_perimeter"
 	},
 /turf/simulated/floor/tiled/full,
 /area/moghes/xanu_nayakhyber_army_base)
@@ -2859,12 +3560,21 @@
 /obj/machinery/appliance/cooker/oven,
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
-"Vd" = (
-/obj/effect/floor_decal/concrete{
-	dir = 8
+"UP" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 2;
+	req_access = list(222);
+	name = "Canteen"
 	},
-/obj/item/ammo_magazine/xanan_shotgun/stun,
-/turf/simulated/floor/tiled/gridded,
+/turf/simulated/floor/concrete,
+/area/moghes/xanu_nayakhyber_army_base)
+"Vd" = (
+/obj/effect/floor_decal/corner/lime{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/orange,
+/turf/simulated/floor/tiled,
 /area/moghes/xanu_nayakhyber_army_base)
 "Vu" = (
 /obj/effect/floor_decal/concrete{
@@ -2875,6 +3585,17 @@
 	},
 /turf/simulated/floor/sidewalk/flat,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"VD" = (
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_y = 1;
+	pixel_x = -9
+	},
+/obj/machinery/papershredder{
+	pixel_x = 6
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/moghes/xanu_nayakhyber_army_base)
 "VH" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 4
@@ -2935,7 +3656,7 @@
 	pixel_y = 32
 	},
 /obj/structure/curtain/open/privacy,
-/turf/simulated/floor/tiled/ridged,
+/turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 "WU" = (
 /obj/effect/decal/curb{
@@ -2946,10 +3667,11 @@
 "Xj" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/obj/effect/floor_decal/concrete{
 	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/red,
+/obj/effect/floor_decal/concrete{
+	dir = 9
 	},
 /turf/simulated/floor/sidewalk/flat,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
@@ -2981,6 +3703,18 @@
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
 /area/moghes/xanu_nayakhyber_army_base/outdoors)
+"XH" = (
+/obj/effect/floor_decal/corner/orange{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 1
+	},
+/obj/structure/platform_deco{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
 "XS" = (
 /obj/structure/table/rack/folding_table,
 /obj/item/reagent_containers/food/drinks/cans/beer/whistlingforest{
@@ -3027,6 +3761,13 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/moghes/xanu_nayakhyber_army_base)
+"YO" = (
+/obj/structure/closet/secure_closet/cabinet{
+	name = "wardrobe"
+	},
+/obj/item/clothing/under/xanu/officer,
+/turf/simulated/floor/tiled/gridded,
+/area/moghes/xanu_nayakhyber_army_base)
 "Zb" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -3044,8 +3785,21 @@
 	},
 /turf/simulated/floor/concrete,
 /area/moghes/xanu_nayakhyber_army_base)
+"ZX" = (
+/obj/effect/floor_decal/corner/lime/full{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/moghes/xanu_nayakhyber_army_base)
 "ZY" = (
-/obj/structure/coatrack,
+/obj/structure/coatrack{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/structure/coatrack{
+	pixel_x = -12;
+	pixel_y = 4
+	},
 /turf/simulated/floor/tiled/gridded,
 /area/moghes/xanu_nayakhyber_army_base)
 
@@ -13547,7 +14301,7 @@ Dn
 Dn
 Dn
 Dn
-fr
+Hh
 Hh
 Hh
 Hh
@@ -13767,12 +14521,12 @@ jW
 eG
 eG
 Zp
-Zb
-ea
-eG
-eG
-eG
-eG
+iw
+Ie
+bZ
+sn
+bZ
+CH
 Hm
 Dn
 Hh
@@ -14025,11 +14779,11 @@ nY
 VH
 eG
 Dn
-Dn
 nB
 Dn
 Dn
-eG
+Dn
+wt
 Hm
 Dn
 zb
@@ -14045,7 +14799,7 @@ eG
 eG
 eG
 eG
-eG
+Rs
 Dn
 zb
 zb
@@ -14053,8 +14807,8 @@ zb
 zb
 zb
 Dn
-aX
-aX
+eL
+oz
 xr
 Dn
 OM
@@ -14286,7 +15040,7 @@ bV
 BI
 Lk
 Dn
-eG
+te
 ZY
 Dn
 mn
@@ -14310,9 +15064,9 @@ Vu
 ug
 mn
 Dn
-aX
-aX
-aX
+OI
+oz
+QW
 Dn
 xZ
 qh
@@ -14543,15 +15297,15 @@ Jq
 Ml
 GK
 Dn
-eG
-Zp
-Zb
+ZX
+JO
+tt
 Ua
 tB
 nE
 hf
 Yk
-Zb
+xW
 xV
 Rw
 Rw
@@ -14560,15 +15314,15 @@ Rw
 Rw
 Rw
 Uh
-Zb
+xW
 Ua
 Gz
 nE
 hf
 Yk
-Zb
-OP
-aX
+Lx
+fr
+Vd
 NX
 Dn
 Mi
@@ -14826,7 +15580,7 @@ mn
 Dn
 nR
 WB
-vR
+ds
 Dn
 Mi
 DV
@@ -15057,7 +15811,7 @@ vM
 Hl
 Hl
 Dn
-gy
+YO
 gy
 Dn
 ir
@@ -15084,7 +15838,7 @@ Dn
 Dq
 PB
 BJ
-Zb
+pb
 BG
 GD
 SL
@@ -15096,7 +15850,7 @@ Nq
 Pu
 rt
 Cz
-rt
+VD
 Pu
 RD
 AM
@@ -15309,13 +16063,13 @@ yu
 eG
 eG
 Zp
-Zb
+qa
 ea
 eG
 Zp
-Zb
-AQ
-oz
+pH
+ea
+eG
 Dn
 cM
 hf
@@ -15340,7 +16094,7 @@ mL
 Dn
 pI
 qN
-Vd
+gU
 Dn
 QY
 QY
@@ -15353,7 +16107,7 @@ da
 PT
 AQ
 oz
-oz
+tl
 Pu
 Uj
 Sk
@@ -15584,7 +16338,7 @@ ZL
 ZL
 Dn
 gF
-gF
+UP
 Dn
 ZL
 ZL
@@ -15599,8 +16353,8 @@ Dn
 Dn
 Dn
 Dn
-gF
-gF
+Fp
+Fp
 Dn
 Dn
 Dn
@@ -15610,7 +16364,7 @@ jQ
 Pu
 mN
 ck
-mN
+Ob
 Pu
 Un
 EC
@@ -16121,11 +16875,11 @@ Vu
 Vu
 Vu
 Xj
-gF
+LW
 Gb
 fB
 GS
-gF
+pG
 mp
 xi
 pN
@@ -16378,11 +17132,11 @@ nE
 nE
 nE
 Rr
-gF
+LW
 Bb
 eI
 mx
-gF
+pG
 zx
 xi
 JW
@@ -16635,11 +17389,11 @@ mn
 mn
 mn
 oA
-gF
+LW
 gR
 mW
 od
-gF
+pG
 nq
 xi
 pN
@@ -16893,9 +17647,9 @@ oS
 oS
 oS
 Pu
-gF
-gF
-gF
+Hz
+Hz
+Hz
 Pu
 Wr
 dI
@@ -17105,8 +17859,8 @@ Hh
 Hh
 Dn
 jJ
-ji
-qF
+MM
+on
 ji
 Md
 Dn
@@ -17126,7 +17880,7 @@ Dn
 Dn
 Dn
 gF
-gF
+CU
 Dn
 Dn
 Dn
@@ -17136,14 +17890,14 @@ fa
 nE
 tB
 mL
+at
+at
+at
+at
 Dn
 Dn
-Dn
-Dn
-Dn
-Dn
-gF
-gF
+MV
+MV
 Dn
 Dn
 Hh
@@ -17379,8 +18133,8 @@ nE
 tB
 mL
 Dn
-rY
-rY
+Le
+sW
 Jc
 Wj
 Wj
@@ -17394,14 +18148,14 @@ nE
 tB
 mL
 Dn
-iY
-eG
-sg
 Dn
-us
-as
-DO
-ll
+Dn
+Dn
+Dn
+KZ
+Cf
+xD
+cH
 Dn
 Hh
 Hh
@@ -17619,10 +18373,10 @@ Hh
 Hh
 Dn
 jJ
-ji
-qF
-ji
-Md
+uw
+on
+hE
+mr
 Dn
 cI
 PU
@@ -17636,7 +18390,7 @@ nE
 tB
 mL
 Dn
-rY
+MG
 HR
 vB
 ze
@@ -17652,13 +18406,13 @@ tB
 mt
 Dn
 km
-eG
-zl
+pc
+BC
 Dn
-qk
+jz
 lx
 Li
-qk
+jz
 Dn
 Hh
 Hh
@@ -17908,14 +18662,14 @@ nE
 Jm
 mn
 Dn
+zS
 oz
-eG
-sq
+iY
 Dn
 us
-BV
-Qt
-ll
+XH
+PN
+PA
 Dn
 Hh
 Hh
@@ -18137,13 +18891,13 @@ Gl
 yT
 qF
 PM
-Zb
+hZ
 OP
 aX
 aX
 aX
 pW
-Zb
+og
 Ua
 tB
 nE
@@ -18158,7 +18912,7 @@ FK
 FK
 zt
 PM
-Zb
+vE
 Ua
 Gz
 nE
@@ -18167,9 +18921,9 @@ Yk
 Zb
 ea
 eG
-oz
-Dn
-qk
+Zp
+Zb
+nT
 cV
 xR
 qk
@@ -18423,13 +19177,13 @@ jG
 mn
 Dn
 oz
-eG
+oz
 oz
 Dn
-ll
+Dh
 as
 DO
-ll
+yU
 Dn
 Hh
 Hh
@@ -18666,7 +19420,7 @@ yR
 Dn
 QM
 JV
-Zb
+dO
 os
 FK
 FK
@@ -18679,14 +19433,14 @@ oS
 oS
 oS
 Dn
-oz
-eG
-oz
+sg
+zl
+sq
 Dn
-qk
+sd
 lx
 Li
-qk
+kE
 Dn
 Hh
 Hh
@@ -18927,7 +19681,7 @@ Dn
 ln
 ma
 nD
-ma
+Of
 yY
 Dn
 Hh
@@ -18936,14 +19690,14 @@ Hh
 Hh
 Hh
 Dn
-oz
-eG
-oz
+Dn
+Dn
+Dn
 Dn
 ll
 BV
 Qt
-ll
+xf
 Dn
 Hh
 Hh
@@ -19192,10 +19946,10 @@ Hh
 Hh
 Hh
 Hh
-Dn
-Dn
-Dn
-Dn
+at
+at
+at
+at
 Dn
 Dn
 Dn

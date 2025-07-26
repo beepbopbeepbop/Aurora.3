@@ -157,3 +157,15 @@
 
 /obj/outfit/admin/xanu_nayakhyber_army_soldier/get_id_access()
 	return list(ACCESS_COALITION, ACCESS_COALITION_NAVY, ACCESS_EXTERNAL_AIRLOCKS)
+
+/obj/item/reagent_containers/glass/bottle/iv_mix/dyloinap
+	name = "dylovene/inaprovline bottle"
+	desc = "A small bottle of dylovene/inaprovaline for attaching to drips. Assists in keeping patients with toxins or liver, kidney, or stomach complications stable."
+	icon_state = "bottle-3"
+	reagents_to_add = list(/singleton/reagent/dylovene = 30, /singleton/reagent/inaprovaline = 30)
+
+/obj/item/reagent_containers/glass/bottle/iv_mix/coaginap
+	name = "coagzolug/inaprovaline bottle"
+	desc = "A small bottle of zoagzolug and inaprovaline for attaching to drips. Assists in keeping patients with internal bleeding stable."
+	icon_state = "bottle-3"
+	reagents_to_add = list(/singleton/reagent/coagzolug = 30, /singleton/reagent/inaprovaline = 30)
