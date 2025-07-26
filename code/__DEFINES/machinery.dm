@@ -84,6 +84,7 @@
 #define NETWORK_QUARK "Quark" // horizon shuttle, xenoarch/science
 #define NETWORK_NEWS "News"
 #define NETWORK_CRYO_OUTPOST "#187-D Outpost"
+#define NETWORK_AXAF_BASE "AXAF Base"
 
 
 // Those networks can only be accessed by pre-existing terminals. AIs and new terminals can't use them.

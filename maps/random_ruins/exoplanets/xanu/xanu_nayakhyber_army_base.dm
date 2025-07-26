@@ -169,3 +169,9 @@
 	desc = "A small bottle of zoagzolug and inaprovaline for attaching to drips. Assists in keeping patients with internal bleeding stable."
 	icon_state = "bottle-3"
 	reagents_to_add = list(/singleton/reagent/coagzolug = 30, /singleton/reagent/inaprovaline = 30)
+
+/obj/machinery/camera/network/xanu_army_base
+	network = list(NETWORK_AXAF_BASE)
+
+/obj/machinery/computer/security/terminal/xanu_army_base
+	network = list(NETWORK_AXAF_BASE)

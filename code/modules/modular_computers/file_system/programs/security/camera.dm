@@ -26,6 +26,8 @@
 			return ACCESS_CENT_SPECOPS
 		if(NETWORK_CRYO_OUTPOST)
 			return ACCESS_CRYO_OUTPOST
+		if(NETWORK_AXAF_BASE)
+			return ACCESS_COALITION_NAVY
 
 	return ACCESS_SECURITY // Default for all other networks
 
