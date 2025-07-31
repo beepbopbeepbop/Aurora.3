@@ -4,7 +4,7 @@
 	description = "A military outpost belonging to the Grand Army of the All-Xanu Armed Forces."
 	spawn_weight = 1
 	spawn_cost = 2
-	template_flags = TEMPLATE_FLAG_NO_RUINS|TEMPLATE_FLAG_RUIN_STARTS_DISALLOWED
+	template_flags = TEMPLATE_FLAG_NO_RUINS|TEMPLATE_FLAG_RUIN_STARTS_DISALLOWED|TEMPLATE_FLAG_SPAWN_GUARANTEED
 	sectors = list(SECTOR_XANU)
 	prefix = "xanu/"
 	suffix = "xanu_nayakhyber_army_base.dmm"
@@ -12,7 +12,7 @@
 	unit_test_groups = list(3)
 
 // Areas
-/area/moghes/xanu_nayakhyber_army_base
+/area/xanu/xanu_nayakhyber_army_base
 	name = "All-Xanu Grand Army Base"
 	icon_state = "red"
 	requires_power = FALSE
@@ -22,7 +22,7 @@
 	base_turf = /turf/simulated/floor/exoplanet/grass
 	area_flags = AREA_FLAG_RAD_SHIELDED|AREA_FLAG_INDESTRUCTIBLE_TURFS
 
-/area/moghes/xanu_nayakhyber_army_base/outdoors
+/area/xanu/xanu_nayakhyber_army_base/outdoors
 	name = "All-Xanu Grand Army Base Outdors"
 	icon_state = "bluenew"
 	is_outside = OUTSIDE_YES

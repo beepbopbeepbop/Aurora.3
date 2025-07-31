@@ -23,17 +23,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "as" = (
 /obj/effect/floor_decal/corner/lime,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "aX" = (
 /turf/simulated/floor/concrete/square,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "bg" = (
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "bh" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/outline_door/red,
@@ -43,18 +43,18 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "bm" = (
 /obj/structure/barricade/liquid/wired{
 	icon_state = "sandbag4";
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "bn" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "bv" = (
 /obj/structure/bed/stool/bar,
 /obj/effect/ghostspawpoint{
@@ -64,13 +64,13 @@
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "bG" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "bI" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -85,7 +85,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "bK" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -108,7 +108,7 @@
 	pixel_x = -32
 	},
 /turf/simulated/floor/marble/dark,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "bZ" = (
 /obj/effect/floor_decal/industrial/hatch_door/service{
 	dir = 1
@@ -119,7 +119,7 @@
 	id_tag = "xanu_army_base_stall_3"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ca" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 4
@@ -131,7 +131,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ch" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
@@ -159,7 +159,7 @@
 /obj/item/storage/box/zipties,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "cj" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -178,7 +178,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "cB" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
@@ -189,7 +189,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "cI" = (
 /obj/structure/bed/padded,
 /obj/structure/bed/padded/bunk,
@@ -202,24 +202,24 @@
 	identifier = "xanu_nayakhyber_army_soldier"
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "cJ" = (
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "cM" = (
 /obj/effect/decal/curb{
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/grass,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "cV" = (
 /obj/structure/platform_stairs/full/east_west_cap,
 /obj/structure/platform/cutout{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "cW" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
@@ -233,7 +233,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "cY" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/dirt_konyang,
@@ -244,19 +244,19 @@
 	},
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "de" = (
 /obj/machinery/appliance/cooker/stove,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "dg" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/orange{
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "dl" = (
 /obj/effect/floor_decal/industrial/outline_straight/operations{
 	dir = 4
@@ -267,13 +267,13 @@
 /obj/machinery/recharge_station,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "dr" = (
 /obj/structure/bed/stool{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "ds" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/machinery/door/airlock/glass_security{
@@ -282,7 +282,7 @@
 	name = "Brig Office"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "du" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -303,11 +303,11 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "dz" = (
 /obj/effect/floor_decal/concrete/large,
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "dE" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/machinery/door/airlock/glass_service{
@@ -316,13 +316,13 @@
 	req_access = list(222)
 	},
 /turf/simulated/floor/tiled/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "dI" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "dM" = (
 /obj/structure/table/steel,
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal/coc{
@@ -334,19 +334,19 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "dS" = (
 /obj/effect/floor_decal/concrete/large/cee{
 	dir = 8
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "dT" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "dU" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -358,12 +358,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "dW" = (
 /obj/machinery/appliance/cooker/fryer,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "dX" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -387,7 +387,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ed" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb/corner{
@@ -396,7 +396,7 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "eo" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -415,7 +415,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "eD" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -429,7 +429,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "eG" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -437,14 +437,14 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "eI" = (
 /obj/machinery/optable,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "eK" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -458,7 +458,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "eL" = (
 /obj/structure/closet/secure_closet/brig{
 	req_access = list(222)
@@ -467,7 +467,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "eW" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -484,7 +484,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "fa" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -495,7 +495,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "fi" = (
 /obj/structure/table/wood,
 /obj/machinery/light,
@@ -515,7 +515,7 @@
 	pixel_x = -2
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "fr" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 4
@@ -525,7 +525,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "fB" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/device/radio/hailing{
@@ -537,12 +537,12 @@
 	pixel_x = -5
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "fL" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "fO" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/chemical_dispenser/bar_soft/full{
@@ -555,11 +555,11 @@
 	pixel_x = -4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "fS" = (
 /obj/machinery/vending/dinnerware,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "fU" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
@@ -574,7 +574,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gh" = (
 /obj/effect/floor_decal/industrial/outline_corner/red{
 	dir = 5
@@ -589,7 +589,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/carpet/rubber,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gl" = (
 /obj/structure/table/standard,
 /obj/item/storage/box/masks{
@@ -612,7 +612,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "go" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -632,7 +632,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/rubber,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gv" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
@@ -641,7 +641,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gy" = (
 /obj/structure/closet/secure_closet/cabinet{
 	name = "wardrobe";
@@ -656,21 +656,21 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gF" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gG" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "gI" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gK" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/regular{
@@ -678,7 +678,7 @@
 	},
 /obj/item/device/binoculars,
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gQ" = (
 /obj/effect/floor_decal/spline/fancy/wood/full,
 /turf/simulated/floor/sidewalk/detail,
@@ -692,18 +692,18 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gS" = (
 /obj/effect/floor_decal/industrial/outline_corner/service{
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline_door/service,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gU" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "gW" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -712,7 +712,7 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "hf" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -721,7 +721,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "hk" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -730,7 +730,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "hl" = (
 /obj/effect/floor_decal/corner/lime/full{
 	dir = 1
@@ -739,7 +739,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ho" = (
 /obj/machinery/papershredder{
 	pixel_x = -5
@@ -749,20 +749,20 @@
 	pixel_x = 10
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "hD" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "hK" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/computer/security/terminal/xanu_army_base{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "hR" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -784,7 +784,7 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "hT" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -808,7 +808,7 @@
 	pixel_x = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "hZ" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -818,30 +818,30 @@
 	name = "Head"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ir" = (
 /obj/effect/decal/curb{
 	dir = 5
 	},
 /turf/simulated/floor/exoplanet/grass,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "ix" = (
 /obj/structure/bed/stool/bar,
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "iC" = (
 /obj/effect/floor_decal/industrial/outline_straight/medical{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "iL" = (
 /obj/effect/floor_decal/spline/fancy/wood/full,
 /obj/structure/sign/flag/xanu,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "iP" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/item/gun/projectile/automatic/xanusmg,
@@ -853,7 +853,7 @@
 /obj/item/gun/projectile/automatic/xanusmg,
 /obj/item/gun/projectile/automatic/xanusmg,
 /turf/simulated/floor/tiled/dark/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "iQ" = (
 /obj/effect/floor_decal/concrete{
 	dir = 8
@@ -876,7 +876,7 @@
 	req_access = list(222)
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "jf" = (
 /obj/structure/closet/walllocker/medical/secure{
 	pixel_x = 32;
@@ -906,7 +906,7 @@
 /obj/item/device/flashlight/pen,
 /obj/item/storage/box/syringes,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ji" = (
 /obj/effect/floor_decal/industrial/hatch_door/service{
 	dir = 1
@@ -917,7 +917,7 @@
 	id_tag = "xanu_army_base_stall_2"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "jq" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 1
@@ -926,7 +926,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "jE" = (
 /obj/structure/closet/secure_closet{
 	req_access = list(222)
@@ -939,7 +939,7 @@
 /obj/item/storage/backpack/duffel/eng,
 /obj/item/clothing/accessory/armband/engine,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "jG" = (
 /obj/effect/floor_decal/concrete{
 	dir = 8
@@ -951,7 +951,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "jJ" = (
 /obj/structure/toilet,
 /obj/machinery/light/small{
@@ -959,11 +959,11 @@
 	},
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "jN" = (
 /obj/structure/bed/stool/chair/folding,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "jO" = (
 /obj/effect/floor_decal/concrete{
 	dir = 8
@@ -974,7 +974,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "jP" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 1
@@ -983,13 +983,13 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "jQ" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "jW" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 8
@@ -999,17 +999,17 @@
 	identifier = "xanu_nayakhyber_army_soldier"
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "jZ" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 4
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "ka" = (
 /obj/effect/floor_decal/industrial/outline_straight/red,
 /turf/simulated/floor/carpet/rubber,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "kd" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -1018,7 +1018,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "kg" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -1034,33 +1034,33 @@
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "kh" = (
 /obj/effect/decal/curb{
 	dir = 9
 	},
 /turf/simulated/floor/marble/dark,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "km" = (
 /obj/structure/reagent_dispensers/cookingoil,
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "kx" = (
 /obj/structure/bed/stool/chair/sofa/left/beige,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "kO" = (
 /obj/effect/decal/curb{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "kT" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/outline_door/red,
@@ -1079,7 +1079,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "kV" = (
 /obj/structure/closet/secure_closet/cabinet{
 	name = "wardrobe";
@@ -1103,7 +1103,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/tequila,
 /obj/item/reagent_containers/food/drinks/shaker,
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "kW" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -1117,7 +1117,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "lc" = (
 /obj/structure/table/wood,
 /obj/machinery/chemical_dispenser/coffeemaster/full{
@@ -1131,17 +1131,17 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "le" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "lg" = (
 /obj/structure/bed/stool,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "ll" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
@@ -1155,13 +1155,13 @@
 	},
 /obj/item/rig/zero/xanu,
 /turf/simulated/floor/tiled/techmaint,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ln" = (
 /obj/effect/floor_decal/corner/blue/full{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "lw" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
@@ -1174,14 +1174,14 @@
 	},
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "lx" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/lime,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "lD" = (
 /obj/effect/floor_decal/industrial/outline_straight/medical,
 /obj/effect/floor_decal/corner/blue{
@@ -1191,7 +1191,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "lE" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/cocktail{
@@ -1226,7 +1226,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "lI" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/structure/chainlink_fence{
@@ -1239,7 +1239,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "lJ" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -1268,13 +1268,13 @@
 /obj/item/reagent_containers/blood/OMinus,
 /obj/item/reagent_containers/blood/OMinus,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "mg" = (
 /obj/effect/floor_decal/industrial/outline_segment/red{
 	dir = 4
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "mi" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -1286,7 +1286,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "ml" = (
 /turf/simulated/wall/r_wall,
 /area/exoplanet/grass/xanu)
@@ -1298,7 +1298,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "mo" = (
 /obj/effect/floor_decal/corner/lime/full{
 	dir = 4
@@ -1307,7 +1307,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "mp" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/regular{
@@ -1315,7 +1315,7 @@
 	id = "xanu_army_base_checkpoint_exterior"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ms" = (
 /obj/effect/floor_decal/industrial/hatch_door/service{
 	dir = 1
@@ -1326,7 +1326,7 @@
 	id_tag = "xanu_army_base_stall_4"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "mt" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -1334,17 +1334,17 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "mx" = (
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "mL" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "mN" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/industrial/outline_door/red{
@@ -1382,7 +1382,7 @@
 	pixel_x = 8
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "mW" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -1392,7 +1392,7 @@
 	name = "Infirmary"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ne" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -1402,7 +1402,7 @@
 	name = "Base Commander's Quarters"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "no" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -1412,25 +1412,25 @@
 	},
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "nq" = (
 /obj/effect/floor_decal/concrete/large/cee,
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "nr" = (
 /obj/structure/table/wood,
 /obj/structure/television{
 	pixel_y = 11
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "nB" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/regular{
 	id = "xanu_army_base_checkpoint_turrets"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "nD" = (
 /obj/effect/floor_decal/industrial/outline_straight/medical{
 	dir = 8
@@ -1439,10 +1439,10 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "nE" = (
 /turf/simulated/floor/concrete/square,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "nL" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
@@ -1451,7 +1451,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "nR" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/door/window/desk/westright{
@@ -1470,7 +1470,7 @@
 	pixel_x = 4
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "nW" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/item/reagent_containers/food/snacks/meat/chicken,
@@ -1487,7 +1487,7 @@
 /obj/item/reagent_containers/food/snacks/fish/fishfillet,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "nY" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 4
@@ -1496,7 +1496,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "nZ" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 4
@@ -1505,7 +1505,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "od" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -1516,7 +1516,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "og" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -1526,7 +1526,7 @@
 	name = "Barracks"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ok" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 1
@@ -1535,7 +1535,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ol" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -1553,7 +1553,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "os" = (
 /obj/effect/floor_decal/industrial/outline_straight/medical,
 /obj/effect/floor_decal/corner/blue{
@@ -1563,14 +1563,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ox" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "oy" = (
 /obj/effect/floor_decal/concrete,
 /obj/effect/floor_decal/concrete/large{
@@ -1579,10 +1579,10 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "oz" = (
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "oA" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/regular{
@@ -1590,18 +1590,18 @@
 	id = "xanu_army_base_checkpoint_interior"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "oE" = (
 /obj/effect/floor_decal/industrial/outline_straight/red{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/rubber,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "oG" = (
 /obj/machinery/telecomms/allinone/ship,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "oH" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -1613,13 +1613,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "oR" = (
 /obj/effect/floor_decal/industrial/outline_segment/red{
 	dir = 5
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "oS" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -1627,7 +1627,7 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "pb" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -1638,7 +1638,7 @@
 	name = "Armoury"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "pp" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -1652,7 +1652,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "pq" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -1673,7 +1673,7 @@
 	},
 /obj/effect/floor_decal/spline/fancy,
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "pG" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/outline_door/red,
@@ -1686,14 +1686,14 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "pH" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 1
 	},
 /obj/structure/extinguisher_cabinet/east,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "pI" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
@@ -1722,7 +1722,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "pJ" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -1737,7 +1737,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "pN" = (
 /obj/effect/decal/curb/corner,
 /obj/structure/barricade/liquid/wired{
@@ -1749,7 +1749,7 @@
 	pixel_y = -5
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "pR" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
@@ -1759,24 +1759,24 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "pW" = (
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "qh" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/corner/lime{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "qk" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "qx" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
@@ -1805,7 +1805,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "qD" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -1818,16 +1818,16 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "qF" = (
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "qG" = (
 /obj/effect/floor_decal/concrete/large/cee{
 	dir = 4
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "qN" = (
 /obj/structure/filingcabinet/filingcabinet{
 	pixel_y = 1;
@@ -1837,19 +1837,19 @@
 	pixel_x = -5
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "qV" = (
 /obj/structure/table/steel,
 /obj/item/paper_bin,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "rl" = (
 /obj/structure/barricade/metal/wired{
 	dir = 1;
 	anchored = null
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "rm" = (
 /obj/structure/closet/secure_closet/freezer,
 /obj/item/storage/box/produce,
@@ -1868,14 +1868,14 @@
 /obj/item/reagent_containers/food/condiment/sugar,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "rq" = (
 /obj/machinery/bodyscanner{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch/research,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "rt" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/filingcabinet/filingcabinet{
@@ -1889,7 +1889,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "rw" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -1897,7 +1897,7 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "rC" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -1912,13 +1912,13 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "rR" = (
 /obj/effect/floor_decal/industrial/outline_straight/red{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "rV" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
@@ -1926,17 +1926,17 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "rY" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "sg" = (
 /obj/machinery/vending/engineering{
 	req_access = list(222)
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "si" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
@@ -1946,7 +1946,7 @@
 "sq" = (
 /obj/structure/table/stone/marble,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "sy" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -1964,13 +1964,13 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "sK" = (
 /obj/effect/decal/curb{
 	dir = 10
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "sM" = (
 /obj/machinery/appliance/cooker/grill,
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -1978,7 +1978,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "sR" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
@@ -1987,7 +1987,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "ta" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
@@ -1995,7 +1995,7 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "to" = (
 /obj/machinery/recharge_station,
 /obj/machinery/light/small,
@@ -2003,13 +2003,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "tA" = (
 /obj/effect/decal/curb{
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "tB" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -2018,7 +2018,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "tD" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(222);
@@ -2042,14 +2042,14 @@
 /obj/item/ammo_casing/peac/he,
 /obj/item/ammo_casing/peac/shrapnel,
 /turf/simulated/floor/tiled/dark/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "tL" = (
 /obj/machinery/shower{
 	dir = 1
 	},
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "tQ" = (
 /obj/structure/filingcabinet/filingcabinet{
 	pixel_y = 1;
@@ -2059,7 +2059,7 @@
 	pixel_x = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ug" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -2069,7 +2069,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "um" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -2098,7 +2098,7 @@
 	identifier = "xanu_nayakhyber_army_soldier"
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "uq" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 1
@@ -2115,7 +2115,7 @@
 /obj/machinery/mech_recharger,
 /mob/living/heavy_vehicle/premade/light/coalition,
 /turf/simulated/floor/tiled/techmaint,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "uw" = (
 /obj/effect/floor_decal/industrial/hatch_door/service{
 	dir = 1
@@ -2126,13 +2126,13 @@
 	id_tag = "xanu_army_base_stall_1"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "uF" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "uG" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
@@ -2147,7 +2147,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "uM" = (
 /obj/structure/table/standard,
 /obj/structure/roller_rack,
@@ -2167,7 +2167,7 @@
 	pixel_x = 7
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "uS" = (
 /obj/machinery/computer/ship/sensors/terminal{
 	dir = 8;
@@ -2175,14 +2175,14 @@
 	},
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "uU" = (
 /obj/structure/barricade/liquid/wired{
 	icon_state = "sandbag4";
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "uW" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
@@ -2192,7 +2192,7 @@
 	},
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "vn" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
@@ -2212,34 +2212,34 @@
 /obj/item/ammo_magazine/c46m,
 /obj/item/ammo_magazine/c46m,
 /turf/simulated/floor/tiled/dark/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "vA" = (
 /obj/machinery/vending/cola,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "vB" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "vC" = (
 /obj/machinery/vending/snack,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "vD" = (
 /obj/machinery/vending/tool{
 	req_access = list(222)
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "vM" = (
 /obj/structure/coatrack{
 	pixel_x = -4;
@@ -2249,7 +2249,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "vR" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/machinery/door/airlock/glass_security{
@@ -2258,7 +2258,7 @@
 	name = "Cell"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "vT" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/machinery/shipsensors/strong{
@@ -2268,9 +2268,8 @@
 	gpstag = "AXAF_OUTPOST";
 	pixel_x = -24
 	},
-/obj/effect/overmap/visitable/sector/exoplanet/xanu,
 /turf/simulated/floor/reinforced/airless,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "wg" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -2283,7 +2282,7 @@
 	},
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "wj" = (
 /obj/structure/barricade/liquid/wired{
 	icon_state = "sandbag4";
@@ -2294,7 +2293,7 @@
 	pixel_y = -5
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "wm" = (
 /obj/structure/bed/stool/bar{
 	dir = 1
@@ -2306,7 +2305,7 @@
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "wA" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -2321,7 +2320,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "wJ" = (
 /obj/machinery/iv_drip,
 /obj/effect/floor_decal/industrial/hatch_tiny/red,
@@ -2335,7 +2334,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "wU" = (
 /obj/effect/floor_decal/concrete{
 	dir = 8
@@ -2352,14 +2351,14 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "wX" = (
 /obj/structure/bed/chair,
 /obj/machinery/light/broken{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "xb" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
@@ -2368,7 +2367,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "xe" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
@@ -2377,11 +2376,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "xi" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "xq" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -2389,7 +2388,7 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "xr" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
@@ -2400,7 +2399,7 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "xD" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 4
@@ -2410,7 +2409,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "xH" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -2427,7 +2426,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "xI" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -2455,7 +2454,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "xV" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/concrete,
@@ -2463,7 +2462,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "xW" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -2473,14 +2472,14 @@
 	name = "Canteen"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "xZ" = (
 /obj/effect/floor_decal/corner/orange,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "yc" = (
 /turf/simulated/wall/r_wall,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "yq" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -2494,7 +2493,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "yt" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/corner/lime{
@@ -2502,7 +2501,7 @@
 	},
 /obj/machinery/camera/network/xanu_army_base,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "yu" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
@@ -2512,7 +2511,7 @@
 	identifier = "xanu_nayakhyber_army_soldier"
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "yH" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -2522,7 +2521,7 @@
 	name = "Base Commander's Office"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "yL" = (
 /obj/effect/floor_decal/industrial/outline_straight/operations{
 	dir = 4
@@ -2535,7 +2534,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "yR" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
@@ -2543,13 +2542,13 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "yT" = (
 /obj/effect/floor_decal/spline/fancy{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "yW" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 4
@@ -2561,7 +2560,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "zb" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -2569,31 +2568,31 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "ze" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "zl" = (
 /obj/machinery/vending/engivend{
 	req_access = list(222)
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "zt" = (
 /obj/structure/bed/roller,
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/hatch_small/medical,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "zv" = (
 /obj/effect/decal/curb{
 	dir = 6
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "zx" = (
 /obj/structure/table/stone/marble,
 /obj/machinery/reagentgrinder{
@@ -2610,7 +2609,7 @@
 	},
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "zG" = (
 /obj/structure/closet/secure_closet{
 	req_access = list(222)
@@ -2625,12 +2624,12 @@
 /obj/item/clothing/under/xanu,
 /obj/item/clothing/under/xanu,
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "zH" = (
 /obj/effect/floor_decal/spline/fancy/wood/full,
 /obj/structure/sign/flag/xanu,
 /turf/simulated/floor/sidewalk/detail,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "zU" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
@@ -2640,7 +2639,7 @@
 "Ah" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "An" = (
 /obj/structure/undies_wardrobe{
 	pixel_x = -1
@@ -2652,13 +2651,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Av" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ay" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -2670,7 +2669,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "AG" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5
@@ -2679,7 +2678,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "AH" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -2698,13 +2697,13 @@
 	name = "Base Headquarters"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "AM" = (
 /obj/effect/tent{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "AP" = (
 /obj/structure/barricade/liquid/wired{
 	icon_state = "sandbag4";
@@ -2715,23 +2714,23 @@
 	pixel_y = -5
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "AQ" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Bb" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Bp" = (
 /obj/machinery/vending/medical{
 	req_access = list(222)
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Bw" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/door/window/desk/eastleft{
@@ -2742,11 +2741,11 @@
 	id = "xanu_army_base_checkpoint_window"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "BE" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "BG" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
@@ -2755,7 +2754,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "BI" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
@@ -2764,7 +2763,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/marble/dark,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "BJ" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -2780,7 +2779,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "BK" = (
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/exoplanet/dirt_konyang,
@@ -2800,7 +2799,7 @@
 	pixel_y = 7
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "BX" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -2810,13 +2809,13 @@
 	c_tag = "South Wall, South Door"
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "BY" = (
 /obj/structure/bed/stool/chair{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Cf" = (
 /obj/effect/floor_decal/corner/lime,
 /obj/effect/floor_decal/industrial/outline_straight/red{
@@ -2826,7 +2825,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Cl" = (
 /obj/effect/floor_decal/industrial/outline_corner/security{
 	dir = 4
@@ -2838,13 +2837,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Cz" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "CC" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -2856,7 +2855,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "CE" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
@@ -2869,13 +2868,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "CQ" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "CU" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -2884,13 +2883,13 @@
 	name = "Infirmary"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Dd" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Df" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille,
 /obj/effect/floor_decal/industrial/hatch/red,
@@ -2898,11 +2897,11 @@
 	id = "xanu_army_base_checkpoint_window"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Dg" = (
 /obj/machinery/vending/coffee/free,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Dj" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/corner/lime{
@@ -2915,15 +2914,15 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Dl" = (
 /obj/machinery/photocopier,
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Dn" = (
 /turf/simulated/wall/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Dq" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -2935,13 +2934,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Dr" = (
 /obj/effect/decal/curb{
 	dir = 9
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Dt" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -2960,7 +2959,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/carpet/rubber,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Dv" = (
 /turf/simulated/floor/exoplanet/grass,
 /area/exoplanet/grass/xanu)
@@ -2974,7 +2973,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "DE" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -2989,13 +2988,13 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "DO" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "DU" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -3006,7 +3005,7 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "DV" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/device/binoculars/high_power,
@@ -3014,7 +3013,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "DY" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/corner/lime{
@@ -3024,7 +3023,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ef" = (
 /obj/effect/floor_decal/industrial/outline_corner/service{
 	dir = 1
@@ -3034,7 +3033,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Eh" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(222);
@@ -3072,7 +3071,7 @@
 /obj/item/clothing/accessory/flagpatch/all_xanu,
 /obj/item/clothing/accessory/flagpatch/all_xanu,
 /turf/simulated/floor/tiled/dark/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ej" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
@@ -3086,13 +3085,13 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "EC" = (
 /obj/effect/tent{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "ED" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
@@ -3114,7 +3113,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "EI" = (
 /obj/structure/closet/walllocker/medical/secure{
 	pixel_x = 32;
@@ -3134,14 +3133,14 @@
 	name = "surgery cleaner"
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "EV" = (
 /obj/effect/decal/curb/corner{
 	dir = 4
 	},
 /obj/structure/target_stake,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "EW" = (
 /obj/effect/floor_decal/concrete{
 	dir = 4
@@ -3154,13 +3153,13 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "EX" = (
 /obj/effect/decal/curb{
 	dir = 5
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "EY" = (
 /obj/effect/decal/curb/corner{
 	dir = 8
@@ -3170,19 +3169,19 @@
 	anchored = null
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "EZ" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Fh" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Fj" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -3194,20 +3193,20 @@
 	dir = 1
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Fl" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Fo" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/regular{
 	id = "xanu_army_base_armoury"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Fp" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/blast/shutters{
@@ -3215,7 +3214,7 @@
 	id = "xanu_army_base_garage"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Fr" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 9
@@ -3224,7 +3223,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Fx" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -3238,7 +3237,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Fy" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/saintjacques{
@@ -3268,13 +3267,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "FB" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "FD" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/paper_bin{
@@ -3287,25 +3286,25 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "FK" = (
 /obj/structure/bed/roller,
 /obj/effect/floor_decal/industrial/hatch_small/medical,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "FU" = (
 /obj/machinery/sleeper{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch/security,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Gb" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Gl" = (
 /obj/structure/sink{
 	dir = 8;
@@ -3318,7 +3317,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Gs" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -3344,7 +3343,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Gz" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -3355,7 +3354,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "GD" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
@@ -3364,7 +3363,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "GI" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/corner/lime{
@@ -3377,7 +3376,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "GK" = (
 /obj/structure/table/wood,
 /obj/effect/decal/curb{
@@ -3403,7 +3402,7 @@
 	pixel_x = -10
 	},
 /turf/simulated/floor/marble/dark,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "GL" = (
 /obj/effect/decal/curb{
 	dir = 5
@@ -3419,7 +3418,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "GS" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -3430,7 +3429,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "GY" = (
 /obj/structure/closet/walllocker/medical/secure{
 	pixel_x = 32;
@@ -3465,7 +3464,7 @@
 /obj/item/auto_cpr,
 /obj/item/auto_cpr,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Hf" = (
 /obj/effect/floor_decal/concrete/large/cee{
 	dir = 4
@@ -3477,24 +3476,24 @@
 	name = "Garage Shutters"
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Hh" = (
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Hl" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Hm" = (
 /obj/structure/bed/stool/chair{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ht" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -3503,7 +3502,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Hv" = (
 /obj/structure/table/reinforced/glass,
 /obj/item/storage/box/fancy/tray,
@@ -3511,14 +3510,14 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "HA" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/floor_decal/concrete/large{
 	dir = 4
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "HD" = (
 /obj/structure/barricade/liquid/wired{
 	icon_state = "sandbag4";
@@ -3532,7 +3531,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "HJ" = (
 /obj/effect/floor_decal/spline/fancy/corner,
 /obj/effect/floor_decal/spline/fancy/corner{
@@ -3542,7 +3541,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "HL" = (
 /obj/effect/decal/curb{
 	dir = 5
@@ -3550,7 +3549,7 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "HM" = (
 /obj/effect/floor_decal/concrete,
 /obj/effect/floor_decal/concrete/large{
@@ -3571,17 +3570,17 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "HR" = (
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "HS" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ic" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -3591,7 +3590,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Io" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 9
@@ -3600,14 +3599,14 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ip" = (
 /obj/structure/table/stone/marble,
 /obj/item/reagent_containers/glass/rag/advanced{
 	pixel_x = -5
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Iw" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
@@ -3619,7 +3618,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Iy" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -3642,13 +3641,13 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "IG" = (
 /obj/effect/floor_decal/concrete{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "IN" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 1
@@ -3658,7 +3657,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "IT" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/photocopier/faxmachine{
@@ -3667,7 +3666,7 @@
 	department = "AXAF Base"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "IX" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -3686,7 +3685,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ja" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -3695,20 +3694,20 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Jc" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
 	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Jd" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ji" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -3718,7 +3717,7 @@
 	name = "Garage"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Jm" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -3728,7 +3727,7 @@
 	},
 /obj/effect/floor_decal/concrete,
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Jp" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
@@ -3740,11 +3739,11 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Jq" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/marble/dark,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Js" = (
 /obj/machinery/computer/operating/terminal,
 /obj/effect/floor_decal/industrial/hatch/medical,
@@ -3752,24 +3751,24 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Jz" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "JD" = (
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "JO" = (
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "JU" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/structure/closet/walllocker/secure{
@@ -3794,11 +3793,11 @@
 /obj/item/reagent_containers/food/condiment/shaker/salt,
 /obj/item/reagent_containers/food/condiment/shaker/peppermill,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "JV" = (
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "JW" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/surgery{
@@ -3816,7 +3815,7 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "JY" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -3826,7 +3825,7 @@
 	name = "Operating Theatre"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Kc" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 10
@@ -3835,7 +3834,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Kf" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(222);
@@ -3855,17 +3854,17 @@
 /obj/item/melee/energy/sword/knife,
 /obj/item/melee/energy/sword/knife,
 /turf/simulated/floor/tiled/dark/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Kl" = (
 /obj/structure/bed/stool{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Kz" = (
 /obj/structure/bookcase/libraryspawn/fiction,
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "KT" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -3875,7 +3874,7 @@
 	name = "Base Control Room"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "KU" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -3890,14 +3889,14 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "KV" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "KW" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(222);
@@ -3947,11 +3946,11 @@
 /obj/item/device/radio/off,
 /obj/item/device/radio/off,
 /turf/simulated/floor/tiled/dark/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "KY" = (
 /obj/machinery/smartfridge/foodheater,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Lh" = (
 /obj/effect/floor_decal/concrete{
 	dir = 1
@@ -3963,7 +3962,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Li" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 1
@@ -3972,7 +3971,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Lk" = (
 /obj/structure/table/wood,
 /obj/effect/decal/curb{
@@ -3983,7 +3982,7 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/marble/dark,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Lq" = (
 /obj/effect/floor_decal/concrete,
 /obj/effect/floor_decal/concrete/large{
@@ -3998,7 +3997,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Ls" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/item/gun/projectile/automatic/rifle/dnac,
@@ -4010,7 +4009,7 @@
 	},
 /obj/item/gun/projectile/automatic/rifle/shotgun/xanan,
 /turf/simulated/floor/tiled/dark/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Lx" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -4020,7 +4019,7 @@
 	name = "Brig"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Lz" = (
 /obj/effect/floor_decal/industrial/outline_door/red,
 /obj/effect/floor_decal/industrial/outline_door/red{
@@ -4035,7 +4034,7 @@
 /obj/effect/floor_decal/industrial/hatch_small/operations,
 /obj/machinery/stargazer,
 /turf/simulated/floor/carpet/rubber,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "LQ" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -4046,7 +4045,7 @@
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "LV" = (
 /obj/effect/floor_decal/industrial/outline_corner/red{
 	dir = 10
@@ -4061,7 +4060,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/carpet/rubber,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Md" = (
 /obj/structure/toilet{
 	dir = 1;
@@ -4072,14 +4071,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Mi" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ml" = (
 /obj/structure/table/wood,
 /obj/item/journal{
@@ -4087,7 +4086,7 @@
 	pixel_y = -3
 	},
 /turf/simulated/floor/marble/dark,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Mr" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
@@ -4104,7 +4103,7 @@
 	name = "Garage Shutters"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Mx" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/porta_turret/stationary{
@@ -4114,7 +4113,7 @@
 	req_access = list(222)
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "MR" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/machinery/computer/security/terminal/xanu_army_base{
@@ -4124,7 +4123,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "MZ" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/industrial/outline_door/red{
@@ -4143,14 +4142,21 @@
 /obj/item/pen/multi{
 	pixel_y = 4
 	},
+/obj/machinery/turretid/lethal{
+	req_access = list(222);
+	check_arrest = 0;
+	check_records = 0;
+	control_area = "All-Xanu Grand Army Base";
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Nd" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Nn" = (
 /obj/structure/bed/stool/bar{
 	dir = 1
@@ -4158,13 +4164,13 @@
 /turf/simulated/floor/concrete/square{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Nq" = (
 /obj/effect/floor_decal/concrete/large{
 	dir = 8
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Nx" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -4178,7 +4184,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Ny" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/brown,
@@ -4193,19 +4199,19 @@
 	identifier = "xanu_nayakhyber_army_officer"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "NN" = (
 /obj/machinery/vending/lavatory,
 /obj/effect/floor_decal/industrial/outline/service,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "NS" = (
 /obj/effect/decal/curb{
 	dir = 4
 	},
 /obj/structure/target_stake,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "NU" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -4219,7 +4225,7 @@
 /obj/machinery/computer/security/terminal/xanu_army_base,
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "NX" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 4
@@ -4232,13 +4238,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Oa" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Od" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -4253,7 +4259,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Ow" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
@@ -4262,7 +4268,7 @@
 	pixel_y = 26
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "OH" = (
 /obj/structure/table/steel,
 /obj/item/reagent_containers/food/condiment/shaker/salt{
@@ -4270,30 +4276,30 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "OI" = (
 /obj/structure/bed/stool/chair,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "OM" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "OP" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 1
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "OZ" = (
 /obj/structure/bed/stool/chair,
 /obj/machinery/camera/network/xanu_army_base{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Pa" = (
 /obj/machinery/washing_machine,
 /obj/effect/floor_decal/industrial/outline/service,
@@ -4301,7 +4307,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Pb" = (
 /obj/effect/floor_decal/concrete/large/cee{
 	dir = 4
@@ -4310,7 +4316,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Pe" = (
 /obj/structure/closet/secure_closet{
 	req_access = list(222)
@@ -4327,7 +4333,7 @@
 /obj/item/clothing/under/xanu,
 /obj/item/clothing/under/xanu,
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Pf" = (
 /obj/structure/bed/stool/chair/sofa/beige,
 /obj/effect/ghostspawpoint{
@@ -4335,10 +4341,10 @@
 	identifier = "xanu_nayakhyber_army_soldier"
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Pu" = (
 /turf/simulated/wall/r_wall,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Pz" = (
 /obj/structure/bed/padded,
 /obj/structure/bed/padded/bunk,
@@ -4354,7 +4360,7 @@
 	identifier = "xanu_nayakhyber_army_soldier"
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "PB" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
@@ -4369,7 +4375,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "PC" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 4
@@ -4378,7 +4384,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "PI" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -4393,18 +4399,18 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "PM" = (
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "PQ" = (
 /obj/structure/barricade/liquid/wired{
 	icon_state = "sandbag4";
 	pixel_y = -5
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "PR" = (
 /obj/effect/floor_decal/concrete/large/cee{
 	dir = 8
@@ -4416,7 +4422,7 @@
 	name = "Armoury Shutters"
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "PT" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -4426,7 +4432,7 @@
 	name = "Checkpoint Booth"
 	},
 /turf/simulated/floor/tiled/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "PU" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 10
@@ -4435,19 +4441,19 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Qb" = (
 /obj/effect/floor_decal/corner/lime,
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ql" = (
 /obj/structure/reagent_dispensers/extinguisher,
 /obj/effect/floor_decal/concrete{
 	dir = 6
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Qt" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 1
@@ -4455,19 +4461,19 @@
 /obj/effect/floor_decal/industrial/outline_straight/red,
 /obj/structure/platform_deco,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "QM" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/optable,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "QW" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/orange,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "QY" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -4479,12 +4485,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ri" = (
 /obj/structure/table/rack,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Rr" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/concrete{
@@ -4492,18 +4498,18 @@
 	},
 /obj/effect/floor_decal/industrial/outline_door/red,
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Rs" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Rv" = (
 /obj/machinery/autolathe,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Rw" = (
 /obj/effect/floor_decal/corner/orange,
 /obj/effect/floor_decal/corner/lime{
@@ -4513,7 +4519,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "RD" = (
 /obj/effect/tent{
 	dir = 8
@@ -4527,11 +4533,11 @@
 	pixel_x = 12
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "RG" = (
 /obj/structure/bonfire,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "RV" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet{
@@ -4572,7 +4578,7 @@
 /obj/item/ammo_magazine/xanan_shotgun/incendiary,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Sc" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
@@ -4581,10 +4587,10 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Sk" = (
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "SH" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 1
@@ -4596,7 +4602,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "SJ" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -4611,7 +4617,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "SR" = (
 /obj/effect/floor_decal/industrial/outline_straight/medical{
 	dir = 1
@@ -4621,7 +4627,7 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ST" = (
 /obj/machinery/iv_drip,
 /obj/effect/floor_decal/industrial/hatch_tiny/red,
@@ -4632,12 +4638,12 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "SX" = (
 /obj/structure/table/stone/marble,
 /obj/effect/floor_decal/corner/grey/diagonal,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Tj" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -4651,18 +4657,18 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Tm" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/floor_decal/concrete/large{
 	dir = 1
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Tn" = (
 /obj/structure/bed/stool/chair/sofa/right/beige,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "To" = (
 /obj/effect/floor_decal/concrete{
 	dir = 5
@@ -4677,7 +4683,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "TB" = (
 /obj/effect/floor_decal/industrial/outline_straight/red,
 /obj/effect/floor_decal/industrial/outline_straight/red{
@@ -4688,7 +4694,7 @@
 	c_tag = "Checkpoint Gate, Turrets"
 	},
 /turf/simulated/floor/concrete/square,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "TG" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -4699,7 +4705,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "TW" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/machinery/door/airlock/highsecurity{
@@ -4711,7 +4717,7 @@
 	id = "xanu_army_base_perimeter"
 	},
 /turf/simulated/floor/tiled/full,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "TZ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -4720,13 +4726,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Ua" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 1
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Uh" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 4
@@ -4739,7 +4745,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Ui" = (
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -4754,11 +4760,11 @@
 	id = "xanu_army_base_perimeter"
 	},
 /turf/simulated/floor/tiled/full,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Uj" = (
 /obj/structure/table/rack/folding_table,
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Un" = (
 /obj/effect/tent{
 	dir = 4
@@ -4772,12 +4778,12 @@
 	pixel_y = 2
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Uo" = (
 /obj/effect/floor_decal/industrial/hatch_tiny/red,
 /obj/machinery/iv_drip,
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Up" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -4786,7 +4792,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "UA" = (
 /obj/effect/floor_decal/concrete{
 	dir = 10
@@ -4798,7 +4804,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "UC" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -4811,7 +4817,7 @@
 	},
 /obj/effect/floor_decal/concrete/large,
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "UE" = (
 /obj/effect/floor_decal/concrete{
 	dir = 6
@@ -4820,7 +4826,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "UI" = (
 /obj/machinery/appliance/cooker/oven,
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -4828,7 +4834,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "UP" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/machinery/door/airlock/multi_tile/glass{
@@ -4837,7 +4843,7 @@
 	name = "Canteen"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "UR" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -4846,19 +4852,19 @@
 	c_tag = "Checkpoint Gate, Exterior"
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Vd" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/orange,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Vl" = (
 /obj/structure/table/reinforced/glass,
 /obj/item/storage/box/fancy/tray/machinist,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Vu" = (
 /obj/effect/floor_decal/concrete{
 	dir = 9
@@ -4867,7 +4873,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "VH" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 6
@@ -4876,7 +4882,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Wh" = (
 /obj/structure/bed/stool/chair{
 	dir = 8
@@ -4885,32 +4891,32 @@
 	dir = 8
 	},
 /turf/simulated/floor/marble/dark,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Wj" = (
 /obj/effect/floor_decal/industrial/outline_door/operations{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Wr" = (
 /obj/effect/decal/curb{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "WB" = (
 /obj/structure/table/reinforced/steel,
 /obj/machinery/door/window/desk/westleft{
 	req_access = list(222)
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "WH" = (
 /obj/structure/bed/stool/chair/office/bridge/generic{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "WI" = (
 /obj/structure/toilet{
 	dir = 8
@@ -4923,7 +4929,7 @@
 	},
 /obj/structure/curtain/open/privacy,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "WJ" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 6
@@ -4932,17 +4938,17 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "WU" = (
 /obj/effect/decal/curb{
 	dir = 10
 	},
 /turf/simulated/floor/marble/dark,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Xg" = (
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Xj" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/concrete{
@@ -4953,7 +4959,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Xu" = (
 /obj/effect/floor_decal/concrete/large,
 /obj/effect/floor_decal/concrete{
@@ -4966,7 +4972,7 @@
 /turf/simulated/floor/sidewalk/flat{
 	temperature = 315.15
 	},
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Xv" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
@@ -4981,19 +4987,19 @@
 	name = "Armoury Shutters"
 	},
 /turf/simulated/floor/tiled/ridged,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Xy" = (
 /obj/effect/floor_decal/concrete/large/cee{
 	dir = 1
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "XK" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/simulated/floor/concrete/square,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "XN" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/concrete{
@@ -5010,7 +5016,7 @@
 	pixel_y = -20
 	},
 /turf/simulated/floor/sidewalk/flat,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "XS" = (
 /obj/structure/table/rack/folding_table,
 /obj/item/reagent_containers/food/drinks/cans/beer/whistlingforest{
@@ -5022,15 +5028,15 @@
 	pixel_y = -3
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Ye" = (
 /obj/structure/fireaxecabinet/east,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Yk" = (
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Yn" = (
 /obj/machinery/body_scanconsole{
 	dir = 8
@@ -5046,13 +5052,13 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Yo" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "YD" = (
 /obj/effect/floor_decal/industrial/outline_corner/red{
 	dir = 9
@@ -5067,7 +5073,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/carpet/rubber,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "YE" = (
 /obj/structure/closet/secure_closet{
 	req_access = list(222)
@@ -5077,7 +5083,7 @@
 /obj/item/storage/belt/utility/alt,
 /obj/item/powerdrill,
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "YL" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 1
@@ -5106,7 +5112,7 @@
 	pixel_x = -4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "YX" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/machinery/door/airlock/highsecurity{
@@ -5118,7 +5124,7 @@
 	id = "xanu_army_base_perimeter"
 	},
 /turf/simulated/floor/tiled/full,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "Zb" = (
 /turf/simulated/floor/exoplanet/grass{
 	color = "#7c945c"
@@ -5129,7 +5135,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/dirt_konyang,
-/area/moghes/xanu_nayakhyber_army_base/outdoors)
+/area/xanu/xanu_nayakhyber_army_base/outdoors)
 "Zp" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
@@ -5139,32 +5145,32 @@
 	},
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ZH" = (
 /obj/machinery/photocopier,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ZL" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille{
 	color = "#676661";
 	frame_color = "#676661"
 	},
 /turf/simulated/floor/concrete,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ZO" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline_door/operations,
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ZX" = (
 /obj/effect/floor_decal/corner/lime/full{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 "ZY" = (
 /obj/structure/coatrack{
 	pixel_x = 7;
@@ -5175,7 +5181,7 @@
 	pixel_y = 4
 	},
 /turf/simulated/floor/tiled/gridded,
-/area/moghes/xanu_nayakhyber_army_base)
+/area/xanu/xanu_nayakhyber_army_base)
 
 (1,1,1) = {"
 Dv

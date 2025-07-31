@@ -28,7 +28,11 @@
 	place_near_main = list(1,0)
 
 	// Defaults, later set under pre_ruin_preparation
-	ruin_type_whitelist = list(/datum/map_template/ruin/exoplanet/delivery_site, /datum/map_template/ruin/exoplanet/crashed_coc_skipjack)
+	ruin_type_whitelist = list(
+		/datum/map_template/ruin/exoplanet/delivery_site,
+		/datum/map_template/ruin/exoplanet/crashed_coc_skipjack,
+		/datum/map_template/ruin/exoplanet/xanu_nayakhyber_army_base
+	)
 	possible_themes = list(/datum/exoplanet_theme/grass/xanu_nayakhyber)
 	surface_color = "#7c945c"
 	var/landing_region = "grasslands and mountains of Naya Khyber"
@@ -95,7 +99,11 @@
 			possible_themes = list(/datum/exoplanet_theme/grass/xanu_nayakhyber)
 			surface_color = "#7c945c"
 
-			ruin_type_whitelist = list(/datum/map_template/ruin/exoplanet/delivery_site, /datum/map_template/ruin/exoplanet/crashed_coc_skipjack, /datum/map_template/ruin/exoplanet/xanu_nayakhyber_army_base)
+			ruin_type_whitelist = list(
+				/datum/map_template/ruin/exoplanet/delivery_site,
+				/datum/map_template/ruin/exoplanet/crashed_coc_skipjack,
+				/datum/map_template/ruin/exoplanet/xanu_nayakhyber_army_base
+			)
 
 			desc += " The local government only permits Scientific Sampling operations in this area; other operations are not permitted."
 
@@ -104,6 +112,9 @@
 			surface_color = "#d0fac5"
 			initial_weather_state = /singleton/state/weather/calm/arctic_planet
 
-			ruin_type_whitelist = list(/datum/map_template/ruin/exoplanet/delivery_site, /datum/map_template/ruin/exoplanet/crashed_coc_skipjack)
+			ruin_type_whitelist = list(/datum/map_template/ruin/exoplanet/delivery_site,
+				/datum/map_template/ruin/exoplanet/crashed_coc_skipjack,
+				/datum/map_template/ruin/exoplanet/xanu_nayakhyber_army_base
+			)
 
 			desc += " The local government only permits Scientific Sampling operations in this area; other operations are not permitted."
