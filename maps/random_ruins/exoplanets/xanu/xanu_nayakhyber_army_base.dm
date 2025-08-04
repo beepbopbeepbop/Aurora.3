@@ -19,11 +19,11 @@
 	dynamic_lighting = TRUE
 	no_light_control = FALSE
 	is_outside = OUTSIDE_NO
-	base_turf = /turf/simulated/floor/exoplanet/grass
+	base_turf = /turf/simulated/floor/exoplanet/grass/stalk
 	area_flags = AREA_FLAG_RAD_SHIELDED|AREA_FLAG_INDESTRUCTIBLE_TURFS
 
 /area/xanu/xanu_nayakhyber_army_base/outdoors
-	name = "All-Xanu Grand Army Base Outdors"
+	name = "All-Xanu Grand Army Base Outdoors"
 	icon_state = "bluenew"
 	is_outside = OUTSIDE_YES
 	area_blurb = "A tall fence encircles squat concrete buildings."
@@ -44,7 +44,7 @@
 	mob_name_prefix = "SOLD. 1RE CL. "
 
 	outfit = /obj/outfit/admin/xanu_nayakhyber_army_soldier
-	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_DIONA, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
+	possible_species = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
 	uses_species_whitelist = TRUE
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
@@ -81,7 +81,7 @@
 	mob_name_prefix = "CPL. "
 
 	outfit = /obj/outfit/admin/xanu_nayakhyber_army_engineer
-	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_DIONA, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
+	possible_species = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
 	uses_species_whitelist = TRUE
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
@@ -108,7 +108,7 @@
 	mob_name_prefix = "SGT. "
 
 	outfit = /obj/outfit/admin/xanu_nayakhyber_army_medic
-	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_DIONA, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
+	possible_species = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
 	uses_species_whitelist = TRUE
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
@@ -135,7 +135,7 @@
 	mob_name_prefix = "LT. "
 
 	outfit = /obj/outfit/admin/xanu_nayakhyber_army_officer
-	possible_species = list(SPECIES_HUMAN, SPECIES_HUMAN_OFFWORLD, SPECIES_DIONA, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
+	possible_species = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_IPC_ZENGHU, SPECIES_IPC_BISHOP, SPECIES_IPC_SHELL)
 	uses_species_whitelist = TRUE
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 

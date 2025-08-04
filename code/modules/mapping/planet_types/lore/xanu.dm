@@ -112,9 +112,9 @@
 			surface_color = "#d0fac5"
 			initial_weather_state = /singleton/state/weather/calm/arctic_planet
 
-			ruin_type_whitelist = list(/datum/map_template/ruin/exoplanet/delivery_site,
+			ruin_type_whitelist = list(
+				/datum/map_template/ruin/exoplanet/delivery_site,
 				/datum/map_template/ruin/exoplanet/crashed_coc_skipjack,
-				/datum/map_template/ruin/exoplanet/xanu_nayakhyber_army_base
 			)
 
 			desc += " The local government only permits Scientific Sampling operations in this area; other operations are not permitted."
