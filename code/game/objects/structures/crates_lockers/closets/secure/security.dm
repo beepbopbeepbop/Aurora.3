@@ -296,7 +296,6 @@
 	new /obj/item/clothing/under/det/zavod(src)
 	new /obj/item/clothing/accessory/badge/investigator(src)
 	new /obj/item/clothing/shoes/laceup(src)
-	new /obj/item/clothing/shoes/laceup(src)
 	//Tools
 	new /obj/item/device/radio/headset/headset_sec(src)
 	new /obj/item/device/radio/headset/headset_sec/alt(src)
@@ -306,6 +305,7 @@
 	new /obj/item/device/flash(src)
 	new /obj/item/device/laser_pointer/blue(src)
 	new /obj/item/device/camera/detective(src)
+	new /obj/item/device/camera_film(src)
 	new /obj/item/device/camera_film(src)
 	new /obj/item/stamp/investigations(src)
 	new /obj/item/clothing/glasses/sunglasses/sechud/aviator(src)
