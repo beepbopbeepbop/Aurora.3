@@ -628,9 +628,9 @@
 	id = ACCESS_TCAF_SHIPS
 	access_type = ACCESS_TYPE_CENTCOM
 
-#define ACCESS_EE_SPY_SHIP 205
-/datum/access/ee_spy_ship
-	id = ACCESS_EE_SPY_SHIP
+#define ACCESS_EINSTEIN 205
+/datum/access/einstein
+	id = ACCESS_EINSTEIN
 	access_type = ACCESS_TYPE_CENTCOM
 
 #define ACCESS_CIVILIAN_STATION 206

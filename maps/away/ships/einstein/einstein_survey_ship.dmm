@@ -8,6 +8,37 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"ax" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(205)
+	},
+/obj/item/ammo_magazine/a556,
+/obj/item/ammo_magazine/a556,
+/obj/item/ammo_magazine/a556,
+/obj/item/ammo_magazine/a556/ap,
+/obj/item/ammo_magazine/a556/ap,
+/obj/item/ammo_magazine/a556/ap,
+/obj/item/storage/box/shotgunshells,
+/obj/item/storage/box/shotgunammo,
+/obj/item/storage/box/shotgunammo,
+/obj/item/ammo_magazine/mc9mmt,
+/obj/item/ammo_magazine/mc9mmt,
+/obj/item/ammo_magazine/mc9mmt,
+/obj/item/ammo_magazine/mc9mmt,
+/obj/item/ammo_magazine/mc9mmt,
+/obj/item/ammo_magazine/mc9mmt,
+/obj/item/ammo_magazine/mc9mmt,
+/obj/item/ammo_magazine/mc9mmt,
+/obj/item/ammo_magazine/submachinemag/assassin,
+/obj/item/ammo_magazine/submachinemag/assassin,
+/obj/item/ammo_magazine/submachinemag/assassin,
+/obj/item/ammo_magazine/submachinemag/assassin,
+/obj/item/ammo_magazine/submachinemag/assassin,
+/obj/item/ammo_magazine/submachinemag/assassin,
+/obj/item/ammo_magazine/submachinemag/assassin,
+/obj/item/ammo_magazine/submachinemag/assassin,
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "ay" = (
 /obj/machinery/atmospherics/valve{
 	name = "Emergency Thermal Relief Valve";
@@ -19,6 +50,10 @@
 /obj/effect/floor_decal/industrial/hatch_tiny/yellow,
 /turf/simulated/floor,
 /area/space)
+"aI" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/turf/simulated/floor/tiled/dark/full,
+/area/space)
 "aK" = (
 /obj/effect/floor_decal/corner_wide/dark_green{
 	dir = 10
@@ -27,7 +62,8 @@
 /area/space)
 "aO" = (
 /obj/machinery/button/remote/airlock{
-	pixel_y = -17
+	pixel_y = -17;
+	req_access = list(205)
 	},
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 8;
@@ -183,7 +219,8 @@
 /area/space)
 "es" = (
 /obj/machinery/computer/ship/sensors/terminal{
-	dir = 1
+	dir = 1;
+	req_access = list(205)
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
@@ -200,7 +237,8 @@
 /area/space)
 "eV" = (
 /obj/machinery/computer/ship/engines/terminal{
-	dir = 1
+	dir = 1;
+	req_access = list(205)
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
@@ -213,6 +251,21 @@
 	dir = 8
 	},
 /turf/simulated/floor,
+/area/space)
+"fM" = (
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/emergency_oxygen/double,
+/obj/item/tank/emergency_oxygen/double,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/clothing/mask/gas/tactical,
+/obj/item/clothing/mask/gas/tactical,
+/obj/structure/closet/walllocker/secure{
+	pixel_y = 32;
+	req_access = list(205)
+	},
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "fN" = (
 /obj/effect/floor_decal/corner_wide/dark_green{
@@ -248,6 +301,14 @@
 /obj/structure/undies_wardrobe,
 /obj/machinery/alarm/east,
 /turf/simulated/floor/tiled/white,
+/area/space)
+"gE" = (
+/obj/structure/closet/secure_closet/cabinet{
+	pixel_x = -1;
+	req_access = list(205)
+	},
+/obj/item/clothing/under/rank/liaison/einstein,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "gH" = (
 /obj/machinery/atmospherics/valve{
@@ -435,6 +496,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"mD" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "mH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 5
@@ -561,8 +628,8 @@
 /turf/simulated/floor/airless,
 /area/space)
 "qi" = (
-/obj/structure/closet/secure_closet/cabinet{
-	pixel_x = -1
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
@@ -597,7 +664,8 @@
 /area/space)
 "qS" = (
 /obj/machinery/computer/ship/targeting/terminal{
-	dir = 1
+	dir = 1;
+	req_access = list(205)
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
@@ -695,6 +763,20 @@
 /area/space)
 "sn" = (
 /obj/structure/bed/stool/chair/office/light,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"sL" = (
+/obj/item/clothing/under/rank/security/einstein,
+/turf/simulated/floor/tiled/dark,
+/area/space)
+"tx" = (
+/obj/structure/weapons_rack{
+	req_access = list(205)
+	},
+/obj/item/gun/projectile/automatic/wt550/lethal,
+/obj/item/gun/projectile/automatic/wt550/lethal,
+/obj/item/gun/projectile/automatic/tommygun/assassin,
+/obj/item/gun/projectile/automatic/tommygun/assassin,
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "tG" = (
@@ -972,6 +1054,10 @@
 /obj/effect/map_effect/window_spawner/full/shuttle/mercenary,
 /turf/simulated/floor,
 /area/space)
+"An" = (
+/obj/machinery/suit_cycler/offship/einstein,
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "Aq" = (
 /obj/machinery/computer/ship/targeting{
 	dir = 1
@@ -1050,6 +1136,17 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
+/area/space)
+"BA" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/structure/table/rack,
+/obj/item/rig/merc/einstein{
+	req_access = list(205);
+	req_one_access = null
+	},
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "BE" = (
 /obj/effect/map_effect/window_spawner/full/borosilicate/reinforced,
@@ -1156,9 +1253,15 @@
 /obj/effect/floor_decal/corner_wide/dark_green,
 /turf/simulated/floor/tiled/white,
 /area/space)
+"Dq" = (
+/obj/structure/table/reinforced/wood,
+/obj/item/stamp/einstein,
+/turf/simulated/floor/wood/walnut,
+/area/space)
 "Dw" = (
 /obj/machinery/computer/ship/helm/terminal{
-	dir = 1
+	dir = 1;
+	req_access = list(205)
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/full,
@@ -1210,6 +1313,7 @@
 /area/space)
 "Gj" = (
 /obj/structure/bed/padded,
+/obj/effect/ghostspawpoint/einstein_ship_crew/captain,
 /turf/simulated/floor/wood/walnut,
 /area/space)
 "Gk" = (
@@ -1327,6 +1431,13 @@
 	dir = 10
 	},
 /turf/simulated/floor/reinforced/airless,
+/area/space)
+"Is" = (
+/obj/effect/floor_decal/corner_wide/dark_green{
+	dir = 9
+	},
+/obj/item/clothing/under/rank/scientist/einstein,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "It" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/green,
@@ -1456,6 +1567,30 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"LK" = (
+/obj/structure/closet/walllocker/secure{
+	pixel_y = 32;
+	req_access = list(205)
+	},
+/obj/item/clothing/accessory/holster/thigh,
+/obj/item/clothing/accessory/holster/thigh,
+/obj/item/clothing/accessory/storage/pouches/black,
+/obj/item/clothing/accessory/storage/pouches/black,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/accessory/storage/bandolier,
+/obj/item/ammo_display,
+/obj/item/ammo_display,
+/obj/item/ammo_display,
+/obj/item/ammo_display,
+/obj/item/ammo_display,
+/obj/item/ammo_display,
+/obj/item/ammo_display,
+/obj/item/ammo_display,
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "LN" = (
 /obj/structure/bed/stool/chair/office/dark,
 /turf/simulated/floor/tiled/dark,
@@ -1567,6 +1702,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
+"Oa" = (
+/obj/structure/weapons_rack{
+	req_access = list(205)
+	},
+/obj/item/gun/projectile/automatic/rifle/z8,
+/obj/item/gun/projectile/automatic/rifle/z8,
+/obj/item/gun/projectile/shotgun/pump/combat,
+/obj/item/gun/energy/rifle/laser/noctiluca,
+/turf/simulated/floor/tiled/dark,
+/area/space)
 "Op" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /obj/machinery/atmospherics/portables_connector{
@@ -1650,6 +1795,16 @@
 	},
 /obj/structure/railing/mapped,
 /turf/space,
+/area/space)
+"QP" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(205)
+	},
+/obj/item/gun/energy/pistol,
+/obj/item/gun/energy/pistol,
+/obj/item/gun/energy/pistol,
+/obj/item/gun/energy/pistol,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 "QX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
@@ -1872,6 +2027,10 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/grey,
 /turf/simulated/floor/tiled/dark,
+/area/space)
+"Yl" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "Yv" = (
 /obj/structure/platform/ledge/dark{
@@ -29532,12 +29691,12 @@ Ug
 hQ
 kX
 eR
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
+yg
+yg
+yg
+yg
+yg
+yg
 Tq
 Tq
 Tq
@@ -29789,12 +29948,12 @@ yg
 eR
 bj
 eR
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
+yg
+Oa
+tx
+QP
+ax
+yg
 Tq
 Tq
 Tq
@@ -30044,21 +30203,21 @@ iZ
 Ip
 yg
 eR
-bj
+nc
 eR
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
+yg
+LK
+cA
+cA
+cA
+yg
+eR
+eR
+eR
+eR
+eR
+eR
+yg
 Tq
 Tq
 Tq
@@ -30302,28 +30461,28 @@ LE
 yg
 eR
 nc
+yg
+yg
+fM
+Ff
+Ff
+cA
+yg
+Ae
+Ae
+Ae
+Ae
+Ae
+Ae
+yg
+eR
+eR
 eR
 yg
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
 eR
 eR
 eR
-eR
-eR
-eR
-eR
-eR
+yg
 eR
 eR
 Tq
@@ -30559,27 +30718,27 @@ BE
 yg
 yg
 nc
-hC
 yg
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
+cA
+cA
+cA
+cA
+cA
 yg
+hO
+VX
+VX
+VX
+VX
+Gj
 yg
+Ae
+Ae
+Ae
 yg
-yg
-yg
-yg
-yg
-yg
+Ae
+Ae
+Ae
 yg
 yg
 eR
@@ -30816,18 +30975,18 @@ CJ
 SC
 yg
 nc
-hC
 yg
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
-Tq
+mD
+mD
+BA
+An
+An
+yg
+gE
+VX
+VX
+Yl
+Yl
 yg
 yg
 Ff
@@ -31073,15 +31232,15 @@ MS
 UA
 yg
 nc
-hC
 yg
-Tq
-Tq
-Tq
-Tq
+aI
+aI
 yg
 yg
 yg
+yg
+yg
+yA
 yg
 yg
 yg
@@ -31330,12 +31489,12 @@ kA
 zX
 yg
 nc
-hC
 yg
-Tq
-Tq
-Tq
-Tq
+qi
+qi
+yg
+cA
+cA
 yg
 dX
 VX
@@ -31587,12 +31746,12 @@ NK
 ra
 yg
 nc
-hC
 yg
-Ae
-Ae
-Ae
-Ae
+cA
+cA
+uF
+cA
+cA
 yg
 Yg
 VX
@@ -31844,16 +32003,16 @@ cA
 Op
 yg
 nc
-hC
+yg
+cA
+cA
+yg
+yg
+yg
 yg
 VX
 VX
-VX
-VX
-yg
-VX
-VX
-iV
+Dq
 iV
 iV
 Ae
@@ -32102,12 +32261,12 @@ Cv
 yg
 CI
 yg
+cA
+cA
+cA
+cA
+sL
 yg
-Gj
-VX
-VX
-VX
-uF
 VX
 VX
 VX
@@ -32118,7 +32277,7 @@ cA
 yb
 cA
 yg
-hC
+cA
 cA
 cA
 cA
@@ -32359,11 +32518,11 @@ mj
 yg
 Rc
 yg
-yg
-VX
-VX
-qi
-hO
+cA
+cA
+cA
+cA
+cA
 yg
 VX
 VX
@@ -32375,16 +32534,16 @@ cA
 yb
 cA
 yg
-hC
-KQ
-dC
-dC
-dC
-dC
-dC
-dC
-dC
-lh
+cA
+cA
+cA
+cA
+cA
+cA
+cA
+cA
+cA
+cA
 yg
 ri
 cK
@@ -32617,7 +32776,7 @@ yg
 Sj
 yg
 yg
-yg
+yA
 yg
 yg
 yg
@@ -32632,8 +32791,6 @@ cA
 yb
 cA
 yg
-hC
-cG
 cA
 cA
 cA
@@ -32641,7 +32798,9 @@ cA
 cA
 cA
 cA
-yf
+cA
+cA
+cA
 yg
 on
 Dd
@@ -32873,11 +33032,11 @@ dC
 dC
 ar
 dC
-dC
-dC
-dC
-dC
-dC
+cA
+cA
+cA
+cA
+cA
 dC
 dC
 cA
@@ -32889,16 +33048,16 @@ cA
 yb
 cA
 yg
-hC
-cG
-yb
-yb
-yb
 cA
-yb
-yb
-yb
-yf
+cA
+cA
+cA
+cA
+cA
+cA
+cA
+cA
+cA
 Dc
 nI
 aK
@@ -33146,8 +33305,6 @@ yb
 yb
 yb
 uF
-hC
-cG
 cA
 cA
 cA
@@ -33155,7 +33312,9 @@ cA
 cA
 cA
 cA
-yf
+cA
+cA
+cA
 yg
 AZ
 aK
@@ -33167,8 +33326,8 @@ zc
 FS
 yg
 qL
-hC
-hC
+yg
+yg
 Ik
 yg
 Tq
@@ -33403,16 +33562,16 @@ zb
 cA
 cA
 yg
-hC
-Av
-zb
-zb
-zb
-zb
-zb
-zb
-zb
-Cm
+cA
+cA
+cA
+cA
+cA
+cA
+cA
+cA
+cA
+cA
 yg
 Cp
 Bd
@@ -34415,7 +34574,7 @@ yg
 Rc
 yg
 Gw
-ic
+zb
 dh
 yg
 Tq
@@ -34425,7 +34584,7 @@ xM
 TW
 KQ
 dC
-dC
+Is
 dC
 dC
 lh

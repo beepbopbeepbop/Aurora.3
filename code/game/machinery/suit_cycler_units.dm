@@ -215,6 +215,15 @@
 	suit = /obj/item/clothing/suit/space/void/hegemony/captain
 	helmet = /obj/item/clothing/head/helmet/space/void/hegemony/captain
 
+/obj/machinery/suit_cycler/offship/einstein
+	model_text = "Einstein Engines"
+	req_access = list(ACCESS_EINSTEIN)
+	departments = list("Einstein Engines")
+	species = list(BODYTYPE_HUMAN, BODYTYPE_SKRELL, BODYTYPE_IPC)
+	mask = /obj/item/clothing/mask/gas/half
+	suit = /obj/item/clothing/suit/space/void/einstein
+	helmet = /obj/item/clothing/head/helmet/space/void/einstein
+
 /obj/machinery/suit_cycler/offship/hephaestus
 	model_text = "Hephaestus Industries"
 	req_access = list(ACCESS_HEPHAESTUS)
