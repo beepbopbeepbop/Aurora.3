@@ -16,6 +16,8 @@
 /singleton/submap_archetype/einstein_survey_ship
 	map = "Einstein Survey Ship"
 	descriptor = "."
+
+/obj/effect/overmap/visitable/ship/einstein_survey_ship
 	name = "Einstein Survey Ship"
 	class = "EEV" // Einstein Engines Vessel
 	desc = "."
