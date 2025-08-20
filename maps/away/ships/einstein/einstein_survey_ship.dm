@@ -9,8 +9,8 @@
 	ship_cost = 1
 	spawn_weight = 1
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/einstein_survey_shuttle)
-	spawn_weight_sector_dependent = list()
-	sectors = list()
+	spawn_weight_sector_dependent = list(ALL_GENERIC_SECTORS = 1, SECTOR_BADLANDS = 0.5, SECTOR_HANEUNIM = 1, SECTOR_WEEPING_STARS = 1)
+	sectors = list(ALL_GENERIC_SECTORS, SECTOR_BADLANDS, SECTOR_HANEUNIM, SECTOR_WEEPING_STARS)
 	unit_test_groups = list(3)
 
 /singleton/submap_archetype/einstein_survey_ship
@@ -51,11 +51,11 @@
 
 	invisible_until_ghostrole_spawn = TRUE
 
-/obj/effect/overmap/visitable/ship/hailstorm_ship/New()
+/obj/effect/overmap/visitable/ship/einstein_survey_ship/New()
 	designation = "[pick("x")]"
 	..()
 
-/obj/effect/overmap/visitable/ship/hailstorm_ship/get_skybox_representation()
+/obj/effect/overmap/visitable/ship/einstein_survey_ship/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "hailstorm")
 	skybox_image.pixel_x = rand(0,64)
 	skybox_image.pixel_y = rand(128,256)
