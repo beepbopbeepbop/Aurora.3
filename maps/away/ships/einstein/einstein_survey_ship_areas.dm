@@ -7,3 +7,8 @@
 	base_turf = /turf/space
 	area_flags = AREA_FLAG_RAD_SHIELDED
 	ambience = AMBIENCE_ENGINEERING
+
+// Shuttle area
+/area/shuttle/einstein_survey_shuttle
+	name = "Einstein Survey Shuttle"
+	requires_power = TRUE

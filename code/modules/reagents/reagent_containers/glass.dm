@@ -219,6 +219,8 @@
 
 /obj/item/reagent_containers/glass/beaker/cryoxadone/reagents_to_add = list(/singleton/reagent/cryoxadone = 30)
 
+/obj/item/reagent_containers/glass/beaker/cryoxadone/full/reagents_to_add = list(/singleton/reagent/cryoxadone = 60)
+
 /obj/item/reagent_containers/glass/beaker/sulphuric/reagents_to_add = list(/singleton/reagent/acid = 60)
 
 /obj/item/reagent_containers/glass/beaker/pitcher
