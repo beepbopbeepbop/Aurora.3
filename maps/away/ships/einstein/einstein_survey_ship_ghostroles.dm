@@ -49,7 +49,7 @@
 	special_role = "Einstein Survey Ship Captain"
 	respawn_flag = null
 
-/obj/outfit/admin/einstein_crewman/captain
+/obj/outfit/admin/einstein_captain
 	name = "Einstein Survey Ship Captain"
 	uniform = /obj/item/clothing/under/rank/liaison/einstein
 	glasses = /obj/item/clothing/glasses/sunglasses/aviator
@@ -80,7 +80,7 @@
 	special_role = "Einstein Survey Ship Researcher"
 	respawn_flag = null
 
-/obj/outfit/admin/einstein_crewman/scientist
+/obj/outfit/admin/einstein_scientist
 	name = "Einstein Survey Ship Researcher"
 	uniform = /obj/item/clothing/under/rank/scientist/einstein
 	suit = /obj/item/clothing/suit/storage/toggle/longcoat
@@ -110,7 +110,7 @@
 	special_role = "Einstein Survey Ship Security"
 	respawn_flag = null
 
-/obj/outfit/admin/einstein_crewman/security
+/obj/outfit/admin/einstein_security
 	name = "Einstein Survey Ship Security"
 	uniform = /obj/item/clothing/under/rank/security/einstein
 	gloves = /obj/item/clothing/gloves/swat
@@ -140,7 +140,7 @@
 	special_role = "Einstein Survey Ship Synthetic"
 	respawn_flag = null
 
-/obj/outfit/admin/einstein_crewman/synth
+/obj/outfit/admin/einstein_synth
 	name = "Einstein Survey Ship Synthetic"
 	uniform = /obj/item/clothing/under/rank/einstein/synthetic
 

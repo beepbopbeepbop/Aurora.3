@@ -37,7 +37,7 @@
 	vessel_size = SHIP_SIZE_SMALL
 
 	initial_restricted_waypoints = list(
-		"Einstein Survey Shuttle" = list("nav_hangar_einstein")
+		"Einstein Survey Shuttle" = list("nav_hangar_einstein_survey_ship")
 	)
 
 	initial_generic_waypoints = list(
@@ -45,6 +45,8 @@
 		"einstein_survey_ship_nav2",
 		"einstein_survey_ship_nav3",
 		"einstein_survey_ship_nav4",
+		"einstein_survey_ship_fore_dock",
+		"einstein_survey_ship_aft_dock",
 		"einstein_survey_ship_starboard_dock",
 		"einstein_survey_ship_port_dock",
 	)

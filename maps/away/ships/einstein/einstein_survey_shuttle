@@ -26,8 +26,8 @@
 	name = "Einstein Survey Shuttle"
 	move_time = 20
 	shuttle_area = list(/area/shuttle/einstein_survey_shuttle)
-	current_location = "nav_hangar_einstein_survey_shuttle"
-	landmark_transition = "nav_transit_heinstein_survey_shuttle"
+	current_location = "nav_hangar_einstein_survey_ship"
+	landmark_transition = "nav_transit_einstein_survey_shuttle"
 	dock_target = "einstein_survey_shuttle"
 	range = 1
 	fuel_consumption = 2
