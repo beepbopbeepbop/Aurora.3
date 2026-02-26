@@ -47,7 +47,7 @@
 	/obj/item/spacecash/c20 = 1
 	)
 
-/obj/machinery/vending/boozeomat/unathi_pirate
+/obj/machinery/vending/boozeomat/izharshan
 	products = list(
 		/obj/item/reagent_containers/food/drinks/shaker = 2,
 		/obj/item/reagent_containers/food/drinks/drinkingglass = 4,
@@ -65,7 +65,7 @@
 		/obj/item/reagent_containers/food/drinks/bottle/small/xuizijuice = 10,
 		/obj/item/reagent_containers/food/drinks/cans/threetowns = 10,
 		/obj/item/reagent_containers/food/drinks/bottle/sarezhiwine = 10)
-	req_access = list(210)
+	req_access = list(256)
 	restock_items = TRUE
 
 //shuttle time :)
