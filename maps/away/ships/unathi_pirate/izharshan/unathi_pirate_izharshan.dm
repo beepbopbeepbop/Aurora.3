@@ -7,7 +7,7 @@
 	suffix = "unathi_pirate_izharshan.dmm"
 
 	spawn_weight = 1
-	template_flags = TEMPLATE_FLAG_RUIN_STARTS_DISALLOWED // Disabled for debloating. Feel free to enable again if reworked or relevant.
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 	ship_cost = 1
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/unathi_pirate_izharshan)
 	sectors = list(SECTOR_NRRAHRAHUL, SECTOR_BADLANDS, SECTOR_GAKAL, SECTOR_UUEOAESA)
@@ -17,30 +17,31 @@
 
 /singleton/submap_archetype/unathi_pirate_izharshan
 	map = "Izharshan Shuttle"
-	descriptor = "A shuttle belonging to the Unahi pirates of Izharshan's Raiders."
+	descriptor = "A shuttle belonging to the unathi pirates of Izharshan's Raiders."
 
 /area/shuttle/unathi_pirate_izharshan
-	name = "Izharshan Freighter"
+	name = "Izharshan Shuttle"
 	requires_power = TRUE
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
 
 /area/shuttle/unathi_pirate_izharshan/operations
-	name = "Izharshan Freighter Operations"
+	name = "Izharshan Shuttle - Operations"
 	icon_state = "engineering_workshop"
 
 /area/shuttle/unathi_pirate_izharshan/helm
-	name = "Izharshan Freighter Helm"
+	name = "Izharshan Shuttle - Helm"
 	icon_state = "bridge"
 
 /area/shuttle/unathi_pirate_izharshan/dorms
-	name = "Izharshan Freighter Dorms"
+	name = "Izharshan Shuttle - Dorms"
 	icon_state = "Sleep"
 
 /obj/item/storage/secure/safe/unathi_pirate_izharshan
 	starts_with = list(
 	/obj/item/ship_ammunition/bruiser/he = 1,
-	/obj/item/clothing/accessory/badge/passport/dominia = 1,
-	/obj/item/clothing/accessory/badge/passport/coc = 1,
+	/obj/item/clothing/accessory/badge/passport/hegemony = 4,
+	/obj/item/clothing/accessory/badge/passport/dominia = 4,
+	/obj/item/clothing/accessory/badge/passport/coc = 4,
 	/obj/item/spacecash/c1000 = 1,
 	/obj/item/spacecash/c200 = 1,
 	/obj/item/spacecash/c20 = 1
@@ -70,7 +71,7 @@
 //shuttle time :)
 
 /obj/effect/overmap/visitable/ship/landable/unathi_pirate_izharshan
-	name = "Izharshan freighter"
+	name = "Izharshan Freighter"
 	class = "ISV"
 	shuttle = "Izharshan Freighter"
 	designation = "Anvil"
@@ -94,15 +95,15 @@
 	skybox_image.pixel_y = rand(128,256)
 	return skybox_image
 
-/obj/machinery/computer/shuttle_control/explore/unathi_pirate_izharshan
+/obj/machinery/computer/shuttle_control/explore/terminal/unathi_pirate_izharshan
 	name = "shuttle control console"
 	shuttle_tag = "Izharshan Freighter"
 
 /datum/shuttle/autodock/overmap/unathi_pirate_izharshan
 	name = "Izharshan Freighter"
-	move_time = 35
+	move_time = 20
 	range = 2
-	fuel_consumption = 6
+	fuel_consumption = 2
 	shuttle_area = list(/area/shuttle/unathi_pirate_izharshan/operations, /area/shuttle/unathi_pirate_izharshan/dorms, /area/shuttle/unathi_pirate_izharshan/helm)
 	current_location = "nav_izharshan_space"
 	dock_target = "unathi_pirate_izharshan"

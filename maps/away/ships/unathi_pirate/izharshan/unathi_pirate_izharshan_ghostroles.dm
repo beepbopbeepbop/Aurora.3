@@ -14,7 +14,7 @@
 	assigned_role = "Izharshan Crewman"
 	special_role = "Izharshan Crewman"
 	respawn_flag = null
-	extra_languages = list(LANGUAGE_AZAZIBA)
+	extra_languages = list(LANGUAGE_UNATHI, LANGUAGE_AZAZIBA)
 
 	uses_species_whitelist = FALSE
 
@@ -61,20 +61,18 @@
 	)
 
 /obj/outfit/admin/izharshan/get_id_access()
-	return list(ACCESS_UNATHI_PIRATE, ACCESS_EXTERNAL_AIRLOCKS)
+	return list(ACCESS_IZHARSHAN_PIRATE_CREW, ACCESS_EXTERNAL_AIRLOCKS)
 
 /obj/outfit/admin/izharshan/captain
 	name = "Izharshan Captain"
 
 	suit = /obj/item/clothing/suit/storage/toggle/asymmetriccoat/izharshan
 	gloves = /obj/item/clothing/gloves/orange/unathi
-	accessory = /obj/item/clothing/accessory/holster/thigh
-	accessory_contents = list(/obj/item/gun/projectile/pistol/spitter = 1)
 	head = /obj/item/clothing/head/bandana/pirate
 
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
-		/obj/item/clothing/suit/space/void/unathi_pirate/captain = 1, //the best way to make sure only the captain takes his suit
-		/obj/item/clothing/head/helmet/space/void/unathi_pirate/captain = 1,
-		/obj/item/ammo_magazine/spitterpistol = 2
 	)
+
+/obj/outfit/admin/izharshan/get_id_access()
+	return list(ACCESS_IZHARSHAN_PIRATE_CAPTAIN, ACCESS_IZHARSHAN_PIRATE_CREW, ACCESS_EXTERNAL_AIRLOCKS)

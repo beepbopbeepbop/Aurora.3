@@ -896,3 +896,15 @@
 /datum/access/decrepit_shipyard_staff
 	id = ACCESS_DECREPIT_SHIPYARD_STAFF
 	desc = "Decrepit Shipyard, Staff Access"
+
+#define ACCESS_IZHARSHAN_PIRATE_CREW 256
+/datum/access/izharshan_pirate_crew
+	id = ACCESS_IZHARSHAN_PIRATE_CREW
+	access_type = ACCESS_TYPE_CENTCOM
+	desc = "Izharshan Skiff Crew Access"
+
+#define ACCESS_IZHARSHAN_PIRATE_CAPTAIN 257
+/datum/access/izharshan_pirate_captain
+	id = ACCESS_IZHARSHAN_PIRATE_CAPTAIN
+	access_type = ACCESS_TYPE_CENTCOM
+	desc = "Izharshan Skiff Captain Access"
