@@ -74,5 +74,5 @@
 		/obj/item/storage/box/survival = 1,
 	)
 
-/obj/outfit/admin/izharshan/get_id_access()
+/obj/outfit/admin/izharshan/captain/get_id_access()
 	return list(ACCESS_IZHARSHAN_PIRATE_CAPTAIN, ACCESS_IZHARSHAN_PIRATE_CREW, ACCESS_EXTERNAL_AIRLOCKS)
