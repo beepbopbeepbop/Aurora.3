@@ -344,6 +344,19 @@
 	suit = /obj/item/clothing/suit/space/void/unathi_pirate/tarwa/captain
 	helmet = /obj/item/clothing/head/helmet/space/void/unathi_pirate/tarwa/captain
 
+/obj/machinery/suit_cycler/offship/izharshan
+	model_text = "Izharshan's Raiders"
+	req_access = list(ACCESS_IZHARSHAN_PIRATE_CREW)
+	departments = list("Izharshan's Raiders")
+	species = list(BODYTYPE_UNATHI)
+	suit = /obj/item/clothing/suit/space/void/unathi_pirate/
+	helmet = /obj/item/clothing/head/helmet/space/void/unathi_pirate
+
+/obj/machinery/suit_cycler/offship/izharshan/captain
+	req_access_one = list(ACCESS_IZHARSHAN_PIRATE_CREW, ACCESS_IZHARSHAN_PIRATE_CAPTAIN)
+	suit = /obj/item/clothing/suit/space/void/unathi_pirate/captain
+	helmet = /obj/item/clothing/head/helmet/space/void/unathi_pirate/captain
+
 // For owned Golden Deep synthetics, Thesians, and other non-combatants.
 /obj/machinery/suit_cycler/offship/golden_deep
 	model_text = "Golden Deep"

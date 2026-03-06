@@ -19,23 +19,69 @@
 	map = "Izharshan Shuttle"
 	descriptor = "A shuttle belonging to the unathi pirates of Izharshan's Raiders."
 
-/area/shuttle/unathi_pirate_izharshan
-	name = "Izharshan Shuttle"
-	requires_power = TRUE
-	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
+// Airlock
+/obj/effect/map_effect/marker/airlock/shuttle/unathi_pirate_izharshan
+	name = "unathi_pirate_izharshan"
+	master_tag = "unathi_pirate_izharshan"
+	shuttle_tag = "Izharshan Shuttle"
+	cycle_to_external_air = TRUE
 
-/area/shuttle/unathi_pirate_izharshan/operations
-	name = "Izharshan Shuttle - Operations"
-	icon_state = "engineering_workshop"
+// Shuttle time :)
+/obj/effect/overmap/visitable/ship/landable/unathi_pirate_izharshan
+	name = "Izharshan Freighter"
+	class = "ISV"
+	shuttle = "Izharshan Freighter"
+	designation = "Anvil"
+	desc = "Though the sensors identify the engine signature and overall rough profile of the signal as being from an older Hegemonic Brick-class civilian freight shuttle, many modifications are detected, such as possible anti-ship weaponry onboard."
+	icon_state = "generic"
+	moving_state = "generic_moving"
+	colors = list("#95de9c")
+	scanimage = "unathi_freighter1.png"
+	max_speed = 1/(2 SECONDS)
+	burn_delay = 2 SECONDS
+	vessel_mass = 7500
+	vessel_size = SHIP_SIZE_SMALL
+	fore_dir = SOUTH
+	comms_name = "modified"
+	use_mapped_z_levels = TRUE
+	invisible_until_ghostrole_spawn = TRUE
 
-/area/shuttle/unathi_pirate_izharshan/helm
-	name = "Izharshan Shuttle - Helm"
-	icon_state = "bridge"
+/obj/effect/overmap/visitable/ship/landable/unathi_pirate_izharshan/get_skybox_representation()
+	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "unathi_freighter1")
+	skybox_image.pixel_x = rand(0,64)
+	skybox_image.pixel_y = rand(128,256)
+	return skybox_image
 
-/area/shuttle/unathi_pirate_izharshan/dorms
-	name = "Izharshan Shuttle - Dorms"
-	icon_state = "Sleep"
+// Shuttle control console
+/obj/machinery/computer/shuttle_control/explore/terminal/unathi_pirate_izharshan
+	name = "shuttle control console"
+	shuttle_tag = "Izharshan Freighter"
 
+// This controls how docking behaves
+/datum/shuttle/autodock/overmap/unathi_pirate_izharshan
+	name = "Izharshan Freighter"
+	move_time = 20
+	range = 2
+	fuel_consumption = 2
+	shuttle_area = list(/area/shuttle/unathi_pirate_izharshan/operations, /area/shuttle/unathi_pirate_izharshan/dorms, /area/shuttle/unathi_pirate_izharshan/helm)
+	current_location = "nav_izharshan_space"
+	dock_target = "unathi_pirate_izharshan"
+	landmark_transition = "nav_izharshan_transit"
+	logging_home_tag = "nav_izharshan_space"
+	defer_initialisation = TRUE
+
+// Main shuttle landmark
+/obj/effect/shuttle_landmark/ship/unathi_pirate_izharshan
+	shuttle_name = "Izharshan Freighter"
+	landmark_tag = "nav_izharshan_space"
+
+// Transit landmark
+/obj/effect/shuttle_landmark/izharshan_transit
+	name = "In transit"
+	landmark_tag = "nav_izharshan_transit"
+	base_turf = /turf/space
+
+// Custom stuff
 /obj/item/storage/secure/safe/unathi_pirate_izharshan
 	starts_with = list(
 	/obj/item/ship_ammunition/bruiser/he = 1,
@@ -67,55 +113,3 @@
 		/obj/item/reagent_containers/food/drinks/bottle/sarezhiwine = 10)
 	req_access = list(256)
 	restock_items = TRUE
-
-//shuttle time :)
-
-/obj/effect/overmap/visitable/ship/landable/unathi_pirate_izharshan
-	name = "Izharshan Freighter"
-	class = "ISV"
-	shuttle = "Izharshan Freighter"
-	designation = "Anvil"
-	desc = "Though the sensors identify the engine signature and overall rough profile of the signal as being from an older Hegemonic Brick-class civilian freight shuttle, many modifications are detected, such as possible anti-ship weaponry onboard."
-	icon_state = "generic"
-	moving_state = "generic_moving"
-	colors = list("#95de9c")
-	scanimage = "unathi_freighter1.png"
-	max_speed = 1/(2 SECONDS)
-	burn_delay = 2 SECONDS
-	vessel_mass = 7500 //This truck is too damn big
-	vessel_size = SHIP_SIZE_SMALL
-	fore_dir = SOUTH
-	comms_name = "modified"
-	use_mapped_z_levels = TRUE
-	invisible_until_ghostrole_spawn = TRUE
-
-/obj/effect/overmap/visitable/ship/landable/unathi_pirate_izharshan/get_skybox_representation()
-	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "unathi_freighter1")
-	skybox_image.pixel_x = rand(0,64)
-	skybox_image.pixel_y = rand(128,256)
-	return skybox_image
-
-/obj/machinery/computer/shuttle_control/explore/terminal/unathi_pirate_izharshan
-	name = "shuttle control console"
-	shuttle_tag = "Izharshan Freighter"
-
-/datum/shuttle/autodock/overmap/unathi_pirate_izharshan
-	name = "Izharshan Freighter"
-	move_time = 20
-	range = 2
-	fuel_consumption = 2
-	shuttle_area = list(/area/shuttle/unathi_pirate_izharshan/operations, /area/shuttle/unathi_pirate_izharshan/dorms, /area/shuttle/unathi_pirate_izharshan/helm)
-	current_location = "nav_izharshan_space"
-	dock_target = "unathi_pirate_izharshan"
-	landmark_transition = "nav_izharshan_transit"
-	logging_home_tag = "nav_izharshan_space"
-	defer_initialisation = TRUE
-
-/obj/effect/shuttle_landmark/ship/unathi_pirate_izharshan
-	shuttle_name = "Izharshan Freighter"
-	landmark_tag = "nav_izharshan_space"
-
-/obj/effect/shuttle_landmark/izharshan_transit
-	name = "In transit"
-	landmark_tag = "nav_izharshan_transit"
-	base_turf = /turf/space
