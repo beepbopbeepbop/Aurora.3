@@ -25,7 +25,7 @@
 	icon_state = "bridge"
 
 /area/shuttle/unathi_pirate_izharshan/observation
-	name = "Izharshan Shuttle - Observation Deck
+	name = "Izharshan Shuttle - Observation Deck"
 	icon_state = "bridge"
 
 /area/shuttle/unathi_pirate_izharshan/dorms
