@@ -25,6 +25,7 @@
 	master_tag = "unathi_pirate_izharshan"
 	shuttle_tag = "Izharshan Shuttle"
 	cycle_to_external_air = TRUE
+	req_one_access = list(ACCESS_IZHARSHAN_PIRATE_CREW)
 
 // Shuttle time :)
 /obj/effect/overmap/visitable/ship/landable/unathi_pirate_izharshan
@@ -113,3 +114,21 @@
 		/obj/item/reagent_containers/food/drinks/bottle/sarezhiwine = 10)
 	req_access = list(256)
 	restock_items = TRUE
+
+/obj/item/clothing/under/unathi/izharshan
+	color = "#f3840e"
+	accent_color = "#f3840e"
+
+/obj/item/clothing/under/unathi/zazali/izharshan
+	color = "#f3840e"
+	accent_color = "#f3840e"
+
+/obj/item/clothing/under/unathi/zozo/izharshan
+	color = "#f3840e"
+	accent_color = "#f3840e"
+
+/obj/item/clothing/accessory/sinta_hood/izharshan
+	color = "#ba650b"
+
+/obj/item/clothing/suit/storage/toggle/asymmetriccoat/izharshan
+	color = "#eed8c1"

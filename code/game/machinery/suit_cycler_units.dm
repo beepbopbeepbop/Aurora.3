@@ -353,7 +353,7 @@
 	helmet = /obj/item/clothing/head/helmet/space/void/unathi_pirate
 
 /obj/machinery/suit_cycler/offship/izharshan/captain
-	req_access_one = list(ACCESS_IZHARSHAN_PIRATE_CREW, ACCESS_IZHARSHAN_PIRATE_CAPTAIN)
+	req_one_access = list(ACCESS_IZHARSHAN_PIRATE_CREW, ACCESS_IZHARSHAN_PIRATE_CAPTAIN)
 	suit = /obj/item/clothing/suit/space/void/unathi_pirate/captain
 	helmet = /obj/item/clothing/head/helmet/space/void/unathi_pirate/captain
 

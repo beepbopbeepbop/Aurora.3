@@ -5,7 +5,7 @@
 	tags = list("External")
 
 	spawnpoints = list("izharshan_crew")
-	max_count = 3
+	max_count = 4
 
 	outfit = /obj/outfit/admin/izharshan
 	possible_species = list(SPECIES_UNATHI)
@@ -31,16 +31,8 @@
 
 	outfit = /obj/outfit/admin/izharshan/captain
 
-
 	assigned_role = "Izharshan Captain"
 	special_role = "Izharshan Captain"
-
-/obj/item/clothing/under/unathi/izharshan
-	color = "#f3840e"
-	accent_color = "#f3840e"
-
-/obj/item/clothing/suit/storage/toggle/asymmetriccoat/izharshan
-	color = "#eed8c1"
 
 /obj/outfit/admin/izharshan
 	name = "Izharshan Crewman"
@@ -48,7 +40,7 @@
 	uniform = /obj/item/clothing/under/unathi/izharshan
 	shoes = /obj/item/clothing/shoes/sandals/caligae
 	id = /obj/item/card/id
-	back = /obj/item/storage/backpack/satchel
+	back = /obj/item/storage/backpack/satchel/eng
 	accessory = /obj/item/clothing/accessory/storage/webbing
 	gloves = /obj/item/clothing/gloves/unathi
 	head = /obj/item/clothing/head/headbando/random
@@ -67,7 +59,6 @@
 	name = "Izharshan Captain"
 
 	suit = /obj/item/clothing/suit/storage/toggle/asymmetriccoat/izharshan
-	gloves = /obj/item/clothing/gloves/orange/unathi
 	head = /obj/item/clothing/head/bandana/pirate
 
 	backpack_contents = list(
