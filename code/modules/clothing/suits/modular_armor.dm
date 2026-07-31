@@ -157,6 +157,15 @@
 
 	movement_sounds = SFX_HEAVY_ARMOUR_FOOTSTEPS
 
+/obj/item/clothing/suit/armor/carrier/kala
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/kala,
+		/obj/item/clothing/accessory/arm_guard/kala,
+		/obj/item/clothing/accessory/storage/modular_pouch/large
+	)
+
+	movement_sounds = SFX_HEAVY_ARMOUR_FOOTSTEPS
+
 /obj/item/clothing/accessory/armor_plate
 	name = "corporate armor plate"
 	desc = "A particularly light-weight armor plate in stylish corporate black. Unfortunately, not very good if you hold it with your hands."
@@ -349,6 +358,20 @@
 		ENERGY = ARMOR_ENERGY_RESISTANT,
 		BOMB = ARMOR_BOMB_PADDED,
 	)
+
+/obj/item/clothing/accessory/armor_plate/kala
+	name = "kala armor plate"
+	desc = "A simple armor vest issued to all of the Kala. It's made of an advanced lightweight alloy."
+	icon_state = "kala_armor"
+	item_state = "kala_armor"
+	armor = list(
+		MELEE = ARMOR_MELEE_MAJOR,
+		BULLET = ARMOR_BALLISTIC_MAJOR,
+		LASER = ARMOR_LASER_RIFLE,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED,
+	)
+	slowdown = 0.2
 
 /obj/item/clothing/accessory/armor_plate/military/navy
 	name = "konyang navy armor plate"

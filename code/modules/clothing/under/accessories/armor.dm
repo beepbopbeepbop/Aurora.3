@@ -319,19 +319,6 @@
 	)
 	slowdown = 0.15
 
-/obj/item/clothing/accessory/arm_guard/kala
-	name = "kala arm guards"
-	desc = "These arm guards are made out of an advanced lightweight alloy. Attaches to a plate carrier."
-	icon_state = "armguards_sec_heavy"
-	item_state = "armguards_sec_heavy"
-	armor = list(
-		MELEE = ARMOR_MELEE_MAJOR,
-		BULLET = ARMOR_BALLISTIC_MAJOR,
-		LASER = ARMOR_LASER_MEDIUM,
-		ENERGY = ARMOR_ENERGY_SMALL,
-		BOMB = ARMOR_BOMB_PADDED,
-	)
-
 /obj/item/clothing/accessory/arm_guard/tcaf
 	name = "\improper TCAF carapace arm guards"
 	desc = "Blue carapace armguards to protect you in the modern battlefield of 2465. Attaches to a plate carrier."
@@ -396,3 +383,18 @@
 		ENERGY = ARMOR_ENERGY_RESISTANT,
 		BOMB = ARMOR_BOMB_PADDED,
 	)
+
+/obj/item/clothing/accessory/arm_guard/kala
+	name = "kala arm guards"
+	desc = "These arm guards are made out of an advanced lightweight alloy. Attaches to a plate carrier."
+	icon_state = "armguards_sec_heavy"
+	item_state = "armguards_sec_heavy"
+	armor = list(
+		MELEE = ARMOR_MELEE_MAJOR,
+		BULLET = ARMOR_BALLISTIC_MAJOR,
+		LASER = ARMOR_LASER_RIFLE,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED,
+	)
+	slowdown = 0.15
+	body_parts_covered = ARMS|HANDS
