@@ -678,7 +678,7 @@
 	icon_state = "seccloak"
 	item_state = "seccloak"
 
-/obj/item/clothing/accessory/poncho/shouldercape/qeblak/zeng
+/obj/item/clothing/accessory/poncho/zeng
 	name = "Nralakk Division Zeng-Hu cloak"
 	desc = "This cloak is given to Zeng-Hu employees who have assisted or worked in collaboration with the Nralakk Federation."
 	desc_extended = "A cloak given to senior level doctors and researchers for Zeng-Hu who has \

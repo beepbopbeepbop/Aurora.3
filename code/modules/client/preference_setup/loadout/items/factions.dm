@@ -694,7 +694,7 @@ GLOBAL_DATUM_INIT(gear_tweak_modsuit_configuration, /datum/gear_tweak/modsuit_co
 
 /datum/gear/faction/zenghu_cloak
 	display_name = "Zeng-Hu Nralakk Division cloak"
-	path = /obj/item/clothing/accessory/poncho/shouldercape/qeblak/zeng
+	path = /obj/item/clothing/accessory/poncho/zeng
 	slot = slot_wear_suit
 	faction = "Zeng-Hu Pharmaceuticals"
 
