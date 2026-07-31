@@ -373,14 +373,14 @@ ABSTRACT_TYPE(/datum/gear/accessory/skrell)
 	workcloak["iqi cloak"] = /obj/item/clothing/accessory/poncho/shouldercape/cloak/iqi
 	gear_tweaks += new /datum/gear_tweak/path(workcloak)
 
-/datum/gear/shirts/skrell
+/datum/gear/shirts/skrell_tees
 	display_name = "skrell wetshirts"
 	path = /obj/item/clothing/under/dressshirt/tshirt/skrell/ocean
 	whitelisted = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_ATTENDANT, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
 	sort_category = "Xenowear - Skrell"
 	flags = GEAR_HAS_DESC_SELECTION
 
-/datum/gear/shirts/skrell/New()
+/datum/gear/shirts/skrell_tees/New()
 	..()
 	var/list/tees = list()
 	tees["ocean wetshirt"] = /obj/item/clothing/under/dressshirt/tshirt/skrell/ocean
@@ -394,14 +394,14 @@ ABSTRACT_TYPE(/datum/gear/accessory/skrell)
 	tees["nralakk eriuyushi nebula shirt"] = /obj/item/clothing/under/dressshirt/tshirt/skrell/nebula/nralakk
 	gear_tweaks += new /datum/gear_tweak/path(tees)
 
-/datum/gear/shirts/skrell/dress
+/datum/gear/shirts/skrell_dress
 	display_name = "skrell formal wetshirts"
 	path = /obj/item/clothing/under/dressshirt/skrell/ocean
 	whitelisted = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_ATTENDANT, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
 	sort_category = "Xenowear - Skrell"
 	flags = GEAR_HAS_DESC_SELECTION
 
-/datum/gear/shirts/skrell/dress/New()
+/datum/gear/shirts/skrell_dress/New()
 	..()
 	var/list/dress = list()
 	dress["ocean formal wetshirt"] = /obj/item/clothing/under/dressshirt/skrell/ocean
