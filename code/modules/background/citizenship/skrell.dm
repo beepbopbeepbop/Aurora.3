@@ -133,7 +133,7 @@
 
 /obj/outfit/job/diplomatic_bodyguard/nralakk
 	name = "Nralakk Federation Diplomatic Bodyguard"
-	uniform = /obj/item/clothing/under/skrell/qukala
+	uniform = /obj/item/clothing/under/skrell/defence_enforcer
 	shoes = /obj/item/clothing/shoes/jackboots/kala
 	gloves = /obj/item/clothing/gloves/kala
 

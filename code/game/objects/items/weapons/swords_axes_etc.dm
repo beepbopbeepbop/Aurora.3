@@ -107,12 +107,12 @@
 		return
 	return ..()
 
-/obj/item/melee/telebaton/nlom
-	name = "nlomkala baton"
-	icon_state = "nlom_telebaton_0"
-	item_state = "nlom_telebaton_0"
-	state_extended = "nlom_telebaton_1"
+/obj/item/melee/telebaton/kala
+	name = "kala baton"
+	icon_state = "kala_telebaton_0"
+	item_state = "kala_telebaton_0"
+	state_extended = "kala_telebaton_1"
 	force = 11
 
-/obj/item/melee/telebaton/nlom/do_special_effects(var/mob/living/carbon/human/H)
+/obj/item/melee/telebaton/kala/do_special_effects(var/mob/living/carbon/human/H)
 	spark(H, 5)

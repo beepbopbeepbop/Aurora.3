@@ -44,5 +44,5 @@
 	max_count = 1
 	outfit = /obj/outfit/admin/ert/qukala/officer
 	possible_species = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI) //only the warblers get to give orders around here
-	welcome_message = "You are an officer of the Nralakk Federation Qukala, assigned to respond to a distress call from the SCCV Horizon."
+	welcome_message = "You are a Lead Enforcer of the Nralakk Federation Qukala, assigned to respond to a distress call from the SCCV Horizon."
 	assigned_role = "Qukala Commander"

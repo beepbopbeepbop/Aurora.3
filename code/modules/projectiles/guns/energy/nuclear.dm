@@ -273,6 +273,7 @@ ABSTRACT_TYPE(/obj/item/gun/energy/gun/skrell)
 
 	return //Fuck robots.
 
+// Old skrell weapons
 /obj/item/gun/energy/gun/skrell/pistol
 	name = "nralakk particle pistol"
 	desc = "A Nralakk Federation particle-beam pistol with two settings: Disable and Lethal."
@@ -310,6 +311,7 @@ ABSTRACT_TYPE(/obj/item/gun/energy/gun/skrell)
 		list(mode_name="lethal", projectile_type=/obj/projectile/beam/pulse/skrell, fire_sound='sound/weapons/laser3.ogg', burst = 2, burst_delay = 2)
 		)
 
+// Less old skrell weapons
 /obj/item/gun/energy/gun/qukala
 	name = "\improper Tqi-Qop carbine"
 	desc = "The Tqi-Qop Carbine is the main weapon of the Qukala. Its compact light frame and excellent ammo capacity make it a superb weapon for the Skrell."
@@ -342,6 +344,7 @@ ABSTRACT_TYPE(/obj/item/gun/energy/gun/skrell)
 	recharge_time = 10
 	can_turret = FALSE
 
+// Current skrell weapons
 /obj/item/gun/energy/fedpistol
 	name = "\improper Xuqm-3 energy pistol"
 	desc = "A Skrell-made pistol that utilises a psionic control mechanism. It's made from a lightweight alloy."

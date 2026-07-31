@@ -330,7 +330,7 @@
 	helmet = /obj/item/clothing/head/helmet/space/void/skrell/white
 
 /obj/structure/machinery/suit_cycler/offship/skrell/kala
-	model_text = "Qukala"
+	model_text = "Kala"
 	suit = /obj/item/clothing/suit/space/void/kala
 	helmet = /obj/item/clothing/head/helmet/space/void/kala
 

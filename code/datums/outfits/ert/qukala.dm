@@ -1,6 +1,6 @@
 /obj/outfit/admin/ert/qukala
 	name = "Qukala Emergency Responder"
-	uniform = /obj/item/clothing/under/skrell/qukala
+	uniform = /obj/item/clothing/under/skrell/kala/defence_enforcer
 	shoes = /obj/item/clothing/shoes/jackboots/kala
 	gloves = /obj/item/clothing/gloves/kala
 	accessory = /obj/item/clothing/accessory/holster/hip
@@ -16,10 +16,10 @@
 	)
 	belt = /obj/item/storage/belt/military
 	species_suit = list( //bugs and trees can't use the skroidsuits
-		SPECIES_VAURCA_WORKER = /obj/item/clothing/suit/storage/vest/kala,
-		SPECIES_VAURCA_WARRIOR = /obj/item/clothing/suit/storage/vest/kala,
-		SPECIES_VAURCA_ATTENDANT = /obj/item/clothing/suit/storage/vest/kala,
-		SPECIES_DIONA = /obj/item/clothing/suit/storage/vest/kala
+		SPECIES_VAURCA_WORKER = /obj/item/clothing/suit/armor/carrier/kala,
+		SPECIES_VAURCA_WARRIOR = /obj/item/clothing/suit/armor/carrier/kala,
+		SPECIES_VAURCA_ATTENDANT = /obj/item/clothing/suit/armor/carrier/kala,
+		SPECIES_DIONA = /obj/item/clothing/suit/armor/carrier/kala
 	)
 	species_head = list( //until we get non-skrell kala helmets
 		SPECIES_VAURCA_WORKER = /obj/item/clothing/head/helmet/tactical,
@@ -34,7 +34,7 @@
 		SPECIES_DIONA = null
 	)
 	belt_contents = list(
-		/obj/item/melee/telebaton/nlom = 1,
+		/obj/item/melee/telebaton/kala = 1,
 		/obj/item/handcuffs/ziptie = 2,
 		/obj/item/grenade/empgrenade = 1,
 		/obj/item/crowbar/red = 1
@@ -97,7 +97,7 @@
 		/obj/item/healthanalyzer = 1,
 		/obj/item/stack/medical/advanced/bruise_pack = 1,
 		/obj/item/stack/medical/advanced/ointment = 1,
-		/obj/item/melee/telebaton/nlom = 1,
+		/obj/item/melee/telebaton/kala = 1,
 		/obj/item/handcuffs/ziptie = 2,
 		/obj/item/crowbar/red = 1,
 		/obj/item/roller/hover = 1
@@ -116,15 +116,15 @@
 		SPECIES_VAURCA_WORKER = null,
 		SPECIES_DIONA = null
 	)
-	accessory = /obj/item/clothing/accessory/storage/white_vest
+	accessory = /obj/item/clothing/accessory/storage/brown_vest
 	accessory_contents = list(
 		/obj/item/plastique = 5
 	)
 	backpack_contents = list(
 		/obj/item/handcuffs/ziptie = 1,
 		/obj/item/clothing/glasses/welding/superior = 1,
-		/obj/item/gun/energy/blaster/revolver = 1,
-		/obj/item/melee/telebaton/nlom = 1,
+		/obj/item/gun/energy/fedpistol = 1,
+		/obj/item/melee/telebaton/kala = 1,
 		/obj/item/handcuffs/ziptie = 2,
 		/obj/item/grenade/empgrenade = 1
 	)

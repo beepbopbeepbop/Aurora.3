@@ -1,4 +1,25 @@
-// Cloaks
+// Religious clothing
+/obj/item/clothing/accessory/poncho/shouldercape/qeblak
+	name = "qeblak mantle"
+	desc = "A mantle denoting the wearer as a member of the Qeblak faith."
+	desc_extended = "This mantle denotes the wearer as a member of the Qeblak faith. \
+	It is given to followers after they have completed their coming of age ceremony. \
+	The symbol on the back is of a protostar as it transitions into a main sequence star, \
+	representing the the wearer becoming an adult."
+	icon_state = "qeblak_cape"
+	item_state = "qeblak_cape"
+	flippable = FALSE
+
+/obj/item/clothing/accessory/poncho/shouldercape/weishiirobe
+	name = "weishii robe"
+	desc = "A robe denoting the wearer as a member of the Weishii faith."
+	desc_extended = "This mantle denotes the wearer as a member of the Weishii faith. \
+	It is given to followers after they have spent time on a Weishiin Sanctuary."
+	icon_state = "weishii_robe"
+	item_state = "weishii_robe"
+	flippable = FALSE
+
+// Work cloaks
 /obj/item/clothing/accessory/poncho/shouldercape/cloak
 	name = "Ox cloak"
 	desc = "A plain cloak that denotes the wearer as being an Ox-class worker."
@@ -57,7 +78,7 @@
 	item_state = "skr_poncho_brn"
 	overlay_state = "skr_poncho_brn"
 
-//Capes
+// National capes
 /obj/item/clothing/accessory/poncho/shouldercape/nationcapes
 	name = "\improper Nralakk cape"
 	desc = "A cape that has the Nralakk flag on the back."
@@ -111,3 +132,51 @@
 	desc_extended = "A relatively new addition to Skrell fashion, these cloaks are meant to identify the origin of the wearer. Since first contact, it has been a popular way for Skrell to distinguish themselves from Skrell from other regions of the Orion Spur, and has become a popular way to denote political ties or support. This cape signifies that the wearer comes from the Consortium of Hieroaetheria. The Consortium and the Federation's strong ties mean that Fed-aligned Skrell generally approve of this cape."
 	item_state = "concape"
 	icon_state = "concape"
+
+// Shoulder capes
+/obj/item/clothing/accessory/poncho/shouldercape
+	name = "shoulder cape"
+	desc = "A simple shoulder cape."
+	desc_extended = "In skrell tradition, the length of cape typically signifies experience in various fields."
+	icon = 'icons/obj/clothing/ties.dmi'
+	icon_override = 'icons/mob/ties.dmi'
+	icon_state = "starcape"
+	item_state = "starcape"
+	flippable = TRUE
+	contained_sprite = FALSE
+	protects_against_weather = FALSE
+
+/obj/item/clothing/accessory/poncho/shouldercape/star
+	name = "star cape"
+	desc = "A simple looking cape with a couple of runes woven into the fabric."
+	icon_state = "starcape"
+	item_state = "starcape"
+	overlay_state = "starcape"
+
+/obj/item/clothing/accessory/poncho/shouldercape/nebula
+	name = "nebula cape"
+	desc = "A decorated cape. Starry patterns have been woven into the fabric."
+	icon_state = "nebulacape"
+	item_state = "nebulacape"
+	overlay_state = "nebulacape"
+
+/obj/item/clothing/accessory/poncho/shouldercape/nova
+	name = "nova cape"
+	desc = "A heavily decorated cape with emblems on the shoulders. An ornate starry design has been woven into the fabric of it."
+	icon_state = "novacape"
+	item_state = "novacape"
+	overlay_state = "novacape"
+
+/obj/item/clothing/accessory/poncho/shouldercape/galaxy
+	name = "galaxy cape"
+	desc = "An extremely decorated cape with an intricately made design has been woven into the fabric of this cape with great care."
+	icon_state = "galaxycape"
+	item_state = "galaxycape"
+	overlay_state = "galaxycape"
+
+/obj/item/clothing/accessory/poncho/shouldercape/cosmic
+	name = "cosmic cape"
+	desc = "A heavily decorated cape with emblems on the shoulders. An ornate starry design has been woven into the fabric of it, of constellations and stars visible from Qerrbalak."
+	icon_state = "cosmiccape"
+	item_state = "cosmiccape"
+	overlay_state = "cosmiccape"

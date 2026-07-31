@@ -883,10 +883,10 @@
 	new /obj/item/modkit/multi_species(src)
 
 /obj/structure/closet/crate/gear_loadout/qukala/fill()
-	new /obj/item/clothing/under/skrell/qukala(src)
-	new /obj/item/clothing/under/skrell/qukala(src)
-	new /obj/item/clothing/under/skrell/qukala(src)
-	new /obj/item/clothing/under/skrell/qukala(src)
+	new /obj/item/clothing/under/skrell/defence_enforcer(src)
+	new /obj/item/clothing/under/skrell/defence_enforcer(src)
+	new /obj/item/clothing/under/skrell/defence_enforcer(src)
+	new /obj/item/clothing/under/skrell/defence_enforcer(src)
 	new /obj/item/clothing/suit/space/void/kala(src)
 	new /obj/item/clothing/suit/space/void/kala(src)
 	new /obj/item/clothing/suit/space/void/kala/med(src)
@@ -924,7 +924,7 @@
 	new /obj/item/clothing/gloves/kala(src)
 
 /obj/structure/closet/crate/gear_loadout/qukala/single/fill()
-	new /obj/item/clothing/under/skrell/qukala(src)
+	new /obj/item/clothing/under/skrell/defence_enforcer(src)
 	new /obj/item/clothing/gloves/kala(src)
 	new /obj/item/clothing/accessory/holster/hip(src)
 	new /obj/item/gun/energy/rifle/laser/qukala(src)
