@@ -56,7 +56,7 @@ This is the entity that the implantee will align their thoughts to benefit.<BR>
 
 /obj/item/implant/mindshield/loyalty/nralakk
 	name = "loyalty implant - Nralakk Federation"
-	desc = "A device used by the Nralakk Federation, to ensure loyalty to its ideals and to the best caretaker of the skrellian people."
+	desc = "A device used by the Nralakk Federation, to ensure government officials are not susceptible to releasing confidential information, due to coercion or otherwise."
 	loyal_entity = "\improper Nralakk Federation"
 
 /obj/item/implant/mindshield/loyalty/scc

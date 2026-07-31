@@ -210,9 +210,9 @@
 
 /singleton/cargo_item/producebox_nralakk
 	category = "hospitality"
-	name = "skrellian produce box"
+	name = "skrell produce box"
 	supplier = "hephaestus"
-	description = "A large box of random, leftover produce from various Skrellian worlds."
+	description = "A large box of random, leftover produce from various skrell worlds."
 	price = 50
 	items = list(
 		/obj/item/storage/box/large/produce/nralakk

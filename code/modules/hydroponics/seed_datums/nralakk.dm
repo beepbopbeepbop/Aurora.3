@@ -1,4 +1,4 @@
-// Skrellian plants
+// Skrell plants
 
 /datum/seed/dyn
 	name = "dyn"

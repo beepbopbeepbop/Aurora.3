@@ -23,8 +23,8 @@
 	item_state = "hearing_aid-w"
 
 /obj/item/hearing_aid/skrell
-	name = "skrellian hearing aid"
-	desc = "A device that allows the naturally deaf to hear, to an extent. It seems to be Skrellian in design."
+	name = "skrell hearing aid"
+	desc = "A device that allows the naturally deaf to hear, to an extent. It seems to be skrell in design."
 	icon_state = "hearing_aid_skrell"
 	item_state = "hearing_aid_skrell"
 

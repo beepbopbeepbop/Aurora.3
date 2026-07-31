@@ -243,7 +243,7 @@ If you add a drink with an empty icon sprite, ensure it is in the same folder, e
 /obj/item/reagent_containers/food/drinks/waterbottle
 	name = "bottled water"
 	desc = "A fresh bottle of water from the finest bottling plants on Silversun."
-	desc_extended = "Previously introduced to the vending machines by Skrellian request, this water used to come straight from the Martian poles. Ever since the Martian catastrophe, however, an Idris subsidiary has since stepped in to fill the gap in the market \
+	desc_extended = "Previously introduced to the vending machines by skrell request, this water used to come straight from the Martian poles. Ever since the Martian catastrophe, however, an Idris subsidiary has since stepped in to fill the gap in the market \
 	and 'Martian Water' has become a prized collector's item."
 	icon = 'icons/obj/item/reagent_containers/food/drinks/soda.dmi' // it's no soda, but shows up in vending machines nonetheless
 	icon_state = "smallbottle"

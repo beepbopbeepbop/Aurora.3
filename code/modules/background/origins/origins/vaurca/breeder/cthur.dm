@@ -30,7 +30,7 @@
 
 /singleton/origin_item/origin/mouv_b
 	name = "Mouv Brood"
-	desc = "Her brood leads Vaurca scientific research in Skrellian space, and is also brokering deals with the Eridani Federation. She is also known for purchasing a portion of Einstein Engines."
+	desc = "Her brood leads Vaurca scientific research in skrell space, and is also brokering deals with the Eridani Federation. She is also known for purchasing a portion of Einstein Engines."
 	possible_accents = list(ACCENT_CTHUR, ACCENT_TTS)
 	possible_citizenships = list(CITIZENSHIP_CTHUR, CITIZENSHIP_NRALAKK)
 	possible_religions = list(RELIGION_HIVEPANTHEON, RELIGION_PREIMMINENNCE, RELIGION_NONE)

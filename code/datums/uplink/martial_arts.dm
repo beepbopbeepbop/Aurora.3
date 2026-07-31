@@ -24,7 +24,7 @@
 
 /datum/uplink_item/item/martial_arts/skrell
 	name = "Karak Virul"
-	desc = "A manual containing instructions on the Skrellian martial art of Karak Virul. Only usable by Skrell."
+	desc = "A manual containing instructions on the skrell martial art of Karak Virul. Only usable by skrell."
 	telecrystal_cost = 2
 	path = /obj/item/martial_manual/skrell
 

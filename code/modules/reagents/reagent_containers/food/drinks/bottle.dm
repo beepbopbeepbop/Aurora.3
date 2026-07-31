@@ -337,7 +337,7 @@
 
 /obj/item/reagent_containers/food/drinks/bottle/bitters
 	name = "Nojosuru Aromatic Bitters"
-	desc = "Only the finest and highest quality herbs find their way into our cocktail bitters, both human <i>and</i> skrellian."
+	desc = "Only the finest and highest quality herbs find their way into our cocktail bitters, both human <i>and</i> skrell."
 	desc_extended = "This drink is made by Nojosuru Foods, a subsidiary of Zeng-Hu Pharmaceuticals, founded on Earth in 2252. \
 						They are known for their surprisingly affordable and incredible quality foods, as well as growing many crops used in pharmaceuticals and luxury items."
 	icon_state = "bitters"
@@ -626,7 +626,7 @@
 
 /obj/item/reagent_containers/food/drinks/bottle/bluecuracao
 	name = "Xuaousha curacao"
-	desc = "A fruity, exceptionally azure drink. Thanks to weird Skrellian genetic experiments, oranges used for this are, in fact, really blue."
+	desc = "A fruity, exceptionally azure drink. Thanks to weird skrell genetic experiments, oranges used for this are, in fact, really blue."
 	desc_extended = DRINK_FLUFF_ZENGHU
 	icon_state = "curacaobottle"
 	center_of_mass = list("x"=16, "y"=6)
@@ -750,7 +750,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/chartreusegreen
 	name = "Nralakk Touch green chartreuse"
 	desc = "A green, strong liqueur with a very strong flavor. The original recipe called for almost a hundred of different herbs, \
-			but thanks to Skrellian improvements to the recipe, it now just has five, without losing any nuance."
+			but thanks to skrell improvements to the recipe, it now just has five, without losing any nuance."
 	desc_extended = DRINK_FLUFF_ZENGHU
 	icon_state = "chartreusegreenbottle"
 	center_of_mass = list("x" = 15,"y" = 5)
@@ -759,7 +759,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/chartreuseyellow
 	name = "Nralakk Touch yellow chartreuse"
 	desc = "A green, strong liqueur with a very strong flavor. The original recipe called for almost a hundred of different herbs, \
-			but thanks to Skrellian improvements to the recipe, it now just has five, without losing any nuance."
+			but thanks to skrell improvements to the recipe, it now just has five, without losing any nuance."
 	desc_extended = DRINK_FLUFF_ZENGHU
 	icon_state = "chartreuseyellowbottle"
 	center_of_mass = list("x" = 15,"y" = 5)

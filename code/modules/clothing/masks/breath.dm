@@ -35,7 +35,7 @@
 	item_state = "jagmask"
 
 /obj/item/clothing/mask/breath/skrell
-	name = "skrellian gill cover"
+	name = "skrell gill cover"
 	desc = "A comfy technological piece used typically by those suffering from gill-related disorders. It goes around the neck and shoulders with a small water tank on the back, featuring a hookup for oxytanks to keep the water oxygenated."
 	icon = 'icons/obj/item/clothing/mask/breath/skrell/gillcover.dmi'
 	icon_state = "gillcover"

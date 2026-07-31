@@ -106,7 +106,7 @@
 
 /datum/citizenship/klax
 	name = CITIZENSHIP_KLAX
-	description = "The second Hive discovered by humanity,  Hiveship, Klo'zxera, appeared in the Skrellian system of Glorashi. \
+	description = "The second Hive discovered by humanity,  Hiveship, Klo'zxera, appeared in the skrell system of Glorashi. \
 	K'lax is known as a client state of the Zo'ra, but since the Exodus from Sedantis they have struggled for political independence. \
 	Now parting their own ways, both Hives have developed differently.  the K'lax became the newest vassal of the Izweski Nation, and have largely settled in Tret. \
 	They maintain subtly warm, if terse relations with the Hegemony as a whole, and have committed to its terraforming agenda, being instrumental in the implementation of such a monumental undertaking. \
@@ -211,7 +211,7 @@
 	description = "They are the third Hive that has developed relationships with other sophonts of the Orion Spur. \
 	While their arrival was kept in secret by the Nralakk Federation, the revelation has reignited diplomatic disputes between K'lax and C'thur, with outright hostility met by the K'lax towards the C'thur. \
 	Unlike all other Hives, the C'thur are led by their original Hive Queen, who, with a council of three other Lesser Queens, leads the Hive in this new age. \
-	In this effort, the Hive has begun dealing with the multitude of governments and corporations of the galaxy, all under the auspices of their Skrellian saviors. \
+	In this effort, the Hive has begun dealing with the multitude of governments and corporations of the galaxy, all under the auspices of their skrell saviors. \
 	The C'thur are the most economically developed Hive, having stakes in Einstein Engines and Zeng-Hu Pharmaceuticals."
 	consular_outfit = /obj/outfit/job/representative/consular/cthur
 	bodyguard_outfit = /obj/outfit/job/diplomatic_bodyguard/cthur

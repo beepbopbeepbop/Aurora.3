@@ -315,7 +315,7 @@
 
 /datum/bounty/item/chef/skrell
 	name = "Federation Delicacies"
-	description = "We're holding a luncheon with some Nralakk Federation representatives; send some Skrellian dishes!"
+	description = "We're holding a luncheon with some Nralakk Federation representatives; send some skrell dishes!"
 	reward_low = 150
 	reward_high = 250
 	required_count = 3

@@ -43,10 +43,10 @@
 	hearingaids["hearing aid, grey"] = /obj/item/hearing_aid
 	hearingaids["hearing aid, silver"] = /obj/item/hearing_aid/silver
 	hearingaids["hearing aid, white"] = /obj/item/hearing_aid/white
-	hearingaids["hearing aid, skrellian"] = /obj/item/hearing_aid/skrell
+	hearingaids["hearing aid, skrell"] = /obj/item/hearing_aid/skrell
 	hearingaids["hearing aid pair, black"] = /obj/item/storage/hearing_aid_case/black
 	hearingaids["hearing aid pair, grey"] = /obj/item/storage/hearing_aid_case
 	hearingaids["hearing aid pair, silver"] = /obj/item/storage/hearing_aid_case/silver
 	hearingaids["hearing aid pair, white"] = /obj/item/storage/hearing_aid_case/white
-	hearingaids["hearing aid pair, skrellian"] = /obj/item/storage/hearing_aid_case/skrell
+	hearingaids["hearing aid pair, skrell"] = /obj/item/storage/hearing_aid_case/skrell
 	gear_tweaks += new /datum/gear_tweak/path(hearingaids)

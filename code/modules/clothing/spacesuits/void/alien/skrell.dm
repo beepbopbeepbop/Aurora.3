@@ -1,5 +1,5 @@
 /obj/item/clothing/head/helmet/space/void/skrell
-	name = "skrellian helmet"
+	name = "skrell helmet"
 	desc = "Smoothly contoured and polished to a shine. Still looks like a fishbowl."
 	armor = list(
 		MELEE = ARMOR_MELEE_KNIVES,
@@ -22,7 +22,7 @@
 	icon_state = "skrell_helmet_black"
 
 /obj/item/clothing/suit/space/void/skrell
-	name = "skrellian voidsuit"
+	name = "skrell voidsuit"
 	desc = "Seems like a wetsuit with reinforced plating seamlessly attached to it. Very chic."
 	armor = list(
 		MELEE = ARMOR_MELEE_KNIVES,

@@ -68,10 +68,10 @@
 			P.back_icon = "card_back_adhomai"
 			cards += P
 
-/// Skrellian tarot decks.
+/// Skrell tarot decks.
 /obj/item/deck/tarot/nralakk
 	name = "qwei'paqui homeworld deck"
-	desc = "A Skrellian deck of tarot cards depicting the main constellations of Nralakk."
+	desc = "A skrell deck of tarot cards depicting the main constellations of Nralakk."
 	icon_state = "deck_nralakk"
 
 /obj/item/deck/tarot/nralakk/generate_deck()
@@ -124,7 +124,7 @@
 
 /obj/item/deck/tarot/nonnralakk
 	name = "qwei'paqui colonist deck"
-	desc = "A Skrellian deck of tarot cards depicting the local constellations of planets outside Nralakk."
+	desc = "A skrell deck of tarot cards depicting the local constellations of planets outside Nralakk."
 	icon_state = "deck_nonnralakk"
 	hand_type = /obj/item/hand/tarot/nonnralakk
 

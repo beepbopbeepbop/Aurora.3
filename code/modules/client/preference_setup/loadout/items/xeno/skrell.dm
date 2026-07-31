@@ -245,7 +245,7 @@ ABSTRACT_TYPE(/datum/gear/ears/skrell)
 	allowed_roles = list("Head of Security")
 
 /*
-	Skrellian Social Compatibility Index
+	Skrell Social Compatibility Index
 */
 
 GLOBAL_DATUM_INIT(compat_index_tweak, /datum/gear_tweak/compat_index, new())
@@ -374,7 +374,7 @@ ABSTRACT_TYPE(/datum/gear/accessory/skrell)
 	gear_tweaks += new /datum/gear_tweak/path(workcloak)
 
 /datum/gear/shirts/skrell
-	display_name = "skrellian wetshirts"
+	display_name = "skrell wetshirts"
 	path = /obj/item/clothing/under/dressshirt/tshirt/skrell/ocean
 	whitelisted = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_ATTENDANT, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
 	sort_category = "Xenowear - Skrell"
@@ -395,7 +395,7 @@ ABSTRACT_TYPE(/datum/gear/accessory/skrell)
 	gear_tweaks += new /datum/gear_tweak/path(tees)
 
 /datum/gear/shirts/skrell/dress
-	display_name = "skrellian formal wetshirts"
+	display_name = "skrell formal wetshirts"
 	path = /obj/item/clothing/under/dressshirt/skrell/ocean
 	whitelisted = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI, SPECIES_VAURCA_WARRIOR, SPECIES_VAURCA_ATTENDANT, SPECIES_VAURCA_WORKER, SPECIES_VAURCA_BULWARK, SPECIES_VAURCA_BREEDER)
 	sort_category = "Xenowear - Skrell"
@@ -476,7 +476,7 @@ ABSTRACT_TYPE(/datum/gear/accessory/skrell)
 	gear_tweaks += new /datum/gear_tweak/path(nationcapes)
 
 /datum/gear/uniform/skrell/hieroaetherian_tunic
-	display_name = "skrellian traditional hieroaetherian tunic"
+	display_name = "skrell traditional hieroaetherian tunic"
 	description = "A traditional tunic worn on Hieroaetheria, made up of several colorful fabrics and adorned with a seemingly still-living, bioluminescent Starvine."
 	path = /obj/item/clothing/under/diona/hieroaetherian_tunic
 	cost = 1
@@ -485,7 +485,7 @@ ABSTRACT_TYPE(/datum/gear/accessory/skrell)
 	origin_restriction = list(/singleton/origin_item/origin/skrell_consortium)
 
 /datum/gear/suit/skrell/hieroaetherian_poncho
-	display_name = "skrellian hieroaetherian poncho"
+	display_name = "skrell hieroaetherian poncho"
 	description = "A Hieroaetherian poncho made of some sort of mesh weave material, adorned by a piece of colored fabric wrapped around it that denotes their home nation."
 	path = /obj/item/clothing/accessory/poncho/hieroaetherian_poncho
 	cost = 1

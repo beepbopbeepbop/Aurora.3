@@ -111,7 +111,7 @@
 /obj/item/clothing/under/rank/security/einstein
 	name = "einstein security officer's uniform"
 	desc_extended = "Even the Chainlink's hated enemy puts their security officers in drab officewear. Rumors that these are woven \
-	from Skrellian supermaterials are likely false."
+	from skrell supermaterials are likely false."
 	icon = 'icons/obj/item/clothing/under/human/corporation/einstein.dmi'
 	icon_state = "ee_officer"
 	item_state = "ee_officer"

@@ -13,7 +13,7 @@
 
 /obj/item/reagent_containers/food/drinks/jyalra/cheese
 	name = "jyalra with nycii"
-	desc = "A popular junk food item from the Nralakk Federation. Jyalra is a savoury puree made from dyn that has been peeled and mashed into a dark blue pulp. Nycii, a type of Skrellian cheese, has been added to the puree for flavour."
+	desc = "A popular junk food item from the Nralakk Federation. Jyalra is a savoury puree made from dyn that has been peeled and mashed into a dark blue pulp. Nycii, a type of skrell cheese, has been added to the puree for flavour."
 	icon_state = "jyalracheese"
 	item_state = "jyalracheese"
 	reagents_to_add = list(/singleton/reagent/drink/jyalracheese = 40)

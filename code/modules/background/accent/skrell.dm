@@ -1,6 +1,6 @@
 /datum/accent/skrell
 	name = ACCENT_SKRELL
-	description = "In the Nralakk Federation, the typical skrellian accent has dozens of minute variations and can be found across a multitude of planets (and their colonies). \
+	description = "In the Nralakk Federation, the typical skrell accent has dozens of minute variations and can be found across a multitude of planets (and their colonies). \
 	Its generality has resulted in the belief that it is the 'standard' accent for all Skrell. "
 	tag_icon = "skrell"
 	text_tag = "NRA"
@@ -59,7 +59,7 @@
 
 /datum/accent/skrell/sol
 	name = ACCENT_SKRELLSOL
-	description = "Solarian Skrell Standard can be seen as the Skrellian equivalent of the Solarian accent, having hundreds of variants that can be found on planets across \
+	description = "Solarian Skrell Standard can be seen as the skrell equivalent of the Solarian accent, having hundreds of variants that can be found on planets across \
 	the Sol Alliance. The accent has kept the notable tones from accents found in the Federation, while still heavily influenced by the pacing and pronunciation common in the \
 	average Solarian accent."
 	tag_icon = "skrell_sol"

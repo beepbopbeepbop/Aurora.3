@@ -318,7 +318,7 @@
 /obj/item/storage/chewables/tobacco/federation
 	name = "tin of Leviathan Chew"
 	desc = "A sweet-smelling tin of saltwater taffy flavoured chewing tobacco, made using finely aged tobacco from the Nralakk Federation. The tin has a Vru'qos on the label, a whale-like creature common throughout Federation space."
-	desc_extended = "Imported from the Nralakk Federation, this brand of chewing tobacco is noticeably sweeter than usual to accommodate Skrellian tastes."
+	desc_extended = "Imported from the Nralakk Federation, this brand of chewing tobacco is noticeably sweeter than usual to accommodate skrell tastes."
 	icon_state = "chew_fed"
 	item_state = "chew_fed"
 	starts_with = list(/obj/item/clothing/mask/chewable/tobacco/sweet = 6)
@@ -326,7 +326,7 @@
 /obj/item/storage/chewables/tobacco/dyn
 	name = "tin of Weibi's Breeze"
 	desc = "A sweet-smelling tin of menthol flavoured chewing tobacco, made using finely aged tobacco from the Nralakk Federation. The tin has a dyn leaf on the label."
-	desc_extended = "Imported from the Nralakk Federation, this brand of chewing tobacco is noticeably sweeter than usual to accommodate Skrellian tastes."
+	desc_extended = "Imported from the Nralakk Federation, this brand of chewing tobacco is noticeably sweeter than usual to accommodate skrell tastes."
 	icon_state = "chew_dyn"
 	item_state = "chew_dyn"
 	starts_with = list(/obj/item/clothing/mask/chewable/tobacco/dyn = 6)

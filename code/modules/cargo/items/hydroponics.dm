@@ -380,7 +380,7 @@
 	category = "hydroponics"
 	name = "wulumunusha seed"
 	supplier = "zeng_hu"
-	description = "A Skrellian plant used in religious ceremonies and drinks."
+	description = "A skrell plant used in religious ceremonies and drinks."
 	price = 45
 	items = list(
 		/obj/item/seeds/wulumunushaseed

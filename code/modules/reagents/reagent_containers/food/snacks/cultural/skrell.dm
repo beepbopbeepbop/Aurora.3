@@ -1,6 +1,6 @@
 /obj/item/reagent_containers/food/snacks/lortl
 	name = "lortl"
-	desc = "Dehydrated and salted q'lort slices, a very common Skrellian snack."
+	desc = "Dehydrated and salted q'lort slices, a very common skrell snack."
 	icon = 'icons/obj/hydroponics_misc.dmi'
 	filling_color = "#B7D6BF"
 	bitesize = 2

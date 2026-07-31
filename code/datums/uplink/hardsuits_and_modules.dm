@@ -58,7 +58,7 @@
 	name = "Mounted Tqi-Qop Carbine"
 	telecrystal_cost = 6
 	path = /obj/item/rig_module/mounted/skrell_gun
-	desc = "A hardsuit mounted Tqi-Qop carbine, a skrellian weapon rarely seen outside of the federation."
+	desc = "A hardsuit mounted Tqi-Qop carbine, a skrell weapon rarely seen outside of the Federation."
 
 /datum/uplink_item/item/hardsuit_modules/smg
 	name = "Mounted Submachine Gun"
