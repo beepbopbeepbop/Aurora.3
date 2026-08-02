@@ -122,7 +122,7 @@
 	item_state = "council_uniform"
 	armor = list(
 		MELEE = ARMOR_MELEE_SMALL,
-		BULLET = ARMOR_BALLISTIC_MINOR
+		BULLET = ARMOR_BALLISTIC_MINOR,
 		LASER = ARMOR_LASER_MINOR
 	)
 	siemens_coefficient = 0.7
@@ -138,7 +138,7 @@
 	item_state = "defence_uniform"
 	armor = list(
 		MELEE = ARMOR_MELEE_SMALL,
-		BULLET = ARMOR_BALLISTIC_MINOR
+		BULLET = ARMOR_BALLISTIC_MINOR,
 		LASER = ARMOR_LASER_MINOR
 	)
 	siemens_coefficient = 0.7
@@ -154,7 +154,7 @@
 	item_state = "foreign_ops_uniform"
 	armor = list(
 		MELEE = ARMOR_MELEE_SMALL,
-		BULLET = ARMOR_BALLISTIC_MINOR
+		BULLET = ARMOR_BALLISTIC_MINOR,
 		LASER = ARMOR_LASER_MINOR
 	)
 	siemens_coefficient = 0.7
@@ -172,7 +172,7 @@
 	item_state = "enforcement_uniform"
 	armor = list(
 		MELEE = ARMOR_MELEE_SMALL,
-		BULLET = ARMOR_BALLISTIC_MINOR
+		BULLET = ARMOR_BALLISTIC_MINOR,
 		LASER = ARMOR_LASER_MINOR
 	)
 
