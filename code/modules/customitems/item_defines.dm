@@ -540,7 +540,7 @@ All custom items with worn sprites must follow the contained sprite system: http
 
 /obj/item/storage/backpack/fluff/pax_bag // Alqaana Backpack - Ka'Akaix'Pax C'thur - desven
 	name = "Alqaana backpack"
-	desc = "Known for her extravagant concerts, Alqaana is one of the few idols that have drawn inspiration from Solarian classical music over more contemporary skrellian genres. This is her, in bag form!"
+	desc = "Known for her extravagant concerts, Alqaana is one of the few idols that have drawn inspiration from Solarian classical music over more contemporary skrell genres. This is her, in bag form!"
 	icon = 'icons/obj/custom_items/pax_bag.dmi'
 	icon_override = 'icons/obj/custom_items/pax_bag.dmi'
 	icon_state = "pax_bag"
@@ -713,8 +713,8 @@ All custom items with worn sprites must follow the contained sprite system: http
 	item_state = "quoro_robes"
 	contained_sprite = TRUE
 
-/obj/item/clothing/head/fluff/quoro_hat //Skrellian Silver Headband - Quoro Wurri'Til - witchbells
-	name = "skrellian silver headband"
+/obj/item/clothing/head/fluff/quoro_hat //Skrell Silver Headband - Quoro Wurri'Til - witchbells
+	name = "skrell silver headband"
 	desc = "A jeweled silver headband worn at the base of the headtails."
 	icon = 'icons/obj/custom_items/quoro_items.dmi'
 	icon_override = 'icons/obj/custom_items/quoro_items.dmi'
@@ -722,9 +722,9 @@ All custom items with worn sprites must follow the contained sprite system: http
 	item_state = "quoro_hat"
 	contained_sprite = TRUE
 
-/obj/item/clothing/suit/storage/fluff/quoro_suit //Skrellian Fancy Robes - Quoro Wurri'Til - witchbells
-	name = "skrellian fancy robes"
-	desc = "An elaborate yet functional set of robes favored by the upper echelons of skrellian society, with a silver belt attached. A star is embroidered on the back, \
+/obj/item/clothing/suit/storage/fluff/quoro_suit //Skrell Fancy Robes - Quoro Wurri'Til - witchbells
+	name = "skrell fancy robes"
+	desc = "An elaborate yet functional set of robes favored by the upper echelons of skrell society, with a silver belt attached. A star is embroidered on the back, \
 	symbolizing the Nralakk Federation."
 	icon = 'icons/obj/custom_items/quoro_items.dmi'
 	icon_override = 'icons/obj/custom_items/quoro_items.dmi'
