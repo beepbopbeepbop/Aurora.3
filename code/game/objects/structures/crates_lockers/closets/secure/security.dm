@@ -61,6 +61,8 @@
 	new /obj/item/storage/secure/briefcase (src)
 	new /obj/item/storage/box/ids(src)
 	new /obj/item/storage/box/ids(src)
+	new /obj/item/storage/box/fancy/keypouch(src)
+	new /obj/item/storage/box/fancy/keypouch(src)
 	new /obj/item/radio/headset/heads/xo(src)
 	new /obj/item/radio/headset/heads/xo/alt(src)
 	//Appearance
@@ -76,7 +78,6 @@
 	new /obj/item/clothing/accessory/holster/waist(src)
 	//Tools
 	new /obj/item/megaphone/command(src)
-	new /obj/item/storage/stickersheet/goldstar(src)
 	new /obj/item/journal/notepad/scc/filled(src)
 	new /obj/item/gun/energy/repeater/pistol(src)
 	new /obj/item/flash(src)
@@ -370,7 +371,7 @@
 	new /obj/item/gun/projectile/sec(src)
 	new /obj/item/radio/headset/headset_com(src)
 	new /obj/item/radio/headset/headset_com/alt(src)
-	new /obj/item/radio/off(src)
+	new /obj/item/radio(src)
 	new /obj/item/gps(src)
 
 // Evidence Storage Locker

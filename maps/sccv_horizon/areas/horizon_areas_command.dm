@@ -82,20 +82,24 @@
 	The smell of ink, written and printed, wafts notably through the air."
 	horizon_deck = 3
 
-/area/horizon/command/bridge/bridge_crew
-	name = "Bridge Crew Preparation"
-	icon_state = "bridge_crew"
+/area/horizon/command/bridge/bridge_office
+	name = "Bridge Office"
+	icon_state = "bridge"
 
 /area/horizon/command/bridge/supply
 	name = "Bridge Supply Closet"
 	icon_state = "bridge_crew"
 
-/area/horizon/command/bridge/upperdeck
-	name = "Bridge Atrium"
+/area/horizon/command/bridge/atrium_outer
+	name = "Bridge Outer Atrium"
 	icon_state = "bridge"
 
-/area/horizon/command/bridge/minibar
-	name = "Bridge Wardoom"
+/area/horizon/command/bridge/atrium_inner
+	name = "Bridge Inner Atrium"
+	icon_state = "bridge"
+
+/area/horizon/command/bridge/wardroom
+	name = "Bridge Wardroom"
 	icon_state = "bridge"
 
 /area/horizon/command/bridge/aibunker

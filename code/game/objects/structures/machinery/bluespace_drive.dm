@@ -583,7 +583,7 @@
  * The console that actually performs the bluespace jump.
  * For use by the Bridge
  */
-/obj/structure/machinery/computer/bluespacedrivejump
+/obj/structure/machinery/computer/terminal/bluespacedrivejump
 	name = "\improper bluespace drive jump console"
 	desc = "Used to align and engage the bluespace drive for a jump."
 	icon_keyboard = "lightblue_key"
@@ -593,12 +593,12 @@
 	/// The bluespace drive (`/obj/structure/machinery/bluespacedrive`) that this console controls
 	var/obj/structure/machinery/bluespacedrive/linked_bluespace_drive
 
-/obj/structure/machinery/computer/bluespacedrivejump/Initialize()
+/obj/structure/machinery/computer/terminal/bluespacedrivejump/Initialize()
 	..()
 
 	return INITIALIZE_HINT_LATELOAD
 
-/obj/structure/machinery/computer/bluespacedrivejump/LateInitialize()
+/obj/structure/machinery/computer/terminal/bluespacedrivejump/LateInitialize()
 	. = ..()
 
 	if(SSatlas.current_map.use_overmap && !linked)
@@ -623,13 +623,13 @@
 
 	RegisterSignal(linked_bluespace_drive, COMSIG_QDELETING, PROC_REF(handle_drive_deletion))
 
-/obj/structure/machinery/computer/bluespacedrivejump/Destroy()
+/obj/structure/machinery/computer/terminal/bluespacedrivejump/Destroy()
 	linked = null
 	linked_bluespace_drive = null
 
 	. = ..()
 
-/obj/structure/machinery/computer/bluespacedrivejump/ui_data(mob/user)
+/obj/structure/machinery/computer/terminal/bluespacedrivejump/ui_data(mob/user)
 	var/list/data = list()
 
 	data["charge"] = (linked_bluespace_drive.internal_gas.total_moles || linked_bluespace_drive.fuel_gas.total_moles) ? TRUE : FALSE
@@ -641,7 +641,7 @@
 
 	return data
 
-/obj/structure/machinery/computer/bluespacedrivejump/ui_act(action, params)
+/obj/structure/machinery/computer/terminal/bluespacedrivejump/ui_act(action, params)
 	. = ..()
 	if(.)
 		return
@@ -663,17 +663,17 @@
 				visible_message(SPAN_NOTICE("\The [src] buzzes, flashing \"Unable to acquire bluespace path: Destination unreachable, same as current position \
 											or jump already in progress\"!"))
 
-/obj/structure/machinery/computer/bluespacedrivejump/ui_interact(mob/user, datum/tgui/ui)
+/obj/structure/machinery/computer/terminal/bluespacedrivejump/ui_interact(mob/user, datum/tgui/ui)
 	ui = SStgui.try_update_ui(user, src, ui)
 	if(!ui)
 		ui = new(user, src, "BluespaceDriveJump", ui_x=500, ui_y=380)
 		ui.open()
 
-/obj/structure/machinery/computer/bluespacedrivejump/attack_hand(mob/user)
+/obj/structure/machinery/computer/terminal/bluespacedrivejump/attack_hand(mob/user)
 		ui_interact(user)
 
 /// Signal handler for when the linked bluespace drive is deleted
-/obj/structure/machinery/computer/bluespacedrivejump/proc/handle_drive_deletion()
+/obj/structure/machinery/computer/terminal/bluespacedrivejump/proc/handle_drive_deletion()
 	SIGNAL_HANDLER
 
 	linked_bluespace_drive = null

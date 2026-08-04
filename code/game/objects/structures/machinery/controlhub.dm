@@ -277,3 +277,31 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 		"privacy window tint" = list("type" = "windowtint", "id" = "xo_privacy_tint"),
 		"privacy shutter" = list("type" = "blast_door", "id" = "xo_office_privacy_shutter"),
 	)
+
+/obj/structure/machinery/controlhub/bridge/helm
+	name = "bridge control hub"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_HEADS)
+	controls = list(
+		"safety shutters" = list("type" = "blast_door", "id" = "bridge_helm_window_shutter"),
+		"bridge atrium lockdown" = list("type" = "blast_door", "id" = "bridge_lockdown_outer"),
+		"bridge lockdown" = list("type" = "blast_door", "id" = "bridge_lockdown_inner"),
+	)
+
+/obj/structure/machinery/controlhub/bridge/conference
+	name = "conference room control hub"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_HEADS, ACCESS_LAWYER, ACCESS_CONSULAR)
+	controls = list(
+		"safety shutters" = list("type" = "blast_door", "id" = "bridge_conference_window_shutter"),
+		"privacy screen" = list("type" = "windowtint", "id" = "bridge_conference_window_tint"),
+		"privacy bolts" = list("type" = "airlock", "id" = "bridge_conference_airlock_bolts", "functions" = 4),
+	)
+
+/obj/structure/machinery/controlhub/bridge/mess
+	name = "wardroom control hub"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_HEADS, ACCESS_LAWYER, ACCESS_CONSULAR)
+	controls = list(
+		"safety shutters" = list("type" = "blast_door", "id" = "bridge_mess_window_shutter"),
+	)
