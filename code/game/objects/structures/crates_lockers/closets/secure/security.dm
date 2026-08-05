@@ -374,6 +374,52 @@
 	new /obj/item/radio(src)
 	new /obj/item/gps(src)
 
+/obj/structure/closet/secure_closet/rep
+	name = "representative's locker"
+	req_access = list(ACCESS_LAWYER, ACCESS_CONSULAR)
+	icon_state = "sec"
+	icon_door = "hop"
+
+/obj/structure/closet/secure_closet/rep/fill()
+	..()
+	// Clothing
+	new /obj/item/radio/headset/representative(src)
+	new /obj/item/clothing/glasses/sunglasses(src)
+	new /obj/item/clothing/under/suit_jacket/really_black(src)
+	new /obj/item/clothing/shoes/laceup(src)
+	new /obj/item/storage/briefcase(src)
+	new /obj/item/storage/secure/briefcase(src)
+	// Supply
+	new /obj/item/storage/box/folders/blue(src)
+	new /obj/item/toner(src)
+	new /obj/item/camera_film(src)
+	new /obj/item/stack/packageWrap(src)
+	new /obj/item/stack/wrapping_paper(src)
+	new /obj/item/clipboard(src)
+	// Tools
+	new /obj/item/flash(src)
+	new /obj/item/camera(src)
+	new /obj/item/paper_scanner(src)
+	new /obj/item/hand_labeler(src)
+	new /obj/item/destTagger(src)
+	new /obj/item/eftpos(src)
+
+/obj/structure/closet/secure_closet/rep/corp
+	name = "corporate representative's locker"
+	req_access = list(ACCESS_LAWYER)
+	icon_state = "sec"
+	icon_door = "hop"
+
+/obj/structure/closet/secure_closet/rep/consul
+	name = "consular officer's locker"
+	req_access = list(ACCESS_CONSULAR)
+	icon_state = "sec"
+	icon_door = "hop"
+
+/obj/structure/closet/secure_closet/rep/consul/fill()
+	..()
+	new /obj/item/stamp/consul(src)
+
 // Evidence Storage Locker
 /obj/structure/closet/secure_closet/evidence
 	name = "evidence storage locker"

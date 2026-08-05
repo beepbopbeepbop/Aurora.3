@@ -65,7 +65,7 @@
 
 /obj/item/stamp/centcomm
 	name = "centcomm rubber stamp"
-	icon_state = "stamp-cent"
+	icon_state = "stamp-intaff"
 
 /obj/item/stamp/einstein
 	name = "einstein engines rubber stamp"
@@ -94,6 +94,10 @@
 /obj/item/stamp/sol
 	name = "\improper Sol Alliance rubber stamp"
 	icon_state = "stamp-sol"
+
+/obj/item/stamp/consul
+	name = "consular officer' rubber stamp"
+	icon_state = "stamp-qm"
 
 // Syndicate stamp to forge documents.
 /obj/item/stamp/chameleon/attack_self(mob/user as mob)

@@ -285,7 +285,9 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 	controls = list(
 		"safety shutters" = list("type" = "blast_door", "id" = "bridge_helm_window_shutter"),
 		"bridge atrium lockdown" = list("type" = "blast_door", "id" = "bridge_lockdown_outer"),
+		"bridge atrium door bolts" = list("type" = "airlock", "id" = "bridge_door_bolts_outer", "functions" = 4)
 		"bridge lockdown" = list("type" = "blast_door", "id" = "bridge_lockdown_inner"),
+		"bridge door bolts" = list("type" = "airlock", "id" = "bridge_door_bolts_inner", "functions" = 4)
 	)
 
 /obj/structure/machinery/controlhub/bridge/conference
@@ -295,13 +297,47 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 	controls = list(
 		"safety shutters" = list("type" = "blast_door", "id" = "bridge_conference_window_shutter"),
 		"privacy screen" = list("type" = "windowtint", "id" = "bridge_conference_window_tint"),
-		"privacy bolts" = list("type" = "airlock", "id" = "bridge_conference_airlock_bolts", "functions" = 4),
+		"privacy bolts" = list("type" = "airlock", "id" = "bridge_conference_airlock_control", "functions" = 4),
 	)
 
-/obj/structure/machinery/controlhub/bridge/mess
-	name = "wardroom control hub"
+/obj/structure/machinery/controlhub/rep/corp_a
+	name = "corporate representatives office control hub"
 	icon_state = "holocontrol"
-	req_access = list(ACCESS_HEADS, ACCESS_LAWYER, ACCESS_CONSULAR)
+	req_access = list(ACCESS_LAWYER)
 	controls = list(
-		"safety shutters" = list("type" = "blast_door", "id" = "bridge_mess_window_shutter"),
+		"interior window tint" = list("type" = "windowtint", "id" = "corprep_office_tint"),
+		"privacy window tint" = list("type" = "windowtint", "id" = "corprep_a_privacy_tint"),
+		"door control" = list("type" = "airlock", "id" = "corprep_a_airlock_control", "functions" = 1),
+		"door bolts" = list("type" = "airlock", "id" = "corprep_a_airlock_control", "functions" = 4)
+	)
+
+/obj/structure/machinery/controlhub/rep/corp_b
+	name = "corporate representatives office control hub"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_LAWYER)
+	controls = list(
+		"interior window tint" = list("type" = "windowtint", "id" = "corprep_office_tint"),
+		"privacy window tint" = list("type" = "windowtint", "id" = "corprep_b_privacy_tint"),
+		"door control" = list("type" = "airlock", "id" = "corprep_b_airlock_control", "functions" = 1),
+		"door bolts" = list("type" = "airlock", "id" = "corprep_b_airlock_control", "functions" = 4)
+	)
+
+/obj/structure/machinery/controlhub/rep/consul_a
+	name = "consular office control hub"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_CONSULAR)
+	controls = list(
+		"privacy window tint" = list("type" = "windowtint", "id" = "consul_a_privacy_tint"),
+		"door control" = list("type" = "airlock", "id" = "consul_a_airlock_control", "functions" = 1),
+		"door bolts" = list("type" = "airlock", "id" = "consul_a_airlock_control", "functions" = 4)
+	)
+
+/obj/structure/machinery/controlhub/rep/consul_b
+	name = "consular office control hub"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_CONSULAR)
+	controls = list(
+		"privacy window tint" = list("type" = "windowtint", "id" = "consul_b_privacy_tint"),
+		"door control" = list("type" = "airlock", "id" = "consul_b_airlock_control", "functions" = 1),
+		"door bolts" = list("type" = "airlock", "id" = "consul_b_airlock_control", "functions" = 4)
 	)
