@@ -258,6 +258,17 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 		"window tint" = list("type" = "windowtint", "id" = "bar_tint")
 	)
 
+/obj/structure/machinery/controlhub/captain_office
+	name = "captains office control hub"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_CAPTAIN)
+	controls = list(
+		"privacy window tint" = list("type" = "windowtint", "id" = "captain_office_privacy_tint"),
+		"door control" = list("type" = "airlock", "id" = "captain_office_airlock_control", "functions" = 1),
+		"door bolts" = list("type" = "airlock", "id" = "captain_office_airlock_control", "functions" = 4),
+		"safety shutters" = list("type" = "blast_door", "id" = "captain_office_window_shutter")
+	)
+
 /obj/structure/machinery/controlhub/xo_office/private
 	name = "executive officers office control hub"
 	icon_state = "holocontrol"
@@ -285,10 +296,11 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 	controls = list(
 		"safety shutters" = list("type" = "blast_door", "id" = "bridge_helm_window_shutter"),
 		"bridge atrium lockdown" = list("type" = "blast_door", "id" = "bridge_lockdown_outer"),
-		"bridge atrium door bolts" = list("type" = "airlock", "id" = "bridge_door_bolts_outer", "functions" = 4)
+		"bridge atrium door bolts" = list("type" = "airlock", "id" = "bridge_door_bolts_outer", "functions" = 4),
 		"bridge lockdown" = list("type" = "blast_door", "id" = "bridge_lockdown_inner"),
 		"bridge door bolts" = list("type" = "airlock", "id" = "bridge_door_bolts_inner", "functions" = 4)
 	)
+	range = 32
 
 /obj/structure/machinery/controlhub/bridge/conference
 	name = "conference room control hub"

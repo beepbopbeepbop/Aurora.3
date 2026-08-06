@@ -4,15 +4,14 @@
 	icon_state = "cap"
 
 /obj/structure/closet/secure_closet/captains/fill()
-	// Backpack
-	if(prob(50))
-		new /obj/item/storage/backpack/captain(src)
-	else
-		new /obj/item/storage/backpack/satchel/cap(src)
-	new /obj/item/storage/backpack/duffel/cap(src)
-	// Armor
+	//Backpacks
+	new /obj/item/storage/backpack/satchel/cap(src)
+	new /obj/item/storage/briefcase(src)
+	new /obj/item/storage/secure/briefcase(src)
+	//Armor
 	new /obj/item/clothing/head/helmet(src)
 	new /obj/item/clothing/suit/armor/carrier/generic(src)
+	new /obj/item/clothing/glasses/sunglasses(src)
 	//Tools
 	new /obj/item/radio/headset/heads/captain(src)
 	new /obj/item/radio/headset/heads/captain/alt(src)
@@ -20,33 +19,14 @@
 	new /obj/item/gun/energy/repeater/pistol(src)
 	new /obj/item/flash(src)
 	new /obj/item/melee/telebaton(src)
-	new /obj/item/radio/off(src)
+	new /obj/item/radio(src)
 	new /obj/item/taperecorder(src)
-	// uniform briefcases
+	new /obj/item/journal/notepad/scc(src)
+	//Uniform Briefcases
 	new /obj/item/storage/briefcase/nt/captain(src)
 	new /obj/item/storage/briefcase/nt/captain_white(src)
 	new /obj/item/storage/briefcase/nt/captain_formal(src)
 	new /obj/item/storage/briefcase/nt/acap(src)
-
-/obj/structure/closet/secure_closet/captains2
-	name = "captain's attire"
-	req_access = list(ACCESS_CAPTAIN)
-	icon_state = "cap"
-
-/obj/structure/closet/secure_closet/captains2/fill()
-	new /obj/item/storage/backpack/captain(src)
-	new /obj/item/storage/backpack/satchel/cap(src)
-	new /obj/item/clothing/suit/captunic(src)
-	new /obj/item/clothing/suit/captunic/capjacket(src)
-	new /obj/item/clothing/head/caphat(src)
-	new /obj/item/clothing/head/bandana/captain(src)
-	new /obj/item/clothing/under/rank/captain(src)
-	new /obj/item/clothing/suit/storage/vest(src)
-	new /obj/item/clothing/shoes/sneakers/brown(src)
-	new /obj/item/clothing/gloves/captain(src)
-	new /obj/item/clothing/under/dress/dress_cap(src)
-	new /obj/item/clothing/head/helmet/formalcaptain(src)
-	new /obj/item/clothing/under/captainformal(src)
 
 /obj/structure/closet/secure_closet/xo
 	name = "executive officer's locker"
@@ -369,6 +349,7 @@
 	new /obj/item/clothing/glasses/sunglasses(src)
 	new /obj/item/clothing/accessory/holster/waist(src)
 	new /obj/item/gun/projectile/sec(src)
+	new /obj/item/crowbar/red(src)
 	new /obj/item/radio/headset/headset_com(src)
 	new /obj/item/radio/headset/headset_com/alt(src)
 	new /obj/item/radio(src)
