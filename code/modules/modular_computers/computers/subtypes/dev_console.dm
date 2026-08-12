@@ -28,3 +28,17 @@
 	. = ..()
 	if(dir == SOUTH)
 		layer = ABOVE_HUMAN_LAYER
+
+/obj/item/modular_computer/console/terminal
+	name = "terminal"
+	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	icon_state = "computer"
+	icon_state_unpowered = "computer"
+	icon_state_screensaver = null
+	icon_state_screensaver_key = "generic_key_off"
+	icon_state_menu = "generic"
+	icon_state_menu_key = "generic_key"
+	icon_state_broken = "computer-broken"
+	screensaver_light_range = 0
+	screensaver_light_color = null
+	is_holographic = FALSE
