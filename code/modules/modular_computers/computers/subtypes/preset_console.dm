@@ -28,6 +28,10 @@
 
 /obj/item/modular_computer/console/preset/engineering/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/engineering/ce
 	name = "engineering console"
@@ -36,6 +40,10 @@
 
 /obj/item/modular_computer/console/preset/engineering/ce/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 // Medical
 /obj/item/modular_computer/console/preset/medical
@@ -45,6 +53,10 @@
 
 /obj/item/modular_computer/console/preset/medical/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/medical/cmo
 	name = "medical console"
@@ -53,6 +65,10 @@
 
 /obj/item/modular_computer/console/preset/medical/cmo/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 // Research
 /obj/item/modular_computer/console/preset/research
@@ -79,6 +95,10 @@
 
 /obj/item/modular_computer/console/preset/command/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/command/captain
 	name = "captain's console"
@@ -87,6 +107,10 @@
 
 /obj/item/modular_computer/console/preset/command/captain/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/command/hop
 	name = "command console"
@@ -95,6 +119,10 @@
 
 /obj/item/modular_computer/console/preset/command/hop/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/command/account
 	name = "account console"
@@ -103,6 +131,10 @@
 
 /obj/item/modular_computer/console/preset/command/account/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/command/account/centcomm
 	name = "centcomm accounts database"
@@ -116,6 +148,10 @@
 
 /obj/item/modular_computer/console/preset/security/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/security/investigations
 	name = "investigations console"
@@ -124,6 +160,10 @@
 
 /obj/item/modular_computer/console/preset/security/investigations/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/security/armory
 	name = "armory console"
@@ -132,6 +172,10 @@
 
 /obj/item/modular_computer/console/preset/security/armory/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/security/hos
 	name = "head of security's console"
@@ -140,6 +184,10 @@
 
 /obj/item/modular_computer/console/preset/security/hos/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/command/teleporter
 	name = "teleporter control console"
@@ -171,6 +219,10 @@
 
 /obj/item/modular_computer/console/preset/supply/terminal
 	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 /obj/item/modular_computer/console/preset/supply/machinist
 	name = "machinist console"

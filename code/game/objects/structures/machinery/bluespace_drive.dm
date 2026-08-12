@@ -586,9 +586,14 @@
 /obj/structure/machinery/computer/terminal/bluespacedrivejump
 	name = "\improper bluespace drive jump console"
 	desc = "Used to align and engage the bluespace drive for a jump."
-	icon_keyboard = "lightblue_key"
-	icon_keyboard_emis = "lightblue_key_mask"
-	light_color = LIGHT_COLOR_BLUE
+	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	icon_screen = "mass_driver"
+	icon_keyboard = "teleport_key"
+	icon_keyboard_emis = "teleport_key_mask"
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1
 
 	/// The bluespace drive (`/obj/structure/machinery/bluespacedrive`) that this console controls
 	var/obj/structure/machinery/bluespacedrive/linked_bluespace_drive
