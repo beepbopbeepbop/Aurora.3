@@ -96,7 +96,7 @@
 	icon_state = "stamp-sol"
 
 /obj/item/stamp/consul
-	name = "consular officer' rubber stamp"
+	name = "consular officer's rubber stamp"
 	icon_state = "stamp-qm"
 
 // Syndicate stamp to forge documents.

@@ -8,6 +8,7 @@
 			return TRUE
 	return ..()
 
+// Consoles
 /obj/item/modular_computer/console/preset/install_default_hardware()
 	..()
 	processor_unit = new /obj/item/computer_hardware/processor_unit(src)
@@ -20,6 +21,19 @@
 /obj/item/modular_computer/console/preset/install_default_programs()
 	..()
 
+// Terminals
+/obj/item/modular_computer/console/terminal/preset/install_default_hardware()
+	..()
+	processor_unit = new /obj/item/computer_hardware/processor_unit(src)
+	tesla_link = new /obj/item/computer_hardware/tesla_link(src)
+	hard_drive = new /obj/item/computer_hardware/hard_drive/super(src)
+	network_card = new /obj/item/computer_hardware/network_card/wired(src)
+	nano_printer = new /obj/item/computer_hardware/nano_printer(src)
+	universal_port = new /obj/item/computer_hardware/universal_port(src)
+
+/obj/item/modular_computer/console/terminal/preset/install_default_programs()
+	..()
+
 // Engineering
 /obj/item/modular_computer/console/preset/engineering
 	name = "engineering console"
@@ -27,7 +41,9 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/engineering
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "engineering console"
+	_app_preset_type = /datum/modular_computer_app_presets/engineering
+	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/preset/engineering/ce
 	name = "engineering console"
@@ -35,7 +51,9 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/engineering/ce
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "engineering console"
+	_app_preset_type = /datum/modular_computer_app_presets/engineering/ce
+	enrolled = DEVICE_COMPANY
 
 // Medical
 /obj/item/modular_computer/console/preset/medical
@@ -44,7 +62,9 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/medical
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "medical console"
+	_app_preset_type = /datum/modular_computer_app_presets/medical
+	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/preset/medical/cmo
 	name = "medical console"
@@ -52,7 +72,9 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/medical/cmo
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "medical console"
+	_app_preset_type = /datum/modular_computer_app_presets/medical/cmo
+	enrolled = DEVICE_COMPANY
 
 // Research
 /obj/item/modular_computer/console/preset/research
@@ -78,7 +100,16 @@
 	card_slot = new /obj/item/computer_hardware/card_slot(src)
 
 /obj/item/modular_computer/console/terminal/preset/command
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "command console"
+	_app_preset_type = /datum/modular_computer_app_presets/command
+	enrolled = DEVICE_COMPANY
+
+/obj/item/modular_computer/console/terminal/preset/command/install_default_hardware()
+	..()
+	nano_printer = new /obj/item/computer_hardware/nano_printer(src)
+	nano_printer.max_paper = 25
+	nano_printer.stored_paper = 20
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
 
 /obj/item/modular_computer/console/preset/command/captain
 	name = "captain's console"
@@ -86,7 +117,9 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/command/captain
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "captain's console"
+	_app_preset_type = /datum/modular_computer_app_presets/command/captain
+	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/preset/command/hop
 	name = "command console"
@@ -94,7 +127,9 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/command/hop
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "command console"
+	_app_preset_type = /datum/modular_computer_app_presets/command/hop
+	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/preset/command/account
 	name = "account console"
@@ -102,7 +137,9 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/command/account
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "account console"
+	_app_preset_type = /datum/modular_computer_app_presets/command/account
+	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/preset/command/account/centcomm
 	name = "centcomm accounts database"
@@ -115,7 +152,9 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/security
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "security console"
+	_app_preset_type = /datum/modular_computer_app_presets/security
+	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/preset/security/investigations
 	name = "investigations console"
@@ -123,7 +162,9 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/security/investigations
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "investigations console"
+	_app_preset_type = /datum/modular_computer_app_presets/security/investigations
+	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/preset/security/armory
 	name = "armory console"
@@ -131,15 +172,19 @@
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/security/armory
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "armory console"
+	_app_preset_type = /datum/modular_computer_app_presets/security/armory
+	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/preset/security/hos
-	name = "head of security's console"
+	name = "security console"
 	_app_preset_type = /datum/modular_computer_app_presets/security/hos
 	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/terminal/preset/security/hos
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "security console"
+	_app_preset_type = /datum/modular_computer_app_presets/security/hos
+	enrolled = DEVICE_COMPANY
 
 /obj/item/modular_computer/console/preset/command/teleporter
 	name = "teleporter control console"
@@ -170,7 +215,15 @@
 	card_slot = new /obj/item/computer_hardware/card_slot(src)
 
 /obj/item/modular_computer/console/terminal/preset/supply
-	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	name = "supply console"
+	_app_preset_type = /datum/modular_computer_app_presets/supply
+	enrolled = DEVICE_COMPANY
+
+/obj/item/modular_computer/console/terminal/preset/supply/install_default_hardware()
+	..()
+	nano_printer.max_paper = 25
+	nano_printer.stored_paper = 20
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
 
 /obj/item/modular_computer/console/preset/supply/machinist
 	name = "machinist console"

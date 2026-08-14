@@ -1567,15 +1567,15 @@
 /turf/simulated/open,
 /area/horizon/operations/office)
 "aid" = (
-/obj/item/modular_computer/console/preset/command/hop/terminal{
-	dir = 1
-	},
 /obj/effect/floor_decal/industrial/outline_corner/security{
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline_segment/security,
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 9
+	},
+/obj/item/modular_computer/console/terminal/preset/command/hop{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/bridge/controlroom)
@@ -11465,6 +11465,7 @@
 	},
 /obj/effect/floor_decal/spline/fancy/wood/full,
 /obj/structure/sign/floor_plaque/horizon/captain_office,
+/mob/living/simple_animal/corgi/fox/Chauncey,
 /turf/simulated/floor/wood,
 /area/horizon/command/heads/captain)
 "bwv" = (
@@ -14916,10 +14917,6 @@
 /turf/simulated/floor/tiled,
 /area/horizon/hallway/primary/deck_2/starboard)
 "bVT" = (
-/obj/item/modular_computer/console/preset/security/hos/terminal{
-	dir = 8;
-	name = "security console"
-	},
 /obj/effect/floor_decal/industrial/outline_corner/security,
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 8
@@ -14932,6 +14929,9 @@
 	dir = 1
 	},
 /obj/structure/machinery/alarm/east,
+/obj/item/modular_computer/console/terminal/preset/security/hos{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/bridge/controlroom)
 "bVV" = (
@@ -16855,11 +16855,11 @@
 /turf/simulated/floor/wood,
 /area/horizon/service/mess_hall)
 "cjU" = (
-/obj/item/modular_computer/console/preset/command/terminal{
-	dir = 8
-	},
 /obj/effect/floor_decal/industrial/outline/security,
 /obj/item/radio/intercom/ship/east,
+/obj/item/modular_computer/console/terminal/preset/command{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/bridge/bridge_office)
 "cjY" = (
@@ -49248,9 +49248,6 @@
 	},
 /area/centcom/holding)
 "gvC" = (
-/obj/item/modular_computer/console/preset/command/hop/terminal{
-	dir = 8
-	},
 /obj/effect/floor_decal/industrial/outline_corner/security{
 	dir = 1
 	},
@@ -49260,6 +49257,9 @@
 	},
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 10
+	},
+/obj/item/modular_computer/console/terminal/preset/command/hop{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/xo_desk)
@@ -59726,9 +59726,6 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/maintenance/deck_1/main/port)
 "hMw" = (
-/obj/item/modular_computer/console/preset/command/hop/terminal{
-	dir = 4
-	},
 /obj/effect/floor_decal/industrial/outline_corner/security{
 	dir = 1
 	},
@@ -59736,6 +59733,9 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/industrial/outline_segment/security{
+	dir = 4
+	},
+/obj/item/modular_computer/console/terminal/preset/command/hop{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
@@ -63939,6 +63939,10 @@
 	req_access = list(20,40,57,41,58,56);
 	name = "! COMMAND ACCESS ONLY !"
 	},
+/obj/structure/machinery/light/small/red,
+/obj/structure/machinery/light/small/red{
+	dir = 1
+	},
 /turf/simulated/floor/reinforced,
 /area/horizon/command/bridge/supply)
 "iqj" = (
@@ -64592,7 +64596,7 @@
 	dir = 9
 	},
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/stairwell/bridge/deck_3)
@@ -82919,7 +82923,7 @@
 	icon_state = "4-8"
 	},
 /obj/structure/lattice/catwalk/indoor/grate/dark,
-/obj/structure/machinery/light/small{
+/obj/structure/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor,
@@ -89062,9 +89066,6 @@
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/maintenance/deck_1/workshop)
 "lCB" = (
-/obj/item/modular_computer/console/preset/command/captain/terminal{
-	dir = 8
-	},
 /obj/effect/floor_decal/industrial/outline_corner/security{
 	dir = 1
 	},
@@ -89073,6 +89074,10 @@
 	},
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 4
+	},
+/obj/item/modular_computer/console/terminal/preset/command/captain{
+	dir = 8;
+	name = "command console"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/captain)
@@ -101880,7 +101885,7 @@
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 10
 	},
-/obj/item/modular_computer/console/preset/supply/terminal{
+/obj/item/modular_computer/console/terminal/preset/supply{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
@@ -111973,7 +111978,7 @@
 	c_tag = "Bridge - Starboard, Aft";
 	dir = 1
 	},
-/obj/item/modular_computer/console/preset/engineering/ce/terminal{
+/obj/item/modular_computer/console/terminal/preset/engineering/ce{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
@@ -116768,7 +116773,7 @@
 /turf/simulated/floor/tiled/full,
 /area/horizon/hangar/operations)
 "pim" = (
-/obj/item/modular_computer/console/preset/command/hop/terminal{
+/obj/item/modular_computer/console/terminal/preset/command{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/rubber,
@@ -116795,8 +116800,12 @@
 /area/centcom/evac)
 "pir" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
@@ -129942,15 +129951,16 @@
 /turf/simulated/floor/tiled,
 /area/horizon/operations/break_room)
 "qTN" = (
-/obj/item/modular_computer/console/preset/command/account/terminal{
-	dir = 4
-	},
 /obj/effect/floor_decal/industrial/outline_corner/security,
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 5
+	},
+/obj/item/modular_computer/console/terminal/preset/command/account{
+	dir = 4;
+	name = "command console"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/xo_office)
@@ -133805,10 +133815,10 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/item/modular_computer/console/preset/command/terminal{
+/obj/effect/floor_decal/industrial/outline/security,
+/obj/item/modular_computer/console/terminal/preset/command{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/outline/security,
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/bridge/bridge_office)
 "rtJ" = (
@@ -144770,15 +144780,14 @@
 /turf/simulated/floor/tiled/white,
 /area/horizon/rnd/chemistry)
 "sNj" = (
+/obj/structure/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/cable/green{
-	icon_state = "0-2"
+	icon_state = "2-4"
 	},
-/obj/structure/machinery/power/apc/west,
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
+/obj/structure/machinery/firealarm/west,
+/obj/structure/machinery/camera/network/command{
+	c_tag = "Bridge - Galley Stairwell"
 	},
-/obj/structure/machinery/firealarm/north,
-/obj/structure/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/stairwell/bridge/deck_3)
 "sNl" = (
@@ -147964,15 +147973,16 @@
 /turf/simulated/floor/airless,
 /area/horizon/engineering/atmos)
 "tiQ" = (
-/obj/item/modular_computer/console/preset/command/account/terminal{
-	dir = 8
-	},
 /obj/effect/floor_decal/industrial/outline_corner/security,
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 5
+	},
+/obj/item/modular_computer/console/terminal/preset/command/account{
+	dir = 8;
+	name = "command console"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/xo_desk)
@@ -165009,9 +165019,6 @@
 /turf/simulated/floor/plating,
 /area/horizon/engineering/bluespace_drive)
 "vws" = (
-/obj/item/modular_computer/console/preset/medical/cmo/terminal{
-	dir = 8
-	},
 /obj/effect/floor_decal/industrial/outline_corner/security{
 	dir = 1
 	},
@@ -165020,6 +165027,9 @@
 	},
 /obj/effect/floor_decal/industrial/outline_segment/security{
 	dir = 10
+	},
+/obj/item/modular_computer/console/terminal/preset/medical/cmo{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/bridge/controlroom)
@@ -175833,8 +175843,10 @@
 	dir = 4
 	},
 /obj/structure/machinery/alarm/west,
-/obj/effect/floor_decal/corner/dark_blue/full,
-/turf/simulated/floor/tiled/dark,
+/obj/structure/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/stairwell/bridge/deck_3)
 "wPA" = (
 /obj/effect/floor_decal/corner/dark_green{
@@ -176451,13 +176463,14 @@
 /turf/simulated/floor/marble/dark,
 /area/horizon/holodeck/source_luceism)
 "wTi" = (
-/obj/structure/machinery/camera/network/command{
-	c_tag = "Bridge - Galley Stairwell"
+/obj/structure/cable/green{
+	icon_state = "0-8"
 	},
-/obj/structure/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
+/obj/structure/machinery/power/apc/north,
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/dark,
 /area/horizon/stairwell/bridge/deck_3)
 "wTl" = (
 /obj/effect/floor_decal/corner/red{
@@ -183667,11 +183680,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/horizon/holodeck/source_biesel)
 "xNy" = (
-/obj/item/modular_computer/console/preset/command/captain/terminal{
-	dir = 8
-	},
 /obj/effect/floor_decal/industrial/outline/security,
 /obj/structure/machinery/alarm/north,
+/obj/item/modular_computer/console/terminal/preset/command/captain{
+	dir = 8;
+	name = "command console"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/bridge/controlroom)
 "xNA" = (
