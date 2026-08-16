@@ -327,9 +327,6 @@
 /obj/structure/platform/cutout{
 	dir = 8
 	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
 /obj/structure/platform{
 	dir = 1
 	},
@@ -21420,6 +21417,9 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/storage/toolbox/mechanical,
+/obj/item/stack/material/marble/full,
+/obj/item/stack/material/plastic/full,
+/obj/item/stack/material/silver/full,
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/service/chapel/corpse_storage)
 "cOz" = (
@@ -25809,13 +25809,10 @@
 /turf/unsimulated/floor/wood,
 /area/antag/mercenary)
 "dpI" = (
-/obj/structure/platform_deco{
-	dir = 8
+/obj/structure/cable/green{
+	icon_state = "0-4"
 	},
-/obj/structure/extinguisher_cabinet/west,
-/obj/structure/machinery/light/floor{
-	dir = 1
-	},
+/obj/structure/machinery/power/apc/low/west,
 /turf/simulated/floor/lino,
 /area/horizon/service/chapel/main)
 "dpJ" = (
@@ -34735,9 +34732,9 @@
 /turf/simulated/floor/tiled,
 /area/horizon/operations/office)
 "ewX" = (
-/obj/effect/floor_decal/industrial/outline/service,
-/obj/structure/bed/stool/chair/padded/beige,
-/turf/simulated/floor/tiled/dark/full,
+/obj/structure/bed/stool/chair/padded/black,
+/obj/structure/machinery/alarm/north,
+/turf/simulated/floor/carpet/red,
 /area/horizon/service/chapel/main)
 "ewZ" = (
 /obj/structure/machinery/atmospherics/unary/vent_pump/siphon/on/atmos{
@@ -44438,9 +44435,6 @@
 /area/horizon/operations/loading)
 "fMJ" = (
 /obj/structure/disposalpipe/segment/mainline,
-/obj/structure/platform{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
@@ -46692,6 +46686,12 @@
 /obj/structure/table/reinforced/glass,
 /turf/simulated/floor/wood,
 /area/horizon/rnd/xenoarch/presentation)
+"gbE" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/red,
+/area/horizon/service/chapel/main)
 "gbF" = (
 /obj/effect/floor_decal/corner/mauve{
 	dir = 9
@@ -51295,9 +51295,6 @@
 	dir = 8
 	},
 /obj/structure/platform_deco,
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
@@ -51366,29 +51363,21 @@
 /area/horizon/command/heads/rd)
 "gGX" = (
 /obj/structure/table/wood,
-/obj/item/storage/box/fancy/candle_box{
-	pixel_x = 6;
+/obj/item/paper_bin{
+	pixel_x = 5;
 	pixel_y = 3
 	},
-/obj/item/storage/box/fancy/candle_box{
-	pixel_x = 6;
-	pixel_y = 5
+/obj/item/pen{
+	pixel_x = 4;
+	pixel_y = 4
 	},
-/obj/item/flame/candle{
-	pixel_x = -9;
-	pixel_y = 7
+/obj/random/pottedplant_small{
+	pixel_x = -7;
+	pixel_y = 3
 	},
-/obj/item/flame/candle{
-	pixel_x = -5;
-	pixel_y = 7
-	},
-/obj/item/storage/box/fancy/candle_box{
-	pixel_x = 6;
-	pixel_y = 7
-	},
-/obj/item/lore_radio{
-	pixel_x = -1;
-	pixel_y = -9
+/obj/item/glass_jar{
+	pixel_y = -11;
+	pixel_x = -5
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/service/chapel/main)
@@ -51937,9 +51926,6 @@
 "gKF" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -62328,8 +62314,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/structure/cable/green,
-/obj/structure/machinery/power/apc/low/east,
+/obj/item/radio/intercom/ship/east,
 /turf/simulated/floor/wood,
 /area/horizon/service/chapel/office)
 "ics" = (
@@ -68011,9 +67996,8 @@
 	icon_state = "pipe-c"
 	},
 /obj/structure/cable/green{
-	icon_state = "2-4"
+	icon_state = "0-2"
 	},
-/obj/item/radio/intercom/west,
 /obj/effect/floor_decal/corner/dark_green{
 	dir = 9
 	},
@@ -68023,6 +68007,7 @@
 /obj/structure/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
 	},
+/obj/structure/machinery/power/apc/low/west,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/service/chapel/office)
 "iOS" = (
@@ -69155,22 +69140,12 @@
 /turf/simulated/floor/tiled,
 /area/horizon/service/hydroponics)
 "iWQ" = (
-/obj/item/clothing/head/chaplain_hood,
-/obj/item/clothing/suit/chaplain_hoodie,
-/obj/item/clothing/under/rank/chaplain,
-/obj/item/clothing/head/nun_hood,
-/obj/item/clothing/suit/nun,
 /obj/item/storage/box/fancy/crayons,
-/obj/item/storage/box/fancy/candle_box,
-/obj/item/storage/box/fancy/candle_box,
 /obj/item/mesmetron,
-/obj/item/storage/box/fancy/candle_box,
-/obj/item/storage/box/fancy/candle_box,
 /obj/item/radio/headset/headset_service,
 /obj/item/radio/headset/wrist/clip/service,
 /obj/item/radio/headset/wrist/service,
 /obj/item/spirit_board,
-/obj/item/clothing/shoes/sneakers/black,
 /obj/item/toy/plushie/therapy,
 /obj/item/reagent_containers/food/drinks/bottle/holywater,
 /obj/item/stack/packageWrap,
@@ -69184,11 +69159,12 @@
 	c_tag = "Service - Chapel Storage";
 	network = list("Service")
 	},
-/obj/item/toy/figure/chaplain,
 /obj/item/portable_whiteboard,
-/obj/item/clipboard,
-/obj/item/storage/stickersheet/religion,
-/obj/random/coin,
+/obj/item/storage/box/fancy/matches,
+/obj/item/reagent_containers/spray/aspergillum,
+/obj/item/camera,
+/obj/item/camera_film,
+/obj/item/storage/slide_projector,
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/service/chapel/office)
 "iWR" = (
@@ -69552,9 +69528,6 @@
 	},
 /obj/structure/cable/green{
 	icon_state = "2-4"
-	},
-/obj/structure/platform{
-	dir = 4
 	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -70994,9 +70967,6 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
 	},
 /obj/structure/machinery/light/small/floor,
 /turf/simulated/floor/lino,
@@ -92221,17 +92191,8 @@
 /area/horizon/storage/eva/expedition)
 "lUf" = (
 /obj/structure/table/wood,
-/obj/item/paper_bin{
-	pixel_x = 5;
-	pixel_y = 3
-	},
-/obj/item/pen{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/random/pottedplant_small{
-	pixel_x = -7;
-	pixel_y = 3
+/obj/item/storage/box/large/donations{
+	pixel_y = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/service/chapel/main)
@@ -101638,9 +101599,6 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -102119,9 +102077,6 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
@@ -102174,13 +102129,7 @@
 /turf/simulated/open,
 /area/horizon/maintenance/deck_2/cryo)
 "nkj" = (
-/obj/effect/floor_decal/corner/dark_green{
-	dir = 5
-	},
-/obj/effect/floor_decal/spline/plain/lime{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/carpet/red,
 /area/horizon/service/chapel/main)
 "nkl" = (
 /obj/structure/cable/green{
@@ -102624,9 +102573,6 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
 	},
 /obj/structure/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -107846,9 +107792,6 @@
 	dir = 4
 	},
 /obj/structure/table/stone/marble,
-/obj/structure/machinery/light{
-	dir = 4
-	},
 /turf/simulated/floor/wood,
 /area/horizon/service/chapel/main)
 "nYp" = (
@@ -108097,7 +108040,6 @@
 /turf/space/transit/east,
 /area/template_noop)
 "oax" = (
-/obj/structure/platform,
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 8
 	},
@@ -114099,9 +114041,6 @@
 /obj/structure/platform{
 	dir = 8
 	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/lino,
 /area/horizon/service/chapel/main)
@@ -118155,7 +118094,7 @@
 	},
 /obj/structure/platform_deco,
 /obj/structure/machinery/light/small/floor,
-/obj/item/radio/intercom/south,
+/obj/structure/extinguisher_cabinet/south,
 /turf/simulated/floor/lino,
 /area/horizon/service/chapel/main)
 "pnt" = (
@@ -118517,9 +118456,6 @@
 	},
 /obj/structure/cable/green{
 	icon_state = "1-8"
-	},
-/obj/structure/platform_deco{
-	dir = 4
 	},
 /obj/structure/disposalpipe/segment/mainline{
 	icon_state = "pipe-c-yellow";
@@ -121950,9 +121886,6 @@
 /obj/structure/disposalpipe/junction{
 	icon_state = "pipe-j2"
 	},
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
 /obj/structure/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
@@ -122413,9 +122346,6 @@
 "pQx" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/outline_straight/service{
 	dir = 1
@@ -128470,9 +128400,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
@@ -129775,14 +129702,17 @@
 /turf/unsimulated/floor/rubber_carpet,
 /area/centcom/specops)
 "qNe" = (
-/obj/effect/floor_decal/corner/dark_green{
-	dir = 5
-	},
+/obj/structure/table/wood/gamblingtable,
 /obj/item/radio/intercom/north,
-/obj/structure/machinery/light/small{
-	dir = 8
+/obj/item/flashlight/lamp/green{
+	pixel_x = 6;
+	pixel_y = 16
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/item/lore_radio{
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/turf/simulated/floor/carpet/red,
 /area/horizon/service/chapel/main)
 "qNk" = (
 /obj/structure/grille,
@@ -134639,14 +134569,11 @@
 /turf/simulated/floor,
 /area/horizon/maintenance/deck_3/auxatmos)
 "rtX" = (
-/obj/effect/floor_decal/corner/dark_green/full{
-	dir = 1
+/obj/structure/machinery/camera{
+	c_tag = "Service - Chapel 1";
+	network = list("Service")
 	},
-/obj/effect/floor_decal/spline/plain/lime{
-	dir = 4
-	},
-/obj/structure/machinery/alarm/north,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/carpet/red,
 /area/horizon/service/chapel/main)
 "ruc" = (
 /obj/structure/machinery/door/window/eastleft,
@@ -138930,9 +138857,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
@@ -140798,6 +140722,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
+/obj/random/coin,
 /turf/simulated/floor/wood,
 /area/horizon/service/chapel/office)
 "shJ" = (
@@ -141351,6 +141276,10 @@
 	},
 /obj/structure/machinery/light/small{
 	dir = 8
+	},
+/obj/structure/coatrack{
+	pixel_x = -10;
+	pixel_y = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/service/chapel/office)
@@ -145996,11 +145925,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 5
 	},
-/obj/structure/cable/green{
-	icon_state = "0-8"
-	},
-/obj/structure/machinery/power/apc/low/east,
 /obj/structure/flora/pottedplant/whitetulip,
+/obj/structure/machinery/light/small/floor,
+/obj/item/radio/intercom/east,
 /turf/simulated/floor/wood,
 /area/horizon/service/chapel/main)
 "sPa" = (
@@ -147482,7 +147409,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/structure/machinery/light{
+/obj/structure/machinery/light/small{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
@@ -151009,9 +150936,6 @@
 	department = "Chapel";
 	departmentType = 1
 	},
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
 /obj/structure/machinery/disposal/small/west,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
@@ -151931,7 +151855,6 @@
 /turf/simulated/floor/plating,
 /area/horizon/engineering/atmos)
 "tCz" = (
-/obj/structure/platform,
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
@@ -151945,6 +151868,10 @@
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/obj/structure/machinery/light/small/floor,
 /turf/simulated/floor/lino,
 /area/horizon/service/chapel/main)
 "tCP" = (
@@ -158187,9 +158114,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
 /obj/structure/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -160823,6 +160747,7 @@
 	name = "research window tint control"
 	},
 /obj/structure/flora/pottedplant/minitree,
+/obj/structure/machinery/light/small/floor,
 /turf/simulated/floor/wood,
 /area/horizon/service/chapel/main)
 "uJN" = (
@@ -161431,6 +161356,10 @@
 	pixel_y = 9;
 	pixel_x = 8;
 	name = "exterior window tint control"
+	},
+/obj/item/clipboard{
+	pixel_x = -5;
+	pixel_y = 2
 	},
 /obj/item/pen/fountain/silver{
 	pixel_x = -6;
@@ -173805,13 +173734,11 @@
 /turf/simulated/floor,
 /area/horizon/hallway/primary/deck_3/port)
 "wuo" = (
-/obj/effect/floor_decal/corner/dark_green{
-	dir = 4
+/obj/structure/coatrack{
+	pixel_x = -9;
+	pixel_y = 2
 	},
-/obj/effect/floor_decal/spline/plain/corner/lime{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/carpet/red,
 /area/horizon/service/chapel/main)
 "wup" = (
 /obj/structure/machinery/atmospherics/pipe/simple/hidden{
@@ -181313,14 +181240,7 @@
 /obj/random/pottedplant_small{
 	pixel_x = 9
 	},
-/obj/item/reagent_containers/spray/aspergillum{
-	pixel_x = -7;
-	pixel_y = 9
-	},
-/obj/item/deck/tarot{
-	pixel_x = -5;
-	pixel_y = -2
-	},
+/obj/item/toy/figure/chaplain,
 /turf/simulated/floor/wood,
 /area/horizon/service/chapel/office)
 "xrs" = (
@@ -185346,9 +185266,6 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
-/obj/structure/cable/green{
-	icon_state = "1-8"
-	},
 /turf/simulated/floor/lino,
 /area/horizon/service/chapel/main)
 "xRw" = (
@@ -188036,16 +187953,11 @@
 /turf/simulated/floor/wood,
 /area/horizon/medical/psych)
 "yku" = (
-/obj/structure/platform_stairs,
-/obj/structure/platform{
-	dir = 8
-	},
-/obj/structure/machinery/camera{
-	c_tag = "Service - Chapel 1";
-	network = list("Service");
+/obj/structure/bed/stool/chair/padded/black,
+/obj/structure/window/reinforced{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/carpet/red,
 /area/horizon/service/chapel/main)
 "ykx" = (
 /obj/structure/platform{
@@ -288802,8 +288714,8 @@ dRo
 sZc
 cOx
 dRo
-qNe
-yku
+czU
+czU
 dpI
 bam
 hlM
@@ -289573,7 +289485,7 @@ dRo
 vQp
 hFw
 dRo
-czU
+qNe
 nkj
 oax
 auv
@@ -289830,8 +289742,8 @@ dRo
 usn
 lCf
 dRo
-czU
-nkj
+yku
+gbE
 oax
 ula
 iKs

@@ -641,6 +641,12 @@
 	illustration = "implant"
 	starts_with = list(/obj/item/implanter = 1, /obj/item/implantcase/death_alarm = 6, /obj/item/implantpad = 1)
 
+/obj/item/storage/box/large/donations
+	name = "donation box"
+	desc = "A box with a large 'DONATIONS' label on it."
+	color = COLOR_BLUE_GRAY
+	illustration = "writing_large"
+
 /obj/item/storage/box/large/condimentbottles
 	name = "box of condiment bottles"
 	desc = "It has a large ketchup smear on it."
@@ -1188,6 +1194,26 @@
 		/obj/item/flag/kraszar = 1,
 		/obj/item/flag/dhrarmela = 1,
 		/obj/item/flag/azubarre = 1
+	)
+
+/obj/item/storage/box/trinary_perfection_flags
+	name = "Trinary Perfection flag box"
+	desc = "A box filled to the brim with various flags associated with the Trinary Perfection, and the Ecclesiastical Authority of Axiom."
+	starts_with = list(
+		/obj/item/flag/trinaryperfection = 4,
+		/obj/item/flag/trinaryperfection/l = 2,
+		/obj/item/flag/ecclesiastical_axiom = 4,
+		/obj/item/flag/ecclesiastical_axiom/l = 2
+	)
+
+/obj/item/storage/box/luceism_flags
+	name = "Luceist flag box"
+	desc = "A box filled to the brim with various flags associated with Luceism, the state religion of Assunzione."
+	starts_with = list(
+		/obj/item/flag/luceist = 4,
+		/obj/item/flag/luceist/l = 2,
+		/obj/item/flag/assunzione = 4,
+		/obj/item/flag/assunzione/l = 2
 	)
 
 /// Parent object of various national flag boxes. Original intention for random cargo spawn.
