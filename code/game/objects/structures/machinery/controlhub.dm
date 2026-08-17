@@ -246,6 +246,25 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
  * SUBTYPES
  */
 
+/obj/structure/machinery/controlhub/stargazing_lounge
+	name = "stargazing lounge control hub"
+	icon_state = "holocontrol"
+	controls = list(
+		"safety shutters" = list("type" = "blast_door", "id" = "stargazing_lounge_window_shutter"),
+		"dividing window tint" = list("type" = "windowtint", "id" = "lounge_dividing_tint"),
+		"lounge privacy window tint" = list("type" = "windowtint", "id" = "stargazing_lounge_privacy_tint"),
+		"private room window tint" = list("type" = "windowtint", "id" = "stargazing_lounge_private_room_tint")
+	)
+
+/obj/structure/machinery/controlhub/smoking_lounge
+	name = "smoking lounge control hub"
+	icon_state = "holocontrol"
+	controls = list(
+		"safety shutters" = list("type" = "blast_door", "id" = "smoking_lounge_window_shutter"),
+		"dividing window tint" = list("type" = "windowtint", "id" = "lounge_dividing_tint"),
+		"docking arm window tint" = list("type" = "windowtint", "id" = "smoking_lounge_docking_tint")
+	)
+
 /obj/structure/machinery/controlhub/bar
 	name = "bar control hub"
 	icon_state = "holocontrol"

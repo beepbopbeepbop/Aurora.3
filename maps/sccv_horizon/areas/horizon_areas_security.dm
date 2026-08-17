@@ -156,3 +156,10 @@
 	ambience = AMBIENCE_ARRIVALS
 	horizon_deck = 2
 	area_blurb = "A functional, unfriendly-looking compartment."
+
+/area/horizon/security/checkpoint3
+	name = "Starboard Docking Arm Checkpoint"
+	icon_state = "security"
+	ambience = AMBIENCE_ARRIVALS
+	horizon_deck = 3
+	area_blurb = "A functional, unfriendly-looking compartment."

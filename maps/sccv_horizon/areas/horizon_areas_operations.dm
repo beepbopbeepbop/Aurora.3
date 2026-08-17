@@ -44,10 +44,9 @@
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 	horizon_deck = 2
 
-/area/horizon/operations/office_aux
-	name = "Auxiliary Office"
-	icon_state = "quartoffice"
-	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
+/area/horizon/operations/loading_aux
+	name = "Auxiliary Loading Bay"
+	icon_state = "quartloading"
 	horizon_deck = 3
 
 /area/horizon/operations/mail_room

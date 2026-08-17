@@ -233,9 +233,17 @@
 	lightswitch = FALSE
 
 /area/horizon/crew/lounge
-	name = "Crew Lounge"
+	name = "Smoking Lounge"
 	icon_state = "lounge"
 	horizon_deck = 3
+
+/area/horizon/crew/stargazing_lounge
+	name = "Stargazing Lounge"
+	icon_state = "lounge"
+	horizon_deck = 3
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+	lightswitch = FALSE
 
 /area/horizon/crew/chargebay
 	name = "Charge Bay"
