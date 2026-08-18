@@ -33,9 +33,18 @@
 	location_ew = LOC_STARBOARD
 
 /area/horizon/hallway/primary/deck_3/starboard/docks
-	name = "Docking Arm"
+	name = "Starboard Docks"
 	holomap_color = HOLOMAP_AREACOLOR_DOCK
 	location_ew = LOC_STARBOARD_FAR
+
+/area/horizon/hallway/primary/deck_3/starboard/docks/atrium
+	name = "Starboard Docking Atrium"
+
+/area/horizon/hallway/primary/deck_3/starboard/docks/checkpoint
+	name = "Starboard Docking Checkpoint"
+
+/area/horizon/hallway/primary/deck_3/starboard/docks/arm
+	name = "Starboard Docking Arm"
 
 /area/horizon/hallway/primary/deck_3/port
 	name = "Primary Hallway"
@@ -236,9 +245,12 @@
 	name = "Smoking Lounge"
 	icon_state = "lounge"
 	horizon_deck = 3
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	sound_environment = SOUND_AREA_SMALL_SOFTFLOOR
+	lightswitch = FALSE
 
-/area/horizon/crew/stargazing_lounge
-	name = "Stargazing Lounge"
+/area/horizon/crew/stargazing_pool
+	name = "Stargazing Pool"
 	icon_state = "lounge"
 	horizon_deck = 3
 	area_flags = AREA_FLAG_RAD_SHIELDED
@@ -278,8 +290,7 @@
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	horizon_deck = 3
 
-/area/horizon/crew/vacantoffice
+/area/horizon/crew/vacant_office
 	name = "Vacant Office"
-	no_light_control = 0
 	horizon_deck = 3
 	lightswitch = FALSE

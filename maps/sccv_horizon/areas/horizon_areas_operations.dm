@@ -45,7 +45,7 @@
 	horizon_deck = 2
 
 /area/horizon/operations/loading_aux
-	name = "Auxiliary Loading Bay"
+	name = "Starboard Docks Loading Bay"
 	icon_state = "quartloading"
 	horizon_deck = 3
 

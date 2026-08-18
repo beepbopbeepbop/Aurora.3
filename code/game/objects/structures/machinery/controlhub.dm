@@ -246,23 +246,23 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
  * SUBTYPES
  */
 
-/obj/structure/machinery/controlhub/stargazing_lounge
-	name = "stargazing lounge control hub"
+/obj/structure/machinery/controlhub/stargazing_pool
+	name = "stargazing pool control hub"
 	icon_state = "holocontrol"
 	controls = list(
-		"safety shutters" = list("type" = "blast_door", "id" = "stargazing_lounge_window_shutter"),
-		"dividing window tint" = list("type" = "windowtint", "id" = "lounge_dividing_tint"),
-		"lounge privacy window tint" = list("type" = "windowtint", "id" = "stargazing_lounge_privacy_tint"),
-		"private room window tint" = list("type" = "windowtint", "id" = "stargazing_lounge_private_room_tint")
+		"lounge window tint" = list("type" = "windowtint", "id" = "pool_lounge_dividing_tint"),
+		"safety shutters" = list("type" = "blast_door", "id" = "stargazing_pool_window_shutter"),
+		"atrium window tint" = list("type" = "windowtint", "id" = "stargazing_pool_atrium_tint"),
+		"bath window tint" = list("type" = "windowtint", "id" = "stargazing_pool_bath_tint")
 	)
 
 /obj/structure/machinery/controlhub/smoking_lounge
 	name = "smoking lounge control hub"
 	icon_state = "holocontrol"
 	controls = list(
+		"pool window tint" = list("type" = "windowtint", "id" = "pool_lounge_dividing_tint"),
 		"safety shutters" = list("type" = "blast_door", "id" = "smoking_lounge_window_shutter"),
-		"dividing window tint" = list("type" = "windowtint", "id" = "lounge_dividing_tint"),
-		"docking arm window tint" = list("type" = "windowtint", "id" = "smoking_lounge_docking_tint")
+		"docking checkpoint window tint" = list("type" = "windowtint", "id" = "smoking_lounge_docking_tint")
 	)
 
 /obj/structure/machinery/controlhub/bar
@@ -275,6 +275,18 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 		"dividing door" = list("type" = "blast_door", "id" = "service_divider_shutter"),
 		"safety shutters" = list("type" = "blast_door", "id" = "bar_window_shutter"),
 		"window tint" = list("type" = "windowtint", "id" = "bar_tint")
+	)
+
+/obj/structure/machinery/controlhub/security/checkpoint/d3_starboard_docking_checkpoint
+	name = "docking checkpoint control hub"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_SECURITY)
+	controls = list(
+		"security office window shutter" = list("type" = "blast_door", "id" = "d3_starboard_docking_checkpoint_window"),
+		"security office desk shutter" = list("type" = "blast_door", "id" = "d3_starboard_docking_checkpoint_desk"),
+		"atrium door bolt" = list("type" = "airlock", "id" = "d3_starboard_docking_atrium_door", "functions" = 4),
+		"docking arm door bolt" = list("type" = "airlock", "id" = "d3_starboard_docking_arm_door", "functions" = 4),
+		"checkpoint lockdown" = list("type" = "blast_door", "id" = "d3_starboard_docking_checkpoint_lockdown")
 	)
 
 /obj/structure/machinery/controlhub/xo_office/private
