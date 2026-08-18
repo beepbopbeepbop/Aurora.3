@@ -246,6 +246,18 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
  * SUBTYPES
  */
 
+/obj/structure/machinery/controlhub/mass_driver
+	name = "mass driver launch control"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_EXTERNAL_AIRLOCKS, ACCESS_CHAPEL_OFFICE)
+
+/obj/structure/machinery/controlhub/mass_driver/d3
+	controls = list(
+		"launch access" = list("type" = "blast_door", "id" = "mass_driver_d3_interior"),
+		"payload launcher" = list("type" = "mass_driver", "id" = "mass_driver_d3_launch")
+	)
+
+
 /obj/structure/machinery/controlhub/stargazing_pool
 	name = "stargazing pool control hub"
 	icon_state = "holocontrol"

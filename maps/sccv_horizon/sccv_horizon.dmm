@@ -5,6 +5,10 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/rnd/lab)
+"aai" = (
+/obj/structure/lattice,
+/turf/simulated/open/airless,
+/area/template_noop)
 "aam" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 6
@@ -115,6 +119,14 @@
 	pixel_x = 32
 	},
 /turf/space,
+/area/horizon/exterior)
+"aaU" = (
+/obj/structure/sign/crush{
+	name = "\improper DANGER: MASS EJECTOR PATH ABOVE sign";
+	desc = "A warning sign which reads 'DANGER: MASS EJECTOR PATH ABOVE THIS SIGN'.";
+	pixel_x = 32
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/horizon/exterior)
 "aaW" = (
 /obj/effect/floor_decal/carpet{
@@ -303,6 +315,25 @@
 "ack" = (
 /turf/unsimulated/wall/steel,
 /area/antag/jockey)
+"acl" = (
+/obj/effect/floor_decal/industrial/warning/cee{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/arrow/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/red,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "acp" = (
 /obj/structure/platform{
 	dir = 1
@@ -1540,6 +1571,9 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/engineering/reactor/supermatter/mainchamber)
+"aiz" = (
+/turf/simulated/wall/shuttle/scc_space_ship/cardinal,
+/area/horizon/exterior/no_shields)
 "aiB" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -3900,26 +3934,26 @@
 /turf/simulated/floor/plating,
 /area/horizon/shuttle/intrepid/port_compartment)
 "azT" = (
-/obj/structure/machinery/button/mass_driver{
-	_wifi_id = "chapel_driver";
-	id = "chapel_driver";
-	pixel_y = -30;
-	req_access = list(22)
+/obj/effect/floor_decal/industrial/warning/cee,
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 4
 	},
-/obj/structure/machinery/button/remote/blast_door{
-	pixel_y = -20;
-	pixel_x = 7;
-	id = "interiormassdriver";
-	req_access = list(22)
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 8
 	},
-/obj/structure/machinery/button/remote/blast_door{
-	pixel_y = -20;
-	pixel_x = -7;
-	id = "exteriormassdriver";
-	req_access = list(22)
+/obj/effect/floor_decal/industrial/hatch_tiny/red,
+/obj/effect/floor_decal/industrial/outline_door/red,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
 	},
-/turf/simulated/floor/wood,
-/area/template_noop)
+/obj/structure/plasticflaps/airtight,
+/obj/structure/machinery/door/blast/regular{
+	dir = 4;
+	name = "Interior Mass Driver Blast Door";
+	id = "mass_driver_d3_interior"
+	},
+/turf/simulated/floor/reinforced,
+/area/horizon/operations/loading_aux)
 "azU" = (
 /turf/simulated/wall/shuttle/scc_space_ship/cardinal,
 /area/horizon/medical/smoking)
@@ -15972,24 +16006,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/horizon/engineering/storage/tech)
 "cdU" = (
-/obj/effect/floor_decal/industrial/outline_corner/operations{
-	dir = 9
+/obj/structure/grille,
+/obj/structure/window/shuttle/scc_space_ship,
+/obj/structure/machinery/door/firedoor{
+	dir = 4
 	},
-/obj/effect/floor_decal/industrial/outline_segment/operations{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/outline_segment/operations{
-	dir = 10
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/structure/crate_shelf,
-/obj/effect/floor_decal/industrial/hatch_small/operations,
-/turf/simulated/floor/tiled/full,
+/turf/simulated/floor/plating,
 /area/horizon/operations/loading_aux)
 "cdY" = (
 /obj/structure/machinery/light{
@@ -17596,6 +17618,11 @@
 /obj/structure/table/reinforced/steel,
 /turf/unsimulated/floor,
 /area/centcom/legion/hangar5)
+"cpM" = (
+/obj/item/hullbeacon/red,
+/obj/effect/map_effect/map_helper/ruler_tiles_3,
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "cpO" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -32713,15 +32740,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/mercenary)
 "ejj" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/machinery/door/blast/regular{
-	dir = 4;
-	id = "exteriormassdriver";
-	name = "Exterior Mass Driver Blast Door"
+/obj/structure/railing/mapped{
+	dir = 4
 	},
-/obj/structure/plasticflaps/airtight,
-/turf/simulated/floor/plating,
-/area/template_noop)
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "ejm" = (
 /obj/structure/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/wood,
@@ -40768,6 +40791,26 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/control)
+"fop" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/arrow/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 1
+	},
+/obj/structure/machinery/door/window/eastleft{
+	req_one_access = list(13, 22);
+	name = "Mass Driver"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/operations/loading_aux)
 "fos" = (
 /obj/structure/table/standard,
 /obj/structure/machinery/computer/security/telescreen{
@@ -41827,9 +41870,20 @@
 /turf/simulated/floor/reinforced/reactor,
 /area/horizon/engineering/reactor/supermatter/mainchamber)
 "fva" = (
-/obj/effect/map_effect/map_helper/ruler_tiles_3,
-/turf/simulated/wall/shuttle/scc_space_ship/cardinal,
-/area/horizon/hallway/primary/deck_3/starboard/docks/checkpoint)
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 5
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "fve" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/tank_wall/phoron{
@@ -46768,9 +46822,7 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/obj/structure/machinery/camera/network/supply{
-	c_tag = "Operations - Starboard Docks Loading Bay"
-	},
+/obj/structure/machinery/firealarm/north,
 /turf/simulated/floor/tiled,
 /area/horizon/operations/loading_aux)
 "gcv" = (
@@ -50606,10 +50658,27 @@
 /turf/unsimulated/floor,
 /area/centcom/distress_prep)
 "gCf" = (
-/obj/effect/landmark/entry_point/starboard{
-	name = "starboard, operations office aux"
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
 	},
-/turf/simulated/wall/shuttle/scc_space_ship/cardinal,
+/obj/effect/floor_decal/industrial/outline_corner/red{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 9
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	maxhealth = 140
+	},
+/obj/structure/closet/crate/coffin,
+/obj/structure/machinery/controlhub/mass_driver/d3{
+	pixel_y = 22
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/operations/loading_aux)
 "gCj" = (
 /obj/effect/floor_decal/corner/red/full,
@@ -52750,8 +52819,14 @@
 /turf/simulated/floor/plating,
 /area/turbolift/primary/deck_1)
 "gQi" = (
-/turf/simulated/floor/wood,
-/area/template_noop)
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "gQm" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -56638,6 +56713,33 @@
 /obj/structure/filingcabinet/chestdrawer,
 /turf/simulated/floor/tiled/white,
 /area/horizon/security/autopsy_laboratory)
+"hqf" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/arrow/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/red,
+/obj/structure/machinery/mass_driver{
+	_wifi_id = "chapel_driver";
+	id = "mass_driver_d3_launch";
+	dir = 1
+	},
+/turf/simulated/floor/reinforced,
+/area/horizon/operations/loading_aux)
 "hqj" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 9
@@ -57032,8 +57134,12 @@
 /turf/simulated/floor/holofloor/reinforced,
 /area/horizon/holodeck/source_biesel)
 "hsU" = (
+/obj/structure/sign/crush{
+	name = "\improper DANGER: MASS EJECTOR PATH sign";
+	desc = "A warning sign which reads 'DANGER: MASS EJECTOR PATH ON THIS SIGN'."
+	},
 /turf/simulated/wall/shuttle/scc_space_ship/cardinal,
-/area/template_noop)
+/area/horizon/exterior/no_shields)
 "hsY" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 5;
@@ -65342,6 +65448,17 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/maintenance/deck_2/wing/starboard/nacelle)
+"ivG" = (
+/obj/structure/machinery/atmospherics/pipe/simple/heat_exchanging,
+/obj/structure/lattice,
+/obj/structure/sign/crush{
+	name = "\improper DANGER: MASS EJECTOR PATH ABOVE sign";
+	desc = "A warning sign which reads 'DANGER: MASS EJECTOR PATH ABOVE THIS SIGN'.";
+	pixel_x = 32;
+	pixel_y = -32
+	},
+/turf/simulated/open/airless,
+/area/horizon/exterior)
 "ivL" = (
 /obj/structure/sign/double/map/right{
 	desc = "A framed picture of a station.";
@@ -67401,6 +67518,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/horizon/engineering/bluespace_drive)
+"iJn" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
+/obj/item/hullbeacon/red,
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "iJq" = (
 /obj/random/dirt_75,
 /obj/random/maintenance_junk_or_loot,
@@ -69001,10 +69125,11 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 10
 	},
-/obj/structure/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
 /obj/item/radio/intercom/west,
+/obj/structure/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1;
+	pixel_y = 1
+	},
 /turf/simulated/floor/shuttle/skrell,
 /area/horizon/crew/stargazing_pool)
 "iUB" = (
@@ -77987,7 +78112,9 @@
 /obj/effect/floor_decal/spline/plain/corner/black{
 	dir = 4
 	},
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
@@ -80504,6 +80631,27 @@
 	},
 /turf/simulated/floor/reinforced/nitrogen,
 /area/horizon/engineering/atmos/air)
+"ktt" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/arrow/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/arrow/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/operations/loading_aux)
 "ktx" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -81673,6 +81821,32 @@
 /obj/structure/machinery/shield_diffuser,
 /turf/simulated/open/airless,
 /area/horizon/exterior/no_shields)
+"kzX" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/hatch_tiny/red,
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/red,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
+/obj/structure/plasticflaps/airtight,
+/obj/structure/machinery/door/blast/regular{
+	dir = 4;
+	id = "mass_driver_d3_launch";
+	name = "Exterior Mass Driver Blast Door"
+	},
+/turf/simulated/floor/reinforced,
+/area/horizon/operations/loading_aux)
 "kzZ" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/firedoor,
@@ -84533,13 +84707,24 @@
 /turf/simulated/floor/tiled/dark,
 /area/horizon/rnd/xenoarch/atrium)
 "kSG" = (
-/obj/structure/machinery/mass_driver{
-	_wifi_id = "chapel_driver";
-	id = "chapel_driver"
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
 	},
-/obj/effect/floor_decal/industrial/hatch/red,
-/turf/simulated/floor/plating,
-/area/template_noop)
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_corner/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/arrow/red{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 6
+	},
+/obj/structure/machinery/light,
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/operations/loading_aux)
 "kSL" = (
 /obj/effect/floor_decal/spline/plain/corner{
 	dir = 8
@@ -89052,20 +89237,15 @@
 /turf/simulated/floor/tiled,
 /area/horizon/security/investigations_hallway)
 "lvV" = (
-/obj/effect/floor_decal/industrial/outline_corner/operations{
-	dir = 5
-	},
-/obj/effect/floor_decal/industrial/outline_segment/operations{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline_segment/operations{
-	dir = 9
-	},
+/obj/effect/floor_decal/industrial/hatch_small/operations,
+/obj/effect/floor_decal/industrial/outline/operations,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
+/obj/structure/crate_shelf,
 /obj/structure/railing/mapped{
-	dir = 1
+	dir = 1;
+	pixel_y = 8
 	},
 /turf/simulated/floor/tiled/full,
 /area/horizon/operations/loading_aux)
@@ -95812,10 +95992,10 @@
 /obj/effect/floor_decal/industrial/outline_door/yellow{
 	dir = 8
 	},
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/structure/machinery/light/small/floor,
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/obj/structure/machinery/light/small/floor,
 /turf/simulated/floor/shuttle/skrell,
 /area/horizon/crew/stargazing_pool)
 "moz" = (
@@ -95932,6 +96112,15 @@
 	icon_state = "dark_preview"
 	},
 /area/centcom/specops)
+"mpB" = (
+/obj/effect/landmark/entry_point/starboard{
+	name = "starboard, mass driver"
+	},
+/obj/effect/map_effect/map_helper/ruler_tiles_3{
+	dir = 4
+	},
+/turf/simulated/wall/shuttle/scc_space_ship/cardinal,
+/area/horizon/operations/loading_aux)
 "mpG" = (
 /obj/effect/floor_decal/carpet{
 	dir = 1
@@ -104866,6 +105055,13 @@
 /obj/structure/table/steel,
 /turf/simulated/floor/carpet/art,
 /area/shuttle/skipjack)
+"nyC" = (
+/obj/effect/map_effect/map_helper/ruler_tiles_3{
+	dir = 4
+	},
+/obj/item/hullbeacon/red,
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "nyD" = (
 /obj/structure/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
@@ -115088,18 +115284,16 @@
 /turf/simulated/floor/tiled/dark,
 /area/horizon/maintenance/deck_2/research)
 "oOg" = (
-/obj/structure/machinery/door/blast/regular{
-	dir = 4;
-	name = "Interior Mass Driver Blast Door";
-	id = "interiormassdriver"
+/obj/structure/sign/crush{
+	name = "\improper DANGER: MASS EJECTOR PATH sign";
+	desc = "A warning sign which reads 'DANGER: MASS EJECTOR PATH ON THIS SIGN'.";
+	pixel_x = 32
 	},
-/obj/structure/plasticflaps/airtight,
-/obj/structure/machinery/door/window/southleft{
-	dir = 1;
-	pixel_y = -17
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
-/turf/simulated/floor/plating,
-/area/template_noop)
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "oOh" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -128130,8 +128324,6 @@
 	dir = 6
 	},
 /obj/item/radio/intercom/south,
-/obj/structure/crate_shelf,
-/obj/effect/floor_decal/industrial/hatch_small/operations,
 /turf/simulated/floor/tiled/full,
 /area/horizon/operations/loading_aux)
 "qyo" = (
@@ -133888,6 +134080,28 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/storage/secure/tech_vault)
+"riX" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/arrow/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline_door/red,
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "rjd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/warning{
@@ -147624,8 +147838,8 @@
 /obj/effect/landmark/start{
 	name = "Passenger"
 	},
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/simulated/floor/shuttle/skrell,
 /area/horizon/crew/stargazing_pool)
@@ -148381,10 +148595,6 @@
 	},
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 6
-	},
-/obj/structure/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1;
-	pixel_y = 1
 	},
 /obj/structure/machinery/disposal/small/west,
 /obj/structure/disposalpipe/trunk{
@@ -151726,8 +151936,8 @@
 /obj/effect/landmark/start{
 	name = "Passenger"
 	},
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/simulated/floor/shuttle/skrell,
 /area/horizon/crew/stargazing_pool)
@@ -156507,6 +156717,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/maintenance/deck_2/wing/port/nacelle)
+"ubW" = (
+/obj/structure/sign/crush{
+	name = "\improper DANGER: MASS EJECTOR PATH sign";
+	desc = "A warning sign which reads 'DANGER: MASS EJECTOR PATH ON THIS SIGN'.";
+	pixel_x = 32;
+	pixel_y = -32
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "ubX" = (
 /obj/structure/machinery/light/small{
 	dir = 1
@@ -156898,7 +157118,10 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
-/obj/structure/machinery/firealarm/south,
+/obj/structure/machinery/camera/network/supply{
+	c_tag = "Operations - Starboard Docks Loading Bay";
+	dir = 1
+	},
 /turf/simulated/floor/tiled/full,
 /area/horizon/operations/loading_aux)
 "ueV" = (
@@ -157007,7 +157230,10 @@
 	dir = 1
 	},
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
+	dir = 6
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/simulated/floor/shuttle/skrell,
 /area/horizon/crew/stargazing_pool)
@@ -160014,6 +160240,22 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/floor/plating,
 /area/horizon/hallway/primary/deck_2/fore)
+"uzd" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/loading/red{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "uze" = (
 /obj/structure/machinery/cryopod{
 	dir = 4
@@ -160554,6 +160796,9 @@
 /area/antag/ninja)
 "uCO" = (
 /obj/effect/floor_decal/spline/plain/black,
+/obj/structure/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/simulated/floor/shuttle/skrell,
 /area/horizon/crew/stargazing_pool)
 "uCX" = (
@@ -170568,15 +170813,15 @@
 "vSh" = (
 /obj/structure/table/skrell,
 /obj/effect/floor_decal/spline/plain/black,
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 8
-	},
 /obj/structure/machinery/controlhub/stargazing_pool{
 	pixel_x = -1;
 	pixel_y = -7
 	},
 /obj/structure/machinery/power/outlet{
 	pixel_x = 9
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/simulated/floor/shuttle/skrell,
 /area/horizon/crew/stargazing_pool)
@@ -177506,6 +177751,21 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/rnd/xenoarch/hallway/hangar)
+"wJm" = (
+/obj/effect/floor_decal/industrial/warning/full,
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_straight/red{
+	dir = 4
+	},
+/obj/structure/machinery/shield_diffuser,
+/obj/effect/floor_decal/industrial/outline_door/red,
+/obj/effect/floor_decal/industrial/outline_door/red{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "wJp" = (
 /turf/simulated/wall/r_wall,
 /area/horizon/command/bridge/upperdeck)
@@ -181900,6 +182160,19 @@
 /obj/structure/sign/double/barsign,
 /turf/simulated/wall,
 /area/horizon/service/bar)
+"xjJ" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline_segment/red{
+	dir = 10
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/horizon/exterior/no_shields)
 "xjN" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -278543,7 +278816,7 @@ gxM
 eVT
 dqC
 wpL
-aGl
+ivG
 aGl
 aGl
 aGl
@@ -278552,7 +278825,7 @@ hsj
 hIf
 xQt
 cKu
-cKu
+aaU
 cKu
 cKu
 cKu
@@ -338211,11 +338484,11 @@ vfC
 vfC
 vfC
 vfC
-gSa
-vfC
 vfC
 vfC
 eYq
+vfC
+vfC
 vfC
 vfC
 vfC
@@ -338468,7 +338741,7 @@ vfC
 vfC
 vfC
 vfC
-vfC
+gSa
 vfC
 vfC
 vfC
@@ -338727,11 +339000,11 @@ vfC
 vfC
 vfC
 vfC
-eYq
 vfC
 vfC
-eYq
 gSa
+vfC
+vfC
 vfC
 vfC
 vfC
@@ -338984,22 +339257,22 @@ vfC
 vfC
 vfC
 vfC
-vfC
-vfC
-vfC
-vfC
+eYq
 vfC
 vfC
 eYq
+vfC
+vfC
+nyC
 hig
 oJZ
 iyb
 hig
-eYq
+nyC
 vfC
 vfC
 eYq
-eYq
+vfC
 vfC
 quS
 eSV
@@ -339500,9 +339773,9 @@ vfC
 vfC
 vfC
 vfC
-vfC
-vfC
 gSa
+vfC
+vfC
 vfC
 vfC
 hig
@@ -339511,9 +339784,9 @@ uJU
 hig
 vfC
 vfC
+vfC
+vfC
 gSa
-vfC
-vfC
 vfC
 aGc
 eSV
@@ -340271,9 +340544,9 @@ vfC
 vfC
 vfC
 vfC
+cpM
 vfC
 vfC
-gSa
 vfC
 vfC
 hig
@@ -340282,9 +340555,9 @@ byp
 hig
 hig
 vfC
-gSa
 vfC
-aGc
+vfC
+jNG
 eSV
 eSV
 eSV
@@ -341053,9 +341326,9 @@ rDZ
 dpz
 cOn
 vfC
-gSa
 vfC
 vfC
+cpM
 hbQ
 sLF
 eSV
@@ -341556,9 +341829,9 @@ vfC
 vfC
 vfC
 vfC
+cpM
 vfC
 vfC
-gSa
 vfC
 cOn
 lQQ
@@ -342079,7 +342352,7 @@ nfJ
 uOC
 dLD
 cfA
-hig
+cfA
 hig
 hig
 oMr
@@ -342327,9 +342600,9 @@ vfC
 vfC
 vfC
 vfC
-vfC
-vfC
 gSa
+vfC
+vfC
 vfC
 eLl
 cfA
@@ -342338,9 +342611,9 @@ dsV
 xEw
 hpq
 dPS
-gSa
 vfC
 vfC
+cpM
 vfC
 vfC
 vfC
@@ -342586,7 +342859,7 @@ vfC
 vfC
 vfC
 vfC
-wzz
+vfC
 vfC
 cOn
 gCn
@@ -343098,9 +343371,9 @@ vfC
 vfC
 vfC
 vfC
-vfC
-vfC
 gSa
+vfC
+vfC
 vfC
 cOn
 nrT
@@ -343109,9 +343382,9 @@ hwj
 nTm
 sgE
 hig
+vfC
+vfC
 gSa
-vfC
-vfC
 vfC
 vfC
 vfC
@@ -343324,35 +343597,35 @@ wWR
 wWR
 tAV
 vfC
+ejj
+ejj
+ejj
+ejj
 vfC
+hZl
+oOg
+ryE
 vfC
+ejj
+ejj
+ejj
 vfC
+ejj
+ejj
+ejj
 vfC
+hZl
+oOg
+ryE
 vfC
+ejj
+ejj
+ejj
+ejj
 vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
+ubW
+lpj
+ryE
 vfC
 vfC
 vfC
@@ -343566,6 +343839,7 @@ wWR
 wWR
 wWR
 wWR
+aBb
 wWR
 wWR
 wWR
@@ -343576,10 +343850,18 @@ wWR
 wWR
 wWR
 wWR
-wWR
-wWR
-wAf
-psu
+aBb
+hsU
+bcN
+vfC
+vfC
+vfC
+vfC
+vfC
+vfC
+tml
+aiz
+rdm
 vfC
 vfC
 vfC
@@ -343589,30 +343871,21 @@ vfC
 vfC
 vfC
 vfC
+tml
+aiz
+rdm
 vfC
 vfC
 vfC
 vfC
 vfC
 vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-wzz
-vfC
-vfC
-vfC
-vfC
-eYq
+tml
+gUa
+gUa
+mpB
+cdU
+cdU
 wEr
 gZK
 cFE
@@ -343621,7 +343894,7 @@ nIy
 vyl
 sez
 wkv
-eWb
+wkv
 eWb
 eWb
 vfC
@@ -343822,6 +344095,9 @@ wWR
 wWR
 wWR
 wWR
+aai
+wJm
+aai
 wWR
 wWR
 wWR
@@ -343831,11 +344107,18 @@ wWR
 wWR
 wWR
 wWR
-wWR
-wWR
-wWR
-wWR
-tAV
+kzW
+acl
+fva
+vfC
+vfC
+vfC
+vfC
+vfC
+vfC
+xjJ
+riX
+fva
 vfC
 vfC
 vfC
@@ -343845,32 +344128,22 @@ vfC
 vfC
 vfC
 vfC
+xjJ
+riX
+fva
 vfC
 vfC
 vfC
 vfC
 vfC
 vfC
-vfC
-vfC
-wzz
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-wEr
+uzd
+kzX
+hqf
+azT
+ktt
+kSG
+nIy
 xrN
 ehC
 mBm
@@ -343880,9 +344153,9 @@ slB
 rgk
 vyb
 nIz
-fva
+eWb
 vfC
-vfC
+gSa
 vfC
 vfC
 vfC
@@ -344079,6 +344352,9 @@ wWR
 wWR
 wWR
 wWR
+aai
+aBb
+aai
 wWR
 wWR
 wWR
@@ -344088,21 +344364,18 @@ wWR
 wWR
 wWR
 wWR
-wWR
-wWR
-wWR
-wWR
-tAV
+aBb
+hsU
+rdm
 vfC
 vfC
 vfC
 vfC
 vfC
 vfC
-vfC
-vfC
-vfC
-vfC
+tml
+hsU
+rdm
 vfC
 vfC
 vfC
@@ -344126,8 +344399,8 @@ gUa
 gUa
 gUa
 gCf
-gUa
-wEr
+fop
+nIy
 buC
 eVQ
 kpl
@@ -344153,10 +344426,10 @@ eSV
 eSV
 eSV
 eSV
-gQi
-hsU
-hsU
-hsU
+eSV
+eSV
+eSV
+eSV
 eSV
 eSV
 eSV
@@ -344336,34 +344609,34 @@ wWR
 wWR
 wWR
 wWR
-wWR
+aai
+hsU
 wAf
-icV
-icV
-icV
-icV
-icV
-icV
-icV
-icV
-icV
+gQi
+gQi
+iJn
+hsU
+krb
+gQi
+gQi
+gQi
+gQi
 icV
 icV
 psu
 vfC
+xjN
+xjN
+xjN
+xjN
 vfC
+hbQ
+icV
+psu
 vfC
+xjN
+xjN
 vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-vfC
-wzz
 vfC
 vfC
 vfC
@@ -344382,7 +344655,7 @@ oNI
 nqd
 wzr
 hSz
-cdU
+lvV
 qym
 nIy
 xGd
@@ -344396,9 +344669,9 @@ wkv
 ivq
 eWb
 ujh
+ujh
+ujh
 gdR
-ujh
-ujh
 sKS
 vfC
 vfC
@@ -344410,10 +344683,10 @@ eSV
 eSV
 eSV
 eSV
-gQi
-oOg
-kSG
-ejj
+eSV
+eSV
+eSV
+eSV
 eSV
 eSV
 eSV
@@ -344594,13 +344867,13 @@ xjN
 xjN
 xjN
 xjN
-wzz
+icV
+psu
 vfC
 vfC
-vfC
-vfC
-vfC
-vfC
+hbQ
+icV
+psu
 vfC
 vfC
 vfC
@@ -344667,10 +344940,10 @@ eSV
 eSV
 eSV
 eSV
-azT
-hsU
-hsU
-hsU
+eSV
+eSV
+eSV
+eSV
 eSV
 eSV
 eSV
@@ -345386,7 +345659,7 @@ vfC
 vfC
 vfC
 vfC
-wzz
+vfC
 vfC
 vfC
 vfC
