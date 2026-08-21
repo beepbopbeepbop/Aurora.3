@@ -109,6 +109,12 @@
 #define COLOR_CARDBOARD        "#7A7F8B"
 #define COLOR_REDBOX           "#B62B2B"
 #define COLOR_SPRING_GREEN     "#00ff88"
+#define COLOR_SKRELL_PALE	   "#8a7387"
+#define COLOR_SKRELL_VIOLET	   "#6e2c6e"
+#define COLOR_SKRELL_PURPLE	   "#695391"
+#define COLOR_SKRELL_DPURPLE   "#4e4378"
+#define COLOR_SKRELL_DOOR_V	   "#704470"
+#define COLOR_SKRELL_DOOR_P	     "#382972"
 
 #define COLOR_TOOLS            "#eac041"
 

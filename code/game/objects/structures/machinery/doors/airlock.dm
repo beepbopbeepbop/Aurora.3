@@ -788,6 +788,26 @@
 	)
 	material = MATERIAL_DIONA
 
+// Skrell
+/obj/structure/machinery/door/airlock/nralakk
+	door_color = COLOR_SKRELL_DOOR_V
+	stripe_color = COLOR_SKRELL_DOOR_P
+	material = MATERIAL_SHUTTLE_SKRELL
+
+/obj/structure/machinery/door/airlock/hatch/nralakk
+	door_color = COLOR_SKRELL_DOOR_V
+	stripe_color = COLOR_SKRELL_DOOR_P
+	material = MATERIAL_SHUTTLE_SKRELL
+
+/obj/structure/machinery/door/airlock/glass/nralakk
+	door_color = COLOR_SKRELL_DOOR_V
+	stripe_color = COLOR_SKRELL_DOOR_P
+	material = MATERIAL_SHUTTLE_SKRELL
+
+/obj/structure/machinery/door/airlock/multi_tile/glass/nralakk
+	door_color = COLOR_SKRELL_DOOR_V
+	material = MATERIAL_SHUTTLE_SKRELL
+
 /// Placeholder object until it gets new sprites.
 /obj/structure/machinery/door/airlock/diona/external
 	name = "external biomass airlock"

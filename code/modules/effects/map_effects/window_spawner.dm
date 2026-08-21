@@ -284,3 +284,41 @@
 	name = "coalition reinforced window spawner with grille and firedoor"
 	icon_state = "coalition_window-gf"
 	spawn_firedoor = TRUE
+
+// Skrell
+/obj/effect/map_effect/window_spawner/full/shuttle/nralakk_monitor
+	name = "nralakk reinforced window spawner"
+	icon_state = "full_rwindow"
+	frame_path = /obj/structure/window_frame/shuttle
+
+/obj/effect/map_effect/window_spawner/full/shuttle/nralakk_monitor/pale
+	color = COLOR_SKRELL_PALE
+	frame_color = COLOR_SKRELL_PALE
+
+/obj/effect/map_effect/window_spawner/full/shuttle/nralakk_monitor/pale/grille
+	name = "nralakk reinforced window spawner with grille"
+	icon_state = "full_rwindow_g"
+
+/obj/effect/map_effect/window_spawner/full/shuttle/nralakk_monitor/pale/firedoor
+	name = "nralakk reinforced window spawner with firedoor"
+	icon_state = "full_rwindow_f"
+
+/obj/effect/map_effect/window_spawner/full/shuttle/nralakk_monitor/pale/grille/firedoor
+	name = "nralakk reinforced window spawner with grille and firedoor"
+	icon_state = "full_rwindow_gf"
+
+/obj/effect/map_effect/window_spawner/full/shuttle/nralakk_monitor/violet
+	color = COLOR_SKRELL_VIOLET
+	frame_color = COLOR_SKRELL_VIOLET
+
+/obj/effect/map_effect/window_spawner/full/shuttle/nralakk_monitor/violet/grille
+	name = "nralakk reinforced window spawner with grille"
+	icon_state = "full_rwindow_g"
+
+/obj/effect/map_effect/window_spawner/full/shuttle/nralakk_monitor/violet/firedoor
+	name = "nralakk reinforced window spawner with firedoor"
+	icon_state = "full_rwindow_f"
+
+/obj/effect/map_effect/window_spawner/full/shuttle/nralakk_monitor/violet/grille/firedoor
+	name = "nralakk reinforced window spawner with grille and firedoor"
+	icon_state = "full_rwindow_gf"

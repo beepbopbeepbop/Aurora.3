@@ -149,22 +149,35 @@
 		/obj/structure/shuttle/engine/propulsion
 	)
 
-
-/turf/simulated/wall/shuttle/skrell
-	color = COLOR_PURPLE
+// Skrell
+/turf/simulated/wall/shuttle/nralakk_monitor
+	name = "nralakk alloy hull"
 	canSmoothWith = list(
-		/turf/simulated/wall/shuttle/skrell,
-		/obj/structure/window/shuttle,
-		/obj/structure/machinery/door/airlock,
-		/obj/structure/shuttle/engine/propulsion,
-		/turf/unsimulated/wall/fakeairlock
+		/turf/simulated/wall,
+		/turf/simulated/wall/r_wall,
+		/turf/simulated/wall/shuttle/nralakk_monitor,
+		/obj/structure/window/shuttle/nralakk_monitor,
+		/obj/structure/machinery/door/airlock
 	)
+
+/turf/simulated/wall/shuttle/nralakk_monitor/pale
+	color = COLOR_SKRELL_PALE
+
+/turf/simulated/wall/shuttle/nralakk_monitor/violet
+	color = COLOR_SKRELL_VIOLET
+
+/turf/simulated/wall/shuttle/nralakk_monitor/purple
+	color = COLOR_SKRELL_PURPLE
+
+/turf/simulated/wall/shuttle/nralakk_monitor/dark_purple
+	color = COLOR_SKRELL_DPURPLE
+
+/turf/simulated/wall/shuttle/skrell/Initialize(mapload)
+	. = ..(mapload, MATERIAL_SHUTTLE_SKRELL)
 
 /turf/simulated/wall/shuttle/brown
 	color = COLOR_MUTED_BROWN
 
-/turf/simulated/wall/shuttle/skrell/Initialize(mapload)
-	. = ..(mapload, MATERIAL_SHUTTLE_SKRELL)
 
 /turf/simulated/wall/shuttle/scc
 	color = "#AAAFC7"
