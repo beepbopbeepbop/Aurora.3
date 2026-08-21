@@ -98,6 +98,7 @@
 /area/horizon/medical/mass_driver
 	name = "Funerary Mass Driver"
 	horizon_deck = 3
+	area_flags = AREA_FLAG_RAD_SHIELDED
 	lightswitch = FALSE
 
 /area/horizon/medical/washroom
