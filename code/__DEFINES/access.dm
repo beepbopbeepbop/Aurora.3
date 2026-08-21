@@ -927,3 +927,6 @@
 /datum/access/abandoned_casino
 	id = ACCESS_ABANDONED_CASINO_STAFF
 
+#define ACCESS_NRALAKK_MONITOR 258
+/datum/access/nralakk_monitor
+	id = ACCESS_NRALAKK_MONITOR
