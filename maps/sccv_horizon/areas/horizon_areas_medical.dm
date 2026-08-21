@@ -95,10 +95,10 @@
 	horizon_deck = 3
 	lightswitch = FALSE
 
-/area/horizon/medical/smoking
-	name = "Smoking Lounge"
-	area_blurb = "The smell of cigarette smoke lingers within this room."
+/area/horizon/medical/mass_driver
+	name = "Funerary Mass Driver"
 	horizon_deck = 3
+	lightswitch = FALSE
 
 /area/horizon/medical/washroom
 	name = "Head"
