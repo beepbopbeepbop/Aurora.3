@@ -30,7 +30,6 @@
 	gloves = /obj/item/clothing/gloves/kala
 	shoes = /obj/item/clothing/shoes/jackboots/kala
 	back = /obj/item/storage/backpack/kala
-	head =
 	id = /obj/item/card/id/white
 	l_ear = /obj/item/radio/headset/ship
 	backpack_contents = list(/obj/item/storage/box/survival = 1)
