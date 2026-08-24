@@ -23,7 +23,7 @@
 /obj/structure/machinery/computer/shuttle_control/explore/terminal/nralakk_shuttle
 	name = "shuttle control console"
 	shuttle_tag = "NFSV Shuttle"
-	req_access = list(ACCESS_NRALAKK)
+	req_access = list(ACCESS_NRALAKK_MONITOR)
 // --------
 
 // Controls docking behaviour

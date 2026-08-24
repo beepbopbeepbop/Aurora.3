@@ -828,3 +828,17 @@
 
 /obj/structure/roller_rack/three
 	initial_beds = 3
+
+// Hoverbeds
+
+/obj/structure/roller_rack/hover
+	initial_beds = 1
+
+/obj/structure/roller_rack/hover/two
+	initial_beds = 2
+
+/obj/structure/roller_rack/hover/three
+	initial_beds = 3
+
+/obj/structure/roller_rack/hover/four
+	initial_beds = 4
