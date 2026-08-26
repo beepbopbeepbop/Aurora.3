@@ -228,6 +228,13 @@
 	icon_state = "bottle-2"
 	reagents_to_add = list(/singleton/reagent/peridaxon = 60)
 
+/obj/item/reagent_containers/glass/bottle/pneumalin
+	name = "pneumalin bottle"
+	desc = "A small bottle. Contains peridaxon - treats damaged lungs."
+	icon_state = "bottle-2"
+	reagents_to_add = list(/singleton/reagent/pneumalin = 60)
+
+
 /obj/item/reagent_containers/glass/bottle/mortaphenyl
 	name = "mortaphenyl bottle"
 	desc = "A small bottle. Contains mortaphenyl - treats mild-severe pain as a result of severe, physical injury."

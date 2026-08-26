@@ -190,6 +190,29 @@
 						/obj/item/reagent_containers/glass/bottle/kelotane = 1,
 						/obj/item/reagent_containers/glass/bottle/dexalin = 1)
 
+/obj/structure/machinery/smartfridge/secure/medbay/filled
+	req_access = list(ACCESS_NRALAKK_MONITOR)
+	initial_contents = list(
+// Basics
+		/obj/item/reagent_containers/glass/bottle/inaprovaline = 4,
+		/obj/item/reagent_containers/glass/bottle/antitoxin = 2,
+		/obj/item/reagent_containers/glass/bottle/coagzolug = 2,
+		/obj/item/reagent_containers/glass/bottle/dexalin = 2,
+		/obj/item/reagent_containers/glass/bottle/dexalin_plus = 1,
+		/obj/item/reagent_containers/glass/bottle/thetamycin = 2,
+// Analgesics
+		/obj/item/reagent_containers/glass/bottle/perconol = 2,
+		/obj/item/reagent_containers/glass/bottle/mortaphenyl = 2,
+// Regeneratives
+		/obj/item/reagent_containers/glass/bottle/bicaridine = 2,
+		/obj/item/reagent_containers/glass/bottle/butazoline = 1,
+		/obj/item/reagent_containers/glass/bottle/kelotane = 2,
+		/obj/item/reagent_containers/glass/bottle/dermaline = 1,
+		/obj/item/reagent_containers/glass/bottle/peridaxon = 1,
+		/obj/item/reagent_containers/glass/bottle/pneumalin = 1
+	)
+
+
 /obj/structure/machinery/smartfridge/secure/virology
 	name = "\improper Refrigerated Virus Storage"
 	desc = "A refrigerated storage unit for storing viral material."

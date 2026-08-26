@@ -276,6 +276,9 @@
 /obj/item/reagent_containers/blood/sbs
 	blood_type = "SBS"
 
+/obj/item/reagent_containers/blood/saline_plus
+	blood_type = "Saline Plus"
+
 /obj/item/reagent_containers/blood/empty
 	name = "empty IV bag"
 	desc = "Seems pretty useless... Maybe if there were a way to fill it?"
