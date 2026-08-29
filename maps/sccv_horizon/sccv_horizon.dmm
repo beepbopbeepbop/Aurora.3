@@ -1341,6 +1341,10 @@
 	dir = 1
 	},
 /obj/structure/table/reinforced/steel,
+/obj/structure/machinery/requests_console/north{
+	departmentType = 5;
+	department = "Security - Warden's Office"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/warden)
 "agY" = (
@@ -4047,7 +4051,8 @@
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/maintenance/deck_3/security/port)
@@ -4440,7 +4445,9 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor,
+/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor{
+	id = "security_deck_2_hos_privacy"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/hos)
 "aDv" = (
@@ -7254,7 +7261,12 @@
 /obj/structure/window/shuttle/scc_space_ship,
 /obj/structure/machinery/door/blast/shutters{
 	name = "safety shutter";
-	dir = 2
+	dir = 2;
+	id = "security_deck_2_brig_shutter_cell_iso_window"
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/brig)
@@ -11118,6 +11130,14 @@
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 1
 	},
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = -35;
+	pixel_x = 10
+	},
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = -25;
+	pixel_x = 10
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/armoury)
 "bvp" = (
@@ -13187,6 +13207,10 @@
 "bKj" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/blue,
+/obj/structure/machinery/camera/network/prison{
+	c_tag = "Security - Cell ISO";
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/brig)
 "bKl" = (
@@ -16293,6 +16317,11 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
+/obj/structure/machinery/door/blast/shutters{
+	name = "cell shutter";
+	dir = 4;
+	id = "security_deck_2_brig_shutter_cell_c"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/brig)
 "cgM" = (
@@ -16517,7 +16546,9 @@
 /obj/structure/cable/green{
 	icon_state = "2-8"
 	},
-/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor,
+/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor{
+	id = "security_deck_2_hos_privacy"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/hos)
 "ciJ" = (
@@ -17324,6 +17355,14 @@
 /obj/item/gun/projectile/sec/unloaded,
 /obj/item/gun/projectile/revolver/security/unloaded,
 /obj/item/gun/projectile/revolver/security/unloaded,
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = -35;
+	pixel_x = 10
+	},
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = -25;
+	pixel_x = 10
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/armoury)
 "coT" = (
@@ -18941,6 +18980,10 @@
 /obj/structure/machinery/door/blast/shutters{
 	name = "safety shutter";
 	dir = 4
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/brig)
@@ -21181,11 +21224,27 @@
 	dir = 1
 	},
 /obj/structure/table/standard,
+/obj/structure/cable/green{
+	icon_state = "0-8"
+	},
+/obj/structure/machinery/recharger{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/structure/machinery/recharger{
+	pixel_x = -4;
+	pixel_y = 3
+	},
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/obj/structure/cable/green{
-	icon_state = "0-8"
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = 20;
+	pixel_x = 4
+	},
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = 30;
+	pixel_x = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/equipment)
@@ -22529,7 +22588,8 @@
 "cVJ" = (
 /obj/structure/grille,
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 2
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /obj/effect/landmark/entry_point/port{
 	name = "port, security firing range"
@@ -23971,7 +24031,8 @@
 	name = "Head of Security's Office";
 	req_access = list(58);
 	secured_wires = 1;
-	dir = 4
+	dir = 4;
+	id_tag = "security_deck_2_hos_door"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/hos)
@@ -25538,6 +25599,9 @@
 /turf/simulated/floor/plating,
 /area/horizon/engineering/reactor/supermatter/mainchamber)
 "dnC" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 10
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
 "dnI" = (
@@ -26863,7 +26927,9 @@
 /obj/structure/cable/green{
 	icon_state = "1-8"
 	},
-/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor,
+/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor{
+	id = "security_deck_2_hos_privacy"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/hos)
 "dvP" = (
@@ -27477,18 +27543,8 @@
 /turf/simulated/floor/tiled,
 /area/horizon/engineering/hallway/interior)
 "dzH" = (
-/obj/structure/table/reinforced,
-/obj/item/paper_bin{
-	pixel_x = 8;
-	pixel_y = 2
-	},
-/obj/item/pen{
-	pixel_x = 8;
-	pixel_y = 3
-	},
-/obj/structure/machinery/camera/network/prison{
-	c_tag = "Security - Cell ISO";
-	dir = 8
+/obj/structure/bed/stool/chair/office/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/brig)
@@ -30612,6 +30668,10 @@
 /obj/structure/window/shuttle/scc_space_ship,
 /obj/structure/grille,
 /obj/structure/machinery/door/firedoor,
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
+	},
 /turf/simulated/floor/plating,
 /area/horizon/maintenance/deck_2/security_port)
 "dVf" = (
@@ -30833,7 +30893,7 @@
 /area/centcom/specops)
 "dWN" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
-	id = "Interro_B"
+	id = "security_deck_3_interrogation_privacy_b"
 	},
 /obj/effect/floor_decal/industrial/hatch_door/yellow,
 /turf/simulated/floor/tiled/dark/full,
@@ -31281,14 +31341,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/horizon/engineering/atmos/propulsion/starboard)
 "dZW" = (
-/obj/structure/grille,
-/obj/structure/machinery/door/firedoor,
-/obj/structure/machinery/door/blast/regular/open{
-	dir = 4
-	},
-/obj/structure/window/shuttle/scc_space_ship/cardinal,
-/turf/simulated/floor/plating,
-/area/horizon/security/forensic_laboratory)
+/obj/structure/lattice/catwalk,
+/obj/structure/railing/mapped,
+/turf/space,
+/area/horizon/exterior)
 "dZX" = (
 /obj/structure/machinery/bodyscanner{
 	dir = 8
@@ -35951,11 +36007,11 @@
 	id = "cell_isolation";
 	pixel_x = -32
 	},
-/obj/structure/bed/stool/chair/office/light{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	icon_state = "1-2"
+	},
+/obj/structure/closet/secure_closet/brig{
+	id = "cell_isolation"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/brig)
@@ -36781,6 +36837,15 @@
 /obj/random/junk,
 /turf/simulated/floor/plating,
 /area/horizon/maintenance/deck_1/main/starboard)
+"eMm" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/horizon/command/heads/hos)
 "eMo" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -37834,6 +37899,13 @@
 	department = "Head of Security's Office";
 	pixel_y = 3
 	},
+/obj/structure/machinery/requests_console/north{
+	departmentType = 5;
+	department = "Security - Head of Security's Office"
+	},
+/obj/effect/floor_decal/spline/plain/cee/black{
+	dir = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
 "eTn" = (
@@ -37847,7 +37919,9 @@
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor,
+/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor{
+	id = "security_deck_2_hos_privacy"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/hos)
 "eTt" = (
@@ -38201,10 +38275,8 @@
 /turf/simulated/open/airless,
 /area/horizon/exterior)
 "eVU" = (
-/obj/structure/closet/secure_closet/brig{
-	id = "cell_isolation"
-	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/corner/dark_blue/diagonal,
+/turf/simulated/floor/tiled/dark,
 /area/horizon/security/hallway)
 "eVV" = (
 /turf/simulated/floor/tiled/dark,
@@ -38593,6 +38665,9 @@
 /obj/structure/bed/stool/chair/office/bridge/generic{
 	dir = 4
 	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
 "eZa" = (
@@ -38671,6 +38746,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/horizon/hallway/primary/deck_2/central)
+"eZA" = (
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/horizon/command/heads/hos)
 "eZC" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -40812,11 +40897,12 @@
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/machinery/door/airlock/glass_security{
 	desc = "It opens and closes. Hazardous lifeforms ahead. Caution advised!";
-	dir = 1;
-	name = "Security Lobby"
+	name = "Security Lobby";
+	id_tag = "security_deck_2_lobby_door_exterior"
 	},
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/lobby)
@@ -41275,7 +41361,7 @@
 /area/horizon/maintenance/deck_3/cafe)
 "fqW" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
-	id = "investigator_office"
+	id = "security_deck_3_investigations_privacy"
 	},
 /obj/effect/floor_decal/industrial/hatch_door/yellow{
 	dir = 4
@@ -41869,19 +41955,12 @@
 /turf/space,
 /area/horizon/engineering/atmos/propulsion)
 "fvq" = (
-/obj/structure/machinery/door/blast/regular{
-	density = 0;
-	dir = 8;
-	icon_state = "pdoor0";
-	id = "Security Lockdown";
-	name = "Security Blast Door";
-	opacity = 0
-	},
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
-	id = "investigator_office"
+	id = "security_deck_3_investigations_privacy"
 	},
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -43946,7 +44025,8 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /obj/structure/machinery/door/blast/shutters/open{
 	dir = 4;
-	name = "safety shutter"
+	name = "safety shutter";
+	id = "security_deck_2_lobby_shutter_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/desk)
@@ -45820,7 +45900,8 @@
 "fWg" = (
 /obj/structure/grille,
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 2
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /obj/structure/window/shuttle/scc_space_ship/cardinal,
 /obj/structure/machinery/door/firedoor{
@@ -48088,7 +48169,8 @@
 	},
 /obj/effect/map_effect/window_spawner/full/reinforced/firedoor,
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/lobby)
@@ -48604,6 +48686,10 @@
 /obj/structure/table/glass,
 /obj/effect/floor_decal/corner/dark_blue/full{
 	dir = 8
+	},
+/obj/structure/machinery/requests_console/north{
+	department = "Security - Lobby Desk";
+	departmentType = 5
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/desk)
@@ -51647,6 +51733,12 @@
 	},
 /turf/simulated/floor/wood,
 /area/horizon/rnd/hallway)
+"gJT" = (
+/obj/structure/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/command/heads/hos)
 "gJV" = (
 /obj/structure/platform/ledge{
 	dir = 1
@@ -53428,6 +53520,15 @@
 	},
 /obj/structure/cable/green{
 	icon_state = "2-4"
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/command/heads/hos)
@@ -58908,7 +59009,8 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /obj/structure/machinery/door/blast/shutters/open{
 	dir = 2;
-	name = "safety shutter"
+	name = "safety shutter";
+	id = "security_deck_2_lobby_shutter_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/hallway)
@@ -59721,6 +59823,23 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/medical/morgue)
+"hLq" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/folder/sec{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/pen/multi{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/carpet/darkblue,
+/area/horizon/security/office)
 "hLr" = (
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 4
@@ -61396,6 +61515,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/horizon/maintenance/deck_2/wing/starboard/nacelle)
+"hXg" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/horizon/command/heads/hos)
 "hXh" = (
 /obj/structure/table/reinforced/glass,
 /obj/item/paper_bin{
@@ -62709,8 +62843,6 @@
 /obj/effect/floor_decal/corner/dark_blue/full{
 	dir = 8
 	},
-/obj/item/gun/energy/mousegun/xenofauna,
-/obj/item/gun/energy/mousegun/xenofauna,
 /obj/structure/machinery/firealarm/north,
 /obj/structure/machinery/power/apc/critical/west,
 /obj/structure/table/steel,
@@ -64584,6 +64716,24 @@
 /obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/tiled,
 /area/horizon/operations/lobby)
+"irG" = (
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/obj/structure/cable/green{
+	icon_state = "2-4"
+	},
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/obj/structure/machinery/door/blast/shutters/open{
+	dir = 2;
+	name = "safety shutter";
+	id = "security_deck_2_brig_shutter_cell_iso_lockdown"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/security/brig)
 "irH" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/firedoor,
 /obj/structure/machinery/door/blast/shutters{
@@ -70611,7 +70761,8 @@
 "jgd" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/firedoor,
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
@@ -76428,6 +76579,18 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/plating,
 /area/horizon/maintenance/deck_2/wing/port/nacelle)
+"jSn" = (
+/obj/structure/table/reinforced,
+/obj/item/pen{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/obj/item/paper_bin{
+	pixel_x = 8;
+	pixel_y = 2
+	},
+/turf/simulated/floor/tiled/dark,
+/area/horizon/security/brig)
 "jSo" = (
 /obj/structure/window/shuttle/scc_space_ship,
 /obj/structure/grille,
@@ -76662,7 +76825,7 @@
 /area/centcom/control)
 "jUk" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
-	id = "investigator_office"
+	id = "security_deck_3_investigations_privacy"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/investigators_office)
@@ -82423,7 +82586,12 @@
 	},
 /obj/structure/machinery/door/blast/shutters{
 	name = "safety shutter";
-	dir = 2
+	dir = 2;
+	id = "security_deck_2_brig_shutter_cell_iso_window"
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/brig)
@@ -83205,10 +83373,16 @@
 "kIT" = (
 /obj/structure/grille,
 /obj/structure/machinery/door/firedoor,
-/obj/structure/machinery/door/blast/regular/open{
-	dir = 4
-	},
 /obj/structure/window/shuttle/scc_space_ship/cardinal,
+/obj/structure/machinery/door/blast/shutters{
+	name = "safety shutter";
+	dir = 2;
+	id = "security_deck_3_autopsy_shutter_safety"
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
+	},
 /turf/simulated/floor/plating,
 /area/horizon/security/autopsy_laboratory)
 "kIV" = (
@@ -86428,7 +86602,8 @@
 	req_access = list(63)
 	},
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 2
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 8
@@ -86649,6 +86824,14 @@
 "lgQ" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet/station/lessthanlethals,
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = -25;
+	pixel_x = -1
+	},
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = -35;
+	pixel_x = -1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/armoury)
 "lgW" = (
@@ -87734,6 +87917,10 @@
 	pixel_x = 22;
 	pixel_y = 23
 	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 2;
+	id = "security_blast_lockdown"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/maintenance/deck_2/security_port)
 "loh" = (
@@ -87914,6 +88101,9 @@
 "lpy" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 5
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
@@ -90521,7 +90711,8 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /obj/structure/machinery/door/blast/shutters/open{
 	dir = 2;
-	name = "safety shutter"
+	name = "safety shutter";
+	id = "security_deck_2_lobby_shutter_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/hallway)
@@ -90569,6 +90760,12 @@
 /area/horizon/exterior)
 "lHw" = (
 /obj/structure/machinery/hologram/holopad,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 1
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
 "lHx" = (
@@ -90948,10 +91145,11 @@
 /area/antag/mercenary)
 "lJy" = (
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 2
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
-	id = "investigator_office"
+	id = "security_deck_3_investigations_privacy"
 	},
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /turf/simulated/floor/tiled/dark/full,
@@ -91431,6 +91629,16 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/reinforced,
 /area/horizon/engineering/gravity_gen)
+"lMM" = (
+/obj/structure/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/coatrack{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/command/heads/hos)
 "lMN" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -91513,6 +91721,10 @@
 	icon_state = "1-4"
 	},
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
+/obj/structure/machinery/door_timer/isolation_cell{
+	pixel_x = -32;
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/hallway)
 "lNq" = (
@@ -95240,11 +95452,20 @@
 /turf/simulated/floor/holofloor/grass,
 /area/horizon/holodeck/source_wildlife)
 "mmT" = (
-/obj/structure/bed/stool/chair/office/dark{
-	dir = 8
+/obj/structure/cable/green{
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/carpet/darkblue,
-/area/horizon/security/office)
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/horizon/command/heads/hos)
 "mmU" = (
 /obj/effect/floor_decal/corner/lime{
 	dir = 5
@@ -96474,10 +96695,9 @@
 /turf/simulated/floor,
 /area/horizon/command/heads/captain)
 "mvn" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing/mapped,
-/turf/space,
-/area/horizon/exterior)
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
+/area/horizon/command/heads/hos)
 "mvt" = (
 /obj/structure/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/full,
@@ -97328,7 +97548,14 @@
 	},
 /obj/structure/machinery/door/blast/shutters{
 	dir = 2;
-	name = "armoury shutter"
+	name = "armoury shutter";
+	id = "security_deck_2_armoury_shutter_access"
+	},
+/obj/structure/machinery/button/remote/blast_door{
+	pixel_x = -24;
+	pixel_y = 14;
+	name = "Armoury Access";
+	id = "security_deck_2_armoury_shutter_access"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/armoury)
@@ -100375,13 +100602,13 @@
 /turf/simulated/floor/bluegrid,
 /area/horizon/tcommsat/chamber)
 "mWu" = (
-/obj/item/modular_computer/console/preset/security{
-	dir = 4
-	},
 /obj/effect/floor_decal/industrial/outline/security,
 /obj/effect/floor_decal/industrial/hatch_small/security,
+/obj/structure/machinery/suit_cycler/hos/prepared,
+/obj/item/suit_cooling_unit,
+/obj/item/tank/oxygen,
 /turf/simulated/floor/tiled/dark/full,
-/area/horizon/security/office)
+/area/horizon/command/heads/hos)
 "mWv" = (
 /turf/simulated/wall/shuttle/scc_space_ship/cardinal,
 /area/horizon/stairwell/bridge/deck_3)
@@ -101033,7 +101260,7 @@
 	dir = 5
 	},
 /obj/structure/machinery/requests_console/north{
-	department = "Morgue";
+	department = "Security - Autopsy";
 	departmentType = 5
 	},
 /obj/structure/table/glass,
@@ -101051,7 +101278,8 @@
 /obj/structure/machinery/door/firedoor,
 /obj/structure/window/shuttle/scc_space_ship/cardinal,
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/investigations_hallway)
@@ -106978,6 +107206,7 @@
 	pixel_y = 4;
 	pixel_x = 3
 	},
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
 "nNX" = (
@@ -108978,6 +109207,9 @@
 /turf/simulated/floor/plating,
 /area/horizon/maintenance/deck_3/security/starboard)
 "ocb" = (
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/command/heads/hos)
 "ocf" = (
@@ -111871,6 +112103,11 @@
 	name = "Isolation Cell";
 	req_access = list(2)
 	},
+/obj/structure/machinery/door/blast/shutters/open{
+	dir = 4;
+	name = "safety shutter";
+	id = "security_deck_2_brig_shutter_cell_iso_lockdown"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/brig)
 "otp" = (
@@ -113068,6 +113305,22 @@
 /obj/effect/shuttle_landmark/horizon/exterior/deck_2/port_aft,
 /turf/template_noop,
 /area/template_noop)
+"oCO" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/folder/sec{
+	pixel_x = 6;
+	pixel_y = 3
+	},
+/obj/item/pen/multi{
+	pixel_x = 6;
+	pixel_y = 4
+	},
+/turf/simulated/floor/carpet/darkblue,
+/area/horizon/security/office)
 "oCQ" = (
 /obj/structure/trash_pile,
 /obj/random/dirt_75,
@@ -113618,11 +113871,10 @@
 /turf/simulated/floor/plating,
 /area/horizon/maintenance/deck_1/main/starboard)
 "oGh" = (
-/obj/effect/floor_decal/industrial/outline/security,
-/obj/effect/floor_decal/industrial/hatch_small/security,
-/obj/structure/machinery/suit_cycler/hos/prepared,
-/turf/simulated/floor/tiled/dark/full,
-/area/horizon/command/heads/hos)
+/obj/structure/table/glass,
+/obj/structure/window/reinforced,
+/turf/simulated/floor/carpet/darkblue,
+/area/horizon/security/office)
 "oGi" = (
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 5
@@ -115018,8 +115270,14 @@
 /obj/structure/grille,
 /obj/structure/machinery/door/firedoor,
 /obj/structure/window/shuttle/scc_space_ship/cardinal,
+/obj/structure/machinery/door/blast/shutters{
+	name = "safety shutter";
+	dir = 2;
+	id = "security_deck_3_forensics_shutter_safety"
+	},
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/forensic_laboratory)
@@ -118450,6 +118708,12 @@
 /obj/structure/table/standard,
 /obj/structure/cable/green{
 	icon_state = "2-4"
+	},
+/obj/item/gun/energy/mousegun/xenofauna{
+	pixel_y = 6
+	},
+/obj/item/gun/energy/mousegun/xenofauna{
+	pixel_y = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/equipment)
@@ -124546,8 +124810,17 @@
 /obj/structure/cable/green{
 	icon_state = "2-4"
 	},
-/obj/structure/flora/pottedplant/cherrytree,
-/turf/simulated/floor/tiled/dark,
+/mob/living/simple_animal/hostile/commanded/dog/columbo,
+/obj/item/towel_flat{
+	pixel_x = 1;
+	pixel_y = 2;
+	name = "Columbo's Bed";
+	desc = "A dog blanket laid out on the floor; a poor excuse for a bed, but Columbo doesn't seem to mind it.";
+	accent_color = "#95453D";
+	color = "#95453D"
+	},
+/obj/effect/floor_decal/spline/plain/full/black,
+/turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
 "qcg" = (
 /obj/structure/machinery/power/breakerbox/activated{
@@ -125828,10 +126101,6 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/operations/machinist)
 "qlr" = (
-/obj/structure/machinery/door_timer/isolation_cell{
-	pixel_x = -32;
-	pixel_y = 32
-	},
 /obj/effect/floor_decal/corner/dark_blue{
 	dir = 9
 	},
@@ -127644,6 +127913,10 @@
 /obj/structure/machinery/papershredder{
 	pixel_x = 6
 	},
+/obj/structure/machinery/requests_console/west{
+	departmentType = 5;
+	department = "Security - Office"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/office)
 "qxh" = (
@@ -128904,7 +129177,8 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /obj/structure/machinery/door/blast/shutters/open{
 	dir = 4;
-	name = "safety shutter"
+	name = "safety shutter";
+	id = "security_deck_2_lobby_shutter_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/desk)
@@ -129665,7 +129939,8 @@
 	},
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 2
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/hallway)
@@ -130104,7 +130379,8 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
 /obj/structure/machinery/door/blast/shutters/open{
 	dir = 2;
-	name = "safety shutter"
+	name = "safety shutter";
+	id = "security_deck_2_lobby_shutter_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/hallway)
@@ -131481,6 +131757,10 @@
 /obj/structure/machinery/door/blast/shutters{
 	name = "safety shutter";
 	dir = 2
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/brig)
@@ -134937,11 +135217,17 @@
 	name = "port, investigations autopsy"
 	},
 /obj/structure/window/shuttle/scc_space_ship/cardinal,
-/obj/structure/machinery/door/blast/regular/open{
-	dir = 2
-	},
 /obj/structure/machinery/door/firedoor{
 	dir = 4
+	},
+/obj/structure/machinery/door/blast/shutters{
+	name = "safety shutter";
+	dir = 4;
+	id = "security_deck_3_autopsy_shutter_safety"
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/autopsy_laboratory)
@@ -135297,7 +135583,8 @@
 	req_access = list(63)
 	},
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/investigations_hallway)
@@ -135516,12 +135803,18 @@
 /area/horizon/service/custodial/disposals/deck_1)
 "ruu" = (
 /obj/structure/grille,
-/obj/structure/machinery/door/blast/regular/open{
-	dir = 2
-	},
 /obj/structure/window/shuttle/scc_space_ship/cardinal,
 /obj/structure/machinery/door/firedoor{
 	dir = 4
+	},
+/obj/structure/machinery/door/blast/shutters{
+	name = "safety shutter";
+	dir = 4;
+	id = "security_deck_3_autopsy_shutter_safety"
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/autopsy_laboratory)
@@ -135534,14 +135827,15 @@
 /turf/simulated/floor/grass/no_edge,
 /area/centcom/spawning)
 "ruF" = (
-/obj/structure/machinery/door/blast/regular/open{
-	dir = 4
-	},
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
-	id = "investigator_office"
+	id = "security_deck_3_investigations_privacy"
 	},
 /obj/effect/floor_decal/industrial/hatch_door/red{
 	dir = 1
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/investigators_office)
@@ -136355,6 +136649,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/horizon/engineering/storage_hard/lower)
+"rAc" = (
+/obj/effect/floor_decal/industrial/outline/security,
+/obj/effect/floor_decal/industrial/hatch_small/security,
+/obj/item/modular_computer/console/preset/security{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/security/office)
 "rAk" = (
 /turf/unsimulated/floor{
 	icon_state = "wood"
@@ -138205,7 +138507,8 @@
 	},
 /obj/structure/machinery/door/blast/shutters{
 	name = "desk shutter";
-	dir = 4
+	dir = 4;
+	id = "security_deck_2_lobby_shutter_desk"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/desk)
@@ -138889,6 +139192,22 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/plating,
 /area/horizon/hangar/intrepid)
+"rQF" = (
+/obj/structure/machinery/door/firedoor{
+	req_one_access = list(24,11,67,73);
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch_door/red,
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/obj/structure/machinery/door/blast/shutters{
+	name = "cell shutter";
+	dir = 4;
+	id = "security_deck_2_brig_shutter_cell_a"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/security/brig)
 "rQH" = (
 /obj/structure/bed/stool/chair/office/dark,
 /turf/unsimulated/floor{
@@ -140172,6 +140491,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/engineering/atmos/propulsion/starboard)
+"rYy" = (
+/obj/structure/cable/green{
+	icon_state = "0-4"
+	},
+/obj/structure/machinery/power/apc/west,
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/horizon/command/heads/hos)
 "rYz" = (
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -142411,6 +142740,14 @@
 "slR" = (
 /obj/effect/floor_decal/industrial/outline/red,
 /obj/structure/closet/secure_closet/guncabinet/station/lethals,
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = -25;
+	pixel_x = -1
+	},
+/obj/structure/machinery/recharger/wallcharger{
+	pixel_y = -35;
+	pixel_x = -1
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/armoury)
 "slS" = (
@@ -142826,6 +143163,27 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/legion)
+"sol" = (
+/obj/structure/machinery/door/firedoor{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/structure/machinery/door/blast/shutters{
+	dir = 2;
+	name = "armoury shutter";
+	id = "security_deck_2_armoury_shutter_access"
+	},
+/obj/structure/machinery/button/remote/blast_door{
+	dir = 1;
+	pixel_x = 24;
+	pixel_y = -7;
+	name = "Armoury Access";
+	id = "security_deck_2_armoury_shutter_access"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/security/armoury)
 "som" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
@@ -145539,10 +145897,16 @@
 "sGC" = (
 /obj/structure/grille,
 /obj/structure/machinery/door/firedoor,
-/obj/structure/machinery/door/blast/regular/open{
-	dir = 4
-	},
 /obj/structure/window/shuttle/scc_space_ship/cardinal,
+/obj/structure/machinery/door/blast/shutters{
+	name = "safety shutter";
+	dir = 2;
+	id = "security_deck_3_forensics_shutter_safety"
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
+	},
 /turf/simulated/floor/plating,
 /area/horizon/security/evidence_storage)
 "sGD" = (
@@ -146461,7 +146825,8 @@
 	},
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 2
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/maintenance/deck_2/wing/port/near)
@@ -146653,6 +147018,9 @@
 /obj/item/stamp/hos{
 	pixel_x = -7
 	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 9
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
 "sNE" = (
@@ -146692,7 +147060,7 @@
 /obj/effect/floor_decal/corner/beige/diagonal,
 /obj/structure/machinery/light,
 /obj/structure/machinery/requests_console/east{
-	department = "Forensics Lab";
+	department = "Security - Forensics";
 	departmentType = 5;
 	pixel_y = 8
 	},
@@ -150087,11 +150455,8 @@
 /turf/simulated/floor/tiled,
 /area/horizon/engineering/hallway/fore)
 "tlN" = (
-/obj/structure/coatrack{
-	pixel_x = 8;
-	pixel_y = 3
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/table/reinforced/glass,
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/hos)
 "tlO" = (
 /obj/effect/floor_decal/corner/teal{
@@ -151586,6 +151951,9 @@
 /obj/structure/table/reinforced/glass,
 /obj/item/modular_computer/laptop/preset/security/hos{
 	pixel_y = 9
+	},
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 4
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
@@ -155471,6 +155839,22 @@
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/checkpoint)
+"tWJ" = (
+/obj/structure/machinery/door/firedoor{
+	req_one_access = list(24,11,67,73);
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch_door/red,
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/obj/structure/machinery/door/blast/shutters{
+	name = "cell shutter";
+	dir = 4;
+	id = "security_deck_2_brig_shutter_cell_b"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/security/brig)
 "tWK" = (
 /obj/structure/tank_wall/nitrous_oxide{
 	density = 0;
@@ -156026,6 +156410,7 @@
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
+/obj/structure/machinery/power/apc/east,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/desk)
 "uad" = (
@@ -156461,7 +156846,8 @@
 	dir = 1
 	},
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/investigators_office)
@@ -157622,16 +158008,19 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/item/towel_flat{
-	pixel_x = -2;
-	pixel_y = 4;
-	name = "Columbo's Bed";
-	desc = "A dog blanket laid out on the floor; a poor excuse for a bed, but Columbo doesn't seem to mind it.";
-	accent_color = "#95453D";
-	color = "#95453D"
+/obj/structure/table/reinforced/glass,
+/obj/structure/machinery/chemical_dispenser/coffeemaster/full{
+	pixel_y = 7
 	},
-/mob/living/simple_animal/hostile/commanded/dog/columbo,
-/turf/simulated/floor/tiled/dark,
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/scc{
+	pixel_x = -4;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/scc/alt{
+	pixel_x = 4;
+	pixel_y = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/hos)
 "ukq" = (
 /obj/random/junk,
@@ -158989,7 +159378,7 @@
 /turf/simulated/floor/plating,
 /area/horizon/maintenance/deck_2/service/port)
 "uty" = (
-/turf/simulated/wall,
+/turf/simulated/wall/r_wall,
 /area/horizon/maintenance/deck_3/security/starboard)
 "utA" = (
 /obj/structure/disposalpipe/segment/mainline,
@@ -161832,14 +162221,14 @@
 	icon_state = "2-4"
 	},
 /obj/structure/machinery/door/airlock/glass_security{
-	dir = 1;
-	id_tag = "BrigFoyer";
-	name = "Security Wing";
+	id_tag = "security_deck_2_lobby_door_interior";
+	name = "Security Department";
 	req_access = list(63)
 	},
 /obj/structure/machinery/door/blast/shutters/open{
 	dir = 2;
-	name = "safety shutter"
+	name = "safety shutter";
+	id = "security_deck_2_lobby_shutter_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/hallway)
@@ -162122,7 +162511,8 @@
 	},
 /obj/structure/machinery/door/blast/shutters{
 	name = "desk shutter";
-	dir = 2
+	dir = 2;
+	id = "security_deck_2_warden_shutter_desk"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/warden)
@@ -163041,7 +163431,16 @@
 /obj/structure/machinery/door/firedoor{
 	dir = 4
 	},
-/obj/structure/machinery/door/blast/regular,
+/obj/structure/machinery/door/blast/regular{
+	id = "security_deck_2_armoury_blast_exosuit"
+	},
+/obj/structure/machinery/button/remote/blast_door{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = -24;
+	name = "Exosuit Storage Access";
+	id = "security_deck_2_armoury_blast_exosuit"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/armoury)
 "uSZ" = (
@@ -163548,7 +163947,9 @@
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
-/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor,
+/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor{
+	id = "security_deck_2_hos_privacy"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/hos)
 "uVZ" = (
@@ -163914,6 +164315,10 @@
 /obj/structure/machinery/door/blast/shutters{
 	name = "safety shutter";
 	dir = 2
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/brig)
@@ -165219,7 +165624,7 @@
 /area/horizon/engineering/atmos/turbine)
 "vgA" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
-	id = "Interro_B"
+	id = "security_deck_3_interrogation_privacy_b"
 	},
 /obj/effect/floor_decal/industrial/hatch_door/yellow{
 	dir = 8
@@ -166630,6 +167035,9 @@
 "vqT" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/command/heads/hos)
@@ -168429,7 +168837,9 @@
 	dir = 8
 	},
 /obj/structure/cable/green,
-/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor,
+/obj/effect/map_effect/window_spawner/full/reinforced/polarized/grille/firedoor{
+	id = "security_deck_2_hos_privacy"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/command/heads/hos)
 "vDG" = (
@@ -169558,7 +169968,16 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/hatch_door/red,
-/obj/structure/machinery/door/blast/regular,
+/obj/structure/machinery/door/blast/regular{
+	id = "security_deck_2_armoury_blast_access"
+	},
+/obj/structure/machinery/button/remote/blast_door{
+	dir = 4;
+	pixel_x = -14;
+	pixel_y = 26;
+	name = "Armoury Access";
+	id = "security_deck_2_armoury_blast_access"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/armoury)
 "vMa" = (
@@ -172631,6 +173050,9 @@
 /obj/structure/bed/stool/chair{
 	dir = 8
 	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
 "weM" = (
@@ -173149,6 +173571,7 @@
 	c_tag = "Security - Corridor Camera 1";
 	dir = 1
 	},
+/obj/structure/flora/pottedplant/cherrytree,
 /turf/simulated/floor/tiled,
 /area/horizon/security/hallway)
 "wiv" = (
@@ -173352,6 +173775,7 @@
 /obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
+/obj/structure/machinery/disposal/small/south,
 /turf/simulated/floor/carpet/darkblue,
 /area/horizon/security/office)
 "wkc" = (
@@ -175995,7 +176419,7 @@
 /area/horizon/exterior)
 "wzm" = (
 /obj/structure/machinery/requests_console/east{
-	department = "Investigations";
+	department = "Security - Investigations";
 	departmentType = 5;
 	name = "Investigation's Office Requests Console"
 	},
@@ -176301,6 +176725,7 @@
 /area/horizon/hallway/primary/deck_3/starboard/docks)
 "wBl" = (
 /obj/structure/table/reinforced/glass,
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/command/heads/hos)
 "wBp" = (
@@ -176318,7 +176743,7 @@
 	dir = 8
 	},
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
-	id = "Interro_A"
+	id = "security_deck_3_interrogation_privacy_a"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/interrogation_1)
@@ -176434,6 +176859,15 @@
 	icon_state = "1-8"
 	},
 /obj/structure/machinery/disposal/small/north,
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/command/heads/hos)
 "wCp" = (
@@ -176488,6 +176922,21 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/horizon/exterior)
+"wCN" = (
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	icon_state = "0-8"
+	},
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/obj/structure/machinery/door/blast/shutters/open{
+	dir = 2;
+	name = "safety shutter";
+	id = "security_deck_2_brig_shutter_cell_iso_lockdown"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/horizon/security/brig)
 "wCO" = (
 /obj/structure/table/standard,
 /obj/item/reagent_containers/glass/beaker/cryoxadone{
@@ -176581,7 +177030,7 @@
 "wDF" = (
 /obj/effect/floor_decal/industrial/hatch_door/yellow,
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/firedoor{
-	id = "Interro_A"
+	id = "security_deck_3_interrogation_privacy_a"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/interrogation_1)
@@ -177116,7 +177565,8 @@
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/plating,
 /area/horizon/command/heads/hos)
 "wGE" = (
 /obj/effect/floor_decal/corner/green{
@@ -178654,7 +179104,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 2
+	dir = 2;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/evidence_storage)
@@ -179438,6 +179889,10 @@
 /obj/structure/machinery/door/blast/shutters{
 	name = "safety shutter";
 	dir = 2
+	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/plating,
 /area/horizon/security/brig)
@@ -180345,7 +180800,16 @@
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/machinery/door/blast/regular,
+/obj/structure/machinery/door/blast/regular{
+	id = "security_deck_2_armoury_blast_access"
+	},
+/obj/structure/machinery/button/remote/blast_door{
+	dir = 8;
+	pixel_x = 14;
+	pixel_y = -24;
+	name = "Armoury Access";
+	id = "security_deck_2_armoury_blast_access"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/armoury)
 "wZd" = (
@@ -184108,7 +184572,8 @@
 	dir = 1
 	},
 /obj/structure/machinery/door/blast/regular/open{
-	dir = 4
+	dir = 4;
+	id = "security_blast_lockdown"
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/maintenance/deck_3/security/starboard)
@@ -185576,6 +186041,10 @@
 	name = "safety shutter";
 	dir = 2
 	},
+/obj/structure/machinery/door/blast/regular/open{
+	dir = 4;
+	id = "security_blast_lockdown"
+	},
 /turf/simulated/floor/plating,
 /area/horizon/security/brig)
 "xIO" = (
@@ -186617,6 +187086,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9
 	},
+/obj/structure/mopbucket,
+/obj/item/mop,
+/obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/plating,
 /area/horizon/maintenance/deck_3/security/starboard)
 "xQs" = (
@@ -187246,6 +187718,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/horizon/hallway/primary/deck_3/starboard)
+"xUI" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 6
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/horizon/command/heads/hos)
 "xUL" = (
 /obj/effect/floor_decal/industrial/outline_straight/operations,
 /turf/simulated/floor/tiled/full,
@@ -291427,7 +291905,7 @@ aoE
 aoE
 aoE
 aoE
-aoE
+mvn
 iSm
 lih
 sjI
@@ -291681,9 +292159,9 @@ aoE
 eTk
 lHw
 dnC
-ocb
-kCp
-oGh
+rYy
+mWu
+aoE
 aoE
 lPu
 lPu
@@ -291938,9 +292416,9 @@ uVY
 ckB
 eYO
 wBl
-ocb
-ocb
-ocb
+eMm
+gJT
+kCp
 aoE
 hza
 llP
@@ -292195,9 +292673,9 @@ aDt
 sND
 tvi
 nNW
-ocb
-ocb
-ocb
+mmT
+eZA
+pSL
 aoE
 btg
 lAu
@@ -292451,10 +292929,10 @@ dWS
 aoE
 lpy
 weL
-dnC
-ocb
+xUI
+hXg
+lMM
 dsY
-pSL
 aoE
 qGC
 wpj
@@ -293229,10 +293707,10 @@ wjV
 gcp
 obe
 wLM
-mWu
+vNk
 mXT
 mXT
-usw
+cYM
 waA
 ayE
 dVb
@@ -293484,12 +293962,12 @@ eRr
 lYH
 sGD
 aTh
-eYm
+oGh
 uTS
-mmT
+aTh
 eYm
 mXT
-cYM
+usw
 whs
 lod
 whs
@@ -293741,10 +294219,10 @@ oAn
 mXT
 fSQ
 eYm
+hLq
+rAc
 eYm
-vNk
-eYm
-eYm
+oCO
 mXT
 cYM
 whs
@@ -294007,7 +294485,7 @@ cYM
 whs
 whs
 pam
-mvn
+dZW
 eSV
 eSV
 eSV
@@ -294521,7 +294999,7 @@ cYM
 xCs
 whs
 uYQ
-mvn
+dZW
 eSV
 eSV
 eSV
@@ -294768,7 +295246,7 @@ fjG
 mMK
 atH
 eIG
-mBM
+sol
 bHT
 gVl
 qCN
@@ -294778,7 +295256,7 @@ cYM
 xCs
 whs
 uYQ
-mvn
+dZW
 eSV
 eSV
 eSV
@@ -295292,7 +295770,7 @@ cYM
 xCs
 whs
 uYQ
-mvn
+dZW
 eSV
 coO
 coO
@@ -295549,7 +296027,7 @@ cYM
 xCs
 whs
 uYQ
-mvn
+dZW
 eSV
 nCD
 cfB
@@ -297599,7 +298077,7 @@ dsy
 fcv
 pMH
 miK
-iXc
+irG
 bgG
 eEZ
 kDT
@@ -297856,7 +298334,7 @@ jCX
 efg
 ptP
 jCX
-jSC
+wCN
 doj
 dzH
 aXA
@@ -298115,7 +298593,7 @@ iwg
 skx
 fTe
 bKj
-doj
+jSn
 gpF
 cKu
 iGg
@@ -298373,8 +298851,8 @@ aMc
 fTe
 fTe
 gpF
-sRg
-nwZ
+gpF
+cKu
 iGg
 eSV
 eSV
@@ -298631,7 +299109,7 @@ fTe
 qCi
 wzj
 cKu
-cKu
+nwZ
 vSp
 eSV
 eSV
@@ -299133,10 +299611,10 @@ fTe
 vTD
 bhE
 fTe
-cgH
+rQF
 skx
 fTe
-cgH
+tWJ
 skx
 fTe
 cgH
@@ -364630,7 +365108,7 @@ wWR
 jXG
 ryE
 vfC
-dZW
+oPm
 xvD
 rka
 hSe
@@ -365402,7 +365880,7 @@ wWR
 xVO
 ryE
 vfC
-dZW
+oPm
 mil
 erk
 xtM
@@ -365659,7 +366137,7 @@ wWR
 wWR
 tAV
 vfC
-dZW
+oPm
 vlW
 xyQ
 mJX
