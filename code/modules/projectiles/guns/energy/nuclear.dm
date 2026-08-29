@@ -311,19 +311,19 @@ ABSTRACT_TYPE(/obj/item/gun/energy/gun/skrell)
 		list(mode_name="lethal", projectile_type=/obj/projectile/beam/pulse/skrell, fire_sound='sound/weapons/laser3.ogg', burst = 2, burst_delay = 2)
 		)
 
-// Less old skrell weapons
-/obj/item/gun/energy/gun/qukala
-	name = "\improper Tqi-Qop carbine"
+// Current skrell weapons
+/obj/item/gun/energy/gun/kala
+	name = "\improper Toqip-Xal enforcer "
 	desc = "The Tqi-Qop Carbine is the main weapon of the Qukala. Its compact light frame and excellent ammo capacity make it a superb weapon for the Skrell."
 	desc_extended = ""
 	icon = 'icons/obj/item/gun/energy/gun/qukala.dmi'
 	icon_state = "qukalagun"
 	item_state = "qukalagun"
 	fire_sound = 'sound/weapons/Taser.ogg'
-	slot_flags = SLOT_BELT
+	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_BACK
 	accuracy = 2
 	max_shots = 25
-	secondary_projectile_type = /obj/projectile/beam
+	secondary_projectile_type = /obj/projectile/beam/pistol/nralakk
 	secondary_fire_sound = 'sound/weapons/laser1.ogg'
 	can_switch_modes = TRUE
 
@@ -332,23 +332,25 @@ ABSTRACT_TYPE(/obj/item/gun/energy/gun/skrell)
 	modifystate = "qukalagun"
 
 	firemodes = list(
-		list(mode_name="stun", projectile_type=/obj/projectile/beam/stun, fire_sound='sound/weapons/Taser.ogg'),
-		list(mode_name="lethal", projectile_type=/obj/projectile/beam/midlaser/skrell, fire_sound='sound/weapons/laser1.ogg')
+		list(mode_name="lethal", projectile_type=/obj/projectile/beam/pistol/nralakk, fire_sound='sound/weapons/laser1.ogg'),
+		list(mode_name="incapacitate", projectile_type=/obj/projectile/beam/stun, fire_sound='sound/weapons/Taser.ogg')
 		)
 
 	has_item_ratio = FALSE
 
-/obj/item/gun/energy/gun/qukala/mounted
+/obj/item/gun/energy/gun/kala/mounted
 	self_recharge = TRUE
 	use_external_power = TRUE
 	recharge_time = 10
 	can_turret = FALSE
 
-// Current skrell weapons
 /obj/item/gun/energy/fedpistol
 	name = "\improper Xuqm-3 energy pistol"
 	desc = "A Skrell-made pistol that utilises a psionic control mechanism. It's made from a lightweight alloy."
-	desc_extended = "A sidearm usually seen in the hands of Nralakk Federation officials and law enforcement, the Xuqm-3 energy pistol has a psionically-linked firing pin that checks for a developed Zona Bovinae in its user before it can be fired. A wire can be attached to the user's wrist to allow for mode switching using psionics rather than changing it physically. For non-psionic users, a small dial for mode switching has been attached."
+	desc_extended = "A sidearm usually seen in the hands of Nralakk Federation officials and law enforcement, \
+	the Xuqm-3 energy pistol has a psionically-linked firing pin that checks for a developed Zona Bovinae in its user before it can be fired. \
+	A wire can be attached to the user's wrist to allow for mode switching using psionics rather than changing it physically. \
+	For non-psionic users, a small dial for mode switching has been attached."
 	icon = 'icons/obj/guns/psi_pistol.dmi'
 	icon_state = "psipistolstun100"
 	item_state = "psipistolstun100"
@@ -358,17 +360,17 @@ ABSTRACT_TYPE(/obj/item/gun/energy/gun/skrell)
 	max_shots = 10
 	fire_delay = 4
 	can_turret = FALSE
-	secondary_projectile_type = /obj/projectile/energy/blaster/skrell
+	secondary_projectile_type = /obj/projectile/beam/pistol/nralakk/weak
 	secondary_fire_sound = 'sound/weapons/laser3.ogg'
 	can_switch_modes = TRUE
-	projectile_type = /obj/projectile/energy/disruptorskrell
+	projectile_type = /obj/projectile/beam/stun
 	modifystate = "psipistolstun"
 	drop_sound = 'sound/items/drop/pistol.ogg'
 	pickup_sound = 'sound/items/pickup/pistol.ogg'
 
 	firemodes = list(
-		list(mode_name="stun", projectile_type=/obj/projectile/energy/disruptorskrell, modifystate="psipistolstun", fire_sound='sound/weapons/Taser.ogg'),
-		list(mode_name="lethal", projectile_type=/obj/projectile/energy/blaster/skrell, modifystate="psipistollethal", fire_sound='sound/weapons/laser3.ogg'),
+		list(mode_name="lethal", projectile_type=/obj/projectile/beam/pistol/nralakk/weak, modifystate="psipistollethal", fire_sound='sound/weapons/laser3.ogg'),
+		list(mode_name="incapacitate", projectile_type=/obj/projectile/beam/stun, modifystate="psipistolstun", fire_sound='sound/weapons/Taser.ogg'),
 		list(mode_name="ion", projectile_type=/obj/projectile/ion/small, modifystate="psipistolion", fire_sound='sound/weapons/laser1.ogg')
 		)
 

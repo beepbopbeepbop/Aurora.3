@@ -667,7 +667,7 @@
 "bE" = (
 /obj/structure/table/skrell,
 /obj/structure/machinery/light/skrell,
-/obj/item/gun/energy/gun/qukala{
+/obj/item/gun/energy/gun/kala{
 	pixel_y = 7;
 	pixel_x = 2
 	},

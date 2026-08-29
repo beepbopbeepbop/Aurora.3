@@ -391,7 +391,7 @@
 /area/ouerea_skrell)
 "yK" = (
 /obj/structure/closet/skrell,
-/obj/item/gun/energy/gun/qukala,
+/obj/item/gun/energy/gun/kala,
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ouerea_skrell)
 "zH" = (
@@ -608,7 +608,7 @@
 	pixel_y = 32
 	},
 /obj/structure/closet/skrell,
-/obj/item/gun/energy/gun/qukala,
+/obj/item/gun/energy/gun/kala,
 /turf/simulated/floor/shuttle/skrell/blue,
 /area/ouerea_skrell)
 "MQ" = (

@@ -259,15 +259,14 @@
 	recharge_time = 10
 	can_turret = FALSE
 
-/obj/item/gun/energy/rifle/laser/qukala
+/obj/item/gun/energy/rifle/laser/kala
 	name = "geop cannon"
 	desc = "An advanced weapon of Skrell design, this Geop Cannon uses a tiny warp accelerator to super heat particles."
 	icon = 'icons/obj/item/gun/energy/rifle/qukala_heavy.dmi'
 	icon_state = "qukala_heavy"
 	item_state = "qukala_heavy"
-	max_shots = 10
-	self_recharge = TRUE
-	projectile_type = /obj/projectile/beam/midlaser/skrell/heavy
+	max_shots = 14
+	projectile_type = /obj/projectile/beam/midlaser/nralakk
 
 /obj/item/gun/energy/rifle/hegemony
 	name = "\improper Zkrehk-Guild heavy beamgun"

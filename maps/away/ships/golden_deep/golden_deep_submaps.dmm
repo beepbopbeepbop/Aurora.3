@@ -196,7 +196,7 @@
 /obj/item/melee/telebaton/nlom,
 /obj/random/dirt_75,
 /obj/item/gun/energy/blaster/himeo,
-/obj/item/gun/energy/gun/qukala,
+/obj/item/gun/energy/gun/kala,
 /obj/random/civgun/rifle,
 /turf/template_noop,
 /area/template_noop)

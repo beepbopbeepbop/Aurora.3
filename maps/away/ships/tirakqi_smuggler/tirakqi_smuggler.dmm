@@ -5364,7 +5364,7 @@
 	pixel_y = 32;
 	name = "Captain's Locker"
 	},
-/obj/item/gun/energy/gun/qukala,
+/obj/item/gun/energy/gun/kala,
 /obj/item/clothing/head/helmet/security/skrell,
 /obj/item/clothing/suit/armor/carrier/officer,
 /obj/item/melee/telebaton/nlom,

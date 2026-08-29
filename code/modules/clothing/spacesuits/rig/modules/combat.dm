@@ -473,4 +473,4 @@
 	suit_overlay_active = "mounted-gun"
 	interface_name = "mounted tqi-qop carbine"
 	interface_desc = "A shoulder-mounted cell-powered tqi-qop carbine."
-	gun_type = /obj/item/gun/energy/gun/qukala/mounted
+	gun_type = /obj/item/gun/energy/gun/kala/mounted

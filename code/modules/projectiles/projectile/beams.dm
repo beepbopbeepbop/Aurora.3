@@ -45,6 +45,13 @@
 	tracer_type = /obj/effect/projectile/tracer/laser/scc
 	impact_type = /obj/effect/projectile/impact/laser/scc
 
+/obj/projectile/beam/pistol/nralakk
+	damage = 30
+	armor_penetration = 15
+
+/obj/projectile/beam/pistol/nralakk/weak
+	armor_penetration = 5
+
 /obj/projectile/beam/pistol/hegemony
 	icon = 'icons/obj/guns/faction/izweski_hegemony/hegemony_pistol.dmi'
 	icon_state = "hegemony_pistol"
@@ -58,12 +65,9 @@
 	damage = 30
 	armor_penetration = 20
 
-/obj/projectile/beam/midlaser/skrell
-	armor_penetration = 0
-
-/obj/projectile/beam/midlaser/skrell/heavy
-	damage = 40
-	armor_penetration = 20
+/obj/projectile/beam/midlaser/nralakk
+	damage = 35
+	armor_penetration = 30
 
 /obj/projectile/beam/midlaser/hegemony
 	armor_penetration = 30

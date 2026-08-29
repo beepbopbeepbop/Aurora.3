@@ -95,7 +95,7 @@
 // Kala Uniforms
 /obj/item/clothing/under/skrell/cthur
 	name = "cthur uniform"
-	desc = "This white vaurca wetsuit is often worn by C’thur working with the Kala, most often the Qukala. It has ablative materials woven in."
+	desc = "This white vaurca wetsuit is often worn by C'thur working with the Kala, most often the Qukala. It has ablative materials woven in."
 	icon = 'icons/obj/item/clothing/under/skrell/cthur_uniform.dmi'
 	icon_state = "cthur_uniform"
 	item_state = "cthur_uniform"
@@ -113,8 +113,8 @@
 /obj/item/clothing/under/skrell/kala/council_enforcer
 	name = "wukala fatigues"
 	desc = "A rare set of purple fatigues worn by uniformed Wukala council enforcers, or more rarely by the cadres of Qu'Wukala Grand Council enforcers. It has small kinetic dampeners woven in."
-	desc_extended = "Independent of the Nralakk Federation's security community, the Wuqrnjeqkala, shortened to Wukala (and translating to Council Enforcers), \
-	are planetary council-appointed Kala who enforce disciplinary action at the discretion of the councillors they are assigned to. \
+	desc_extended = "Independent of the Nralakk Federation's security apparatus, the Wuqrnjeqkala, shortened to Wukala (and translating to Council Enforcers), \
+	are planetary council-appointed operatives who enforce disciplinary action at the discretion of the councillors they are assigned to. \
 	The Qu'Wuqrnjeqkala, shortened to Qu'Wukala (and translating to Grand Council Enforcers), are the personal agents of the Grand Councilor \
 	and the Grand Council's highest members. Qu'Wukala operatives are tasked with providing the security details for their assigned wards, \
 	council members, protection of the Nralakk Federation's secure assets, and the completion of any requested tasks from the Grand Council itself."

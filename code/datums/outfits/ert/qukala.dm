@@ -7,7 +7,7 @@
 	suit = /obj/item/clothing/suit/space/void/kala
 	head = /obj/item/clothing/head/helmet/space/void/kala
 	back = /obj/item/storage/backpack/kala
-	suit_store = /obj/item/gun/energy/gun/qukala
+	suit_store = /obj/item/gun/energy/gun/kala
 	l_ear = /obj/item/radio/headset/distress
 	l_pocket = /obj/item/tank/emergency_oxygen/double
 	id = /obj/item/card/id
