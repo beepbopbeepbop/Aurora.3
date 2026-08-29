@@ -357,10 +357,11 @@
 /obj/item/storage/belt/security/full
 	starts_with = list(
 		/obj/item/melee/baton/loaded = 1,
-		/obj/item/reagent_containers/spray/pepper = 1,
-		/obj/item/handcuffs = 2,
+		/obj/item/crowbar/rescue_axe/tactical = 1,
+		/obj/item/flashlight/maglight = 1,
 		/obj/item/flash = 1,
-		/obj/item/holowarrant = 1
+		/obj/item/reagent_containers/spray/pepper = 1,
+		/obj/item/handcuffs = 2
 	)
 
 /obj/item/storage/belt/security/full/alt
@@ -382,12 +383,34 @@
 		/obj/item/ammo_magazine/c45m/rubber = 2,
 	)
 
+/obj/item/storage/belt/security/full/cadet
+	starts_with = list(
+		/obj/item/melee/baton/loaded = 1,
+		/obj/item/crowbar/ = 1,
+		/obj/item/flashlight/maglight = 1,
+		/obj/item/flash = 1,
+		/obj/item/reagent_containers/spray/pepper = 1,
+		/obj/item/holowarrant = 1
+	)
+
 /obj/item/storage/belt/security/full/investigator
 	starts_with = list(
-		/obj/item/taperoll/police = 1,
+		/obj/item/crowbar = 1,
+		/obj/item/flashlight/maglight = 1,
 		/obj/item/flash = 1,
+		/obj/item/reagent_containers/spray/pepper = 1,
 		/obj/item/camera/detective = 1,
-		/obj/item/taperecorder = 1
+		/obj/item/camera_film = 2,
+	)
+
+/obj/item/storage/belt/security/full/hos
+	starts_with = list(
+		/obj/item/melee/telebaton = 1,
+		/obj/item/crowbar/rescue_axe/tactical = 1,
+		/obj/item/flashlight/maglight = 1,
+		/obj/item/flash = 1,
+		/obj/item/reagent_containers/spray/pepper = 1,
+		/obj/item/handcuffs = 2
 	)
 
 /obj/item/storage/belt/security/vestbelt

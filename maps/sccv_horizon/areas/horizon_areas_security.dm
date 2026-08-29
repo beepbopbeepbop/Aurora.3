@@ -1,35 +1,42 @@
 /// SECURITY_AREAS
 /area/horizon/security
-	name = "Security (PARENT AREA - DON'T USE)"
+	name = "Security Department (PARENT AREA - DON'T USE)"
 	area_lighting = LIGHT_WARM_COLORS
 	holomap_color = HOLOMAP_AREACOLOR_SECURITY
 	department = LOC_SECURITY
 	area_blurb = "Every sound seems to echo just a little louder and more threateningly in the Security sectors of the SCCV Horizon."
 
 /area/horizon/security/lobby
-	name = "Lobby"
+	name = "Security Department - Lobby"
 	icon_state = "security"
 	horizon_deck = 2
 
-/area/horizon/security/office
-	name = "Office"
+/area/horizon/security/desk
+	name = "Security Department - Lobby Desk"
 	icon_state = "security"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	horizon_deck = 2
 
+/area/horizon/security/office
+	name = "Security Department - Office"
+	icon_state = "security"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+	horizon_deck = 2
+	lightswitch = FALSE
+
 /area/horizon/security/hallway
-	name = "Main Hallway"
+	name = "Security Department - Main Hallway"
 	icon_state = "security"
 	horizon_deck = 2
 
 /area/horizon/security/equipment
-	name = "Equipment Room"
+	name = "Security Department - Equipment Room"
 	icon_state = "security"
 	horizon_deck = 2
 	lightswitch = FALSE
 
 /area/horizon/security/washroom
-	name = "Head"
+	name = "Security Department - Head"
 	icon_state = "security"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	area_flags = AREA_FLAG_RAD_SHIELDED
@@ -37,24 +44,24 @@
 	lightswitch = FALSE
 
 /area/horizon/security/brig
-	name = "Brig"
+	name = "Security Department - Brig"
 	icon_state = "brig"
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP | AREA_FLAG_PRISON
 	ambience = AMBIENCE_HIGHSEC
 	horizon_deck = 2
 
 /area/horizon/security/holding_cell_a
-	name = "Holding Cell A"
+	name = "Security Department - Holding Cell A"
 	icon_state = "brig_proc"
 	horizon_deck = 2
 
 /area/horizon/security/holding_cell_b
-	name = "Holding Cell B"
+	name = "Security Department - Holding Cell B"
 	icon_state = "brig_proc_two"
 	horizon_deck = 2
 
 /area/horizon/security/warden
-	name = "Warden's Office"
+	name = "Security Department - Warden's Office"
 	icon_state = "Warden"
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
 	ambience = AMBIENCE_HIGHSEC
@@ -63,7 +70,7 @@
 	lightswitch = FALSE
 
 /area/horizon/security/armoury
-	name = "Armoury"
+	name = "Security Department - Armoury"
 	icon_state = "Warden"
 	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
 	ambience = AMBIENCE_HIGHSEC
@@ -71,31 +78,31 @@
 	horizon_deck = 2
 
 /area/horizon/security/investigations_hallway
-	name = "Investigations Hallway"
+	name = "Security Department - Investigations Hallway"
 	icon_state = "security"
 	horizon_deck = 3
 
 // Security (Deck 3)
 /area/horizon/security/meeting_room
-	name = "Meeting Room"
+	name = "Security Department - Meeting Room"
 	icon_state = "security"
 	horizon_deck = 3
 
 /area/horizon/security/firing_range
-	name = "Firing Range"
+	name = "Security Department - Firing Range"
 	icon_state = "security"
 	sound_environment = SOUND_AREA_LARGE_ENCLOSED
 	horizon_deck = 3
 
 /area/horizon/security/investigators_office
-	name = "Investigators' Office"
+	name = "Security Department - Investigators' Office"
 	icon_state = "investigations_office"
 	sound_environment = SOUND_AREA_MEDIUM_SOFTFLOOR
 	horizon_deck = 3
 	lightswitch = FALSE
 
 /area/horizon/security/interrogation_1
-	name = "Interrogation Room 1"
+	name = "Security Department - Interrogation Room 1"
 	icon_state = "investigations"
 	ambience = list(AMBIENCE_HIGHSEC, AMBIENCE_FOREBODING)
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
@@ -103,7 +110,7 @@
 	lightswitch = FALSE
 
 /area/horizon/security/interrogation_2
-	name = "Interrogation Room 2"
+	name = "Security Department - Interrogation Room 2"
 	icon_state = "investigations"
 	ambience = list(AMBIENCE_HIGHSEC, AMBIENCE_FOREBODING)
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
@@ -111,47 +118,39 @@
 	lightswitch = FALSE
 
 /area/horizon/security/interrogation/monitoring
-	name = "Interrogation Monitoring"
+	name = "Security Department - Interrogation Monitoring"
 	ambience = list(AMBIENCE_HIGHSEC)
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	horizon_deck = 3
 
 /area/horizon/security/forensic_laboratory
-	name = "Forensic Laboratory"
+	name = "Security Department - Forensic Laboratory"
 	icon_state = "investigations"
 	horizon_deck = 3
 
 /area/horizon/security/autopsy_laboratory
-	name = "Autopsy Laboratory"
+	name = "Security Department - Autopsy Laboratory"
 	icon_state = "investigations"
 	ambience = list(AMBIENCE_GHOSTLY, AMBIENCE_FOREBODING)
 	horizon_deck = 3
 
 /area/horizon/security/evidence_storage
-	name = "Evidence Storage"
+	name = "Security Department - Evidence Storage"
 	icon_state = "evidence"
 	ambience = AMBIENCE_FOREBODING
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	horizon_deck = 3
 	lightswitch = FALSE
 
-/area/horizon/security/custodial
-	name = "Security Custodial Closet"
-	icon_state = "security"
-	sound_environment = SOUND_AREA_SMALL_ENCLOSED
-	area_blurb = "A strong, concentrated smell of many cleaning supplies linger within this room."
-	horizon_deck = 3
-	lightswitch = FALSE
-
 /area/horizon/security/checkpoint
-	name = "Hangar Checkpoint"
+	name = "Security Department - Hangar Checkpoint"
 	icon_state = "checkpoint1"
 	no_light_control = 0
 	horizon_deck = 1
 	area_blurb = "A functional, unfriendly-looking compartment."
 
 /area/horizon/security/checkpoint2
-	name = "Arrivals Checkpoint"
+	name = "Security Department - Arrivals Checkpoint"
 	icon_state = "security"
 	ambience = AMBIENCE_ARRIVALS
 	horizon_deck = 2

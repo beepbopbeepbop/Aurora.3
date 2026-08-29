@@ -42,7 +42,7 @@
 /area/horizon/command/heads/hos
 	name = "Head of Security's Office"
 	icon_state = "head_quarters"
-	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_HIDE_FROM_HOLOMAP
 	ambience = AMBIENCE_HIGHSEC
 	area_blurb = "This office is possessed of an austere, vaguely threatening atmosphere. Why does it smell like black powder? None of the guns use black powder?"
 	horizon_deck = 2

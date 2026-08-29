@@ -58,7 +58,7 @@
 		/obj/item/clothing/accessory/armor_plate/riot,
 		/obj/item/clothing/accessory/leg_guard/riot,
 		/obj/item/clothing/accessory/arm_guard/riot,
-		/obj/item/clothing/accessory/storage/modular_pouch
+		/obj/item/clothing/accessory/storage/modular_pouch/large
 	)
 
 	movement_sounds = SFX_HEAVY_ARMOUR_FOOTSTEPS

@@ -83,186 +83,33 @@
 	new /obj/item/radio(src)
 	new /obj/item/taperecorder(src)
 
-/obj/structure/closet/secure_closet/hos
-	name = "head of security's locker"
-	req_access = list(ACCESS_HOS)
-	icon_state = "hos"
-
-/obj/structure/closet/secure_closet/hos/fill()
-	..()
-	//Supply
-	new /obj/item/storage/box/tactical/flashbangs(src)
-	new /obj/item/storage/box/ids(src)
-	new /obj/item/storage/box/tactical/stingers(src)
-	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/backpack/duffel/sec(src)
-	new /obj/item/clothing/suit/armor/carrier/hos(src)
-	new /obj/item/clothing/accessory/leg_guard(src)
-	new /obj/item/clothing/accessory/arm_guard(src)
-	new /obj/item/clothing/head/helmet/hos(src)
-	new /obj/item/clothing/accessory/badge/hos(src)
-	new /obj/item/clothing/suit/storage/security/hos(src)
-	new /obj/item/clothing/mask/gas/alt(src)
-	new /obj/item/clothing/mask/gas/half(src)
-	//Tools
-	new /obj/item/radio/headset/heads/hos(src)
-	new /obj/item/radio/headset/heads/hos/alt(src)
-	new /obj/item/megaphone/sec(src)
-	new /obj/item/clothing/glasses/sunglasses/sechud(src)
-	new /obj/item/clothing/glasses/sunglasses/sechud/head(src)
-	new /obj/item/shield/riot/tact(src)
-	new /obj/item/flashlight/maglight(src)
-	new /obj/item/melee/telebaton(src)
-	new /obj/item/gun/energy/repeater/pistol(src)
-	new /obj/item/taperoll/police(src)
-	new /obj/item/breath_analyzer(src)
-	new /obj/item/ipc_tag_scanner(src)
-	new /obj/item/taperecorder(src)
-	new /obj/item/binoculars(src)
-	new /obj/item/radio/sec(src)
-	new /obj/item/multitool(src)
-	//Belts
-	new /obj/item/clothing/accessory/holster/waist(src)
-	new /obj/item/storage/belt/security/full(src)
-	new /obj/item/storage/belt/security/vestbelt(src)
-	new /obj/item/storage/box/fancy/keypouch/sec(src)
-	new /obj/item/crowbar/rescue_axe/tactical(src)
-
-/obj/structure/closet/secure_closet/hos2
-	name = "head of security's attire"
-	req_access = list(ACCESS_HOS)
-	icon_state = "hos"
-
-/obj/structure/closet/secure_closet/hos2/fill()
-	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/backpack/duffel/sec(src)
-	new /obj/item/clothing/suit/armor/carrier/hos(src)
-	new /obj/item/clothing/accessory/leg_guard(src)
-	new /obj/item/clothing/accessory/arm_guard(src)
-	new /obj/item/clothing/head/helmet/hos(src)
-	//Tools
-	new /obj/item/clothing/glasses/sunglasses/sechud/aviator(src)
-	new /obj/item/radio/headset/heads/hos(src)
-	new /obj/item/radio/headset/heads/hos/alt(src)
-	//Belts
-	new /obj/item/storage/belt/security(src)
-	new /obj/item/clothing/accessory/holster/waist(src)
-	new /obj/item/breath_analyzer(src)
-
-/obj/structure/closet/secure_closet/warden
-	name = "warden's locker"
-	req_access = list(ACCESS_ARMORY)
-	icon_state = "warden"
-
-/obj/structure/closet/secure_closet/warden/fill()
-	//Supply
-	new /obj/item/storage/box/ids(src)
-	new /obj/item/storage/box/tactical/flashbangs(src)
-	new /obj/item/storage/box/tactical/teargas(src)
-	new /obj/item/storage/box/tactical/stingers(src)
-	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/backpack/duffel/sec(src)
-	new /obj/item/clothing/suit/armor/carrier/officer(src)
-	new /obj/item/clothing/accessory/arm_guard(src)
-	new /obj/item/clothing/accessory/leg_guard(src)
-	new /obj/item/clothing/head/helmet/security(src)
-	new /obj/item/clothing/accessory/badge/warden(src)
-	new /obj/item/clothing/mask/gas/alt(src)
-	new /obj/item/clothing/mask/gas/half(src)
-	//Tools
-	new /obj/item/radio/headset/headset_warden(src)
-	new /obj/item/radio/headset/headset_warden/alt(src)
-	new /obj/item/clothing/glasses/sunglasses/sechud/aviator(src)
-	new /obj/item/clothing/glasses/sunglasses/sechud(src)
-	new /obj/item/taperoll/police(src)
-	new /obj/item/gun/projectile/sec(src)
-	new /obj/item/ammo_magazine/c45m/rubber(src)
-	new /obj/item/breath_analyzer(src)
-	new /obj/item/pin_extractor(src)
-	//Belts
-	new /obj/item/clothing/accessory/storage/black_vest(src)
-	new /obj/item/clothing/accessory/holster/hip(src)
-	new /obj/item/storage/belt/security/full(src)
-	new /obj/item/storage/belt/security/vestbelt(src)
-	// Utility
-	new /obj/item/radio/sec(src)
-	new /obj/item/crowbar(src)
-	new /obj/item/flashlight/maglight(src)
-	new /obj/item/wrench(src)
-	new /obj/item/multitool(src)
-
-
-/obj/structure/closet/secure_closet/security_cadet
-	name = "security cadet's locker"
-	req_access = list(ACCESS_SECURITY)
-	icon_state = "sec"
-	icon_door = "seccadet"
-
-/obj/structure/closet/secure_closet/security_cadet/fill()
-	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/backpack/duffel/sec(src)
-	new /obj/item/clothing/suit/storage/hazardvest/security(src)
-	new /obj/item/clothing/under/rank/cadet(src)
-	//Tools
-	new /obj/item/radio/headset/headset_sec(src)
-	new /obj/item/radio/headset/headset_sec/alt(src)
-	new /obj/item/flash(src)
-	new /obj/item/reagent_containers/spray/pepper(src)
-	new /obj/item/taperoll/police(src)
-	new /obj/item/hailer(src)
-	new /obj/item/holowarrant(src)
-	new /obj/item/flashlight/flare/glowstick/red(src)
-	//Belts
-	new /obj/item/clothing/accessory/storage/black_vest(src)
-	new /obj/item/clothing/accessory/storage/pouches/black(src)
-	new /obj/item/storage/belt/security(src)
-
+// SECURITY CLOSETS
 /obj/structure/closet/secure_closet/security
-	name = "security officer's locker"
+	name = "Security Locker - PARENT ITEM"
 	req_access = list(ACCESS_BRIG)
 	icon_state = "sec"
 
+//Supply
+//Clothing
+//Belts
+//Armour
+//Tools
+//Weapons
+
 /obj/structure/closet/secure_closet/security/fill()
-	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
+	..()
+	//Supply
+	new /obj/item/radio/sec(src)
+	//Clothing
+	new /obj/item/storage/backpack/satchel/sec(src)
 	new /obj/item/storage/backpack/duffel/sec(src)
-	new /obj/item/clothing/suit/armor/carrier/officer(src)
-	new /obj/item/clothing/accessory/arm_guard(src)
-	new /obj/item/clothing/accessory/leg_guard(src)
-	new /obj/item/clothing/head/helmet/security(src)
-	new /obj/item/clothing/accessory/badge/officer(src)
+	new /obj/item/clothing/glasses/sunglasses(src)
+	new /obj/item/clothing/glasses/sunglasses/aviator(src)
+	new /obj/item/clothing/glasses/hud/security(src)
+	new /obj/item/clothing/glasses/sunglasses/sechud(src)
+	new /obj/item/clothing/glasses/sunglasses/sechud/aviator(src)
 	new /obj/item/clothing/mask/gas/alt(src)
 	new /obj/item/clothing/mask/gas/half(src)
-	//Tools
-	new /obj/item/radio/headset/headset_sec(src)
-	new /obj/item/radio/headset/headset_sec/alt(src)
-	new /obj/item/clothing/glasses/sunglasses/sechud/aviator(src)
-	new /obj/item/clothing/glasses/sunglasses/sechud(src)
-	new /obj/item/gun/projectile/sec(src)
-	new /obj/item/ammo_magazine/c45m/rubber(src)
-	new /obj/item/taperoll/police(src)
-	new /obj/item/hailer(src)
-	new /obj/item/flashlight/flare/glowstick/red(src)
-	new /obj/item/breath_analyzer(src)
 	//Belts
 	new /obj/item/clothing/accessory/storage/black_vest(src)
 	new /obj/item/clothing/accessory/storage/pouches/black(src)
@@ -271,42 +118,162 @@
 	new /obj/item/clothing/accessory/holster/waist(src)
 	new /obj/item/clothing/accessory/holster/thigh(src)
 	new /obj/item/clothing/accessory/holster/armpit(src)
-	new /obj/item/storage/belt/security/full(src)
-	new /obj/item/storage/belt/security/vestbelt(src)
-	new /obj/item/clothing/suit/storage/hazardvest/security/officer(src)
-	new /obj/item/crowbar/rescue_axe/tactical(src)
-
-/obj/structure/closet/secure_closet/investigator
-	name = "investigator's locker"
-	req_access = list(ACCESS_FORENSICS_LOCKERS)
-	icon_state = "sec"
-
-/obj/structure/closet/secure_closet/investigator/fill()
-	//Appearance
-	new /obj/item/storage/backpack/satchel/leather/recolorable(src)
-	new /obj/item/clothing/accessory/badge/investigator(src)
-	new /obj/item/clothing/mask/gas/half(src)
+	//Armour
 	//Tools
+	new /obj/item/taperecorder(src)
+	new /obj/item/taperoll/police(src)
+	new /obj/item/breath_analyzer(src)
+	new /obj/item/journal/notepad/filled/security(src)
+	//Weapons
+
+// Security Officer
+/obj/structure/closet/secure_closet/security/officer
+	name = "security officer's locker"
+
+/obj/structure/closet/secure_closet/security/officer/fill()
+	..()
+	//Supply
 	new /obj/item/radio/headset/headset_sec(src)
 	new /obj/item/radio/headset/headset_sec/alt(src)
-	new /obj/item/clothing/suit/armor/carrier/officer(src)
-	new /obj/item/gun/projectile/revolver/security(src)
-	new /obj/item/ammo_magazine/c45/revolver/rubber(src)
-	new /obj/item/laser_pointer/blue(src)
-	new /obj/item/camera_film(src)
-	new /obj/item/stamp/investigations(src)
-	new /obj/item/clothing/glasses/sunglasses/sechud/aviator(src)
-	new /obj/item/clothing/glasses/sunglasses/sechud(src)
-	new /obj/item/journal/notepad/filled/security(src)
+	new /obj/item/radio/headset/alt/double/sec(src)
+	new /obj/item/radio/headset/wrist/sec(src)
+	new /obj/item/radio/headset/wrist/clip/sec(src)
+	//Clothing
+	new /obj/item/clothing/accessory/badge/officer(src)
 	//Belts
-	new /obj/item/clothing/accessory/storage/black_vest(src)
-	new /obj/item/clothing/accessory/storage/pouches/black(src)
-	new /obj/item/clothing/accessory/holster/waist(src)
-	new /obj/item/clothing/accessory/holster/hip(src)
-	new /obj/item/clothing/accessory/holster/thigh(src)
-	new /obj/item/clothing/accessory/holster/armpit(src)
-	new /obj/item/storage/belt/security/full/investigator(src)
+	new /obj/item/storage/belt/security/full(src)
 	new /obj/item/storage/belt/security/vestbelt(src)
+	//Armour
+	new /obj/item/clothing/suit/armor/carrier/officer(src)
+	new /obj/item/clothing/accessory/arm_guard(src)
+	new /obj/item/clothing/accessory/leg_guard(src)
+	new /obj/item/clothing/head/helmet/security(src)
+	//Tools
+	new /obj/item/holowarrant(src)
+	//Weapons
+	new /obj/item/gun/projectile/sec/unloaded(src)
+	for(var/i = 1 to 2)
+		new /obj/item/ammo_magazine/c45m/rubber(src)
+
+// Warden
+/obj/structure/closet/secure_closet/security/warden
+	name = "warden's locker"
+	icon_state = "warden"
+
+/obj/structure/closet/secure_closet/security/warden/fill()
+	..()
+	//Supply
+	new /obj/item/storage/box/ids(src)
+	new /obj/item/radio/headset/headset_warden(src)
+	new /obj/item/radio/headset/headset_warden/alt(src)
+	new /obj/item/radio/headset/alt/double/sec/warden(src)
+	new /obj/item/radio/headset/wrist/sec/warden(src)
+	new /obj/item/radio/headset/wrist/clip/sec/warden(src)
+	//Clothing
+	new /obj/item/clothing/accessory/badge/warden(src)
+	//Belts
+	new /obj/item/storage/belt/security/full(src)
+	new /obj/item/storage/belt/security/vestbelt(src)
+	//Armour
+	new /obj/item/clothing/suit/armor/carrier/officer(src)
+	new /obj/item/clothing/accessory/arm_guard(src)
+	new /obj/item/clothing/accessory/leg_guard(src)
+	new /obj/item/clothing/head/helmet/security(src)
+	//Tools
+	new /obj/item/megaphone/sec(src)
+	new /obj/item/ipc_tag_scanner(src)
+	new /obj/item/holowarrant(src)
+	//Weapons
+	new /obj/item/gun/projectile/sec/unloaded(src)
+	for(var/i = 1 to 2)
+		new /obj/item/ammo_magazine/c45m/rubber(src)
+
+// Head of Security
+/obj/structure/closet/secure_closet/security/hos
+	name = "head of security's locker"
+	req_access = list(ACCESS_HOS)
+	icon_state = "hos"
+
+/obj/structure/closet/secure_closet/security/hos/fill()
+	..()
+	//Supply
+	new /obj/item/storage/box/ids(src)
+	new /obj/item/storage/box/fancy/keypouch/sec(src)
+	new /obj/item/radio/headset/heads/hos(src)
+	new /obj/item/radio/headset/heads/hos/alt(src)
+	new /obj/item/radio/headset/alt/double/hos(src)
+	new /obj/item/radio/headset/wrist/hos(src)
+	new /obj/item/radio/headset/wrist/clip/hos(src)
+	//Clothing
+	new /obj/item/clothing/under/rank/head_of_security(src)
+	new /obj/item/clothing/suit/storage/security/hos(src)
+	new /obj/item/clothing/head/hos(src)
+	new /obj/item/clothing/head/beret/security/hos(src)
+	new /obj/item/clothing/accessory/badge/hos(src)
+	//Belts
+	new /obj/item/storage/belt/security/full/hos(src)
+	new /obj/item/storage/belt/security/vestbelt(src)
+	//Armour
+	new /obj/item/clothing/suit/armor/carrier/hos(src)
+	new /obj/item/clothing/accessory/leg_guard(src)
+	new /obj/item/clothing/accessory/arm_guard(src)
+	new /obj/item/clothing/head/helmet/hos(src)
+	//Tools
+	new /obj/item/megaphone/sec(src)
+	new /obj/item/ipc_tag_scanner(src)
+	new /obj/item/holowarrant(src)
+	new /obj/item/shield/riot/tact(src)
+	//Weapons
+	new /obj/item/gun/energy/repeater/pistol(src)
+
+
+// Investigator
+/obj/structure/closet/secure_closet/security/investigator
+	name = "investigator's locker"
+	req_access = list(ACCESS_FORENSICS_LOCKERS)
+
+/obj/structure/closet/secure_closet/security/investigator/fill()
+	..()
+	//Supply
+	new /obj/item/radio/headset/headset_sec(src)
+	new /obj/item/radio/headset/headset_sec/alt(src)
+	new /obj/item/radio/headset/alt/double/sec(src)
+	new /obj/item/radio/headset/wrist/sec(src)
+	new /obj/item/radio/headset/wrist/clip/sec(src)
+	//Clothing
+	new /obj/item/clothing/accessory/badge/investigator(src)
+	//Belts
+	new /obj/item/storage/belt/security/full/investigator(src)
+	//Armour
+	new /obj/item/clothing/suit/armor/carrier/officer(src)
+	//Tools
+	new /obj/item/laser_pointer/blue(src)
+	new /obj/item/stamp/investigations(src)
+	//Weapons
+	new /obj/item/gun/projectile/revolver/security/unloaded(src)
+	for(var/i = 1 to 2)
+		new /obj/item/ammo_magazine/c45/revolver/rubber(src)
+
+// Cadet
+/obj/structure/closet/secure_closet/security/cadet
+	name = "security cadet's locker"
+	req_access = list(ACCESS_SECURITY)
+	icon_door = "seccadet"
+
+/obj/structure/closet/secure_closet/security/cadet/fill()
+	//Supply
+	new /obj/item/radio/headset/headset_sec(src)
+	new /obj/item/radio/headset/headset_sec/alt(src)
+	new /obj/item/radio/headset/alt/double/sec(src)
+	new /obj/item/radio/headset/wrist/sec(src)
+	new /obj/item/radio/headset/wrist/clip/sec(src)
+	//Belts
+	new /obj/item/storage/belt/security/full/cadet(src)
+	new /obj/item/storage/belt/security/vestbelt(src)
+	//Armour
+	new /obj/item/clothing/suit/armor/carrier/officer(src)
+
+//
 
 /obj/structure/closet/secure_closet/injection
 	name = "lethal injections locker"

@@ -13,14 +13,13 @@
 	req_access = list(ACCESS_SECURITY)
 	vend_id = "security"
 	products = list(
-		/obj/item/handcuffs = 8,
-		/obj/item/grenade/chem_grenade/teargas = 4,
-		/obj/item/flash = 5,
-		/obj/item/reagent_containers/spray/pepper = 5,
+		/obj/item/handcuffs = 20,
+		/obj/item/flash = 6,
+		/obj/item/reagent_containers/spray/pepper = 6,
 		/obj/item/storage/box/evidence = 6,
-		/obj/item/holowarrant = 5,
-		/obj/item/flashlight/maglight = 5,
-		/obj/item/hailer = 5,
+		/obj/item/holowarrant = 6,
+		/obj/item/flashlight/maglight = 6,
+		/obj/item/hailer = 6,
 		/obj/item/reagent_containers/food/snacks/donut/normal = 6
 	)
 	premium = list(
@@ -45,7 +44,6 @@
 /obj/structure/machinery/vending/security/low_supply
 	products = list(
 		/obj/item/handcuffs = 2,
-		/obj/item/grenade/chem_grenade/teargas = 1,
 		/obj/item/flash = 2,
 		/obj/item/reagent_containers/spray/pepper = 2,
 		/obj/item/storage/box/evidence = 4,
