@@ -107,6 +107,11 @@
 	_app_preset_type = /datum/modular_computer_app_presets/security
 	enrolled = DEVICE_COMPANY
 
+/obj/item/modular_computer/laptop/preset/security/investigations
+	name = "investigations laptop"
+	desc = "A portable computer with support for specialized forensics software."
+	_app_preset_type = /datum/modular_computer_app_presets/security/investigations
+
 /obj/item/modular_computer/laptop/preset/security/hos
 	name = "head of security's laptop"
 	desc = "A portable computer belonging to the head of security. It smells faintly of gunpowder."
