@@ -58,8 +58,13 @@
 
 	msg += "<EM>[src.name]</EM>"
 
-	if(!species.hide_name)
-		msg += ", a <b><font color='[species.examine_color || species.flesh_color]'>[species.name]</font></b>"
+	var/ipcmodel
+	if(isipc(src))
+		var/obj/item/organ/internal/machine/posibrain/ipcbrain = internal_organs_by_name[BP_BRAIN]
+		var/modelmsg = ipcbrain.custom_model
+		ipcmodel = "[modelmsg]"
+	if(!species.hide_name || ipcmodel)
+		msg += ", a <b><font color='[species.examine_color || species.flesh_color]'>[ipcmodel ? "[ipcmodel] ":""][species.name]</font></b>"
 	msg += "!\n"
 
 	//uniform
@@ -324,7 +329,7 @@
 				continue
 			var/thin_covering = (skipbody & body_part) ? TRUE : FALSE
 			if((temp.status & ORGAN_ASSISTED) && !thin_covering)
-				if(!(temp.brute_dam + temp.burn_dam) && !(temp.open))
+				if(!(LIMB_GET_BRUTE_DAMAGE(temp) + LIMB_GET_BURN_DAMAGE(temp)) && !(temp.open))
 					continue
 				else
 					wound_flavor_text["[temp.name]"] = SPAN_WARNING("[get_pronoun("He")] [get_pronoun("has")] [temp.get_wounds_desc()] on [get_pronoun("his")] [temp.name].<br>")
@@ -339,9 +344,9 @@
 					is_bleeding["[temp.name]"] = SPAN_DANGER("[get_pronoun("His")] [temp.name] is bleeding")+ "<br>"
 			else
 				wound_flavor_text["[temp.name]"] = ""
-			if(temp.dislocated == 2)
+			if(LIMB_GET_DISLOCATED(temp) == 2)
 				wound_flavor_text["[temp.name]"] += SPAN_WARNING("[get_pronoun("His")] [temp.joint] is dislocated!<br>")
-			if(((temp.status & ORGAN_BROKEN) && temp.brute_dam > temp.min_broken_damage) || (temp.status & ORGAN_MUTATED))
+			if(((temp.status & ORGAN_BROKEN) && LIMB_GET_BRUTE_DAMAGE(temp) > temp.min_broken_damage) || (temp.status & ORGAN_MUTATED))
 				wound_flavor_text["[temp.name]"] += SPAN_WARNING("[get_pronoun("His")] [temp.name] is dented and swollen!<br>")
 
 	//Handles the text strings being added to the actual description.
