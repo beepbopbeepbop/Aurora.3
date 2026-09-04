@@ -118,13 +118,11 @@
 	new /obj/item/clothing/accessory/holster/waist(src)
 	new /obj/item/clothing/accessory/holster/thigh(src)
 	new /obj/item/clothing/accessory/holster/armpit(src)
-	//Armour
 	//Tools
 	new /obj/item/taperecorder(src)
 	new /obj/item/taperoll/police(src)
 	new /obj/item/breath_analyzer(src)
 	new /obj/item/journal/notepad/filled/security(src)
-	//Weapons
 
 // Security Officer
 /obj/structure/closet/secure_closet/security/officer
@@ -219,12 +217,15 @@
 	new /obj/item/clothing/accessory/arm_guard(src)
 	new /obj/item/clothing/head/helmet/hos(src)
 	//Tools
-	new /obj/item/megaphone/sec(src)
+	new /obj/item/megaphone/command(src)
 	new /obj/item/ipc_tag_scanner(src)
 	new /obj/item/holowarrant(src)
 	new /obj/item/shield/riot/tact(src)
 	//Weapons
-	new /obj/item/gun/energy/repeater/pistol(src)
+	new /obj/item/gun/projectile/sec/wood/unloaded(src)
+	for(var/i = 1 to 2)
+		new /obj/item/ammo_magazine/c45m/rubber(src)
+	new /obj/item/ammo_magazine/c45m(src)
 
 
 // Investigator

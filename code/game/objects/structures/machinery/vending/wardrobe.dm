@@ -220,10 +220,11 @@
 		/obj/item/clothing/suit/storage/toggle/longcoat/pmc = 4,
 		/obj/item/clothing/suit/storage/toggle/longcoat/zavodskoi = 4,
 		/obj/item/clothing/suit/storage/toggle/sec_dep_jacket = 8,
+		/obj/item/clothing/suit/storage/hazardvest/security/officer = 4,
+		/obj/item/clothing/suit/storage/hazardvest/security = 2,
 		/obj/item/clothing/gloves/black_leather = 8,
 		/obj/item/clothing/gloves/black_leather/tajara = 3,
 		/obj/item/clothing/gloves/black_leather/unathi = 3,
-		/obj/item/clothing/mask/balaclava = 4,
 		/obj/item/clothing/head/bandana/security = 8,
 		/obj/item/clothing/head/beret/security = 4,
 		/obj/item/clothing/head/beret/security/officer = 4,
@@ -255,7 +256,8 @@
 		/obj/item/clothing/shoes/laceup = 2,
 		/obj/item/clothing/shoes/jackboots = 8,
 		/obj/item/clothing/shoes/jackboots/tajara = 4,
-		/obj/item/clothing/shoes/jackboots/toeless = 6
+		/obj/item/clothing/shoes/jackboots/toeless = 6,
+		/obj/item/clothing/accessory/armband/sec = 6
 	)
 	premium = list(
 		/obj/item/toy/figure/secofficer = 6,

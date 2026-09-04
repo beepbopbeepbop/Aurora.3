@@ -209,6 +209,11 @@
 						/obj/item/reagent_containers/hypospray/autoinjector,
 						/obj/item/personal_inhaler)
 
+/obj/structure/machinery/smartfridge/secure/chemistry/investigations
+	name = "\improper Refrigerated Chemical Evidence Storage"
+	desc = "A refrigerated storage unit for keeping chemical evidence secure."
+	req_access = list(ACCESS_FORENSICS_LOCKERS)
+
 /obj/structure/machinery/smartfridge/chemistry/virology
 	name = "\improper Smart Virus Storage"
 	desc = "A refrigerated storage unit for volatile sample storage."

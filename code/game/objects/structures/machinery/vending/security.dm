@@ -65,13 +65,16 @@
 	req_access = list(ACCESS_SECURITY)
 	vend_id = "tactical" // Refill cartridge DNE 2025/07
 	products = list(
-		/obj/item/storage/box/shells/slugs = 2,
-		/obj/item/storage/box/shells/buckshot = 2,
-		/obj/item/ammo_magazine/c45m = 6,
-		/obj/item/grenade/chem_grenade/teargas = 6,
-		/obj/item/ammo_magazine/mc9mmt = 2,
-		/obj/item/clothing/mask/gas/tactical = 4,
-		/obj/item/handcuffs/ziptie = 3
+		/obj/item/clothing/accessory/storage/bandolier = 4,
+		/obj/item/clothing/accessory/storage/modular_pouch/large = 4,
+		/obj/item/clothing/gloves/swat/tactical = 6,
+		/obj/item/clothing/accessory/goon_coif = 6,
+		/obj/item/clothing/mask/gas/tactical = 6,
+		/obj/item/clothing/glasses/safety/goggles/goon = 6,
+		/obj/item/clothing/ears/earmuffs = 6,
+		/obj/item/clothing/head/leader_headband = 2,
+		/obj/item/ammo_display = 8,
+		/obj/item/handcuffs/legcuffs = 2,
 	)
 	contraband = list(
 		/obj/item/grenade/flashbang/clusterbang = 1 //this can only go well.
@@ -79,6 +82,7 @@
 	premium = list(
 		/obj/item/grenade/chem_grenade/gas = 2
 	)
+	restock_items = TRUE
 	random_itemcount = 0
 	light_color = COLOR_BROWN
 	manufacturer = "zavodskoi"

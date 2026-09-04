@@ -107,6 +107,7 @@
 #define NETWORK_RESEARCH_OUTPOST "Research Outpost"
 #define NETWORK_ROBOTS "Robots"
 #define NETWORK_PRISON "Prison"
+#define NETWORK_INTERROGATION "Interrogation"
 #define NETWORK_SECURITY "Security"
 #define NETWORK_TELECOM "Tcomsat"
 #define NETWORK_THUNDER "Thunderdome"

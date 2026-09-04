@@ -144,6 +144,9 @@
 	else
 		icon_state = "secgunwood-e"
 
+/obj/item/gun/projectile/sec/wood/unloaded
+	magazine_type = null
+
 /obj/item/gun/projectile/sec/wood/lethal
 	magazine_type = /obj/item/ammo_magazine/c45m
 

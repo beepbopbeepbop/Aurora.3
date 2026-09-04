@@ -340,3 +340,14 @@
 /obj/structure/machinery/computer/security/terminal/public
 	console_networks = list(NETWORK_EXPEDITION, NETWORK_NEWS)
 	circuit = /obj/item/circuitboard/security/public
+
+/obj/structure/machinery/computer/security/terminal/interrogation
+	name = "interrogation camera monitor"
+	desc = "A camera monitor that connects to the interrogation rooms."
+	console_networks = list(NETWORK_INTERROGATION)
+
+/obj/structure/machinery/computer/security/telescreen/interrogation
+	name = "interrogation camera monitor"
+	desc = "A camera monitor that connects to the interrogation rooms."
+	console_networks = list(NETWORK_INTERROGATION)
+	circuit = /obj/item/circuitboard/security

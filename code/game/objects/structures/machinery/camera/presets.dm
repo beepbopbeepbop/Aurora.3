@@ -71,6 +71,9 @@ GLOBAL_LIST_INIT(engineering_networks, list(
 /obj/structure/machinery/camera/network/security
 	network = list(NETWORK_SECURITY)
 
+/obj/structure/machinery/camera/network/interrogation
+	network = list(NETWORK_INTERROGATION)
+
 /obj/structure/machinery/camera/network/telecom
 	network = list(NETWORK_TELECOM)
 

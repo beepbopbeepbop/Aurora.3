@@ -289,3 +289,73 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 		"privacy window tint" = list("type" = "windowtint", "id" = "xo_privacy_tint"),
 		"privacy shutter" = list("type" = "blast_door", "id" = "xo_office_privacy_shutter"),
 	)
+
+/obj/structure/machinery/controlhub/security
+	name = "security department control hub"
+	icon_state = "holocontrol"
+	req_access = list(ACCESS_BRIG)
+	controls = list(
+	// General Departmental
+		"lobby door control" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 1),
+		"lobby door bolts" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 4),
+		"lobby safety shutters" = list("type" = "blast_door", "id" = "security_deck_2_lobby_shutter_lockdown"),
+	// Lobby
+		"lobby desk shutters" = list("type" = "blast_door", "id" = "security_deck_2_lobby_shutter_desk")
+	)
+
+/obj/structure/machinery/controlhub/security/briefing
+	name = "briefing room control hub"
+	controls = list(
+		"briefing room window tint" = list("type" = "windowtint", "id" = "security_deck_3_briefing_privacy"),
+		"safety shutters" = list("type" = "blast_door", "id" = "security_deck_3_briefing_shutter_safety"),
+	)
+
+/obj/structure/machinery/controlhub/security/interrogation
+	name = "interrogation monitoring control hub"
+	controls = list(
+		"questioning window tint" = list("type" = "windowtint", "id" = "security_deck_3_questioning_privacy"),
+		"interrogation window tint" = list("type" = "windowtint", "id" = "security_deck_3_interrogation_privacy"),
+	)
+
+/obj/structure/machinery/controlhub/security/warden
+	name = "brig control hub"
+	req_access = list(ACCESS_ARMORY)
+	controls = list(
+	// General Departmental
+		"lobby door control" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 1),
+		"lobby door bolts" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 4),
+		"lobby safety shutters" = list("type" = "blast_door", "id" = "security_deck_2_lobby_shutter_lockdown"),
+	// Warden's Office
+		"office desk shutters" = list("type" = "blast_door", "id" = "security_deck_2_warden_shutter_desk"),
+	// Brig
+		"cell A communal access" = list("type" = "blast_door", "id" = "security_deck_2_brig_shutter_cell_a"),
+		"cell B communal access" = list("type" = "blast_door", "id" = "security_deck_2_brig_shutter_cell_b"),
+		"cell C communal access" = list("type" = "blast_door", "id" = "security_deck_2_brig_shutter_cell_c"),
+	// Armoury
+		"public order armoury access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_shutter_access"),
+		"tactical armoury access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_blast_access"),
+		"exosuit storage access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_blast_exosuit")
+	)
+
+/obj/structure/machinery/controlhub/security/hos
+	name = "head of security's office control hub"
+	req_access = list(ACCESS_HOS)
+	controls = list(
+	// General Departmental
+		"lobby door control" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 1),
+		"lobby door bolts" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 4),
+		"lobby safety shutters" = list("type" = "blast_door", "id" = "security_deck_2_lobby_shutter_lockdown"),
+	// HOS' Office
+	// Armoury
+		"public order armoury access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_shutter_access"),
+		"tactical armoury access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_blast_access"),
+		"exosuit storage access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_blast_exosuit")
+	)
+
+/obj/structure/machinery/controlhub/security/investigations
+	name = "investigations office control hub"
+	req_access = list(ACCESS_FORENSICS_LOCKERS)
+
+/obj/structure/machinery/controlhub/security/forensics
+	name = "forensics laboratory control hub"
+	req_access = list(ACCESS_FORENSICS_LOCKERS)

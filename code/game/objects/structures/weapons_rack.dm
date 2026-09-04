@@ -249,3 +249,33 @@
 		return TRUE
 	else
 		return FALSE
+
+/obj/structure/weapons_rack/security/short_arms
+	name = "weapons rack - Shot Arms"
+	req_one_access = list(ACCESS_ARMORY)
+	contents = list(
+		/obj/item/gun/energy/gun = 2,
+		/obj/item/gun/projectile/automatic/wt550/unloaded = 2
+	)
+
+/obj/structure/weapons_rack/security/shotguns
+	name = "weapons rack - Shotguns"
+	req_one_access = list(ACCESS_ARMORY)
+	contents = list(
+		/obj/item/gun/projectile/shotgun/pump/unloaded = 2,
+		/obj/item/gun/launcher/grenade = 1
+	)
+
+/obj/structure/weapons_rack/security/long_arms_laser
+	name = "weapons rack - Laser Long Arms"
+	req_one_access = list(ACCESS_ARMORY)
+	contents = list(
+		/obj/item/gun/energy/rifle/laser = 2
+	)
+
+/obj/structure/weapons_rack/security/long_arms_ballistic
+	name = "weapons rack - Ballistic Long Arms"
+	req_one_access = list(ACCESS_ARMORY)
+	contents = list(
+		/obj/item/gun/projectile/automatic/rifle/jingya/unloaded = 2
+	)
