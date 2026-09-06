@@ -64,8 +64,8 @@
 	contraband = list(
 		/obj/item/clothing/head/bandana/pirate = 4,
 		/obj/item/clothing/glasses/eyepatch = 4,
-		/obj/item/clothing/under/rank/machinist/einstein = 4,
-		/obj/item/clothing/under/rank/liaison/einstein = 4,
+		/obj/item/clothing/under/rank/einstein/uniform = 4,
+		/obj/item/clothing/under/rank/einstein/coveralls = 4,
 		/obj/item/clothing/glasses/sunglasses/blindfold = 4,
 		/obj/item/clothing/mask/fakemoustache = 4
 	)

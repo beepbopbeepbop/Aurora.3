@@ -1,7 +1,8 @@
 /obj/outfit/admin/ert/einstein
 	name = "Einstein Engines ERT"
-	uniform = /obj/item/clothing/under/rank/security/einstein
-	shoes = /obj/item/clothing/shoes/jackboots
+	uniform = /obj/item/clothing/under/rank/einstein/coveralls
+	shoes = /obj/item/clothing/shoes/einstein/tactical_boots
+	gloves = /obj/item/clothing/gloves/einstein/tactical
 	suit = /obj/item/clothing/suit/space/void/einstein
 	head = /obj/item/clothing/head/helmet/space/void/einstein
 	back = /obj/item/tank/jetpack/carbondioxide
@@ -25,6 +26,10 @@
 			/obj/item/grenade/flashbang = 2,
 			/obj/item/ammo_magazine/c45m = 2
 	)
+	backpack_contents = list(
+		/obj/item/clothing/head/helmet/einstein_tactical = 1,
+		/obj/item/clothing/suit/armor/carrier/einstein_tactical = 1
+	)
 	id_iff = IFF_EE
 
 /obj/outfit/admin/ert/einstein/get_id_access()
@@ -37,6 +42,8 @@
 	gloves = /obj/item/clothing/gloves/latex/nitrile
 	backpack = /obj/item/storage/backpack/satchel/med
 	backpack_contents = list(
+		/obj/item/clothing/head/helmet/einstein_sensor = 1,
+		/obj/item/clothing/suit/armor/carrier/einstein_tactical = 1,
 		/obj/item/storage/firstaid/combat = 1,
 		/obj/item/ammo_magazine/c45m = 2,
 		/obj/item/storage/firstaid/adv = 1,
@@ -62,16 +69,16 @@
 
 /obj/outfit/admin/ert/einstein/engi
 	name = "Einstein Engineer"
-	uniform = /obj/item/clothing/under/rank/engineer/einstein
 	back = /obj/item/storage/backpack/industrial
 	belt = /obj/item/storage/belt/utility/very_full
-	gloves = /obj/item/clothing/gloves/yellow
 
 	accessory = /obj/item/clothing/accessory/storage/brown_vest
 	accessory_contents = list(
 		/obj/item/plastique = 5
 	)
 	backpack_contents = list(
+		/obj/item/clothing/head/helmet/einstein_sensor = 1,
+		/obj/item/clothing/suit/armor/carrier/einstein_tactical = 1,
 		/obj/item/ammo_magazine/c45m = 2,
 		/obj/item/handcuffs/ziptie = 1,
 		/obj/item/melee/baton/loaded = 1,

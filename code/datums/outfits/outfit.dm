@@ -49,6 +49,7 @@
 	 */
 	var/list/species_head
 	var/list/species_suit
+	var/list/species_uniform
 	var/list/species_gloves
 	var/list/species_shoes
 
@@ -418,10 +419,25 @@
 	//Start with uniform,suit,backpack for additional slots
 	if(back)
 		equip_item(H, back, slot_back)
+//
 	if(uniform)
 		equip_item(H, uniform, slot_w_uniform)
 		if(accessory)
 			equip_uniform_accessory(H)
+//
+	var/got_uniform = FALSE
+	if(length(species_uniform))
+		var/path = species_uniform[H.species.name]
+		if(path)
+			got_uniform = TRUE
+			equip_item(H, path, slot_w_uniform)
+			if(accessory)
+				equip_uniform_accessory(H)
+	if(uniform && !got_uniform)
+		equip_item(H, uniform, slot_w_uniform)
+		if(accessory)
+			equip_uniform_accessory(H)
+//
 	var/got_suit = FALSE
 	if(length(species_suit))
 		var/path = species_suit[H.species.name]

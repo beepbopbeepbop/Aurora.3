@@ -128,7 +128,15 @@
 /obj/outfit/admin/einstein_crew
 	name = "Einstein Shuttle Pilot"
 
-	uniform = /obj/item/clothing/under/rank/einstein
+	uniform = /obj/item/clothing/under/rank/einstein/coveralls
+	species_uniform = list(
+		SPECIES_IPC_SHELL = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_BISHOP = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_G1 = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_G2 = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_XION = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_ZENGHU = /obj/item/clothing/under/rank/einstein/synth
+	)
 	shoes = /obj/item/clothing/shoes/jackboots
 	back = /obj/item/storage/backpack/satchel
 	belt = /obj/item/storage/belt/utility/full
@@ -138,6 +146,7 @@
 	id = /obj/item/card/id/einstein
 
 	l_ear = /obj/item/radio/headset/ship
+	head = /obj/item/clothing/head/helmet/einstein_pilot
 
 	backpack_contents = list(/obj/item/storage/box/survival = 1)
 
@@ -169,8 +178,7 @@
 	respawn_flag = null
 
 /obj/outfit/admin/einstein_crew/suit
-	uniform = /obj/item/clothing/under/rank/liaison/einstein
-	accessory = /obj/item/clothing/accessory/tie/black
-	shoes = /obj/item/clothing/shoes/laceup
+	uniform = /obj/item/clothing/under/rank/einstein/management
+	shoes = /obj/item/clothing/shoes//einstein/shoes
 	back = /obj/item/storage/backpack/satchel/leather
 	belt = null

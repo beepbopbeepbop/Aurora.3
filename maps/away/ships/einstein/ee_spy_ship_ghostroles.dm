@@ -8,7 +8,7 @@
 	max_count = 3
 
 	outfit = /obj/outfit/admin/ee_crewman
-	possible_species = list(SPECIES_HUMAN, SPECIES_IPC_SHELL)
+	possible_species = list(SPECIES_HUMAN, SPECIES_IPC, SPECIES_IPC_BISHOP, SPECIES_IPC_G1, SPECIES_IPC_G2, SPECIES_IPC_SHELL, SPECIES_IPC_XION, SPECIES_IPC_ZENGHU)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
 	assigned_role = "Einstein Engines Crewman"
@@ -19,8 +19,16 @@
 /obj/outfit/admin/ee_crewman
 	name = "Einstein Engines Crewman"
 
-	uniform = /obj/item/clothing/under/rank/einstein
-	shoes = /obj/item/clothing/shoes/jackboots
+	uniform = /obj/item/clothing/under/rank/einstein/coveralls
+	species_uniform = list(
+		SPECIES_IPC_SHELL = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_BISHOP = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_G1 = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_G2 = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_XION = /obj/item/clothing/under/rank/einstein/synth,
+		SPECIES_IPC_ZENGHU = /obj/item/clothing/under/rank/einstein/synth
+		)
+	shoes = /obj/item/clothing/shoes/einstein/tactical_boots
 	back = /obj/item/storage/backpack/satchel
 	belt = /obj/item/storage/belt/utility/full
 	accessory = /obj/item/clothing/accessory/storage/pouches/black
@@ -55,12 +63,11 @@
 /obj/outfit/admin/ee_research_officer
 	name = "Einstein Engines Research Officer"
 
-	uniform = /obj/item/clothing/under/rank/einstein
-	shoes = /obj/item/clothing/shoes/jackboots
+	uniform = /obj/item/clothing/under/rank/einstein/management
+	shoes = /obj/item/clothing/shoes//einstein/shoes
 	back = /obj/item/storage/backpack/satchel/leather
 	glasses = /obj/item/clothing/glasses/sunglasses
 	accessory = /obj/item/clothing/accessory/holster/thigh
-	suit = /obj/item/clothing/suit/storage/vest
 
 	id = /obj/item/card/id/ee_ship
 

@@ -82,8 +82,8 @@
 
 //Corpse
 /obj/effect/landmark/corpse/einstein
-	name = "Einstein Prospector"
-	corpseuniform = /obj/item/clothing/under/rank/einstein
+	name = "Einstein Engines Prospector"
+	corpseuniform = /obj/item/clothing/under/rank/einstein/coveralls
 	corpseshoes = /obj/item/clothing/shoes/jackboots
 	corpsehelmet = /obj/item/clothing/head/helmet/space/void/einstein
 	corpsesuit = /obj/item/clothing/suit/space/void/einstein

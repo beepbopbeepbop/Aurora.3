@@ -76,7 +76,7 @@
 		/obj/item/toy/figure/ce = 2
 	)
 	contraband = list(
-		/obj/item/clothing/under/rank/engineer/einstein = 4
+		/obj/item/clothing/under/rank/einstein/coveralls = 4
 	)
 	light_color = COLOR_GOLD
 
@@ -147,7 +147,7 @@
 		/obj/item/toy/figure/ce = 2
 	)
 	contraband = list(
-		/obj/item/clothing/under/rank/engineer/einstein = 4
+		/obj/item/clothing/under/rank/einstein/coveralls = 4
 	)
 	light_color = COLOR_GOLD
 
@@ -265,7 +265,7 @@
 		/obj/item/clothing/accessory/storage/bayonet = 4
 	)
 	contraband = list(
-		/obj/item/clothing/under/rank/security/einstein = 4
+		/obj/item/clothing/under/rank/einstein/coveralls = 4
 	)
 	light_color = COLOR_PALE_BLUE_GRAY
 
@@ -611,7 +611,7 @@
 		/obj/item/clothing/shoes/sneakers/medsci/zeng = 4
 	)
 	contraband = list(
-		/obj/item/clothing/under/rank/scientist/einstein = 4
+		/obj/item/clothing/under/rank/einstein/bodyglove = 4
 	)
 	premium = list(
 		/obj/item/toy/figure/scientist = 8

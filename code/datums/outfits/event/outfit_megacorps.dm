@@ -133,11 +133,10 @@
 /obj/outfit/admin/megacorp/einstein_trooper/heavy
 	name = "Einstein Engines Asset Protection"
 
-	uniform = /obj/item/clothing/under/rank/einstein
+	uniform = /obj/item/clothing/under/rank/einstein/coveralls
 	back = /obj/item/rig/ert/einstein
 	belt = /obj/item/storage/belt/security/tactical
-	shoes = null
-	gloves = null
+	shoes = /obj/item/clothing/shoes/einstein/tactical_boots
 	mask = /obj/item/clothing/mask/gas/swat
 	l_ear = /obj/item/radio/headset/syndicate
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/tactical

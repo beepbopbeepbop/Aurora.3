@@ -6121,6 +6121,13 @@
 /obj/structure/utility_pole/street/on,
 /turf/simulated/floor/sidewalk/detail,
 /area/point_verdant/outdoors)
+"dqZ" = (
+/obj/structure/table/wood,
+/obj/item/clothing/head/einstein/beret{
+	pixel_y = 2
+	},
+/turf/simulated/floor/carpet/lightblue,
+/area/point_verdant/interior/offices/basement)
 "dra" = (
 /obj/structure/machinery/door/window/southright,
 /obj/effect/floor_decal/industrial/warning,
@@ -19687,6 +19694,7 @@
 /obj/structure/closet/secure_closet/hos,
 /obj/item/storage/belt/utility/very_full,
 /obj/item/storage/backpack/satchel/leather,
+/obj/item/clothing/head/helmet/einstein_pilot,
 /turf/simulated/floor/tiled,
 /area/point_verdant/interior/offices/basement)
 "lhw" = (
@@ -44499,7 +44507,7 @@ njS
 njS
 oXt
 cDd
-kRV
+dqZ
 udI
 udI
 njS

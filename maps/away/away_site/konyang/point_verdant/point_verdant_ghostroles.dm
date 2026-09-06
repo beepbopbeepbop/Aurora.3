@@ -49,7 +49,7 @@
 
 /obj/outfit/admin/konyang/ee
 	name = "Einstein Engines Employee"
-	uniform = /obj/item/clothing/under/rank/liaison/einstein
+	uniform = /obj/item/clothing/under/rank/einstein/uniform
 	shoes = /obj/item/clothing/shoes/laceup
 	id = /obj/item/card/id/einstein
 	back = /obj/item/storage/backpack/satchel
@@ -446,7 +446,11 @@
 	special_role = "Solutions Agent (Einstein)"
 
 /obj/outfit/admin/corporate_solutions/einstein
-	uniform = /obj/item/clothing/under/rank/security/einstein
+	uniform = /obj/item/clothing/under/rank/einstein/coveralls
+	shoes = /obj/item/clothing/shoes/einstein/tactical_boots
+	gloves = /obj/item/clothing/gloves/einstein/tactical
+	head = /obj/item/clothing/head/helmet/einstein_tactical
+	suit = /obj/item/clothing/suit/armor/carrier/einstein_tactical
 	id = /obj/item/card/id/einstein
 
 /datum/ghostspawner/human/corporate_solutions/medic
@@ -490,8 +494,8 @@
 	outfit = /obj/outfit/admin/corporate_solutions/einstein/engineer
 
 /obj/outfit/admin/corporate_solutions/einstein/engineer
-	uniform = /obj/item/clothing/under/rank/engineer/einstein
-	gloves = /obj/item/clothing/gloves/yellow
+	uniform = /obj/item/clothing/under/rank/einstein/coveralls
+	head = /obj/item/clothing/head/helmet/einstein_sensor
 	belt = /obj/item/storage/belt/utility/very_full
 	accessory = /obj/item/clothing/accessory/storage/brown_vest
 	back = /obj/item/storage/backpack/industrial
