@@ -5541,6 +5541,12 @@
 /obj/item/clothing/suit/storage/toggle/greatcoat,
 /obj/item/clothing/suit/storage/toggle/greatcoat/brown,
 /obj/item/clothing/suit/storage/toggle/himeo,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/tcaf,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/tcaf,
+/obj/item/clothing/suit/storage/tcaf/legion,
+/obj/item/clothing/suit/storage/tcaf/legion,
+/obj/item/clothing/suit/storage/tcaf/legion,
+/obj/item/clothing/suit/storage/tcaf/legion,
 /turf/simulated/floor/plating,
 /area/ship/freebooter_salvager/crew_quarters)
 "ze" = (
@@ -8366,6 +8372,7 @@
 /obj/item/material/knife/bayonet,
 /obj/item/material/knife/bayonet,
 /obj/random/civgun/rifle,
+/obj/item/clothing/suit/armor/carrier/einstein_security,
 /turf/simulated/floor/tiled/gridded,
 /area/ship/freebooter_salvager/armory)
 "MC" = (
@@ -8812,14 +8819,17 @@
 /obj/item/clothing/head/sol/marine/grey,
 /obj/item/clothing/head/sol/marine,
 /obj/item/clothing/head/ushanka/dominia,
-/obj/item/clothing/head/softcap/tcfl,
-/obj/item/clothing/head/beret/legion/field,
-/obj/item/clothing/suit/storage/legion,
 /obj/item/clothing/suit/storage/toggle/leather_jacket/designer/black,
 /obj/item/clothing/head/softcap,
 /obj/item/clothing/head/turban,
 /obj/item/clothing/head/turban/gadpathur,
 /obj/item/clothing/head/headbando/random,
+/obj/item/clothing/head/softcap/tcaf_cap,
+/obj/item/clothing/head/softcap/tcaf_cap,
+/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
+/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
+/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
+/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
 /turf/simulated/floor/plating,
 /area/ship/freebooter_salvager/crew_quarters)
 "Oy" = (
@@ -9114,6 +9124,12 @@
 /obj/random/colored_jumpsuit,
 /obj/random/colored_jumpsuit,
 /obj/item/clothing/under/vysoka,
+/obj/item/clothing/under/tcaf/crew/foreign_legion,
+/obj/item/clothing/under/tcaf/crew/foreign_legion,
+/obj/item/clothing/under/tcaf/crew/foreign_legion,
+/obj/item/clothing/under/tcaf/crew/foreign_legion,
+/obj/item/clothing/under/rank/einstein/coveralls,
+/obj/item/clothing/head/einstein/kepi,
 /turf/simulated/floor/tiled/dark,
 /area/ship/freebooter_salvager/crew_quarters)
 "PP" = (

@@ -65,6 +65,9 @@
 /area/ship/freebooter_ship/pod8
 	name = "Freebooter Pod Eight"
 
+/area/ship/freebooter_ship/pod9
+	name = "Freebooter Pod Nine"
+
 /area/ship/freebooter_ship/thruster1
 	name = "Freebooter Starboard Thruster"
 
