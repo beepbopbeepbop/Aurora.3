@@ -396,3 +396,67 @@
 		ENERGY = ARMOR_ENERGY_RESISTANT,
 		BOMB = ARMOR_BOMB_PADDED,
 	)
+
+// Einstein Security Armour
+/obj/item/clothing/accessory/leg_guard/einstein_security
+	name = "\improper Einstein Engines light leg guards"
+	desc = "The leg-mounted, poylmer laminate armour component of the Einstein Engines PPILAS."
+	icon = 'icons/obj/item/clothing/suit/armor/modular_armor/modular_armor.dmi'
+	icon_state = "einstein_legguards_security"
+	item_state = "einstein_legguards_security"
+	contained_sprite = TRUE
+	armor = list(
+		MELEE = ARMOR_MELEE_KEVLAR,
+		BULLET = ARMOR_BALLISTIC_MEDIUM,
+		LASER = ARMOR_LASER_KEVLAR,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED
+	)
+
+/obj/item/clothing/accessory/arm_guard/einstein_security
+	name = "\improper Einstein Engines light arm guards"
+	desc = "The arm-mounted, poylmer laminate armour component of the Einstein Engines PPILAS."
+	icon_state = "einstein_armguards_security"
+	item_state = "einstein_armguards_security"
+	contained_sprite = TRUE
+	armor = list(
+		MELEE = ARMOR_MELEE_KEVLAR,
+		BULLET = ARMOR_BALLISTIC_MEDIUM,
+		LASER = ARMOR_LASER_KEVLAR,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED
+	)
+
+// Einstein Tactical Armour
+/obj/item/clothing/accessory/leg_guard/einstein_tactical
+	name = "\improper Einstein Engines tactical leg guards"
+	desc = "The leg-mounted, composite armour component of the Einstein Engines PPITAS."
+	icon = 'icons/obj/item/clothing/suit/armor/modular_armor/modular_armor.dmi'
+	icon_state = "einstein_legguards_tactical"
+	item_state = "einstein_legguards_tactical"
+	contained_sprite = TRUE
+	armor = list(
+		MELEE = ARMOR_MELEE_MAJOR,
+		BULLET = ARMOR_BALLISTIC_MAJOR,
+		LASER = ARMOR_LASER_MEDIUM,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED
+	)
+	slowdown = 0.15
+	body_parts_covered = LEGS|FEET
+
+/obj/item/clothing/accessory/arm_guard/einstein_tactical
+	name = "\improper Einstein Engines tactical arm guards"
+	desc = "The arm-mounted, composite armour component of the Einstein Engines PPITAS."
+	icon_state = "einstein_armguards_tactical"
+	item_state = "einstein_armguards_tactical"
+	contained_sprite = TRUE
+	armor = list(
+		MELEE = ARMOR_MELEE_MAJOR,
+		BULLET = ARMOR_BALLISTIC_MAJOR,
+		LASER = ARMOR_LASER_MEDIUM,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED
+	)
+	slowdown = 0.15
+	body_parts_covered = ARMS|HANDS

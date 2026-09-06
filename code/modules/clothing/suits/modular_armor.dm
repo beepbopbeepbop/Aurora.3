@@ -157,6 +157,33 @@
 
 	movement_sounds = SFX_HEAVY_ARMOUR_FOOTSTEPS
 
+/obj/item/clothing/suit/armor/carrier/einstein_security
+	name = "Einstein Engines modular protective vest"
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/einstein_security,
+		/obj/item/clothing/accessory/leg_guard/einstein_security,
+		/obj/item/clothing/accessory/arm_guard/einstein_security,
+		/obj/item/clothing/accessory/storage/modular_pouch/large
+	)
+
+/obj/item/clothing/suit/armor/carrier/einstein_security/light
+	name = "Einstein Engines modular protective vest"
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/einstein_security,
+		/obj/item/clothing/accessory/storage/modular_pouch
+	)
+
+/obj/item/clothing/suit/armor/carrier/einstein_tactical
+	name = "Einstein Engines modular protective vest"
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/einstein_tactical,
+		/obj/item/clothing/accessory/leg_guard/einstein_tactical,
+		/obj/item/clothing/accessory/arm_guard/einstein_tactical,
+		/obj/item/clothing/accessory/storage/modular_pouch/large
+	)
+
+	movement_sounds = SFX_HEAVY_ARMOUR_FOOTSTEPS
+
 /obj/item/clothing/suit/armor/carrier/press
 	starting_accessories = list(
 		/obj/item/clothing/accessory/armor_plate/press
@@ -355,6 +382,48 @@
 		BOMB = ARMOR_BOMB_PADDED,
 	)
 
+/obj/item/clothing/accessory/armor_plate/einstein_security
+	name = "Einstein Engines light armour system"
+	desc = "A lighter (and more budget-friendly) iteration of the Einstein Engines PPITAS, commonly worn by EE corporate security \
+	forces across the Spur."
+	desc_extended = "Quickly realising the necessity for a modern armour platform able to be implemented on a mass scale, the Einstein \
+	Engines Protective Plate Insert Light Armour System, Laminate (EE-PPILAS) is the cheaper, more manoeuvrable, and younger sibling of \
+	the Tactical Armour System. The PPIASL contains a much simpler monolithic laminate composition, made up of a single boron carbide \
+	ceramic plate and a dedicated resin UNMW-PE fiber shield, with an aluminium-based ablative coating."
+	icon_state = "einstein_plate_security"
+	item_state = "einstein_plate_security"
+	armor = list(
+		MELEE = ARMOR_MELEE_KEVLAR,
+		BULLET = ARMOR_BALLISTIC_MEDIUM,
+		LASER = ARMOR_LASER_KEVLAR,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED
+	)
+	slowdown = 0
+
+/obj/item/clothing/accessory/armor_plate/einstein_tactical
+	name = "Einstein Engines tactical armour system"
+	desc = "The premier combat body armour platform in Einstein Engines' arsenal. On the forefront of Noelle Lopez-Zhang's campaign \
+	to one-up her Conglomerate competitors."
+	desc_extended = "The Einstein Engines Protective Plate Insert Tactical Armour System, Composite (EE-PPITAS) is the patented body \
+	armor platform fielded by the infamous Stabilisation Units of the Einstein Engines Solutions Department. Designed in collaboration \
+	with Nralakk scientists by the EE Qerrbalak Office, the PPITAS contains a triple-tier defensive composition: the first tier is a \
+	woven ballistic soft armour comprised of laminated, UNMW-grade, polyethylene fibers, insulating the wearer from low-caliber rounds, \
+	fragmentation, and stabbing; the second tier is a series of composite ballistic plates comprised of a resin aggregate of boron \
+	carbide nanoceramic matrices overlaying a titanium aluminide backer, providing state-of-the-art protection against high-caliber \
+	projectiles; the third tier is a skrell-designed, ablative coating of carbon fiber-reinforced polymers, which while providing \
+	ample protection against laser weaponry, has been cited as both difficult and expensive to maintain by Einstein operatives."
+	icon_state = "einstein_plate_tactical"
+	item_state = "einstein_plate_tactical"
+	armor = list(
+		MELEE = ARMOR_MELEE_MAJOR,
+		BULLET = ARMOR_BALLISTIC_MAJOR,
+		LASER = ARMOR_LASER_RIFLE,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED
+	)
+	slowdown = 0.2
+
 /obj/item/clothing/accessory/armor_plate/military/navy
 	name = "konyang navy armor plate"
 	desc = "A military-grade armor plate frequently seen in use by naval landing parties and sailors of the Konyang Navy."
@@ -549,6 +618,109 @@
 		ENERGY = ARMOR_ENERGY_SMALL,
 		BOMB = ARMOR_BOMB_PADDED,
 	)
+
+/obj/item/clothing/head/helmet/einstein_sensor
+	name = "\improper Einstein Engines multi-spectrum visual array"
+	desc = "A bulky headcase packed with an array of powerful sensors, often found with Einstein Engines field survey and scouting teams."
+	desc_extended = "Sarcastically known as the \"Biesel-Helmet\" for its resemblance to a bug's mandibles, the Mk. 554 'Neutron' \
+	Multi-Spectrum Visual Array found a unique niche as its skrell-designed, multi-spectrum sensor array was found to be extremely \
+	effective for live information-gathering in combat. It is a favored tool of EE's infamous Solutions and Information Departments, \
+	who have been known to combine it with long-range, wall-penetrating munitions to deadly effect."
+	icon = 'icons/obj/item/clothing/head/modular_armor_helmets.dmi'
+	contained_sprite = TRUE
+	icon_state = "einstein_helm_sensor"
+	item_state = "einstein_helm_sensor"
+	armor = list(
+		MELEE = ARMOR_MELEE_MAJOR,
+		BULLET = ARMOR_BALLISTIC_MAJOR,
+		LASER = ARMOR_LASER_MEDIUM,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED,
+	)
+	has_storage = FALSE
+	body_parts_covered = HEAD|FACE|EYES
+	flags_inv = HIDEEARS|HIDEEYES|BLOCKHEADHAIR
+
+	action_button_name = "Toggle Visor"
+
+/obj/item/clothing/head/helmet/einstein_sensor/mechanics_hints(mob/user, distance, is_adjacent)
+	. = ..()
+	. += "You can <b>Alt-Shift-Click</b> to [icon_state == initial(icon_state) ? "raise" : "lower"] the visor."
+
+/obj/item/clothing/head/helmet/einstein_sensor/AltShiftClick(user)
+	do_flip(user)
+
+/obj/item/clothing/head/helmet/einstein_sensor/attack_self(mob/user as mob)
+	do_flip(user)
+
+/obj/item/clothing/head/helmet/einstein_sensor/proc/do_flip(mob/user)
+	if(use_check_and_message(user))
+		return
+
+	if(icon_state == initial(icon_state))
+		icon_state = "[icon_state]_active"
+		item_state = icon_state
+		playsound(src, SFX_VISOR_UP, 20, TRUE, -1)
+		to_chat(user, SPAN_NOTICE("You raise the visor on \the [src]."))
+		body_parts_covered = HEAD
+	else
+		icon_state = initial(icon_state)
+		item_state = icon_state
+		playsound(src, SFX_VISOR_DOWN, 20, TRUE, -1)
+		to_chat(user, SPAN_NOTICE("You lower the visor on \the [src]."))
+		body_parts_covered = HEAD|FACE|EYES
+
+	update_clothing_icon()
+
+/obj/item/clothing/head/helmet/einstein_pilot
+	name = "\improper Einstein Engines pilot interface helmet"
+	desc = "A bulky helmet covering the user's eyes and enhancing their normal senses. A firm friend of the exosuit or shuttle pilot."
+	desc_extended = "Sarcastically known as the \"Biesel-Helmet\" for its resemblance to a bug's mandibles, the \
+	Mk. 553 Pilot Interface Helmet was rejected by the Solarian Armed Forces for cost reasons, but has found \
+	a second home as an in-house tool for EE shuttle and exosuit pilots."
+	icon = 'icons/obj/item/clothing/head/modular_armor_helmets.dmi'
+	contained_sprite = TRUE
+	icon_state = "einstein_helm_pilot"
+	item_state = "einstein_helm_pilot"
+	armor = list(
+		MELEE = ARMOR_MELEE_MAJOR,
+		BULLET = ARMOR_BALLISTIC_MAJOR,
+		LASER = ARMOR_LASER_MEDIUM,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED,
+	)
+	has_storage = FALSE
+	body_parts_covered = HEAD|EYES
+	flags_inv = HIDEEARS|HIDEEYES|BLOCKHEADHAIR
+	action_button_name = "Toggle Helmet Light"
+	light_overlay = "helmet_light_xanu_voidsuit"
+	light_range = 6
+	camera = /obj/structure/machinery/camera/network/ee
+
+/obj/item/clothing/head/helmet/einstein_tactical
+	name = "\improper Einstein Engines asset protection helmet"
+	desc = "A ballistic tactical helmet with an integrated HUD designed for use by EE security teams. Integrated communications \
+	ensure you will never be out of communications, or able to escape your nagging boss."
+	desc_extended = "The Mk. 552 Tactical Security Helmet, or TSH (pronounced \"tish\"), is intended for use by the EE Solutions \
+	Department's response teams. Based loosely on the Solarian Army's standard vehicle crewman helmet, the TSH has been the \
+	difference between a living security officer and a closed-casket funeral many times."
+	icon = 'icons/obj/item/clothing/head/modular_armor_helmets.dmi'
+	contained_sprite = TRUE
+	icon_state = "einstein_helm_tactical"
+	item_state = "einstein_helm_tactical"
+	armor = list(
+		MELEE = ARMOR_MELEE_MAJOR,
+		BULLET = ARMOR_BALLISTIC_MAJOR,
+		LASER = ARMOR_LASER_MEDIUM,
+		ENERGY = ARMOR_ENERGY_SMALL,
+		BOMB = ARMOR_BOMB_PADDED,
+	)
+	body_parts_covered = HEAD|FACE|EYES
+	flags_inv = HIDEEARS|HIDEEYES|BLOCKHEADHAIR
+	action_button_name = "Toggle Helmet Light"
+	light_overlay = "helmet_light_dual"
+	light_range = 6
+	camera = /obj/structure/machinery/camera/network/ee
 
 //Cosmetic Accessories
 

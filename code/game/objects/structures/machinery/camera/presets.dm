@@ -50,6 +50,9 @@ GLOBAL_LIST_INIT(engineering_networks, list(
 /obj/structure/machinery/camera/network/tcaf
 	network = list(NETWORK_TCAF)
 
+/obj/structure/machinery/camera/network/ee
+	network = list(NETWORK_EE)
+
 /obj/structure/machinery/camera/network/station
 	network = list(NETWORK_STATION)
 
