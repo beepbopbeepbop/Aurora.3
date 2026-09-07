@@ -38,9 +38,3 @@
 		M.visible_message(SPAN_DANGER("<font size=5>\The [src] blows [M]'s chest apart and punches straight through!</font>"))
 	if(isturf(target) || isobj(target))
 		explosion(epicenter, explosion_strength[1], explosion_strength[2], explosion_strength[3])
-
-/obj/structure/machinery/ammunition_loader/sol
-	icon_state = "ammo_loader_sol"
-
-/obj/structure/viewport/sol
-	icon_state = "viewport_sol"

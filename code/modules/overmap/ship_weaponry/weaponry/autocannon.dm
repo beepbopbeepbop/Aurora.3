@@ -8,6 +8,10 @@
 	caliber = SHIP_CALIBER_60MM
 	screenshake_type = SHIP_GUN_SCREENSHAKE_SCREEN
 
+/obj/structure/machinery/ship_weapon/autocannon/sol
+	name = "goshawk heavy autocannon"
+	icon = 'icons/obj/machinery/ship_guns/autocannon_sol.dmi'
+
 /obj/structure/machinery/ammunition_loader/autocannon
 	name = "autocannon ammunition loader"
 

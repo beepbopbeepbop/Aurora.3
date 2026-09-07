@@ -8,6 +8,10 @@
 	firing_effects = FIRING_EFFECT_FLAG_EXTREMELY_LOUD
 	screenshake_type = SHIP_GUN_SCREENSHAKE_ALL_MOBS
 
+/obj/structure/machinery/ship_weapon/longbow/sol
+	name = "longbow cannon"
+	icon = 'icons/obj/machinery/ship_guns/longbow_sol.dmi'
+
 /obj/structure/machinery/ammunition_loader/longbow
 	name = "longbow shell loader"
 

@@ -14,7 +14,7 @@
 	designer = "Solarian State Shipbuilding Corporation, Sovereign Solarian Federation of Triton"
 	sizeclass = "Military transporter shuttlecraft"
 	shiptype = "Transportation and combat boarding"
-	colors = COLOR_RAIDER
+	colors = list("#5a644e", "#6a7e53")
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 0.5 SECONDS
 	vessel_mass = 1500
@@ -81,16 +81,16 @@
 //	SOL DESTROYER FIGHTER
 //
 /obj/effect/overmap/visitable/ship/landable/sol_destroyer_fighter
-	name = "Sol Destroyer Fighter"
+	name = "SAN Space Superiority Fighter"
 	class = "SAMV"
 	desc = "Norikura."
-	shuttle = "Sol Destroyer Fighter"
+	shuttle = "SAN Space Superiority Fighter"
 	icon_state = "canary"
 	moving_state = "canary_moving"
 	designer = "Solarian State Shipbuilding Corporation, Sovereign Solarian Federation of Triton"
-	sizeclass = "Heavy fighter and interceptor"
-	shiptype = "Anti-ship high-speed combat and interception"
-	colors = COLOR_RAIDER
+	sizeclass = "F-39N Norikura"
+	shiptype = "Naval space superiority fighter"
+	colors = list("#5a644e", "#6a7e53")
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 0.5 SECONDS
 	vessel_mass = 800
@@ -98,7 +98,10 @@
 	vessel_size = SHIP_SIZE_TINY
 
 /obj/effect/overmap/visitable/ship/landable/sol_destroyer_fighter/New()
-	designation = "[pick("Ours Now", "Better Use", "Watch It Closer", "Repurposed", "Liberated", "People's Mule", "You're Welcome")]"
+	var/carrier_hull = pick(/obj/effect/overmap/visitable/ship/sol_destroyer::hull)
+	var/shuttle_class = "SSF"
+	var/shuttle_number = "[rand(1, 20)]"
+	designation = "[shuttle_class]-[shuttle_number] [carrier_hull]"
 	..()
 
 /obj/structure/machinery/computer/shuttle_control/explore/terminal/sol_destroyer_fighter

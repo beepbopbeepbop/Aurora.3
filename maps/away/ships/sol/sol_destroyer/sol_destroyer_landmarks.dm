@@ -1,3 +1,29 @@
+// Lift
+/datum/shuttle/autodock/multi/lift/sol_destroyer
+	name = "sol_destroyer Lift"
+	current_location = "nav_sol_destroyer_lift_first_deck"
+	shuttle_area = /area/turbolift/sol_destroyer/sol_destroyer_lift
+	destination_tags = list(
+		"nav_sol_destroyer_lift_first_deck",
+		"nav_sol_destroyer_lift_second_deck",
+		)
+
+/obj/effect/shuttle_landmark/lift/sol_destroyer_first_deck
+	name = "Republican Fleet Corvette - First Deck"
+	landmark_tag = "nav_sol_destroyer_lift_first_deck"
+	base_area = /area/sol_destroyer/hangar
+	base_turf = /turf/simulated/floor/plating
+
+/obj/effect/shuttle_landmark/lift/sol_destroyer_second_deck
+	name = "Republican Fleet Corvette - Second Deck"
+	landmark_tag = "nav_sol_destroyer_lift_second_deck"
+	base_area = /area/sol_destroyer/central_lift
+	base_turf = /turf/simulated/open
+
+/obj/structure/machinery/computer/shuttle_control/multi/lift/sol_destroyer
+	shuttle_tag = "Sol Destroyer Lift"
+// --------
+
 // Space landmarks
 /obj/effect/shuttle_landmark/sol_destroyer/nav1
 	name = "Fore"

@@ -126,3 +126,9 @@ ABSTRACT_TYPE(/obj/structure/machinery/ammunition_loader)
 
 /obj/structure/viewport/unathi
 	icon_state = "viewport_unathi"
+
+/obj/structure/machinery/ammunition_loader/sol
+	icon_state = "ammo_loader_sol"
+
+/obj/structure/viewport/sol
+	icon_state = "viewport_sol"

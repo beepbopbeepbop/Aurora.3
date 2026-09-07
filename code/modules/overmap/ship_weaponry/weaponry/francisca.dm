@@ -13,6 +13,10 @@
 	name = "compact francisca rotary gun"
 	icon = 'icons/obj/machinery/ship_guns/francisca_compact.dmi'
 
+/obj/structure/machinery/ship_weapon/francisca/compact/sol
+	name = "compact francisca rotary gun"
+	icon = 'icons/obj/machinery/ship_guns/francisca_compact_sol.dmi'
+
 /obj/structure/machinery/ammunition_loader/francisca
 	name = "francisca ammunition loader"
 
