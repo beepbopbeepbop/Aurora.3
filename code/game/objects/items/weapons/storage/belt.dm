@@ -369,7 +369,17 @@
 		/obj/item/reagent_containers/spray/pepper = 1,
 		/obj/item/handcuffs = 2,
 		/obj/item/flash = 1,
+		/obj/item/gun/energy/taser = 1
+	)
+
+/obj/item/storage/belt/security/full/sol
+	starts_with = list(
+		/obj/item/melee/classic_baton = 1,
+		/obj/item/reagent_containers/spray/pepper = 1,
+		/obj/item/handcuffs/ziptie = 2,
+		/obj/item/flash = 1,
 		/obj/item/gun/energy/taser = 1,
+		/obj/item/shield/riot/tact = 1
 	)
 
 /obj/item/storage/belt/security/full/pistol45

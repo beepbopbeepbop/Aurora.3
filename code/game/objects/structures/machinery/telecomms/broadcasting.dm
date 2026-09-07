@@ -267,6 +267,8 @@
 				SSstatistics.msg_syndicate += blackbox_msg
 			if(COAL_FREQ)
 				SSstatistics.msg_coalition += blackbox_msg
+			if(SOL_FREQ)
+				SSstatistics.msg_sol += blackbox_msg
 			if(RAID_FREQ)
 				SSstatistics.msg_raider += blackbox_msg
 			if(NINJ_FREQ)

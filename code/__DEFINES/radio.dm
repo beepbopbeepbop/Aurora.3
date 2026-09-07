@@ -20,6 +20,7 @@
 
 #define SYND_FREQ 1213
 #define COAL_FREQ 1217
+#define SOL_FREQ  1218
 #define BLSP_FREQ 1253
 #define NINJ_FREQ 1255
 #define BURG_FREQ 1257
@@ -53,6 +54,7 @@ var/list/radiochannels = list(
 	"Special Ops" 	= DTH_FREQ,
 	"Mercenary" 	= SYND_FREQ,
 	"Coalition Navy"= COAL_FREQ,
+	"Solarian Navy"	= SOL_FREQ,
 	"Ninja"			= NINJ_FREQ,
 	"Bluespace"		= BLSP_FREQ,
 	"Burglar"		= BURG_FREQ,
@@ -81,6 +83,7 @@ var/list/reverseradiochannels = list(
 	"[DTH_FREQ]"	= "Special Ops",
 	"[SYND_FREQ]"	= "Mercenary",
 	"[COAL_FREQ]"	= "Coalition Navy",
+	"[SOL_FREQ]"	= "Solarian Navy",
 	"[NINJ_FREQ]"	= "Ninja",
 	"[BLSP_FREQ]"	= "Bluespace",
 	"[BURG_FREQ]"	= "Burglar",

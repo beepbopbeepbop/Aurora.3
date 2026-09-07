@@ -74,7 +74,15 @@
 
 /obj/structure/machinery/telecomms/allinone/ship/coalition_navy/LateInitialize()
 	. = ..()
-	freq_listening += COAL_FREQ
+	freq_listening +=
+
+/obj/structure/machinery/telecomms/allinone/ship/solarian_navy
+	name = "solarian navy telecommunications mainframe"
+	desc = "A compact machine used for portable subspace telecommuniations processing. This one also has encryption codes for Coalition navy vessels."
+
+/obj/structure/machinery/telecomms/allinone/ship/solarian_navy/LateInitialize()
+	. = ..()
+	freq_listening +=
 
 //This goes on the station map so away ships can maintain radio contact.
 /obj/structure/machinery/telecomms/allinone/ship/station_relay
