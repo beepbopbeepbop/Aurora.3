@@ -142,8 +142,8 @@
 		new /obj/item/storage/backpack/captain(src)
 	else
 		new /obj/item/storage/backpack/satchel/cap(src)
-	new /obj/item/clothing/under/rank/sol/dress/officer(src)
-	new /obj/item/clothing/head/sol/dress/officer(src)
+	new /obj/item/clothing/under/rank/sol/dress/subofficer(src)
+	new /obj/item/clothing/head/sol/dress/junior_officer(src)
 	new /obj/item/clothing/suit/storage/vest(src)
 	new /obj/item/clothing/head/helmet(src)
 	new /obj/item/clothing/shoes/laceup(src)

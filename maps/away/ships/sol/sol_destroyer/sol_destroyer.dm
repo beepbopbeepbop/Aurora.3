@@ -45,8 +45,8 @@
 	scanimage = "line_cruiser.png"
 	designer = "Solarian State Shipbuilding Corporation, Sovereign Solarian Federation of Triton"
 	volume = "80 meters length, 33 meters beam/width, 25 meters vertical height"
-	weapons = "<b>Main gun: </b>M302A7 Piledriver 7.9-inch(200 cm)/40-caliber light coilgun<BR>\
-	<BR><b>Autocannons: </b>Goshawk 2.4-inch (60 mm)/33-caliber quadruple mount chaingun<BR>\
+	weapons = "<b>Main gun: </b>Kasen National Munitions Piledriver 7.9-inch(200 cm)/40-caliber light coilgun<BR>\
+	<BR><b>Autocannons: </b>Kumar Arms Goshawk 2.4-inch (60 mm)/33-caliber quadruple mount chaingun<BR>\
 	<BR><b>Facilities: </b>Midship hangar deck"
 	sizeclass = "Pallas-class Escort Destroyer"
 	shiptype = "Convoy escort, anti-piracy patrols, system defence"
@@ -76,10 +76,12 @@
 		"Dione", "Quaoar", "Tethys", "Sedna", "Ceres", "Orcus", "Salacia", "Vesta",
 		"Pallas", "Enceladus", "Mimas", "Nereid", "Europa", "Hyperion", "Juno", "Mnemosyne",
 	)
-	var/hull_class = "DDE"
-	var/hull_number = "[rand(100, 500)]"
-	var/hull = "([hull_class]-[hull_number])"
-	designation = "[planetary_body] [hull]"
+	// Letter acronym corresponding to a ship class
+	var/list/hull_class = pick("", "", "", pick("DDE"))
+	// Unique numerical code assigned to a specific hull
+	var/list/hull_number = pick("", "", "", pick("[rand(100, 500)]"))
+	// The final product: the ship name + the hull code
+	designation = "[planetary_body] ([hull_class]-[hull_number])"
 	..()
 
 // Using the freighter sprite.

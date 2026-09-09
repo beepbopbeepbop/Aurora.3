@@ -9,6 +9,8 @@
 #define SHIP_CALIBER_COILGUN "tungsten rod"
 #define SHIP_CALIBER_200MM "200mm"
 #define SHIP_CALIBER_BLASTER "blaster charge"
+#define SHIP_CALIBER_MISSILE_MULTI_PURPOSE "multi-purpose missile"
+#define SHIP_CALIBER_MISSILE_POINT_DEFENCE "point defence missile"
 
 #define SHIP_GUN_FIRING_SUCCESSFUL "firing sequence completed"
 #define SHIP_GUN_ERROR_NO_AMMO "no ammunition loaded"

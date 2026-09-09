@@ -67,11 +67,10 @@
 /turf/simulated/wall/shuttle/raider,
 /area/shuttle/sol_destroyer/fighter)
 "cv" = (
-/obj/structure/bed/stool/chair/office/bridge/pilot{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/gridded,
-/area/space)
+/obj/structure/lattice/catwalk,
+/obj/structure/ship_weapon_dummy/barrel,
+/turf/space/dynamic,
+/area/sol_destroyer/exterior)
 "cG" = (
 /obj/structure/morgue,
 /turf/simulated/floor/tiled/dark/full,
@@ -180,11 +179,10 @@
 /turf/simulated/floor/tiled/gridded,
 /area/sol_destroyer)
 "hs" = (
-/obj/structure/machinery/computer/ship/targeting/terminal{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/gridded,
-/area/space)
+/obj/structure/lattice/catwalk,
+/obj/structure/ship_weapon_dummy,
+/turf/space/dynamic,
+/area/sol_destroyer/exterior)
 "hy" = (
 /obj/effect/map_effect/map_helper/ruler_tiles_3{
 	dir = 4
@@ -515,10 +513,7 @@
 /turf/simulated/floor/tiled/gridded,
 /area/shuttle/sol_destroyer/fighter)
 "rz" = (
-/obj/structure/machinery/ammunition_loader/sol{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/gridded,
+/turf/simulated/floor/reinforced,
 /area/space)
 "rD" = (
 /turf/simulated/wall/shuttle/raider,
@@ -551,6 +546,10 @@
 	icon_state = "co2-9"
 	},
 /turf/simulated/floor/plating,
+/area/space)
+"rY" = (
+/obj/structure/ship_weapon_dummy,
+/turf/simulated/floor/reinforced,
 /area/space)
 "rZ" = (
 /obj/structure/weapons_rack,
@@ -631,6 +630,12 @@
 "tO" = (
 /obj/structure/structural_support/side,
 /turf/simulated/floor/tiled/gridded,
+/area/space)
+"tV" = (
+/obj/structure/machinery/ammunition_loader/sol{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
 /area/space)
 "tY" = (
 /obj/structure/bed/stool/chair/padded/black{
@@ -1085,6 +1090,10 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"HJ" = (
+/obj/structure/structural_support/side,
+/turf/simulated/floor/reinforced/airless,
+/area/sol_destroyer/exterior)
 "HL" = (
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/yellow{
 	dir = 6
@@ -1100,9 +1109,10 @@
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/sol_destroyer/transport)
 "Io" = (
-/obj/structure/viewport/sol,
-/turf/simulated/floor/tiled/gridded,
-/area/space)
+/obj/structure/structural_support/side,
+/obj/structure/ship_weapon_dummy,
+/turf/simulated/floor/reinforced/airless,
+/area/sol_destroyer/exterior)
 "Is" = (
 /obj/structure/machinery/shipsensors/strong,
 /turf/simulated/floor/plating,
@@ -1314,11 +1324,9 @@
 /turf/simulated/floor/plating,
 /area/shuttle/sol_destroyer/fighter)
 "NR" = (
-/obj/structure/machinery/computer/ship/sensors/terminal{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/gridded,
-/area/space)
+/obj/structure/ship_weapon_dummy,
+/turf/simulated/floor/reinforced/airless,
+/area/sol_destroyer/exterior)
 "NZ" = (
 /obj/structure/machinery/atmospherics/unary/vent_pump/high_volume/aux{
 	dir = 8
@@ -1456,6 +1464,10 @@
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/shuttle/sol_destroyer/transport)
+"Sa" = (
+/obj/structure/foamedmetal,
+/turf/simulated/floor/plating,
+/area/space)
 "Se" = (
 /obj/effect/shuttle_landmark/sol_destroyer/dock_port{
 	dir = 8
@@ -1463,6 +1475,13 @@
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/effect/map_effect/marker_helper/airlock/exterior,
 /obj/effect/map_effect/marker/airlock/docking/sol_destroyer/port_dock,
+/turf/simulated/floor/tiled/dark/full,
+/area/space)
+"Sq" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/obj/structure/viewport/sol,
 /turf/simulated/floor/tiled/dark/full,
 /area/space)
 "St" = (
@@ -1692,7 +1711,7 @@
 /obj/item/clothing/shoes/laceup,
 /obj/item/clothing/gloves/black_leather/fleet,
 /obj/item/clothing/under/rank/sol/dress/officer,
-/obj/item/clothing/head/sol/dress/officer,
+/obj/item/clothing/head/sol/dress/senior_officer,
 /obj/item/clothing/accessory/sol_pin,
 /obj/item/clothing/accessory/sol_pin/sfp,
 /obj/item/clothing/accessory/badge/passcard/sol/luna,
@@ -1709,12 +1728,13 @@
 /turf/simulated/floor/wood,
 /area/space)
 "Zz" = (
-/obj/structure/machinery/ship_weapon/coilgun/light{
-	pixel_y = -288;
+/obj/structure/machinery/ship_weapon/coilgun{
+	pixel_y = -287;
 	pixel_x = -32
 	},
+/obj/structure/ship_weapon_dummy,
 /turf/simulated/floor/reinforced/airless,
-/area/space)
+/area/sol_destroyer/exterior)
 "ZM" = (
 /obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide,
 /turf/simulated/floor/plating,
@@ -94385,8 +94405,8 @@ iC
 iC
 iC
 iC
-iC
-iC
+Yp
+Yp
 Yp
 Yp
 Yp
@@ -94639,18 +94659,18 @@ bv
 iC
 bv
 bv
-iC
 IY
 IY
-IY
 iC
 iC
 iC
 iC
-Yp
-Yp
-Yp
-Yp
+iC
+iC
+uJ
+uJ
+uJ
+uJ
 Yp
 Yp
 Yp
@@ -94896,19 +94916,19 @@ bv
 iC
 bv
 bv
-iC
-IY
-IY
-IY
 IY
 IY
 IY
 iC
+IY
+IY
+IY
 iC
 iC
-Yp
-Yp
-Yp
+iC
+FE
+uJ
+uJ
 Yp
 Yp
 Yp
@@ -95153,19 +95173,19 @@ bv
 iC
 bv
 bv
+IY
+IY
+IY
 iC
 IY
 IY
 IY
 IY
 IY
-IY
-IY
 Dz
+FE
+FE
 uJ
-Yp
-Yp
-Yp
 Yp
 Yp
 Yp
@@ -95410,10 +95430,10 @@ bv
 iC
 bv
 bv
+IY
+IY
+IY
 iC
-IY
-IY
-IY
 fW
 IY
 IY
@@ -95670,15 +95690,15 @@ bv
 iC
 xg
 iC
-IY
 iC
 iC
-iC
+do
+do
 iC
 tn
 tn
-zZ
-Ys
+iC
+iC
 uJ
 Yp
 Yp
@@ -95934,7 +95954,7 @@ VN
 bv
 bv
 yF
-zZ
+Sq
 Ys
 uJ
 uJ
@@ -96697,19 +96717,19 @@ bv
 bv
 bv
 bv
-bv
+tO
 bv
 bv
 bv
 VN
 bv
-bv
-bv
-bv
 tO
 bv
 bv
 bv
+bv
+bv
+tO
 bv
 bv
 iC
@@ -96954,19 +96974,19 @@ tB
 tB
 tB
 tB
-tB
+yD
 tB
 tB
 tB
 VN
 tB
-tB
-tB
-tB
 yD
 tB
 tB
 tB
+tB
+tB
+yD
 tB
 bv
 Az
@@ -97211,19 +97231,19 @@ bv
 bv
 bv
 bv
-bv
+tO
 bv
 bv
 bv
 VN
 bv
-bv
-bv
-bv
 tO
 bv
 bv
 bv
+bv
+bv
+tO
 bv
 bv
 iC
@@ -99781,19 +99801,19 @@ bv
 bv
 bv
 bv
-bv
+tO
 bv
 bv
 bv
 VN
 bv
-bv
-bv
-bv
 tO
 bv
 bv
 bv
+bv
+bv
+tO
 bv
 bv
 iC
@@ -100038,19 +100058,19 @@ tB
 tB
 tB
 tB
-tB
+yD
 tB
 tB
 tB
 VN
 tB
-tB
-tB
-tB
 yD
 tB
 tB
 tB
+tB
+tB
+yD
 tB
 bv
 Az
@@ -100295,19 +100315,19 @@ bv
 bv
 bv
 bv
-bv
+tO
 bv
 bv
 bv
 VN
 bv
-bv
-bv
-bv
 tO
 bv
 bv
 bv
+bv
+bv
+tO
 bv
 bv
 iC
@@ -100550,11 +100570,11 @@ iC
 iC
 iC
 iC
+Gg
 iC
 iC
 iC
-iC
-iC
+Gg
 iC
 iC
 iC
@@ -100802,10 +100822,10 @@ iC
 bv
 bv
 bv
-bv
-bv
 iC
-bv
+rz
+rz
+VN
 bv
 bv
 bv
@@ -101059,10 +101079,10 @@ iC
 bv
 bv
 bv
-bv
-bv
 iC
-bv
+rz
+rz
+VN
 bv
 bv
 bv
@@ -101072,9 +101092,9 @@ bv
 bv
 VN
 bv
-cv
+VP
 tn
-zZ
+Sq
 Ys
 uJ
 uJ
@@ -101316,23 +101336,23 @@ iC
 bv
 bv
 bv
-bv
-bv
 iC
-bv
 rz
-bv
-bv
+rz
 iC
-Gg
-Gg
-Gg
+rz
+rz
+rz
 iC
-NR
-hs
+do
+do
+do
+iC
+FX
+yF
 tn
-zZ
-Ys
+iC
+iC
 uJ
 Yp
 Yp
@@ -101573,24 +101593,24 @@ iC
 bv
 bv
 bv
-bv
-bv
-iC
-bv
-Io
-bv
-bv
-iC
-IY
-IY
-IY
 iC
 iC
+iC
+iC
+rz
+rz
+rz
+iC
+Dz
+Dz
+Dz
 iC
 iC
 iC
 iC
 iC
+iC
+uJ
 Yp
 Yp
 Yp
@@ -101832,18 +101852,18 @@ bv
 bv
 bv
 bv
-iC
-bv
-bv
-bv
 bv
 iC
-Zz
-IY
-IY
+iC
+tV
+iC
 iC
 FE
 FE
+FE
+FE
+FE
+HJ
 FE
 FE
 FE
@@ -102089,21 +102109,21 @@ bv
 bv
 bv
 bv
-iC
-bv
-bv
 bv
 bv
 iC
-IY
-IY
-IY
-iC
-FE
-FE
-FE
-FE
-uJ
+Sa
+Sa
+rY
+Zz
+NR
+NR
+NR
+NR
+Io
+NR
+NR
+cv
 uJ
 Yp
 Yp
@@ -102346,21 +102366,21 @@ bv
 bv
 bv
 bv
-iC
-bv
-bv
 bv
 bv
 iC
-IY
-iC
-iC
-iC
-uJ
-uJ
-uJ
-uJ
-uJ
+Sa
+Sa
+rY
+NR
+NR
+NR
+NR
+NR
+hs
+hs
+hs
+cv
 Yp
 Yp
 Yp
@@ -102609,12 +102629,12 @@ iC
 iC
 iC
 iC
-iC
-iC
-Yp
-Yp
-Yp
-Yp
+uJ
+uJ
+uJ
+uJ
+uJ
+uJ
 Yp
 Yp
 Yp

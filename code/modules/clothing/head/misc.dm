@@ -483,11 +483,17 @@
 
 /obj/item/clothing/head/sol/dress
 	name = "sol navy black peaked cap"
+	desc = "A black cap issued as part of the Sol Alliance naval NCO uniforms. This one is worn by non-commissioned officers."
+	icon_state = "navy_cap"
+	item_state = "navy_cap"
+
+/obj/item/clothing/head/sol/dress/junior_officer
+	name = "sol navy black peaked cap"
 	desc = "A black cap issued as part of the Sol Alliance naval officer uniforms. This one is worn by junior officers."
 	icon_state = "navy_cap_officer"
 	item_state = "navy_cap_officer"
 
-/obj/item/clothing/head/sol/dress/officer
+/obj/item/clothing/head/sol/dress/senior_officer
 	name = "sol navy officer peaked cap"
 	desc = "A white cap issued as part of the Sol Alliance naval officer uniforms. This one is worn by senior officers."
 	icon_state = "navy_cap_senioroff"

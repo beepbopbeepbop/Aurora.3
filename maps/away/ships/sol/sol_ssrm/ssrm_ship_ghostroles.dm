@@ -59,7 +59,7 @@
 	uniform = /obj/item/clothing/under/rank/sol/dress/officer
 	shoes = /obj/item/clothing/shoes/laceup
 	back = /obj/item/storage/backpack/satchel/leather
-	head = /obj/item/clothing/head/sol/dress/officer
+	head = /obj/item/clothing/head/sol/dress/senior_officer
 	accessory = /obj/item/clothing/accessory/sol_pin
 
 	id = /obj/item/card/id/ssrm_ship

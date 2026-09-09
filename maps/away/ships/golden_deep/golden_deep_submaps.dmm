@@ -326,7 +326,7 @@
 /obj/structure/closet/crate/secure/weapon/alt{
 	req_one_access = list(229, 217)
 	},
-/obj/item/clothing/head/sol/dress/officer,
+/obj/item/clothing/head/sol/dress/senior_officer,
 /obj/item/clothing/under/rank/sol/dress/officer,
 /obj/item/clothing/under/rank/sol/dress/pettyofficer,
 /obj/item/clothing/head/sol/dress,

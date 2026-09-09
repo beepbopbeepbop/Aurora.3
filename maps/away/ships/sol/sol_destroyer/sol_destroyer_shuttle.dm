@@ -2,18 +2,18 @@
 //	SOL DESTROYER TRANSPORT
 //
 /obj/effect/overmap/visitable/ship/landable/sol_destroyer_transport
-	name = "Sol Destroyer Transport Shuttle"
+	name = "SAN Transport Shuttle"
 	class = "SAMV"
 	desc = "A small and relatively unassuming shuttle used by most Solarian ships for short-range transport between vessels or \
 	stations, the Cutter has long been produced by Hephaestus for use by the Solarian Navy. While more armored than most shuttles \
 	it is generally advisable to not take the unarmed Cutter into a fight. With only a small sublight engine and limited fuel \
 	reserves the Cutter should never be far from the larger vessel it is assigned to."
-	shuttle = "Sol Destroyer Transport Shuttle"
+	shuttle = "SAN Transport Shuttle"
 	icon_state = "pod"
 	moving_state = "pod_moving"
 	designer = "Solarian State Shipbuilding Corporation, Sovereign Solarian Federation of Triton"
-	sizeclass = "Military transporter shuttlecraft"
-	shiptype = "Transportation and combat boarding"
+	sizeclass = "MC-3 Cutter" //(M)ulti-purpose (U)tility shuttle 3 'Cutter'
+	shiptype = "Naval transport and utility shuttle"
 	colors = list("#5a644e", "#6a7e53")
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 0.5 SECONDS
@@ -22,18 +22,20 @@
 	vessel_size = SHIP_SIZE_TINY
 
 /obj/effect/overmap/visitable/ship/landable/sol_destroyer_transport/New()
-	designation = "[pick("Ours Now", "Better Use", "Watch It Closer", "Repurposed", "Liberated", "People's Mule", "You're Welcome")]"
+	var/shuttle_squadron = pick("", "", "", pick("VNTA-81")) // (V)ertical take-off and landing, (N)aval (T)ransport expeditionary squadron, 81
+	var/shuttle_number = pick("", "", "", pick("[rand(100, 900)]"))
+	designation = "Cutter ([shuttle_squadron]-[shuttle_number])"
 	..()
 
 /obj/structure/machinery/computer/shuttle_control/explore/terminal/sol_destroyer_transport
 	name = "shuttle control console"
-	shuttle_tag = "Sol Destroyer Transport Shuttle"
+	shuttle_tag = "SAN Transport Shuttle"
 	req_access = list(ACCESS_SOL_SHIPS)
 // --------
 
 // Controls docking behaviour
 /datum/shuttle/autodock/overmap/sol_destroyer_transport
-	name = "Sol Destroyer Transport Shuttle"
+	name = "SAN Transport Shuttle"
 	move_time = 20
 	shuttle_area = list(/area/shuttle/sol_destroyer/transport)
 	current_location = "nav_docking_port_sol_destroyer_transport"
@@ -47,7 +49,7 @@
 
 // Transport docking port marker
 /obj/effect/shuttle_landmark/sol_destroyer_transport/docking_port
-	name = "Transport Shuttle Docking Port"
+	name = "SAN Transport Shuttle Docking Port"
 	landmark_tag = "nav_docking_port_sol_destroyer_transport"
 	docking_controller = "sol_destroyer_transport_dock"
 	base_area = /area/space
@@ -73,23 +75,23 @@
 /obj/effect/map_effect/marker/airlock/shuttle/sol_destroyer_transport
 	name = "sol_destroyer_transport"
 	master_tag = "sol_destroyer_transport"
-	shuttle_tag = "Sol Destroyer Transport Shuttle"
+	shuttle_tag = "SAN Transport Shuttle"
 	cycle_to_external_air = TRUE
 // --------
 
 //
-//	SOL DESTROYER FIGHTER
+//	SAN Strike Fighter
 //
 /obj/effect/overmap/visitable/ship/landable/sol_destroyer_fighter
-	name = "SAN Space Superiority Fighter"
+	name = "SAN Strike Fighter"
 	class = "SAMV"
 	desc = "Norikura."
-	shuttle = "SAN Space Superiority Fighter"
+	shuttle = "SAN Strike Fighter"
 	icon_state = "canary"
 	moving_state = "canary_moving"
 	designer = "Solarian State Shipbuilding Corporation, Sovereign Solarian Federation of Triton"
-	sizeclass = "F-39N Norikura"
-	shiptype = "Naval space superiority fighter"
+	sizeclass = "MS-39N Norikura" // (M)ulti-purpose (S)paceplane 39, Naval variant 'Norikura'
+	shiptype = "Naval strike fighter"
 	colors = list("#5a644e", "#6a7e53")
 	max_speed = 1/(2 SECONDS)
 	burn_delay = 0.5 SECONDS
@@ -98,21 +100,20 @@
 	vessel_size = SHIP_SIZE_TINY
 
 /obj/effect/overmap/visitable/ship/landable/sol_destroyer_fighter/New()
-	var/carrier_hull = pick(/obj/effect/overmap/visitable/ship/sol_destroyer::hull)
-	var/shuttle_class = "SSF"
-	var/shuttle_number = "[rand(1, 20)]"
-	designation = "[shuttle_class]-[shuttle_number] [carrier_hull]"
+	var/shuttle_squadron = pick("", "", "", pick("FFA-64")) // (F)ixed wing, (F)ighter-(A)ttack expeditionary squadron, 64
+	var/shuttle_number = pick("", "", "", pick("[rand(100, 900)]"))
+	designation = "Norikura ([shuttle_squadron]-[shuttle_number])"
 	..()
 
 /obj/structure/machinery/computer/shuttle_control/explore/terminal/sol_destroyer_fighter
 	name = "shuttle control console"
-	shuttle_tag = "Sol Destroyer Fighter"
+	shuttle_tag = "SAN Strike Fighter"
 	req_access = list(ACCESS_SOL_SHIPS)
 // --------
 
 // Controls docking behaviour
 /datum/shuttle/autodock/overmap/sol_destroyer_fighter
-	name = "Sol Destroyer Fighter"
+	name = "SAN Strike Fighter"
 	move_time = 20
 	shuttle_area = list(/area/shuttle/sol_destroyer/fighter)
 	current_location = "nav_hangar_sol_destroyer"
@@ -152,6 +153,6 @@
 /obj/effect/map_effect/marker/airlock/shuttle/sol_destroyer_fighter
 	name = "sol_destroyer_fighter"
 	master_tag = "sol_destroyer_fighter"
-	shuttle_tag = "Sol Destroyer Fighter"
+	shuttle_tag = "SAN Strike Fighter"
 	cycle_to_external_air = TRUE
 // --------

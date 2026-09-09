@@ -191,7 +191,7 @@
 /area/shuttle/solfrig_shuttle)
 "aJ" = (
 /obj/structure/closet/cabinet,
-/obj/item/clothing/head/sol/dress/officer,
+/obj/item/clothing/head/sol/dress/senior_officer,
 /obj/item/clothing/under/rank/sol/dress/officer,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/melee/ceremonial_sword,
@@ -10917,8 +10917,8 @@
 /obj/structure/closet,
 /obj/item/clothing/under/rank/sol/dress/subofficer,
 /obj/item/clothing/under/rank/sol/dress/subofficer,
-/obj/item/clothing/head/sol/dress/officer,
-/obj/item/clothing/head/sol/dress/officer,
+/obj/item/clothing/head/sol/dress/junior_officer,
+/obj/item/clothing/head/sol/dress/junior_officer,
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/shoes/jackboots,
 /obj/structure/machinery/light{
