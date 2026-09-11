@@ -69,6 +69,8 @@
 	name = "Transport Shuttle Docking Port"
 	landmark_tag = "nav_docking_port_sol_destroyer_transport"
 	master_tag = "sol_destroyer_transport_dock"
+	req_access = list(ACCESS_SOL_SHIPS)
+	req_one_access = null
 // --------
 
 // Transport airlock
@@ -77,6 +79,8 @@
 	master_tag = "sol_destroyer_transport"
 	shuttle_tag = "SAN Transport Shuttle"
 	cycle_to_external_air = TRUE
+	req_access = list(ACCESS_SOL_SHIPS)
+	req_one_access = null
 // --------
 
 //
@@ -147,6 +151,8 @@
 	name = "Fighter Dock"
 	landmark_tag = "nav_hangar_sol_destroyer"
 	master_tag = "sol_destroyer_fighter_dock"
+	req_access = list(ACCESS_SOL_SHIPS)
+	req_one_access = null
 // --------
 
 // Fighter airlock
@@ -155,4 +161,6 @@
 	master_tag = "sol_destroyer_fighter"
 	shuttle_tag = "SAN Strike Fighter"
 	cycle_to_external_air = TRUE
+	req_access = list(ACCESS_SOL_SHIPS)
+	req_one_access = null
 // --------

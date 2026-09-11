@@ -3410,6 +3410,7 @@
 #include "code\modules\overmap\ship_weaponry\weaponry\longbow.dm"
 #include "code\modules\overmap\ship_weaponry\weaponry\longbow_ammo.dm"
 #include "code\modules\overmap\ship_weaponry\weaponry\nephilim.dm"
+#include "code\modules\overmap\ship_weaponry\weaponry\vertical_launching_system.dm"
 #include "code\modules\overmap\ships\identification.dm"
 #include "code\modules\overmap\ships\landable.dm"
 #include "code\modules\overmap\ships\ship.dm"

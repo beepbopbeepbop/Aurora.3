@@ -52,7 +52,7 @@
 	name = "high-explosive shaped charge missile"
 	name_override = "high-explosive shaped charge missile"
 	desc = "A hydrogen cell for use in a vertical_launch_system blaster repeater, carefully tuned for higher armour penetration at the cost of damage."
-	icon = 'icons/obj/guns/ship/ship_ammo_vls_missile.dmi'
+	icon = 'icons/obj/guns/ship/ship_ammo_missile.dmi'
 	icon_state = "vls_missile"
 	impact_type = SHIP_AMMO_IMPACT_HE
 	ammunition_flags = SHIP_AMMO_FLAG_VULNERABLE|SHIP_AMMO_FLAG_INFLAMMABLE|SHIP_AMMO_FLAG_VERY_HEAVY
