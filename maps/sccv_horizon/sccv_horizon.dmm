@@ -1339,13 +1339,24 @@
 	departmentType = 5;
 	department = "Security - Warden's Office"
 	},
-/obj/structure/machinery/controlhub/security/warden{
-	pixel_x = -2;
-	pixel_y = 1
+/obj/item/paper_bin{
+	pixel_x = 4;
+	pixel_y = 3
 	},
-/obj/structure/machinery/power/outlet{
-	pixel_y = 8;
-	pixel_x = 8
+/obj/item/folder/sec{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/pen/multi{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/stamp/denied{
+	pixel_y = 6;
+	pixel_x = -7
+	},
+/obj/item/stamp/warden{
+	pixel_x = -7
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/warden)
@@ -10244,6 +10255,15 @@
 "bpg" = (
 /obj/structure/disposalpipe/segment/mainline{
 	dir = 4
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/investigators_office)
@@ -19593,24 +19613,15 @@
 /turf/simulated/floor/wood,
 /area/horizon/service/cafeteria)
 "cCd" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 10
-	},
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/structure/machinery/power/apc/critical/south,
-/obj/structure/cable/green{
-	icon_state = "0-8"
-	},
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline_segment/red,
-/turf/simulated/floor/tiled/dark,
+/obj/structure/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/structure/machinery/alarm/south,
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/warden)
 "cCe" = (
 /obj/structure/cable/green{
@@ -21302,9 +21313,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/equipment)
 "cMW" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 9
-	},
+/obj/effect/floor_decal/corner/dark_blue/full,
 /obj/structure/machinery/alarm/west,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/holding_cell_a)
@@ -32896,16 +32905,13 @@
 	dir = 10
 	},
 /obj/structure/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
+	dir = 4
 	},
 /obj/structure/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
 /obj/structure/cable/green{
 	icon_state = "2-8"
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/outline_door/red,
@@ -40694,6 +40700,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/horizon/rnd/xenobiology/xenoflora)
+"fms" = (
+/obj/structure/table/glass,
+/obj/item/flashlight/lamp{
+	pixel_y = 4;
+	pixel_x = 3
+	},
+/turf/simulated/floor/tiled/dark,
+/area/horizon/security/office)
 "fmt" = (
 /obj/structure/machinery/door/airlock/external,
 /obj/effect/map_effect/marker_helper/airlock/interior,
@@ -51382,8 +51396,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/horizon/command/bridge/controlroom)
 "gHD" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 4
 	},
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -55839,9 +55853,7 @@
 /turf/simulated/floor/wood/yew,
 /area/centcom/shared_dream)
 "hlL" = (
-/obj/structure/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
+/obj/structure/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/warden)
 "hlM" = (
@@ -95196,20 +95208,12 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
-/obj/structure/table/reinforced/steel,
-/obj/item/pin_extractor,
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/effect/floor_decal/industrial/outline_segment/red{
 	dir = 6
 	},
-/obj/item/eftpos,
-/obj/structure/machinery/camera/network/security{
-	c_tag = "Security - Warden's Office";
-	dir = 1
-	},
-/obj/structure/machinery/alarm/south,
-/obj/item/destTagger,
-/obj/item/stack/packageWrap,
+/obj/structure/cable/green,
+/obj/structure/machinery/power/apc/critical/south,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/warden)
 "mmF" = (
@@ -95344,9 +95348,7 @@
 /turf/simulated/floor/tiled/white,
 /area/horizon/rnd/xenobiology)
 "mnc" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 9
-	},
+/obj/effect/floor_decal/corner/dark_blue/full,
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -108840,6 +108842,7 @@
 /obj/structure/machinery/hologram/holopad,
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/noticeboard,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/office)
 "obf" = (
@@ -113611,6 +113614,10 @@
 /area/horizon/maintenance/deck_1/main/starboard)
 "oGh" = (
 /obj/structure/table/glass,
+/obj/item/flashlight/lamp{
+	pixel_y = 4;
+	pixel_x = 3
+	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/office)
@@ -118063,13 +118070,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/syndicate_elite)
 "pke" = (
-/obj/structure/table/reinforced/steel,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/multitool,
-/obj/effect/floor_decal/corner/dark_blue/full,
 /obj/structure/machinery/firealarm/south,
 /obj/item/radio/intercom/west,
-/turf/simulated/floor/tiled/dark,
+/obj/structure/closet/secure_closet/security/warden,
+/obj/effect/floor_decal/industrial/outline/security,
+/turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/warden)
 "pkf" = (
 /obj/structure/shuttle_part/scc_space_ship{
@@ -124618,12 +124623,6 @@
 "qdr" = (
 /obj/structure/machinery/hologram/holopad,
 /obj/effect/floor_decal/corner/dark_blue/diagonal,
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/structure/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
 /obj/effect/floor_decal/industrial/outline/blue,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/warden)
@@ -141135,13 +141134,18 @@
 /turf/simulated/floor/tiled,
 /area/horizon/command/bridge/upperdeck)
 "sfw" = (
-/obj/effect/floor_decal/industrial/outline/security,
-/obj/structure/closet/secure_closet/security/warden,
 /obj/structure/machinery/recharger/wallcharger{
 	pixel_y = -32;
 	pixel_x = 4
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 4
+	},
+/obj/structure/machinery/camera/network/security{
+	c_tag = "Security - Warden's Office";
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/horizon/security/warden)
 "sfG" = (
 /obj/structure/machinery/door/airlock/centcom{
@@ -141934,6 +141938,7 @@
 "sjI" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/red,
+/obj/item/rig/light/falcata,
 /turf/simulated/floor/tiled/dark/full,
 /area/horizon/security/armoury)
 "sjJ" = (
@@ -148815,8 +148820,8 @@
 /turf/simulated/floor/tiled/white,
 /area/horizon/rnd/chemistry)
 "teI" = (
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 6
+/obj/effect/floor_decal/corner/dark_blue/full{
+	dir = 4
 	},
 /obj/structure/machinery/alarm/east,
 /turf/simulated/floor/tiled/dark,
@@ -163085,7 +163090,6 @@
 /turf/unsimulated/floor/rubber_carpet,
 /area/centcom/specops)
 "uTS" = (
-/obj/structure/noticeboard,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/office)
 "uTT" = (
@@ -166676,29 +166680,22 @@
 /turf/simulated/floor/carpet/rubber,
 /area/horizon/rnd/xenoarch/spectrometry)
 "vrN" = (
-/obj/structure/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
+/obj/structure/table/reinforced/steel,
+/obj/structure/machinery/controlhub/security/warden{
+	pixel_x = -2;
+	pixel_y = 1
 	},
-/obj/item/paper_bin{
-	pixel_x = 4;
-	pixel_y = 3
+/obj/structure/machinery/power/outlet{
+	pixel_y = 8;
+	pixel_x = 8
 	},
-/obj/item/folder/sec{
-	pixel_x = 4;
-	pixel_y = 3
-	},
-/obj/item/pen/multi{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/stamp/denied{
-	pixel_y = 6;
-	pixel_x = -7
-	},
-/obj/item/stamp/warden{
-	pixel_x = -7
-	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/stack/packageWrap,
+/obj/item/eftpos,
+/obj/item/pin_extractor,
+/obj/item/destTagger,
+/obj/item/multitool,
+/turf/simulated/floor/tiled/dark,
 /area/horizon/security/warden)
 "vrR" = (
 /obj/structure/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -177960,6 +177957,12 @@
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+/obj/item/paper_scanner,
+/obj/item/stack/packageWrap,
+/obj/item/destTagger,
+/obj/item/clipboard,
+/obj/item/storage/box/folders/blue,
+/obj/item/eftpos,
 /turf/simulated/floor/tiled/dark,
 /area/horizon/security/office)
 "wLN" = (
@@ -293594,7 +293597,7 @@ aTh
 oGh
 uTS
 aTh
-eYm
+fms
 mXT
 usw
 whs
@@ -296927,8 +296930,8 @@ mMn
 kmA
 hnK
 sCr
-aeQ
 sCr
+aeQ
 eRt
 eRt
 eRt
