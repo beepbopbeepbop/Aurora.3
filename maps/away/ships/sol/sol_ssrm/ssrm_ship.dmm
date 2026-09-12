@@ -2447,7 +2447,7 @@
 /turf/simulated/floor/reinforced,
 /area/ship/ssrm_corvette/starboard_gunnery)
 "eRS" = (
-/obj/structure/machinery/telecomms/allinone/ship,
+/obj/structure/machinery/telecomms/allinone/ship/solarian_navy,
 /obj/item/toy/desk/newtoncradle{
 	pixel_y = 13
 	},

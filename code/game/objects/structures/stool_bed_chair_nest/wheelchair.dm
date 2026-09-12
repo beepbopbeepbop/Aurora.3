@@ -145,3 +145,21 @@
 /obj/item/material/stool/chair/wheelchair/New(var/newloc)
 	..(newloc, MATERIAL_STEEL, MATERIAL_CLOTH)
 
+// Skrwheelchair
+/obj/structure/bed/stool/chair/office/wheelchair/hover
+	name = "hover wheelchair"
+	icon_state = "hover_wheelchair_preview"
+	base_icon = "hover_wheelchair"
+	held_item = /obj/item/material/stool/chair/wheelchair/hover
+
+/obj/item/material/stool/chair/wheelchair/hover
+	name = "hover wheelchair"
+	desc = "A folded wheelchair that can be carried around."
+	icon = 'icons/obj/storage/briefcase.dmi'
+	icon_state = "lockbox"
+	item_state = "lockbox"
+	base_icon = "lockbox"
+	origin_type = /obj/structure/bed/stool/chair/office/wheelchair/hover
+
+/obj/item/material/stool/chair/wheelchair/hover/New(var/newloc)
+	..(newloc, MATERIAL_SHUTTLE_SKRELL)

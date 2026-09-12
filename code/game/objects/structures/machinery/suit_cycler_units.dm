@@ -283,7 +283,7 @@
 
 /obj/structure/machinery/suit_cycler/offship/sol
 	model_text = "Sol Alliance"
-	req_access = list(/datum/access/sol_ships::id)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 	departments = list("Sol")
 	species = list(BODYTYPE_HUMAN)
 	suit = /obj/item/clothing/suit/space/void/sol

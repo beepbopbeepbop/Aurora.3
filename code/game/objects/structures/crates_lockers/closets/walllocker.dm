@@ -111,3 +111,37 @@
 /obj/structure/closet/walllocker/medical/secure/donor_blood/fill()
 	for(var/i = 0 to 3)
 		new /obj/item/reagent_containers/blood/OMinus(src)
+
+/obj/structure/closet/walllocker/medical/secure/offship
+	name = "iv supply freezer"
+	desc = "A temperature controlled closet containing blood products and crystalloids for intravenous infusion."
+	req_access = null
+
+/obj/structure/closet/walllocker/medical/secure/offship/fill()
+	..()
+	for(var/i = 1 to 6)
+		new /obj/item/reagent_containers/blood/OMinus(src)
+	for(var/i = 1 to 6)
+		new /obj/item/reagent_containers/blood/saline_plus(src)
+
+/obj/structure/closet/walllocker/medical/secure/offship/surgery
+	name = "iv supply freezer"
+	desc = "A temperature controlled closet containing blood products and crystalloids for intravenous infusion."
+	req_access = null
+
+/obj/structure/closet/walllocker/medical/secure/offship/surgery/fill()
+	..()
+	for(var/i = 1 to 3)
+		new /obj/item/reagent_containers/blood/OMinus(src)
+
+/obj/structure/closet/walllocker/medical/secure/offship/life_support
+	name = "medical life support cabinet"
+	desc = "Contains various medical life support devices."
+/obj/structure/closet/walllocker/medical/secure/offship/life_support/fill()
+	..()
+	for(var/i = 1 to 5)
+		new /obj/item/tank/oxygen(src)
+		new /obj/item/clothing/mask/breath/medical(src)
+	for(var/i = 1 to 4)
+		new /obj/item/vitals_monitor(src)
+		new /obj/item/bodybag/cryobag(src)

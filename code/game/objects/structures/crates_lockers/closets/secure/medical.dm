@@ -235,3 +235,87 @@
 	desc = "A medical locker."
 	icon_state = "med"
 	req_access = list(/datum/access/medical_equip::id)
+
+// Offship
+/obj/structure/closet/secure_closet/medical/offship
+	name = "medical supply closet"
+	desc = "Contains various medical supplies."
+	icon_state = "med"
+
+/obj/structure/closet/secure_closet/medical/offship/fill()
+	..()
+	new /obj/item/storage/box/syringes(src)
+	new /obj/item/storage/box/autoinjectors(src)
+	new /obj/item/storage/box/inhalers_auto(src)
+	new /obj/item/storage/box/inhalers(src)
+	new /obj/item/storage/box/inhalers_large(src)
+	new /obj/item/storage/box/pillbottles(src)
+	new /obj/item/storage/box/beakers(src)
+	new /obj/item/storage/box/bloodpacks(src)
+	new /obj/item/storage/box/bodybags(src)
+
+/obj/structure/closet/secure_closet/medical/offship/anaesthetic
+	name = "anaesthetics closet"
+	desc = "Contains various supplies for inducing anaesthesia."
+
+/obj/structure/closet/secure_closet/medical/offship/anaesthetic/fill()
+	..()
+	new /obj/item/tank/oxygen(src)
+	new /obj/item/tank/anesthetic(src)
+	new /obj/item/clothing/mask/breath/medical(src)
+	new /obj/item/reagent_containers/glass/bottle/polysomnine(src)
+	// Patients
+	new /obj/item/clothing/under/medical_gown(src)
+	new /obj/item/clothing/under/medical_gown(src)
+
+/obj/structure/closet/secure_closet/medical/offship/equipment
+	name = "medical equipment closet"
+	desc = "Contains various pieces of equipment for medical professionals."
+
+/obj/structure/closet/secure_closet/medical/offship/equipment/fill()
+	..()
+	for(var/i = 1 to 2)
+		new /obj/item/healthanalyzer(src)
+		new /obj/item/breath_analyzer(src)
+		new /obj/item/flashlight/pen(src)
+		new /obj/item/clothing/accessory/stethoscope(src)
+		new /obj/item/clothing/accessory/armband/med(src)
+		new /obj/item/auto_cpr(src)
+	new /obj/item/storage/backpack/duffel/med(src)
+// Physician
+	new /obj/item/storage/belt/medical(src)
+	new /obj/item/clothing/accessory/storage/pouches/white(src)
+	new /obj/item/clothing/glasses/hud/health(src)
+	new /obj/item/reagent_containers/hypospray/cmo(src)
+	new /obj/item/reagent_containers/dropper/electronic_pipette(src)
+	new /obj/item/defibrillator/loaded(src)
+	new /obj/item/advanced_healthanalyzer(src)
+// Medic
+	new /obj/item/storage/belt/medical/paramedic/combat(src)
+	new /obj/item/clothing/accessory/storage/white_vest(src)
+	new /obj/item/clothing/glasses/safety/goggles/medical(src)
+	new /obj/item/reagent_containers/hypospray/combat/empty(src)
+	new /obj/item/defibrillator/compact/combat/loaded(src)
+
+/obj/structure/closet/secure_closet/medical/offship/surgery
+	name = "surgical closet"
+	desc = "Contains scrubs for performing surgery in an operating theatre."
+
+/obj/structure/closet/secure_closet/medical/offship/surgery/fill()
+	..()
+	new /obj/item/clothing/under/rank/medical/surgeon(src)
+	new /obj/item/clothing/suit/storage/surgical_gown(src)
+	new /obj/item/clothing/accessory/apron/surgery(src)
+	new /obj/item/clothing/head/surgery(src)
+	new /obj/item/clothing/shoes/sneakers/medsci(src)
+	new /obj/item/storage/firstaid/surgery(src)
+
+/obj/structure/closet/crate/freezer/offship
+	name = "surgical freezer"
+	desc = "A temperature controlled crate for surgical biopsy samples."
+
+/obj/structure/closet/crate/freezer/offship/fill()
+	..()
+	new /obj/item/storage/box/unique/freezer/organcooler(src)
+	new /obj/item/storage/box/unique/freezer/organcooler(src)
+	new /obj/item/storage/box/unique/monkeycubes(src)

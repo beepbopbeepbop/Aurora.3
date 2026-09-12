@@ -88,10 +88,18 @@
 		/obj/item/clothing/accessory/armor_plate/military,
 		/obj/item/clothing/accessory/leg_guard/military,
 		/obj/item/clothing/accessory/arm_guard/military,
-		/obj/item/clothing/accessory/storage/modular_pouch/large
+		/obj/item/clothing/accessory/storage/chestpouch
 	)
 
 	movement_sounds = SFX_HEAVY_ARMOUR_FOOTSTEPS
+
+
+/obj/item/clothing/suit/armor/carrier/military/light
+	starting_accessories = list(
+		/obj/item/clothing/accessory/armor_plate/military,
+		/obj/item/clothing/accessory/leg_guard/military,
+		/obj/item/clothing/accessory/storage/chest_gear
+	)
 
 /obj/item/clothing/suit/armor/carrier/heavy
 	starting_accessories = list(
@@ -385,7 +393,7 @@
 
 /obj/item/clothing/accessory/storage/chest_gear
 	name = "standard vest equipment"
-	desc = "The standard pouch and commlink each Minuteman gets issued out of basic. This one has a bullet wedged in the radio, don't expect it to work anytime soon."
+	desc = "A standard pouch and communications rig, ubiquitous throughout the militaries of the Spur. This one has a bullet wedged in the radio, don't expect it to work anytime soon."
 	icon = 'icons/obj/item/clothing/suit/armor/modular_armor/modular_armor_attachments.dmi'
 	icon_state = "tcaf_chest_gear"
 	item_state = "tcaf_chest_gear"

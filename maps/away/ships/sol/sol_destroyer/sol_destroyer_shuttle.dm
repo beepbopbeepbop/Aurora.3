@@ -30,7 +30,7 @@
 /obj/structure/machinery/computer/shuttle_control/explore/terminal/sol_destroyer_transport
 	name = "shuttle control console"
 	shuttle_tag = "SAN Transport Shuttle"
-	req_access = list(ACCESS_SOL_SHIPS)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 // --------
 
 // Controls docking behaviour
@@ -43,7 +43,6 @@
 	dock_target = "sol_destroyer_transport"
 	range = 1
 	fuel_consumption = 2
-	logging_home_tag = "nav_docking_port_sol_destroyer_transport"
 	defer_initialisation = TRUE
 // --------
 
@@ -69,7 +68,7 @@
 	name = "Transport Shuttle Docking Port"
 	landmark_tag = "nav_docking_port_sol_destroyer_transport"
 	master_tag = "sol_destroyer_transport_dock"
-	req_access = list(ACCESS_SOL_SHIPS)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 	req_one_access = null
 // --------
 
@@ -79,7 +78,7 @@
 	master_tag = "sol_destroyer_transport"
 	shuttle_tag = "SAN Transport Shuttle"
 	cycle_to_external_air = TRUE
-	req_access = list(ACCESS_SOL_SHIPS)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 	req_one_access = null
 // --------
 
@@ -112,7 +111,7 @@
 /obj/structure/machinery/computer/shuttle_control/explore/terminal/sol_destroyer_fighter
 	name = "shuttle control console"
 	shuttle_tag = "SAN Strike Fighter"
-	req_access = list(ACCESS_SOL_SHIPS)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 // --------
 
 // Controls docking behaviour
@@ -125,7 +124,6 @@
 	dock_target = "sol_destroyer_fighter"
 	range = 1
 	fuel_consumption = 2
-	logging_home_tag = "nav_hangar_sol_destroyer"
 	defer_initialisation = TRUE
 // --------
 
@@ -151,7 +149,7 @@
 	name = "Fighter Dock"
 	landmark_tag = "nav_hangar_sol_destroyer"
 	master_tag = "sol_destroyer_fighter_dock"
-	req_access = list(ACCESS_SOL_SHIPS)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 	req_one_access = null
 // --------
 
@@ -161,6 +159,6 @@
 	master_tag = "sol_destroyer_fighter"
 	shuttle_tag = "SAN Strike Fighter"
 	cycle_to_external_air = TRUE
-	req_access = list(ACCESS_SOL_SHIPS)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 	req_one_access = null
 // --------

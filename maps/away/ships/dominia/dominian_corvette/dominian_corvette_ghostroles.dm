@@ -81,7 +81,7 @@
 	head = /obj/item/clothing/head/dominia/fleet/officer
 	uniform = /obj/item/clothing/under/dominia/fleet/officer
 	shoes = /obj/item/clothing/shoes/laceup
-	gloves = /obj/item/clothing/gloves/black_leather/fleet
+	gloves = /obj/item/clothing/gloves/black_leather/white
 	suit = /obj/item/clothing/suit/storage/dominia/fleet
 	back = /obj/item/storage/backpack/satchel/leather
 
@@ -107,7 +107,7 @@
 	head = /obj/item/clothing/head/dominia/fleet/officer
 	uniform = /obj/item/clothing/under/dominia/fleet/officer
 	shoes = /obj/item/clothing/shoes/laceup
-	gloves = /obj/item/clothing/gloves/black_leather/fleet
+	gloves = /obj/item/clothing/gloves/black_leather/white
 	suit = /obj/item/clothing/suit/storage/dominia/fleet
 	back = /obj/item/storage/backpack/satchel/leather
 
@@ -116,7 +116,3 @@
 /obj/item/card/id/imperial_fleet
 	name = "imperial fleet id"
 	access = list(/datum/access/imperial_fleet_voidsman_ship::id, /datum/access/external_airlocks::id)
-
-/obj/item/clothing/gloves/black_leather/fleet
-	name = "white leather gloves"
-	color = "#DDDDDD"

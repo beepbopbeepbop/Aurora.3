@@ -22,7 +22,7 @@
 
 /obj/structure/machinery/computer/shuttle_control/multi/lift/sol_destroyer
 	shuttle_tag = "Sol Destroyer Lift"
-	req_access = list(ACCESS_SOL_SHIPS)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 // --------
 
 // Space landmarks
@@ -46,7 +46,7 @@
 // Airlocks
 /obj/effect/map_effect/marker/airlock/external/sol_destroyer
 	name = "Solarian Destroyer Airlocks - PARENT TYPE"
-	req_access = list(ACCESS_SOL_SHIPS)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 	req_one_access = null
 // --------
 
@@ -83,7 +83,7 @@
 // Docking ports
 /obj/effect/map_effect/marker/airlock/docking/sol_destroyer
 	name = "Solarian Destroyer Docking Ports - PARENT TYPE"
-	req_access = list(ACCESS_SOL_SHIPS)
+	req_access = list(/datum/access/sol_navy_enlisted::id)
 	req_one_access = null
 // --------
 

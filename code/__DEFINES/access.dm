@@ -548,11 +548,13 @@
 	id = -1
 	access_type = ACCESS_TYPE_NONE
 
-/datum/access/sol_ships
+/datum/access/sol_navy_enlisted
 	id = 203
 	access_type = ACCESS_TYPE_CENTCOM
 
-/// 204 is vacant
+/datum/access/sol_navy_officer
+	id = 204
+	access_type = ACCESS_TYPE_CENTCOM
 
 /datum/access/ee_spy_ship
 	id = 205

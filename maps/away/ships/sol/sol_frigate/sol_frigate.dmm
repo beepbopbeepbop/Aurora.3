@@ -1835,6 +1835,10 @@
 	dir = 8
 	},
 /obj/structure/closet/walllocker/emerglocker/west,
+/obj/effect/ghostspawpoint{
+	identifier = "solfrig_XO";
+	name = "igs - Sol Frigate XO"
+	},
 /turf/simulated/floor/wood,
 /area/ship/sol_frigate/oquarters)
 "hV" = (
@@ -3952,7 +3956,7 @@
 /turf/simulated/floor/plating,
 /area/ship/sol_frigate/engineering)
 "rv" = (
-/obj/structure/machinery/telecomms/allinone/ship,
+/obj/structure/machinery/telecomms/allinone/ship/solarian_navy,
 /obj/structure/machinery/light{
 	dir = 1
 	},
@@ -11200,10 +11204,6 @@
 /area/ship/sol_frigate/cic)
 "ZE" = (
 /obj/structure/machinery/alarm/north,
-/obj/effect/ghostspawpoint{
-	identifier = "solfrig_XO";
-	name = "igs - Sol Frigate XO"
-	},
 /turf/simulated/floor/wood,
 /area/ship/sol_frigate/ocountry)
 "ZG" = (

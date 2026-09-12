@@ -186,6 +186,11 @@
 	species_restricted = list(BODYTYPE_UNATHI)
 	desc = "Leather gloves made for Unathi use."
 
+/obj/item/clothing/gloves/black_leather/white
+	name = "white leather gloves"
+	icon_state = "full_leather_colour"
+	item_state = "full_leather_colour"
+
 /obj/item/clothing/gloves/fingerless
 	name = "fingerless gloves"
 	desc = "A pair of gloves that don't actually cover the fingers."

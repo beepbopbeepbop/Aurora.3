@@ -5,14 +5,14 @@
 
 // Extended 8-person crew:
 //	Commissioned Officers - 1 Captain, 1 Line/Staff Officer
-//	Non-Commissioned Officers - 1 SCPO/MSGT (Navy or Marine)
+//	Non-Commissioned Officers - 1 SCPO
 //	Enlisted Crew - 2 Marines, 3 Sailors
 //	Auxiliary - 1 NU
 
 // Odyssey 12-person crew:
 //	Commissioned Officers - 1 Captain, 1 Line Officer (XO), 1 Staff Officer
-//	Non-Commissioned Officers - 1 SCPO/MSGT (Navy or Marine)
-//	Enlisted Crew - 3 Marines, 3 Sailors
+//	Non-Commissioned Officers - 1 SCPO
+//	Enlisted Crew - 2 Marines, 4 Sailors
 //	Auxiliary - 2 NU
 
 /obj/item/card/id/sol_navy
@@ -20,19 +20,31 @@
 	icon_state = "navy"
 	item_state = "navy_id"
 	overlay_state = "navy"
-	access = list(ACCESS_SOL_SHIPS, ACCESS_EXTERNAL_AIRLOCKS)
+	access = list(/datum/access/sol_navy_enlisted::id, /datum/access/external_airlocks::id)
 
 /obj/item/card/id/sol_navy/officer
 	name = "\improper SAN officer identification card"
 	icon_state = "gold"
 	item_state = "gold_id"
 	overlay_state = "gold"
+	access = list(/datum/access/sol_navy_enlisted::id, /datum/access/sol_navy_officer::id, /datum/access/external_airlocks::id)
 
 /obj/item/card/id/sol_navy/synth
 	name = "\improper SAN synthetic auxiliary identification card"
 	icon_state = "silver"
 	item_state = "silver_id"
 	overlay_state = "silver"
+	access = list(/datum/access/sol_navy_enlisted::id, /datum/access/external_airlocks::id)
+
+/obj/item/clothing/accessory/sec_commander_stripes/sol
+	name = "head of security stripes"
+	desc = "A set of high visibility inserts for use in armour. This one declares the wearer as a Head of Security."
+	icon = 'icons/obj/item/clothing/accessory/armor/modular_armor_accessories.dmi'
+	icon_state = "sec_commander_stripes"
+	item_state = "sec_commander_stripes"
+	contained_sprite = TRUE
+	slot = ACCESSORY_SLOT_GENERIC
+	flippable = FALSE
 
 // Default enlisted sailor
 /datum/ghostspawner/human/sol_destroyer_sailor
@@ -68,12 +80,13 @@ var/overflow = null
 	shoes = /obj/item/clothing/shoes/jackboots
 	back = /obj/item/storage/backpack/satchel/eng
 	head = /obj/item/clothing/head/sol
-	id = /obj/item/card/id/white
-	l_ear = /obj/item/radio/headset/ship
 	backpack_contents = list(/obj/item/storage/box/survival/engineer = 1)
 
+	id = /obj/item/card/id/sol_navy
+	l_ear = /obj/item/radio/headset/ship
+
 /obj/outfit/admin/sol_destroyer_sailor/get_id_access()
-	return list(ACCESS_SOL_SHIPS, ACCESS_EXTERNAL_AIRLOCKS)
+	return list(/datum/access/sol_navy_enlisted::id, /datum/access/external_airlocks::id)
 // ------------
 
 // Marine security complement
@@ -101,10 +114,10 @@ var/overflow = null
 	head = /obj/item/clothing/head/sol/marine/grey
 
 /obj/outfit/admin/sol_destroyer_marine/get_id_access()
-	return list(ACCESS_SOL_SHIPS, ACCESS_EXTERNAL_AIRLOCKS)
+	return list(/datum/access/sol_navy_enlisted::id, /datum/access/external_airlocks::id)
 // ------------
 
-// SCPO/MSGT
+// SCPO
 /datum/ghostspawner/human/sol_destroyer_sailor/nco
 	name = "Solarian Navy Destroyer Non-Commissioned Officer"
 	short_name = "sol_destroyer_nco"
@@ -136,11 +149,13 @@ var/overflow = null
 	uniform = /obj/item/clothing/under/rank/sol/dress/pettyofficer
 	head = /obj/item/clothing/head/sol/dress
 
+	id = /obj/item/card/id/sol_navy/officer
+
 /obj/outfit/admin/sol_destroyer_nco/get_id_access()
-	return list(ACCESS_SOL_SHIPS, ACCESS_EXTERNAL_AIRLOCKS)
+	return list(/datum/access/sol_navy_enlisted::id,  /datum/access/sol_navy_officer::id, /datum/access/external_airlocks::id)
 // ------------
 
-// XO
+// Line/Staff Officer
 /datum/ghostspawner/human/sol_destroyer_sailor/officer
 	name = "Solarian Navy Destroyer Commissioned Officer"
 	short_name = "sol_destroyer_officer"
@@ -165,13 +180,14 @@ var/overflow = null
 /obj/outfit/admin/sol_destroyer_officer
 	name = "Solarian Navy Destroyer Commissioned Officer"
 	uniform = /obj/item/clothing/under/rank/sol/dress/subofficer
-	gloves = /obj/item/clothing/gloves/black_leather/fleet
 	shoes = /obj/item/clothing/shoes/laceup
 	back = /obj/item/storage/backpack/satchel/leather
 	head = /obj/item/clothing/head/sol/dress
 
+	id = /obj/item/card/id/sol_navy/officer
+
 /obj/outfit/admin/sol_destroyer_officer/get_id_access()
-	return list(ACCESS_SOL_SHIPS, ACCESS_EXTERNAL_AIRLOCKS)
+	return list(/datum/access/sol_navy_enlisted::id, /datum/access/sol_navy_officer::id, /datum/access/external_airlocks::id)
 // ------------
 
 // captain
@@ -199,13 +215,14 @@ var/overflow = null
 /obj/outfit/admin/sol_destroyer_captain
 	name = "Solarian Navy Destroyer Commanding Officer"
 	uniform = /obj/item/clothing/under/rank/sol/dress/officer
-	gloves = /obj/item/clothing/gloves/black_leather/fleet
 	shoes = /obj/item/clothing/shoes/laceup
 	back = /obj/item/storage/backpack/satchel/leather
 	head = /obj/item/clothing/head/sol/dress/senior_officer
 
+	id = /obj/item/card/id/sol_navy/officer
+
 /obj/outfit/admin/sol_destroyer_captain/get_id_access()
-	return list(ACCESS_SOL_SHIPS, ACCESS_EXTERNAL_AIRLOCKS)
+	return list(/datum/access/sol_navy_enlisted::id, /datum/access/sol_navy_officer::id, /datum/access/external_airlocks::id)
 // ------------
 
 // Synthetic
@@ -235,12 +252,12 @@ var/overflow = null
 	gloves = /obj/item/clothing/gloves/black_leather
 	shoes = /obj/item/clothing/shoes/jackboots
 	back = /obj/item/storage/backpack/industrial
-	id = /obj/item/card/id/white
+
+	id = /obj/item/card/id/sol_navy/synth
 	l_ear = /obj/item/radio/headset/ship
-	backpack_contents = list(/obj/item/storage/box/survival/engineer = 1)
 
 /obj/outfit/admin/sol_destroyer_synth/get_id_access()
-	return list(ACCESS_SOL_SHIPS, ACCESS_EXTERNAL_AIRLOCKS)
+	return list(/datum/access/sol_navy_enlisted::id, /datum/access/external_airlocks::id)
 
 /obj/outfit/admin/sol_destroyer_synth/post_equip(mob/living/carbon/human/H, visualsOnly)
 	var/obj/item/organ/internal/machine/ipc_tag/tag = H.internal_organs_by_name[BP_IPCTAG]
