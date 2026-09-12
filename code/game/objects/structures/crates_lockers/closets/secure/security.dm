@@ -1,6 +1,6 @@
 /obj/structure/closet/secure_closet/captains
 	name = "captain's locker"
-	req_access = list(ACCESS_CAPTAIN)
+	req_access = list(/datum/access/captain::id)
 	icon_state = "cap"
 
 /obj/structure/closet/secure_closet/captains/fill()
@@ -30,7 +30,7 @@
 
 /obj/structure/closet/secure_closet/captains2
 	name = "captain's attire"
-	req_access = list(ACCESS_CAPTAIN)
+	req_access = list(/datum/access/captain::id)
 	icon_state = "cap"
 
 /obj/structure/closet/secure_closet/captains2/fill()
@@ -50,7 +50,7 @@
 
 /obj/structure/closet/secure_closet/xo
 	name = "executive officer's locker"
-	req_access = list(ACCESS_HOP)
+	req_access = list(/datum/access/hop::id)
 	icon_state = "sec"
 	icon_door = "hop"
 
@@ -86,7 +86,7 @@
 // SECURITY CLOSETS
 /obj/structure/closet/secure_closet/security
 	name = "Security Locker - PARENT ITEM"
-	req_access = list(ACCESS_BRIG)
+	req_access = list(/datum/access/holding::id)
 	icon_state = "sec"
 
 //Supply
@@ -141,7 +141,51 @@
 	//Belts
 	new /obj/item/storage/belt/security/full(src)
 	new /obj/item/storage/belt/security/vestbelt(src)
-	//Armour
+	new /obj/item/storage/box/fancy/keypouch/sec(src)
+	new /obj/item/crowbar/rescue_axe/tactical(src)
+
+/obj/structure/closet/secure_closet/hos2
+	name = "head of security's attire"
+	req_access = list(/datum/access/hos::id)
+	icon_state = "hos"
+
+/obj/structure/closet/secure_closet/hos2/fill()
+	//Appearance
+	if(prob(50))
+		new /obj/item/storage/backpack/security(src)
+	else
+		new /obj/item/storage/backpack/satchel/sec(src)
+	new /obj/item/storage/backpack/duffel/sec(src)
+	new /obj/item/clothing/suit/armor/carrier/hos(src)
+	new /obj/item/clothing/accessory/leg_guard(src)
+	new /obj/item/clothing/accessory/arm_guard(src)
+	new /obj/item/clothing/head/helmet/hos(src)
+	//Tools
+	new /obj/item/clothing/glasses/sunglasses/sechud/aviator(src)
+	new /obj/item/radio/headset/heads/hos(src)
+	new /obj/item/radio/headset/heads/hos/alt(src)
+	//Belts
+	new /obj/item/storage/belt/security(src)
+	new /obj/item/clothing/accessory/holster/waist(src)
+	new /obj/item/breath_analyzer(src)
+
+/obj/structure/closet/secure_closet/warden
+	name = "warden's locker"
+	req_access = list(/datum/access/armory::id)
+	icon_state = "warden"
+
+/obj/structure/closet/secure_closet/warden/fill()
+	//Supply
+	new /obj/item/storage/box/ids(src)
+	new /obj/item/storage/box/tactical/flashbangs(src)
+	new /obj/item/storage/box/tactical/teargas(src)
+	new /obj/item/storage/box/tactical/stingers(src)
+	//Appearance
+	if(prob(50))
+		new /obj/item/storage/backpack/security(src)
+	else
+		new /obj/item/storage/backpack/satchel/sec(src)
+	new /obj/item/storage/backpack/duffel/sec(src)
 	new /obj/item/clothing/suit/armor/carrier/officer(src)
 	new /obj/item/clothing/accessory/arm_guard(src)
 	new /obj/item/clothing/accessory/leg_guard(src)
@@ -172,7 +216,55 @@
 	//Belts
 	new /obj/item/storage/belt/security/full(src)
 	new /obj/item/storage/belt/security/vestbelt(src)
-	//Armour
+	// Utility
+	new /obj/item/radio/sec(src)
+	new /obj/item/crowbar(src)
+	new /obj/item/flashlight/maglight(src)
+	new /obj/item/wrench(src)
+	new /obj/item/multitool(src)
+
+
+/obj/structure/closet/secure_closet/security_cadet
+	name = "security cadet's locker"
+	req_access = list(/datum/access/security::id)
+	icon_state = "sec"
+	icon_door = "seccadet"
+
+/obj/structure/closet/secure_closet/security_cadet/fill()
+	//Appearance
+	if(prob(50))
+		new /obj/item/storage/backpack/security(src)
+	else
+		new /obj/item/storage/backpack/satchel/sec(src)
+	new /obj/item/storage/backpack/duffel/sec(src)
+	new /obj/item/clothing/suit/storage/hazardvest/security(src)
+	new /obj/item/clothing/under/rank/cadet(src)
+	//Tools
+	new /obj/item/radio/headset/headset_sec(src)
+	new /obj/item/radio/headset/headset_sec/alt(src)
+	new /obj/item/flash(src)
+	new /obj/item/reagent_containers/spray/pepper(src)
+	new /obj/item/taperoll/police(src)
+	new /obj/item/hailer(src)
+	new /obj/item/holowarrant(src)
+	new /obj/item/flashlight/flare/glowstick/red(src)
+	//Belts
+	new /obj/item/clothing/accessory/storage/black_vest(src)
+	new /obj/item/clothing/accessory/storage/pouches/black(src)
+	new /obj/item/storage/belt/security(src)
+
+/obj/structure/closet/secure_closet/security
+	name = "security officer's locker"
+	req_access = list(/datum/access/holding::id)
+	icon_state = "sec"
+
+/obj/structure/closet/secure_closet/security/fill()
+	//Appearance
+	if(prob(50))
+		new /obj/item/storage/backpack/security(src)
+	else
+		new /obj/item/storage/backpack/satchel/sec(src)
+	new /obj/item/storage/backpack/duffel/sec(src)
 	new /obj/item/clothing/suit/armor/carrier/officer(src)
 	new /obj/item/clothing/accessory/arm_guard(src)
 	new /obj/item/clothing/accessory/leg_guard(src)
@@ -189,7 +281,7 @@
 // Head of Security
 /obj/structure/closet/secure_closet/security/hos
 	name = "head of security's locker"
-	req_access = list(ACCESS_HOS)
+	req_access = list(/datum/access/hos)
 	icon_state = "hos"
 
 /obj/structure/closet/secure_closet/security/hos/fill()
@@ -231,7 +323,8 @@
 // Investigator
 /obj/structure/closet/secure_closet/security/investigator
 	name = "investigator's locker"
-	req_access = list(ACCESS_FORENSICS_LOCKERS)
+	req_access = list(/datum/access/forensics_lockers::id)
+	icon_state = "sec"
 
 /obj/structure/closet/secure_closet/security/investigator/fill()
 	..()
@@ -258,7 +351,7 @@
 // Cadet
 /obj/structure/closet/secure_closet/security/cadet
 	name = "security cadet's locker"
-	req_access = list(ACCESS_SECURITY)
+	req_access = list(/datum/access/security)
 	icon_door = "seccadet"
 
 /obj/structure/closet/secure_closet/security/cadet/fill()
@@ -278,7 +371,7 @@
 
 /obj/structure/closet/secure_closet/injection
 	name = "lethal injections locker"
-	req_access = list(ACCESS_CAPTAIN)
+	req_access = list(/datum/access/captain::id)
 
 /obj/structure/closet/secure_closet/injection/fill()
 	new /obj/item/reagent_containers/syringe/large/ld50_syringe/chloral(src)
@@ -288,7 +381,7 @@
 // These are special snowflakes that need to be in a global list.
 /obj/structure/closet/secure_closet/brig
 	name = "brig locker"
-	req_access = list(ACCESS_BRIG)
+	req_access = list(/datum/access/holding::id)
 	anchored = TRUE
 	canbemoved = TRUE
 	var/id = null
@@ -307,7 +400,7 @@
 
 /obj/structure/closet/secure_closet/courtroom
 	name = "courtroom locker"
-	req_access = list(ACCESS_LAWYER)
+	req_access = list(/datum/access/lawyer::id)
 
 /obj/structure/closet/secure_closet/courtroom/fill()
 	..()
@@ -324,7 +417,7 @@
 
 /obj/structure/closet/secure_closet/bridge_crew
 	name = "bridge crew's locker"
-	req_access = list(ACCESS_BRIDGE_CREW)
+	req_access = list(/datum/access/bridge_crew::id)
 	icon_state = "sec"
 	icon_door = "hop"
 
@@ -346,11 +439,11 @@
 	name = "evidence storage locker"
 	anchored = TRUE
 	canbemoved = TRUE
-	req_one_access = list(ACCESS_BRIG, ACCESS_ARMORY, ACCESS_FORENSICS_LOCKERS)
+	req_one_access = list(/datum/access/holding::id, /datum/access/armory::id, /datum/access/forensics_lockers::id)
 
 // Contraband Storage Locker
 /obj/structure/closet/secure_closet/contraband
 	name = "contraband weapons and ammunition storage locker"
 	anchored = TRUE
 	canbemoved = TRUE
-	req_access = list(ACCESS_ARMORY)
+	req_access = list(/datum/access/armory::id)
