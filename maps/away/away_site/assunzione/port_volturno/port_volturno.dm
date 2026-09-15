@@ -16,7 +16,7 @@
 
 	spawn_weight = 1
 	spawn_cost = 1
-	template_flags = TEMPLATE_FLAG_PORT_SPAWN
+	// template_flags = TEMPLATE_FLAG_PORT_SPAWN
 
 	unit_test_groups = list(2)
 

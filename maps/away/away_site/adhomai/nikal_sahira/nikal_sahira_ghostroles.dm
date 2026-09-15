@@ -227,15 +227,15 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	id = /obj/item/card/id
 	l_pocket = /obj/item/storage/wallet/random
-	r_pocket = /obj/item/handcuffs/ziptie
+	r_pocket = /obj/item/journal/notepad/filled
 	back = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
 		/obj/item/flashlight/maglight,
-		/obj/item/clothing/accessory/holster/armpit,
-		/obj/item/gun/projectile/pistol/adhomai,
-		/obj/item/ammo_magazine/mc9mm = 3,
+		/obj/item/clothing/accessory/holster/waist/brown,
+		/obj/item/gun/projectile/revolver/adhomian,
+		/obj/item/ammo_magazine/c38 = 3,
 		/obj/item/crowbar/red,
-		/obj/item/journal/notepad/filled,
+		/obj/item/melee/classic_baton,
 		/obj/item/key/door_key/crevus_rhan_cresh_patrol
 	)
 
@@ -281,8 +281,7 @@
 	l_pocket = /obj/item/storage/wallet/random
 	back = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
-		/obj/item/flashlight/maglight,
-		/obj/item/clothing/accessory/holster/armpit,
+		/obj/item/clothing/accessory/holster/waist/brown,
 		/obj/item/gun/projectile/pistol/adhomai,
 		/obj/item/ammo_magazine/mc9mm = 3,
 		/obj/item/crowbar/red,

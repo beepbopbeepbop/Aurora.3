@@ -302,6 +302,15 @@
 	if(prob(20))
 		icon_state = "moneybagalt"
 
+/obj/item/storage/bag/money/full/New()
+	..()
+	for(var/i = 1 to 2)
+		new /obj/item/spacecash/c1000(src)
+	for(var/i = 1 to 4)
+		new /obj/item/spacecash/c500(src)
+	for(var/i = 1 to 8)
+		new /obj/item/spacecash/c200(src)
+
 /obj/item/storage/bag/money/vault/New()
 	..()
 	new /obj/item/coin/silver(src)
