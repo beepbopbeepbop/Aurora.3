@@ -36,8 +36,30 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/obj/structure/machinery/photocopier,
 /obj/random/dirt_75,
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/table/standard,
+/obj/structure/machinery/chemical_dispenser/coffee/full{
+	pixel_y = 14;
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
+	pixel_x = -8;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
+	pixel_x = -8;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
+	pixel_x = -8;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/glass/beaker/pitcher/coffee{
+	pixel_x = 8
+	},
 /turf/simulated/floor/wood,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "abD" = (
@@ -464,11 +486,12 @@
 /turf/simulated/floor/exoplanet/snow,
 /area/crevus/inside/restaurant/azaula_enforcers)
 "aoG" = (
-/obj/structure/machinery/door/urban/jail_door{
-	req_one_access = list(/datum/access/crevus_rhan_cresh)
-	},
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 4
+	},
+/obj/random/dirt_75,
+/obj/structure/machinery/door/urban/jail_door{
+	req_one_access = list(/datum/access/crevus_rhan_cresh)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
@@ -1028,13 +1051,9 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/the_lock)
 "aJa" = (
-/obj/structure/machinery/door/urban/metal_red{
-	dir = 4;
-	name = "Locker Room";
-	req_one_access = list(/datum/access/crevus_rhan_cresh)
-	},
+/obj/structure/urban/pylon,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/commercial_complex/rhan_cresh_office)
+/area/crevus/outside)
 "aJg" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/spline/plain/grey{
@@ -1088,6 +1107,13 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/full,
 /area/crevus/inside/casino/basement)
+"aKJ" = (
+/obj/structure/machinery/door/urban/metal{
+	name = "Azaula Entertainment Garage";
+	req_one_access = list(/datum/access/crevus_azaula_enforcer)
+	},
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/crevus/outside)
 "aKL" = (
 /obj/random/dirt_75,
 /obj/structure/sign/emergency/evacuation/stairs{
@@ -1189,6 +1215,7 @@
 	},
 /obj/item/flashlight/maglight,
 /obj/random/dirt_75,
+/obj/item/camera/adhomai,
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "aNv" = (
@@ -2682,10 +2709,15 @@
 /turf/simulated/floor/exoplanet/plating/snow,
 /area/crevus/outside)
 "bMO" = (
-/obj/structure/machinery/light/small{
-	dir = 8
+/obj/item/clothing/shoes/workboots/tajara/dark{
+	pixel_y = 18;
+	pixel_x = 7
 	},
-/turf/simulated/floor/exoplanet/wood,
+/obj/item/clothing/shoes/workboots/tajara/dark{
+	pixel_y = 13;
+	pixel_x = 7
+	},
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/outside)
 "bMQ" = (
 /obj/effect/decal/curb{
@@ -3262,6 +3294,11 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/lino,
 /area/crevus/inside/casino)
+"ccm" = (
+/obj/random/dirt_75,
+/obj/structure/machinery/door/urban/metal,
+/turf/simulated/floor/tiled/dark/full,
+/area/crevus/outside)
 "ccK" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /obj/structure/machinery/light,
@@ -3381,8 +3418,18 @@
 /turf/simulated/floor/wood,
 /area/crevus/inside/artisan_shop)
 "cjl" = (
+/obj/structure/sign/painting_frame/almari,
 /turf/simulated/floor/wood,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
+"cjo" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/structure/bed/stool/chair/folding{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete/dark,
+/area/crevus/outside)
 "ckq" = (
 /obj/item/material/stool/chair/folding,
 /obj/random/dirt_75,
@@ -4652,14 +4699,43 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/crevus/outside)
 "dew" = (
+/obj/structure/table/standard,
+/obj/item/paper_scanner{
+	pixel_x = 7;
+	pixel_y = 13
+	},
+/obj/item/folder/yellow{
+	pixel_x = -8;
+	pixel_y = 15
+	},
+/obj/item/folder/yellow{
+	pixel_x = -8;
+	pixel_y = 13
+	},
+/obj/item/folder/yellow{
+	pixel_x = -8;
+	pixel_y = 11
+	},
+/obj/item/stack/packageWrap{
+	pixel_y = -2;
+	pixel_x = 3
+	},
+/obj/item/stack/wrapping_paper{
+	pixel_y = 2;
+	pixel_x = -2
+	},
+/obj/item/toner,
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 10
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8
 	},
-/obj/random/dirt_75,
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "dfg" = (
 /obj/structure/rod_railing,
@@ -4800,9 +4876,6 @@
 	dir = 1
 	},
 /obj/random/dirt_75,
-/obj/structure/noticeboard{
-	pixel_y = 32
-	},
 /obj/structure/coatrack{
 	pixel_y = 20;
 	pixel_x = -7
@@ -5363,14 +5436,13 @@
 /turf/simulated/floor/exoplanet/tiled/dark,
 /area/crevus/inside/sewers)
 "dyv" = (
-/obj/structure/table/rack/folding_table,
-/obj/structure/machinery/light/small{
-	dir = 4
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/spline/plain/grey,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 1
 	},
-/obj/random/dirt_75,
-/obj/random/junk,
-/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
-/area/crevus/outside)
+/turf/simulated/floor/tiled/gridded,
+/area/crevus/inside/commercial_complex/rhan_cresh_office)
 "dyF" = (
 /obj/structure/platform_deco/engineer{
 	dir = 4
@@ -5613,6 +5685,7 @@
 /obj/effect/floor_decal/spline/plain/corner/grey{
 	dir = 1
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "dFK" = (
@@ -6726,11 +6799,11 @@
 /turf/simulated/floor/exoplanet/asphalt,
 /area/crevus/inside/sewers)
 "ewM" = (
-/obj/structure/curtain/black{
-	pixel_y = -32
+/obj/structure/flora/grass/brown,
+/obj/effect/step_trigger/thrower{
+	dir = 8
 	},
-/obj/structure/trash_pile,
-/turf/simulated/floor/exoplanet/wood,
+/turf/simulated/floor/exoplanet/snow,
 /area/crevus/outside)
 "ewV" = (
 /obj/effect/decal/curb/corner{
@@ -6767,14 +6840,11 @@
 	pixel_x = -6;
 	pixel_y = 1
 	},
-/obj/structure/machinery/light{
-	dir = 8
-	},
 /obj/structure/machinery/button/remote/blast_door{
 	dir = 6;
 	pixel_x = 9;
 	pixel_y = 7;
-	name = "Store Shutters";
+	name = "Office Shutters";
 	id = "crevus_rhan_cresh_office_shutters"
 	},
 /obj/structure/machinery/button/switch/windowtint{
@@ -7477,11 +7547,12 @@
 /turf/simulated/floor/tiled/gridded,
 /area/crevus/inside/commercial_complex/library)
 "eTs" = (
+/obj/structure/rod_railing/jailbar,
+/obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/spline/plain/grey{
-	dir = 9
+	dir = 10
 	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "eTw" = (
 /turf/simulated/floor/tiled/dark,
@@ -7623,7 +7694,7 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/firearm_store)
 "eZQ" = (
-/obj/vehicle/bike/snow/no_key{
+/obj/vehicle/bike/snow/auto_spawn_key{
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/asphalt,
@@ -7703,6 +7774,11 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/lino,
 /area/crevus/inside/restaurant/floor_1/north)
+"fbx" = (
+/obj/random/dirt_75,
+/obj/effect/landmark/bike_key_spawner/snow_bikes,
+/turf/simulated/floor/carpet/darkblue,
+/area/crevus/inside/commercial_complex/rhan_cresh_office)
 "fcn" = (
 /obj/structure/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -7733,32 +7809,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/crevus/inside/the_lock/backroom)
 "fdp" = (
-/obj/item/storage/box/zipties{
-	pixel_y = 11;
-	pixel_x = 5
+/obj/effect/step_trigger/thrower{
+	dir = 8
 	},
-/obj/item/storage/box/zipties{
-	pixel_y = 3;
-	pixel_x = 5
-	},
-/obj/structure/table/steel,
-/obj/effect/floor_decal/spline/plain/grey{
-	dir = 1
-	},
-/obj/item/camera_film/taj_film{
-	pixel_x = -9;
-	pixel_y = 10
-	},
-/obj/item/camera_film/taj_film{
-	pixel_x = -9;
-	pixel_y = 4
-	},
-/obj/structure/weapon_rack/double_pellet{
-	pixel_y = 32
-	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/commercial_complex/rhan_cresh_office)
+/obj/effect/floor_decal/snowdrift/large/random,
+/turf/simulated/floor/exoplanet/snow,
+/area/crevus/outside)
 "fez" = (
 /obj/structure/platform/column,
 /turf/simulated/floor/exoplanet/concrete,
@@ -7912,12 +7968,7 @@
 /turf/simulated/floor/tiled/light/full,
 /area/crevus/inside/nt_pharmacy)
 "fjg" = (
-/obj/random/dirt_75,
-/obj/structure/trashbags{
-	pixel_y = 11;
-	pixel_x = 6
-	},
-/turf/simulated/floor/exoplanet/wood,
+/turf/simulated/floor/tiled/dark/full,
 /area/crevus/outside)
 "fjo" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
@@ -8034,8 +8085,8 @@
 /turf/simulated/floor/exoplanet/concrete,
 /area/crevus/outside)
 "fox" = (
-/obj/effect/floor_decal/spline/fancy/wood/corner{
-	dir = 4
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/wood,
@@ -8204,8 +8255,12 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete/dark,
 /area/crevus/outside)
 "fsI" = (
-/obj/structure/fire_barrel,
-/turf/simulated/floor/exoplanet/wood,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/structure/fire_barrel/lit,
+/turf/simulated/floor/exoplanet/sidewalk/concrete/dark,
 /area/crevus/outside)
 "fsL" = (
 /obj/structure/table/rack/clothing{
@@ -8651,6 +8706,7 @@
 	pixel_y = -8;
 	pixel_x = 7
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "fIM" = (
@@ -9176,13 +9232,9 @@
 /turf/simulated/floor/exoplanet/concrete,
 /area/crevus/outside)
 "gdl" = (
-/obj/structure/table/steel,
-/obj/effect/floor_decal/spline/plain/grey{
-	dir = 9
-	},
-/obj/item/camera/adhomai{
-	pixel_x = 2;
-	pixel_y = 7
+/obj/structure/machinery/door/urban/metal_red{
+	name = "Locker Room";
+	req_one_access = list(/datum/access/crevus_rhan_cresh)
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
@@ -9239,6 +9291,8 @@
 /obj/structure/sign/nosmoking_1{
 	pixel_x = -32
 	},
+/obj/structure/mopbucket,
+/obj/item/mop,
 /turf/simulated/floor/tiled/white,
 /area/crevus/inside/restaurant/lobby)
 "ggJ" = (
@@ -9543,9 +9597,12 @@
 /turf/simulated/floor/exoplanet/plating,
 /area/crevus/inside/sewers)
 "gmQ" = (
-/obj/structure/machinery/photocopier,
-/turf/simulated/floor/lino/diamond,
-/area/crevus/inside/restaurant/azaula_enforcers)
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/spline/plain/cee/grey{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/crevus/inside/commercial_complex/rhan_cresh_office)
 "gne" = (
 /obj/effect/decal/road_marking{
 	dir = 8
@@ -9559,9 +9616,8 @@
 /turf/simulated/floor/lino/diamond,
 /area/crevus/inside/casino)
 "gnx" = (
-/obj/random/dirt_75,
-/obj/random/junk,
-/turf/simulated/floor/exoplanet/wood,
+/obj/structure/stairs/north,
+/turf/simulated/floor/tiled/dark/full,
 /area/crevus/outside)
 "gnB" = (
 /obj/structure/table/reinforced/steel,
@@ -9830,6 +9886,15 @@
 	},
 /turf/simulated/floor/lino/diamond,
 /area/crevus/inside/artisan_shop)
+"gtO" = (
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/crevus/outside)
 "gtP" = (
 /obj/structure/machinery/door/blast/shutters/open{
 	dir = 4
@@ -10242,12 +10307,12 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/clothing_store)
 "gJB" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 9
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/machinery/photocopier,
+/obj/effect/floor_decal/spline/plain/cee/grey{
+	dir = 1
 	},
-/obj/random/dirt_75,
-/obj/structure/bookcase,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "gJC" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -10630,22 +10695,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/floor_2)
 "gVc" = (
-/obj/structure/filingcabinet/filingcabinet{
-	pixel_x = -11
-	},
-/obj/structure/filingcabinet/filingcabinet,
-/obj/structure/filingcabinet/filingcabinet{
-	pixel_x = 11
-	},
-/obj/effect/floor_decal/corner/dark_blue/full{
-	dir = 8
-	},
-/obj/random/pottedplant_small{
-	pixel_x = -7;
-	pixel_y = 14
-	},
-/turf/simulated/floor/tiled,
-/area/crevus/inside/commercial_complex/rhan_cresh_office)
+/obj/vehicle/bike/motor,
+/obj/structure/machinery/mech_recharger/automobile,
+/turf/simulated/floor/tiled/dark/full,
+/area/crevus/outside)
 "gVo" = (
 /obj/structure/platform/engineer{
 	dir = 8
@@ -11191,26 +11244,12 @@
 /turf/simulated/floor/exoplanet/ice/dark,
 /area/crevus/outside)
 "heN" = (
-/obj/structure/machinery/door/urban/jail_door{
-	req_one_access = list(/datum/access/crevus_rhan_cresh)
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 1
 	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/table/steel,
-/obj/item/folder/yellow{
-	pixel_x = -6
-	},
-/obj/item/folder/yellow{
-	pixel_x = -6;
-	pixel_y = 2
-	},
-/obj/item/folder/yellow{
-	pixel_x = -6;
-	pixel_y = 4
-	},
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/spline/plain/corner/grey,
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "hfp" = (
 /obj/effect/floor_decal/spline/plain/brown{
@@ -11698,6 +11737,12 @@
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/exoplanet/plating/snow,
 /area/crevus/outside)
+"hxV" = (
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/crevus/inside/commercial_complex/rhan_cresh_office)
 "hyg" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/spline/plain/corner/black,
@@ -11793,6 +11838,11 @@
 	},
 /turf/simulated/floor/cave/adhomai,
 /area/crevus/inside/firearm_store/basement)
+"hAa" = (
+/obj/random/dirt_75,
+/obj/structure/machinery/photocopier,
+/turf/simulated/floor/lino/diamond,
+/area/crevus/inside/restaurant/azaula_enforcers)
 "hAl" = (
 /obj/structure/platform/metal_alt{
 	dir = 8
@@ -12538,9 +12588,29 @@
 "hZN" = (
 /obj/structure/machinery/light,
 /obj/structure/table/wood,
-/obj/structure/machinery/photocopier/faxmachine{
-	req_one_access = null;
-	pixel_y = 6
+/obj/item/paper_scanner{
+	pixel_x = 7;
+	pixel_y = 13
+	},
+/obj/item/folder/yellow{
+	pixel_x = -8;
+	pixel_y = 15
+	},
+/obj/item/folder/yellow{
+	pixel_x = -8;
+	pixel_y = 13
+	},
+/obj/item/folder/yellow{
+	pixel_x = -8;
+	pixel_y = 11
+	},
+/obj/item/stack/packageWrap{
+	pixel_y = -2;
+	pixel_x = 3
+	},
+/obj/item/stack/wrapping_paper{
+	pixel_y = 2;
+	pixel_x = -2
 	},
 /obj/item/toner,
 /turf/simulated/floor/lino/diamond,
@@ -13215,10 +13285,11 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 1
 	},
-/obj/item/typewriter_case{
-	pixel_y = -4
+/obj/item/modular_computer/laptop/preset/civilian{
+	pixel_y = 9
 	},
 /obj/random/dirt_75,
+/obj/item/paper/fluff/crevus/key_note,
 /turf/simulated/floor/lino/diamond,
 /area/crevus/inside/restaurant/azaula_enforcers)
 "iuL" = (
@@ -13980,25 +14051,9 @@
 /area/crevus/inside/the_lock)
 "iVk" = (
 /obj/structure/table/wood,
-/obj/structure/machinery/chemical_dispenser/coffee/full{
-	pixel_y = 14;
-	pixel_x = 4
-	},
-/obj/item/reagent_containers/glass/beaker/pitcher/coffee{
-	pixel_x = 6;
-	pixel_y = 2
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
-	pixel_x = -8;
-	pixel_y = 11
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
-	pixel_x = -8;
+/obj/structure/machinery/photocopier/faxmachine{
+	req_one_access = null;
 	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
-	pixel_x = -8;
-	pixel_y = 1
 	},
 /turf/simulated/floor/lino/diamond,
 /area/crevus/inside/restaurant/azaula_enforcers)
@@ -14363,6 +14418,31 @@
 /obj/structure/lattice/ceiling,
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/crevus/inside/sewers)
+"jfD" = (
+/obj/structure/extinguisher_cabinet/west,
+/obj/structure/table/wood,
+/obj/structure/machinery/chemical_dispenser/coffee/full{
+	pixel_y = 14;
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
+	pixel_x = 11;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
+	pixel_x = 11;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
+	pixel_x = 11;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/glass/beaker/pitcher/coffee{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/turf/simulated/floor/lino/diamond,
+/area/crevus/inside/restaurant/azaula_enforcers)
 "jfK" = (
 /obj/random/dirt_75,
 /obj/effect/decal/cleanable/snow,
@@ -15013,7 +15093,6 @@
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 8
 	},
-/obj/random/dirt_75,
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
@@ -15253,6 +15332,10 @@
 "jKa" = (
 /obj/effect/decal/cleanable/floor_damage/random_wood_broken,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/structure/trashbags{
+	pixel_y = 11;
+	pixel_x = 6
+	},
 /turf/simulated/floor/exoplanet/wood,
 /area/crevus/outside)
 "jKm" = (
@@ -15332,9 +15415,16 @@
 /turf/simulated/floor/exoplanet/asphalt,
 /area/crevus/inside/sewers)
 "jMu" = (
-/obj/structure/fire_barrel/lit,
-/obj/random/dirt_75,
-/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/obj/structure/platform/ledge/dark{
+	dir = 1
+	},
+/obj/structure/platform/ledge/dark{
+	dir = 4
+	},
+/obj/structure/platform_deco/ledge/dark{
+	dir = 10
+	},
+/turf/simulated/open,
 /area/crevus/outside)
 "jMH" = (
 /obj/structure/machinery/light/small{
@@ -15680,8 +15770,12 @@
 	dir = 6;
 	pixel_x = 14;
 	pixel_y = -2;
-	name = "Store Shutters";
+	name = "Office Shutters";
 	id = "crevus_rhan_cresh_office_shutters"
+	},
+/obj/item/typewriter_case{
+	pixel_x = -5;
+	pixel_y = 7
 	},
 /turf/simulated/floor/wood,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
@@ -15993,8 +16087,9 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/crevus/outside)
 "kiB" = (
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/random/dirt_75,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
 /turf/simulated/floor/wood,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "kiM" = (
@@ -16506,11 +16601,20 @@
 /turf/simulated/floor/wood,
 /area/crevus/inside/auto_gallery)
 "kAN" = (
-/obj/structure/bed/stool/chair/folding{
-	dir = 4
+/obj/structure/machinery/door/urban/metal{
+	name = "Azaula Entertainment Enforcement Office";
+	req_one_access = list(/datum/access/crevus_azaula_enforcer)
 	},
-/turf/simulated/floor/exoplanet/sidewalk/concrete,
-/area/crevus/outside)
+/obj/structure/sign/urban/staff{
+	pixel_y = 22;
+	pixel_x = -1
+	},
+/obj/structure/machinery/door/blast/shutters{
+	dir = 2;
+	id = "crevus_azaula_office_shutters"
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/crevus/inside/restaurant/azaula_enforcers)
 "kBs" = (
 /obj/structure/trashbags{
 	pixel_y = -3;
@@ -18257,6 +18361,12 @@
 /obj/item/hullbeacon/red,
 /turf/simulated/floor/exoplanet/snow,
 /area/crevus/outside)
+"lHK" = (
+/obj/structure/stairs_railing{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/crevus/outside)
 "lIx" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -18336,10 +18446,13 @@
 /turf/simulated/floor/lino,
 /area/crevus/inside/restaurant/azaula_enforcers)
 "lKP" = (
-/obj/structure/machinery/light/small{
-	dir = 8
-	},
 /obj/effect/floor_decal/spline/plain/grey{
+	dir = 9
+	},
+/obj/structure/closet/secure_closet{
+	req_one_access = list(/datum/access/crevus_rhan_cresh)
+	},
+/obj/structure/machinery/light/small{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
@@ -18669,10 +18782,10 @@
 /turf/simulated/floor/exoplanet/plating/snow,
 /area/crevus/outside)
 "lUd" = (
-/obj/structure/machinery/door/urban{
+/obj/structure/machinery/door/urban/metal{
+	dir = 4;
 	name = "Azaula Entertainment Enforcement Office";
-	req_one_access = list(/datum/access/crevus_azaula_enforcer);
-	dir = 4
+	req_one_access = list(/datum/access/crevus_azaula_enforcer)
 	},
 /obj/structure/machinery/door/blast/shutters{
 	dir = 4;
@@ -18927,6 +19040,7 @@
 /obj/effect/floor_decal/spline/plain/grey,
 /obj/item/flashlight/maglight,
 /obj/random/dirt_75,
+/obj/item/camera/adhomai,
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "mer" = (
@@ -19577,11 +19691,10 @@
 /turf/simulated/floor/lino,
 /area/crevus/inside/restaurant/table_area)
 "mBk" = (
-/obj/structure/bed/stool/chair/folding{
+/obj/effect/step_trigger/thrower{
 	dir = 8
 	},
-/obj/random/dirt_75,
-/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/turf/simulated/floor/exoplanet/snow,
 /area/crevus/outside)
 "mBu" = (
 /obj/structure/stairs/south,
@@ -20631,12 +20744,11 @@
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 1
 	},
-/obj/effect/floor_decal/spline/fancy/wood,
-/obj/random/dirt_75,
 /obj/effect/ghostspawpoint{
 	name = "igs - crevus_rhan_cresh_patrol";
 	identifier = "crevus_rhan_cresh_patrol"
 	},
+/obj/random/dirt_75,
 /turf/simulated/floor/wood,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "nqA" = (
@@ -20928,27 +21040,22 @@
 /turf/simulated/floor/lino/diamond,
 /area/crevus/inside/restaurant/lobby)
 "nDy" = (
-/obj/structure/table/steel,
-/obj/structure/machinery/chemical_dispenser/coffee/full{
-	pixel_y = 14;
-	pixel_x = 5
+/obj/structure/machinery/papershredder{
+	pixel_x = 6
 	},
-/obj/item/reagent_containers/glass/beaker/pitcher/coffee{
-	pixel_x = 8
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_y = 1;
+	pixel_x = -9
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
-	pixel_x = -8;
-	pixel_y = 11
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/random/pottedplant_small{
+	pixel_x = -9;
+	pixel_y = 14
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
-	pixel_x = -8;
-	pixel_y = 6
+/obj/effect/floor_decal/spline/plain/cee/grey{
+	dir = 8
 	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup{
-	pixel_x = -8;
-	pixel_y = 1
-	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "nDE" = (
 /obj/effect/floor_decal/industrial/arrow/red,
@@ -21121,12 +21228,18 @@
 /turf/simulated/floor/exoplanet/grass/no_edge,
 /area/crevus/outside)
 "nJc" = (
-/obj/structure/rod_railing/jailbar,
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/corner/grey{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "nJl" = (
 /obj/effect/floor_decal/spline/plain/grey{
-	dir = 8
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
@@ -21779,11 +21892,7 @@
 /turf/simulated/floor/exoplanet/tiled/full,
 /area/crevus/outside)
 "oeY" = (
-/obj/random/dirt_75,
-/obj/structure/machinery/door/urban/metal{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/outside)
 "off" = (
 /obj/structure/machinery/light{
@@ -22659,25 +22768,9 @@
 	pixel_x = -6;
 	pixel_y = -8
 	},
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/off{
-	pixel_y = 8;
-	pixel_x = -6
-	},
-/obj/item/folder/yellow{
-	pixel_x = 9
-	},
-/obj/item/folder/yellow{
-	pixel_x = 9;
-	pixel_y = 2
-	},
-/obj/item/folder/yellow{
-	pixel_x = 9;
-	pixel_y = 4
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/idris{
+	pixel_x = 12;
+	pixel_y = 8
 	},
 /turf/simulated/floor/lino/diamond,
 /area/crevus/inside/restaurant/azaula_enforcers)
@@ -22874,7 +22967,29 @@
 /turf/simulated/floor/exoplanet/concrete,
 /area/crevus/outside)
 "oSk" = (
-/obj/random/dirt_75,
+/obj/item/storage/box/zipties{
+	pixel_y = 11;
+	pixel_x = 5
+	},
+/obj/item/storage/box/zipties{
+	pixel_y = 3;
+	pixel_x = 5
+	},
+/obj/structure/table/steel,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 1
+	},
+/obj/structure/weapon_rack/double_pellet{
+	pixel_y = 32
+	},
+/obj/item/camera_film/taj_film{
+	pixel_y = 9;
+	pixel_x = -6
+	},
+/obj/item/camera_film/taj_film{
+	pixel_y = 6;
+	pixel_x = -6
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "oTc" = (
@@ -23430,8 +23545,8 @@
 /turf/simulated/floor/exoplanet/plating/snow,
 /area/crevus/outside)
 "pjk" = (
-/obj/effect/floor_decal/spline/fancy/wood,
 /obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
 /turf/simulated/floor/wood,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "pjm" = (
@@ -24070,6 +24185,13 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/crevus/outside)
+"pHH" = (
+/obj/random/dirt_75,
+/obj/structure/bed/sleeping_bag{
+	color = "#3f4d5c"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/crevus/outside)
 "pHT" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/polarized/concrete{
 	id = "crevus_rhan_cresh_office"
@@ -24571,11 +24693,10 @@
 /turf/simulated/floor/plating,
 /area/crevus/inside/general_store/storage)
 "pZG" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 6
-	},
-/obj/random/dirt_75,
 /obj/structure/machinery/light{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
@@ -24989,10 +25110,10 @@
 /turf/simulated/floor/exoplanet/concrete/square,
 /area/crevus/outside)
 "qop" = (
-/obj/structure/rod_railing/jailbar/bars_slot,
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 8
 	},
+/obj/structure/rod_railing/jailbar/bars_slot,
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
@@ -25032,6 +25153,19 @@
 	pixel_x = -6
 	},
 /turf/simulated/floor/exoplanet/asphalt,
+/area/crevus/outside)
+"qpd" = (
+/obj/effect/floor_decal/industrial/hatch/grey,
+/obj/structure/machinery/door/blast/shutters{
+	dir = 2;
+	id = "crevus_azaula_garage_shutters"
+	},
+/obj/structure/machinery/button/remote/blast_door{
+	dir = 1;
+	pixel_x = 26;
+	id = "crevus_azaula_garage_shutters"
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/crevus/outside)
 "qpK" = (
 /obj/structure/table/wood,
@@ -25547,16 +25681,11 @@
 /turf/simulated/floor/tiled/white,
 /area/crevus/inside/restaurant/lobby)
 "qJD" = (
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/floor_decal/corner_wide/grey/diagonal,
-/obj/structure/extinguisher_cabinet/south,
-/obj/structure/mopbucket,
-/obj/item/mop,
-/turf/simulated/wall,
-/area/crevus/inside/restaurant/lobby)
+/obj/effect/decal/cleanable/floor_damage/random_wood_broken,
+/obj/random/dirt_75,
+/obj/structure/fire_barrel,
+/turf/simulated/floor/exoplanet/wood,
+/area/crevus/outside)
 "qJM" = (
 /obj/structure/platform/column,
 /obj/structure/lattice,
@@ -26321,9 +26450,8 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/the_lock/backroom)
 "roT" = (
-/obj/structure/table/rack/folding_table,
-/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
-/area/crevus/outside)
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/crevus/inside/commercial_complex/rhan_cresh_office)
 "rpt" = (
 /obj/random/dirt_75,
 /obj/effect/decal/road_marking/no_park,
@@ -26961,6 +27089,14 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/exoplanet/tiled/full,
 /area/crevus/outside)
+"rGR" = (
+/obj/structure/machinery/door/urban/metal{
+	dir = 4;
+	name = "Garage Roof Access";
+	req_one_access = list(/datum/access/crevus_azaula_enforcer)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/crevus/outside)
 "rGU" = (
 /obj/effect/floor_decal/concrete/gutter/corner{
 	dir = 4;
@@ -27451,14 +27587,13 @@
 /turf/simulated/floor/exoplanet/tiled/dark/full,
 /area/crevus/inside/sewers)
 "rXe" = (
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/obj/structure/bed/stool/chair/plastic{
-	dir = 8
-	},
 /obj/random/dirt_75,
-/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/obj/structure/machinery/door/urban/metal{
+	dir = 4;
+	name = "Azaula Entertainment Garage";
+	req_one_access = list(/datum/access/crevus_azaula_enforcer)
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/crevus/outside)
 "rXq" = (
 /obj/random/dirt_75,
@@ -27526,9 +27661,52 @@
 /turf/simulated/floor/wood,
 /area/crevus/inside/auto_gallery)
 "sai" = (
-/obj/random/dirt_75,
-/obj/effect/decal/cleanable/cobweb,
-/turf/simulated/floor/exoplanet/plating,
+/obj/structure/table/rack/clothing{
+	dir = 4
+	},
+/obj/item/clothing/gloves/black_leather/tajara,
+/obj/item/clothing/gloves/black_leather/tajara,
+/obj/item/clothing/mask/snood{
+	color = "#303030";
+	pixel_y = 7;
+	pixel_x = -5
+	},
+/obj/item/clothing/mask/snood{
+	color = "#303030";
+	pixel_y = 7;
+	pixel_x = 8
+	},
+/obj/item/clothing/suit/storage/toggle/leather_jacket/biker{
+	pixel_x = 7
+	},
+/obj/item/clothing/suit/storage/toggle/leather_jacket/biker{
+	pixel_x = -6
+	},
+/obj/item/clothing/pants/tailoredjeans{
+	color = "#303030";
+	pixel_x = -6
+	},
+/obj/item/clothing/pants/tailoredjeans{
+	color = "#303030";
+	pixel_x = 7
+	},
+/obj/item/clothing/accessory/scarf/random{
+	pixel_x = 3;
+	pixel_y = 9
+	},
+/obj/item/clothing/accessory/scarf/random{
+	pixel_x = 11;
+	pixel_y = 9
+	},
+/obj/item/clothing/head/tajaran/fur{
+	pixel_y = 7;
+	pixel_x = -8
+	},
+/obj/item/clothing/head/tajaran/fur{
+	pixel_y = 10;
+	pixel_x = -6
+	},
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/outside)
 "sat" = (
 /obj/structure/platform/metal_alt{
@@ -27766,28 +27944,14 @@
 /area/crevus/outside)
 "shG" = (
 /obj/structure/table/wood,
-/obj/item/typewriter_case{
-	pixel_x = -8;
-	pixel_y = 7
+/obj/item/modular_computer/laptop/preset/civilian{
+	pixel_y = 9
 	},
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 8
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/idris{
-	pixel_x = 12;
-	pixel_y = 2
 	},
 /obj/random/dirt_75,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/floor_decal/corner/red/diagonal,
-/obj/effect/floor_decal/spline/plain/black{
-	dir = 8
-	},
-/obj/structure/table/wood,
 /obj/item/paper/fluff/crevus/key_note,
 /turf/simulated/floor/lino,
 /area/crevus/inside/restaurant/azaula_enforcers)
@@ -28753,11 +28917,19 @@
 /turf/simulated/floor/exoplanet/snow,
 /area/crevus/outside)
 "sNM" = (
-/obj/effect/floor_decal/spline/fancy/wood{
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/structure/table/standard,
+/obj/structure/machinery/photocopier/faxmachine{
+	req_one_access = null;
+	pixel_y = 6
+	},
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/grey{
 	dir = 8
 	},
-/obj/structure/bookcase,
-/turf/simulated/floor/wood,
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "sNQ" = (
 /obj/structure/platform/engineer{
@@ -28915,19 +29087,6 @@
 /obj/item/flashlight/maglight,
 /obj/item/storage/briefcase/real,
 /obj/item/taperecorder,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
-/obj/effect/floor_decal/corner/red/diagonal,
-/obj/effect/floor_decal/spline/plain/black{
-	dir = 1
-	},
-/obj/structure/table/wood,
-/obj/item/paper/fluff/crevus/key_note{
-	pixel_y = 4;
-	pixel_x = 3
-	},
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/restaurant/azaula_enforcers)
 "sVv" = (
@@ -28979,11 +29138,14 @@
 /turf/simulated/floor/exoplanet/water/alt,
 /area/crevus/inside/sewers)
 "sXn" = (
-/obj/effect/floor_decal/spline/plain/grey{
-	dir = 5
+/obj/structure/machinery/door/urban/jail_door{
+	req_one_access = list(/datum/access/crevus_rhan_cresh)
 	},
-/obj/random/dirt_75,
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/gridded,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "sXp" = (
 /obj/structure/table/glass,
@@ -29479,6 +29641,13 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/restaurant/kitchen)
+"tkl" = (
+/obj/random/dirt_75,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/crevus/inside/commercial_complex/rhan_cresh_office)
 "tku" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/spline/plain/grey{
@@ -30900,6 +31069,24 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/exoplanet/tiled/dark,
 /area/crevus/inside/sewers)
+"umf" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/spline/plain/cee/grey{
+	dir = 4
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_y = 1;
+	pixel_x = 9
+	},
+/obj/structure/machinery/papershredder{
+	pixel_x = -6
+	},
+/obj/random/pottedplant_small{
+	pixel_x = 9;
+	pixel_y = 14
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/crevus/inside/commercial_complex/rhan_cresh_office)
 "umG" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/rod_railing{
@@ -31343,6 +31530,16 @@
 /obj/structure/lattice/ceiling,
 /turf/simulated/floor/exoplanet/snow,
 /area/crevus/inside/commercial_complex/floor_2)
+"uEm" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/random/dirt_75,
+/obj/structure/bed/stool/chair/folding{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete/dark,
+/area/crevus/outside)
 "uEN" = (
 /obj/effect/floor_decal/spline/plain/grey{
 	dir = 1
@@ -32570,6 +32767,17 @@
 /obj/structure/reagent_dispensers/cookingoil,
 /turf/simulated/floor/tiled/freezer/cold,
 /area/crevus/inside/restaurant/kitchen)
+"vnp" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/spline/plain/grey,
+/obj/effect/floor_decal/spline/plain/grey{
+	dir = 1
+	},
+/obj/structure/noticeboard{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/crevus/inside/commercial_complex/rhan_cresh_office)
 "vnw" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -34843,6 +35051,10 @@
 	color = "#736258";
 	pixel_x = 10
 	},
+/obj/item/typewriter_case{
+	pixel_x = -8;
+	pixel_y = 7
+	},
 /turf/simulated/floor/wood,
 /area/crevus/inside/commercial_complex/rhan_cresh_office)
 "wFP" = (
@@ -34923,15 +35135,13 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete/dark,
 /area/crevus/outside)
 "wIi" = (
-/obj/structure/filingcabinet/filingcabinet{
-	pixel_x = -11
-	},
-/obj/structure/filingcabinet/filingcabinet,
-/obj/structure/filingcabinet/filingcabinet{
-	pixel_x = 11
+/obj/effect/floor_decal/industrial/hatch/grey,
+/obj/structure/machinery/door/blast/shutters{
+	dir = 2;
+	id = "crevus_azaula_garage_shutters"
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/commercial_complex/rhan_cresh_office)
+/area/crevus/outside)
 "wIw" = (
 /obj/structure/lattice,
 /obj/random/dirt_75,
@@ -58348,8 +58558,8 @@ jho
 uPd
 lRS
 lIE
-wdn
-wdn
+lIE
+lIE
 qiU
 fxg
 efO
@@ -125160,7 +125370,7 @@ wbx
 mFt
 rcV
 rcV
-rcV
+eZQ
 jMb
 eZQ
 jMb
@@ -129794,12 +130004,12 @@ oAi
 tnl
 wVa
 rXe
-umQ
-roT
-dyv
 wVa
-oAg
-umQ
+wVa
+wVa
+wVa
+wbx
+kNd
 otT
 cmB
 tDE
@@ -130050,14 +130260,14 @@ nyM
 sex
 pcG
 wVa
-wVa
+bMO
 oeY
-wVa
-wVa
-wVa
-rFs
-umQ
-otT
+gVc
+fjg
+wIi
+lXM
+lXM
+bvl
 cmB
 tDE
 wbx
@@ -130305,16 +130515,16 @@ kpz
 mJX
 nyM
 sex
-grV
+cjo
 wVa
 sai
-vCH
-bMO
-ewM
-mrZ
-mpg
-fxQ
-otT
+oeY
+oeY
+oeY
+wIi
+lXM
+lXM
+rcV
 cmB
 tDE
 wbx
@@ -130562,16 +130772,16 @@ kpz
 uMb
 nyM
 xCt
-pcG
+fsI
 wVa
-jWC
-jWC
-uKR
-byQ
-mrZ
-fxQ
-gPn
-otT
+aJa
+oeY
+gVc
+fjg
+qpd
+lXM
+lXM
+pWm
 cmB
 tDE
 bxg
@@ -130819,15 +131029,15 @@ kpz
 swJ
 nyM
 poK
-pcG
+uEm
 wVa
-nuE
+wVa
 gnx
-thw
-vCH
+lHK
+oeY
 wVa
-kAN
-xVT
+wbx
+wbx
 otT
 cmB
 tDE
@@ -131078,13 +131288,13 @@ nyM
 dVT
 pcG
 wVa
-fjg
-uKR
-fsI
-vCH
 wVa
-jMu
-umQ
+wVa
+wVa
+wVa
+wVa
+oAg
+fxQ
 otT
 cmB
 tDE
@@ -131334,14 +131544,14 @@ cyE
 nyM
 hRk
 pcG
-wVa
+ccm
 fKf
 uKR
 cwH
 byQ
 mrZ
-mBk
-wbx
+mpg
+gPn
 otT
 cmB
 tDE
@@ -131593,12 +131803,12 @@ poK
 pcG
 wVa
 kvT
-jWC
-fKf
+pHH
+qJD
 oqU
 mrZ
-mjF
-xCl
+fdp
+ewM
 msw
 eAf
 koJ
@@ -131854,7 +132064,7 @@ vlq
 nuE
 uKR
 wVa
-mjF
+mBk
 xCl
 msw
 eAf
@@ -186859,7 +187069,7 @@ suh
 suh
 suh
 fxQ
-sWN
+roT
 sWN
 sWN
 iko
@@ -187116,19 +187326,19 @@ suh
 rFs
 mpg
 mpg
+roT
 sWN
-gVc
 vJF
 exK
 gqT
 tpB
 abg
 fox
-fDy
+tkl
 kiB
 heN
 sXn
-csC
+hxV
 csC
 aoG
 csC
@@ -187374,7 +187584,7 @@ mpg
 mpg
 rFs
 sWN
-wIi
+sWN
 pLL
 wFp
 qdm
@@ -187383,9 +187593,9 @@ kbj
 mbl
 fDy
 aAI
+dyv
 sWN
 sWN
-aJa
 sWN
 sWN
 sWN
@@ -187636,11 +187846,11 @@ nHy
 gQY
 oUM
 dKN
-kbj
+fbx
 rAT
 acO
 pjk
-sWN
+dyv
 gdl
 nJl
 vGT
@@ -187888,7 +188098,7 @@ wGb
 wGb
 wGb
 sWN
-sWN
+vnp
 din
 cjl
 iYs
@@ -187897,8 +188107,8 @@ dKN
 tJL
 jZx
 nqv
+dyv
 sWN
-fdp
 oSk
 hkR
 mel
@@ -188145,7 +188355,7 @@ dQk
 vhA
 wGb
 sWN
-sWN
+gmQ
 wta
 gcX
 kUz
@@ -188154,9 +188364,9 @@ pQz
 aUO
 kzO
 pZG
+umf
 sWN
 rzs
-csC
 csC
 wdh
 sWN
@@ -188410,13 +188620,13 @@ sWN
 pHT
 pHT
 sWN
-wGb
-wGb
-wGb
-wGb
-wGb
-wGb
-wGb
+sWN
+sWN
+sWN
+sWN
+sWN
+sWN
+sWN
 jhX
 oXI
 gVs
@@ -195577,7 +195787,7 @@ kwD
 iFR
 pec
 aqP
-biU
+jfD
 hgS
 oLp
 aBy
@@ -195844,7 +196054,7 @@ liA
 ayq
 mpg
 mpg
-rFs
+mpg
 suh
 suh
 suh
@@ -196096,14 +196306,14 @@ jRE
 dcm
 xTa
 biU
-rFc
-liA
-ayq
-mpg
-fxQ
-mpg
-suh
-suh
+sxq
+qIx
+hTW
+wVa
+rGR
+wVa
+wVa
+wVa
 suh
 liA
 ucI
@@ -196352,15 +196562,15 @@ pXc
 tEp
 ucx
 hds
-gmQ
-rFc
-liA
-ayq
-rFs
-mpg
-suh
-suh
-suh
+biU
+kAN
+gtO
+gtO
+aKJ
+oeY
+ucI
+ucI
+wVa
 suh
 liA
 ucI
@@ -196607,17 +196817,17 @@ mwW
 tEp
 osK
 okn
-okn
+hAa
 iVk
 hZN
 sxq
-liA
-ayq
-mpg
-suh
-suh
-suh
-suh
+oDJ
+jMu
+wVa
+wVa
+wVa
+wVa
+wVa
 mpg
 liA
 ucI
@@ -197115,7 +197325,7 @@ aDL
 mrO
 mrG
 mrG
-qJD
+mrG
 iyG
 pFK
 sVk
