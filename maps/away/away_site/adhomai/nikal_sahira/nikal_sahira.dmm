@@ -825,7 +825,7 @@
 	},
 /obj/structure/machinery/button/remote/blast_door{
 	dir = 5;
-	name = "Store Shutters";
+	name = "Office Shutters";
 	id = "crevus_azaula_office_shutters";
 	pixel_x = 1
 	},
@@ -22328,7 +22328,7 @@
 /obj/structure/machinery/button/remote/blast_door{
 	dir = 9;
 	pixel_y = 4;
-	name = "Store Shutters";
+	name = "Office Shutters";
 	id = "crevus_azaula_office_shutters"
 	},
 /obj/structure/machinery/button/switch/windowtint{
