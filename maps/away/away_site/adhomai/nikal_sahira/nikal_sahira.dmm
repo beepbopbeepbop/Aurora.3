@@ -8197,6 +8197,30 @@
 /obj/structure/plasticflaps/airtight/invisible,
 /turf/simulated/floor/exoplanet/grass/no_edge,
 /area/crevus/restaurant/balcony_1)
+"fVn" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/crevus/the_lock)
+"fVH" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_y = 14;
+	pixel_x = -6
+	},
+/obj/item/storage/box/fancy/cigarettes/cigar{
+	pixel_x = 8;
+	pixel_y = 6
+	},
+/obj/item/material/ashtray/bronze{
+	pixel_x = -6;
+	pixel_y = -2
+	},
+/turf/simulated/floor/lino/diamond,
+/area/crevus/restaurant/azaula_enforcers)
 "fWf" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/floor_decal/spline/plain/black{
@@ -16352,7 +16376,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/outside)
+/area/crevus/restaurant/azaula_enforcers)
+"lIm" = (
+/obj/effect/map_effect/particle_emitter/bar_smoke,
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark,
+/area/crevus/the_lock)
 "lIx" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -21329,13 +21359,43 @@
 /turf/simulated/floor/exoplanet/plating,
 /area/crevus/outside)
 "pwy" = (
-/obj/effect/floor_decal/corner_wide/grey/diagonal,
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 13
+/obj/structure/closet/crate/secure/weapon{
+	req_one_access = list(/datum/access/crevus_azaula_enforcer)
 	},
-/turf/simulated/floor/tiled/white,
-/area/crevus/restaurant/lobby)
+/obj/effect/floor_decal/industrial/outline/red,
+/obj/item/gun/projectile/automatic/mini_uzi,
+/obj/item/gun/projectile/deagle/adhomai,
+/obj/item/gun/projectile/silenced,
+/obj/item/gun/projectile/shotgun/doublebarrel/sawn,
+/obj/item/clothing/accessory/storage/bandolier,
+/obj/item/ammo_magazine/c45uzi,
+/obj/item/ammo_magazine/c45uzi,
+/obj/item/ammo_magazine/c45uzi,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/c45m,
+/obj/item/ammo_magazine/a50,
+/obj/item/ammo_magazine/a50,
+/obj/item/storage/box/shells/buckshot,
+/obj/item/storage/box/shells/buckshot,
+/obj/item/clothing/suit/storage/tajaran/hunting,
+/obj/item/clothing/suit/storage/tajaran/hunting,
+/turf/simulated/floor/tiled/dark/full,
+/area/crevus/restaurant/azaula_enforcers)
+"pxF" = (
+/obj/structure/bed/stool/chair/folding{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/water/alt,
+/area/crevus/the_lock)
+"pxT" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/structural_support{
+	pixel_x = 8
+	},
+/turf/simulated/floor/exoplanet/water/alt,
+/area/crevus/the_lock)
 "pxX" = (
 /obj/structure/table/reinforced/steel,
 /obj/structure/rod_railing,
@@ -25645,6 +25705,21 @@
 	},
 /turf/simulated/open,
 /area/crevus/outside)
+"sDY" = (
+/obj/effect/floor_decal/corner_wide/grey/diagonal,
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/white,
+/area/crevus/restaurant/lobby)
+"sEh" = (
+/turf/simulated/wall,
+/area/crevus/the_lock/restroom)
+"sEi" = (
+/obj/structure/bed/stool/bar/padded,
+/obj/random/dirt_75,
+/turf/simulated/floor/tiled/dark/full,
+/area/crevus/the_lock)
 "sEz" = (
 /obj/random/dirt_75,
 /obj/structure/closet/crate/bin/urban,
@@ -28828,13 +28903,29 @@
 	dir = 8
 	},
 /obj/structure/table/rack,
-/obj/item/clothing/accessory/badge/dpra_passport,
-/obj/item/clothing/accessory/badge/nka_passport{
-	pixel_x = 4
+/obj/item/clothing/accessory/badge/pra_passport{
+	pixel_x = 8
 	},
 /obj/item/clothing/accessory/badge/pra_passport{
 	pixel_x = 8
 	},
+/obj/item/clothing/accessory/badge/pra_passport{
+	pixel_x = 8
+	},
+/obj/item/clothing/accessory/badge/nka_passport{
+	pixel_x = 4
+	},
+/obj/item/clothing/accessory/badge/nka_passport{
+	pixel_x = 4
+	},
+/obj/item/clothing/accessory/badge/nka_passport{
+	pixel_x = 4
+	},
+/obj/item/clothing/accessory/badge/dpra_passport,
+/obj/item/clothing/accessory/badge/dpra_passport,
+/obj/item/clothing/accessory/badge/dpra_passport,
+/obj/item/clothing/accessory/badge/passport,
+/obj/item/clothing/accessory/badge/passport,
 /obj/item/clothing/accessory/badge/passport,
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/restaurant/azaula_enforcers)
