@@ -46,6 +46,28 @@
 	slot = ACCESSORY_SLOT_GENERIC
 	flippable = FALSE
 
+/obj/item/storage/lockbox/medal/sol/nco
+	starts_with = list(
+		/obj/item/clothing/accessory/sol_pin,
+		/obj/item/clothing/accessory/sol_pin/sfp,
+		/obj/item/clothing/accessory/medal/silver/sol
+	)
+
+/obj/item/storage/lockbox/medal/sol/officer
+	starts_with = list(
+		/obj/item/clothing/accessory/sol_pin,
+		/obj/item/clothing/accessory/sol_pin/sfp,
+		/obj/item/clothing/accessory/medal/sol
+	)
+
+/obj/item/storage/lockbox/medal/sol/captain
+	starts_with = list(
+		/obj/item/clothing/accessory/sol_pin,
+		/obj/item/clothing/accessory/sol_pin/sfp,
+		/obj/item/clothing/accessory/medal/iron/sol,
+		/obj/item/clothing/accessory/medal/gold/sol
+	)
+
 // Default enlisted sailor
 /datum/ghostspawner/human/sol_destroyer_sailor
 	name = "Solarian Navy Destroyer Sailor"
@@ -215,6 +237,7 @@ var/overflow = null
 /obj/outfit/admin/sol_destroyer_captain
 	name = "Solarian Navy Destroyer Commanding Officer"
 	uniform = /obj/item/clothing/under/rank/sol/dress/officer
+	l_pocket = /obj/item/storage/wallet/rich
 	shoes = /obj/item/clothing/shoes/laceup
 	back = /obj/item/storage/backpack/satchel/leather
 	head = /obj/item/clothing/head/sol/dress/senior_officer

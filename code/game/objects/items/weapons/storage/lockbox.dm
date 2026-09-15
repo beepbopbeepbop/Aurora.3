@@ -114,3 +114,23 @@
 	icon_locked = "medalbox+l"
 	icon_closed = "medalbox"
 	icon_broken = "medalbox+b"
+
+/obj/item/storage/lockbox/medal/sol
+	name = "solarian navy badge lockbox"
+	desc = "A locked box used to keep various Solarian Alliance Navy medals, badges, and pins safe."
+	icon_state = "medalbox+l"
+	item_state = "briefcase"
+	w_class = WEIGHT_CLASS_NORMAL
+	max_w_class = WEIGHT_CLASS_SMALL
+	req_access = list(/datum/access/sol_navy_officer::id)
+	icon_locked = "medalbox+l"
+	icon_closed = "medalbox"
+	icon_broken = "medalbox+b"
+	starts_with = list(
+		/obj/item/clothing/accessory/sol_pin,
+		/obj/item/clothing/accessory/sol_pin/sfp,
+		/obj/item/clothing/accessory/medal/sol,
+		/obj/item/clothing/accessory/medal/iron/sol,
+		/obj/item/clothing/accessory/medal/silver/sol,
+		/obj/item/clothing/accessory/medal/gold/sol
+	)
