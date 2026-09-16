@@ -807,7 +807,7 @@
 /obj/item/clothing/shoes/heels,
 /obj/item/clothing/shoes/heels,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "aBB" = (
 /obj/structure/bed/stool/chair/plastic{
 	dir = 8
@@ -2184,7 +2184,7 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/crate,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "bzK" = (
 /obj/structure/closet,
 /obj/random/loot,
@@ -3125,7 +3125,7 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "ceA" = (
 /obj/structure/bed/stool/chair/sofa/left/brown{
 	dir = 1
@@ -3918,7 +3918,7 @@
 	identifier = "crevus_clothing_vendor"
 	},
 /turf/simulated/floor/wood/walnut,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "cIS" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
@@ -4265,7 +4265,7 @@
 "cVB" = (
 /obj/effect/decal/cleanable/floor_damage/random_wood_broken,
 /turf/simulated/floor/wood/walnut,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "cWu" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/snow,
@@ -6045,7 +6045,7 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "eeO" = (
 /obj/structure/platform_deco/rock/icy{
 	dir = 1
@@ -7407,7 +7407,7 @@
 "eTe" = (
 /obj/random/dirt_75,
 /turf/simulated/floor/wood/walnut,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "eTo" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/effect/decal/curb{
@@ -8965,7 +8965,7 @@
 	pixel_y = 7
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "fPm" = (
 /obj/structure/rope_post{
 	dir = 8
@@ -11633,7 +11633,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "hyA" = (
 /obj/structure/table/rack/retail_shelf,
 /obj/random/pottedplant_small{
@@ -11720,7 +11720,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "hzI" = (
 /obj/random/dirt_75,
 /obj/structure/rod_railing,
@@ -11854,7 +11854,7 @@
 	pixel_x = -2
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "hGX" = (
 /obj/structure/platform_deco/rock/icy,
 /obj/random/dirt_75,
@@ -15414,7 +15414,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "jUb" = (
 /obj/structure/curtain/black{
 	pixel_x = 32
@@ -16184,7 +16184,7 @@
 /obj/item/clothing/under/dressshirt/longblouse,
 /obj/item/clothing/under/dressshirt/longblouse,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "kuI" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -18264,7 +18264,7 @@
 /area/crevus/inside/the_lock)
 "lGO" = (
 /turf/simulated/floor/wood/walnut,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "lGT" = (
 /obj/effect/floor_decal/corner_wide/grey/diagonal,
 /obj/effect/floor_decal/spline/plain{
@@ -22165,7 +22165,7 @@
 	},
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "okZ" = (
 /obj/structure/machinery/door/urban/glass_sliding/double{
 	name = "Ane-Mart"
@@ -27256,7 +27256,7 @@
 	},
 /obj/structure/flora/pottedplant/stoutbush,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "rCU" = (
 /obj/structure/platform/column{
 	dir = 4
@@ -27351,7 +27351,7 @@
 /obj/effect/floor_decal/spline/plain/grey,
 /obj/random/dirt_75,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "rFF" = (
 /obj/structure/lattice/ceiling,
 /obj/effect/floor_decal/spline/plain/grey{
@@ -29622,7 +29622,7 @@
 "sVi" = (
 /obj/structure/stairs/north,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "sVH" = (
 /obj/structure/platform_deco/metal_alt{
 	dir = 4
@@ -31793,7 +31793,7 @@
 /obj/random/dirt_75,
 /obj/structure/machinery/space_heater/industrial,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "upV" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/item/material/twohanded/baseballbat/metal{
@@ -32572,7 +32572,7 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet,
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "uQU" = (
 /obj/structure/machinery/light/small{
 	dir = 1
@@ -36376,7 +36376,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "xsX" = (
 /obj/effect/decal/cleanable/blood/dry,
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
@@ -36869,7 +36869,7 @@
 	pixel_x = -1
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "xMu" = (
 /obj/structure/flora/rock/stalagmite/icy,
 /obj/structure/platform/column{
@@ -37445,7 +37445,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
-/area/crevus/inside/sewers)
+/area/crevus/inside/clothing_store/basement)
 "ydm" = (
 /obj/structure/platform_deco/rock/icy{
 	dir = 4
