@@ -1,7 +1,6 @@
 /datum/map_template/ruin/away_site/nikal_sahira
 	name = "Nikal Sahira"
-	description = "placeholder"
-
+	description = "Nikal Sahira, A Port of Call district of Crevus."
 	prefix = "away_site/adhomai/nikal_sahira/"
 	suffix = "nikal_sahira.dmm"
 	id = "nikal_sahira"
@@ -11,10 +10,11 @@
 		TEMPLATE_FLAG_PORT_SPAWN,
 		TEMPLATE_FLAG_SPAWN_GUARANTEED
 	)
+
 	spawn_weight = 1
 	spawn_cost = 1
 
-	exoplanet_atmospheres = list(/datum/gas_mixture/earth_cold)
+	exoplanet_atmospheres = list(/datum/gas_mixture/earth_slightly_cold)
 	exoplanet_lightlevel = list(1, 2, 5, 7)
 	exoplanet_lightcolor = list("#8499c8")
 
@@ -33,11 +33,15 @@
 
 /singleton/submap_archetype/nikal_sahira
 	map = "Nikal Sahira"
-	descriptor = "placeholder"
+	descriptor = "Nikal Sahira, A Port of Call district of Crevus."
 
 /obj/effect/overmap/visitable/sector/nikal_sahira
 	name = "Adhomai - Crevus, Nikal Sahira"
-	desc = "placeholder"
+	desc = "\
+		Nikal Sahira is a neutral satellite spaceport. Originally constructed by NanoTrasen Corporation for midtown freight and passenger shuttles, \
+		the site transferred ownership to Orion Express after its formation. The local region has no official affiliation, although multiple organizations \
+		do operate in the district. A few high-class businesses are present to cater to passengers and pilots, alongside a station for the Crevus Suspended Tram Railway. \
+		<br><br>The present weather is -8C and 70 cm of snow cover."
 
 	place_near_main = 1 // one tile near the main map
 	landing_site = TRUE
