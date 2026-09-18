@@ -230,3 +230,13 @@
 			. += "<u><font color = #787700>Output</font></u>: \"[C.parameters["message"]]\"<br>"
 			. += "</li><br>"
 	. += "</ol>"
+
+/obj/structure/machinery/computer/telecomms/server/terminal
+	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	icon_screen = "comm_logs"
+	icon_keyboard = "generic_key"
+	icon_keyboard_emis = "generic_key_mask"
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1

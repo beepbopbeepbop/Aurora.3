@@ -818,3 +818,11 @@
 /datum/access/crevus_clothing_store
 	id = 266
 	desc = "Clothing Store Access"
+
+/datum/access/crevus_cla_safehouse
+	id = 267
+	desc = "Crevan Liberation Army, Safehouse Access"
+
+/datum/access/crevus_ala_depot
+	id = 268
+	desc = "Adhomai Liberation Army, Sustainment Depot 43-5T \"Aghar'mahrk\" Access"

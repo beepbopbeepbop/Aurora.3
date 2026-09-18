@@ -277,6 +277,9 @@
 	light_color = "#3848B3"
 	light_power_on = 0.5
 
+/obj/structure/machinery/computer/security/wooden_tv/cla_safehouse
+	console_networks = list(NETWORK_CLA_SAFEHOUSE)
+
 /obj/structure/machinery/computer/security/mining
 	name = "outpost camera monitor"
 	desc = "Used to access the various cameras on the outpost."
@@ -340,3 +343,6 @@
 /obj/structure/machinery/computer/security/terminal/public
 	console_networks = list(NETWORK_EXPEDITION, NETWORK_NEWS)
 	circuit = /obj/item/circuitboard/security/public
+
+/obj/structure/machinery/computer/security/terminal/ala_depot
+	console_networks = list(NETWORK_CLA_SAFEHOUSE, NETWORK_ALA_DEPOT)

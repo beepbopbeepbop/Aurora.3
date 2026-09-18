@@ -201,3 +201,17 @@
 /area/crevus/inside/the_lock/restroom
 
 /area/crevus/inside/the_lock/backroom
+
+// ---------- Crevan Liberation Army
+
+/area/crevus/inside/cla_safehouse
+	name = "Abandoned Townhouse"
+	icon_state = "dark128"
+	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP | AREA_FLAG_RAD_SHIELDED | AREA_FLAG_INDESTRUCTIBLE_TURFS | AREA_FLAG_PREVENT_PERSISTENT_TRASH
+	sound_environment = SOUND_ENVIRONMENT_SEWER_PIPE
+
+/area/crevus/inside/ala_depot
+	name = "ALA Sustainment Depot 43-5T, \"Aghar'mahrk\""
+	icon_state = "dark128"
+	area_flags = AREA_FLAG_HIDE_FROM_HOLOMAP | AREA_FLAG_RAD_SHIELDED | AREA_FLAG_INDESTRUCTIBLE_TURFS | AREA_FLAG_PREVENT_PERSISTENT_TRASH
+	sound_environment = SOUND_ENVIRONMENT_SEWER_PIPE

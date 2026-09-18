@@ -70,3 +70,12 @@
 /obj/item/key/door_key/crevus/clothing_store
 	name = "Clothing Store Key"
 	access_list = list(/datum/access/crevus_clothing_store)
+
+/obj/item/key/door_key/crevus/cla_safehouse
+	name = "house key"
+	access_list = list(/datum/access/crevus_cla_safehouse)
+
+/obj/item/key/door_key/crevus/ala_depot
+	name = "Depot Master Key"
+	desc = "A key with \"Sustainment Depot 43-5T\" written in the label."
+	access_list = list(/datum/access/crevus_ala_depot)

@@ -251,7 +251,7 @@ ABSTRACT_TYPE(/obj/item/gun/projectile/shotgun)
 	icon_state = "overunder"
 	item_state = "overunder"
 	accuracy = 0
-	slot_flags = SLOT_BELT
+	slot_flags = SLOT_BELT|SLOT_HOLSTER
 	w_class = WEIGHT_CLASS_NORMAL
 	ammo_type = /obj/item/ammo_casing/shotgun/pellet
 	load_method = SINGLE_CASING|SPEEDLOADER

@@ -160,3 +160,13 @@
 		to_chat(user, SPAN_NOTICE("You disable the security protocols."))
 		src.updateUsrDialog()
 		return 1
+
+/obj/structure/machinery/computer/telecomms/monitor/terminal
+	icon = 'icons/obj/modular_computers/modular_terminal.dmi'
+	icon_screen = "comm_monitor"
+	icon_keyboard = "id_key"
+	icon_keyboard_emis = "id_key_mask"
+	is_connected = TRUE
+	has_off_keyboards = TRUE
+	can_pass_under = FALSE
+	light_power_on = 1

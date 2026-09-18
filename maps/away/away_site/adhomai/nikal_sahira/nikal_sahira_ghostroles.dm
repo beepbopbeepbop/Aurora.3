@@ -390,7 +390,7 @@
 	name = "Rhan-Cresh Highway Patrolman"
 	uniform = list(
 		/obj/item/clothing/under/suit_jacket/charcoal,
-		/obj/item/clothing/under/tajaran/fancy/alt2
+		/obj/item/clothing/under/tajaran/high_waisted/business
 	)
 	suit = /obj/item/clothing/suit/storage/toggle/greatcoat/recolor
 	glasses = /obj/item/clothing/glasses/sunglasses/visor
@@ -409,6 +409,9 @@
 		/obj/item/clothing/accessory/temperature/warm,
 		/obj/item/key/door_key/crevus/rhan_cresh_patrol
 	)
+
+/obj/outfit/admin/crevus/rhan_cresh_patrol/get_id_access()
+	return list(/datum/access/crevus_rhan_cresh)
 
 /obj/outfit/admin/crevus/rhan_cresh_patrol/post_equip(mob/living/carbon/human/H)
 	. = ..()
@@ -440,27 +443,31 @@
 
 /obj/outfit/admin/crevus/crevus_azaula_enforcer
 	name = "Azaula Entertainment Enforcer"
-	uniform = /obj/item/clothing/under/tajaran/dpra/alt
+	uniform = list(
+		/obj/item/clothing/under/tajaran/dpra/alt
+	)
 	suit = list(
 		/obj/item/clothing/suit/storage/toggle/suitjacket,
 		/obj/item/clothing/suit/storage/toggle/suitjacket/blazer
 	)
+	suit_store = /obj/item/pen/black
 	accessory = /obj/item/clothing/accessory/wcoat
 	glasses = /obj/item/clothing/glasses/sunglasses/visor
 	shoes = /obj/item/clothing/shoes/laceup
 	id = /obj/item/card/id
 	l_pocket = /obj/item/storage/wallet/random
+	r_pocket = /obj/item/reagent_containers/glass/rag/handkerchief
 	back = /obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
-		/obj/item/clothing/accessory/holster/waist/brown,
-		/obj/item/gun/projectile/pistol/adhomai,
-		/obj/item/ammo_magazine/mc9mm = 3,
 		/obj/item/crowbar/red,
 		/obj/item/journal/notepad/filled,
-		/obj/item/pen/black,
 		/obj/item/clothing/accessory/temperature/warm,
+		/obj/item/flashlight/maglight,
 		/obj/item/key/door_key/crevus/azaula_enforcer
 	)
+
+/obj/outfit/admin/crevus/crevus_azaula_enforcer/get_id_access()
+	return list(/datum/access/crevus_azaula_enforcer)
 
 /obj/outfit/admin/crevus/crevus_azaula_enforcer/post_equip(mob/living/carbon/human/H)
 	. = ..()
@@ -468,6 +475,7 @@
 	H.wear_suit?.color = pick(possible_colors)
 	H.wear_suit?.accent_color = "#C0C0C0"
 	H.wear_suit?.update_worn_icon()
+	H.r_store?.color = "#433946"
 
 // ---------- Gangs
 
@@ -658,3 +666,163 @@
 	respawn_flag = null
 
 #undef CREVUS_GENERIC_SPECIES
+
+// ---------- Crevan Liberation Army
+/datum/ghostspawner/human/crevus_cla_partisan
+	short_name = "crevus_cla_partisan"
+	name = "Crevan Liberation Army Partisan"
+	desc = "\
+		You are a member of a small Crevan Liberation Army cell. Despite being whittled down to a few remaining guerillas following the \
+		loss of your last safehouse, the arrival of an experienced ALA advisor (and an influx of convenient firearms and explosives) \
+		have ignited a renewed hope for your cause. Gather intelligence, listen to your new leader, and try not to draw any unnecessary \
+		attention to your cell, lest you find yourself at the receiving end of an Azaula Enforcer's pistol. \
+	"
+	desc_ooc = "\
+		This is not an antagonist role. \
+	"
+	welcome_message_ooc = "\
+		This is not an antagonist role. \
+		The CLA is universally despised by the denizens of Crevus, and is expected to become extinct within the next decade. \
+		Remember the survival of your cell is reliant on it's secrecy, and that overt action all but guarantees your demise. \
+	"
+
+
+	tags = list("External")
+	spawnpoints = list("crevus_cla_partisan")
+	recognition_group = "crevus_cla"
+	recognition_message = "You recognize this person as a fellow member of your cell."
+	max_count = 4
+	outfit = /obj/outfit/admin/crevus/cla_partisan
+	possible_species = ALL_TAJARA_SPECIES
+	allow_appearance_change = APPEARANCE_PLASTICSURGERY
+	assigned_role = "Sustainment Depot 43-5T Personnel"
+	special_role = "CLA Partisan"
+	respawn_flag = null
+	enabled = FALSE
+
+/obj/outfit/admin/crevus/cla_partisan
+	name = "CLA Partisan"
+	uniform = list(
+		/obj/item/clothing/under/dressshirt/tanktop,
+		/obj/item/clothing/under/dressshirt/longsleeve_s,
+		/obj/item/clothing/under/dressshirt/deepv
+	)
+
+	suit = list(
+		/obj/item/clothing/suit/storage/toggle/greatcoat/recolor,
+		/obj/item/clothing/suit/storage/hooded/wintercoat/hoodie/sleeveless
+	)
+
+	pants = list(
+		/obj/item/clothing/pants/cargo,
+		/obj/item/clothing/pants/mustang/colourable
+	)
+
+	gloves = /obj/item/clothing/gloves/fingerless
+
+	shoes = list(
+		/obj/item/clothing/shoes/jackboots/tajara,
+		/obj/item/clothing/shoes/workboots/tajara,
+		/obj/item/clothing/shoes/workboots/tajara/dark
+	)
+
+	id = /obj/item/card/id
+	l_pocket = /obj/item/storage/wallet/random
+	r_pocket = /obj/item/material/kitchen/utensil/knife/boot
+	back = /obj/item/storage/backpack/satchel
+	backpack_contents = list(
+		/obj/item/key/door_key/crevus/cla_safehouse,
+		/obj/item/key/door_key/crevus/ala_depot
+	)
+
+/obj/outfit/admin/crevus/cla_partisan/get_id_access()
+	return list(
+		/datum/access/crevus_cla_safehouse,
+		/datum/access/crevus_ala_depot
+	)
+
+/obj/outfit/admin/crevus/cla_partisan/post_equip(mob/living/carbon/human/H)
+	. = ..()
+
+	// colour the colorable stuff
+	H.w_uniform?.color = get_random_colour(lower = 150)
+	H.w_uniform?.update_worn_icon()
+	H.wear_suit?.color = get_random_colour(lower = 150)
+	H.wear_suit?.accent_color = "#C0C0C0"
+	H.wear_suit?.update_worn_icon()
+	H.pants?.color = get_random_colour(lower = 150)
+	H.pants?.update_worn_icon()
+
+	// random equipment
+	//if(prob(50))
+	H.equip_or_collect(new /obj/random/medical, slot_in_backpack)
+	if(prob(50))
+		H.equip_or_collect(new /obj/random/loot, slot_in_backpack)
+	if(prob(55))
+		H.equip_or_collect(new /obj/item/crowbar/red, slot_in_backpack)
+
+/datum/ghostspawner/human/crevus_ala_advisor
+	short_name = "crevus_ala_advisor"
+	name = "Adhomai Liberation Army Hotak Commando"
+	desc = "\
+		You are an ALA Ketvah-Zarkir (Cell-Captain) belonging to Hotak's Commandos, tasked with moulding a ragtag group of amateur partisans \
+		into a disciplined cell loyal to Supreme Commander Nated and Commander Hotak. This is a high risk, high reward assignment, where \
+		success could fulfill your ambition of a Liberated Crevus, and failure will cement the total control of the xenos and the crime \
+		families over the invaluable port-city.
+	"
+	desc_ooc = "\
+		This is not an antagonist role. \
+	"
+	welcome_message = "\
+		You've only had a couple of months to get your guerillas up to ALA standards, but now they prove themselves; the Azaula and Rhan-Cresh \
+		both hold a small presence in Nikal Sahira to distract themelves, yet not powerful enough to inhibit your cell from making the occassional \
+		theft or abduction. Additionally, your signals interception
+	"
+	welcome_message_ooc = "\
+		This is not an antagonist role. \
+		The ALA holds no significant physical presence or strength within Crevus; you are operating incognito of your true affiliations. \
+		Remember that the succcess of your mission relies on covert intelligence-gathering and sabotage. Gathering the attention \
+		of the corporations or the families will doom your mission, and attract Hotak's wrath. \
+	"
+
+	spawnpoints = list("crevus_ala_advisor")
+	recognition_group = "crevus_cla"
+	recognition_message = "You recognize this person as the leader of your cell."
+	max_count = 1
+	outfit = /obj/outfit/admin/crevus/ala_advisor
+	assigned_role = "Sustainment Depot 43-5T Command"
+	special_role = "ALA Hotak Commando"
+
+/obj/outfit/admin/crevus/ala_advisor
+	name = "Adhomai Liberation Army Hotak Commando"
+	uniform = /obj/item/clothing/under/tajaran/dpra/alt
+	accessory = /obj/item/clothing/accessory/wcoat
+	suit = /obj/item/clothing/suit/storage/tajaran/hunting
+	suit_accessory = list(
+		/obj/item/clothing/accessory/tajaran/dpra_brooch,
+		/obj/item/clothing/accessory/dpra_badge
+	)
+	gloves = null
+	wrist = /obj/item/clothing/wrists/watch/pocketwatch/adhomai
+	mask = /obj/item/clothing/accessory/dogtags/adhomai
+	glasses = /obj/item/clothing/glasses/sunglasses/visor
+	shoes = /obj/item/clothing/shoes/workboots/tajara/dark
+
+	r_pocket = /obj/item/gun/projectile/revolver/derringer
+	back = /obj/item/storage/backpack/satchel/leather
+	backpack_contents = list(
+		/obj/item/clothing/accessory/holster/waist/brown,
+		/obj/item/gun/projectile/silenced,
+		/obj/item/ammo_magazine/c45m = 3,
+		/obj/item/ammo_magazine/a357,
+		/obj/item/crowbar/rescue_axe/tactical,
+		/obj/item/clothing/accessory/badge/dpra_passport,
+		/obj/item/key/door_key/crevus/cla_safehouse,
+		/obj/item/key/door_key/crevus/ala_depot
+	)
+
+/obj/outfit/admin/crevus/ala_advisor/get_id_access()
+	return list(
+		/datum/access/crevus_cla_safehouse,
+		/datum/access/crevus_ala_depot
+	)

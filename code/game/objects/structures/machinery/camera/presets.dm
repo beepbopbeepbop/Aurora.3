@@ -83,6 +83,12 @@ GLOBAL_LIST_INIT(engineering_networks, list(
 /obj/structure/machinery/camera/network/expedition
 	network = list(NETWORK_EXPEDITION)
 
+/obj/structure/machinery/camera/network/cla_safehouse
+	network = list(NETWORK_CLA_SAFEHOUSE)
+
+/obj/structure/machinery/camera/network/ala_depot
+	network = list(NETWORK_ALA_DEPOT)
+
 // EMP
 
 /obj/structure/machinery/camera/emp_proof/Initialize()
@@ -118,6 +124,12 @@ GLOBAL_LIST_INIT(engineering_networks, list(
 
 /obj/structure/machinery/camera/motion/security
 	network = list(NETWORK_SECURITY)
+
+/obj/structure/machinery/camera/motion/cla_safehouse
+	network = list(NETWORK_CLA_SAFEHOUSE)
+
+/obj/structure/machinery/camera/motion/ala_depot
+	network = list(NETWORK_ALA_DEPOT)
 
 // ALL UPGRADES
 

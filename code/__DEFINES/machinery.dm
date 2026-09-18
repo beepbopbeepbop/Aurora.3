@@ -126,6 +126,8 @@
 #define NETWORK_QUARK "Quark" // horizon shuttle, xenostudies
 #define NETWORK_NEWS "News"
 #define NETWORK_CRYO_OUTPOST "#187-D Outpost"
+#define NETWORK_CLA_SAFEHOUSE "Abandoned House"
+#define NETWORK_ALA_DEPOT "ALA Sustainment Depot 43-5T"
 
 
 // Those networks can only be accessed by pre-existing terminals. AIs and new terminals can't use them.

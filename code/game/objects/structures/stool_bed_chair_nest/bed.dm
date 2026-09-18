@@ -350,6 +350,13 @@
 	pixel_y = 16
 	var/sleeby_shift = 16
 
+/obj/structure/bed/padded/dog
+	name = "dog bed"
+	desc = "A comfortable bed used by canine (or similar) pets."
+	icon = 'icons/obj/furniture.dmi'
+	icon_state = "dogbed"
+	base_icon = "dogbed"
+
 /obj/structure/bed/padded/bunk/post_buckle(atom/movable/MA)
 	. = ..()
 	if(MA == buckled)
