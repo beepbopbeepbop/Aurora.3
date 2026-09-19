@@ -4942,10 +4942,47 @@
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 1
 	},
-/obj/structure/cash_register{
-	pixel_y = 15
+/obj/item/adhomian_knuckle/k1024{
+	pixel_y = -10
 	},
-/obj/item/spacecash/c1000,
+/obj/item/portable_typewriter{
+	pixel_y = 20
+	},
+/obj/item/adhomian_knuckle/k1024{
+	pixel_y = -12;
+	pixel_x = -3
+	},
+/obj/item/adhomian_knuckle/k1024{
+	pixel_y = -15;
+	pixel_x = 1
+	},
+/obj/item/adhomian_knuckle/k512{
+	pixel_x = -5
+	},
+/obj/item/adhomian_knuckle/k512{
+	pixel_x = -3;
+	pixel_y = -2
+	},
+/obj/item/adhomian_knuckle/k1{
+	pixel_x = 7;
+	pixel_y = 1
+	},
+/obj/item/adhomian_knuckle/k1{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/obj/item/adhomian_knuckle/k1{
+	pixel_x = 7;
+	pixel_y = 3
+	},
+/obj/item/adhomian_knuckle/k1{
+	pixel_y = -4;
+	pixel_x = 10
+	},
+/obj/item/adhomian_knuckle/k1{
+	pixel_x = 10;
+	pixel_y = -3
+	},
 /turf/simulated/floor/lino/diamond,
 /area/crevus/inside/restaurant/azaula_enforcers)
 "cUN" = (
@@ -6355,13 +6392,17 @@
 /obj/item/storage/box/zipties{
 	pixel_x = 6
 	},
-/obj/item/eftpos{
-	pixel_y = 11;
-	pixel_x = -10
-	},
 /obj/item/tape_roll{
 	pixel_x = -8;
 	pixel_y = -4
+	},
+/obj/item/clothing/glasses/sunglasses/blindfold{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/clothing/head/papersack{
+	pixel_y = 15;
+	pixel_x = 5
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/restaurant/azaula_enforcers)
@@ -7339,10 +7380,6 @@
 	},
 /turf/simulated/floor/exoplanet/mineral/cave/adhomai,
 /area/crevus/inside/sewers)
-"enC" = (
-/obj/item/clothing/under/tajaran/fancy/evening_suit,
-/turf/simulated/floor/lino/diamond,
-/area/crevus/inside/restaurant/azaula_enforcers)
 "enG" = (
 /obj/structure/machinery/door/urban/metal_alt{
 	dir = 4;
@@ -12469,6 +12506,7 @@
 	pixel_x = -2
 	},
 /obj/item/toner,
+/obj/item/eftpos,
 /turf/simulated/floor/lino/diamond,
 /area/crevus/inside/restaurant/azaula_enforcers)
 "gYW" = (
@@ -14300,19 +14338,21 @@
 	req_access = null;
 	req_one_access = list(/datum/access/crevus_azaula_enforcer)
 	},
+/obj/item/gun/projectile/pistol/adhomai,
+/obj/item/gun/projectile/pistol/adhomai,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/clothing/gloves/brassknuckles,
 /obj/item/material/knife/butterfly,
-/obj/item/flashlight/maglight,
-/obj/item/cane/concealed,
 /obj/item/material/knife/butterfly/switchblade,
-/obj/item/flashlight/maglight,
-/obj/item/gun/projectile/pistol/adhomai,
-/obj/item/gun/projectile/pistol/adhomai,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
+/obj/item/material/twohanded/baseballbat/alloy,
+/obj/item/melee/hammer,
+/obj/item/melee/baton/stunrod,
+/obj/item/cane/concealed,
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/restaurant/azaula_enforcers)
 "icl" = (
@@ -15046,10 +15086,6 @@
 	},
 /turf/simulated/floor/exoplanet/tiled/dark/full,
 /area/crevus/inside/sewers)
-"iDt" = (
-/obj/item/clothing/under/tajaran/fancy/alt1,
-/turf/simulated/floor/lino/diamond,
-/area/crevus/inside/restaurant/azaula_enforcers)
 "iDJ" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/structure/bed/stool/chair/padded/brown{
@@ -19446,10 +19482,6 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/firearm_store/basement)
-"kXd" = (
-/obj/item/clothing/under/tajaran/high_waisted,
-/turf/simulated/floor/lino/diamond,
-/area/crevus/inside/restaurant/azaula_enforcers)
 "kXC" = (
 /obj/structure/bed/stool/chair/sofa/right/brown,
 /obj/structure/machinery/light/small{
@@ -20614,9 +20646,6 @@
 /obj/structure/table/rack/retail_shelf,
 /obj/item/clothing/suit/armor/amohda{
 	pixel_y = -6
-	},
-/obj/item/clothing/suit/storage/hooded/tajaran/amohda{
-	pixel_y = 7
 	},
 /obj/item/clothing/head/helmet/amohda{
 	pixel_y = 7
@@ -36158,15 +36187,6 @@
 /obj/structure/trash_pile,
 /turf/simulated/floor/exoplanet/tiled/dark,
 /area/crevus/inside/sewers)
-"uia" = (
-/obj/effect/floor_decal/corner/red/diagonal,
-/obj/effect/floor_decal/spline/plain/black{
-	dir = 4
-	},
-/obj/random/dirt_75,
-/obj/item/clothing/under/tajaran/high_waisted/business,
-/turf/simulated/floor/lino,
-/area/crevus/inside/restaurant/azaula_enforcers)
 "uic" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/rod_railing,
@@ -39378,6 +39398,7 @@
 /obj/item/storage/box/shells/buckshot,
 /obj/item/material/hatchet/machete/deluxe,
 /obj/item/clothing/accessory/holster/utility/machete,
+/obj/item/material/twohanded/chainsaw/fueled,
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/restaurant/azaula_enforcers)
 "whc" = (
@@ -40219,11 +40240,6 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/crevus/outside)
-"wFc" = (
-/obj/random/dirt_75,
-/obj/item/clothing/under/tajaran/fancy,
-/turf/simulated/floor/lino/diamond,
-/area/crevus/inside/restaurant/azaula_enforcers)
 "wFE" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/floor_decal/spline/plain/black,
@@ -40324,6 +40340,30 @@
 /obj/item/clothing/accessory/holster/thigh,
 /obj/item/clothing/accessory/holster/waist,
 /obj/item/clothing/accessory/holster/waist,
+/obj/item/clothing/under/tajaran/fancy/alt1,
+/obj/item/clothing/under/tajaran/fancy/alt2,
+/obj/item/clothing/under/tajaran/fancy,
+/obj/item/clothing/under/tajaran/fancy/evening_suit,
+/obj/item/clothing/under/tajaran/high_waisted,
+/obj/item/clothing/under/tajaran/high_waisted/business,
+/obj/item/clothing/suit/storage/hooded/tajaran/fancy,
+/obj/item/clothing/suit/storage/hooded/tajaran/amohda,
+/obj/item/clothing/suit/storage/hooded/tajaran/winter,
+/obj/item/clothing/wrists/watch/tajara,
+/obj/item/clothing/wrists/watch/tajara,
+/obj/item/clothing/wrists/watch/tajara/female,
+/obj/item/clothing/wrists/watch/tajara/female,
+/obj/item/clothing/gloves/fingerless,
+/obj/item/clothing/gloves/fingerless,
+/obj/item/clothing/gloves/black_leather/tajara,
+/obj/item/clothing/gloves/black_leather/tajara,
+/obj/item/clothing/head/bowlerhat,
+/obj/item/clothing/head/flatcap/colourable{
+	color = "#433946"
+	},
+/obj/item/clothing/head/fedora{
+	color = "#433946"
+	},
 /turf/simulated/floor/tiled/dark/full,
 /area/crevus/inside/restaurant/azaula_enforcers)
 "wGP" = (
@@ -41055,10 +41095,6 @@
 /obj/effect/floor_decal/industrial/hatch_small/operations,
 /turf/simulated/floor/exoplanet/plating/snow,
 /area/crevus/outside)
-"xbk" = (
-/obj/item/clothing/under/tajaran/fancy/alt2,
-/turf/simulated/floor/lino/diamond,
-/area/crevus/inside/restaurant/azaula_enforcers)
 "xbM" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/secure_closet/freezer/chicken_and_fish,
@@ -202484,9 +202520,9 @@ sWN
 sWN
 nEH
 sNq
-uia
+oCf
 kya
-wFc
+kiJ
 vqI
 tCl
 gYP
@@ -202741,9 +202777,9 @@ dff
 sWN
 xDT
 kiJ
-kXd
-enC
-xbk
+pzj
+pzj
+pzj
 hsH
 xUv
 lwB
@@ -203000,7 +203036,7 @@ cvH
 wGD
 ibV
 hsH
-iDt
+pzj
 pgl
 xFJ
 xFJ

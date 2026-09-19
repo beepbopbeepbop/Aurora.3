@@ -16,6 +16,9 @@
 /obj/item/material/twohanded/baseballbat/metal/Initialize(newloc, material_key)
 	. = ..(newloc, MATERIAL_STEEL)
 
+/obj/item/material/twohanded/baseballbat/alloy/Initialize(newloc, material_key)
+	. = ..(newloc, MATERIAL_PLASTEEL)
+
 /obj/item/material/twohanded/baseballbat/uranium/Initialize(newloc, material_key)
 	. = ..(newloc, MATERIAL_URANIUM)
 

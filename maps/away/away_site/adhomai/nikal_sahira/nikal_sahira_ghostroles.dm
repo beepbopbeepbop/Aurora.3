@@ -454,6 +454,7 @@
 	accessory = /obj/item/clothing/accessory/wcoat
 	glasses = /obj/item/clothing/glasses/sunglasses/visor
 	shoes = /obj/item/clothing/shoes/laceup
+	wrist = /obj/item/clothing/wrists/watch/pocketwatch/adhomai
 	id = /obj/item/card/id
 	l_pocket = /obj/item/storage/wallet/random
 	r_pocket = /obj/item/reagent_containers/glass/rag/handkerchief

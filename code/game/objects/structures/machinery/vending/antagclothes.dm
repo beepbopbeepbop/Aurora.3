@@ -118,6 +118,9 @@ If you want to expand this to more than primarily generic items, I recommend des
 		/obj/item/clothing/glasses/regular = 6,
 		/obj/item/clothing/glasses/sunglasses = 6,
 		/obj/item/clothing/glasses/sunglasses/blindfold = 6,
+		/obj/item/clothing/glasses/sunglasses/aviator = 6,
+		/obj/item/clothing/glasses/regular/panto = 6,
+		/obj/item/clothing/glasses/regular/pincenez = 6,
 		/obj/item/clothing/glasses/monocle = 6,
 		/obj/item/clothing/glasses/eyepatch = 6,
 
