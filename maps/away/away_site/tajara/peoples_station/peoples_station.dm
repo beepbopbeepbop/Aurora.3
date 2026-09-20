@@ -12,6 +12,14 @@
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/peoples_station_fang, /datum/shuttle/autodock/overmap/peoples_station_transport)
 
 	unit_test_groups = list(2)
+	traits = list(
+		//Z1
+		list(ZTRAIT_AWAY = TRUE, ZTRAIT_UP = TRUE, ZTRAIT_DOWN = FALSE),
+		//Z2
+		list(ZTRAIT_AWAY = TRUE, ZTRAIT_UP = TRUE, ZTRAIT_DOWN = TRUE),
+		//Z3
+		list(ZTRAIT_AWAY = TRUE, ZTRAIT_UP = FALSE, ZTRAIT_DOWN = TRUE),
+	)
 
 /singleton/submap_archetype/peoples_station
 	map = "People's Space Station"
@@ -25,8 +33,6 @@
 	icon = 'icons/obj/overmap/overmap_stationary.dmi'
 	icon_state = "battlestation"
 	color = "#8C8A81"
-	static_vessel = TRUE
-	generic_object = FALSE
 	scanimage = "pss.png"
 	designer = "People's Republic of Adhomai"
 	volume = "101 meters length, 115 meters beam/width, 32 meters vertical height"
@@ -48,8 +54,6 @@
 		"Orbital Fleet Fang" = list("nav_hangar_peoples_station_fang"),
 		"People's Station Transport Shuttle" = list("nav_hangar_peoples_station_transport")
 	)
-	comms_support = TRUE
-	comms_name = "people's station"
 
 /obj/effect/overmap/visitable/ship/stationary/peoples_station/get_skybox_representation()
 	var/image/skybox_image = image('icons/skybox/subcapital_ships.dmi', "pss")

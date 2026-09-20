@@ -58,7 +58,7 @@
 
 /obj/item/clothing/under/tajaran/cosmonaut
 	name = "kosmostrelki uniform"
-	desc = "A military uniform used by the forces of the People's Republic of Adhomai orbital fleet."
+	desc = "A military uniform used by the forces of the PRA Orbital Fleet."
 	icon_state = "cosmonaut"
 	item_state = "cosmonaut"
 	desc_extended = "The People's Republic of Adhomai enjoys having the first militarized spaceships of all the factions on Adhomai. Initially they relied on contracting outside \
@@ -72,18 +72,17 @@
 		BULLET = ARMOR_BALLISTIC_MINOR)
 
 /obj/item/clothing/under/tajaran/cosmonaut/commissar
-	name = "kosmostrelki commissar uniform"
-	desc = "A military uniform used by Party Commissars attached to kosmostrelki units."
+	name = "orbital fleet commissar uniform"
+	desc = "A military uniform used by Party Commissars attached to the PRA Orbital Fleet."
 	icon_state = "space_commissar"
 	item_state = "space_commissar"
 	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached to army units, who ensures that soldiers and \
 	their commanders follow the principles of Hadiism. Their duties are not only limited to enforcing the republican ideals among the troops and reporting possible subversive elements, \
 	they are expected to display bravery in combat and lead by example."
-	starting_accessories = (/obj/item/clothing/accessory/holster/hip)
 
 /obj/item/clothing/under/tajaran/cosmonaut/captain
 	name = "orbital fleet captain uniform"
-	desc = "A military uniform used by a captain of the People's Republic of Adhomai orbital fleet."
+	desc = "A military uniform used by a captain of the PRA Orbital Fleet."
 	icon_state = "orbital_captain"
 	item_state = "orbital_captain"
 

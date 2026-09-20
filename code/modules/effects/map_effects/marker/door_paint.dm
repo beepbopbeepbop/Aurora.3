@@ -169,4 +169,7 @@
 /obj/effect/map_effect/marker/door_paint/frame/brown
 	color = /turf/simulated/wall/shuttle/brown::color
 
+/obj/effect/map_effect/marker/door_paint/frame/raider
+	color = /turf/simulated/wall/shuttle/raider::color
+
 // ----------------------------------- fin

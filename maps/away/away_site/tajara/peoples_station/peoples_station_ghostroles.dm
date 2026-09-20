@@ -1,112 +1,104 @@
-/datum/ghostspawner/human/peoples_station_crew
-	short_name = "peoples_station_crew"
-	name = "People's Space Station Crewmember"
-	desc = "Crew the People's Space Station."
+// Kosmostrelki - Elite crew of the PRA's Orbital Fleet
+/datum/ghostspawner/human/prss_kosmostrelki
+	short_name = "prss_kosmostrelki"
+	name = "People's Republic Space Station Kosmostrelki"
+	desc = "Crew an Orbital Fleet ship."
 	tags = list("External")
 
-	spawnpoints = list("peoples_station_crew")
-	req_perms = null
+	spawnpoints = list("prss_kosmostrelki")
 	max_count = 5
-	uses_species_whitelist = FALSE
 
-	outfit = /obj/outfit/admin/peoples_station_crew
+	outfit = /obj/outfit/admin/prss_kosmostrelki
 	possible_species = list(SPECIES_TAJARA, SPECIES_TAJARA_MSAI, SPECIES_TAJARA_ZHAN)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
-	welcome_message = "As a crewmember of the People's Space Station, you must man your station and protect the People's Republic of Adhomai's and its allies' assets. \
-	Your superior is the station's captain, but you should listen to the commissar in matters of ideology."
 
-	assigned_role = "People's Space Station Crewmember"
-	special_role = "People's Space Station Crewmember"
+	assigned_role = "PRSS Kosmostrelkiiye Security Battalion"
+	special_role = "PRSS Orbital Fleet Kosmostrelki-Dranalket"
+	mob_name_prefix = "Dkt. "
+
+	uses_species_whitelist = FALSE
 	extra_languages = list(LANGUAGE_SIIK_MAAS)
-	respawn_flag = null
 
-/obj/outfit/admin/peoples_station_crew
-	name = "People's Space Station Crewmember"
+/obj/outfit/admin/prss_kosmostrelki
+	name = "People's Republic Space Station Kosmostrelki"
 
 	id = /obj/item/card/id
-	shoes = /obj/item/clothing/shoes/jackboots/tajara
-
-	uniform = /obj/item/clothing/under/tajaran/cosmonaut
 	l_ear = /obj/item/radio/headset/ship
+	shoes = /obj/item/clothing/shoes/jackboots/tajara
+	uniform = /obj/item/clothing/under/tajaran/cosmonaut
+	accessory = /obj/item/clothing/accessory/badge/pra_passport
+	mask = /obj/item/clothing/accessory/dogtags/adhomai
+	gloves = /obj/item/clothing/gloves/black_leather/tajara
+	back = /obj/item/storage/backpack/satchel/eng
+	backpack_contents = list(/obj/item/storage/box/survival = 1, /obj/item/clothing/accessory/badge/hadii_card = 1)
 
-	belt = /obj/item/storage/belt/military
-
-	accessory = /obj/item/clothing/accessory/badge/hadii_card
 	r_pocket = /obj/item/storage/wallet/random
-
 	l_hand = /obj/item/martial_manual/tajara
 
-/obj/outfit/admin/peoples_station_crew/get_id_access()
+/obj/outfit/admin/prss_kosmostrelki/get_id_access()
 	return list(/datum/access/pra::id, /datum/access/external_airlocks::id)
+// ------------
 
-/datum/ghostspawner/human/peoples_station_crew/captain
-	short_name = "peoples_station_captain"
-	name = "People's Space Station Captain"
-	desc = "Command the People's Space Station."
-	tags = list("External")
+// Kosmostrelki Commander - Orbital Fleet Commander in official and operational command of the People's Space Station
+/datum/ghostspawner/human/prss_kosmostrelki/captain
+	short_name = "pss_commander"
+	name = "People's Republic Space Station Commander"
+	desc = "Command an Orbital Fleet ship."
 
-	welcome_message = "As the captain of the People's Space Station, you must command the station in its mission of protecting the People's Republic and its allies in space. \
-	While the commissar is not your superior, you should listen to his advice."
-
-	spawnpoints = list("peoples_station_captain")
+	spawnpoints = list("prss_kosmostrelki")
 	max_count = 1
-	uses_species_whitelist = TRUE
 
-	outfit = /obj/outfit/admin/peoples_station_crew/captain
+	outfit = /obj/outfit/admin/prss_kosmostrelki
 	possible_species = list(SPECIES_TAJARA, SPECIES_TAJARA_MSAI)
 	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
-	assigned_role = "People's Space Station Captain"
-	special_role = "People's Space Station Captain"
+	assigned_role = "PRSS Installation Command"
+	special_role = "PRSS Orbital Fleet Installation Zarkir"
+	mob_name_prefix = "Zkr. "
 
-/obj/outfit/admin/peoples_station_crew/captain
-	name = "People's Space Station Captain"
+	uses_species_whitelist = FALSE
+	extra_languages = list(LANGUAGE_SIIK_MAAS)
+
+/obj/outfit/admin/prss_kosmostrelki/captain
+	name = "People's Republic Space Station Commander"
 
 	head = /obj/item/clothing/head/tajaran/orbital_captain
 	uniform = /obj/item/clothing/under/tajaran/cosmonaut/captain
-	accessory = /obj/item/clothing/accessory/hadii_pin
-	belt = /obj/item/storage/belt/military
-	belt_contents = list(
-						/obj/item/ammo_magazine/mc9mm = 1,
-						/obj/item/gun/projectile/pistol/adhomai = 1
-						)
-	l_hand = /obj/item/clothing/accessory/badge/hadii_card/member
-	r_hand = /obj/item/martial_manual/tajara
+	back = /obj/item/storage/backpack/satchel/leather
 
+	l_pocket = /obj/item/clothing/wrists/watch/pocketwatch/adhomai
 
-/datum/ghostspawner/human/peoples_station_crew/commissar
-	short_name = "peoples_station_commissar"
-	name = "People's Space Station Party Commissar"
-	desc = "Ensure that the People's Space Station's crew follow the principles of Hadiism."
+// Party Commissar - High-ranking party commissar attached to the Kosmostrelki unit and ship to ensure the loyalty of the crew.
+/datum/ghostspawner/human/prss_kosmostrelki/commissar
+	short_name = "prss_commissar"
+	name = "People's Republic Space Station Party Commissar"
+	desc = "Ensure that the Kosmostrelki follow the principles of Hadiism."
 
-	welcome_message = "As the Party Commissar of the People's Space Station, you must advice the crew on ideological matters and how to behave in the Hadiist way. \
-	While the captain is not your superior, you should listen to his advice on matters related to tactics."
-
+	spawnpoints = list("prss_kosmostrelki")
 	max_count = 1
-	spawnpoints = list("peoples_station_commissar")
 
-	assigned_role = "Party Commissar"
-	special_role = "Party Commissar"
-	uses_species_whitelist = TRUE
-
-	outfit = /obj/outfit/admin/peoples_station_crew/commissar
+	outfit = /obj/outfit/admin/prss_kosmostrelki/commissar
 	possible_species = list(SPECIES_TAJARA, SPECIES_TAJARA_MSAI)
+	allow_appearance_change = APPEARANCE_PLASTICSURGERY
 
-/obj/outfit/admin/peoples_station_crew/commissar
-	name = "Party Commissar"
+	assigned_role = "PRSS Party Oversight Committee"
+	special_role = "PRSS Orbital Fleet Parizahra Mahmahdar"
+	mob_name_prefix = "Mhr. "
+
+	uses_species_whitelist = TRUE
+	extra_languages = list(LANGUAGE_SIIK_MAAS)
+
+/obj/outfit/admin/prss_kosmostrelki/commissar
+
+	name = "People's Republic Space Station Party Commissar"
 
 	uniform = /obj/item/clothing/under/tajaran/cosmonaut/commissar
-	head = /obj/item/clothing/head/tajaran/cosmonaut_commissar
 	accessory = /obj/item/clothing/accessory/hadii_pin
-	belt = /obj/item/gun/projectile/deagle/adhomai
-	belt_contents = null
+	head = /obj/item/clothing/head/tajaran/cosmonaut_commissar
 	back = /obj/item/storage/backpack/satchel/leather
-	backpack_contents = list(
-						/obj/item/ammo_magazine/a50 = 2,
-						/obj/item/material/knife/trench = 1,
+	backpack_contents = list(/obj/item/storage/box/hadii_manifesto = 1,
+						/obj/item/storage/box/hadii_card = 1,
 						/obj/item/clothing/accessory/badge/hadii_card/member = 1,
-						/obj/item/storage/box/hadii_manifesto = 1,
-						/obj/item/storage/box/hadii_card = 1
+						/obj/item/clothing/accessory/badge/pra_passport = 1,
 						)
-	l_hand = /obj/item/megaphone
-	r_hand = /obj/item/martial_manual/tajara
+	l_pocket = /obj/item/clothing/wrists/watch/pocketwatch/adhomai
