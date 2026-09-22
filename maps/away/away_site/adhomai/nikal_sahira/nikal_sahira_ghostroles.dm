@@ -19,13 +19,14 @@
 	assigned_role = "Nikal'n Marr Diner Chef"
 	special_role = "Nikal'n Marr Diner Chef"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/chef
 	name = "Crevus Chef"
 	uniform = /obj/item/clothing/under/rank/chef
 	suit = /obj/item/clothing/suit/chef_jacket/nt
 	shoes = /obj/item/clothing/shoes/laceup
-	r_pocket = /obj/item/storage/wallet/random
+	r_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
@@ -47,6 +48,7 @@
 	assigned_role = "Nikal'n Marr Diner Attendant"
 	special_role = "Nikal'n Marr Diner Attendant"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/attendant
 	name = "Crevus Attendant"
@@ -54,7 +56,7 @@
 	gloves = /obj/item/clothing/gloves/white
 	shoes = /obj/item/clothing/shoes/laceup
 	back = /obj/item/storage/backpack/satchel
-	r_pocket = /obj/item/storage/wallet/random
+	r_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
 	id = /obj/item/card/id
 	backpack_contents = list(
 		/obj/item/storage/box/fancy/candle_box,
@@ -86,6 +88,7 @@
 	assigned_role = "Ane-Mart Vendor"
 	special_role = "Ane-Mart Vendor"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/generic_vendor
 	name = "Generic Vendor"
@@ -109,7 +112,7 @@
 		SPECIES_TAJARA_MSAI = /obj/item/clothing/shoes/workboots/toeless/dark,
 		SPECIES_TAJARA_ZHAN = /obj/item/clothing/shoes/workboots/toeless/dark,
 	)
-	r_pocket = /obj/item/storage/wallet/random
+	r_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
@@ -147,12 +150,13 @@
 	assigned_role = "Automobile Salesperson"
 	special_role = "Automobile Salesperson"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/car_salesperson
 	name = "Automobile Salesperson"
 	uniform = /obj/item/clothing/under/tajaran/high_waisted/business
 	shoes = /obj/item/clothing/shoes/laceup
-	r_pocket = /obj/item/storage/wallet/random
+	r_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
@@ -177,13 +181,14 @@
 	assigned_role = "Transit Centre Clerk"
 	special_role = "Transit Centre Clerk"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/clerk
 	name = "Transit Centre Clerk"
 	uniform = /obj/item/clothing/under/dressshirt
 	pants = /obj/item/clothing/pants/black
 	shoes = /obj/item/clothing/shoes/laceup
-	r_pocket = /obj/item/storage/wallet/random
+	r_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
 	accessory = /obj/item/clothing/accessory/tie/black
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/satchel
@@ -206,6 +211,7 @@
 	assigned_role = "Clothing Store Vendor"
 	special_role = "Clothing Store Vendor"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/generic_vendor/clothing_store
 	name = "Clothing Store Vendor"
@@ -232,6 +238,7 @@
 	assigned_role = "Firearm Salesperson"
 	special_role = "Firearm Salesperson"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/generic_vendor/firearm_salesperson
 	name = "Firearm Salesperson"
@@ -258,6 +265,7 @@
 	assigned_role = "Artisan Shop Vendor"
 	special_role = "Artisan Shop Vendor"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/generic_vendor/artisan_shop
 	name = "Artisan Shop Vendor"
@@ -285,6 +293,7 @@
 	assigned_role = "NanoTrasen Pharmacist"
 	special_role = "NanoTrasen Pharmacist"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/nt_pharmacist
 	name = "NanoTrasen Pharmacist"
@@ -302,7 +311,7 @@
 		SPECIES_TAJARA_MSAI = /obj/item/clothing/shoes/workboots/toeless/dark,
 		SPECIES_TAJARA_ZHAN = /obj/item/clothing/shoes/workboots/toeless/dark,
 	)
-	r_pocket = /obj/item/storage/wallet/random
+	r_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
@@ -325,12 +334,13 @@
 	assigned_role = "Keltra Zav Nikal Personnel"
 	special_role = "Keltra Zav Nikal Personnel"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/casino
 	name = "Keltra Zav Nikal Casino Personnel"
 	uniform = /obj/item/clothing/under/tajaran/fancy/evening_suit
 	shoes = /obj/item/clothing/shoes/laceup
-	r_pocket = /obj/item/storage/wallet/random
+	r_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
 	id = /obj/item/card/id
 	back = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
@@ -358,6 +368,7 @@
 	assigned_role = "The Lock Attendant"
 	special_role = "The Lock Attendant"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/generic_vendor/the_lock
 	backpack_contents = list(
@@ -385,6 +396,7 @@
 	assigned_role = "Rhan-Cresh Highway Patrolman"
 	special_role = "Rhan-Cresh Highway Patrolman"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/rhan_cresh_patrol
 	name = "Rhan-Cresh Highway Patrolman"
@@ -396,7 +408,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses/visor
 	shoes = /obj/item/clothing/shoes/laceup
 	id = /obj/item/card/id
-	l_pocket = /obj/item/storage/wallet/random
+	l_pocket = /obj/item/storage/wallet/random/random_adhomian_knuckle
 	r_pocket = /obj/item/journal/notepad/filled
 	back = /obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
@@ -440,12 +452,11 @@
 	assigned_role = "Azaula Entertainment Enforcer"
 	special_role = "Azaula Entertainment Enforcer"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/crevus_azaula_enforcer
 	name = "Azaula Entertainment Enforcer"
-	uniform = list(
-		/obj/item/clothing/under/tajaran/dpra/alt
-	)
+	uniform = /obj/item/clothing/under/tajaran/dpra/alt
 	suit = list(
 		/obj/item/clothing/suit/storage/toggle/suitjacket,
 		/obj/item/clothing/suit/storage/toggle/suitjacket/blazer
@@ -456,7 +467,7 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	wrist = /obj/item/clothing/wrists/watch/pocketwatch/adhomai
 	id = /obj/item/card/id
-	l_pocket = /obj/item/storage/wallet/random
+	l_pocket = /obj/item/storage/wallet/random/random_adhomian_knuckle
 	r_pocket = /obj/item/reagent_containers/glass/rag/handkerchief
 	back = /obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
@@ -501,6 +512,7 @@
 	assigned_role = "Gang Member"
 	special_role = "Gang Member"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /obj/outfit/admin/crevus/gang_member
 	name = "Gang Member"
@@ -535,7 +547,7 @@
 	)
 
 	id = null
-	l_pocket = /obj/item/storage/wallet/random
+	l_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
 	r_pocket = /obj/item/material/knife/butterfly/switchblade
 	back = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
@@ -599,7 +611,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses/visor
 	shoes = /obj/item/clothing/shoes/laceup
 	id = null
-	l_pocket = /obj/item/storage/wallet/random
+	l_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
 	r_pocket = /obj/item/material/knife/butterfly/switchblade
 	back = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
@@ -646,6 +658,7 @@
 	assigned_role = "Gang Member"
 	special_role = "Gang Member"
 	respawn_flag = null
+	uses_species_whitelist = FALSE
 
 /datum/ghostspawner/human/crevus_gang2_boss
 	short_name = "crevus_gang2_boss"
