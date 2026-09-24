@@ -1,1403 +1,3546 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/shoes/combat,
-/obj/item/clothing/under/tajaran/pra_uniform,
-/obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
-/obj/item/clothing/head/beret/tajaran/pra,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/versebook/pra,
-/obj/item/clothing/accessory/badge/pra_passport,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
+/turf/unsimulated/mineral/adhomai,
+/area/exoplanet/adhomai)
+"ab" = (
+/obj/structure/platform/rock/icy,
+/obj/structure/platform/rock/icy{
+	dir = 4
 	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"ag" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/thin{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
 /area/pra_base)
-"aJ" = (
-/obj/structure/machinery/light{
-	dir = 4;
-	status = 2
+"ar" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 8
 	},
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"aw" = (
 /obj/structure/sign/flag/pra{
-	pixel_x = 32;
-	stand_icon = null
+	pixel_y = 32
 	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 4
 	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"aC" = (
+/obj/item/ammo_magazine/boltaction/adhomai/blank,
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"aF" = (
+/obj/item/deck/tarot/adhomai,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"aH" = (
+/obj/item/towel_flat/doormat,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"aI" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/structure/utility_pole/street/on{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"aJ" = (
+/obj/structure/flora/grass/adhomai,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"bc" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"bf" = (
+/obj/structure/machinery/computer/terminal/inactive{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
 /area/pra_base)
 "bk" = (
-/obj/effect/floor_decal/concrete/large,
-/obj/structure/bed/stool/bar/padded/red,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"bl" = (
+/obj/item/clothing/wrists/watch/pocketwatch/adhomai,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"bv" = (
+/obj/structure/platform_deco/column{
+	dir = 8
 	},
-/area/pra_base)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"bx" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/effect/tent{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
 "bz" = (
-/obj/item/bedsheet/brown,
-/obj/structure/bed/padded,
-/obj/structure/curtain/open/bed,
-/obj/structure/machinery/light/small,
-/turf/simulated/floor/carpet/art{
-	temperature = 278.15
+/obj/item/reagent_containers/food/drinks/bottle/darmadhir_brew,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"bF" = (
+/obj/item/storage/box/fancy/cigarettes/pra,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"bG" = (
+/obj/structure/platform/metal{
+	dir = 1
 	},
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"bI" = (
+/obj/structure/platform/metal{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"bM" = (
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"bP" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/light/full,
 /area/pra_base)
 "bR" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(/datum/access/pra)
+	},
+/obj/item/gun/projectile/recoilless_rifle,
+/obj/item/gun/energy/rifle/icelance,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"bS" = (
+/obj/effect/floor_decal/spline/plain/white,
+/obj/effect/floor_decal/spline/plain/corner/white{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"bU" = (
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"ca" = (
+/obj/structure/bed/padded,
+/obj/structure/bed/padded/bunk,
+/obj/item/bedsheet/brown{
+	pixel_y = 16
+	},
+/obj/item/bedsheet/black,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"ci" = (
+/obj/effect/map_effect/map_helper/ruler_tiles_3,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"co" = (
+/obj/structure/utility_pole/street/on{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"cw" = (
+/obj/effect/floor_decal/spline/plain/cee/white{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"cy" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"cD" = (
+/obj/structure/platform/metal,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"cG" = (
+/obj/item/versebook/twinsuns,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"cT" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"dp" = (
+/obj/item/reagent_containers/food/snacks/hmatrrameat,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"dr" = (
+/obj/structure/platform_deco/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"ds" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"dy" = (
+/obj/effect/floor_decal/snowdrift/random,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"dH" = (
+/obj/item/reagent_containers/food/snacks/tunneler_souffle,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"dI" = (
+/obj/structure/rod_railing/jailbar,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"dN" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8
+	},
+/obj/structure/lattice/ceiling,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"dO" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = 32
+	},
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"dQ" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/pra_base)
+"ed" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/structure/machinery/turretid/lethal{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"em" = (
+/obj/structure/table/reinforced/steel,
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"en" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(/datum/access/pra)
+	},
+/obj/item/gun/projectile/deagle/adhomai,
+/obj/item/ammo_magazine/a50,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"ey" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/effect/decal/road_marking/thin{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"eC" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing{
+	dir = 6
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"eD" = (
+/obj/structure/platform/metal{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"eH" = (
+/obj/effect/floor_decal/snowdrift/random,
+/obj/item/storage/chewables/solar_salve,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"eR" = (
+/obj/structure/utility_pole/street/on{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"eT" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"eW" = (
+/turf/simulated/floor/tiled/bitile{
+	dir = 4
+	},
+/area/pra_base)
+"eX" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base)
+"eY" = (
+/obj/structure/table/wood,
+/obj/item/typewriter_case,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"fa" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/platform_deco/metal_alt,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"fk" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"fq" = (
+/obj/structure/whiteboard,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"fw" = (
+/obj/structure/platform/column{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"fx" = (
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"fB" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 6
+	},
+/obj/structure/machinery/iv_drip,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"fH" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"fK" = (
+/obj/structure/machinery/door/urban/metal_alt{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"fU" = (
+/obj/item/reagent_containers/food/snacks/dip/sarmikhir,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"fV" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = -32
+	},
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/exoplanet/adhomai)
+"fY" = (
+/turf/simulated/wall/brick,
+/area/pra_base)
+"gf" = (
+/obj/structure/bed/stool/chair/sofa/right/brown{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"gh" = (
+/obj/effect/floor_decal/corner_wide/red/full{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/corner/black,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"gi" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"gp" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"gt" = (
+/obj/effect/floor_decal/corner_wide/dark_blue/full{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"gu" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 5
+	},
+/obj/structure/machinery/iv_drip,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"gw" = (
+/obj/structure/missile_silo{
+	pixel_x = -32
+	},
+/turf/simulated/floor/concrete,
+/area/pra_base)
+"gy" = (
+/obj/structure/platform/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"gz" = (
+/obj/item/reagent_containers/food/snacks/sarmikhir_sandwich,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"gP" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"gR" = (
+/obj/item/reagent_containers/food/snacks/egg/ice_tunnelers,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"gS" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"gU" = (
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"hf" = (
+/obj/structure/machinery/r_n_d/fabricator/circuit_imprinter{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"ho" = (
+/obj/structure/platform/rock/icy,
+/obj/structure/platform/column{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"hB" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/pra_base)
+"hI" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/structure/platform/column,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"hP" = (
+/turf/simulated/floor/concrete,
+/area/pra_base)
+"hT" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"hU" = (
+/obj/structure/chainlink_fence,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"hV" = (
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
+	},
+/area/pra_base)
+"if" = (
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"ik" = (
+/obj/effect/floor_decal/snowdrift/random,
+/obj/item/reagent_containers/food/snacks/avah,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"iw" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"iD" = (
+/obj/structure/table/stone/marble,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"iE" = (
+/obj/item/reagent_containers/food/drinks/carton/mutthir,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"iN" = (
+/obj/item/reagent_containers/food/snacks/earthenroot_wedges,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"iO" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/platform/column{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/no_pass{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"iX" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete/gutter/corner,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"ja" = (
+/obj/structure/lattice/catwalk/indoor/grate/dark,
+/turf/simulated/floor/exoplanet/abyss,
+/area/pra_base)
+"jg" = (
+/obj/item/reagent_containers/food/snacks/soup/tajfish,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"jh" = (
+/obj/item/reagent_containers/food/snacks/clam_casino,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"ji" = (
+/obj/item/reagent_containers/food/snacks/hardbread,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"jj" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"jq" = (
+/obj/structure/machinery/appliance/cooker/fryer,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"jr" = (
+/obj/effect/floor_decal/corner_wide/red/full{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 8
+	},
+/obj/structure/table/rack/retail_shelf,
+/obj/item/ammo_magazine/a68,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"jx" = (
+/obj/structure/arch/gothic/eastwest/middle,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"jE" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/obj/structure/platform/column,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"jF" = (
+/obj/effect/floor_decal/corner_wide/red/full,
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 1
+	},
+/obj/structure/table/reinforced/steel,
+/obj/item/crowbar/rescue_axe/tactical,
+/obj/item/binoculars{
+	pixel_y = 9;
+	pixel_x = -2
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"jP" = (
+/obj/item/reagent_containers/food/snacks/fruit_rikazu,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"jS" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"jT" = (
+/obj/structure/sign/flag/pra/large{
+	dir = 4;
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"jU" = (
+/obj/structure/platform_deco/metal,
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = 32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"kq" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"kv" = (
+/obj/structure/machinery/door/urban/jail_door{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"ky" = (
+/obj/effect/floor_decal/corner_wide/red/full,
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"kE" = (
+/obj/structure/rod_railing/jailbar{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"kO" = (
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/hadii,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"kS" = (
+/obj/structure/machinery/space_heater/industrial,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"lf" = (
+/obj/item/reagent_containers/food/snacks/dirt_roast,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"lh" = (
+/obj/effect/decal/exterior_stairs/half/right,
+/obj/structure/platform/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"lp" = (
+/obj/item/reagent_containers/food/snacks/spicy_clams,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"lu" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete/gutter/corner,
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"ly" = (
+/obj/structure/closet/crate/secure/weapon/alt{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
+"lA" = (
+/obj/structure/rod_railing/jailbar,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"lC" = (
+/obj/structure/platform_deco/metal{
+	dir = 1
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"lI" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/closet/secure_closet/freezer,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base)
+"lM" = (
+/obj/item/clothing/accessory/tajaran/charm/steel,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"lP" = (
+/obj/structure/target_stake,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"lR" = (
+/obj/item/shovel,
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"lX" = (
+/turf/simulated/wall/concrete,
+/area/exoplanet/adhomai)
+"mb" = (
+/obj/structure/platform_deco/metal_alt{
+	dir = 8
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = 32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"mi" = (
+/obj/item/gun/projectile/shotgun/pump/rifle/blank{
+	desc = "A cheap ballistic rifle, often found in the hands of Tajaran conscripts."
+	},
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"mj" = (
+/obj/structure/bed/stool/chair/folding,
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
+"mD" = (
+/obj/item/reagent_containers/food/snacks/vegetable_rikazu,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"mF" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 8
+	},
+/obj/structure/machinery/body_scanconsole{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"mG" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"mK" = (
+/obj/item/reagent_containers/food/snacks/chocolate_rikazu,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"mN" = (
+/obj/structure/flora/grass/green,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"mV" = (
+/obj/effect/decal/exterior_stairs/half/center,
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/lattice/ceiling,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"mZ" = (
+/obj/structure/machinery/r_n_d/fabricator/protolathe{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"na" = (
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"nc" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(/datum/access/pra)
+	},
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/storage/belt/military,
+/obj/item/clothing/accessory/storage/pouches/brown,
+/obj/item/clothing/accessory/storage/pouches/brown,
+/obj/item/clothing/accessory/storage/pouches/brown,
+/obj/item/clothing/accessory/storage/pouches/brown,
+/obj/item/clothing/accessory/storage/pouches/brown,
+/obj/item/clothing/accessory/storage/pouches/brown,
+/obj/item/clothing/accessory/holster/thigh/brown,
+/obj/item/clothing/accessory/holster/thigh/brown,
+/obj/item/clothing/accessory/holster/thigh/brown,
+/obj/item/clothing/accessory/holster/thigh/brown,
+/obj/item/clothing/accessory/holster/thigh/brown,
+/obj/item/clothing/accessory/holster/thigh/brown,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"nf" = (
+/obj/item/storage/pill_bottle/nicotine,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"ng" = (
+/obj/structure/platform/metal{
+	dir = 8
+	},
+/obj/structure/chainlink_fence,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"nw" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"nH" = (
+/obj/item/clothing/accessory/medal/dasnrra_evac,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"nU" = (
+/obj/effect/floor_decal/corner_wide/dark_blue/full{
+	dir = 8
+	},
+/obj/structure/machinery/computer/operating/terminal,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"oi" = (
+/obj/structure/platform/rock/icy{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"ou" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/platform/column{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/no_pass{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"ov" = (
+/obj/effect/decal/exterior_stairs/half/left,
+/obj/structure/platform/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"oA" = (
+/obj/structure/platform/rock/icy{
+	dir = 4
+	},
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 1
+	},
+/obj/effect/tent{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"oE" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"oI" = (
+/obj/structure/hadii_statue,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"oK" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/structure/machinery/turretid/lethal{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"oO" = (
+/obj/structure/platform/metal_alt{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"pc" = (
+/obj/structure/bed/stool/chair/sofa/left/brown{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"pj" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"pm" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"ps" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"py" = (
+/obj/structure/table/rack/folding_table,
+/obj/item/megaphone/red,
+/obj/item/toy/bosunwhistle,
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
+"pB" = (
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"pG" = (
+/obj/item/reagent_containers/food/snacks/tajfurter,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"pN" = (
+/obj/structure/platform/metal_alt,
+/obj/structure/platform/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"pS" = (
+/obj/structure/platform/column{
+	dir = 1
+	},
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"pY" = (
+/obj/structure/platform/rock/icy,
+/obj/structure/platform/rock/icy{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"qa" = (
+/obj/effect/decal/exterior_stairs/half/left,
+/obj/structure/platform/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"qn" = (
+/obj/item/reagent_containers/food/drinks/cans/earthen_juice,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"qp" = (
+/obj/structure/platform_deco/metal{
+	dir = 4
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"qt" = (
+/obj/structure/machinery/porta_turret/ballistic{
+	req_one_access = null;
+	req_access = list(/datum/access/pra)
+	},
+/obj/effect/floor_decal/industrial/warning/full,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"qv" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/utility_pole/street/on{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"qB" = (
+/obj/structure/decor/suspension_cable/left{
+	dir = 1
+	},
+/obj/structure/decor/suspension_bar{
+	dir = 10
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"qL" = (
+/obj/item/reagent_containers/food/drinks/cans/adhomai_milk,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"qP" = (
+/obj/effect/decal/exterior_stairs/half/center,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"qQ" = (
+/obj/item/reagent_containers/food/drinks/cans/hrozamal_soda,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"qS" = (
+/obj/item/reagent_containers/food/snacks/chipplate/crownfurter,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"qW" = (
+/obj/structure/platform_deco/metal_alt{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"rj" = (
+/obj/structure/table/wood,
+/obj/item/journal/filled,
+/obj/item/pen/fountain/silver,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"rm" = (
+/obj/structure/flora/grass/both,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"rq" = (
+/obj/structure/platform_deco/column{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"rs" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 5
+	},
+/obj/structure/machinery/optable,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"rt" = (
+/obj/structure/rod_railing/jailbar,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"ru" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/reagent_dispensers/cookingoil,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base)
+"rw" = (
+/obj/structure/platform/rock/icy{
+	dir = 8
+	},
+/obj/structure/platform/rock/icy{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"rx" = (
+/obj/item/reagent_containers/food/snacks/tunneler_meategg,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"rz" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"rC" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"rK" = (
+/obj/structure/bed/padded,
+/obj/structure/bed/padded/bunk,
+/obj/item/bedsheet/brown,
+/obj/item/bedsheet/brown{
+	pixel_y = 16
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"rN" = (
+/obj/effect/floor_decal/corner_wide/dark_blue/full{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"rU" = (
+/obj/item/reagent_containers/food/snacks/creamice,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"rZ" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
 	},
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
+/turf/simulated/floor/tiled/dark,
 /area/pra_base)
-"bU" = (
-/obj/structure/sign/flag/pra{
-	pixel_y = 32;
-	stand_icon = null
+"sg" = (
+/obj/structure/machinery/door/urban/jail_door{
+	req_access = list(/datum/access/pra)
 	},
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"ca" = (
-/obj/structure/machinery/light,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"dy" = (
-/obj/structure/table/wood,
-/obj/structure/machinery/photocopier/faxmachine{
-	req_access = list(209);
-	department = "PRA Outpost";
-	req_one_access = null
-	},
-/turf/simulated/floor/wood,
-/area/pra_base)
-"dH" = (
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"dJ" = (
-/obj/structure/table/wood,
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/obj/item/storage/box/fancy/cigarettes/pra,
-/obj/item/flame/lighter/adhomai{
-	pixel_x = 17
-	},
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"fq" = (
-/obj/structure/filingcabinet/chestdrawer,
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/obj/effect/floor_decal/concrete/large{
-	dir = 8
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"fw" = (
-/obj/structure/machinery/vending/cola,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"fx" = (
-/obj/structure/table/wood,
-/obj/effect/floor_decal/concrete/large,
-/obj/item/spacecash/c10{
-	pixel_y = 13;
-	pixel_x = -10
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/pra{
-	pixel_x = -16
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"fY" = (
-/obj/structure/sign/flag/pra/large/north{
-	pixel_y = 32
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"gh" = (
-/obj/effect/map_effect/window_spawner/full/reinforced/polarized{
-	id = "pra_base"
-	},
-/turf/simulated/floor/wood,
-/area/pra_base)
-"gi" = (
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen/fountain/black,
-/obj/structure/machinery/button/switch/windowtint{
-	dir = 4;
-	id = "pra_base";
-	pixel_x = 10;
-	pixel_y = 8
-	},
-/turf/simulated/floor/wood,
-/area/pra_base)
-"gP" = (
-/obj/effect/floor_decal/concrete{
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"st" = (
+/obj/effect/decal/curb{
 	dir = 6
 	},
-/obj/structure/machinery/space_heater,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
+/obj/structure/utility_pole/street/on{
+	dir = 4
 	},
-/area/pra_base)
-"gS" = (
-/obj/structure/bed/roller,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/pra_base)
-"gU" = (
-/turf/simulated/wall/concrete,
-/area/pra_base)
-"hT" = (
-/obj/structure/flora/bush/adhomai,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"sC" = (
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
-"jE" = (
-/obj/effect/floor_decal/concrete/large{
-	dir = 8
-	},
-/obj/structure/bed/stool/bar/padded/red,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"jF" = (
-/obj/effect/floor_decal/concrete/large/cee{
-	dir = 8
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"kq" = (
-/obj/structure/reagent_dispensers/water_cooler,
-/obj/effect/floor_decal/concrete/large,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"kE" = (
-/obj/effect/floor_decal/concrete/large{
-	dir = 8
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"kO" = (
-/obj/structure/bed/padded,
-/obj/structure/curtain/open/bed,
-/obj/effect/ghostspawpoint{
-	identifier = "pra_base_soldier";
-	name = "igs - pra_base_soldier"
-	},
-/obj/item/bedsheet/brown,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"ly" = (
-/obj/structure/sign/flag/pra/large/east{
-	pixel_x = 32
-	},
-/obj/structure/bed/stool/chair/wood{
-	dir = 8
-	},
-/obj/effect/ghostspawpoint{
-	identifier = "pra_base_commissar";
-	name = "igs - pra_base_commissar"
-	},
-/obj/structure/machinery/button/switch/windowtint{
-	dir = 4;
-	pixel_x = -4;
-	id = "pra_base"
-	},
-/turf/simulated/floor/wood,
-/area/pra_base)
-"lC" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"lI" = (
-/obj/effect/floor_decal/concrete/large/cee{
-	dir = 1
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"lX" = (
-/obj/structure/machinery/shower{
-	dir = 1
-	},
-/obj/structure/curtain/open/shower,
-/turf/simulated/floor/tiled/freezer{
-	temperature = 268.15
-	},
-/area/pra_base)
-"mb" = (
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(209);
-	name = "ammunition cabinet (rifle)"
-	},
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"mj" = (
-/obj/structure/machinery/door/window/brigdoor/northright{
-	dir = 4;
-	req_access = list(209)
-	},
-/obj/structure/table/steel,
-/obj/item/paper_bin,
-/obj/item/pen/black,
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/pra{
-	pixel_y = 10;
-	pixel_x = -5
-	},
-/obj/effect/floor_decal/concrete/large{
+"sL" = (
+/obj/structure/chainlink_fence{
 	dir = 4
 	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"mN" = (
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
+/obj/structure/platform/metal,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
-"na" = (
-/obj/structure/closet/crate/freezer,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/item/reagent_containers/blood/OMinus,
-/obj/structure/machinery/light,
+"sR" = (
+/obj/structure/bed/stool/chair/padded/brown,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"sX" = (
+/obj/structure/machinery/appliance/cooker/grill,
+/obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
-"nc" = (
-/obj/structure/table/standard,
-/obj/structure/sign/flag/pra{
-	pixel_y = 32;
-	stand_icon = null
+"sY" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/sign/flag/pra,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"ta" = (
+/obj/structure/closet/secure_closet,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/gloves/black_leather/tajara,
+/obj/item/clothing/gloves/black_leather/tajara,
+/obj/item/clothing/gloves/black_leather/tajara,
+/obj/item/clothing/gloves/black_leather/tajara,
+/obj/item/clothing/gloves/fingerless,
+/obj/item/clothing/gloves/fingerless,
+/obj/item/clothing/gloves/fingerless,
+/obj/item/clothing/gloves/fingerless,
+/obj/item/clothing/under/tajaran/pra_uniform,
+/obj/item/clothing/under/tajaran/pra_uniform,
+/obj/item/clothing/under/tajaran/pra_uniform,
+/obj/item/clothing/under/tajaran/pra_uniform,
+/obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
+/obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
+/obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
+/obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
+/obj/item/clothing/head/helmet/tank/olive,
+/obj/item/clothing/head/helmet/tank/olive,
+/obj/item/clothing/head/helmet/tank/olive,
+/obj/item/clothing/head/helmet/tank/olive,
+/obj/item/clothing/head/beret/tajaran/pra,
+/obj/item/clothing/head/beret/tajaran/pra,
+/obj/item/clothing/head/beret/tajaran/pra,
+/obj/item/clothing/head/beret/tajaran/pra,
+/obj/item/clothing/suit/storage/hooded/tajaran/colorable{
+	color = "#727c58"
 	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
+/obj/item/clothing/suit/storage/hooded/tajaran/colorable{
+	color = "#727c58"
 	},
-/area/pra_base)
-"nw" = (
-/obj/effect/floor_decal/concrete/large/cee,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
+/obj/item/clothing/suit/storage/hooded/tajaran/colorable{
+	color = "#727c58"
 	},
-/area/pra_base)
-"oA" = (
-/obj/structure/machinery/door/blast/shutters{
-	id = "pra_camp_entry"
+/obj/item/clothing/suit/storage/hooded/tajaran/colorable{
+	color = "#727c58"
 	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"oE" = (
-/obj/structure/barricade/metal/wired{
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base)
-"oO" = (
-/obj/structure/closet/walllocker/medical{
-	pixel_y = 30
-	},
-/obj/item/stack/medical/splint/full,
-/obj/item/stack/medical/splint/full,
-/obj/item/storage/firstaid/regular,
-/obj/item/storage/firstaid/regular,
-/obj/item/storage/firstaid/regular,
-/obj/item/storage/box/syringes,
-/obj/item/clothing/suit/storage/hooded/tajaran/surgery,
-/obj/item/clothing/mask/breath/medical,
-/obj/item/tank/anesthetic,
-/obj/item/storage/box/bodybags,
-/turf/simulated/floor/tiled/white,
-/area/pra_base)
-"pB" = (
-/obj/structure/sign/painting_frame/hadii{
-	pixel_x = 32
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"pN" = (
-/obj/structure/machinery/door/airlock/command{
-	req_access = list(209);
-	name = "Commissar's Office";
-	dir = 4
-	},
-/turf/simulated/floor/wood,
-/area/pra_base)
-"pS" = (
-/obj/effect/floor_decal/concrete{
-	dir = 8
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 1
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"qa" = (
-/obj/structure/machinery/door/airlock{
-	req_access = list(209);
-	name = "Barracks";
-	dir = 1
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"qP" = (
-/obj/structure/machinery/vending/coffee,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"rq" = (
-/obj/structure/filingcabinet/chestdrawer,
-/obj/structure/machinery/light{
-	dir = 4;
-	status = 2
-	},
-/obj/effect/floor_decal/concrete/large{
-	dir = 1
-	},
-/obj/item/storage/box/folders{
-	pixel_y = 13
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"rt" = (
-/obj/structure/machinery/door/blast/shutters{
-	id = "pra_camp_entry"
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"rz" = (
-/obj/effect/floor_decal/concrete{
-	dir = 4
-	},
-/obj/effect/floor_decal/concrete,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"rN" = (
-/obj/effect/floor_decal/industrial/outline/firefighting_closet,
-/obj/structure/extinguisher_cabinet/north,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
 "tc" = (
-/obj/effect/floor_decal/concrete/large{
+/obj/structure/platform/metal{
 	dir = 4
 	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"th" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/brown,
+/turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "tn" = (
-/obj/structure/table/steel,
-/obj/item/storage/firstaid/adv,
-/obj/item/storage/firstaid/fire{
-	pixel_x = 3;
-	pixel_y = 4
+/obj/effect/decal/curb/corner{
+	dir = 8
 	},
-/obj/item/storage/pill_bottle/dylovene,
-/obj/item/storage/pill_bottle/perconol,
-/obj/item/reagent_containers/glass/bottle/thetamycin,
-/obj/item/storage/pill_bottle/mortaphenyl,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"tu" = (
+/obj/item/reagent_containers/food/snacks/meat_rikazu,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"tv" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"tD" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/handcuffs,
+/obj/item/handcuffs/ziptie,
+/obj/item/melee/baton/stunrod,
+/obj/item/wirecutters,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"tE" = (
+/obj/structure/platform/column,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"tM" = (
+/obj/item/reagent_containers/food/snacks/fermented_worm_sandwich,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"tS" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/table/stone/marble,
+/turf/simulated/floor/tiled/freezer/cold,
 /area/pra_base)
 "tT" = (
-/obj/structure/machinery/door/airlock/security{
-	name = "Meeting Room";
-	req_access = list(209);
-	dir = 1
-	},
-/obj/effect/floor_decal/concrete/large/full,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"um" = (
-/obj/structure/machinery/washing_machine,
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/obj/structure/machinery/light{
+/obj/structure/platform/metal{
 	dir = 4
 	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"um" = (
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"uq" = (
+/obj/item/clothing/accessory/tajaran/charm/stone,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"uu" = (
+/obj/effect/decal/road_marking/no_park,
+/obj/structure/platform/column,
+/obj/structure/platform/column{
+	dir = 8
 	},
+/obj/structure/platform_deco/column{
+	dir = 9
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"uv" = (
+/obj/structure/hadii_statue{
+	pixel_y = 7
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete/dark,
+/area/exoplanet/adhomai)
+"ux" = (
+/obj/item/reagent_containers/food/snacks/clam_pasta,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"uG" = (
+/obj/item/camera/adhomai,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"uJ" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(/datum/access/pra)
+	},
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/accessory/flagpatch/pra,
+/obj/item/clothing/accessory/flagpatch/pra,
+/obj/item/clothing/accessory/flagpatch/pra,
+/obj/item/clothing/accessory/flagpatch/pra,
+/obj/item/clothing/accessory/flagpatch/pra,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/turf/simulated/floor/tiled/dark,
 /area/pra_base)
 "uO" = (
-/obj/structure/machinery/light,
-/obj/structure/sign/flag/pra{
-	pixel_y = -32;
-	stand_icon = null
+/obj/effect/decal/curb/corner{
+	dir = 4
 	},
-/turf/simulated/floor/exoplanet/snow/cold,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"vb" = (
+/obj/structure/barricade/liquid{
+	build_stage = 5;
+	icon_state = "sandbag5";
+	pixel_y = -7
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"vf" = (
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/dark,
 /area/pra_base)
 "vi" = (
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
-"vD" = (
-/obj/structure/table/steel,
-/obj/item/storage/box/fancy/tray,
-/turf/simulated/floor/tiled/white,
-/area/pra_base)
-"vF" = (
-/obj/structure/sign/emergency/meetingpoint{
-	name = "\improper AID STATION sign";
-	desc = "A green sign which showcases the location of a medical aid station.";
-	pixel_y = -29
+"vk" = (
+/obj/vehicle/bike/snow{
+	dir = 1
 	},
-/obj/structure/machinery/light,
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"vn" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"vz" = (
+/obj/item/reagent_containers/food/snacks/stew/tajaran,
 /turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"vD" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"vF" = (
+/obj/structure/platform/metal_alt,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"vH" = (
+/mob/living/heavy_vehicle/premade/pra_egg/armored{
+	h_r_shoulder = /obj/item/mecha_equipment/mounted_system/combat/grenadesmoke
+	},
+/obj/effect/decal/curb,
+/obj/effect/decal/road_marking,
+/obj/structure/platform/column,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"vP" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 6
+	},
+/obj/structure/bed/roller,
+/obj/item/vitals_monitor,
+/turf/simulated/floor/tiled/white,
 /area/pra_base)
 "vQ" = (
-/obj/effect/floor_decal/concrete{
-	dir = 5
+/obj/structure/platform/metal{
+	dir = 8
 	},
-/obj/structure/bed/stool/bar/padded/red,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"vY" = (
+/obj/effect/decal/road_marking/no_park,
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
 	},
+/turf/simulated/floor/asphalt,
 /area/pra_base)
+"vZ" = (
+/obj/structure/bed/padded,
+/obj/structure/bed/padded/bunk,
+/obj/item/bedsheet/brown,
+/obj/item/bedsheet/black{
+	pixel_y = 16
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"wb" = (
+/turf/simulated/floor/tiled/ridged,
+/area/pra_base)
+"we" = (
+/obj/structure/bookcase,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"ws" = (
+/obj/effect/decal/curb,
+/obj/structure/bonfire/fireplace{
+	density = 0;
+	pixel_y = 11
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"wx" = (
+/obj/item/reagent_containers/food/snacks/chipplate/miniavah_basket,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"wA" = (
+/obj/structure/platform/metal{
+	dir = 1
+	},
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
 "wB" = (
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base)
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
 "wC" = (
-/obj/structure/machinery/vending/cigarette,
-/obj/effect/floor_decal/concrete/large{
-	dir = 4
-	},
-/obj/item/storage/box/lights{
-	pixel_y = 18
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
+/turf/simulated/floor/exoplanet/sidewalk/detail/concrete,
+/area/exoplanet/adhomai)
 "wE" = (
-/obj/structure/machinery/door/airlock{
-	req_access = list(209);
-	name = "Restroom";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/freezer{
-	temperature = 268.15
-	},
-/area/pra_base)
-"wK" = (
-/obj/structure/machinery/space_heater,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"xi" = (
-/turf/simulated/floor/wood,
-/area/pra_base)
-"xj" = (
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/item/ammo_magazine/mc9mm,
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(209);
-	name = "armor cabinet"
-	},
-/obj/structure/machinery/light{
-	dir = 4;
-	status = 2
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"xN" = (
-/obj/structure/machinery/door/airlock/security{
-	name = "Armory";
-	req_access = list(209);
-	dir = 1
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"yi" = (
-/turf/simulated/floor/carpet/art{
-	temperature = 278.15
-	},
-/area/pra_base)
-"yB" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(209);
-	name = "gun cabinet (pistols)"
-	},
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/item/gun/projectile/pistol/adhomai,
-/obj/item/gun/projectile/pistol/adhomai,
-/obj/item/gun/projectile/pistol/adhomai,
-/obj/structure/machinery/light{
+/obj/effect/decal/curb/corner,
+/obj/effect/decal/curb/corner{
 	dir = 8
 	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"zb" = (
-/obj/structure/table/wood,
-/obj/item/spacecash/c1{
-	pixel_y = -4
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"zC" = (
-/obj/item/storage/field_ration/army,
-/obj/item/storage/field_ration/army,
-/obj/item/storage/field_ration/army,
-/obj/item/storage/field_ration/army,
-/obj/item/storage/field_ration/army,
-/obj/item/storage/field_ration/army,
-/obj/structure/closet/crate/freezer,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"zH" = (
-/obj/structure/table/standard,
-/obj/item/reagent_containers/food/drinks/bottle/victorygin{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Bm" = (
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Bq" = (
-/obj/structure/table/standard,
-/obj/structure/bedsheetbin{
-	pixel_y = 10
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"BZ" = (
-/obj/structure/machinery/light{
-	dir = 4;
-	status = 2
-	},
-/obj/structure/barricade/metal/wired{
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base)
-"CG" = (
-/obj/structure/sign/flag/pra{
-	pixel_y = 30;
-	stand_icon = null
-	},
-/turf/simulated/floor/wood,
-/area/pra_base)
-"CO" = (
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"CW" = (
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Dp" = (
-/obj/structure/machinery/door/airlock/medical{
-	name = "Medical Center";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/pra_base)
-"DB" = (
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/freezer{
-	temperature = 268.15
-	},
-/area/pra_base)
-"DL" = (
-/obj/structure/bed/stool/chair/office/dark{
-	dir = 8
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Ec" = (
-/obj/structure/machinery/door/airlock{
-	req_access = list(209);
-	name = "Barracks";
-	dir = 4
-	},
-/turf/simulated/floor/tiled{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Eo" = (
-/obj/structure/table/standard,
-/obj/item/reagent_containers/toothpaste,
-/obj/item/reagent_containers/toothbrush/red,
-/obj/item/reagent_containers/toothbrush/green,
-/obj/item/reagent_containers/toothbrush,
-/turf/simulated/floor/tiled/freezer{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Et" = (
-/obj/structure/machinery/door/window/brigdoor/northright{
-	dir = 8;
-	req_access = list(209)
-	},
-/obj/structure/table/steel,
-/obj/item/paper_bin,
-/obj/item/pen/black,
-/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/pra{
-	pixel_y = 10;
-	pixel_x = 5
-	},
-/obj/effect/floor_decal/concrete/large,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"EJ" = (
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"EK" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/table/steel,
-/obj/item/material/ashtray/bronze,
-/obj/structure/sign/painting_frame/hadii{
-	pixel_y = 32
-	},
-/obj/item/handcuffs,
-/obj/effect/floor_decal/concrete/large{
-	dir = 8
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"EM" = (
-/obj/effect/floor_decal/concrete{
-	dir = 10
-	},
-/obj/structure/bed/stool/bar/padded/red,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"EP" = (
-/obj/structure/machinery/light{
-	dir = 4;
-	status = 2
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Fk" = (
-/obj/structure/table/wood,
-/obj/item/binoculars{
-	pixel_y = 8
-	},
-/obj/item/flashlight/lamp/green,
-/turf/simulated/floor/carpet/art{
-	temperature = 278.15
-	},
-/area/pra_base)
-"Fo" = (
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/exoplanet/adhomai)
-"FZ" = (
-/obj/structure/table/standard,
-/obj/item/flashlight/lamp,
-/obj/structure/sign/flag/pra/large/south{
-	pixel_y = -32
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Go" = (
-/obj/effect/floor_decal/concrete/large,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Gy" = (
-/obj/structure/table/standard,
-/obj/item/material/ashtray,
-/obj/item/clothing/mask/smokable/cigarette/adhomai,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"GV" = (
-/obj/structure/table/wood,
-/obj/item/spacecash/c10{
-	pixel_x = -6;
-	pixel_y = -10
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"HY" = (
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/exoplanet/adhomai)
-"If" = (
-/obj/item/pipe,
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base)
-"Iq" = (
-/obj/structure/sign/flag/pra/large/north{
-	pixel_y = 32
-	},
-/obj/structure/hadii_statue,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"IL" = (
-/obj/structure/machinery/iv_drip,
-/turf/simulated/floor/tiled/white,
-/area/pra_base)
-"Jc" = (
-/obj/structure/machinery/light,
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base)
-"Jw" = (
-/obj/structure/hadii_statue/stone,
-/obj/effect/floor_decal/concrete/large/full,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"JI" = (
-/obj/structure/table/wood,
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/obj/item/reagent_containers/food/drinks/bottle/victorygin{
-	pixel_y = 10
-	},
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"JK" = (
-/obj/structure/table/wood,
-/obj/item/stamp{
-	name = "people's republic of adhomai stamp";
-	icon_state = "stamp-zavod";
-	pixel_x = 10;
-	pixel_y = 12
-	},
-/obj/item/stamp/denied{
-	pixel_y = 12
-	},
-/obj/item/portable_typewriter,
-/turf/simulated/floor/wood,
-/area/pra_base)
-"Lb" = (
-/obj/structure/machinery/light,
 /obj/structure/sign/flag/pra{
 	pixel_y = -32;
-	stand_icon = null
+	pixel_x = 32
 	},
-/obj/structure/machinery/floodlight{
-	dir = 1
-	},
-/turf/simulated/floor/exoplanet/snow/cold,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/exoplanet/adhomai)
-"Lm" = (
-/obj/effect/floor_decal/concrete,
-/obj/effect/floor_decal/concrete{
-	dir = 8
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
+"wJ" = (
+/obj/effect/map_effect/marker/fake_wall,
+/turf/simulated/wall/r_wall,
 /area/pra_base)
-"Lp" = (
-/obj/structure/reagent_dispensers/coolanttank{
-	reagents_to_add = list(/singleton/reagent/water=1000);
-	name = "heated water tank";
-	desc = "A tank of water filed by melting local snow."
-	},
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base)
-"Lu" = (
-/obj/effect/floor_decal/concrete{
-	dir = 9
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Md" = (
-/turf/simulated/floor/tiled/freezer{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Nc" = (
-/obj/structure/machinery/door/airlock/security{
-	name = "Checkpoint";
-	req_access = list(209);
-	dir = 1
-	},
-/obj/effect/floor_decal/concrete/large/full,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Ns" = (
-/obj/structure/table/wood,
-/obj/effect/floor_decal/concrete{
+"wK" = (
+/obj/effect/floor_decal/corner_wide/red{
 	dir = 10
 	},
-/obj/item/storage/pill_bottle/dice/tajara,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"NP" = (
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(209);
-	name = "armor cabinet"
-	},
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/head/helmet/merc,
-/obj/item/clothing/head/helmet/merc,
-/obj/item/clothing/head/helmet/merc,
-/obj/item/clothing/head/helmet/merc,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"NW" = (
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Oc" = (
-/obj/structure/sign/painting_frame/hadii{
-	pixel_y = 32
-	},
-/turf/simulated/floor/wood,
-/area/pra_base)
-"Or" = (
-/obj/structure/hadii_statue,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"OF" = (
-/obj/structure/table/steel,
-/obj/item/storage/box/masks{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/storage/box/gloves,
-/obj/item/reagent_containers/hypospray{
-	pixel_y = 4;
-	pixel_x = -5
-	},
-/turf/simulated/floor/tiled/white,
-/area/pra_base)
-"PS" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/shoes/jackboots/tajara,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/storage/backpack/satchel/leather,
-/obj/item/radio/headset/ship,
-/obj/item/clothing/accessory/badge/pra_passport,
-/obj/item/ammo_magazine/a50,
-/obj/item/ammo_magazine/a50,
-/obj/item/storage/box/hadii_manifesto,
-/obj/item/storage/box/hadii_card,
-/obj/item/megaphone,
-/obj/item/clothing/accessory/hadii_pin,
-/obj/item/flame/lighter/adhomai,
-/obj/item/clothing/under/tajaran/army_commissar,
-/obj/item/clothing/head/tajaran/army_commissar,
-/turf/simulated/floor/carpet/art{
-	temperature = 278.15
-	},
-/area/pra_base)
-"Qx" = (
-/obj/structure/bed/stool/bar/padded/red,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Rb" = (
-/obj/structure/machinery/light{
+/obj/effect/floor_decal/spline/plain/black{
 	dir = 1
+	},
+/obj/structure/machinery/fabricator/autolathe/hacked{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"wP" = (
+/obj/structure/platform_deco/column,
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"wR" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"wV" = (
+/obj/structure/urban_grate,
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/exoplanet/adhomai)
+"xb" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/effect/tent{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"xi" = (
+/obj/structure/rod_railing,
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/exoplanet/adhomai)
+"xj" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"xp" = (
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"xB" = (
+/obj/structure/platform/column{
+	dir = 4
+	},
+/obj/structure/rod_railing{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"xC" = (
+/obj/effect/decal/curb/corner,
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"xE" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"xL" = (
+/obj/structure/chainlink_fence,
+/obj/structure/platform/metal{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"xM" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = -32
+	},
+/obj/structure/platform_deco/metal{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"xN" = (
+/obj/structure/platform/metal_alt,
+/obj/structure/platform/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"xR" = (
+/obj/item/reagent_containers/food/snacks/cone_cake,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"xW" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/platform_deco/metal_alt{
+	dir = 4
 	},
 /obj/structure/sign/flag/pra{
 	pixel_y = 32;
-	stand_icon = null
+	pixel_x = -32
 	},
-/turf/simulated/floor/exoplanet/snow/cold,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"xZ" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/taperecorder,
+/turf/simulated/floor/tiled/dark,
 /area/pra_base)
-"Rd" = (
-/obj/structure/machinery/light/small{
+"yi" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"yl" = (
+/obj/effect/decal/curb{
 	dir = 8
 	},
-/obj/structure/toilet{
+/obj/structure/arch/gothic/eastwest/right,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"yq" = (
+/obj/effect/floor_decal/spline/plain/black,
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"yt" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/ridged,
+/area/pra_base)
+"yB" = (
+/obj/effect/floor_decal/corner_wide/grey/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"yC" = (
+/obj/effect/floor_decal/spline/plain/corner/white{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"yH" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = 32
+	},
+/obj/structure/platform_deco/metal{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"yX" = (
+/obj/structure/machinery/door/urban/metal{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"zb" = (
+/obj/structure/arch/gothic/eastwest/left,
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"zd" = (
+/obj/effect/decal/curb{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/freezer{
-	temperature = 268.15
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"ze" = (
+/obj/structure/flora/grass/both,
+/obj/structure/flora/grass/both,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"zf" = (
+/obj/effect/decal/curb/corner,
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"zh" = (
+/obj/item/reagent_containers/food/snacks/soup/earthenroot,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"zk" = (
+/turf/simulated/floor/tiled/bitile/middle{
+	dir = 4
 	},
 /area/pra_base)
-"Rg" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/shoes/combat,
+"zr" = (
+/obj/item/reagent_containers/food/snacks/nomadskewer,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"zC" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"zH" = (
+/obj/structure/platform/rock/icy{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"zR" = (
+/obj/item/gun/projectile/shotgun/pump/rifle/scope{
+	ammo_type = /obj/item/ammo_casing/a68/blank
+	},
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"zV" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/utility_pole/street/on{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Aa" = (
+/obj/item/reagent_containers/food/snacks/hardbread_pudding,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Aq" = (
+/obj/structure/platform_deco/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Ar" = (
+/obj/structure/bed/stool/chair/padded/brown{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"Az" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"AR" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"Bi" = (
+/obj/structure/bed/stool/chair/folding{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Bj" = (
+/obj/effect/floor_decal/corner_wide/dark_blue/full,
+/obj/structure/table/reinforced/steel,
+/obj/item/storage/box/fancy/tray,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"Bm" = (
+/obj/structure/machinery/door/urban/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Bp" = (
+/obj/structure/platform_deco/metal_alt,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"Bq" = (
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Bu" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"Bx" = (
+/obj/structure/machinery/door/airlock/highsecurity{
+	req_access = list(/datum/access/pra)
+	},
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"BQ" = (
+/obj/item/reagent_containers/food/drinks/bottle/small/khlibnyz,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"BV" = (
+/obj/effect/map_effect/map_helper/ruler_tiles_3{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"BW" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/ridged,
+/area/pra_base)
+"BZ" = (
+/obj/structure/rod_railing/jailbar{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/commanded/dog/harron,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Cl" = (
+/turf/simulated/floor/tiled/bitile{
+	dir = 8
+	},
+/area/pra_base)
+"CG" = (
+/obj/effect/decal/exterior_stairs/half/center,
+/obj/structure/platform/column{
+	dir = 4
+	},
+/obj/structure/lattice/ceiling,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"CI" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"CL" = (
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"CO" = (
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
+"CW" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = -32
+	},
+/obj/structure/platform_deco/metal{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Dc" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Dn" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 1
+	},
+/obj/structure/lattice/ceiling,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"Dp" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/road_marking,
+/obj/structure/platform/column,
+/obj/structure/structural_support,
+/obj/structure/platform/column{
+	dir = 4
+	},
+/obj/structure/platform_deco/column{
+	dir = 5
+	},
+/obj/effect/decal/road_marking/no_park,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"DB" = (
+/obj/structure/platform/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"DG" = (
+/obj/effect/decal/exterior_stairs/half/center,
+/obj/structure/lattice/ceiling,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"DL" = (
+/obj/structure/platform_deco/metal_alt{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"DQ" = (
+/obj/structure/machinery/door/urban/metal,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Ea" = (
+/obj/item/reagent_containers/food/snacks/explorer_ration,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Ec" = (
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/exoplanet/adhomai)
+"Eo" = (
+/obj/structure/platform/column{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Et" = (
+/obj/effect/decal/exterior_stairs/half/center,
+/obj/effect/decal/cleanable/draftingchalk,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Ex" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/obj/structure/platform/metal{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"EG" = (
+/obj/structure/bed/stool/chair/folding{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"EJ" = (
+/obj/item/storage/pill_bottle/caffeine,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"EK" = (
+/obj/structure/table/reinforced/steel,
+/obj/structure/rod_railing,
+/obj/item/clothing/ears/earmuffs{
+	pixel_y = 7
+	},
+/obj/item/clothing/glasses/safety/goggles{
+	pixel_y = 6
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"EM" = (
+/obj/structure/platform_deco/column,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"EP" = (
+/obj/structure/platform/metal_alt{
+	dir = 8
+	},
+/obj/effect/decal/exterior_stairs/half/right,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"EW" = (
+/obj/structure/closet/secure_closet,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/gloves/black_leather/tajara,
+/obj/item/clothing/gloves/fingerless,
 /obj/item/clothing/under/tajaran/pra_uniform,
 /obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
+/obj/item/clothing/head/helmet/tank/olive,
 /obj/item/clothing/head/beret/tajaran/pra,
-/obj/item/clothing/accessory/holster/hip,
-/obj/item/versebook/pra,
-/obj/item/clothing/accessory/badge/pra_passport,
-/obj/structure/sign/flag/pra/large/south{
-	pixel_y = -32
+/obj/item/clothing/suit/storage/hooded/tajaran/colorable{
+	color = "#727c58"
 	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
+"Fe" = (
+/obj/effect/map_effect/marker/fake_wall,
+/turf/simulated/wall/brick,
 /area/pra_base)
-"Sc" = (
-/obj/structure/machinery/floodlight{
-	dir = 8;
-	pixel_x = 10
-	},
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base)
-"Se" = (
-/turf/simulated/floor/tiled/white,
-/area/pra_base)
-"Sr" = (
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"St" = (
-/obj/structure/machinery/button/remote/blast_door{
-	id = "pra_camp_entry";
-	name = "Entry";
-	req_access = list(209);
-	pixel_y = 32
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Td" = (
-/obj/structure/table/standard,
-/obj/item/paper_bin,
-/obj/item/pen/black,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"TZ" = (
-/obj/effect/floor_decal/concrete{
-	dir = 1
-	},
-/obj/effect/floor_decal/concrete{
+"Fg" = (
+/obj/structure/machinery/shower{
 	dir = 4
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Uc" = (
-/obj/effect/decal/fake_object{
-	icon = 'icons/obj/machinery/cooking_machines.dmi';
-	icon_state = "adhomai_stove_on";
-	name = "water heater";
-	desc = "A rustic Adhomian heater typically filled with firewood This one is connected to a nearby water tank. Warm enough to gather around the winter."
-	},
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base)
-"Up" = (
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(209);
-	name = "gun cabinet (icelance)"
-	},
-/obj/item/gun/energy/rifle/icelance,
-/obj/item/clothing/accessory/storage/bayonet,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"UF" = (
-/obj/structure/machinery/button/remote/blast_door{
-	id = "pra_camp_entry";
-	name = "Entry";
-	req_access = list(209);
-	pixel_y = 32
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/obj/item/storage/toolbox/mechanical{
-	pixel_y = 8
-	},
-/obj/item/storage/toolbox/electrical,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"UU" = (
-/obj/structure/machinery/light/small{
-	dir = 8
-	},
-/obj/structure/filingcabinet{
-	pixel_x = -9;
-	pixel_y = 14;
-	density = 0
-	},
-/obj/structure/filingcabinet{
-	pixel_x = 5;
-	pixel_y = 14;
-	density = 0
-	},
-/turf/simulated/floor/wood,
-/area/pra_base)
-"UX" = (
-/obj/structure/table/standard,
-/obj/structure/sign/painting_frame/hadii{
-	pixel_y = 32
-	},
-/obj/item/versebook/pra,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Vj" = (
-/obj/structure/machinery/papershredder,
-/turf/simulated/floor/carpet/art{
-	temperature = 278.15
-	},
-/area/pra_base)
-"Vy" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(209);
-	name = "explosive cabinets"
-	},
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/landmine,
-/obj/item/landmine,
-/obj/item/landmine,
-/obj/item/landmine,
-/obj/structure/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"VN" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(209);
-	name = "gun cabinet (automatic rifle)"
-	},
-/obj/item/gun/projectile/automatic/rifle/adhomian,
-/obj/item/gun/projectile/automatic/rifle/adhomian,
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/item/gun/projectile/automatic/rifle/adhomian,
-/obj/item/gun/projectile/automatic/rifle/adhomian,
-/obj/item/clothing/accessory/storage/bayonet,
-/obj/item/clothing/accessory/storage/bayonet,
-/obj/item/clothing/accessory/storage/bayonet,
-/obj/item/clothing/accessory/storage/bayonet,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Wc" = (
-/obj/effect/floor_decal/concrete{
-	dir = 5
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"WG" = (
-/obj/structure/bed/padded,
-/obj/structure/curtain/open/bed,
-/obj/item/bedsheet/brown,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"WS" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(209);
-	name = "gun cabinet (rifle)"
-	},
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/clothing/accessory/storage/bayonet,
-/obj/item/clothing/accessory/storage/bayonet,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Xb" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/table/steel,
-/obj/item/material/ashtray/bronze,
-/obj/structure/sign/painting_frame/hadii{
-	pixel_y = 32
-	},
-/obj/effect/floor_decal/concrete/large{
-	dir = 1
-	},
-/obj/item/folder/yellow,
-/obj/item/folder/yellow,
-/obj/item/handcuffs,
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Yb" = (
-/obj/structure/machinery/door/blast/shutters{
-	id = "pra_camp_entry"
-	},
-/obj/effect/floor_decal/concrete{
-	dir = 6
-	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"Yr" = (
-/obj/structure/table/standard,
-/obj/item/storage/pill_bottle/dice/tajara,
-/turf/simulated/floor/concrete/square{
-	temperature = 268.15
-	},
-/area/pra_base)
-"YD" = (
-/obj/structure/mirror{
-	pixel_y = 32
 	},
 /obj/structure/sink{
-	pixel_y = 22
+	dir = 8;
+	pixel_x = -11
 	},
-/turf/simulated/floor/tiled/freezer{
-	temperature = 268.15
-	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor/foundation,
 /area/pra_base)
-"YL" = (
-/obj/effect/floor_decal/concrete{
-	dir = 6
+"Fk" = (
+/obj/structure/platform/metal,
+/obj/structure/chainlink_fence{
+	dir = 8
 	},
-/obj/effect/floor_decal/concrete/large{
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Fo" = (
+/obj/effect/floor_decal/snowrocks,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Fq" = (
+/obj/structure/bed/stool/chair/sofa/left/brown{
 	dir = 4
 	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"Fy" = (
+/obj/structure/machinery/r_n_d/server/advanced/robotics{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"FL" = (
+/obj/item/reagent_containers/food/snacks/sliceable/fatshouterbake,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"FQ" = (
+/obj/structure/platform_deco/metal_alt,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"FU" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
 	},
 /area/pra_base)
-"YU" = (
-/obj/structure/bed/roller,
-/turf/simulated/floor/tiled/white,
-/area/pra_base)
-"YY" = (
-/obj/item/storage/secure/safe{
-	pixel_y = 36
-	},
-/obj/structure/machinery/light/small{
+"FX" = (
+/obj/structure/platform/rock/icy{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
-/area/pra_base)
-"ZR" = (
-/obj/effect/floor_decal/concrete/large{
+/obj/structure/platform/rock/icy{
 	dir = 1
 	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
-	},
-/area/pra_base)
-"ZT" = (
-/obj/effect/floor_decal/concrete/large/cee{
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"FZ" = (
+/obj/effect/decal/cleanable/draftingchalk,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Gc" = (
+/obj/item/reagent_containers/food/snacks/sliceable/fatshouter_fillet,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Gd" = (
+/obj/effect/decal/curb{
 	dir = 4
 	},
-/turf/simulated/floor/concrete{
-	temperature = 268.15
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"Gg" = (
+/obj/structure/platform_deco/metal_alt,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Go" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Gr" = (
+/obj/item/clothing/accessory/tajaran/charm/twin_suns,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Gy" = (
+/obj/effect/decal/exterior_stairs/half/center,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"GM" = (
+/obj/structure/machinery/howitzer/maivazh_a42_100mm{
+	dir = 2;
+	pixel_x = -15;
+	pixel_y = -32
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"GV" = (
+/obj/structure/machinery/telecomms/allinone/ship,
+/turf/simulated/floor/bluegrid/server,
+/area/pra_base)
+"GZ" = (
+/obj/item/versebook/matake,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"He" = (
+/obj/item/reagent_containers/food/snacks/adhomian_porridge,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Hg" = (
+/obj/structure/bed/padded,
+/obj/structure/bed/padded/bunk,
+/obj/item/bedsheet/black,
+/obj/item/bedsheet/black{
+	pixel_y = 16
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Hm" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/plain/black,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Hr" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/urban_grate,
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"Hw" = (
+/obj/item/reagent_containers/food/snacks/salad/earthenroot,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"HI" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"HQ" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/platform_deco/metal_alt{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"HW" = (
+/obj/structure/platform_deco/column{
+	dir = 1
+	},
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"HY" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/plain/black,
+/obj/structure/table/rack/retail_shelf,
+/obj/item/ammo_magazine/mc9mm,
+/obj/item/ammo_magazine/a68/ap,
+/obj/item/ammo_magazine/c9mm,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Ia" = (
+/obj/structure/closet/crate/secure/weapon/alt{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"If" = (
+/obj/structure/rod_railing/jailbar{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Ii" = (
+/obj/item/flame/lighter/adhomai,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"In" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/rod_railing/jailbar{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Io" = (
+/obj/item/reagent_containers/food/snacks/egg/schlorrgo,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Iq" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Is" = (
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Iv" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"Ix" = (
+/obj/structure/chainlink_fence,
+/obj/structure/platform/metal{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Iz" = (
+/obj/item/reagent_containers/food/drinks/bottle/shyyrkirrtyr_wine,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"IA" = (
+/obj/item/reagent_containers/food/snacks/sliceable/aspicfatshouter,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"IG" = (
+/obj/item/camera_film/taj_film,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"IH" = (
+/obj/effect/floor_decal/snowdrift/random,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"IJ" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 10
+	},
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"IL" = (
+/turf/simulated/wall/r_wall,
+/area/exoplanet/adhomai)
+"IN" = (
+/obj/structure/machinery/smartfridge/foodheater/buffet,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"IX" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/structure/closet/hazmat/general,
+/obj/item/clothing/gloves/latex/nitrile/tajara,
+/obj/item/clothing/gloves/latex/nitrile/tajara,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Ja" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"Jc" = (
+/obj/structure/arch/gothic/eastwest/right,
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Jd" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/effect/floor_decal/concrete/gutter/corner,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Jl" = (
+/obj/item/reagent_containers/food/drinks/bottle/small/midynhr_water,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Jr" = (
+/obj/structure/rod_railing{
+	dir = 10
+	},
+/obj/structure/urban_grate,
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/exoplanet/adhomai)
+"Jw" = (
+/obj/structure/platform/rock/icy,
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"JI" = (
+/obj/structure/platform/metal{
+	dir = 4
+	},
+/obj/structure/chainlink_fence,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"JJ" = (
+/obj/item/reagent_containers/food/snacks/tajaran_bread,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"JK" = (
+/obj/structure/platform/rock/icy{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"JL" = (
+/obj/item/clothing/accessory/tajaran/pra_brooch,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"JX" = (
+/obj/structure/machinery/door/urban/metal_alt,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Ka" = (
+/obj/structure/machinery/vending/dinnerware/plastic,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Kb" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"Kc" = (
+/obj/structure/closet/secure_closet/cabinet,
+/obj/item/clothing/shoes/jackboots/tajara/cavalry,
+/obj/item/clothing/gloves/white/tajara{
+	name = "white dress gloves"
+	},
+/obj/item/clothing/under/tajaran/army_commissar{
+	name = "people's republic commissar uniform"
+	},
+/obj/item/clothing/head/tajaran/army_commissar{
+	name = "people's republic commissar peaked cap"
+	},
+/obj/item/clothing/suit/storage/hooded/tajaran/colorable/fancy{
+	color = "#727c58";
+	accent_color = "#a6393c";
+	name = "people's republic commissar cloak";
+	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached to army units, who ensures that soldiers and their commanders follow the principles of Hadiism. Their duties are not only limited to enforcing the republican ideals among the troops and reporting possible subversive elements, they are expected to display bravery in combat and lead by example.";
+	desc = "An olive, canvas cloak used by Party Commissars attached to military units."
+	},
+/obj/item/clothing/suit/storage/toggle/tajaran/consular{
+	desc = "An olive, drab canvas coat used by Party Commissars attached to military units.";
+	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached to army units, who ensures that soldiers and their commanders follow the principles of Hadiism. Their duties are not only limited to enforcing the republican ideals among the troops and reporting possible subversive elements, they are expected to display bravery in combat and lead by example.";
+	name = "people's republic commissar coat"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/exoplanet/adhomai)
+"Ke" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32
+	},
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/exoplanet/adhomai)
+"Kp" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Ku" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/reflector{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Kx" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/sign/flag/pra{
+	pixel_y = 32
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"KB" = (
+/obj/structure/decor/suspension_bar{
+	dir = 4
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"KH" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/flashlight/lamp,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"KK" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/platform/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"KT" = (
+/obj/effect/floor_decal/corner_wide/red/full{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"KV" = (
+/obj/item/reagent_containers/food/snacks/earthenroot_chopped,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"KW" = (
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 1;
+	pixel_y = -1
+	},
+/obj/structure/plasticflaps/airtight,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Lb" = (
+/obj/structure/bed/stool/chair{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Lm" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = 32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Ln" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"Lp" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Lr" = (
+/obj/effect/decal/exterior_stairs/half/center,
+/obj/structure/platform/column{
+	dir = 8
+	},
+/obj/structure/lattice/ceiling,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"Ls" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/obj/structure/platform_deco/column{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/reflector{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"Lu" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/obj/effect/floor_decal/industrial/hatch_door/red,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"LG" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"LM" = (
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"LN" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/closet/secure_closet/freezer,
+/obj/item/reagent_containers/food/drinks/carton/mutthir,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base)
+"LT" = (
+/obj/structure/platform/column{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"LZ" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = 32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Md" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Mg" = (
+/obj/item/reagent_containers/food/drinks/bottle/messa_mead,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Mo" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Mp" = (
+/obj/item/reagent_containers/food/snacks/earthenroot_mash,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Mr" = (
+/obj/structure/platform_deco/metal{
+	dir = 8
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = 32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Mu" = (
+/obj/structure/flora/grass/green,
+/obj/item/reagent_containers/food/snacks/lardwich,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Mv" = (
+/obj/structure/platform/column{
+	dir = 8
+	},
+/obj/structure/urban_grate,
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"MC" = (
+/obj/structure/arch/gothic/northsouth/_single,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"MG" = (
+/obj/item/storage/box/unique/tea/messa,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"MI" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/effect/decal/road_marking,
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Nb" = (
+/obj/structure/structural_support,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Nc" = (
+/obj/structure/platform/metal_alt,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Ni" = (
+/obj/item/reagent_containers/food/drinks/bottle/sugartree_liquor,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Nj" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/ridged{
+	temperature = 315.15
 	},
 /area/pra_base)
+"Nn" = (
+/obj/structure/barricade/liquid{
+	build_stage = 5;
+	icon_state = "sandbag5";
+	dir = 4
+	},
+/obj/structure/barricade/liquid{
+	build_stage = 5;
+	icon_state = "sandbag5";
+	pixel_y = -7
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"Ns" = (
+/turf/simulated/floor/tiled/bitile{
+	dir = 1
+	},
+/area/pra_base)
+"NF" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"NL" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"NP" = (
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"NQ" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/obj/structure/weapons_rack{
+	req_access = list(/datum/access/pra)
+	},
+/obj/item/gun/projectile/automatic/rifle/adhomian,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"NV" = (
+/obj/effect/floor_decal/corner_wide/dark_blue/full,
+/obj/structure/machinery/bodyscanner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"NW" = (
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Ob" = (
+/obj/structure/machinery/r_n_d/fabricator/mecha_part_fabricator{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Oc" = (
+/obj/item/clothing/accessory/medal/pra_courage,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Op" = (
+/obj/item/storage/box/unique/tea/rasnif,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Or" = (
+/obj/effect/floor_decal/snowdrift/large/random,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Oy" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 6
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/structure/closet/radiation,
+/obj/item/clothing/mask/gas/tactical,
+/obj/item/clothing/mask/gas/tactical,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"OF" = (
+/obj/structure/platform_deco/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"OG" = (
+/obj/effect/floor_decal/snowdrift/large/random,
+/obj/item/reagent_containers/food/snacks/adhomian_sausage,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"ON" = (
+/obj/structure/machinery/media/jukebox/phonograph{
+	anchored = 1
+	},
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"OQ" = (
+/obj/item/reagent_containers/food/drinks/bottle/treebark_firewater,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"OX" = (
+/obj/structure/bed/stool/chair/sofa/right/brown{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"Pb" = (
+/obj/item/reagent_containers/food/snacks/sliceable/adhomian_cheese,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Pg" = (
+/obj/item/reagent_containers/food/snacks/earthenroot_fries,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Pi" = (
+/obj/structure/machinery/door/urban/jail_door{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Pv" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Py" = (
+/turf/simulated/floor/bluegrid/server,
+/area/pra_base)
+"Pz" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/road_marking/thin{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/thin{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"PC" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/closet/crate/freezer,
+/obj/item/storage/field_ration/army,
+/obj/item/reagent_containers/food/drinks/waterbottle/large,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base)
+"PM" = (
+/obj/structure/platform/column{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/no_park,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"PS" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/platform_deco/metal_alt{
+	dir = 8
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = 32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"PT" = (
+/obj/item/synthesized_instrument/guitar/prrama,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Qb" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"Qi" = (
+/obj/effect/decal/road_marking/center{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Qn" = (
+/obj/item/reagent_containers/food/snacks/chipplate/tajcandy,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Qx" = (
+/obj/item/storage/box/fancy/cigpaper,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"QF" = (
+/obj/structure/rod_railing{
+	dir = 6
+	},
+/obj/structure/urban_grate,
+/turf/simulated/floor/exoplanet/roofing_tiles,
+/area/exoplanet/adhomai)
+"QN" = (
+/obj/effect/floor_decal/corner_wide/dark_blue/full{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"QP" = (
+/obj/structure/sign/adhomai_memorial,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete/dark,
+/area/exoplanet/adhomai)
+"QX" = (
+/obj/structure/rod_railing/jailbar,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Rb" = (
+/obj/structure/platform_deco/metal_alt{
+	dir = 4
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Rd" = (
+/obj/structure/machinery/r_n_d/material_silo{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Rg" = (
+/obj/structure/arch/gothic/eastwest/middle,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Ro" = (
+/obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/pra,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Rr" = (
+/obj/structure/platform/column{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"RI" = (
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"RP" = (
+/obj/structure/machinery/appliance/cooker/oven,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"RS" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/effect/decal/road_marking,
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/structure/platform/column,
+/obj/structure/structural_support,
+/obj/structure/platform/column{
+	dir = 8
+	},
+/obj/structure/platform_deco/column{
+	dir = 9
+	},
+/obj/effect/decal/road_marking/no_park,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"Sc" = (
+/obj/structure/table/wood,
+/obj/item/material/ashtray/bronze,
+/obj/item/stamp,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"Sd" = (
+/obj/structure/machinery/ntnet_relay/field,
+/turf/simulated/floor/bluegrid/server,
+/area/pra_base)
+"Se" = (
+/obj/structure/chainlink_fence{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Sm" = (
+/obj/item/reagent_containers/food/snacks/dip/tajhummus,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Sr" = (
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"St" = (
+/obj/structure/rod_railing/jailbar,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Sy" = (
+/obj/effect/floor_decal/corner_wide/red/full{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/corner/black,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(/datum/access/pra)
+	},
+/obj/item/gun/projectile/pistol/adhomai,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"SC" = (
+/obj/structure/arch/gothic/eastwest/_single,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"SO" = (
+/turf/simulated/floor/tiled/bitile/middle,
+/area/pra_base)
+"Td" = (
+/turf/simulated/floor/tiled/bitile,
+/area/pra_base)
+"Tn" = (
+/obj/structure/platform_deco/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"To" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"Tq" = (
+/obj/structure/platform/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Tr" = (
+/obj/item/reagent_containers/food/drinks/flask/barflask,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Tt" = (
+/obj/structure/platform/column,
+/obj/effect/decal/cleanable/draftingchalk,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Ty" = (
+/obj/structure/machinery/computer/rdconsole/robotics/terminal{
+	dir = 4;
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"TA" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"TB" = (
+/obj/effect/floor_decal/corner_wide/red,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"TC" = (
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"TE" = (
+/obj/effect/floor_decal/corner_wide/red/full{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"TR" = (
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/platform_deco/metal_alt{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"TZ" = (
+/obj/structure/flora/grass/both,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Uc" = (
+/obj/structure/rod_railing/jailbar{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Um" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 9
+	},
+/obj/structure/machinery/sleeper{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"Up" = (
+/obj/structure/platform/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"UF" = (
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"UK" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/vehicle/bike/snow{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"UQ" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/kitchenspike,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base)
+"UR" = (
+/obj/item/reagent_containers/food/snacks/adhomian_can,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"UU" = (
+/obj/item/clothing/accessory/medal/homeland_defense,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"UX" = (
+/turf/simulated/wall/r_wall,
+/area/pra_base)
+"Vj" = (
+/obj/structure/hadii_statue,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Vm" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"Vo" = (
+/obj/structure/machinery/vending/dinnerware,
+/obj/effect/floor_decal/corner/red/diagonal,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"Vt" = (
+/obj/item/reagent_containers/food/snacks/stuffed_earthenroot,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Vx" = (
+/obj/structure/platform/metal_alt{
+	dir = 8
+	},
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Vy" = (
+/obj/structure/rod_railing/jailbar{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"VC" = (
+/obj/item/reagent_containers/food/snacks/clam,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"VN" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"VY" = (
+/obj/effect/floor_decal/snowrocks,
+/obj/item/reagent_containers/food/snacks/hardbread_bun,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Wc" = (
+/obj/structure/platform_deco/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Wf" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/item/reagent_containers/food/drinks/carton/fatshouters,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base)
+"Wm" = (
+/obj/structure/barricade/wooden/road{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Ws" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = 32
+	},
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"Wt" = (
+/obj/item/reagent_containers/food/snacks/sliceable/zkahnkowafull,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Ww" = (
+/obj/item/towel_flat/doormat,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"WA" = (
+/obj/structure/closet/crate/secure/weapon{
+	req_access = list(/datum/access/pra)
+	},
+/obj/item/ammo_casing/howitzer/high_explosive/maivazh_a42_100mm{
+	pixel_x = -17;
+	pixel_y = -14
+	},
+/obj/item/ammo_casing/howitzer/high_explosive/maivazh_a42_100mm{
+	pixel_x = -17;
+	pixel_y = -14
+	},
+/obj/item/ammo_casing/howitzer/high_explosive/maivazh_a42_100mm{
+	pixel_x = -17;
+	pixel_y = -14
+	},
+/obj/item/ammo_casing/howitzer/high_explosive/maivazh_a42_100mm{
+	pixel_x = -17;
+	pixel_y = -14
+	},
+/obj/item/ammo_casing/howitzer/high_explosive/maivazh_a42_100mm{
+	pixel_x = -17;
+	pixel_y = -14
+	},
+/obj/item/ammo_casing/howitzer/high_explosive/maivazh_a42_100mm{
+	pixel_x = -17;
+	pixel_y = -14
+	},
+/obj/structure/platform/rock/icy{
+	dir = 4
+	},
+/obj/effect/tent{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"WE" = (
+/obj/item/reagent_containers/food/drinks/bottle/victorygin,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"WG" = (
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"WI" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing{
+	dir = 10
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"WS" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/foundation,
+/area/pra_base)
+"WU" = (
+/obj/effect/decal/curb{
+	dir = 5
+	},
+/obj/effect/floor_decal/concrete/gutter/corner,
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"WV" = (
+/obj/structure/barricade/liquid{
+	build_stage = 5;
+	icon_state = "sandbag5";
+	dir = 8
+	},
+/obj/structure/barricade/liquid{
+	build_stage = 5;
+	icon_state = "sandbag5";
+	pixel_y = -7
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"WY" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
+"WZ" = (
+/obj/structure/platform_deco/column{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Xb" = (
+/obj/effect/floor_decal/corner_wide/red/full{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 4
+	},
+/obj/structure/weapons_rack{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Xs" = (
+/obj/structure/machinery/turretid/lethal{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Xx" = (
+/obj/structure/decor/suspension_cable/right{
+	dir = 1
+	},
+/obj/structure/decor/suspension_bar{
+	dir = 6
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/rod_railing,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"Xy" = (
+/obj/structure/chainlink_fence{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Xz" = (
+/turf/simulated/wall/concrete,
+/area/pra_base)
+"XR" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/sidewalk/concrete,
+/area/exoplanet/adhomai)
+"XV" = (
+/obj/structure/platform/metal,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Yb" = (
+/obj/structure/machinery/door/urban/metal_alt{
+	dir = 4;
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Yd" = (
+/obj/item/storage/pill_bottle/dice/tajara,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Yh" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/item/stack/material/aluminium/full,
+/obj/item/stack/material/glass/full,
+/obj/item/stack/material/lead/full,
+/obj/item/stack/material/plasteel/full,
+/obj/item/stack/material/plastic/full,
+/obj/item/stack/material/steel/full,
+/obj/item/stack/material/titanium/full,
+/obj/item/stack/material/phoron{
+	amount = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"Yo" = (
+/obj/effect/decal/curb/corner,
+/obj/structure/platform_deco/column{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/reflector{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"Yq" = (
+/obj/structure/platform/metal_alt{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Yr" = (
+/obj/effect/decal/road_marking/center,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Ys" = (
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/structure/platform/column,
+/turf/simulated/floor/asphalt,
+/area/pra_base)
+"YC" = (
+/obj/effect/floor_decal/spline/plain/white,
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
+"YD" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/obj/structure/lattice/ceiling,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"YF" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"YG" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/platform/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"YL" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"YR" = (
+/obj/structure/platform/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base)
+"YS" = (
+/obj/structure/sign/flag/pra/large{
+	dir = 8;
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"YU" = (
+/obj/structure/platform/column,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"YY" = (
+/obj/item/clothing/accessory/medal/pra_hero,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"YZ" = (
+/obj/structure/platform/rock/icy,
+/obj/structure/platform/rock/icy{
+	dir = 4
+	},
+/obj/structure/table/rack/retail_shelf,
+/obj/item/howitzer_pellet/large{
+	pixel_y = 7
+	},
+/obj/item/howitzer_pellet/medium,
+/obj/item/howitzer_pellet/medium,
+/obj/item/howitzer_pellet/small{
+	pixel_y = -7
+	},
+/obj/item/howitzer_pellet/small{
+	pixel_y = -7
+	},
+/obj/item/howitzer_pellet/small{
+	pixel_y = -7
+	},
+/obj/effect/tent{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"Zc" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/platform_deco/metal_alt{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"Zi" = (
+/obj/structure/barricade/wooden/road{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Zk" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 10
+	},
+/obj/structure/table/reinforced/steel,
+/obj/item/clothing/suit/storage/hooded/tajaran/surgery,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"Zr" = (
+/obj/structure/machinery/door/urban/metal{
+	dir = 4;
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"Zu" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/structure/arch/gothic/eastwest/left,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"ZB" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 1
+	},
+/obj/structure/platform/column{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/exoplanet/adhomai)
+"ZM" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/geiger/dosimeter,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"ZQ" = (
+/obj/structure/machinery/turretid/lethal{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"ZR" = (
+/obj/item/reagent_containers/food/snacks/fermented_worm,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"ZT" = (
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/exoplanet/adhomai)
 
 (1,1,1) = {"
 vi
 vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
 vi
 vi
 vi
@@ -1409,7 +3552,22 @@ vi
 vi
 vi
 vi
-hT
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
 vi
 vi
 vi
@@ -1421,8 +3579,49 @@ vi
 vi
 vi
 vi
-hT
 vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
 vi
 vi
 vi
@@ -1431,374 +3630,1067 @@ vi
 "}
 (2,1,1) = {"
 vi
+jU
+vQ
+vQ
+vQ
+vQ
+vQ
+vQ
+Mr
+vi
+vi
+BV
 vi
 vi
 vi
 vi
 vi
+BV
+vi
+vi
+BV
 vi
 vi
 vi
 vi
 vi
+BV
+vi
+vi
+jU
+vQ
+vQ
+vQ
+vQ
+vQ
+Mr
+vi
+vi
+BV
 vi
 vi
 vi
 vi
 vi
+BV
 vi
 vi
-vi
-hT
-vi
-vi
+BV
 vi
 vi
 vi
 vi
 vi
+BV
 vi
+vi
+jU
+vQ
+vQ
+vQ
+vQ
+vQ
+Mr
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+jU
+vQ
+vQ
+vQ
+vQ
+vQ
+vQ
+Mr
 vi
 vi
 vi
 vi
 "}
 (3,1,1) = {"
-vi
-vi
-hT
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-hT
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+ci
+eD
+UX
+UX
+Ns
+SO
+Td
+UX
+Fk
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+wA
+UX
+Ns
+SO
+Td
+UX
+Fk
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+wA
+UX
+Ns
+SO
+Td
+UX
+Fk
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+Se
+wA
+UX
+Ns
+SO
+Td
+UX
+UX
+cD
+ci
 vi
 vi
 vi
 "}
 (4,1,1) = {"
 vi
+eD
+UX
+UX
+UX
+qt
+UX
+UX
+cD
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+qt
+UX
+UX
+cD
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+qt
+UX
+UX
+cD
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+qt
+UX
+UX
+UX
+cD
 vi
 vi
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
 vi
-hT
 vi
 "}
 (5,1,1) = {"
 vi
+eD
+Cl
+UX
+UX
+UX
+UX
+UX
+cD
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+UX
+UX
+UX
+cD
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+UX
+UX
+UX
+cD
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+UX
+UX
+UX
+Cl
+cD
 vi
-vi
-gU
-fq
-Go
-Nc
-jF
-wB
-wB
-wB
-wB
-jE
-dJ
-JI
-bk
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-gU
 vi
 vi
 vi
 "}
 (6,1,1) = {"
-hT
 vi
+eD
+zk
+qt
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+qt
+zk
+cD
 vi
-gU
-St
-bR
-gU
-lC
-wB
-wB
-wB
-wB
-vQ
-zb
-fx
-EM
-wB
-wB
-wB
-Jw
-wB
-wB
-gU
-gU
-gU
-Bq
-Go
-wB
-gU
 vi
 vi
 vi
 "}
 (7,1,1) = {"
 vi
+eD
+eW
+UX
+UX
+UX
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+UX
+UX
+UX
+eW
+cD
 vi
-Lb
-gU
-Xb
-mj
-gU
-bU
-wB
-wB
-wB
-wB
-vQ
-GV
-Ns
-EM
-wB
-wB
-wB
-wB
-wB
-wB
-gU
-Rd
-gU
-um
-tc
-wB
-gU
 vi
 vi
 vi
 "}
 (8,1,1) = {"
-mN
-mN
-mN
-rt
-Lu
-Lu
-rt
-pS
-Lu
-Lu
-Lu
-Lu
-Lu
-Lu
-Lu
-Lu
-Lu
-Lu
-Lu
-Lu
-Go
-wB
-gU
-wE
-gU
-gU
-gU
-wB
-gU
+vi
+eD
+UX
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+UX
+UX
+UX
+cD
+vi
 vi
 vi
 vi
 "}
 (9,1,1) = {"
-Fo
-Fo
-Fo
-oA
+ci
+lC
+xL
+tc
+tc
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
 Sr
-oA
+vi
 Sr
 Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-dH
-wB
-gU
-YD
-DB
-lX
-gU
-wB
-gU
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+tc
+tc
+JI
+qp
+ci
 vi
 vi
 vi
 "}
 (10,1,1) = {"
-HY
-HY
-HY
-Yb
-EJ
-EJ
-Yb
-rz
-EJ
-EJ
-EJ
-EJ
-EJ
-EJ
-EJ
-EJ
-EJ
-EJ
+vi
+vi
+hU
 Sr
 Sr
-dH
-Jc
-gU
-YD
-Md
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+IH
+NW
+NW
+NW
+NW
+NW
 lX
-gU
-wB
-gU
+lX
+lX
+lX
+lX
+lX
+lX
+lX
+lX
+Wm
+Sr
+Wm
+Sr
+Sr
+Wm
+Sr
+Wm
+lX
+lX
+lX
+lX
 vi
 vi
-hT
+vi
+vi
+vi
+aJ
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
 "}
 (11,1,1) = {"
 vi
 vi
-Lb
-gU
-EK
-Et
-gU
-bU
-wB
-wB
-oE
-oE
-oE
-BZ
-Sc
-Sc
-wB
-wB
-Wc
+hU
 Sr
-dH
-wB
-gU
-YD
-Md
+Sr
+UX
+NW
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+To
+zd
+zd
+WU
+NW
 lX
-gU
-wB
-gU
+lX
+Sr
+Nb
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+IL
+IL
+IL
+lX
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
 "}
 (12,1,1) = {"
 vi
-vi
-vi
-gU
-UF
-DL
-gU
-lC
-wB
-wB
-gU
-gU
-gU
-gU
-gU
-gU
-wB
-wB
-Wc
+ci
+hU
 Sr
-dH
-wB
-gU
-Eo
-Md
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+NW
+ZT
+ZT
+ZT
+ZT
+NW
+EK
+Tt
+FZ
+FZ
+FZ
+FZ
+FZ
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+IL
+IL
+IL
 lX
-gU
-wB
-gU
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+ci
+vi
 vi
 vi
 vi
@@ -1806,33 +4698,96 @@ vi
 (13,1,1) = {"
 vi
 vi
-vi
-gU
-rq
-tc
-Nc
-ZT
-wB
-gU
-gU
-Up
-yB
-VN
-WS
-gU
-gU
-Rb
-Wc
+hU
 Sr
-dH
-wB
-gU
-gU
-Ec
-gU
-gU
-wB
-gU
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+ZT
+zR
+mi
+ZT
+NW
+EK
+tE
+Sr
+lP
+Nb
+FZ
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+IL
+IL
+IL
+lX
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
@@ -1840,33 +4795,96 @@ vi
 (14,1,1) = {"
 vi
 vi
-vi
-gU
-gU
-gU
-gU
-wB
-Jc
-gU
-Vy
-NW
-NW
-NW
-NW
-NW
-xN
-lI
-TZ
+hU
 Sr
-dH
-uO
-gU
-zC
+Sr
+UX
 NW
-wK
-gU
-wB
-gU
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+ZT
+ZT
+aC
+ZT
+NW
+EK
+Tt
+FZ
+FZ
+FZ
+FZ
+FZ
+FZ
+FZ
+Sr
+Sr
+Sr
+Sr
+Sr
+lP
+Nb
+Sr
+IL
+IL
+IL
+lX
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
@@ -1874,33 +4892,96 @@ vi
 (15,1,1) = {"
 vi
 vi
-vi
-gU
-wB
-wB
-wB
-wB
-wB
-gU
-gU
-NP
-xj
-mb
-mb
-gU
-gU
-Rb
-Wc
+hU
 Sr
-Lm
-nw
-qa
+Sr
+UX
 NW
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
 NW
-Td
-gU
-wB
-gU
+ZT
+lR
+ZT
+ZT
+NW
+em
+tE
+Sr
+Sr
+Sr
+lP
+Nb
+FZ
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+IL
+IL
+IL
+lX
+vi
+aJ
+vi
+vi
+vi
+Fo
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
@@ -1908,33 +4989,96 @@ vi
 (16,1,1) = {"
 vi
 vi
-vi
-gU
-wB
-wB
-wB
-wB
-wB
-wB
-gU
-gU
-gU
-gU
-gU
-gU
-wB
-wB
-Wc
+hU
 Sr
-dH
-uO
-gU
-gU
+Sr
+UX
 NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+ZT
+ZT
+ZT
+ZT
+NW
+em
+Tt
 FZ
-gU
-wB
-gU
+FZ
+FZ
+FZ
+FZ
+FZ
+FZ
+Sr
+lP
+Nb
+Sr
+Sr
+Sr
+Sr
+Sr
+IL
+IL
+IL
+lX
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
@@ -1942,101 +5086,290 @@ vi
 (17,1,1) = {"
 vi
 vi
-vi
-gU
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-Wc
+hU
 Sr
-dH
-wB
-gU
-kO
+Sr
+UX
 NW
-aa
-gU
-wB
-gU
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+NW
+ZT
+ZT
+ZT
+ZT
+NW
+em
+tE
+Sr
+Sr
+lP
+Nb
+FZ
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+IL
+IL
+IL
+lX
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
 "}
 (18,1,1) = {"
 vi
-vi
-vi
-gU
-wB
-wB
-wB
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-wB
-wB
-Wc
+ci
+hU
 Sr
-dH
-wB
-gU
-gU
-Bm
-Gy
-gU
-wB
-gU
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+ZT
+ZT
+ZT
+ZT
+NW
+NW
+Et
+FZ
+FZ
+FZ
+FZ
+FZ
+FZ
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+IL
+IL
+IL
+lX
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+ci
+vi
 vi
 vi
 vi
 "}
 (19,1,1) = {"
 vi
-hT
 vi
-gU
-wB
-wB
-wB
-gU
-fY
-CW
-kE
-Lu
-CO
-Lu
-kq
-gU
-rN
-wB
-Wc
+hU
 Sr
-dH
-wB
-gU
-kO
+Sr
+UX
 NW
-aa
-gU
-wB
-gU
+vi
+vi
+vi
+dy
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+NW
+ZT
+ZT
+ZT
+ZT
+NW
+lX
+lX
+Sr
+Nb
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+IL
+IL
+IL
+lX
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
@@ -2044,271 +5377,775 @@ vi
 (20,1,1) = {"
 vi
 vi
+hU
+Sr
+Sr
+UX
+NW
 vi
-gU
-wB
-wB
-wB
-gU
-Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 NW
-Wc
-Qx
-Qx
-Sr
-ca
-gU
-gU
-wB
-Wc
-Sr
-dH
-wB
-gU
-gU
+pm
+tv
+tv
+lu
 NW
-zH
-gU
-wB
-gU
-hT
+lX
+lX
+lX
+lX
+lX
+lX
+lX
+lX
+lX
+Zi
+Sr
+Zi
+Sr
+Sr
+Zi
+Sr
+Zi
+lX
+lX
+lX
+lX
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
 vi
 vi
 "}
 (21,1,1) = {"
-vi
-vi
-vi
-gU
-wB
-wB
-wB
-gU
-nc
+ci
+jU
+ng
+bI
+bI
+UX
 NW
-Wc
-Qx
-Qx
-Qx
-Sr
-fw
-gU
-Rb
-Wc
-Sr
-dH
-wB
-gU
-kO
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 NW
-Rg
-gU
-wB
-gU
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+vi
+kE
+kE
+kE
+kE
+kE
+vi
+vi
+vi
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+bI
+bI
+Ix
+Mr
+ci
 vi
 vi
 vi
 "}
 (22,1,1) = {"
 vi
-vi
-vi
-gU
-wB
-wB
-wB
-gU
+eD
+UX
+UX
+UX
 UX
 NW
-Wc
-Qx
-Qx
-Qx
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+st
+fa
+YG
+Zc
+jj
+qv
+jj
+jj
+jj
+jj
+co
+NW
+To
+zd
+zd
+WU
+NW
+St
 Sr
-dH
-tT
-lI
+sg
 Sr
 Sr
-dH
-wB
-gU
-gU
-Bm
-Yr
-gU
-wB
-gU
+rt
+vi
+vi
+vi
+vi
+Sr
+Sr
+vi
+Sr
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+UX
+UX
+UX
+cD
+vi
 vi
 vi
 vi
 "}
 (23,1,1) = {"
 vi
-vi
-vi
-gU
-wB
-wB
-wB
-gU
-nc
+eD
+Cl
+UX
+UX
+UX
 NW
-Wc
-Qx
-Qx
-Qx
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+TC
+Yq
+uv
+Nc
+Yr
+bk
+bk
+bk
+Qi
+bk
+gP
+NW
+xp
+ZT
+ZT
+nw
+NW
+St
 Sr
-qP
-gU
-Rb
-Wc
-Sr
-dH
-wB
-gU
-WG
-pB
-aa
-gU
-wB
-gU
+rt
+If
+BZ
+Vy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+NW
+UX
+UX
+UX
+Cl
+cD
+vi
 vi
 vi
 vi
 "}
 (24,1,1) = {"
 vi
-vi
-vi
-gU
-wB
-wB
-wB
-gU
-Iq
+eD
+zk
+qt
+UX
+UX
 NW
-Wc
-Qx
-Qx
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+NW
+TC
+qW
+gy
+Aq
+bk
+bk
+bk
+bk
+bk
+bk
+gP
+NW
+xp
+ZT
+ZT
+nw
+NW
+St
 Sr
-ca
-gU
-gU
-wB
-Wc
+sg
 Sr
-dH
-wB
-gU
-gU
-gU
-gU
-gU
-wB
-gU
+Sr
+rt
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+UX
+qt
+zk
+cD
+vi
 vi
 vi
 vi
 "}
 (25,1,1) = {"
 vi
-vi
-vi
-gU
-wB
-wB
-wB
-gU
+eD
+eW
+UX
+UX
+UX
 NW
-EP
-ZR
-EJ
-aJ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+NW
+NW
+wP
+VN
+fw
+bv
+bk
+bk
+bk
+bk
+bk
+bk
 gP
-wC
-gU
-wB
-wB
-Wc
+NW
+xp
+ZT
+ZT
+nw
+NW
+St
 Sr
-dH
-wB
-wB
-wB
-Lp
+rt
 If
-Uc
-wB
-gU
+BZ
+Vy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+NW
+UX
+UX
+UX
+eW
+cD
+vi
 vi
 vi
 vi
 "}
 (26,1,1) = {"
 vi
+eD
+UX
+UX
+UX
+UX
+NW
 vi
 vi
-gU
-wB
-wB
-wB
-gU
-gU
-gU
-pN
-gh
-gU
-gU
-gU
-gU
-wB
-wB
-Wc
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+lX
+lX
+Kx
+sY
+YU
+bk
+bk
+bk
+bk
+bk
+NF
+RI
+NW
+WY
+xC
+ZT
+nw
+NW
+St
 Sr
-dH
-wB
-gU
-gU
-gU
-gU
-gU
-wB
-gU
+sg
+Sr
+Sr
+rt
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+UX
+UX
+UX
+cD
+vi
 vi
 vi
 vi
 "}
 (27,1,1) = {"
+ci
+lC
+xL
+tc
+tc
+UX
+NW
+vi
+vi
+aJ
 vi
 vi
 vi
-gU
-wB
-wB
-wB
-wB
-gU
-UU
-xi
-xi
-Vj
-PS
-gU
-wB
-wB
-wB
-Wc
-Sr
-dH
-wB
-gU
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+lX
+mj
+CO
 gS
-Se
-tn
-gU
-wB
-gU
+YU
+bk
+bk
+bk
+bk
+bk
+gP
+FQ
+Up
+Wc
+xp
+ZT
+nw
+NW
+St
+Sr
+rt
+If
+BZ
+Vy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+tc
+tc
+JI
+qp
+ci
 vi
 vi
 vi
@@ -2316,101 +6153,290 @@ vi
 (28,1,1) = {"
 vi
 vi
-vi
-gU
-wB
-wB
-wB
-wB
-gU
-CG
-xi
-xi
-yi
-yi
-gU
-wB
-wB
-wB
-Wc
+hU
 Sr
-dH
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+NW
+lX
+mj
+CO
+gS
+YU
+Yr
+bk
+bk
+bk
+Qi
+gP
+oO
+QP
 vF
-gU
-vD
-Se
-OF
-gU
-wB
-gU
+xp
+ZT
+nw
+NW
+St
+Sr
+rt
 vi
 vi
-hT
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
 "}
 (29,1,1) = {"
 vi
-hT
 vi
-gU
-wB
-wB
-wB
-wB
-gU
-Oc
-JK
-gi
-yi
-Fk
-gU
-wB
-wB
-wB
-Wc
+hU
 Sr
 Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+lX
+py
+CO
+gS
+YU
+bk
+bk
+bk
+bk
+bk
+gP
+DL
+DB
+OF
+xp
+ZT
 nw
-Dp
-Se
-Se
-na
-gU
-wB
-gU
+LZ
+lA
+NW
+lA
+NW
+NW
+NW
+NW
+NW
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+Fo
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
 "}
 (30,1,1) = {"
 vi
+ci
+hU
+Sr
+Sr
+UX
+NW
 vi
 vi
-gU
-wB
-wB
-wB
-wB
-gU
-YY
-ly
+vi
 dy
-yi
-bz
-gh
-wB
-wB
-wB
-ZR
-EJ
-YL
-Jc
-gU
-oO
-Se
-Se
-gU
-wB
-gU
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+vi
+vi
+aa
+vi
+vi
+vi
+vi
+vi
+NW
+lX
+lX
+Kx
+sY
+YU
+bk
+bk
+bk
+bk
+bk
+Is
+ps
+NW
+cT
+Ja
+ZT
+nw
+NW
+Xz
+Yb
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
+vi
+vi
+TZ
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+ci
+vi
 vi
 vi
 vi
@@ -2418,33 +6444,96 @@ vi
 (31,1,1) = {"
 vi
 vi
+hU
+Sr
+Sr
+UX
+NW
 vi
-gU
-wB
-wB
-wB
-wB
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-gU
-gS
-IL
-YU
-gU
-wB
-gU
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+vi
+vi
+vi
+vi
+vi
+NW
+NW
+HW
+Md
+Eo
+WZ
+bk
+bk
+bk
+bk
+bk
+bk
+gP
+NW
+xp
+ZT
+ZT
+nw
+NW
+Xz
+LM
+kv
+LM
+Bi
+tD
+KH
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
@@ -2452,33 +6541,96 @@ vi
 (32,1,1) = {"
 vi
 vi
+hU
+Sr
+Sr
+UX
+NW
 vi
-gU
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-gU
-gU
-gU
-gU
-gU
-wB
-gU
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+vi
+vi
+aa
+aa
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+vi
+aa
+vi
+vi
+vi
+vi
+NW
+TC
+Gg
+Tq
+Tn
+bk
+bk
+bk
+bk
+bk
+bk
+gP
+NW
+xp
+ZT
+ZT
+nw
+NW
+Xz
+LM
+QX
+LM
+LM
+LM
+Bq
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
@@ -2486,33 +6638,96 @@ vi
 (33,1,1) = {"
 vi
 vi
+hU
+Sr
+Sr
+UX
+NW
 vi
-gU
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-wB
-gU
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+aa
+aa
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+vi
+vi
+vi
+NW
+TC
+Yq
+uv
+Nc
+Yr
+bk
+bk
+bk
+Qi
+bk
+gP
+NW
+xp
+ZT
+ZT
+nw
+NW
+Xz
+LM
+QX
+LM
+LM
+EG
+xZ
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
@@ -2520,33 +6735,96 @@ vi
 (34,1,1) = {"
 vi
 vi
+hU
+Sr
+Sr
+UX
+NW
 vi
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
-gU
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+vi
+vi
+NW
+aI
+HQ
+KK
+TR
+fk
+zV
+fk
+fk
+fk
+fk
+eR
+NW
+pm
+tv
+tv
+lu
+NW
+Xz
+Zr
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
+vi
+vi
+vi
+mN
+vi
+vi
+Sr
+Sr
+vi
+Sr
+Sr
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
 vi
 vi
 vi
@@ -2554,6 +6832,140 @@ vi
 (35,1,1) = {"
 vi
 vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+aa
+aa
+vi
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+Xz
+LM
+LM
+yX
+LM
+LM
+LM
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(36,1,1) = {"
+vi
+ci
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+aa
+aa
+vi
+aa
 vi
 vi
 vi
@@ -2566,19 +6978,5768 @@ vi
 vi
 vi
 vi
+NW
+NL
+wB
+iX
+NW
+Xz
+LM
+LM
+Xz
+LM
+LM
+LM
+Xz
+NW
+NW
+NW
+NW
+NW
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+ci
+vi
+vi
+vi
+vi
+"}
+(37,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
 vi
 vi
 vi
 vi
 vi
 vi
+vi
+vi
+vi
+aa
+vi
+aa
+aa
+aa
+aa
+UX
+UX
+pB
+SC
+pB
+pB
+pB
+pB
+pB
+SC
+pB
+UX
+UX
+aa
+aa
+aa
+aa
+aa
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+Up
+mb
+bU
+gU
+Go
+NW
+Xz
+LM
+LM
+Xz
+bM
+bM
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(38,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+aa
+vi
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+MC
+UX
+YD
+YD
+YD
+YD
+YD
+UX
+MC
+UX
+UX
+aa
+aa
+aa
+aa
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+vF
+Iq
+fx
+Go
+NW
+Xz
+LM
+LM
+LM
+LM
+LM
+Xz
+gh
+YL
+Yh
+jF
+Xz
+NW
+Sr
+ab
+JK
+JK
+JK
+JK
+JK
+JK
+JK
+JK
+FX
+Sr
+NW
+NW
+NW
+NW
+NW
+UX
+vQ
+vQ
+ng
+vQ
+yH
+vi
+vi
+vi
+"}
+(39,1,1) = {"
+vi
+ci
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+pB
+Dn
+dQ
+hV
+hP
+hV
+Nj
+DG
+pB
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+fY
+Vj
+LM
+LM
+YS
+LM
+LM
+fY
+pN
+Wc
+bU
+Go
+NW
+Xz
+LM
+LM
+LM
+LM
+LM
+Pi
+yq
+wb
+wb
+nc
+Xz
+NW
+Sr
+Jw
+YZ
+WA
+oA
+xb
+xb
+WG
+WG
+WV
+zH
+Sr
+NW
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+cD
+vi
+vi
+vi
+"}
+(40,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+pB
+Dn
+hV
+ja
+hP
+ja
+hV
+Lr
+Rr
+Rr
+Rr
+UX
+Fg
+Fg
+UX
+YL
+YL
+ky
+UX
+fY
+YF
+LM
+LM
+Lb
+LM
+Lb
+vn
+Jr
+vF
+bU
+Go
+NW
+Xz
+LM
+LM
+Uc
+Uc
+LM
+dI
+yq
+wb
+wb
+uJ
+Xz
+NW
+Sr
+Jw
+ho
+Mv
+ZB
+Hr
+rz
+WG
+GM
+vb
+zH
+Sr
+NW
+UX
+gh
+YL
+YL
+YL
+ky
+UX
+UX
+Cl
+cD
+vi
+vi
+vi
+"}
+(41,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+pB
+Dn
+hP
+hP
+gw
+hP
+hP
+mV
+Vm
+Vm
+Vm
+Bx
+BW
+yt
+Bx
+BW
+wb
+Dc
+UX
+fY
+LM
+LM
+LM
+Lb
+LM
+Lb
+fY
+xi
+vF
+bU
+Go
+NW
+Xz
+LM
+kv
+LM
+LM
+Xz
+Xz
+yq
+wb
+wb
+wK
+Xz
+NW
+Sr
+Jw
+rz
+Hr
+rz
+Hr
+rz
+WG
+WG
+Nn
+zH
+Sr
+NW
+UX
+Hm
+wb
+wb
+wb
+Dc
+UX
+qt
+zk
+cD
+vi
+vi
+vi
+"}
+(42,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+pB
+Dn
+hV
+ja
+hP
+ja
+hV
+CG
+LT
+LT
+LT
+UX
+IX
+Oy
+UX
+oE
+wb
+Dc
+UX
+fY
+fq
+LM
+LM
+LM
+LM
+LM
+fK
+xi
+vF
+bU
+Go
+NW
+Xz
+LM
+QX
+LM
+LM
+Xz
+Sy
+xj
+wb
+wb
+bR
+Xz
+NW
+Sr
+Jw
+bx
+bx
+bx
+bx
+bx
+WG
+WG
+WG
+zH
+Sr
+NW
+UX
+KT
+cy
+oE
+wb
+zC
+UX
+UX
+eW
+cD
+vi
+vi
+vi
+"}
+(43,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+vi
+vi
+aa
+aa
+aa
+aa
+UX
+UX
+pB
+Dn
+hB
+hV
+hP
+hV
+FU
+DG
+pB
+UX
+UX
+UX
+UX
+UX
+UX
+xj
+wb
+Dc
+UX
+fY
+LM
+LM
+LM
+Lb
+LM
+Lb
+fY
+xi
+vF
+bU
+Go
+NW
+Xz
+Xz
+Xz
+Xz
+Bm
+Xz
+HY
+wb
+wb
+wb
+NQ
+Xz
+NW
+Sr
+pY
+oi
+oi
+oi
+oi
+oi
+oi
+oi
+oi
+rw
+Sr
+NW
+UX
+Yb
+UX
+Hm
+wb
+wb
+UX
+UX
+UX
+cD
+vi
+vi
+vi
+"}
+(44,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+MC
+UX
+dN
+dN
+dN
+dN
+dN
+UX
+MC
+UX
+UX
+wb
+wb
+wb
+fK
+wb
+wb
+Dc
+UX
+fY
+YF
+LM
+LM
+Lb
+LM
+Lb
+vn
+QF
+vF
+bU
+Go
+jS
+NW
+NW
+NW
+NW
+NW
+Xz
+jr
+cy
+cy
+cy
+Xb
+Xz
+NW
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+jS
+pS
+XR
+UX
+Hm
+wb
+wb
+wb
+LM
+UF
+cD
+vi
+vi
+vi
+"}
+(45,1,1) = {"
+ci
+jU
+ng
+bI
+bI
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+pB
+SC
+Bp
+YR
+YR
+YR
+dr
+SC
+pB
+UX
+UX
+wb
+UX
+UX
+UX
+UX
+wJ
+UX
+UX
+fY
+Vj
+LM
+LM
+jT
+LM
+LM
+fY
+xN
+OF
+bU
+uO
+wB
+wB
+wB
+wB
+iX
+NW
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+pS
+XR
+UX
+KT
+oK
+cy
+cy
+TE
+UF
+cD
+vi
+vi
+vi
+"}
+(46,1,1) = {"
+vi
+eD
+UX
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+vi
+aa
+aa
+aa
+UX
+UX
+UX
+UX
+UX
+In
+In
+In
+UX
+UX
+UX
+UX
+UX
+wb
+UX
+GV
+UX
+wb
+wb
+wb
+UX
+fY
+fY
+Zr
+fY
+fY
+fY
+fY
+fY
+vF
+NL
+vD
+tn
 hT
+hT
+hT
+fx
+Go
+jS
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+TA
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+rq
+Pv
+UX
+UX
+vn
+bM
+vn
+UX
+UX
+cD
+vi
+vi
+vi
+"}
+(47,1,1) = {"
+vi
+eD
+Cl
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+UX
+UX
+UX
+UX
+UX
+Lu
+Lu
+Lu
+UX
+UX
+UX
+UX
+UX
+wb
+KW
+Py
+UX
+wb
+wb
+wb
+UX
+fY
+YF
+LM
+LM
+fY
+HI
+ov
+qa
+xW
+vD
+gU
+Go
+FQ
+Up
+Wc
+bU
+uO
+wB
+wB
+wB
+wB
+wB
+wB
+wB
+wB
+wB
+wB
+wB
+Kp
+wB
+wB
+wB
+wB
+wB
+wB
+wB
+wB
+wB
+wB
+Kp
+xE
+zb
+Cl
+WS
+WS
+WS
+Cl
+Zu
+gp
+Sr
+Sr
+Sr
+"}
+(48,1,1) = {"
+vi
+eD
+zk
+qt
+UX
+UX
+NW
 vi
 vi
 vi
 vi
 vi
 vi
+vi
+vi
+vi
+aa
+aa
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+UX
+bf
+bf
+bf
+LM
+fK
+wb
+wb
+wb
+wb
+UX
+Sd
+UX
+wb
+wb
+wb
+UX
+fY
+Vj
+LM
+LM
+fK
+wC
+qP
+Gy
+gU
+gU
+wC
+Go
+oO
+uv
+vF
+bU
+gU
+wC
+gU
+gU
+gU
+gU
+gU
+gU
+gU
+wC
+gU
+gU
+gU
+gU
+gU
+gU
+gU
+gU
+gU
+gU
+gU
+gU
+gU
+wC
+gU
+Rg
+zk
+WS
+WS
+WS
+zk
+jx
+Sr
+Sr
+Sr
+Sr
+"}
+(49,1,1) = {"
+vi
+eD
+eW
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+aa
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+UX
+LM
+ar
+LM
+LM
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+fY
+YF
+LM
+LM
+fY
+aw
+lh
+EP
+PS
+fx
+gU
+Go
+DL
+DB
+OF
+bU
+tn
+hT
+hT
+hT
+hT
+hT
+hT
+hT
+hT
+hT
+zf
+hT
+Mo
+hT
+hT
+Ku
+fx
+tn
+Ku
+hT
+hT
+hT
+hT
+Mo
+wE
+Jc
+eW
+WS
+WS
+WS
+eW
+yl
+dO
+Sr
+Sr
+Sr
+"}
+(50,1,1) = {"
+vi
+eD
+UX
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+UX
+Xs
+wb
+wb
+LM
+UX
+aa
+aa
+fY
+Fe
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+Zr
+fY
+fY
+fY
+fY
+fY
+vF
+LG
+fx
+uO
+wB
+wB
+wB
+vD
+Go
+LZ
+NW
+NW
+NW
+NW
+NW
+Lm
+NW
+NW
+Ws
+NW
+NW
+NW
+NW
+NW
+MI
+kq
+NW
+NW
+Lm
+NW
+NW
+EM
+eT
+UX
+UX
+vn
+bM
+vn
+UX
+UX
+cD
+vi
+vi
+vi
+"}
+(51,1,1) = {"
+ci
+lC
+xL
+tc
+tc
+UX
+NW
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+UX
+LM
+LM
+rZ
+Bq
+UX
+aa
+aa
+fY
+na
+na
+na
+na
+en
+fY
+oI
+na
+na
+kS
+na
+na
+Kb
+Kb
+Kb
+fY
+pN
+Wc
+bU
+tn
+hT
+hT
+hT
+hT
+Jd
+NW
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
+vi
+EM
+eT
+Xz
+Xz
+Xz
+Xz
+Xz
+Ns
+Td
+Xz
+Xz
+NW
+dy
+vi
+pS
+XR
+UX
+gh
+ed
+YL
+YL
+ky
+UF
+cD
+vi
+vi
+vi
+"}
+(52,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+aa
+vi
+aa
+vi
+vi
+aa
+aa
+aa
+aa
+UX
+LM
+ZM
+Bq
+Bq
+UX
+aa
+aa
+fY
+na
+na
+na
+na
+na
+fY
+na
+na
+na
+na
+na
+na
+na
+na
+na
+vn
+Jr
+vF
+bU
+Go
+LZ
+NW
+NW
+NW
+NW
+NW
+Xz
+nU
+Qb
+Bj
+Xz
+NW
+vi
+pS
+XR
+Xz
+Fy
+Ty
+yi
+hI
+Gd
+Gd
+ag
+Xz
+NW
+vi
+LZ
+pS
+XR
+UX
+Hm
+wb
+wb
+wb
+Dc
+UF
+cD
+vi
+vi
+vi
+"}
+(53,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+vi
+aa
+aa
+aa
+aa
+UX
+UX
+UX
+UX
+UX
+UX
+aa
+aa
+fY
+th
+Kb
+na
+na
+na
+fY
+if
+na
+Sc
+na
+na
+na
+Fq
+OX
+na
+fY
+xi
+vF
+bU
+Go
+NW
+Xz
+Xz
+Yb
+Xz
+Xz
+Xz
+rs
+cw
+IJ
+Xz
+NW
+vi
+pS
+XR
+JX
+UF
+UF
+yi
+jE
+um
+um
+UK
+Xz
+NW
+vi
+NW
+UX
+Yb
+UX
+Hm
+wb
+wb
+UX
+UX
+UX
+cD
+vi
+vi
+vi
+"}
+(54,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+oO
+fY
+fY
+fY
+fY
+na
+na
+fY
+ws
+sR
+rj
+Ar
+na
+na
+Kb
+Kb
+na
+fK
+xi
+vF
+bU
+Go
+NW
+Xz
+QN
+Qb
+Um
+NV
+Xz
+gu
+YC
+Zk
+Xz
+NW
+vi
+rq
+xB
+Xz
+Iv
+CL
+eC
+jE
+um
+um
+Pz
+Xz
+NW
+vi
+NW
+UX
+gh
+YL
+xj
+wb
+TB
+UX
+UX
+Cl
+cD
+vi
+vi
+vi
+"}
+(55,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+mN
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+aa
+aa
+vi
+aa
+aa
+vi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+vi
+vi
+oO
+fY
+yB
+yB
+fY
+na
+na
+fY
+wR
+ZQ
+eY
+na
+na
+na
+gf
+pc
+na
+fY
+xi
+vF
+bU
+Go
+NW
+Xz
+rC
+CI
+fH
+mF
+Qb
+Ln
+YC
+Bu
+Xz
+NW
+vi
+vi
+NW
+Xz
+Xx
+Dp
+iO
+Ls
+um
+um
+UK
+Xz
+NW
+vi
+NW
+UX
+Hm
+wb
+wb
+wb
+Dc
+UX
+qt
+zk
+cD
+vi
+vi
+vi
+"}
+(56,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aa
+aa
+aa
+vi
+aa
+vi
+vi
+vi
+vi
+oO
+fY
+yB
+yB
+DQ
+na
+aH
+yX
+na
+na
+na
+na
+na
+na
+na
+na
+na
+vn
+QF
+vF
+bU
+Go
+NW
+Xz
+rC
+mG
+yC
+Az
+Az
+Az
+bS
+Bu
+Xz
+NW
+vi
+vi
+NW
+Xz
+KB
+vH
+um
+um
+um
+um
+Pz
+Xz
+NW
+vi
+NW
+UX
+KT
+cy
+cy
+cy
+TE
+UX
+UX
+eW
+cD
+vi
+vi
+vi
+"}
+(57,1,1) = {"
+vi
+ci
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+oO
+fY
+yB
+yB
+fY
+kS
+na
+fY
+oI
+na
+na
+na
+na
+na
+na
+na
+na
+fY
+xN
+OF
+bU
+Go
+NW
+Xz
+rC
+bP
+iw
+iw
+iw
+iw
+pj
+Bu
+Xz
+NW
+vi
+NW
+NW
+Xz
+qB
+RS
+ou
+Yo
+um
+um
+vk
+Xz
+NW
+vi
+NW
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+cD
+vi
+vi
+vi
+"}
+(58,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+oO
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+we
+we
+we
+fY
+we
+we
+we
+fY
+fY
+vF
+Lp
+vD
+Go
+NW
+Xz
+gt
+vP
+fB
+vP
+fB
+AR
+AR
+rN
+Xz
+NW
+vi
+NW
+Xz
+Xz
+Iv
+ds
+WI
+jE
+um
+um
+Pz
+Xz
+NW
+vi
+NW
+NW
+NW
+NW
+NW
+UX
+tT
+tT
+JI
+tT
+xM
+vi
+vi
+vi
+"}
+(59,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+DL
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+fY
+DB
+Rb
+bU
+gU
+Go
+NW
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
+vi
+NW
+Xz
+UF
+UF
+UF
+yi
+jE
+um
+um
+UK
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(60,1,1) = {"
+vi
+ci
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+vi
+NW
+bU
+wC
+Go
+jS
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+vi
+NW
+Xz
+UF
+UF
+hf
+yi
+jE
+um
+um
+Pz
+Xz
+NW
+vi
+Fo
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+ci
+vi
+vi
+vi
+vi
+"}
+(61,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+qn
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+bU
+gU
+Go
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+Xz
+UF
+Rd
+mZ
+yi
+jE
+um
+um
+UK
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(62,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Hw
+He
+vi
+vi
+vi
+EJ
+nf
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+Lm
+LG
+hT
+Jd
+LZ
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+vi
+NW
+Xz
+UF
+Ob
+UF
+yi
+Ys
+bc
+bc
+ey
+Xz
+NW
+dy
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(63,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+ik
+vi
+jg
+rm
+vi
+zh
+OG
+vi
+vi
+vi
+eH
+Op
+aF
+vi
+vi
+vi
+vi
+vi
+NW
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Vx
+gi
+gi
+gi
+Vx
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
+vi
+NW
+Xz
+UF
+UF
+UF
+yi
+uu
+vY
+vY
+PM
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(64,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+ji
+gR
+vi
+Mp
+Qn
+vi
+bF
+Ni
+Mg
+MG
+Qx
+vi
+vi
+vi
+vi
+vi
+NW
+Xz
+LM
+LM
+LM
+Xz
+LM
+LM
+LM
+LM
+LM
+LM
+Xz
+Ec
+Ec
+Ec
+Ec
+Ec
+Xz
+LM
+LM
+Xz
+Vo
+NP
+NP
+NP
+sX
+Xz
+NW
+vi
+NW
+Xz
+UF
+bM
+bM
+Iv
+ds
+Iv
+Iv
+ds
+Xz
+NW
+vi
+vi
+mN
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(65,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+dH
+vi
+Pb
+dp
+vi
+iN
+qS
+vi
+qL
+bl
+uG
+IG
+Yd
+vi
+vi
+vi
+vi
+vi
+NW
+Xz
+LM
+LM
+LM
+Xz
+LM
+LM
+LM
+LM
+LM
+LM
+fK
+Ec
+wV
+Ec
+wV
+Ec
+fK
+LM
+LM
+yX
+NP
+NP
+iD
+NP
+jq
+Xz
+NW
+vi
+NW
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(66,1,1) = {"
+vi
+ci
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+rx
+vz
+IA
+lf
+vi
+KV
+wx
+vi
+vi
+ON
+vi
+Ii
+YY
+Kc
+CO
+CO
+vi
+vi
+NW
+Xz
+LM
+LM
+Ww
+yX
+LM
+LM
+LM
+LM
+LM
+LM
+Xz
+Ke
+Ec
+Ec
+Ec
+fV
+Xz
+LM
+LM
+Xz
+NP
+NP
+iD
+NP
+RP
+Xz
+NW
+vi
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+ci
+vi
+vi
+vi
+vi
+"}
+(67,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+Gc
+Aa
+vi
+Vt
+vi
+vi
+mN
+kO
+UU
+nH
+Oc
+EW
+ly
+CO
+vi
+vi
+NW
+Xz
+LM
+LM
+LM
+Xz
+LM
+LM
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Yb
+Xz
+Yb
+Xz
+Xz
+LM
+LM
+IN
+NP
+NP
+iD
+NP
+RP
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+dy
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(68,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+JJ
+FL
+VY
+vi
+Pg
+Sm
+vi
+Tr
+Ro
+JL
+nH
+UU
+ta
+ly
+ly
+vi
+vi
+NW
+Xz
+Xz
+Xz
+Xz
+Xz
+LM
+LM
+Xz
+yB
+yB
+yB
+Xz
+LM
+LM
+LM
+LM
+LM
+LM
+LM
+LM
+IN
+NP
+NP
+NP
+NP
+NP
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(69,1,1) = {"
+ci
+jU
+ng
+bI
+bI
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+sC
+cG
+Gr
+PT
+CO
+ly
+ly
+vi
+vi
+NW
+Xz
+Hg
+LM
+vZ
+Xz
+LM
+LM
+Xz
+yB
+yB
+yB
+Xz
+LM
+LM
+LM
+LM
+LM
+LM
+LM
+LM
+iD
+iD
+Xz
+Xz
+Yb
+Xz
+Xz
+NW
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+bI
+bI
+Ix
+Mr
+ci
+vi
+vi
+vi
+"}
+(70,1,1) = {"
+vi
+eD
+UX
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+pG
+fU
+mD
+qQ
+Or
+vi
+vi
+vi
+GZ
+uq
+lM
+vi
+vi
+vi
+vi
+vi
+NW
+Xz
+Ia
+LM
+Ia
+Xz
+LM
+LM
+Xz
+yB
+yB
+yB
+Xz
+LM
+LM
+Bi
+Bi
+Bi
+Bi
+LM
+LM
+LM
+LM
+Xz
+ru
+eX
+lI
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+NW
+UX
+UX
+UX
+UX
+cD
+vi
+vi
+vi
+vi
+"}
+(71,1,1) = {"
+vi
+eD
+Cl
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+UR
+gz
+tu
+BQ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+Xz
+LM
+LM
+LM
+yX
+LM
+LM
+Xz
+yB
+yB
+yB
+Xz
+LM
+LM
+vf
+vf
+vf
+vf
+LM
+LM
+LM
+LM
+Xz
+eX
+eX
+LN
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+TZ
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+UX
+UX
+Cl
+cD
+vi
+vi
+vi
+vi
+"}
+(72,1,1) = {"
+vi
+eD
+zk
+qt
+UX
+UX
+NW
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Io
+Wt
+jP
+WE
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+NW
+Xz
+Ia
+LM
+Ia
+Xz
+LM
+LM
+Xz
+yB
+yB
+yB
+Xz
+LM
+LM
+EG
+EG
+EG
+EG
+LM
+LM
+LM
+LM
+Xz
+UQ
+eX
+Wf
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+NW
+UX
+UX
+qt
+zk
+cD
+vi
+vi
+vi
+vi
+"}
+(73,1,1) = {"
+vi
+eD
+eW
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+Mu
+mK
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+NW
+Xz
+ca
+LM
+rK
+Xz
+LM
+LM
+Xz
+yB
+yB
+yB
+Xz
+LM
+LM
+LM
+LM
+LM
+LM
+LM
+LM
+LM
+Ka
+Xz
+tS
+tS
+PC
+Xz
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+UX
+UX
+eW
+cD
+vi
+vi
+vi
+vi
+"}
+(74,1,1) = {"
+vi
+eD
+UX
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+UX
+UX
+UX
+cD
+vi
+vi
+vi
+vi
+"}
+(75,1,1) = {"
+ci
+lC
+xL
+tc
+tc
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+zr
+Jl
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+NW
+UX
+tc
+tc
+JI
+qp
+ci
+vi
+vi
+vi
+"}
+(76,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Ea
+Iz
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(77,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+aJ
+vi
+xR
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(78,1,1) = {"
+vi
+ci
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+mN
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+ci
+vi
+vi
+vi
+vi
+"}
+(79,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+rU
+lp
+ZR
+iE
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(80,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+ux
+tM
+OQ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(81,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+VC
+vi
+bz
+vi
+vi
+vi
+Fo
+vi
+dy
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+ze
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+dy
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(82,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+jh
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(83,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(84,1,1) = {"
+vi
+ci
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+ci
+vi
+vi
+vi
+vi
+"}
+(85,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+mN
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+TZ
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Or
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(86,1,1) = {"
+vi
+vi
+hU
+Sr
+Sr
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+aJ
+vi
+vi
+vi
+NW
+UX
+Sr
+Sr
+hU
+vi
+vi
+vi
+vi
+vi
+"}
+(87,1,1) = {"
+ci
+jU
+ng
+bI
+bI
+UX
+NW
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+dy
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+Fo
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+bI
+bI
+Ix
+Mr
+ci
+vi
+vi
+vi
+"}
+(88,1,1) = {"
+vi
+eD
+UX
+UX
+UX
+UX
+NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+NW
+UX
+UX
+UX
+UX
+cD
+vi
+vi
+vi
+vi
+"}
+(89,1,1) = {"
+vi
+eD
+Cl
+UX
+UX
+UX
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+NW
+UX
+UX
+UX
+Cl
+cD
+vi
+vi
+vi
+vi
+"}
+(90,1,1) = {"
+vi
+eD
+zk
+qt
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+UX
+qt
+zk
+cD
+vi
+vi
+vi
+vi
+"}
+(91,1,1) = {"
+vi
+eD
+eW
+UX
+UX
+UX
+UX
+UX
+XV
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+UX
+UX
+UX
+XV
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+UX
+UX
+UX
+XV
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+UX
+UX
+UX
+eW
+cD
+vi
+vi
+vi
+vi
+"}
+(92,1,1) = {"
+vi
+eD
+UX
+UX
+UX
+qt
+UX
+UX
+XV
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+qt
+UX
+UX
+XV
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+qt
+UX
+UX
+XV
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+bG
+UX
+UX
+qt
+UX
+UX
+UX
+cD
+vi
+vi
+vi
+vi
+"}
+(93,1,1) = {"
+ci
+eD
+UX
+UX
+Ns
+SO
+Td
+UX
+sL
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Ex
+UX
+Ns
+SO
+Td
+UX
+sL
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Ex
+UX
+Ns
+SO
+Td
+UX
+sL
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Xy
+Ex
+UX
+Ns
+SO
+Td
+UX
+UX
+cD
+ci
+vi
+vi
+vi
+"}
+(94,1,1) = {"
+vi
+CW
+tT
+tT
+tT
+tT
+tT
+tT
+qp
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+lC
+tT
+tT
+tT
+tT
+tT
+qp
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+lC
+tT
+tT
+tT
+tT
+tT
+qp
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+lC
+tT
+tT
+tT
+tT
+tT
+tT
+qp
+vi
+vi
+vi
+vi
+"}
+(95,1,1) = {"
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+BV
+vi
+vi
+vi
+vi
+vi
+BV
 vi
 vi
 vi
