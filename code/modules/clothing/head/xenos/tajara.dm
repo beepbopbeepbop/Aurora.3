@@ -66,12 +66,6 @@
 	icon = 'icons/obj/tajara_items.dmi'
 	contained_sprite = TRUE
 
-/obj/item/clothing/head/beret/tajaran/pra
-	name = "hadiist army beret"
-	desc = "A green beret issued to hadiist soldiers."
-	icon_state = "praberet"
-	item_state = "praberet"
-
 /obj/item/clothing/head/beret/tajaran/dpra
 	name = "liberation army beret"
 	desc = "A beret issued to liberation army soldiers."
@@ -235,12 +229,33 @@
 	body_parts_covered = HEAD|FACE|EYES
 	species_restricted = list(BODYTYPE_TAJARA)
 
-/obj/item/clothing/head/tajaran/army_commissar
-	name = "army commissar hat"
-	desc = "A peaked cap used by Party Commissars attached to military units."
-	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached to army units, who ensures that soldiers and \
-	their commanders follow the principles of Hadiism. Their duties are not only limited to enforcing the republican ideals among the troops and reporting possible subversive elements, \
-	they are expected to display bravery in combat and lead by example."
+/obj/item/clothing/head/beret/tajaran/pra
+	name = "grand people's army trooper beret"
+	desc = "A beret used by the troopers of the Grand People's Army of the PRA."
+	desc_extended = "The Grand People's Army, also known as the Republican Army, is the ground force of the People's Republic of Adhomai. \
+	It holds the arguable position of best equipped, supplied, and funded. Despite this, it is defined by a chronic manpower shortage \
+	in large part due to the brutal attrition warfare seen during the Second Revolution. While enlistment numbers have remained steady \
+	since the Armistice, the lack of soldiers has led to a shift in the focus of the PRA's army."
+	icon_state = "praberet"
+	item_state = "praberet"
+
+/obj/item/clothing/head/tajaran/pra_officer
+	name = "grand people's army peaked cap"
+	desc = "A peaked cap used by the officers of the Grand People's Army of the PRA."
+	desc_extended = "The Grand People's Army, also known as the Republican Army, is the ground force of the People's Republic of Adhomai. \
+	It holds the arguable position of best equipped, supplied, and funded. Despite this, it is defined by a chronic manpower shortage \
+	in large part due to the brutal attrition warfare seen during the Second Revolution. While enlistment numbers have remained steady \
+	since the Armistice, the lack of soldiers has led to a shift in the focus of the PRA's army."
+	icon_state = "pracommisar_hat"
+	item_state = "pracommisar_hat"
+
+/obj/item/clothing/head/tajaran/pra_commissar
+	name = "hadiist political commissar peaked cap"
+	desc = "A peaked cap used by Hadiist Party Political Commissars attached to the PRA Ground Forces."
+	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached \
+	to army units, who ensures that soldiers and their commanders follow the principles of Hadiism. Their duties are not only limited \
+	to enforcing the republican ideals among the troops and reporting possible subversive elements, they are expected to display bravery \
+	in combat and lead by example."
 	icon_state = "pracommisar_hat"
 	item_state = "pracommisar_hat"
 

@@ -240,17 +240,6 @@
 	icon_state = "summer-shirt"
 	item_state = "summer-shirt"
 
-/obj/item/clothing/under/tajaran/pra_uniform
-	name = "republican army uniform"
-	desc = "A military uniform used by the forces of Grand People's Army."
-	icon_state = "prauniform"
-	item_state = "prauniform"
-	starting_accessories = list(/obj/item/clothing/accessory/storage/bayonet)
-	siemens_coefficient = 0.7
-	armor = list(
-		MELEE = ARMOR_MELEE_SMALL,
-		BULLET = ARMOR_BALLISTIC_MINOR)
-
 /obj/item/clothing/under/tajaran/nka_uniform
 	name = "imperial adhomian army uniform"
 	desc = "A military uniform used by the forces of the New Kingdom of Adhomai's army."
@@ -430,15 +419,55 @@
 	icon_state = "explorer_uniform"
 	item_state = "explorer_uniform"
 
-/obj/item/clothing/under/tajaran/army_commissar
-	name = "army commissar uniform"
-	desc = "A military uniform used by Party Commissars attached to military units."
-	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached to army units, who ensures that soldiers and \
-	their commanders follow the principles of Hadiism. Their duties are not only limited to enforcing the republican ideals among the troops and reporting possible subversive elements, \
-	they are expected to display bravery in combat and lead by example."
+/obj/item/clothing/under/tajaran/pra_trooper
+	name = "grand people's army trooper uniform"
+	desc = "A military dress uniform worn by the troopers of the Grand People's Army of the PRA."
+	desc_extended = "The Grand People's Army, also known as the Republican Army, is the ground force of the People's Republic of Adhomai. \
+	It holds the arguable position of best equipped, supplied, and funded. Despite this, it is defined by a chronic manpower shortage \
+	in large part due to the brutal attrition warfare seen during the Second Revolution. While enlistment numbers have remained steady \
+	since the Armistice, the lack of soldiers has led to a shift in the focus of the PRA's army."
+	icon_state = "prauniform"
+	item_state = "prauniform"
+	starting_accessories = list(/obj/item/clothing/accessory/storage/bayonet)
+	siemens_coefficient = 0.7
+	armor = list(
+		MELEE = ARMOR_MELEE_SMALL,
+		BULLET = ARMOR_BALLISTIC_MINOR)
+
+/obj/item/clothing/under/tajaran/pra_trooper/hanarr
+	name = "Ha'narr Corps scout uniform"
+	desc = "A snow-coloured uniform worn by Ha'narriye scouts while traversing the vast countryside for warmth, as well as camouflage."
+	desc_extended = "Originally formed in 2421 during the first revolution, the Ha'narr Corps served as a reconnaissance, scouting, \
+	and special operations unit for the rebellion. As the predecessor of the Republican Army began to coalesce into organized units, \
+	the Ha'narr Corps was officially given its name and designated its own branch of the military outside of the regular army command \
+	structure. Although it was disbanded at the end of the first revolution, it was reformed at the dawn of the second revolution as the \
+	inflexibility of the Republican Army proved to be a vital weakness that these units corrected for."
+	icon_state = "ala-grunt-wraps"
+	item_state = "ala-grunt-wraps"
+
+/obj/item/clothing/under/tajaran/pra_officer
+	name = "grand people's army officer uniform"
+	desc = "A military dress uniform worn by the officers of the Grand People's Army of the PRA."
+	desc_extended = "The Grand People's Army, also known as the Republican Army, is the ground force of the People's Republic of Adhomai. \
+	It holds the arguable position of best equipped, supplied, and funded. Despite this, it is defined by a chronic manpower shortage \
+	in large part due to the brutal attrition warfare seen during the Second Revolution. While enlistment numbers have remained steady \
+	since the Armistice, the lack of soldiers has led to a shift in the focus of the PRA's army."
 	icon_state = "pracommisar"
 	item_state = "pracommisar"
-	starting_accessories = (/obj/item/clothing/accessory/holster/hip)
+
+/obj/item/clothing/under/tajaran/pra_commissar
+	name = "hadiist political commissar uniform"
+	desc = "A military dress uniform worn by Hadiist Party Political Commissars attached to the PRA Ground Forces."
+	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached \
+	to army units, who ensures that soldiers and their commanders follow the principles of Hadiism. Their duties are not only limited \
+	to enforcing the republican ideals among the troops and reporting possible subversive elements, they are expected to display bravery \
+	in combat and lead by example."
+	icon_state = "pracommisar"
+	item_state = "pracommisar"
+	starting_accessories = list(
+		/obj/item/clothing/accessory/hadii_pin,
+		/obj/item/clothing/accessory/armband/hadii
+	)
 
 /obj/item/clothing/under/tajaran/psis
 	name = "people's strategic intelligence service uniform"

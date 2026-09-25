@@ -272,6 +272,30 @@
 	build_from_parts = TRUE
 	has_accents = TRUE
 
+/obj/item/clothing/suit/storage/hooded/tajaran/colorable/hanarr
+	name = "Ha'narr Corps scout cloak"
+	desc = "A thick, snow-coloured cloak, worn by Ha'narriye scouts while traversing the vast countryside for warmth, as well as camouflage."
+	desc_extended = "Originally formed in 2421 during the first revolution, the Ha'narr Corps served as a reconnaissance, scouting, \
+	and special operations unit for the rebellion. As the predecessor of the Republican Army began to coalesce into organized units, \
+	the Ha'narr Corps was officially given its name and designated its own branch of the military outside of the regular army command \
+	structure. Although it was disbanded at the end of the first revolution, it was reformed at the dawn of the second revolution as the \
+	inflexibility of the Republican Army proved to be a vital weakness that these units corrected for."
+	armor = list(
+		MELEE = ARMOR_MELEE_KNIVES,
+		BULLET = ARMOR_BALLISTIC_PISTOL,
+		LASER = ARMOR_LASER_SMALL,
+		ENERGY = ARMOR_ENERGY_MINOR,
+		BOMB = ARMOR_BOMB_PADDED
+	)
+	siemens_coefficient = 0.50
+	allowed = list(
+		/obj/item/gun/projectile/shotgun,
+		/obj/item/gun/projectile/automatic/rifle/adhomian,
+		/obj/item/ammo_magazine/boltaction/adhomai,
+		/obj/item/ammo_magazine/a68,
+		/obj/item/flashlight
+	)
+
 /obj/item/clothing/suit/storage/hooded/tajaran/colorable/fancy
 	name = "fancy adhomian cloak"
 	desc = "A fancy Adhomian cloak."
@@ -400,8 +424,8 @@
 	)
 
 /obj/item/clothing/suit/storage/tajaran/pra_jacket
-	name = "hadiist surplus jacket"
-	desc = "An olive surplus jacket worn by the forces of the Grand People's Army."
+	name = "grand people's army surplus jacket"
+	desc = "An olive military jacket worn by troopers of the Grand People's Army of the PRA."
 	icon = 'icons/obj/tajara_items.dmi'
 	icon_state = "greenservice"
 	item_state = "greenservice"
@@ -409,17 +433,64 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 
 /obj/item/clothing/suit/storage/tajaran/pra_jacket/armored
-	name = "hadiist service jacket"
-	desc = "An olive military jacket worn by the forces of the Grand People's Army."
+	name = "grand people's army service jacket"
+	desc = "An olive military jacket worn by troopers of the Grand People's Army of the PRA. \
+	It has apparent reinforcements weaved into the fabric."
+	desc_extended = "The Grand People's Army, also known as the Republican Army, is the ground force of the People's Republic of Adhomai. \
+	It holds the arguable position of best equipped, supplied, and funded. Despite this, it is defined by a chronic manpower shortage \
+	in large part due to the brutal attrition warfare seen during the Second Revolution. While enlistment numbers have remained steady \
+	since the Armistice, the lack of soldiers has led to a shift in the focus of the PRA's army."
 	armor = list(
 		MELEE = ARMOR_MELEE_KNIVES,
-		BULLET = ARMOR_BALLISTIC_MINOR,
-		LASER = ARMOR_LASER_MINOR,
+		BULLET = ARMOR_BALLISTIC_PISTOL,
+		LASER = ARMOR_LASER_SMALL,
 		ENERGY = ARMOR_ENERGY_MINOR,
-		BOMB = ARMOR_BOMB_MINOR
+		BOMB = ARMOR_BOMB_PADDED
 	)
 	siemens_coefficient = 0.50
-	allowed = list(/obj/item/gun/projectile/shotgun/pump/rifle, /obj/item/ammo_magazine/boltaction/adhomai, /obj/item/ammo_magazine/a68, /obj/item/gun/projectile/automatic/rifle/adhomian, /obj/item/flashlight)
+	allowed = list(
+		/obj/item/gun/projectile/shotgun,
+		/obj/item/gun/projectile/automatic/rifle/adhomian,
+		/obj/item/ammo_magazine/boltaction/adhomai,
+		/obj/item/ammo_magazine/a68,
+		/obj/item/flashlight
+	)
+
+/obj/item/clothing/suit/storage/toggle/tajaran/pra_greatcoat
+	name = "grand people's army greatcoat"
+	desc = "A drab, olive greatcoat worn by the officers of the Grand People's Army of the PRA. \
+	It has apparent reinforcements weaved into the fabric."
+	desc_extended = "The Grand People's Army, also known as the Republican Army, is the ground force of the People's Republic of Adhomai. \
+	It holds the arguable position of best equipped, supplied, and funded. Despite this, it is defined by a chronic manpower shortage \
+	in large part due to the brutal attrition warfare seen during the Second Revolution. While enlistment numbers have remained steady \
+	since the Armistice, the lack of soldiers has led to a shift in the focus of the PRA's army."
+	icon = 'icons/obj/tajara_items.dmi'
+	icon_state = "pra_consularcoat"
+	item_state = "pra_consularcoat"
+	armor = list(
+		MELEE = ARMOR_MELEE_KNIVES,
+		BULLET = ARMOR_BALLISTIC_PISTOL,
+		LASER = ARMOR_LASER_SMALL,
+		ENERGY = ARMOR_ENERGY_MINOR,
+		BOMB = ARMOR_BOMB_PADDED
+	)
+	siemens_coefficient = 0.50
+	allowed = list(
+		/obj/item/gun/projectile/shotgun,
+		/obj/item/gun/projectile/automatic/rifle/adhomian,
+		/obj/item/ammo_magazine/boltaction/adhomai,
+		/obj/item/ammo_magazine/a68,
+		/obj/item/flashlight
+	)
+
+/obj/item/clothing/suit/storage/toggle/tajaran/pra_greatcoat/commissar
+	name = "hadiist political commissar greatcoat"
+	desc = "A drab, olive greatcoat worn by Hadiist Party Political Commissars attached to the PRA Ground Forces. \
+	It has apparent reinforcements weaved into the fabric."
+	desc_extended = "Party Commissars are high ranking members of the Party of the Free Tajara under the Leadership of Hadii attached \
+	to army units, who ensures that soldiers and their commanders follow the principles of Hadiism. Their duties are not only limited \
+	to enforcing the republican ideals among the troops and reporting possible subversive elements, they are expected to display bravery \
+	in combat and lead by example."
 
 /obj/item/clothing/suit/storage/tajaran/dpra_jacket
 	name = "al'mariist jacket"

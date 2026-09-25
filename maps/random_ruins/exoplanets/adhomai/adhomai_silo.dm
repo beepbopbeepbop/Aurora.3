@@ -54,7 +54,7 @@
 /obj/outfit/admin/silo_guard
 	name = "People's Republic of Adhomai Silo Guard"
 
-	uniform = /obj/item/clothing/under/tajaran/pra_uniform
+	uniform = /obj/item/clothing/under/tajaran/pra_trooper
 	head = /obj/item/clothing/head/beret/tajaran/pra
 	suit = /obj/item/clothing/suit/storage/tajaran/pra_jacket/armored
 	back = /obj/item/gun/projectile/automatic/rifle/adhomian

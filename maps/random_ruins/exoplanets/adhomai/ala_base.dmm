@@ -1427,7 +1427,7 @@
 /obj/item/clothing/shoes/workboots/tajara/dark,
 /obj/item/clothing/gloves/black_leather/tajara,
 /obj/item/clothing/gloves/fingerless,
-/obj/item/clothing/under/tajaran/pra_uniform,
+/obj/item/clothing/under/tajaran/pra_trooper,
 /obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
 /obj/item/clothing/head/helmet/tank/olive,
 /obj/item/clothing/head/beret/tajaran/pra,
@@ -2160,10 +2160,10 @@
 /obj/item/clothing/gloves/fingerless,
 /obj/item/clothing/gloves/fingerless,
 /obj/item/clothing/gloves/fingerless,
-/obj/item/clothing/under/tajaran/pra_uniform,
-/obj/item/clothing/under/tajaran/pra_uniform,
-/obj/item/clothing/under/tajaran/pra_uniform,
-/obj/item/clothing/under/tajaran/pra_uniform,
+/obj/item/clothing/under/tajaran/pra_trooper,
+/obj/item/clothing/under/tajaran/pra_trooper,
+/obj/item/clothing/under/tajaran/pra_trooper,
+/obj/item/clothing/under/tajaran/pra_trooper,
 /obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
 /obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
 /obj/item/clothing/suit/storage/tajaran/pra_jacket/armored,
@@ -3025,10 +3025,10 @@
 /obj/item/clothing/gloves/white/tajara{
 	name = "white dress gloves"
 	},
-/obj/item/clothing/under/tajaran/army_commissar{
+/obj/item/clothing/under/tajaran/pra_officer{
 	name = "people's republic commissar uniform"
 	},
-/obj/item/clothing/head/tajaran/army_commissar{
+/obj/item/clothing/head/tajaran/pra_officer{
 	name = "people's republic commissar peaked cap"
 	},
 /obj/item/clothing/suit/storage/hooded/tajaran/colorable/fancy{

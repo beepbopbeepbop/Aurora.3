@@ -221,19 +221,31 @@
 	pickup_sound = 'sound/items/pickup/ring.ogg'
 
 /obj/item/clothing/accessory/hadii_pin
-	name = "hadiist party pin"
-	desc = "A small, red flag pin worn by members of the Hadiist party."
+	name = "Hadiist Party pin"
+	desc = "A small, red flag pin worn by members of the Party of the Free Tajara."
 	icon_state = "hadii-pin"
 	item_state = "hadii-pin"
 	overlay_state = "hadii-pin"
-	desc_extended = "The Party of the Free Tajara under the Leadership of Hadii is the only and ruling party in the PRA, with its leader always being the elected president. \
-	They follow Hadiism as their main ideology, with the objective of securing the Tajaran freedom and place in the galactic community. Membership of the Hadiist Party is not open. \
-	For anyone to become a member, they must be approved by a committee that will consider their qualifications and past. Goverment officials can grant honorary memberships, this is \
-	seen as nothing but a honor and does not grant any status or position that a regular Party member would have."
+	desc_extended = "The Party of the Free Tajara under the Leadership of Hadii is the only and ruling party in the PRA, with its leader \
+	always being the elected president. They follow Hadiism as their main ideology, with the objective of securing the Tajaran freedom \
+	and place in the galactic community. Membership of the Hadiist Party is not open. For anyone to become a member, they must be \
+	approved by a committee that will consider their qualifications and past. Goverment officials can grant honorary memberships, this \
+	is seen as nothing but a honor and does not grant any status or position that a regular Party member would have."
 	flippable = TRUE
 
 	drop_sound = 'sound/items/drop/ring.ogg'
 	pickup_sound = 'sound/items/pickup/ring.ogg'
+
+/obj/item/clothing/accessory/armband/hadii
+	name = "Hadiist Party armband"
+	desc = "A red armband worn by members of the Party of the Free Tajara party."
+	desc_extended = "The Party of the Free Tajara under the Leadership of Hadii is the only and ruling party in the PRA, with its leader \
+	always being the elected president. They follow Hadiism as their main ideology, with the objective of securing the Tajaran freedom \
+	and place in the galactic community. Membership of the Hadiist Party is not open. For anyone to become a member, they must be \
+	approved by a committee that will consider their qualifications and past. Goverment officials can grant honorary memberships, this \
+	is seen as nothing but a honor and does not grant any status or position that a regular Party member would have."
+	icon_state = "armband_red"
+	item_state = "armband_red"
 
 /obj/item/clothing/accessory/dpra_pin
 	name = "almariist representative pin"
@@ -662,13 +674,13 @@
 	name = "president hadii medal for courage"
 	desc = "A medal awarded to the soldiers and PSIS agents who performed acts of bravery during the war, security operations, or during military duties."
 	icon_state = "hadii_courage"
-	overlay_state = "iron"
+	overlay_state = "silver"
 
 /obj/item/clothing/accessory/medal/pra_hero
 	name = "hero of the people's republic medal"
 	desc = "The highest distinction in the People's Republic of Adhomai, awarded for great service or heroic act while in duty to the nation. It can be bestowed to civilian and military recipients."
 	icon_state = "pra_hero"
-	overlay_state = "iron"
+	overlay_state = "sheriff"
 
 /obj/item/clothing/accessory/medal/messa_virtue
 	name = "messa's virtue medal"
@@ -686,7 +698,7 @@
 	name = "medal for the defense of the homeland"
 	desc = "A medal awarded to those who fought alongside the S'rand'marr Coalition in 2461. This was the last medal issued concerning the Second Revolution."
 	icon_state = "homeland_defense"
-	overlay_state = "gold"
+	overlay_state = "iron"
 
 /obj/item/clothing/accessory/medal/dpra_liberation
 	name = "adhomai hero of the liberation medal"
