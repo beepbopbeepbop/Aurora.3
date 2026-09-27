@@ -51,6 +51,15 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/pra_base)
+"az" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 6
+	},
+/obj/structure/machinery/computer/rdconsole/robotics/terminal{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/pra_base)
 "aC" = (
 /obj/item/ammo_magazine/boltaction/adhomai/blank,
 /turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
@@ -61,6 +70,7 @@
 /area/exoplanet/adhomai)
 "aH" = (
 /obj/item/towel_flat/doormat,
+/obj/effect/floor_decal/spline/fancy/wood/cee,
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "aI" = (
@@ -104,6 +114,10 @@
 	},
 /turf/simulated/floor/exoplanet/asphalt,
 /area/exoplanet/adhomai)
+"bw" = (
+/obj/effect/floor_decal/corner_wide/dark_blue/full,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
 "bx" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/effect/tent{
@@ -143,8 +157,9 @@
 /area/pra_base)
 "bP" = (
 /obj/effect/floor_decal/spline/plain/white{
-	dir = 5
+	dir = 9
 	},
+/obj/structure/bed/roller,
 /turf/simulated/floor/tiled/light/full,
 /area/pra_base)
 "bR" = (
@@ -172,11 +187,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
 "bS" = (
-/obj/effect/floor_decal/spline/plain/white,
-/obj/effect/floor_decal/spline/plain/corner/white{
-	dir = 4
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/light/full,
+/turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "bU" = (
 /obj/effect/decal/curb,
@@ -205,10 +219,10 @@
 /turf/simulated/floor/exoplanet/asphalt,
 /area/exoplanet/adhomai)
 "cw" = (
-/obj/effect/floor_decal/spline/plain/cee/white{
-	dir = 8
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/light/full,
+/turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "cy" = (
 /obj/effect/floor_decal/corner_wide/red{
@@ -251,6 +265,9 @@
 /obj/structure/sign/flag/pra{
 	pixel_y = 32
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "ds" = (
@@ -264,6 +281,17 @@
 /obj/effect/floor_decal/snowdrift/random,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
+"dB" = (
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"dD" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 9
+	},
+/obj/item/storage/firstaid/large,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
 "dH" = (
 /obj/item/reagent_containers/food/snacks/tunneler_souffle,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -295,15 +323,22 @@
 	temperature = 315.15
 	},
 /area/pra_base)
-"ed" = (
-/obj/effect/floor_decal/corner_wide/red{
+"eb" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 9
 	},
-/obj/effect/floor_decal/spline/plain/black{
-	dir = 4
+/obj/item/storage/firstaid/large/adv,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"ed" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 6
 	},
-/obj/structure/machinery/turretid/lethal{
-	req_access = list(/datum/access/pra)
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
@@ -398,6 +433,9 @@
 "eY" = (
 /obj/structure/table/wood,
 /obj/item/typewriter_case,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "fa" = (
@@ -428,11 +466,7 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/exoplanet/adhomai)
 "fB" = (
-/obj/effect/floor_decal/corner_wide/dark_blue{
-	dir = 6
-	},
-/obj/structure/machinery/iv_drip,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/light/full,
 /area/pra_base)
 "fH" = (
 /obj/effect/floor_decal/spline/plain/white{
@@ -507,10 +541,8 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
 "gu" = (
-/obj/effect/floor_decal/corner_wide/dark_blue{
-	dir = 5
-	},
 /obj/structure/machinery/iv_drip,
+/obj/structure/closet/walllocker/medical/secure/offship/surgery,
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
 "gv" = (
@@ -554,8 +586,11 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/exoplanet/adhomai)
 "hf" = (
-/obj/structure/machinery/r_n_d/fabricator/circuit_imprinter{
+/obj/structure/machinery/r_n_d/material_silo{
 	req_access = list(/datum/access/pra)
+	},
+/obj/structure/rod_railing{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base)
@@ -618,6 +653,9 @@
 /area/pra_base)
 "if" = (
 /obj/effect/decal/curb/corner,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "ih" = (
@@ -686,6 +724,10 @@
 /obj/structure/ship_weapon_dummy/icbm_dummy,
 /turf/simulated/floor/asphalt,
 /area/pra_base)
+"jd" = (
+/obj/structure/closet/crate/drop/grey,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
 "jg" = (
 /obj/item/reagent_containers/food/snacks/soup/tajfish,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -743,6 +785,13 @@
 /obj/item/storage/box/tactical/napalm,
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
+"jL" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 4
+	},
+/obj/structure/bed/roller,
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
 "jP" = (
 /obj/item/reagent_containers/food/snacks/fruit_rikazu,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -772,6 +821,13 @@
 "jY" = (
 /obj/structure/machinery/shipsensors/strong,
 /turf/simulated/floor/reinforced/airless,
+/area/pra_base)
+"ke" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 9
+	},
+/obj/structure/closet/walllocker/medical/secure/offship,
+/turf/simulated/floor/tiled/white,
 /area/pra_base)
 "kp" = (
 /obj/structure/machinery/door/urban/metal{
@@ -843,6 +899,15 @@
 /area/pra_base)
 "kS" = (
 /obj/structure/machinery/space_heater/industrial,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
+"kV" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "lf" = (
@@ -887,6 +952,10 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
+"lF" = (
+/obj/effect/floor_decal/spline/plain/black,
+/turf/simulated/floor/carpet/rubber,
+/area/pra_base)
 "lI" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/closet/secure_closet/freezer,
@@ -953,6 +1022,10 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
+"mc" = (
+/obj/structure/closet/secure_closet/medical/offship/surgery/taj,
+/turf/simulated/wall/concrete,
+/area/pra_base)
 "me" = (
 /obj/item/stack/liquidbags/full,
 /turf/simulated/wall/concrete,
@@ -971,24 +1044,28 @@
 /obj/structure/bed/stool/chair/folding,
 /turf/simulated/floor/tiled/dark,
 /area/exoplanet/adhomai)
+"mt" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 9
+	},
+/obj/structure/closet/walllocker/medical/secure/offship/life_support,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
 "mD" = (
 /obj/item/reagent_containers/food/snacks/vegetable_rikazu,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
 "mF" = (
-/obj/effect/floor_decal/corner_wide/dark_blue{
-	dir = 8
-	},
 /obj/structure/machinery/body_scanconsole{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
 "mG" = (
-/obj/effect/floor_decal/spline/plain/white{
+/obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/light/full,
+/turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "mK" = (
 /obj/item/reagent_containers/food/snacks/chocolate_rikazu,
@@ -1004,10 +1081,11 @@
 /turf/simulated/abyss,
 /area/pra_base)
 "mZ" = (
-/obj/structure/machinery/r_n_d/fabricator/protolathe{
-	req_access = list(/datum/access/pra)
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 9
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/carpet/rubber,
 /area/pra_base)
 "na" = (
 /turf/simulated/floor/wood/walnut,
@@ -1048,15 +1126,15 @@
 /turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
 /area/exoplanet/adhomai)
 "nU" = (
-/obj/effect/floor_decal/corner_wide/dark_blue/full{
-	dir = 8
-	},
 /obj/structure/machinery/computer/operating/terminal,
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
 "nY" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
@@ -1138,16 +1216,9 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base)
 "oK" = (
-/obj/effect/floor_decal/corner_wide/red{
-	dir = 6
-	},
-/obj/effect/floor_decal/spline/plain/black{
-	dir = 8
-	},
-/obj/structure/machinery/turretid/lethal{
-	req_access = list(/datum/access/pra)
-	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/effect/map_effect/window_spawner/full/reinforced/grille,
+/turf/simulated/floor/tiled/dark/full,
 /area/pra_base)
 "oO" = (
 /obj/structure/platform/metal_alt{
@@ -1155,6 +1226,11 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
+"oR" = (
+/obj/effect/floor_decal/industrial/hatch/red,
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
 "oS" = (
 /obj/structure/ship_weapon_dummy/icbm_dummy,
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -1183,6 +1259,10 @@
 /obj/item/ammo_magazine/a50,
 /obj/item/ammo_magazine/a50,
 /obj/item/ammo_magazine/a50,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/obj/item/material/knife/trench,
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "pg" = (
@@ -1226,6 +1306,13 @@
 /obj/item/reagent_containers/food/snacks/tajfurter,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
+"pJ" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 4
+	},
+/obj/item/hand_labeler,
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
 "pN" = (
 /obj/structure/platform/metal_alt,
 /obj/structure/platform/metal_alt{
@@ -1233,6 +1320,13 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
+"pP" = (
+/obj/structure/table/reinforced/steel,
+/obj/structure/machinery/turretid/lethal{
+	req_access = list(/datum/access/pra)
+	},
+/turf/simulated/floor/tiled/ridged,
+/area/pra_base)
 "pS" = (
 /obj/structure/platform/column{
 	dir = 1
@@ -1336,6 +1430,16 @@
 /obj/structure/lattice/catwalk/indoor/grate/dark,
 /turf/simulated/open,
 /area/pra_base)
+"re" = (
+/obj/structure/machinery/r_n_d/fabricator/mecha_part_fabricator{
+	req_access = list(/datum/access/pra);
+	limb_manufacturer = "Tesla Powered Prosthetics"
+	},
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
 "rj" = (
 /obj/structure/platform/engineer{
 	dir = 1
@@ -1355,9 +1459,6 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
 "rs" = (
-/obj/effect/floor_decal/corner_wide/dark_blue{
-	dir = 5
-	},
 /obj/structure/machinery/optable,
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
@@ -1403,9 +1504,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
 "rN" = (
-/obj/effect/floor_decal/corner_wide/dark_blue/full{
-	dir = 4
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 10
 	},
+/obj/structure/closet/secure_closet/medical/offship,
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
 "rS" = (
@@ -1416,11 +1518,27 @@
 /obj/item/reagent_containers/food/snacks/creamice,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
+"rV" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
 "rZ" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"sb" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/carpet/rubber,
 /area/pra_base)
 "sg" = (
 /obj/structure/machinery/door/urban/jail_door{
@@ -1462,6 +1580,13 @@
 /obj/structure/sign/flag/pra,
 /turf/simulated/floor/exoplanet/asphalt,
 /area/exoplanet/adhomai)
+"sZ" = (
+/obj/structure/bookcase,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
 "ta" = (
 /obj/structure/closet/secure_closet,
 /obj/item/clothing/shoes/workboots/tajara/dark,
@@ -1507,6 +1632,9 @@
 "th" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet/brown,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "tn" = (
@@ -1683,12 +1811,11 @@
 /turf/simulated/floor/asphalt,
 /area/pra_base)
 "vP" = (
-/obj/effect/floor_decal/corner_wide/dark_blue{
-	dir = 6
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 1
 	},
-/obj/structure/bed/roller,
-/obj/item/vitals_monitor,
-/turf/simulated/floor/tiled/white,
+/obj/structure/machinery/iv_drip,
+/turf/simulated/floor/tiled/light/full,
 /area/pra_base)
 "vQ" = (
 /obj/structure/platform/metal{
@@ -1717,6 +1844,9 @@
 /area/pra_base)
 "we" = (
 /obj/structure/bookcase,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "ws" = (
@@ -1724,6 +1854,9 @@
 /obj/structure/bonfire/fireplace{
 	density = 0;
 	pixel_y = 11
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
@@ -1786,6 +1919,13 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
+/area/pra_base)
+"wO" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 9
+	},
+/obj/item/storage/firstaid/large/combat,
+/turf/simulated/floor/tiled/white,
 /area/pra_base)
 "wP" = (
 /obj/structure/platform_deco/column,
@@ -1905,6 +2045,10 @@
 "xW" = (
 /turf/unsimulated/mineral/adhomai,
 /area/space)
+"xX" = (
+/obj/item/storage/box/gloves/tajara,
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
 "xZ" = (
 /obj/structure/table/reinforced/steel,
 /obj/item/taperecorder{
@@ -1954,9 +2098,10 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
 "yC" = (
-/obj/effect/floor_decal/spline/plain/corner/white{
+/obj/effect/floor_decal/spline/plain/white{
 	dir = 8
 	},
+/obj/structure/bed/roller,
 /turf/simulated/floor/tiled/light/full,
 /area/pra_base)
 "yH" = (
@@ -2128,6 +2273,13 @@
 	},
 /turf/simulated/open,
 /area/pra_base)
+"Be" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 4
+	},
+/obj/item/storage/box/unique/sharps,
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
 "Bi" = (
 /obj/structure/bed/stool/chair/folding{
 	dir = 4
@@ -2135,7 +2287,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
 "Bj" = (
-/obj/effect/floor_decal/corner_wide/dark_blue/full,
 /obj/structure/table/reinforced/steel,
 /obj/item/storage/box/fancy/tray,
 /turf/simulated/floor/tiled/white,
@@ -2161,6 +2312,7 @@
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 10
 	},
+/obj/structure/closet/secure_closet/medical/offship/equipment/taj,
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
 "Bx" = (
@@ -2171,6 +2323,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
+"BA" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "BQ" = (
 /obj/item/reagent_containers/food/drinks/bottle/small/khlibnyz,
@@ -2210,6 +2368,10 @@
 	dir = 8
 	},
 /area/pra_base)
+"CA" = (
+/obj/structure/closet/crate/freezer/offship/taj,
+/turf/simulated/wall/concrete,
+/area/pra_base)
 "CG" = (
 /obj/structure/platform/engineer,
 /obj/structure/platform/engineer{
@@ -2218,10 +2380,7 @@
 /turf/simulated/abyss,
 /area/pra_base)
 "CI" = (
-/obj/effect/floor_decal/spline/plain/white{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/light/full,
+/turf/simulated/floor/tiled/white,
 /area/pra_base)
 "CL" = (
 /obj/structure/rod_railing{
@@ -2246,7 +2405,8 @@
 "CZ" = (
 /obj/structure/sink/kitchen{
 	dir = 4;
-	pixel_x = -21
+	pixel_x = -21;
+	name = "sink"
 	},
 /obj/effect/floor_decal/corner_wide/red/diagonal,
 /turf/simulated/floor/tiled/gridded,
@@ -2318,6 +2478,12 @@
 /obj/structure/machinery/door/urban/metal,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base)
+"DU" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 10
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/pra_base)
 "DX" = (
 /obj/structure/bed/stool/chair/folding{
 	dir = 8
@@ -2363,6 +2529,13 @@
 /obj/structure/machinery/r_n_d/tech_processor,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base)
+"EE" = (
+/obj/structure/machinery/space_heater/industrial,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
 "EG" = (
 /obj/structure/bed/stool/chair/folding{
 	dir = 8
@@ -2397,6 +2570,9 @@
 /obj/structure/machinery/media/jukebox/phonograph{
 	anchored = 1;
 	pixel_y = 13
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
@@ -2464,6 +2640,15 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base)
+"FE" = (
+/obj/structure/machinery/r_n_d/fabricator/protolathe{
+	req_access = list(/datum/access/pra)
+	},
+/obj/structure/rod_railing{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base)
 "FG" = (
 /obj/structure/platform_deco/engineer{
 	dir = 1
@@ -2528,6 +2713,12 @@
 /obj/structure/platform_deco/metal_alt,
 /turf/simulated/floor/exoplanet/asphalt,
 /area/exoplanet/adhomai)
+"Gl" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
 "Go" = (
 /obj/effect/decal/curb{
 	dir = 1
@@ -2591,6 +2782,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
+"Hi" = (
+/obj/item/storage/box/khlibnyz,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
 "Hl" = (
 /obj/structure/bed/stool/chair/padded/brown{
 	dir = 1
@@ -2641,6 +2836,12 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/exoplanet/adhomai)
+"HN" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/pra_base)
 "HQ" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -2775,10 +2976,18 @@
 /obj/structure/table/rack/clothing{
 	dir = 4
 	},
-/obj/item/clothing/suit/hazmat/anomaly,
-/obj/item/clothing/suit/hazmat/anomaly,
-/obj/item/clothing/head/hazmat/anomaly,
-/obj/item/clothing/head/hazmat/anomaly,
+/obj/item/clothing/suit/hazmat/anomaly{
+	name = "HES-02 environmental bodysuit"
+	},
+/obj/item/clothing/suit/hazmat/anomaly{
+	name = "HES-02 environmental bodysuit"
+	},
+/obj/item/clothing/head/hazmat/anomaly{
+	name = "HES-02 environmental bodysuit hood"
+	},
+/obj/item/clothing/head/hazmat/anomaly{
+	name = "HES-02 environmental bodysuit hood"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
 "IG" = (
@@ -2886,6 +3095,9 @@
 /area/pra_base)
 "Kb" = (
 /obj/structure/table/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "Kc" = (
@@ -2894,12 +3106,29 @@
 	},
 /turf/simulated/floor/asphalt,
 /area/pra_base)
+"Kd" = (
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -21;
+	name = "sink"
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
 "Ke" = (
 /obj/structure/sign/flag/pra{
 	pixel_y = 32
 	},
 /turf/simulated/floor/exoplanet/roofing_tiles,
 /area/exoplanet/adhomai)
+"Kf" = (
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 9
+	},
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/pra_base)
 "Kp" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -2955,6 +3184,10 @@
 	},
 /turf/simulated/floor/exoplanet/asphalt,
 /area/exoplanet/adhomai)
+"KR" = (
+/obj/effect/floor_decal/corner_wide/red,
+/turf/simulated/floor/tiled/dark,
+/area/pra_base)
 "KT" = (
 /obj/effect/floor_decal/corner_wide/red/full{
 	dir = 1
@@ -2988,10 +3221,8 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
 "Ln" = (
-/obj/effect/floor_decal/corner_wide/dark_blue{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "Lp" = (
 /obj/effect/decal/curb{
@@ -3032,6 +3263,13 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/exoplanet/adhomai)
+"LH" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 5
+	},
+/obj/structure/bed/roller,
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
 "LM" = (
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
@@ -3047,6 +3285,17 @@
 	},
 /turf/simulated/abyss,
 /area/pra_base)
+"LU" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = 32
+	},
+/obj/structure/sign/flag/pra{
+	pixel_y = -32;
+	pixel_x = -32
+	},
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
 "LZ" = (
 /obj/structure/sign/flag/pra{
 	pixel_y = -32;
@@ -3198,6 +3447,10 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/exoplanet/adhomai)
+"NM" = (
+/obj/item/storage/box/hrozamal_soda,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
 "NN" = (
 /obj/effect/decal/exterior_stairs/half/center{
 	dir = 4
@@ -3231,7 +3484,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
 "NV" = (
-/obj/effect/floor_decal/corner_wide/dark_blue/full,
 /obj/structure/machinery/bodyscanner{
 	dir = 4
 	},
@@ -3241,10 +3493,11 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
 "Ob" = (
-/obj/structure/machinery/r_n_d/fabricator/mecha_part_fabricator{
-	req_access = list(/datum/access/pra)
+/obj/structure/table/reinforced/steel,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/carpet/rubber,
 /area/pra_base)
 "Op" = (
 /obj/item/storage/box/unique/tea/rasnif,
@@ -3352,6 +3605,13 @@
 /obj/item/reagent_containers/food/drinks/waterbottle/large,
 /turf/simulated/floor/tiled/freezer/cold,
 /area/pra_base)
+"PI" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 8
+	},
+/obj/item/storage/box/masks,
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
 "PM" = (
 /obj/structure/platform/column{
 	dir = 8
@@ -3395,6 +3655,7 @@
 /obj/item/stack/material/phoron{
 	amount = 10
 	},
+/obj/structure/crate_shelf,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base)
 "Qb" = (
@@ -3498,10 +3759,11 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
 "Rd" = (
-/obj/structure/machinery/r_n_d/material_silo{
-	req_access = list(/datum/access/pra)
+/obj/structure/table/reinforced/steel,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 5
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/carpet/rubber,
 /area/pra_base)
 "Rg" = (
 /obj/structure/arch/gothic/eastwest/middle,
@@ -3510,6 +3772,13 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/exoplanet/adhomai)
+"Rn" = (
+/obj/effect/floor_decal/spline/plain/white{
+	dir = 8
+	},
+/obj/item/storage/firstaid/large/stab,
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
 "Ro" = (
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/pra,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -3643,6 +3912,12 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
 /area/exoplanet/adhomai)
+"Tp" = (
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/rubber,
+/area/pra_base)
 "Tq" = (
 /obj/structure/platform/metal_alt{
 	dir = 8
@@ -3659,11 +3934,10 @@
 /turf/simulated/floor/exoplanet/permafrost/cold,
 /area/exoplanet/adhomai)
 "Ty" = (
-/obj/structure/machinery/computer/rdconsole/robotics/terminal{
-	dir = 4;
-	req_access = list(/datum/access/pra)
+/obj/structure/machinery/computer/terminal/inactive{
+	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/dark,
 /area/pra_base)
 "TA" = (
 /obj/structure/sign/flag/pra{
@@ -3694,6 +3968,7 @@
 /area/pra_base)
 "TI" = (
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/pra,
+/obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "TL" = (
@@ -3724,10 +3999,14 @@
 	},
 /turf/simulated/floor/tiled/gridded,
 /area/pra_base)
-"Um" = (
-/obj/effect/floor_decal/corner_wide/dark_blue{
-	dir = 9
+"Ul" = (
+/obj/effect/floor_decal/corner_wide/dark_blue/full{
+	dir = 4
 	},
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
+"Um" = (
 /obj/structure/machinery/sleeper{
 	dir = 4
 	},
@@ -3825,6 +4104,12 @@
 /obj/structure/hadii_statue,
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
+"Vk" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base)
 "Vl" = (
 /obj/effect/decal/exterior_stairs/half/left,
 /obj/structure/sign/flag/pra{
@@ -3894,6 +4179,10 @@
 /obj/item/reagent_containers/food/snacks/hardbread_bun,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
+"Wa" = (
+/obj/effect/floor_decal/spline/plain/white,
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
 "Wc" = (
 /obj/structure/platform_deco/metal_alt{
 	dir = 8
@@ -4027,9 +4316,16 @@
 	},
 /turf/simulated/floor/exoplanet/asphalt,
 /area/exoplanet/adhomai)
+"Xa" = (
+/obj/item/storage/box/fancy/vials,
+/turf/simulated/floor/tiled/light/full,
+/area/pra_base)
 "Xb" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/pill/cyanide,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "Xe" = (
@@ -4046,6 +4342,15 @@
 	dir = 6
 	},
 /turf/simulated/open,
+/area/pra_base)
+"Xp" = (
+/obj/structure/sign/flag/pra{
+	pixel_y = 32
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "Xs" = (
 /obj/structure/machinery/turretid/lethal{
@@ -4072,6 +4377,10 @@
 /area/exoplanet/adhomai)
 "Xz" = (
 /turf/simulated/wall/concrete,
+/area/pra_base)
+"XC" = (
+/obj/structure/machinery/iv_drip,
+/turf/simulated/floor/tiled/light/full,
 /area/pra_base)
 "XH" = (
 /obj/structure/bed/stool/chair/padded/brown,
@@ -4173,14 +4482,14 @@
 /obj/item/storage/box/hadii_card,
 /obj/item/storage/box/hadii_manifesto,
 /obj/item/clothing/accessory/tajaran/pra_brooch,
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "YC" = (
-/obj/effect/floor_decal/spline/plain/white,
-/obj/effect/floor_decal/spline/plain/white{
+/obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/light/full,
+/turf/simulated/floor/wood/walnut,
 /area/pra_base)
 "YD" = (
 /obj/structure/track,
@@ -4281,11 +4590,7 @@
 /turf/simulated/floor/exoplanet/permafrost/cold,
 /area/exoplanet/adhomai)
 "Zk" = (
-/obj/effect/floor_decal/corner_wide/dark_blue{
-	dir = 10
-	},
-/obj/structure/table/reinforced/steel,
-/obj/item/clothing/suit/storage/hooded/tajaran/surgery,
+/obj/structure/closet/secure_closet/medical/offship/anaesthetic,
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
 "Zm" = (
@@ -4309,6 +4614,13 @@
 /obj/structure/arch/gothic/eastwest/left,
 /turf/simulated/floor/exoplanet/permafrost/cold,
 /area/exoplanet/adhomai)
+"Zx" = (
+/obj/effect/floor_decal/corner_wide/dark_blue{
+	dir = 6
+	},
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/tiled/white,
+/area/pra_base)
 "Zy" = (
 /obj/effect/floor_decal/corner_wide/red{
 	dir = 8
@@ -17033,7 +17345,7 @@ Xz
 Br
 Xz
 Zy
-TL
+Kf
 TL
 Np
 Xz
@@ -17739,8 +18051,8 @@ Yb
 UX
 Hm
 wb
-wb
-UX
+pP
+Bq
 UX
 UX
 cD
@@ -17837,9 +18149,9 @@ UX
 Hm
 wb
 wb
-wb
-LM
-UF
+Bq
+oK
+Cl
 cD
 vi
 vi
@@ -17932,11 +18244,11 @@ pS
 XR
 UX
 KT
+cy
+ed
+Ty
 oK
-cy
-cy
-TE
-UF
+eW
 cD
 vi
 vi
@@ -18029,9 +18341,9 @@ rq
 Pv
 UX
 UX
-vn
-bM
-vn
+oK
+oR
+oK
 UX
 UX
 cD
@@ -18417,9 +18729,9 @@ EM
 eT
 UX
 UX
-vn
-bM
-vn
+oK
+oR
+oK
 UX
 UX
 cD
@@ -18463,20 +18775,20 @@ UX
 UX
 UX
 fY
-na
-na
-na
-na
+Gl
+bS
+bS
+bS
 pf
 fY
 fY
-dr
-na
-na
-na
-na
-na
-na
+Xp
+bS
+bS
+bS
+bS
+bS
+bS
 kS
 fY
 pN
@@ -18514,11 +18826,11 @@ pS
 XR
 UX
 gh
-ed
 YL
-YL
-ky
-UF
+ar
+Ty
+oK
+Cl
 cD
 vi
 vi
@@ -18566,15 +18878,15 @@ na
 na
 Yv
 fY
-we
-na
+sZ
+cw
 ZQ
 ZQ
 ZQ
 ZQ
 ZQ
 ZQ
-na
+Ln
 vn
 Jr
 vF
@@ -18588,7 +18900,7 @@ NW
 NW
 Xz
 nU
-Qb
+Kd
 Bj
 Xz
 NW
@@ -18613,9 +18925,9 @@ UX
 Hm
 wb
 wb
-wb
-Dc
-UF
+Bq
+oK
+eW
 cD
 vi
 vi
@@ -18659,9 +18971,9 @@ UX
 fY
 th
 Xb
-na
-na
-na
+BA
+YC
+Ln
 fY
 we
 if
@@ -18671,7 +18983,7 @@ ZQ
 ZQ
 bO
 yp
-na
+Ln
 fY
 xi
 vF
@@ -18685,9 +18997,9 @@ Xz
 Xz
 Xz
 rs
-cw
-IJ
-Xz
+CI
+dB
+CA
 NW
 vi
 pS
@@ -18709,8 +19021,8 @@ Yb
 UX
 Hm
 wb
-wb
-UX
+pP
+Bq
 UX
 UX
 cD
@@ -18757,8 +19069,8 @@ fY
 fY
 fY
 fY
-na
-na
+mG
+Ln
 fY
 fY
 ws
@@ -18768,7 +19080,7 @@ Hl
 ZQ
 mg
 mg
-na
+Ln
 fK
 xi
 vF
@@ -18776,15 +19088,15 @@ bU
 Go
 NW
 Xz
-QN
-Qb
+CI
+CI
 Um
 NV
 Xz
 gu
-YC
+CI
 Zk
-Xz
+mc
 NW
 vi
 rq
@@ -18806,7 +19118,7 @@ gh
 YL
 xj
 wb
-TB
+KR
 UX
 UX
 Cl
@@ -18854,10 +19166,10 @@ fY
 yB
 yB
 fY
-na
-na
+mG
+Ln
 fY
-we
+sZ
 nY
 ZQ
 nu
@@ -18865,7 +19177,7 @@ ZQ
 ZQ
 SI
 Mi
-na
+Ln
 fY
 xi
 vF
@@ -18873,14 +19185,14 @@ bU
 Go
 NW
 Xz
-rC
 CI
-fH
+CI
+CI
 mF
-Qb
-Ln
-YC
-Bu
+Xz
+Xz
+Yb
+Xz
 Xz
 NW
 vi
@@ -18951,18 +19263,18 @@ fY
 yB
 yB
 DQ
-na
-na
+mG
+Ln
 fY
 we
-na
+YC
 ZQ
 hK
 Wk
 ZQ
 Gz
 ZQ
-na
+Ln
 vn
 QF
 vF
@@ -18970,14 +19282,14 @@ bU
 Go
 NW
 Xz
-rC
-mG
-yC
-Az
-Az
-Az
-bS
-Bu
+QN
+dD
+wO
+eb
+mt
+ke
+Qb
+bw
 Xz
 NW
 vi
@@ -19048,8 +19360,8 @@ fY
 yB
 yB
 fY
-na
-na
+mG
+Ln
 fY
 fY
 dr
@@ -19058,8 +19370,8 @@ hs
 sR
 na
 TI
-na
-na
+BA
+Vk
 fY
 xN
 OF
@@ -19069,11 +19381,11 @@ NW
 Xz
 rC
 bP
-iw
-iw
-iw
-iw
-pj
+yC
+Rn
+Az
+PI
+fH
 Bu
 Xz
 NW
@@ -19145,13 +19457,13 @@ fY
 yB
 yB
 fY
-kS
-na
+EE
+rV
 aH
 yX
-na
-na
-na
+kV
+BA
+BA
 EP
 Kb
 eY
@@ -19164,13 +19476,13 @@ vD
 Go
 NW
 Xz
-gt
+rC
 vP
+XC
 fB
-vP
-fB
-AR
-AR
+Xa
+xX
+Wa
 rN
 Xz
 NW
@@ -19261,21 +19573,21 @@ gU
 Go
 NW
 Xz
-Xz
-Xz
-Xz
-Xz
-Xz
-Xz
-Xz
-Xz
+rC
+LH
+jL
+iw
+pJ
+Be
+pj
+IJ
 Xz
 NW
 vi
 NW
 Xz
 PX
-UF
+jd
 UF
 yi
 jE
@@ -19356,22 +19668,22 @@ NW
 bU
 wC
 Go
-jS
 NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
+Xz
+gt
+AR
+AR
+AR
+AR
+Zx
+Zx
+Ul
+Xz
 NW
 vi
 NW
 Xz
-Ty
+UF
 UF
 UF
 yi
@@ -19454,23 +19766,23 @@ bU
 gU
 Go
 NW
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+Xz
+NW
 vi
 NW
 Xz
 hf
-UF
-UF
+FE
+re
 yi
 jE
 um
@@ -19550,7 +19862,7 @@ Lm
 LG
 hT
 Jd
-LZ
+LU
 NW
 NW
 NW
@@ -19566,8 +19878,8 @@ vi
 NW
 Xz
 mZ
-UF
-UF
+HN
+DU
 yi
 Ys
 bc
@@ -19663,8 +19975,8 @@ vi
 NW
 Xz
 Ob
-UF
-UF
+Tp
+lF
 yi
 uu
 vY
@@ -19760,8 +20072,8 @@ vi
 NW
 Xz
 Rd
-bM
-bM
+sb
+az
 Iv
 ds
 Iv
@@ -19813,7 +20125,7 @@ dp
 vi
 iN
 qS
-vi
+NM
 qL
 bl
 uG
@@ -19910,7 +20222,7 @@ lf
 vi
 KV
 wx
-vi
+Hi
 vi
 ON
 vi

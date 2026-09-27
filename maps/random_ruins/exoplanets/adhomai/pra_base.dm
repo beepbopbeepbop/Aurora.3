@@ -86,10 +86,11 @@
 
 	id = /obj/item/card/id
 
-	backpack = /obj/item/storage/backpack/satchel/leather
+	backpack = /obj/item/storage/backpack/rucksack/green
 	backpack_contents = list(
-						/obj/item/clothing/accessory/badge/pra_passport
-						)
+		/obj/item/storage/firstaid/light/offship,
+		/obj/item/clothing/accessory/badge/pra_passport
+	)
 
 /obj/outfit/admin/pra_base/get_id_access()
 	return list(/datum/access/pra::id)
@@ -146,11 +147,12 @@
 
 	id = /obj/item/card/id
 
-	backpack = /obj/item/storage/backpack/satchel/leather
+	backpack = /obj/item/storage/backpack/rucksack/green
 	backpack_contents = list(
-						/obj/item/clothing/accessory/badge/hadii_card,
-						/obj/item/clothing/accessory/badge/pra_passport
-						)
+		/obj/item/storage/firstaid/light/offship,
+		/obj/item/clothing/accessory/badge/hadii_card,
+		/obj/item/clothing/accessory/badge/pra_passport
+	)
 // -------------
 
 // Officer
@@ -205,9 +207,10 @@
 
 	backpack = /obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
-						/obj/item/clothing/accessory/badge/hadii_card,
-						/obj/item/clothing/accessory/badge/pra_passport
-						)
+		/obj/item/storage/firstaid/light/offship,
+		/obj/item/clothing/accessory/badge/hadii_card,
+		/obj/item/clothing/accessory/badge/pra_passport
+	)
 // -------------
 
 // Commissar
@@ -262,7 +265,8 @@
 
 	backpack = /obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
-						/obj/item/clothing/accessory/badge/hadii_card/member,
-						/obj/item/clothing/accessory/badge/pra_passport
-						)
+		/obj/item/storage/firstaid/light/offship,
+		/obj/item/clothing/accessory/badge/hadii_card/member,
+		/obj/item/clothing/accessory/badge/pra_passport
+	)
 // -------------

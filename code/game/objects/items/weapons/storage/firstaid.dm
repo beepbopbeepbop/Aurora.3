@@ -299,3 +299,23 @@
 		/obj/item/reagent_containers/hypospray/autoinjector,
 		/obj/item/stack/medical/bruise_pack
 	)
+
+/obj/item/storage/firstaid/light/offship // Intended for planetary ghostspawns, which lack easy access to medical facilities
+	storage_slots = 7
+	starts_with = list(
+		/obj/item/reagent_containers/hypospray/autoinjector/pouch_auto/inaprovaline,
+		/obj/item/reagent_containers/hypospray/autoinjector/pouch_auto/adrenaline,
+		/obj/item/reagent_containers/hypospray/autoinjector/pouch_auto/mortaphenyl,
+		/obj/item/reagent_containers/syringe/antibiotic,
+		/obj/item/stack/medical/bruise_pack,
+		/obj/item/stack/medical/ointment,
+		/obj/item/stack/medical/splint,
+	)
+	can_hold = list(
+		/obj/item/clothing/gloves/latex,
+		/obj/item/reagent_containers/syringe,
+		/obj/item/reagent_containers/hypospray/autoinjector,
+		/obj/item/reagent_containers/inhaler,
+		/obj/item/reagent_containers/pill,
+		/obj/item/stack/medical
+	)
