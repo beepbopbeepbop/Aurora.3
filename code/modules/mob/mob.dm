@@ -36,8 +36,6 @@
 	QDEL_NULL(radio_use_icon)
 	QDEL_NULL(gun_move_icon)
 	QDEL_NULL(gun_setting_icon)
-	QDEL_NULL(unique_action_icon)
-	QDEL_NULL(toggle_firing_mode)
 	QDEL_NULL(energy_display)
 	QDEL_NULL(instability_display)
 	QDEL_NULL(up_hint)
@@ -804,7 +802,7 @@
 
 /mob/proc/start_pulling(var/atom/movable/AM)
 
-	if ( !AM || !usr || src==AM || !isturf(src.loc) )	//if there's no person pulling OR the person is pulling themself OR the object being pulled is inside something: abort!
+	if(!AM || !usr || src == AM || !isturf(src.loc) || !isturf(AM.loc)) // If the puller or target is inside something, abort.
 		return
 
 	if (AM.anchored)
@@ -821,13 +819,17 @@
 			to_chat(src, SPAN_WARNING("It won't budge!"))
 			return
 
-		if((mob_size < M.mob_size) && (can_pull_mobs != MOB_PULL_LARGER))
-			to_chat(src, SPAN_WARNING("It won't budge!"))
-			return
+		// Humanoids use mass and lift capacity for pulling; their load penalty is
+		// applied while moving. Preserve the legacy size categories for mobs
+		// without the player-character Conditioning system.
+		if(!ishuman(src))
+			if((mob_size < M.mob_size) && (can_pull_mobs != MOB_PULL_LARGER))
+				to_chat(src, SPAN_WARNING("It won't budge!"))
+				return
 
-		if((mob_size == M.mob_size) && (can_pull_mobs == MOB_PULL_SMALLER))
-			to_chat(src, SPAN_WARNING("It won't budge!"))
-			return
+			if((mob_size == M.mob_size) && (can_pull_mobs == MOB_PULL_SMALLER))
+				to_chat(src, SPAN_WARNING("It won't budge!"))
+				return
 
 		if(length(M.grabbed_by))
 			to_chat(src, SPAN_WARNING("You can't pull someone being held in a grab!"))
@@ -849,7 +851,7 @@
 
 	else if(isobj(AM))
 		var/obj/I = AM
-		if(!can_pull_size || can_pull_size < I.w_class)
+		if(!can_pull_size || (!ishuman(src) && can_pull_size < I.w_class))
 			to_chat(src, SPAN_WARNING("It won't budge!"))
 			return
 
@@ -1587,6 +1589,8 @@
 	var/speedies = 0
 	for(var/obj/item/thing in get_equipped_speed_mod_items())
 		speedies += (thing.slowdown + thing.slowdown_accessory)
+		if(thing.mass_based_slowdown)
+			speedies += thing.get_effective_mass() / get_lift_capacity()
 
 	if(speedies)
 		add_or_update_variable_movespeed_modifier(
