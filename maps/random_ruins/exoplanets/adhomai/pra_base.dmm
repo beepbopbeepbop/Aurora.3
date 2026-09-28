@@ -357,6 +357,10 @@
 /obj/item/clothing/gloves/fingerless,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
+"es" = (
+/obj/structure/machinery/atmospherics/unary/vent_pump/high_volume,
+/turf/simulated/floor/plating,
+/area/exoplanet/adhomai)
 "ey" = (
 /obj/effect/decal/road_marking{
 	dir = 1
@@ -785,6 +789,12 @@
 /obj/item/storage/box/tactical/napalm,
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
+"jG" = (
+/obj/structure/machinery/atmospherics/portables_connector/supply{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/exoplanet/adhomai)
 "jL" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 4
@@ -920,6 +930,10 @@
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"lo" = (
+/obj/structure/machinery/computer/ship/sensors/terminal,
+/turf/simulated/floor/tiled/dark,
 /area/exoplanet/adhomai)
 "lp" = (
 /obj/item/reagent_containers/food/snacks/spicy_clams,
@@ -1107,6 +1121,10 @@
 /obj/structure/chainlink_fence,
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/exoplanet/adhomai)
+"nq" = (
+/obj/structure/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/dark/full,
+/area/exoplanet/adhomai)
 "nu" = (
 /obj/structure/table/reinforced/wood,
 /obj/item/flashlight/lamp/green{
@@ -1178,6 +1196,12 @@
 /obj/effect/floor_decal/industrial/warning/full,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base)
+"oy" = (
+/obj/effect/floor_decal/industrial/hatch_door/red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/exoplanet/adhomai)
 "oA" = (
 /obj/structure/platform/rock/icy{
 	dir = 4
@@ -1494,6 +1518,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
+"rE" = (
+/obj/effect/floor_decal/industrial/hatch_door/yellow,
+/turf/simulated/floor/tiled/dark/full,
+/area/exoplanet/adhomai)
 "rK" = (
 /obj/structure/bed/padded,
 /obj/structure/bed/padded/bunk,
@@ -1554,6 +1582,9 @@
 	dir = 4
 	},
 /turf/simulated/floor/exoplanet/asphalt,
+/area/exoplanet/adhomai)
+"sw" = (
+/turf/simulated/floor/tiled/dark/full,
 /area/exoplanet/adhomai)
 "sC" = (
 /obj/item/reagent_containers/food/drinks/drinkingglass/newglass/coffeecup/metal,
@@ -1849,6 +1880,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base)
+"wp" = (
+/obj/structure/machinery/atmospherics/unary/outlet_injector,
+/turf/simulated/floor/reinforced,
+/area/exoplanet/adhomai)
 "ws" = (
 /obj/effect/decal/curb,
 /obj/structure/bonfire/fireplace{
@@ -2163,6 +2198,10 @@
 /obj/item/reagent_containers/food/snacks/soup/earthenroot,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
+"zi" = (
+/obj/structure/bed/stool/chair/shuttle,
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
 "zk" = (
 /turf/simulated/floor/tiled/bitile/middle{
 	dir = 4
@@ -2368,10 +2407,20 @@
 	dir = 8
 	},
 /area/pra_base)
+"Cy" = (
+/obj/structure/machinery/computer/ship/helm/terminal,
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
 "CA" = (
 /obj/structure/closet/crate/freezer/offship/taj,
 /turf/simulated/wall/concrete,
 /area/pra_base)
+"CF" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
 "CG" = (
 /obj/structure/platform/engineer,
 /obj/structure/platform/engineer{
@@ -2379,9 +2428,16 @@
 	},
 /turf/simulated/abyss,
 /area/pra_base)
+"CH" = (
+/turf/simulated/wall/shuttle/raider,
+/area/exoplanet/adhomai)
 "CI" = (
 /turf/simulated/floor/tiled/white,
 /area/pra_base)
+"CJ" = (
+/obj/structure/machinery/atmospherics/unary/engine,
+/turf/simulated/floor/reinforced,
+/area/exoplanet/adhomai)
 "CL" = (
 /obj/structure/rod_railing{
 	dir = 4
@@ -2542,6 +2598,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
+"EH" = (
+/obj/structure/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/dark/full,
+/area/exoplanet/adhomai)
 "EJ" = (
 /obj/item/storage/pill_bottle/caffeine,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -2625,6 +2685,9 @@
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Fl" = (
+/turf/simulated/floor/plating,
 /area/exoplanet/adhomai)
 "Fo" = (
 /obj/effect/floor_decal/snowrocks,
@@ -2728,6 +2791,12 @@
 "Gr" = (
 /obj/item/clothing/accessory/tajaran/charm/twin_suns,
 /turf/simulated/floor/exoplanet/snow/cold,
+/area/exoplanet/adhomai)
+"Gs" = (
+/obj/structure/machinery/atmospherics/portables_connector/aux{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
 /area/exoplanet/adhomai)
 "Gt" = (
 /obj/structure/sign/flag/pra{
@@ -3154,6 +3223,12 @@
 	},
 /turf/simulated/floor/exoplanet/asphalt,
 /area/exoplanet/adhomai)
+"Ky" = (
+/obj/structure/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/exoplanet/adhomai)
 "KB" = (
 /obj/structure/decor/suspension_bar{
 	dir = 4
@@ -3346,6 +3421,10 @@
 	pixel_x = 32
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/exoplanet/adhomai)
+"Ms" = (
+/obj/structure/machinery/atmospherics/unary/vent_pump/high_volume/aux,
+/turf/simulated/floor/plating,
 /area/exoplanet/adhomai)
 "Mu" = (
 /obj/structure/flora/grass/green,
@@ -3726,6 +3805,10 @@
 /obj/structure/urban_grate,
 /turf/simulated/floor/exoplanet/roofing_tiles,
 /area/exoplanet/adhomai)
+"QH" = (
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
 "QN" = (
 /obj/effect/floor_decal/corner_wide/dark_blue/full{
 	dir = 8
@@ -3748,6 +3831,10 @@
 /obj/structure/rod_railing/jailbar,
 /turf/simulated/floor/tiled/steel,
 /area/pra_base)
+"Ra" = (
+/obj/structure/machinery/computer/ship/engines/terminal,
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
 "Rb" = (
 /obj/structure/platform_deco/metal_alt{
 	dir = 4
@@ -3860,6 +3947,10 @@
 /obj/structure/rod_railing/jailbar,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
+"Sw" = (
+/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide,
+/turf/simulated/floor/plating,
+/area/exoplanet/adhomai)
 "Sy" = (
 /obj/structure/platform_deco/metal_alt{
 	dir = 8
@@ -3897,6 +3988,10 @@
 "Td" = (
 /turf/simulated/floor/tiled/bitile,
 /area/pra_base)
+"Tf" = (
+/obj/structure/machinery/atmospherics/pipe/tank/air,
+/turf/simulated/floor/plating,
+/area/exoplanet/adhomai)
 "Tn" = (
 /obj/structure/platform_deco/metal_alt{
 	dir = 8
@@ -4260,6 +4355,13 @@
 	},
 /turf/simulated/floor/exoplanet/mineral/cave/adhomai,
 /area/exoplanet/adhomai)
+"WC" = (
+/obj/effect/floor_decal/industrial/hatch_door/yellow{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/simulated/floor/tiled/dark/full,
+/area/exoplanet/adhomai)
 "WE" = (
 /obj/item/reagent_containers/food/drinks/bottle/victorygin,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -4541,6 +4643,17 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base)
+"YT" = (
+/obj/structure/bed/stool/chair/shuttle/double{
+	dir = 1;
+	pixel_x = -8
+	},
+/obj/structure/bed/stool/chair/shuttle/double{
+	dir = 1;
+	pixel_x = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/exoplanet/adhomai)
 "YU" = (
 /obj/structure/platform/column,
 /turf/simulated/floor/exoplanet/asphalt,
@@ -4589,6 +4702,9 @@
 	},
 /turf/simulated/floor/exoplanet/permafrost/cold,
 /area/exoplanet/adhomai)
+"Zj" = (
+/turf/simulated/floor/reinforced,
+/area/exoplanet/adhomai)
 "Zk" = (
 /obj/structure/closet/secure_closet/medical/offship/anaesthetic,
 /turf/simulated/floor/tiled/white,
@@ -4613,6 +4729,10 @@
 	},
 /obj/structure/arch/gothic/eastwest/left,
 /turf/simulated/floor/exoplanet/permafrost/cold,
+/area/exoplanet/adhomai)
+"Zv" = (
+/obj/effect/floor_decal/industrial/hatch_door/red,
+/turf/simulated/floor/tiled/dark/full,
 /area/exoplanet/adhomai)
 "Zx" = (
 /obj/effect/floor_decal/corner_wide/dark_blue{
@@ -14994,18 +15114,18 @@ vi
 aJ
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-TZ
-vi
-vi
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
 vi
 NW
 ZT
@@ -15091,18 +15211,18 @@ vi
 vi
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+Sr
+ab
+JK
+JK
+JK
+JK
+JK
+JK
+JK
+JK
+FX
+Sr
 vi
 NW
 ZT
@@ -15188,18 +15308,18 @@ dy
 vi
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-aJ
-vi
-vi
-vi
-vi
-vi
+Sr
+Jw
+YZ
+WA
+oA
+xb
+xb
+WG
+WG
+WV
+zH
+Sr
 vi
 NW
 ZT
@@ -15285,18 +15405,18 @@ vi
 vi
 vi
 vi
-vi
-vi
-TZ
-vi
-vi
-vi
-vi
-vi
-vi
-Or
-vi
-vi
+Sr
+Jw
+ho
+Mv
+ZB
+Hr
+rz
+WG
+GM
+vb
+zH
+Sr
 vi
 NW
 ZT
@@ -15382,18 +15502,18 @@ vi
 vi
 vi
 vi
-Fo
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+Sr
+Jw
+rz
+Hr
+rz
+Hr
+rz
+WG
+WG
+Nn
+zH
+Sr
 vi
 NW
 ZT
@@ -15479,18 +15599,18 @@ vi
 vi
 vi
 vi
-vi
-vi
-vi
-vi
-dy
-vi
-vi
-Fo
-vi
-vi
-vi
-vi
+Sr
+Jw
+bx
+bx
+bx
+bx
+bx
+WG
+WG
+WG
+zH
+Sr
 vi
 NW
 ZT
@@ -15576,18 +15696,18 @@ vi
 vi
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+Sr
+pY
+oi
+oi
+oi
+oi
+oi
+oi
+oi
+oi
+rw
+Sr
 vi
 NW
 ZT
@@ -15673,18 +15793,18 @@ vi
 Or
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-aJ
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
+Sr
 vi
 NW
 ZT
@@ -15996,15 +16116,15 @@ vi
 Sr
 Sr
 vi
-Sr
 vi
 vi
 vi
 vi
 vi
-vi
-vi
-vi
+CH
+Zv
+Zv
+CH
 vi
 vi
 vi
@@ -16093,20 +16213,20 @@ vi
 vi
 vi
 vi
+CH
+CH
+CH
+CH
+CH
+CH
+Ms
+Ms
+CH
+Zj
 vi
 vi
 vi
 vi
-dy
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-dy
 vi
 vi
 NW
@@ -16189,23 +16309,23 @@ vi
 vi
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-Fo
-vi
-vi
-vi
-vi
-vi
-vi
+Zj
+CJ
+CH
+Sw
+Fl
+Ky
+CH
+rE
+rE
+CH
+CH
+CH
+Zj
+CH
+Zj
+Zj
+Zj
 NW
 UX
 UX
@@ -16286,23 +16406,23 @@ vi
 vi
 vi
 vi
-vi
-vi
-aJ
-vi
-vi
-vi
-vi
-aJ
-vi
-vi
-vi
-vi
-vi
-vi
-TZ
-vi
-vi
+wp
+CJ
+CH
+Sw
+Fl
+Fl
+Fl
+CO
+CO
+CO
+QH
+CH
+sw
+CH
+sw
+CH
+Zj
 NW
 UX
 UX
@@ -16383,23 +16503,23 @@ vi
 aJ
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+CH
+CH
+CH
+CH
+CO
+CO
+CO
+CO
+CO
+CO
+YT
+CH
+Ra
+QH
+QH
+sw
+Zj
 NW
 UX
 UX
@@ -16480,23 +16600,23 @@ vi
 vi
 vi
 vi
-vi
-Or
-vi
-vi
-vi
-Fo
-vi
-vi
-vi
-vi
-vi
-aJ
-vi
-vi
-vi
-vi
-vi
+oy
+es
+Ms
+WC
+CO
+EH
+sw
+sw
+nq
+CO
+YT
+WC
+CO
+zi
+lo
+sw
+Zj
 NW
 UX
 tc
@@ -16577,23 +16697,23 @@ NW
 vi
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-Or
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+oy
+Ms
+Fl
+WC
+CO
+Fl
+Fl
+Fl
+Fl
+CO
+YT
+CH
+CO
+CO
+CO
+CH
+Zj
 NW
 UX
 Sr
@@ -16674,23 +16794,23 @@ NW
 vi
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-mN
-vi
-vi
-vi
-vi
-vi
-vi
-dy
-vi
-Fo
-vi
+oy
+es
+Ms
+WC
+CO
+sw
+sw
+sw
+sw
+CO
+CF
+WC
+CO
+zi
+Cy
+sw
+Zj
 NW
 UX
 Sr
@@ -16771,23 +16891,23 @@ NW
 vi
 vi
 TZ
-vi
-vi
-Fo
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-Fo
-vi
-vi
-vi
-vi
-vi
-vi
+CH
+CH
+CH
+CH
+CO
+CO
+CO
+CO
+CO
+CO
+Zj
+CH
+CO
+QH
+QH
+sw
+Zj
 NW
 UX
 Sr
@@ -16868,23 +16988,23 @@ NW
 vi
 vi
 vi
-vi
-vi
-aJ
-vi
-vi
-vi
-dy
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+Zj
+CJ
+CH
+Tf
+Fl
+Gs
+Gs
+CO
+CO
+Zj
+Zj
+CH
+sw
+CH
+sw
+CH
+Zj
 NW
 UX
 Sr
@@ -16965,23 +17085,23 @@ NW
 vi
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-aJ
-vi
-vi
-vi
-vi
+Zj
+CJ
+CH
+Tf
+Fl
+jG
+CH
+rE
+rE
+CH
+CH
+CH
+Zj
+CH
+Zj
+Zj
+Zj
 NW
 UX
 Sr
@@ -17063,16 +17183,16 @@ vi
 vi
 vi
 vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+CH
+CH
+CH
+CH
+CH
+CH
+Ms
+Ms
+CH
+Zj
 vi
 vi
 vi
@@ -17159,22 +17279,22 @@ NW
 vi
 vi
 vi
-mN
-vi
-vi
-Sr
-Sr
-vi
-Sr
-Sr
 vi
 vi
 vi
+vi
+vi
+vi
+CH
+Zv
+Zv
+CH
 vi
 vi
 vi
 vi
 Fo
+vi
 vi
 NW
 UX
@@ -17259,14 +17379,14 @@ vi
 vi
 vi
 vi
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
 Sr
 vi
@@ -17354,16 +17474,16 @@ NW
 NW
 NW
 NW
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
 Sr
 Sr
@@ -17451,16 +17571,16 @@ EO
 hr
 Xz
 NW
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
 Sr
 Sr
@@ -17548,17 +17668,17 @@ bR
 LM
 Xz
 NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
-ab
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-JK
-FX
 Sr
 NW
 NW
@@ -17645,17 +17765,17 @@ LM
 LM
 Xz
 NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
-Jw
-YZ
-WA
-oA
-xb
-xb
-WG
-WG
-WV
-zH
 Sr
 NW
 UX
@@ -17742,17 +17862,17 @@ LM
 uJ
 Xz
 NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
-Jw
-ho
-Mv
-ZB
-Hr
-rz
-WG
-GM
-vb
-zH
 Sr
 NW
 UX
@@ -17839,17 +17959,17 @@ VR
 wK
 Xz
 NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
-Jw
-rz
-Hr
-rz
-Hr
-rz
-WG
-WG
-Nn
-zH
 Sr
 NW
 UX
@@ -17936,17 +18056,17 @@ LM
 jF
 Xz
 NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
-Jw
-bx
-bx
-bx
-bx
-bx
-WG
-WG
-WG
-zH
 Sr
 NW
 UX
@@ -18033,17 +18153,17 @@ LM
 LM
 Xz
 NW
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
-pY
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-oi
-rw
 Sr
 NW
 UX
@@ -18130,16 +18250,16 @@ Qw
 lY
 Xz
 NW
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
 Sr
 jS
@@ -18227,16 +18347,16 @@ Xz
 Xz
 Xz
 NW
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-Sr
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
+vi
 Sr
 Sr
 Sr
