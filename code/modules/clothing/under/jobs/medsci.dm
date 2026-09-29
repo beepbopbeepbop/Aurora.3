@@ -245,6 +245,11 @@
 	item_state = "nt_surgeon"
 	contained_sprite = TRUE
 
+/obj/item/clothing/under/rank/medical/surgeon/generic
+	icon_state = "generic_scrubs"
+	item_state = "generic_scrubs"
+	has_accents = TRUE
+
 /obj/item/clothing/under/rank/medical/surgeon/zeng
 	icon_state = "zeng_surgeon"
 	item_state = "zeng_surgeon"

@@ -346,6 +346,13 @@
 /obj/structure/bed/padded/New(var/newloc)
 	..(newloc, MATERIAL_PLASTIC, MATERIAL_CLOTH)
 
+/obj/structure/bed/padded/dog
+	name = "dog bed"
+	desc = "A small bed designed for a canine-sized pet to sleep in."
+	icon = 'icons/obj/furniture.dmi'
+	icon_state = "dogbed"
+	base_icon = "dogbed"
+
 /obj/structure/bed/padded/bunk
 	pixel_y = 16
 	var/sleeby_shift = 16

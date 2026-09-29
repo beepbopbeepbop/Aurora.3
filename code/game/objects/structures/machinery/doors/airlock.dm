@@ -366,14 +366,14 @@
 /obj/structure/machinery/door/airlock/security
 	icon_state = "sec"
 	paintable = AIRLOCK_PAINTABLE_MAIN | AIRLOCK_PAINTABLE_STRIPE
-	door_color = "#2b4b68"
-	stripe_color = "#ff4343"
+	door_color = COLOR_SEC_BLUE
+	stripe_color = COLOR_SEC_RED
 
 /obj/structure/machinery/door/airlock/security/gold
 	icon_state = "sec"
 	paintable = AIRLOCK_PAINTABLE_MAIN | AIRLOCK_PAINTABLE_STRIPE
-	door_color = "#2b4b68"
-	stripe_color = "#ffc443"
+	door_color = COLOR_SEC_BLUE
+	stripe_color = COLOR_SEC_GOLD
 
 /obj/structure/machinery/door/airlock/engineering
 	icon_state = "eng"

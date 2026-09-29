@@ -118,6 +118,10 @@
 
 #define COLOR_CONCRETE 		   "#676661"
 
+#define COLOR_SEC_BLUE		   "#2b4b68"
+#define COLOR_SEC_RED		   "#ff4343"
+#define COLOR_SEC_GOLD		   "#ffc443"
+
 // Blood colors
 #define COLOR_HUMAN_BLOOD      "#A10808"
 /// for robots with black oil "blood"

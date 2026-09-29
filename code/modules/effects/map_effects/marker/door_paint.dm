@@ -105,6 +105,9 @@
 /obj/effect/map_effect/marker/door_paint/fill/grey
 	color = COLOR_GRAY
 
+/obj/effect/map_effect/marker/door_paint/fill/sec_blue
+	color = COLOR_SEC_BLUE
+
 // ----------------------------------- color stripe subtypes
 
 /obj/effect/map_effect/marker/door_paint/stripe/gold
@@ -160,6 +163,12 @@
 
 /obj/effect/map_effect/marker/door_paint/stripe/grey
 	color = COLOR_GRAY
+
+/obj/effect/map_effect/marker/door_paint/stripe/sec_red
+	color = COLOR_SEC_RED
+
+/obj/effect/map_effect/marker/door_paint/stripe/sec_gold
+	color = COLOR_SEC_GOLD
 
 // ----------------------------------- color frame subtypes
 
