@@ -105,6 +105,9 @@
 /obj/effect/map_effect/marker/door_paint/fill/grey
 	color = COLOR_GRAY
 
+/obj/effect/map_effect/marker/door_paint/fill/raider
+	color = /turf/simulated/wall/shuttle/raider::color
+
 // ----------------------------------- color stripe subtypes
 
 /obj/effect/map_effect/marker/door_paint/stripe/gold
@@ -168,5 +171,8 @@
 
 /obj/effect/map_effect/marker/door_paint/frame/brown
 	color = /turf/simulated/wall/shuttle/brown::color
+
+/obj/effect/map_effect/marker/door_paint/frame/raider
+	color = /turf/simulated/wall/shuttle/raider::color
 
 // ----------------------------------- fin

@@ -1,37 +1,3 @@
-/datum/map_template/ruin/exoplanet/pra_base
-	name = "PRA Grand People's Army Strategic Rocket Force, Base 611-5748"
-	id = "pra_base"
-	description = "A military outpost manned by the Grand People's Army."
-
-	spawn_weight = 1.5
-	spawn_cost = 2
-	template_flags = TEMPLATE_FLAG_NO_RUINS|TEMPLATE_FLAG_RUIN_STARTS_DISALLOWED
-	sectors = list(SECTOR_SRANDMARR)
-
-// Not entirely sure if this will work
-	traits = list(
-		//Z1
-		list(ZTRAIT_AWAY = TRUE, ZTRAIT_UP = TRUE, ZTRAIT_DOWN = FALSE),
-		//Z2
-		list(ZTRAIT_AWAY = TRUE, ZTRAIT_UP = FALSE, ZTRAIT_DOWN = TRUE),
-	)
-
-	prefix = "adhomai/"
-	suffix = "pra_base.dmm"
-
-	unit_test_groups = list(1)
-
-/area/pra_base
-	name = "PRA Grand People's Army Strategic Rocket Force, Base 611-5748"
-	icon_state = "bluenew"
-	requires_power = FALSE
-	no_light_control = FALSE
-	base_turf = /turf/simulated/floor/exoplanet/mineral/adhomai
-	area_flags = AREA_FLAG_RAD_SHIELDED
-	area_blurb = "A Hadiist Army outpost. The People's Republic of Adhomai's anthem is blared from the speakers."
-
-//ghost roles
-
 // Trooper
 /datum/ghostspawner/human/pra_base_trooper
 	short_name = "pra_base_trooper"
