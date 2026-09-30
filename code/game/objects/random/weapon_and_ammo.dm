@@ -103,7 +103,7 @@
 		/obj/item/gun/projectile/automatic/terminator = 1,
 		/obj/item/gun/projectile/gyropistol = 1,
 		/obj/item/gun/projectile/nuke = 1,
-		/obj/item/gun/projectile/revolver/mateba = 1
+		/obj/item/gun/projectile/revolver/hammerhead = 1
 		)
 
 /obj/random/weapon_and_ammo/concealable

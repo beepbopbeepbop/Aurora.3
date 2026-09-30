@@ -41,6 +41,10 @@
 	desc = "A portable computer belonging to the chief engineer."
 	_app_preset_type = /datum/modular_computer_app_presets/engineering/ce
 
+/obj/item/modular_computer/laptop/preset/engineering/ce/install_default_hardware()
+	..()
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
+
 // Medical
 /obj/item/modular_computer/laptop/preset/medical
 	name = "medical laptop"
@@ -52,6 +56,10 @@
 	name = "chief medical officer's laptop"
 	desc = "A portable computer belonging to the chief medical officer."
 	_app_preset_type = /datum/modular_computer_app_presets/medical/cmo
+
+/obj/item/modular_computer/laptop/preset/medical/cmo/install_default_hardware()
+	..()
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
 
 // Research
 /obj/item/modular_computer/laptop/preset/research
@@ -70,6 +78,10 @@
 	name = "research director's laptop"
 	desc = "A portable computer belonging to the research director. The edges are stained and partially melted."
 	_app_preset_type = /datum/modular_computer_app_presets/research/rd
+
+/obj/item/modular_computer/laptop/preset/research/rd/install_default_hardware()
+	..()
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
 
 // Command
 /obj/item/modular_computer/laptop/preset/command
@@ -117,6 +129,10 @@
 	desc = "A portable computer belonging to the head of security. It smells faintly of gunpowder."
 	_app_preset_type = /datum/modular_computer_app_presets/security/hos
 
+/obj/item/modular_computer/laptop/preset/security/hos/install_default_hardware()
+	..()
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
+
 // Civilian
 /obj/item/modular_computer/laptop/preset/civilian
 	_app_preset_type = /datum/modular_computer_app_presets/civilian
@@ -128,6 +144,10 @@
 	desc = "A portable computer belonging to cargo."
 	_app_preset_type = /datum/modular_computer_app_presets/supply
 	enrolled = DEVICE_COMPANY
+
+/obj/item/modular_computer/laptop/preset/supply/install_default_hardware()
+	..()
+	card_slot = new /obj/item/computer_hardware/card_slot(src) // To use the Cargo Delivery app
 
 /obj/item/modular_computer/laptop/preset/supply/om
 	name = "operations manager's laptop"

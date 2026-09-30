@@ -11392,7 +11392,7 @@
 /obj/item/clothing/head/helmet/security/generic{
 	pixel_x = 3
 	},
-/obj/item/gun/projectile/revolver/mateba,
+/obj/item/gun/projectile/revolver/hammerhead,
 /turf/simulated/floor/carpet/lightblue,
 /area/enviro_testing_facility/inside/security/hos_office)
 "lsZ" = (

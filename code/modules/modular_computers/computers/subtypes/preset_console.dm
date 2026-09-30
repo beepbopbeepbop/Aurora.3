@@ -31,6 +31,12 @@
 	_app_preset_type = /datum/modular_computer_app_presets/engineering/ce
 	enrolled = DEVICE_COMPANY
 
+/obj/item/modular_computer/console/preset/engineering/ce/install_default_hardware()
+	..()
+	nano_printer.max_paper = 25
+	nano_printer.stored_paper = 20
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
+
 // Medical
 /obj/item/modular_computer/console/preset/medical
 	name = "medical console"
@@ -42,6 +48,12 @@
 	_app_preset_type = /datum/modular_computer_app_presets/medical/cmo
 	enrolled = DEVICE_COMPANY
 
+/obj/item/modular_computer/console/preset/medical/cmo/install_default_hardware()
+	..()
+	nano_printer.max_paper = 25
+	nano_printer.stored_paper = 20
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
+
 // Research
 /obj/item/modular_computer/console/preset/research
 	name = "research console"
@@ -52,6 +64,17 @@
 	..()
 	ai_slot = new /obj/item/computer_hardware/ai_slot(src)
 
+/obj/item/modular_computer/console/preset/research/rd
+	name = "research console"
+	_app_preset_type = /datum/modular_computer_app_presets/research/rd
+	enrolled = DEVICE_COMPANY
+
+/obj/item/modular_computer/console/preset/research/rd/install_default_hardware()
+	..()
+	nano_printer.max_paper = 25
+	nano_printer.stored_paper = 20
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
+
 // Command
 /obj/item/modular_computer/console/preset/command
 	name = "command console"
@@ -60,7 +83,6 @@
 
 /obj/item/modular_computer/console/preset/command/install_default_hardware()
 	..()
-	nano_printer = new /obj/item/computer_hardware/nano_printer(src)
 	nano_printer.max_paper = 25
 	nano_printer.stored_paper = 20
 	card_slot = new /obj/item/computer_hardware/card_slot(src)
@@ -84,6 +106,16 @@
 	name = "centcomm accounts database"
 	_app_preset_type = /datum/modular_computer_app_presets/command/account/centcomm
 
+/obj/item/modular_computer/console/preset/command/teleporter
+	name = "teleporter control console"
+	desc = "A computer that has a special teleporter control program loaded."
+	_app_preset_type = /datum/modular_computer_app_presets/command/teleporter
+
+/obj/item/modular_computer/console/preset/command/teleporter/ninja
+	name = "teleporter control console"
+	desc = "A computer that has a special teleporter control program loaded."
+	_app_preset_type = /datum/modular_computer_app_presets/command/teleporter/ninja
+
 // Security
 /obj/item/modular_computer/console/preset/security
 	name = "security console"
@@ -100,20 +132,22 @@
 	_app_preset_type = /datum/modular_computer_app_presets/security/armory
 	enrolled = DEVICE_COMPANY
 
+/obj/item/modular_computer/console/preset/security/armory/install_default_hardware()
+	..()
+	nano_printer.max_paper = 25
+	nano_printer.stored_paper = 20
+	card_slot = new /obj/item/computer_hardware/card_slot(src) // For suspending and such
+
 /obj/item/modular_computer/console/preset/security/hos
 	name = "head of security's console"
 	_app_preset_type = /datum/modular_computer_app_presets/security/hos
 	enrolled = DEVICE_COMPANY
 
-/obj/item/modular_computer/console/preset/command/teleporter
-	name = "teleporter control console"
-	desc = "A computer that has a special teleporter control program loaded."
-	_app_preset_type = /datum/modular_computer_app_presets/command/teleporter
-
-/obj/item/modular_computer/console/preset/command/teleporter/ninja
-	name = "teleporter control console"
-	desc = "A computer that has a special teleporter control program loaded."
-	_app_preset_type = /datum/modular_computer_app_presets/command/teleporter/ninja
+/obj/item/modular_computer/console/preset/security/hos/install_default_hardware()
+	..()
+	nano_printer.max_paper = 25
+	nano_printer.stored_paper = 20
+	card_slot = new /obj/item/computer_hardware/card_slot(src)
 
 // Civilian
 /obj/item/modular_computer/console/preset/civilian

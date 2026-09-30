@@ -321,10 +321,6 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 	name = "brig control hub"
 	req_access = list(/datum/access/armory::id)
 	controls = list(
-	// General Departmental
-		"lobby door control" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 1),
-		"lobby door bolts" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 4),
-		"lobby safety shutters" = list("type" = "blast_door", "id" = "security_deck_2_lobby_shutter_lockdown"),
 	// Warden's Office
 		"office desk shutters" = list("type" = "blast_door", "id" = "security_deck_2_warden_shutter_desk"),
 	// Brig
@@ -339,13 +335,17 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 
 /obj/structure/machinery/controlhub/security/hos
 	name = "head of security's office control hub"
-	req_access = list(/datum/access/hos)
+	req_access = list(/datum/access/hos::id)
 	controls = list(
 	// General Departmental
 		"lobby door control" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 1),
 		"lobby door bolts" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 4),
 		"lobby safety shutters" = list("type" = "blast_door", "id" = "security_deck_2_lobby_shutter_lockdown"),
+		"department lockdown" = list("type" = "blast_door", "id" = "security_blast_lockdown")
 	// HOS' Office
+		"office door control" = list("type" = "airlock", "id" = "security_deck_2_hos_door", "functions" = 1),
+		"office door bolts" = list("type" = "airlock", "id" = "security_deck_2_hos_door", "functions" = 4),
+		"office window tint" = list("type" = "windowtint", "id" = "security_deck_2_hos_privacy")
 	// Armoury
 		"public order armoury access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_shutter_access"),
 		"tactical armoury access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_blast_access"),
@@ -354,8 +354,17 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 
 /obj/structure/machinery/controlhub/security/investigations
 	name = "investigations office control hub"
-	req_access = list(/datum/access/forensics_lockers::id)
+	req_access = list(/datum/access/forensics::id)
+	controls = list(
+	// Investigations Office
+		"exterior office door control" = list("type" = "airlock", "id" = "security_deck_2_hos_door_exterior", "functions" = 1),
+		"exterior office door bolts" = list("type" = "airlock", "id" = "security_deck_2_hos_door_exterior", "functions" = 4),
+		"exterior office window tint" = list("type" = "windowtint", "id" = "security_deck_3_investigations_privacy_exterior"),
+		"interior office door control" = list("type" = "airlock", "id" = "security_deck_2_hos_door_interior", "functions" = 1),
+		"interior office door bolts" = list("type" = "airlock", "id" = "security_deck_2_hos_door_interior", "functions" = 4),
+		"interior office window tint" = list("type" = "windowtint", "id" = "security_deck_3_investigations_privacy_interior")
+	)
 
 /obj/structure/machinery/controlhub/security/forensics
 	name = "forensics laboratory control hub"
-	req_access = list(/datum/access/forensics_lockers::id)
+	req_access = list(/datum/access/forensics::id)

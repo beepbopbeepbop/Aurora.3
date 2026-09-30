@@ -6,7 +6,6 @@
 	density = TRUE
 	anchored = TRUE
 	unacidable = TRUE
-	req_access = list(/datum/access/captain::id)
 	maxhealth = OBJECT_HEALTH_VERY_LOW
 	var/obj/held_obj
 	var/open = FALSE
@@ -76,6 +75,22 @@
 
 		return
 
+	if(istype(attacking_item, /obj/item/key/display_case))
+		if(destroyed)
+			to_chat(user, SPAN_WARNING("\The [src] has been destroyed and cannot be unlocked."))
+			return
+
+		var/obj/item/key/display_case/ID = attacking_item
+		if(check_access(ID))
+			user.visible_message("<b>[user]</b> inserts their key into \the [src], [open ? "closing" : "opening"] it.", SPAN_NOTICE("You insert your key into \the [src], [open ? "closing" : "opening"] it."))
+			open = !open
+			update_icon()
+
+		else
+			to_chat(user, SPAN_WARNING("This key does not fit."))
+
+		return
+
 	else if(!held_obj && (destroyed || open))
 		to_chat(user, SPAN_NOTICE("You set \the [attacking_item] down on \the [src]."))
 		user.drop_from_inventory(attacking_item, src)
@@ -112,9 +127,15 @@
 
 /obj/structure/displaycase/captain_laser
 	spawn_contained_type = /obj/item/gun/energy/captain
-
-/obj/structure/displaycase/captain_revolver
-	spawn_contained_type = /obj/item/gun/projectile/revolver/mateba/captain
+	req_access = list(/datum/access/captain::id)
 
 /obj/structure/displaycase/adhomai_map
 	spawn_contained_type = /obj/item/toy/adhomian_map
+	req_access = list(/datum/access/captain::id)
+
+/obj/structure/displaycase/protektor
+	spawn_contained_type = /obj/item/gun/projectile/revolver/hammerhead/protektor/unloaded
+	req_one_access = list(
+		/datum/access/hos::id,
+		/datum/access/captain::id
+	)

@@ -516,7 +516,7 @@
 	items = list(
 		/obj/item/storage/briefcase/crimekit
 	)
-	access = /datum/access/forensics_lockers::id
+	access = /datum/access/forensics::id
 	container_type = "crate"
 	groupable = TRUE
 	spawn_amount = 1
@@ -530,7 +530,7 @@
 	items = list(
 		/obj/item/reagent_containers/spray/luminol
 	)
-	access = /datum/access/forensics_lockers::id
+	access = /datum/access/forensics::id
 	container_type = "crate"
 	groupable = TRUE
 	spawn_amount = 1
@@ -544,7 +544,7 @@
 	items = list(
 		/obj/item/storage/box/slides
 	)
-	access = /datum/access/forensics_lockers::id
+	access = /datum/access/forensics::id
 	container_type = "crate"
 	groupable = TRUE
 	spawn_amount = 1
@@ -558,7 +558,7 @@
 	items = list(
 		/obj/item/forensics/sample_kit
 	)
-	access = /datum/access/forensics_lockers::id
+	access = /datum/access/forensics::id
 	container_type = "crate"
 	groupable = TRUE
 	spawn_amount = 1
@@ -572,7 +572,7 @@
 	items = list(
 		/obj/item/forensics/sample_kit/powder
 	)
-	access = /datum/access/forensics_lockers::id
+	access = /datum/access/forensics::id
 	container_type = "crate"
 	groupable = TRUE
 	spawn_amount = 1
@@ -586,7 +586,7 @@
 	items = list(
 		/obj/item/storage/box/swabs
 	)
-	access = /datum/access/forensics_lockers::id
+	access = /datum/access/forensics::id
 	container_type = "crate"
 	groupable = TRUE
 	spawn_amount = 1
@@ -600,7 +600,7 @@
 	items = list(
 		/obj/item/autopsy_scanner
 	)
-	access = /datum/access/forensics_lockers::id
+	access = /datum/access/forensics::id
 	container_type = "crate"
 	groupable = TRUE
 	spawn_amount = 1

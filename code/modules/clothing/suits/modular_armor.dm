@@ -205,12 +205,6 @@
 	icon_state = "plate_blue"
 	item_state = "plate_scc"
 
-/obj/item/clothing/accessory/armor_plate/hos
-	name = "commander armor plate"
-	desc = "A particularly light-weight armor plate with really cool gold bands. Even more stylish when the gold bands are covered in the blood of your goons!"
-	icon_state = "plate_sec_commander"
-	item_state = "plate_sec_commander"
-
 /obj/item/clothing/accessory/armor_plate/ballistic
 	name = "ballistic armor plate"
 	desc = "A heavy alloy ballistic armor plate in gunmetal grey. Shockingly stylish, but also shockingly tiring to wear!"
@@ -432,6 +426,12 @@
 	icon_state = "helm_sec"
 	item_state = "helm_sec"
 
+/obj/item/clothing/head/helmet/security/hos
+	name = "head of security helmet"
+	desc = "A special Internal Security Division helmet designed to protect the precious craniums of important installation security officers."
+	icon_state = "helm_sec_commander"
+	item_state = "helm_sec_commander"
+
 /obj/item/clothing/head/helmet/security/scc
 	name = "scc helmet"
 	desc = "A helmet in SCC colors. Often issued to untrained personnel."
@@ -456,6 +456,12 @@
 	icon_state = "helm_skrell"
 	item_state = "helm_skrell"
 	valid_accessory_slots = null
+
+/obj/item/clothing/head/helmet/security/skrell/hos
+	name = "head of security skrellmet"
+	desc = "A special Internal Security Division helmet designed to protect the precious craniums of important installation security officers, this one seems to be built for use by a skrell."
+	icon_state = "helm_skrell_commander"
+	item_state = "helm_skrell_commander"
 
 /obj/item/clothing/head/helmet/security/heavy
 	name = "corporate heavy helmet"

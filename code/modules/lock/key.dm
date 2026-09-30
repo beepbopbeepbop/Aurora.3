@@ -73,3 +73,15 @@
 /obj/item/key/bike/monowheel/Initialize()
 	. = ..()
 	icon_state = pick("key_tag_red", "key_tag_green", "key_tag_purple")
+
+/obj/item/key/display_case
+	name = "display case key"
+	desc = "Used to unlock display cases."
+	icon_state = "key_tag_police"
+
+/obj/item/key/display_case/protektor
+	desc = "A key with \"PROTEKTOR DISPLAY CASE\" written on the label."
+	req_one_access = list(
+		/datum/access/hos::id,
+		/datum/access/captain::id
+	)

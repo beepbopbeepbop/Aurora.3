@@ -230,3 +230,13 @@ ABSTRACT_TYPE(/obj/item/storage/secure)
 		open(user)
 	else
 		to_chat(user, SPAN_WARNING("\The [src] is locked. Swipe an authorized ID card to unlock it."))
+
+/obj/item/storage/secure/safe/id_lock/hos
+	req_one_access = list(
+		/datum/access/hos::id,
+		/datum/access/captain::id
+	)
+	starts_with = list(
+		/obj/item/ammo_magazine/a454 = 2,
+		/obj/item/key/display_case/protektor
+	)

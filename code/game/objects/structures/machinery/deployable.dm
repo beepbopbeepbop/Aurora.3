@@ -409,9 +409,19 @@ Deployable Kits
 	user.visible_message(SPAN_NOTICE("[user] assembles \a [A]."), SPAN_NOTICE("You assemble \a [A]."))
 	A.add_fingerprint(user)
 
+/obj/item/deployable_kit/barrier
+	name = "\improper barrier kit"
+	desc = "A quick assembly kit for deploying ID-lockable barriers in the field."
+	icon = 'icons/obj/storage/briefcase.dmi'
+	icon_state = "barrier_kit"
+	item_state = "barrier_kit"
+	contained_sprite = TRUE
+	w_class = WEIGHT_CLASS_SMALL
+	kit_product = /obj/structure/machinery/deployable/barrier
+
 /obj/item/deployable_kit/legion_barrier
 	name = "\improper TCAF barrier kit"
-	desc = "A quick assembly kit for deploying id-lockable barriers in the field. This one has the mark of the Tau Ceti Armed Forces."
+	desc = "A quick assembly kit for deploying ID-lockable barriers in the field. This one has the mark of the Tau Ceti Armed Forces."
 	icon = 'icons/obj/storage/briefcase.dmi'
 	icon_state = "barrier_kit"
 	item_state = "barrier_kit"

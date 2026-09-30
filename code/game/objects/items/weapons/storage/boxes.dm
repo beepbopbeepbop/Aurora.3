@@ -482,6 +482,12 @@
 	illustration = "handcuff"
 	starts_with = list(/obj/item/handcuffs = 7)
 
+/obj/item/storage/box/legcuffs
+	name = "box of spare legcuffs"
+	desc = "A box full of legcuffs."
+	illustration = "handcuff"
+	starts_with = list(/obj/item/handcuffs/legcuffs = 7)
+
 // Firing pins
 
 /obj/item/storage/box/firingpins

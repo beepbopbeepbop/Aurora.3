@@ -47,7 +47,7 @@
 	desc = "Armory"
 	region = ACCESS_REGION_SECURITY
 
-/datum/access/forensics_lockers
+/datum/access/forensics
 	id = 4
 	desc = "Forensics"
 	region = ACCESS_REGION_SECURITY

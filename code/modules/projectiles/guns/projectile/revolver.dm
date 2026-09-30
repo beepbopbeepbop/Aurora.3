@@ -43,7 +43,7 @@
 	chamber_offset = 0
 	return ..()
 
-/obj/item/gun/projectile/revolver/mateba
+/obj/item/gun/projectile/revolver/hammerhead
 	name = "\improper Hammerhead autorevolver"
 	desc = "The Hammerhead .454 autorevolver, a very rare weapon typical of special ops teams and mercenary teams. It packs quite the punch."
 	icon = 'icons/obj/guns/faction/eridani_federation/autorevolver.dmi'
@@ -57,13 +57,17 @@
 	ammo_type = /obj/item/ammo_casing/a454
 	magazine_type = /obj/item/ammo_magazine/a454
 
-/obj/item/gun/projectile/revolver/mateba/captain
+/obj/item/gun/projectile/revolver/hammerhead/protektor
 	name = "\improper Protektor autorevolver"
-	desc = "A ludicrously powerful .454 autorevolver with equally ludicrous recoil which is issued by the SCC to the administrators of critical facilities and vessels. While revolvers may be a thing of the past, the stopping power displayed by this weapon is second to none."
-	desc_extended = "A Zavodskoi Interstellar design from the mid 2450s intended for export to the Eridani Corporate Federation and the Republic of Biesel, the Protektor \
-	revolver was never designed with practicality in mind. The .454 rounds fired from this weapon are liable to snap the wrist of an unprepared shooter and \
-	any following shots will be difficult to place onto a human-sized target due to the recoil, let alone a skrell. But nobody buys a Protektor for the purpose of \
-	practicality: they buy it due to having too much money and wanting a revolver large enough for their ego."
+	desc = "\
+	A ludicrously powerful .454 autorevolver with equally ludicrous recoil which is issued by the SCC to the administrators of critical \
+	facilities and vessels. While revolvers may be a thing of the past, the stopping power displayed by this weapon is second to none."
+	desc_extended = "\
+	A Zavodskoi Interstellar design from the mid 2450s intended for export to the Eridani Corporate Federation and the Republic of Biesel, \
+	the Protektor revolver was never designed with practicality in mind. The .454 rounds fired from this weapon are liable to snap the \
+	wrist of an unprepared shooter and any following shots will be difficult to place onto a human-sized target due to the recoil, let \
+	alone a skrell. But nobody buys a Protektor for the purpose of practicality: they buy it due to having too much money and wanting a \
+	revolver large enough for their ego."
 	icon = 'icons/obj/guns/faction/zavodskoi_interstellar/captain_revolver.dmi'
 	icon_state = "captain_revolver"
 	item_state = "captain_revolver"
@@ -77,11 +81,11 @@
 	recoil = 10
 	recoil_wielded = 5
 
-/obj/item/gun/projectile/revolver/mateba/captain/mechanics_hints(mob/user, distance, is_adjacent)
+/obj/item/gun/projectile/revolver/hammerhead/protektor/mechanics_hints(mob/user, distance, is_adjacent)
 	. += ..()
 	. += "In order to accurately fire this revolver, it must be wielded with both hands. Additionally, if you fire this revolver unwielded and you are not a G2 or Unathi, you will drop it."
 
-/obj/item/gun/projectile/revolver/mateba/captain/handle_post_fire(mob/user)
+/obj/item/gun/projectile/revolver/hammerhead/protektor/handle_post_fire(mob/user)
 	..()
 	if(wielded)
 		return
@@ -92,6 +96,9 @@
 				H.visible_message(SPAN_WARNING("\The [src] flies out of \the [H]'s' hand!"), SPAN_WARNING("\The [src] flies out of your hand!"))
 				H.drop_item(src)
 				src.throw_at(get_edge_target_turf(src, REVERSE_DIR(H.dir)), 2, 2)
+
+/obj/item/gun/projectile/revolver/hammerhead/protektor/unloaded
+	ammo_type = null
 
 /obj/item/gun/projectile/revolver/detective
 	name = "antique revolver"

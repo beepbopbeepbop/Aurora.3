@@ -132,12 +132,9 @@
 
 /obj/structure/closet/wardrobe/orange/fill()
 	..()
-	new /obj/item/clothing/under/color/orange(src)
-	new /obj/item/clothing/under/color/orange(src)
-	new /obj/item/clothing/under/color/orange(src)
-	new /obj/item/clothing/shoes/sneakers/orange(src)
-	new /obj/item/clothing/shoes/sneakers/orange(src)
-	new /obj/item/clothing/shoes/sneakers/orange(src)
+	for(var/i = 1 to 6)
+		new /obj/item/clothing/under/color/orange(src)
+		new /obj/item/clothing/shoes/sneakers/orange(src)
 	return
 
 

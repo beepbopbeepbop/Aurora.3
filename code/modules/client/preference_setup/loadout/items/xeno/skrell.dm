@@ -239,7 +239,7 @@ ABSTRACT_TYPE(/datum/gear/ears/skrell)
 
 /datum/gear/head/skrell_helmet/hos
 	display_name = "Head of Security Skrellmet"
-	path = /obj/item/clothing/head/helmet/hos/skrell
+	path = /obj/item/clothing/head/helmet/security/skrell/hos
 	whitelisted = list(SPECIES_SKRELL, SPECIES_SKRELL_AXIORI)
 	sort_category = "Xenowear - Skrell"
 	allowed_roles = list("Head of Security")

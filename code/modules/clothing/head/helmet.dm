@@ -134,21 +134,7 @@
 		. += FONT_SMALL(SPAN_NOTICE("To toggle or configure the helmet camera, right-click the helmet for options, or equip it and view your new Object verbs."))
 		. += "This helmet has a built-in camera. It's [!ispath(camera) && camera.status ? "" : "in"]active."
 
-/obj/item/clothing/head/helmet/hos
-	name = "head of security helmet"
-	desc = "A special Internal Security Division helmet designed to protect the precious craniums of important installation security officers."
-	icon = 'icons/obj/item/clothing/head/modular_armor_helmets.dmi'
-	contained_sprite = TRUE
-	icon_state = "helm_sec_commander"
-	item_state = "helm_sec_commander"
-
-/obj/item/clothing/head/helmet/hos/skrell
-	name = "head of security skrellmet"
-	desc = "A special Internal Security Division helmet designed to protect the precious craniums of important installation security officers, this one seems to be built for use by a Skrell."
-	icon_state = "helm_skrell_commander"
-	item_state = "helm_skrell_commander"
-
-/obj/item/clothing/head/helmet/hos/dermal
+/obj/item/clothing/head/helmet/security/hos/dermal
 	name = "dermal armor patch"
 	desc = "You're not quite sure how you manage to take it on and off, but it implants nicely in your head."
 	icon_state = "dermal"

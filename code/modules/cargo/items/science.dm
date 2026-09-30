@@ -234,3 +234,17 @@
 	container_type = "crate"
 	groupable = TRUE
 	spawn_amount = 1
+
+/singleton/cargo_item/tranquilizerdarts_50cal_pps
+	category = "science"
+	name = "tranquilizer darts (.50 cal PPS)"
+	supplier = "nanotrasen"
+	description = "A box of 50-caliber tranquilizer darts."
+	price = 50
+	items = list(
+		/obj/item/storage/box/shells/tranquilizer
+	)
+	access = /datum/access/research::id
+	container_type = "crate"
+	groupable = TRUE
+	spawn_amount = 1

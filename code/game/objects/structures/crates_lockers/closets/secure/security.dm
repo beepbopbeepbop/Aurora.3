@@ -86,8 +86,6 @@
 // SECURITY CLOSETS
 /obj/structure/closet/secure_closet/security
 	name = "Security Locker - PARENT ITEM"
-	req_access = list(/datum/access/holding::id)
-	icon_state = "sec"
 
 //Supply
 //Clothing
@@ -127,6 +125,8 @@
 // Security Officer
 /obj/structure/closet/secure_closet/security/officer
 	name = "security officer's locker"
+	icon_state = "sec"
+	req_access = list(/datum/access/holding::id)
 
 /obj/structure/closet/secure_closet/security/officer/fill()
 	..()
@@ -141,66 +141,12 @@
 	//Belts
 	new /obj/item/storage/belt/security/full(src)
 	new /obj/item/storage/belt/security/vestbelt(src)
-	new /obj/item/storage/box/fancy/keypouch/sec(src)
-	new /obj/item/crowbar/rescue_axe/tactical(src)
-
-/obj/structure/closet/secure_closet/hos2
-	name = "head of security's attire"
-	req_access = list(/datum/access/hos::id)
-	icon_state = "hos"
-
-/obj/structure/closet/secure_closet/hos2/fill()
-	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/backpack/duffel/sec(src)
-	new /obj/item/clothing/suit/armor/carrier/hos(src)
-	new /obj/item/clothing/accessory/leg_guard(src)
-	new /obj/item/clothing/accessory/arm_guard(src)
-	new /obj/item/clothing/head/helmet/hos(src)
-	//Tools
-	new /obj/item/clothing/glasses/sunglasses/sechud/aviator(src)
-	new /obj/item/radio/headset/heads/hos(src)
-	new /obj/item/radio/headset/heads/hos/alt(src)
-	//Belts
-	new /obj/item/storage/belt/security(src)
-	new /obj/item/clothing/accessory/holster/waist(src)
-	new /obj/item/breath_analyzer(src)
-
-/obj/structure/closet/secure_closet/warden
-	name = "warden's locker"
-	req_access = list(/datum/access/armory::id)
-	icon_state = "warden"
-
-/obj/structure/closet/secure_closet/warden/fill()
-	//Supply
-	new /obj/item/storage/box/ids(src)
-	new /obj/item/storage/box/tactical/flashbangs(src)
-	new /obj/item/storage/box/tactical/teargas(src)
-	new /obj/item/storage/box/tactical/stingers(src)
-	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/backpack/duffel/sec(src)
-	new /obj/item/clothing/suit/armor/carrier/officer(src)
-	new /obj/item/clothing/accessory/arm_guard(src)
-	new /obj/item/clothing/accessory/leg_guard(src)
-	new /obj/item/clothing/head/helmet/security(src)
-	//Tools
-	new /obj/item/holowarrant(src)
-	//Weapons
-	new /obj/item/gun/projectile/sec/unloaded(src)
-	for(var/i = 1 to 2)
-		new /obj/item/ammo_magazine/c45m/rubber(src)
 
 // Warden
 /obj/structure/closet/secure_closet/security/warden
 	name = "warden's locker"
 	icon_state = "warden"
+	req_access = list(/datum/access/armory::id)
 
 /obj/structure/closet/secure_closet/security/warden/fill()
 	..()
@@ -211,78 +157,25 @@
 	new /obj/item/radio/headset/alt/double/sec/warden(src)
 	new /obj/item/radio/headset/wrist/sec/warden(src)
 	new /obj/item/radio/headset/wrist/clip/sec/warden(src)
+	new /obj/item/storage/box/legcuffs(src)
 	//Clothing
 	new /obj/item/clothing/accessory/badge/warden(src)
 	//Belts
 	new /obj/item/storage/belt/security/full(src)
 	new /obj/item/storage/belt/security/vestbelt(src)
-	// Utility
-	new /obj/item/radio/sec(src)
-	new /obj/item/crowbar(src)
-	new /obj/item/flashlight/maglight(src)
-	new /obj/item/wrench(src)
-	new /obj/item/multitool(src)
-
-
-/obj/structure/closet/secure_closet/security_cadet
-	name = "security cadet's locker"
-	req_access = list(/datum/access/security::id)
-	icon_state = "sec"
-	icon_door = "seccadet"
-
-/obj/structure/closet/secure_closet/security_cadet/fill()
-	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/backpack/duffel/sec(src)
-	new /obj/item/clothing/suit/storage/hazardvest/security(src)
-	new /obj/item/clothing/under/rank/cadet(src)
-	//Tools
-	new /obj/item/radio/headset/headset_sec(src)
-	new /obj/item/radio/headset/headset_sec/alt(src)
-	new /obj/item/flash(src)
-	new /obj/item/reagent_containers/spray/pepper(src)
-	new /obj/item/taperoll/police(src)
-	new /obj/item/hailer(src)
-	new /obj/item/holowarrant(src)
-	new /obj/item/flashlight/flare/glowstick/red(src)
-	//Belts
-	new /obj/item/clothing/accessory/storage/black_vest(src)
-	new /obj/item/clothing/accessory/storage/pouches/black(src)
-	new /obj/item/storage/belt/security(src)
-
-/obj/structure/closet/secure_closet/security
-	name = "security officer's locker"
-	req_access = list(/datum/access/holding::id)
-	icon_state = "sec"
-
-/obj/structure/closet/secure_closet/security/fill()
-	//Appearance
-	if(prob(50))
-		new /obj/item/storage/backpack/security(src)
-	else
-		new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/backpack/duffel/sec(src)
-	new /obj/item/clothing/suit/armor/carrier/officer(src)
-	new /obj/item/clothing/accessory/arm_guard(src)
-	new /obj/item/clothing/accessory/leg_guard(src)
-	new /obj/item/clothing/head/helmet/security(src)
 	//Tools
 	new /obj/item/megaphone/sec(src)
 	new /obj/item/ipc_tag_scanner(src)
-	new /obj/item/holowarrant(src)
 	//Weapons
-	new /obj/item/gun/projectile/sec/unloaded(src)
+	new /obj/item/gun/projectile/sec/wood/unloaded(src)
 	for(var/i = 1 to 2)
 		new /obj/item/ammo_magazine/c45m/rubber(src)
 
 // Head of Security
 /obj/structure/closet/secure_closet/security/hos
 	name = "head of security's locker"
-	req_access = list(/datum/access/hos)
 	icon_state = "hos"
+	req_access = list(/datum/access/hos::id)
 
 /obj/structure/closet/secure_closet/security/hos/fill()
 	..()
@@ -307,24 +200,23 @@
 	new /obj/item/clothing/suit/armor/carrier/hos(src)
 	new /obj/item/clothing/accessory/leg_guard(src)
 	new /obj/item/clothing/accessory/arm_guard(src)
-	new /obj/item/clothing/head/helmet/hos(src)
+	new /obj/item/clothing/head/helmet/security/hos(src)
 	//Tools
 	new /obj/item/megaphone/command(src)
 	new /obj/item/ipc_tag_scanner(src)
 	new /obj/item/holowarrant(src)
 	new /obj/item/shield/riot/tact(src)
 	//Weapons
-	new /obj/item/gun/projectile/sec/wood/unloaded(src)
+	new /obj/item/gun/energy/repeater/pistol(src)
 	for(var/i = 1 to 2)
-		new /obj/item/ammo_magazine/c45m/rubber(src)
-	new /obj/item/ammo_magazine/c45m(src)
+		new /obj/item/ammo_magazine/a454(src)
 
 
 // Investigator
 /obj/structure/closet/secure_closet/security/investigator
 	name = "investigator's locker"
-	req_access = list(/datum/access/forensics_lockers::id)
 	icon_state = "sec"
+	req_access = list(/datum/access/forensics::id)
 
 /obj/structure/closet/secure_closet/security/investigator/fill()
 	..()
@@ -335,14 +227,12 @@
 	new /obj/item/radio/headset/wrist/sec(src)
 	new /obj/item/radio/headset/wrist/clip/sec(src)
 	//Clothing
+	new /obj/item/clothing/suit/storage/toggle/labcoat(src)
 	new /obj/item/clothing/accessory/badge/investigator(src)
 	//Belts
 	new /obj/item/storage/belt/security/full/investigator(src)
 	//Armour
 	new /obj/item/clothing/suit/armor/carrier/officer(src)
-	//Tools
-	new /obj/item/laser_pointer/blue(src)
-	new /obj/item/stamp/investigations(src)
 	//Weapons
 	new /obj/item/gun/projectile/revolver/security/unloaded(src)
 	for(var/i = 1 to 2)
@@ -351,7 +241,8 @@
 // Cadet
 /obj/structure/closet/secure_closet/security/cadet
 	name = "security cadet's locker"
-	req_access = list(/datum/access/security)
+	req_access = list(/datum/access/security::id)
+	icon_state = "sec"
 	icon_door = "seccadet"
 
 /obj/structure/closet/secure_closet/security/cadet/fill()
@@ -366,17 +257,6 @@
 	new /obj/item/storage/belt/security/vestbelt(src)
 	//Armour
 	new /obj/item/clothing/suit/armor/carrier/officer(src)
-
-//
-
-/obj/structure/closet/secure_closet/injection
-	name = "lethal injections locker"
-	req_access = list(/datum/access/captain::id)
-
-/obj/structure/closet/secure_closet/injection/fill()
-	new /obj/item/reagent_containers/syringe/large/ld50_syringe/chloral(src)
-	new /obj/item/reagent_containers/syringe/large/ld50_syringe/chloral(src)
-
 
 // These are special snowflakes that need to be in a global list.
 /obj/structure/closet/secure_closet/brig
@@ -439,7 +319,7 @@
 	name = "evidence storage locker"
 	anchored = TRUE
 	canbemoved = TRUE
-	req_one_access = list(/datum/access/holding::id, /datum/access/armory::id, /datum/access/forensics_lockers::id)
+	req_one_access = list(/datum/access/holding::id, /datum/access/armory::id, /datum/access/forensics::id)
 
 // Contraband Storage Locker
 /obj/structure/closet/secure_closet/contraband

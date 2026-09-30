@@ -212,7 +212,7 @@
 /obj/structure/machinery/smartfridge/secure/chemistry/investigations
 	name = "\improper Refrigerated Chemical Evidence Storage"
 	desc = "A refrigerated storage unit for keeping chemical evidence secure."
-	req_access = list(/datum/access/forensics_lockers::id)
+	req_access = list(/datum/access/forensics::id)
 
 /obj/structure/machinery/smartfridge/chemistry/virology
 	name = "\improper Smart Virus Storage"

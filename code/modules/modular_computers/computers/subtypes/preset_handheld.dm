@@ -70,6 +70,10 @@
 /obj/item/modular_computer/handheld/preset/engineering/ce
 	_app_preset_type = /datum/modular_computer_app_presets/engineering/ce
 
+/obj/item/modular_computer/handheld/preset/engineering/ce/Initialize()
+	. = ..()
+	card_slot.stored_item = new /obj/item/pen/fountain/head
+
 // Supply
 /obj/item/modular_computer/handheld/preset/supply
 	_app_preset_type = /datum/modular_computer_app_presets/supply
@@ -85,7 +89,7 @@
 
 /obj/item/modular_computer/handheld/preset/supply/om/Initialize()
 	. = ..()
-	card_slot.stored_item = new /obj/item/pen/fountain
+	card_slot.stored_item = new /obj/item/pen/fountain/head
 
 /obj/item/modular_computer/handheld/preset/supply/machinist
 	_app_preset_type = /datum/modular_computer_app_presets/supply/machinist
@@ -124,6 +128,10 @@
 /obj/item/modular_computer/handheld/preset/medical/cmo
 	_app_preset_type = /datum/modular_computer_app_presets/medical/cmo
 
+/obj/item/modular_computer/handheld/preset/medical/cmo/Initialize()
+	. = ..()
+	card_slot.stored_item = new /obj/item/pen/fountain/head
+
 // Science
 
 /obj/item/modular_computer/handheld/preset/research
@@ -140,6 +148,10 @@
 /obj/item/modular_computer/handheld/preset/research/rd
 	_app_preset_type = /datum/modular_computer_app_presets/research/rd
 
+/obj/item/modular_computer/handheld/preset/research/rd/Initialize()
+	. = ..()
+	card_slot.stored_item = new /obj/item/pen/fountain/head
+
 // Security
 
 /obj/item/modular_computer/handheld/preset/security
@@ -153,8 +165,16 @@
 /obj/item/modular_computer/handheld/preset/security/detective
 	_app_preset_type = /datum/modular_computer_app_presets/security/investigations
 
+/obj/item/modular_computer/handheld/preset/security/detective/Initialize()
+	. = ..()
+	card_slot.stored_item = new /obj/item/pen/fountain
+
 /obj/item/modular_computer/handheld/preset/security/hos
 	_app_preset_type = /datum/modular_computer_app_presets/security/hos
+
+/obj/item/modular_computer/handheld/preset/security/hos/Initialize()
+	. = ..()
+	card_slot.stored_item = new /obj/item/pen/fountain/head
 
 // Command / Misc
 

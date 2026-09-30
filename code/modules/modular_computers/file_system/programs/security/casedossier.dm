@@ -38,7 +38,7 @@
 	if(!I)
 		return FALSE
 
-	return (/datum/access/forensics_lockers::id in I.access)
+	return (/datum/access/forensics::id in I.access)
 
 /datum/computer_file/program/case_dossier/ui_data(mob/user)
 	var/list/data = list()

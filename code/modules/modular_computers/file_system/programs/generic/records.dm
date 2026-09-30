@@ -47,8 +47,8 @@
 	extended_desc = "Used to view, edit and maintain medical records."
 	record_prefix = "Medical "
 
-	required_access_run = list(/datum/access/medical_equip::id, /datum/access/forensics_lockers::id, /datum/access/robotics::id, /datum/access/hop::id)
-	required_access_download = list(/datum/access/heads::id, /datum/access/medical_equip::id, /datum/access/forensics_lockers::id, /datum/access/robotics::id)
+	required_access_run = list(/datum/access/medical_equip::id, /datum/access/forensics::id, /datum/access/robotics::id, /datum/access/hop::id)
+	required_access_download = list(/datum/access/heads::id, /datum/access/medical_equip::id, /datum/access/forensics::id, /datum/access/robotics::id)
 	available_on_ntnet = TRUE
 
 	records_type = RECORD_MEDICAL | RECORD_VIRUS
@@ -64,7 +64,7 @@
 	extended_desc = "Used to view, edit and maintain security records"
 	record_prefix = "Security "
 
-	required_access_run = list(/datum/access/security::id, /datum/access/forensics_lockers::id, /datum/access/lawyer::id, /datum/access/hop::id)
+	required_access_run = list(/datum/access/security::id, /datum/access/forensics::id, /datum/access/lawyer::id, /datum/access/hop::id)
 	required_access_download = list(/datum/access/heads::id, /datum/access/security::id)
 	available_on_ntnet = TRUE
 

@@ -18,7 +18,7 @@
 	)
 
 	job_access = list(
-		/datum/access/security::id, /datum/access/eva::id, /datum/access/sec_doors::id, /datum/access/holding::id, /datum/access/armory::id, /datum/access/forensics_lockers::id, /datum/access/morgue::id,
+		/datum/access/security::id, /datum/access/eva::id, /datum/access/sec_doors::id, /datum/access/holding::id, /datum/access/armory::id, /datum/access/forensics::id, /datum/access/morgue::id,
 		/datum/access/maint_tunnels::id, /datum/access/all_personal_lockers::id, /datum/access/research::id, /datum/access/engine::id, /datum/access/ship_weapons::id, /datum/access/mining::id,
 		/datum/access/medical::id, /datum/access/construction::id, /datum/access/mailsorting::id, /datum/access/heads::id, /datum/access/hos::id, /datum/access/RC_announce::id, /datum/access/keycard_auth::id,
 		/datum/access/gateway::id, /datum/access/external_airlocks::id, /datum/access/weapons::id, /datum/access/intrepid::id, /datum/access/spark::id, /datum/access/quark::id, /datum/access/canary::id, /datum/access/teleporter::id
@@ -33,7 +33,6 @@
 	jobtype = /datum/job/hos
 
 	uniform = /obj/item/clothing/under/rank/head_of_security
-	head = /obj/item/clothing/head/hos
 	id = /obj/item/card/id/scc/silver
 	shoes = null
 	glasses = /obj/item/clothing/glasses/sunglasses/sechud/head
@@ -148,7 +147,7 @@
 	)
 
 	job_access = list(
-		/datum/access/security::id, /datum/access/sec_doors::id, /datum/access/forensics_lockers::id, /datum/access/morgue::id, /datum/access/weapons::id
+		/datum/access/security::id, /datum/access/sec_doors::id, /datum/access/forensics::id, /datum/access/morgue::id, /datum/access/weapons::id
 	)
 	minimal_player_age = 3
 	outfit = /obj/outfit/job/forensics
@@ -178,10 +177,6 @@
 	satchel = /obj/item/storage/backpack/satchel/sec
 	dufflebag = /obj/item/storage/backpack/duffel/sec
 	messengerbag = /obj/item/storage/backpack/messenger/sec
-
-	backpack_contents = list(
-		/obj/item/storage/box/evidence = 1
-	)
 
 /obj/outfit/job/forensics/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()
