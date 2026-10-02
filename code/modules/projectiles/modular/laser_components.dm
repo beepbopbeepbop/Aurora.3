@@ -152,7 +152,7 @@
 			user.apply_damage(25*max(prototype.criticality, 1), DAMAGE_BRUTE, BP_R_HAND, prototype, DAMAGE_FLAG_EXPLODE)
 	else
 		visible_message(SPAN_DANGER("\The [src] powering \the [prototype] hisses and explosively vents hot phoron!"))
-	explosion(get_turf(prototype), 0, 0, round(max(prototype.criticality, 1)*2,1))
+	explosion(get_turf(prototype), 0, 0, round(max(prototype.criticality, 1) * 2, 1), spreading = TRUE)
 	..()
 
 /obj/item/laser_components/capacitor/phoron/critical_fail(var/mob/living/user, var/obj/item/gun/energy/laser/prototype/prototype)
@@ -165,7 +165,7 @@
 	else
 		visible_message(SPAN_DANGER("\The [src] powering \the [prototype] goes critical causing a massive explosion!"))
 	empulse(get_turf(src), round(max(prototype.criticality, 1),1), round(max(prototype.criticality, 1)*4,1))
-	explosion(get_turf(prototype), 0, round(max(prototype.criticality, 1),1), round(max(prototype.criticality, 1)*3,1))
+	explosion(get_turf(prototype), 0, round(max(prototype.criticality, 1), 1), round(max(prototype.criticality, 1) * 3, 1), spreading = TRUE)
 	..()
 
 /obj/item/laser_components/capacitor/bluespace
@@ -472,7 +472,7 @@
 	name = "decloner modulator"
 	desc = "Modulates the beam into firing highly radioactive particulates."
 	projectile = /obj/projectile/energy/declone
-	damage = 0.5
+	damage = 0.4
 	icon_state = "decloner"
 	firing_sound = 'sound/weapons/pulse3.ogg'
 	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 4, TECH_POWER = 3)
