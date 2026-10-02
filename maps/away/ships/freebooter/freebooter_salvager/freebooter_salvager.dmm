@@ -2331,6 +2331,10 @@
 	},
 /turf/simulated/floor,
 /area/ship/freebooter_salvager/engineering)
+"kD" = (
+/obj/effect/map_effect/marker/fake_wall,
+/turf/simulated/wall/shuttle/space_ship/mercenary,
+/area/ship/freebooter_salvager/toilets)
 "kG" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 1
@@ -3195,6 +3199,38 @@
 /obj/effect/floor_decal/industrial/warning/full,
 /turf/simulated/floor/plating,
 /area/ship/freebooter_salvager/ore_extraction)
+"oP" = (
+/obj/structure/closet/cabinet,
+/obj/item/clothing/under/dominia/fleet,
+/obj/item/clothing/under/dominia/fleet,
+/obj/item/clothing/under/dominia/fleet/armsman,
+/obj/item/clothing/under/dominia/fleet/armsman,
+/obj/item/clothing/under/konyang/pirate,
+/obj/item/clothing/under/konyang/pirate,
+/obj/item/clothing/under/rank/sol/army/service/officer,
+/obj/item/clothing/under/rank/sol/army/grey,
+/obj/item/clothing/under/rank/sol/service/marine,
+/obj/item/clothing/under/rank/sol/marine,
+/obj/item/clothing/under/syndicate/tacticool,
+/obj/item/clothing/under/syndicate/tacticool,
+/obj/item/clothing/pants/jeans,
+/obj/item/clothing/under/syndicate/tracksuit,
+/obj/item/clothing/under/service_overalls,
+/obj/item/clothing/under/uniform/gadpathur,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/under/rank/elyran_fatigues,
+/obj/random/colored_jumpsuit,
+/obj/random/colored_jumpsuit,
+/obj/random/colored_jumpsuit,
+/obj/item/clothing/under/vysoka,
+/obj/item/clothing/under/tcaf/crew/foreign_legion,
+/obj/item/clothing/under/tcaf/crew/foreign_legion,
+/obj/item/clothing/under/tcaf/crew/foreign_legion,
+/obj/item/clothing/under/tcaf/crew/foreign_legion,
+/obj/item/clothing/under/rank/einstein/coveralls,
+/obj/item/clothing/head/einstein/kepi,
+/turf/simulated/floor/tiled/dark,
+/area/ship/freebooter_salvager/crew_quarters)
 "oQ" = (
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/yellow{
 	dir = 4
@@ -3755,11 +3791,6 @@
 	},
 /turf/simulated/floor/carpet/rubber,
 /area/ship/freebooter_salvager/crew_quarters)
-"rk" = (
-/turf/simulated/wall/shuttle/space_ship/mercenary{
-	can_open = 1
-	},
-/area/ship/freebooter_salvager/toilets)
 "rl" = (
 /obj/effect/floor_decal/corner/dark_blue,
 /obj/structure/machinery/button/remote/blast_door{
@@ -3977,6 +4008,31 @@
 	},
 /turf/simulated/floor/airless,
 /area/shuttle/freebooter_salvager)
+"se" = (
+/obj/structure/closet/cabinet,
+/obj/item/clothing/head/dominia/fleet/armsman,
+/obj/item/clothing/head/dominia/fleet/armsman,
+/obj/item/clothing/head/dominia/fleet,
+/obj/item/clothing/head/dominia/fleet,
+/obj/item/clothing/head/softcap/himeo,
+/obj/item/clothing/head/sol/garrison,
+/obj/item/clothing/head/sol/army/service/officer,
+/obj/item/clothing/head/sol/marine/grey,
+/obj/item/clothing/head/sol/marine,
+/obj/item/clothing/head/ushanka/dominia,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/designer/black,
+/obj/item/clothing/head/softcap,
+/obj/item/clothing/head/turban,
+/obj/item/clothing/head/turban/gadpathur,
+/obj/item/clothing/head/headbando/random,
+/obj/item/clothing/head/softcap/tcaf_cap,
+/obj/item/clothing/head/softcap/tcaf_cap,
+/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
+/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
+/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
+/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
+/turf/simulated/floor/plating,
+/area/ship/freebooter_salvager/crew_quarters)
 "sg" = (
 /obj/effect/floor_decal/corner/paleblue/full{
 	dir = 1
@@ -5506,49 +5562,29 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/ship/freebooter_salvager/warehouse)
-"zd" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
+"zb" = (
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = null
 	},
-/obj/structure/closet,
-/obj/item/clothing/suit/storage/toggle/leather_jacket/designer/red,
-/obj/item/clothing/suit/storage/hooded/wintercoat/mars,
-/obj/item/clothing/suit/storage/toggle/leather_jacket/military/tan,
-/obj/item/clothing/suit/storage/toggle/bomber,
-/obj/item/clothing/gloves/fingerless,
-/obj/item/clothing/suit/storage/leathercoat,
-/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/green,
-/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/white,
-/obj/random/gloves,
-/obj/random/gloves,
-/obj/item/clothing/suit/storage/toggle/trench,
-/obj/item/clothing/suit/storage/toggle/dominia/bomber,
-/obj/random/hoodie,
-/obj/random/hoodie,
-/obj/item/clothing/mask/offworlder{
-	color = "#495681"
+/obj/effect/floor_decal/corner/dark_blue{
+	dir = 9
 	},
-/obj/item/rig/light/offworlder,
-/obj/item/clothing/accessory/badge/passcard/scarab{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/clothing/suit/storage/toggle/trench/colorable/random,
-/obj/item/clothing/suit/storage/toggle/trench/colorable/random,
-/obj/item/clothing/suit/storage/toggle/leather_jacket/military/old,
-/obj/item/clothing/suit/storage/toggle/leather_jacket/military/old,
-/obj/item/clothing/suit/storage/toggle/greatcoat,
-/obj/item/clothing/suit/storage/toggle/greatcoat/brown,
-/obj/item/clothing/suit/storage/toggle/himeo,
-/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/tcaf,
-/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/tcaf,
-/obj/item/clothing/suit/storage/tcaf/legion,
-/obj/item/clothing/suit/storage/tcaf/legion,
-/obj/item/clothing/suit/storage/tcaf/legion,
-/obj/item/clothing/suit/storage/tcaf/legion,
-/turf/simulated/floor/plating,
-/area/ship/freebooter_salvager/crew_quarters)
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/ammo_magazine/c45uzi,
+/obj/item/ammo_magazine/c45uzi,
+/obj/item/gun/projectile/automatic/mini_uzi,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/ammo_magazine/a556/carbine,
+/obj/item/gun/projectile/automatic/rifle/carbine,
+/obj/item/clothing/head/helmet/security/generic,
+/obj/item/clothing/suit/armor/carrier/generic,
+/obj/item/material/knife/butterfly/switchblade,
+/obj/item/material/knife/bayonet,
+/obj/item/material/knife/bayonet,
+/obj/random/civgun/rifle,
+/obj/item/clothing/suit/armor/carrier/einstein_security,
+/turf/simulated/floor/tiled/gridded,
+/area/ship/freebooter_salvager/armory)
 "ze" = (
 /obj/structure/machinery/atmospherics/binary/pump{
 	name = "Cold Loop Supply Pump"
@@ -7786,6 +7822,49 @@
 /obj/structure/lattice/catwalk,
 /turf/simulated/floor/airless,
 /area/ship/freebooter_salvager/exterior)
+"JN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/closet,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/designer/red,
+/obj/item/clothing/suit/storage/hooded/wintercoat/mars,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/military/tan,
+/obj/item/clothing/suit/storage/toggle/bomber,
+/obj/item/clothing/gloves/fingerless,
+/obj/item/clothing/suit/storage/leathercoat,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/green,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/white,
+/obj/random/gloves,
+/obj/random/gloves,
+/obj/item/clothing/suit/storage/toggle/trench,
+/obj/item/clothing/suit/storage/toggle/dominia/bomber,
+/obj/random/hoodie,
+/obj/random/hoodie,
+/obj/item/clothing/mask/offworlder{
+	color = "#495681"
+	},
+/obj/item/rig/light/offworlder,
+/obj/item/clothing/accessory/badge/passcard/scarab{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/obj/item/clothing/suit/storage/toggle/trench/colorable/random,
+/obj/item/clothing/suit/storage/toggle/trench/colorable/random,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/military/old,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/military/old,
+/obj/item/clothing/suit/storage/toggle/greatcoat,
+/obj/item/clothing/suit/storage/toggle/greatcoat/brown,
+/obj/item/clothing/suit/storage/toggle/himeo,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/tcaf,
+/obj/item/clothing/suit/storage/toggle/leather_jacket/flight/tcaf,
+/obj/item/clothing/suit/storage/tcaf/legion,
+/obj/item/clothing/suit/storage/tcaf/legion,
+/obj/item/clothing/suit/storage/tcaf/legion,
+/obj/item/clothing/suit/storage/tcaf/legion,
+/turf/simulated/floor/plating,
+/area/ship/freebooter_salvager/crew_quarters)
 "JP" = (
 /obj/structure/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 9
@@ -8352,29 +8431,6 @@
 	},
 /turf/simulated/floor,
 /area/ship/freebooter_salvager/engineering)
-"My" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = null
-	},
-/obj/effect/floor_decal/corner/dark_blue{
-	dir = 9
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/ammo_magazine/c45uzi,
-/obj/item/ammo_magazine/c45uzi,
-/obj/item/gun/projectile/automatic/mini_uzi,
-/obj/item/ammo_magazine/a556/carbine,
-/obj/item/ammo_magazine/a556/carbine,
-/obj/item/gun/projectile/automatic/rifle/carbine,
-/obj/item/clothing/head/helmet/security/generic,
-/obj/item/clothing/suit/armor/carrier/generic,
-/obj/item/material/knife/butterfly/switchblade,
-/obj/item/material/knife/bayonet,
-/obj/item/material/knife/bayonet,
-/obj/random/civgun/rifle,
-/obj/item/clothing/suit/armor/carrier/einstein_security,
-/turf/simulated/floor/tiled/gridded,
-/area/ship/freebooter_salvager/armory)
 "MC" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor,
@@ -8807,31 +8863,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/freebooter_salvager/ore_extraction)
-"Ow" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/head/dominia/fleet/armsman,
-/obj/item/clothing/head/dominia/fleet/armsman,
-/obj/item/clothing/head/dominia/fleet,
-/obj/item/clothing/head/dominia/fleet,
-/obj/item/clothing/head/softcap/himeo,
-/obj/item/clothing/head/sol/garrison,
-/obj/item/clothing/head/sol/army/service/officer,
-/obj/item/clothing/head/sol/marine/grey,
-/obj/item/clothing/head/sol/marine,
-/obj/item/clothing/head/ushanka/dominia,
-/obj/item/clothing/suit/storage/toggle/leather_jacket/designer/black,
-/obj/item/clothing/head/softcap,
-/obj/item/clothing/head/turban,
-/obj/item/clothing/head/turban/gadpathur,
-/obj/item/clothing/head/headbando/random,
-/obj/item/clothing/head/softcap/tcaf_cap,
-/obj/item/clothing/head/softcap/tcaf_cap,
-/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
-/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
-/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
-/obj/item/clothing/head/beret/tcaf/foreign_legion/field,
-/turf/simulated/floor/plating,
-/area/ship/freebooter_salvager/crew_quarters)
 "Oy" = (
 /obj/structure/lattice,
 /turf/simulated/floor/airless,
@@ -9100,38 +9131,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark,
 /area/ship/freebooter_salvager/forehallway)
-"PN" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/under/dominia/fleet,
-/obj/item/clothing/under/dominia/fleet,
-/obj/item/clothing/under/dominia/fleet/armsman,
-/obj/item/clothing/under/dominia/fleet/armsman,
-/obj/item/clothing/under/konyang/pirate,
-/obj/item/clothing/under/konyang/pirate,
-/obj/item/clothing/under/rank/sol/army/service/officer,
-/obj/item/clothing/under/rank/sol/army/grey,
-/obj/item/clothing/under/rank/sol/service/marine,
-/obj/item/clothing/under/rank/sol/marine,
-/obj/item/clothing/under/syndicate/tacticool,
-/obj/item/clothing/under/syndicate/tacticool,
-/obj/item/clothing/pants/jeans,
-/obj/item/clothing/under/syndicate/tracksuit,
-/obj/item/clothing/under/service_overalls,
-/obj/item/clothing/under/uniform/gadpathur,
-/obj/item/clothing/under/syndicate/combat,
-/obj/item/clothing/under/rank/elyran_fatigues,
-/obj/random/colored_jumpsuit,
-/obj/random/colored_jumpsuit,
-/obj/random/colored_jumpsuit,
-/obj/item/clothing/under/vysoka,
-/obj/item/clothing/under/tcaf/crew/foreign_legion,
-/obj/item/clothing/under/tcaf/crew/foreign_legion,
-/obj/item/clothing/under/tcaf/crew/foreign_legion,
-/obj/item/clothing/under/tcaf/crew/foreign_legion,
-/obj/item/clothing/under/rank/einstein/coveralls,
-/obj/item/clothing/head/einstein/kepi,
-/turf/simulated/floor/tiled/dark,
-/area/ship/freebooter_salvager/crew_quarters)
 "PP" = (
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/yellow{
 	dir = 6
@@ -105350,7 +105349,7 @@ Ii
 AL
 Kd
 HV
-My
+zb
 NY
 nN
 QC
@@ -109974,7 +109973,7 @@ NU
 NU
 at
 Vt
-rk
+kD
 LY
 YF
 AE
@@ -111257,9 +111256,9 @@ Ai
 SF
 GD
 gQ
-zd
-Ow
-PN
+JN
+se
+oP
 oH
 LE
 LM

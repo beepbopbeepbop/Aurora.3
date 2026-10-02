@@ -858,12 +858,12 @@
 /obj/structure/sign/flag/biesel{
 	pixel_x = -32
 	},
-/obj/item/clothing/accessory/tcaf/pauldron/prefect{
-	pixel_y = 6;
-	pixel_x = 5
+/obj/item/clothing/suit/storage/legion{
+	pixel_x = 6;
+	pixel_y = -2
 	},
-/obj/item/clothing/accessory/tcaf/medallion/astrarch{
-	pixel_y = 2
+/obj/item/clothing/head/beret/legion/sentinel{
+	pixel_y = 10
 	},
 /obj/item/gun/energy/blaster{
 	pixel_x = -3;
@@ -4365,6 +4365,14 @@
 /obj/item/clothing/suit/storage/toggle/leather_jacket/flight,
 /obj/item/clothing/suit/storage/toggle/leather_jacket/flight/green,
 /obj/item/clothing/suit/storage/toggle/leather_jacket/flight/white,
+/obj/item/clothing/head/softcap/tcfl,
+/obj/item/clothing/head/softcap/tcfl,
+/obj/item/clothing/head/beret/legion,
+/obj/item/clothing/head/beret/legion/field,
+/obj/item/clothing/suit/storage/legion,
+/obj/item/clothing/suit/storage/legion,
+/obj/item/clothing/under/legion,
+/obj/item/clothing/under/legion,
 /obj/item/clothing/suit/storage/vest/legion,
 /obj/item/clothing/accessory/storage/brown_vest,
 /obj/item/clothing/accessory/storage/brown_vest,
