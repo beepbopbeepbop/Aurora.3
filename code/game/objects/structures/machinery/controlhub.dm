@@ -341,11 +341,11 @@ ABSTRACT_TYPE(/obj/structure/machinery/controlhub)
 		"lobby door control" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 1),
 		"lobby door bolts" = list("type" = "airlock", "id" = "security_deck_2_lobby_door_interior", "functions" = 4),
 		"lobby safety shutters" = list("type" = "blast_door", "id" = "security_deck_2_lobby_shutter_lockdown"),
-		"department lockdown" = list("type" = "blast_door", "id" = "security_blast_lockdown")
+		"department lockdown" = list("type" = "blast_door", "id" = "security_blast_lockdown"),
 	// HOS' Office
 		"office door control" = list("type" = "airlock", "id" = "security_deck_2_hos_door", "functions" = 1),
 		"office door bolts" = list("type" = "airlock", "id" = "security_deck_2_hos_door", "functions" = 4),
-		"office window tint" = list("type" = "windowtint", "id" = "security_deck_2_hos_privacy")
+		"office window tint" = list("type" = "windowtint", "id" = "security_deck_2_hos_privacy"),
 	// Armoury
 		"public order armoury access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_shutter_access"),
 		"tactical armoury access" = list("type" = "blast_door", "id" = "security_deck_2_armoury_blast_access"),
