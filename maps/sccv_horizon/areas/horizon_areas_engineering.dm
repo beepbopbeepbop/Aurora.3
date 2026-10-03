@@ -139,7 +139,7 @@
 	horizon_deck = 2
 
 /area/horizon/engineering/atmos/storage_maintenance
-	name = "Atmos Storage maintenance"
+	name = "Atmos Storage Maintenance"
 	icon_state = "atmos_storage"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 	area_blurb = "The metal clanking of pipes being jostled; gas canister telltales blinking out from corners. \
