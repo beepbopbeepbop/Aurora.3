@@ -6,6 +6,7 @@
 /obj/structure/closet/secure_closet/scientist/fill()
 	new /obj/item/clothing/under/rank/scientist(src)
 	new /obj/item/clothing/suit/storage/toggle/labcoat(src)
+	new /obj/item/clothing/glasses/safety/goggles/science(src)
 	new /obj/item/clothing/shoes/sneakers/medsci(src)
 	new /obj/item/radio/headset/headset_sci(src)
 	new /obj/item/radio/headset/headset_sci/alt(src)

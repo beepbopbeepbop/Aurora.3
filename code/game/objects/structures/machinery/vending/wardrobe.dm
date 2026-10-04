@@ -528,13 +528,6 @@
 		/obj/item/clothing/shoes/sneakers/black = 3,
 		/obj/item/storage/stickersheet/religion = 2,
 		/obj/item/storage/box/fancy/candle_box = 10,
-		/obj/item/storage/box/trinary_perfection_flags = 1,
-		/obj/item/storage/box/luceism_flags = 1,
-		/obj/item/deck/tarot = 3,
-		/obj/item/deck/tarot/nralakk = 2,
-		/obj/item/deck/tarot/nonnralakk = 2,
-		/obj/item/deck/tarot/adhomai = 2,
-		/obj/item/deck/lyodii = 2
 	)
 	contraband = list(
 		/obj/item/clothing/suit/cultrobes/alt = 2,

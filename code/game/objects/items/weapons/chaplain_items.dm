@@ -495,8 +495,11 @@
 	name = "altar"
 	desc = "A small portable altar."
 	icon = 'icons/obj/cult.dmi'
-	icon_state = "talismanaltar"
-	can_hold = list(/obj/item/nullrod)
+	icon_state = "churchaltar"
+	can_hold = list(
+		/obj/item/nullrod,
+		/obj/item/storage/bible
+	)
 	storage_slots = 1
 	drop_sound = 'sound/items/drop/axe.ogg'
 	pickup_sound = 'sound/items/pickup/axe.ogg'

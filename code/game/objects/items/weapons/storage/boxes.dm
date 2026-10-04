@@ -1179,6 +1179,87 @@
 	illustration = "paper"
 	starts_with = list(/obj/item/versebook/nka = 6)
 
+/obj/item/storage/box/tribunal
+	name = "\improper Tribunal Codex box"
+	desc = "A box filled with copies of the Tribunal Codex."
+	illustration = "paper"
+	starts_with = list(/obj/item/versebook/tribunal = 6)
+
+/obj/item/storage/box/luceism
+	name = "\improper Luceian Scripture box"
+	desc = "A box filled with copies of the Luceian Book of Scripture."
+	illustration = "paper"
+	starts_with = list(/obj/item/versebook/assunzione = 6)
+
+/obj/item/storage/box/luceism/pocket
+	name = "\improper pocket Luceian Scripture box"
+	desc = "A box filled with miniature copies of the Luceian Book of Scripture."
+	illustration = "paper"
+	starts_with = list(/obj/item/versebook/assunzione/pocket = 6)
+
+/obj/item/storage/box/trinary
+	name = "\improper The Order box"
+	desc = "A box filled with abridged copies of The Order."
+	illustration = "paper"
+	starts_with = list(/obj/item/versebook/trinary = 6)
+
+/obj/item/storage/box/skakh
+	name = "\improper Sk'akh Legends box"
+	desc = "A box filled with copies of the Sk'akh Legends."
+	illustration = "paper"
+	starts_with = list(/obj/item/versebook/skakh = 6)
+
+/obj/item/storage/box/thakh
+	name = "\improper Th'akh fables box"
+	desc = "A box filled with copies of the Th'akh fables."
+	illustration = "paper"
+	starts_with = list(/obj/item/versebook/thakh = 6)
+
+/obj/item/storage/box/suns
+	name = "\improper Holy Scrolls box"
+	desc = "A box filled with copies of the Holy Scrolls."
+	illustration = "paper"
+	starts_with = list(/obj/item/versebook/twinsuns = 6)
+
+/obj/item/storage/box/matake
+	name = "\improper Ma'ta'ke legends box"
+	desc = "A box filled with copies of the Ma'ta'ke legends."
+	illustration = "paper"
+	starts_with = list(/obj/item/versebook/matake = 6)
+
+/obj/item/storage/box/necklace/christianity
+	name = "\improper Crucifix box"
+	desc = "A box filled with Crucifix necklaces."
+	illustration = "writing"
+	starts_with = list(
+		/obj/item/clothing/accessory/crucifix/silver = 3,
+		/obj/item/clothing/accessory/crucifix/gold = 3
+	)
+
+/obj/item/storage/box/necklace/tribunal
+	name = "\improper Tribunal necklace box"
+	desc = "A box filled with Tribunal necklaces."
+	illustration = "writing"
+	starts_with = list(/obj/item/clothing/accessory/dominia = 6)
+
+/obj/item/storage/box/necklace/luceism
+	name = "\improper Luceian amulet box"
+	desc = "A box filled with Luceian amulets."
+	illustration = "writing"
+	starts_with = list(/obj/item/clothing/accessory/assunzione = 6)
+
+/obj/item/storage/box/badge/trinary
+	name = "\improper Trinary brooch box"
+	desc = "A box filled with Trinary brooches."
+	illustration = "writing"
+	starts_with = list(/obj/item/clothing/accessory/badge/trinary = 6)
+
+/obj/item/storage/box/necklace/suns
+	name = "\improper Twin Suns talisman box"
+	desc = "A box filled with Twin Suns talismans."
+	illustration = "writing"
+	starts_with = list(/obj/item/clothing/accessory/tajaran/charm/twin_suns = 6)
+
 /obj/item/storage/box/suns_flags
 	name = "s'rand'marr Worship flag box"
 	desc = "A box filled with flags of the S'rend'marr faith."
@@ -1200,26 +1281,6 @@
 		/obj/item/flag/kraszar = 1,
 		/obj/item/flag/dhrarmela = 1,
 		/obj/item/flag/azubarre = 1
-	)
-
-/obj/item/storage/box/trinary_perfection_flags
-	name = "Trinary Perfection flag box"
-	desc = "A box filled to the brim with various flags associated with the Trinary Perfection, and the Ecclesiastical Authority of Axiom."
-	starts_with = list(
-		/obj/item/flag/trinaryperfection = 4,
-		/obj/item/flag/trinaryperfection/l = 2,
-		/obj/item/flag/ecclesiastical_axiom = 4,
-		/obj/item/flag/ecclesiastical_axiom/l = 2
-	)
-
-/obj/item/storage/box/luceism_flags
-	name = "Luceist flag box"
-	desc = "A box filled to the brim with various flags associated with Luceism, the state religion of Assunzione."
-	starts_with = list(
-		/obj/item/flag/luceist = 4,
-		/obj/item/flag/luceist/l = 2,
-		/obj/item/flag/assunzione = 4,
-		/obj/item/flag/assunzione/l = 2
 	)
 
 /// Parent object of various national flag boxes. Original intention for random cargo spawn.
@@ -1450,6 +1511,49 @@
 		/obj/item/flag/zenghu/l = 3,
 		/obj/item/flag/eridani = 4,
 		/obj/item/flag/eridani/l = 3
+	)
+
+/obj/item/storage/box/large/suns_flags
+	name = "S'rand'marr Worship flag box"
+	desc = "A box filled with flags of the S'rend'marr faith."
+	illustration = "flags"
+	starts_with = list(
+		/obj/item/flag/srendarr = 8,
+		/obj/item/flag/messa = 8
+	)
+
+/obj/item/storage/box/large/matake_flags
+	name = "Ma'ta'ke Pantheon flag box"
+	desc = "A box filled to the brim with the various flags of the Ma'ta'ke Pantheon."
+	illustration = "flags"
+	starts_with = list(
+		/obj/item/flag/matake = 2,
+		/obj/item/flag/marryam = 2,
+		/obj/item/flag/rredouane = 2,
+		/obj/item/flag/shumaila = 2,
+		/obj/item/flag/kraszar = 2,
+		/obj/item/flag/dhrarmela = 2,
+		/obj/item/flag/azubarre = 2
+	)
+
+/obj/item/storage/box/large/trinary_flags
+	name = "Trinary Perfection flag box"
+	desc = "A box filled to the brim with various flags associated with the Trinary Perfection, and the Ecclesiastical Authority of Axiom."
+	starts_with = list(
+		/obj/item/flag/trinaryperfection = 8,
+		/obj/item/flag/trinaryperfection/l = 4,
+		/obj/item/flag/ecclesiastical_axiom = 4,
+		/obj/item/flag/ecclesiastical_axiom/l = 2
+	)
+
+/obj/item/storage/box/large/luceism_flags
+	name = "Luceism flag box"
+	desc = "A box filled to the brim with various flags associated with Luceism, the state religion of Assunzione."
+	starts_with = list(
+		/obj/item/flag/luceist = 8,
+		/obj/item/flag/luceist/l = 4,
+		/obj/item/flag/assunzione = 4,
+		/obj/item/flag/assunzione/l = 2
 	)
 
 /// Random misc flags- either non-national or no longer in use or controversial or straight-up contraband. Randomized contents from Initialize().

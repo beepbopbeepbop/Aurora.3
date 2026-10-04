@@ -932,3 +932,61 @@
 	new /obj/item/tent/science(src)
 	new /obj/item/tent/security(src)
 	new /obj/item/tent/vehicle_workshop(src)
+
+// Chapel faith-specific decor supplies
+/obj/structure/closet/crate/chapel
+	name = "chapel crate - parent"
+	desc = "chapel!"
+
+// Human faiths
+/obj/structure/closet/crate/chapel/human
+	name = "human chapel crate"
+
+/obj/structure/closet/crate/chapel/human/fill()
+	new /obj/item/storage/box/tribunal(src)
+	new /obj/item/storage/box/luceism(src)
+	new /obj/item/storage/box/luceism/pocket(src)
+	new /obj/item/storage/box/trinary(src)
+	new /obj/item/storage/box/large/luceism_flags(src)
+	new /obj/item/storage/box/large/trinary_flags(src)
+	new /obj/item/storage/box/necklace/christianity(src)
+	new /obj/item/storage/box/necklace/tribunal(src)
+	new /obj/item/storage/box/necklace/luceism(src)
+	new /obj/item/storage/box/badge/trinary(src)
+	new /obj/item/flame/lighter/zippo/luceian(src)
+	new /obj/item/flame/lighter/zippo/dominia(src)
+	new /obj/item/deck/tarot(src)
+	new /obj/item/deck/lyodii(src)
+	new /obj/item/storage/stickersheet/religion/abrahamic(src)
+	new /obj/item/storage/stickersheet/religion/tribunal(src)
+	new /obj/item/storage/stickersheet/religion/luceism(src)
+	new /obj/item/storage/stickersheet/religion/trinary(src)
+	new /obj/structure/flora/pottedplant/luce_vine(src)
+	for(var/i = 1 to 6)
+		new /obj/structure/flora/pottedplant_small/luce_vine(src)
+		new /obj/item/storage/assunzionesheath/filled (src)
+// ------------
+
+// Alien faiths
+/obj/structure/closet/crate/chapel/alien
+	name = "non-human chapel crate"
+
+/obj/structure/closet/crate/chapel/alien/fill()
+	new /obj/item/storage/box/skakh(src)
+	new /obj/item/storage/box/thakh(src)
+	new /obj/item/storage/box/suns(src)
+	new /obj/item/storage/box/matake(src)
+	new /obj/item/storage/box/large/suns_flags(src)
+	new /obj/item/storage/box/large/matake_flags(src)
+	new /obj/item/storage/box/necklace/suns(src)
+	new /obj/item/flame/lighter/adhomai(src)
+	for(var/i = 1 to 2)
+		new /obj/item/deck/tarot/adhomai(src)
+		new /obj/item/storage/pill_bottle/dice/tajara(src)
+	new /obj/item/storage/stickersheet/religion/tajara(src)
+	new /obj/item/storage/altar/kraszar(src)
+	new /obj/item/storage/altar/rredouane(src)
+	new /obj/item/storage/altar/dharmela(src)
+	new /obj/item/storage/altar/minharzzka(src)
+	new /obj/item/storage/altar/marryam(src)
+// ------------

@@ -69,6 +69,41 @@
 		/obj/item/sticker/religious/trinary = 2
 	)
 
+/obj/item/storage/stickersheet/religion/abrahamic
+	name = "abrahamic faith sticker sheet"
+	starts_with = list(
+		/obj/item/sticker/religious/cross = 4,
+		/obj/item/sticker/religious/crucifix = 4,
+		/obj/item/sticker/religious/islam = 4
+	)
+
+/obj/item/storage/stickersheet/religion/tribunal
+	name = "tribunal sticker sheet"
+	starts_with = list(
+		/obj/item/sticker/religious/tribunal = 6,
+		/obj/item/sticker/flagpole/dominia = 4,
+		/obj/item/sticker/flagpole/dominia/caladius = 2
+	)
+
+/obj/item/storage/stickersheet/religion/luceism
+	name = "luceism sticker sheet"
+	starts_with = list(
+		/obj/item/sticker/religious/luceism = 8,
+		/obj/item/sticker/flagpole/coalition/assunzione = 4
+	)
+
+/obj/item/storage/stickersheet/religion/trinary
+	name = "trinary perfection sticker sheet"
+	starts_with = list(
+		/obj/item/sticker/religious/trinary = 12
+	)
+
+/obj/item/storage/stickersheet/religion/tajara
+	name = "twin suns sticker sheet"
+	starts_with = list(
+		/obj/item/sticker/religious/twinsuns = 12
+	)
+
 /obj/item/storage/stickersheet/biesel
 	name = "republic of biesel sticker sheet"
 	starts_with = list(
