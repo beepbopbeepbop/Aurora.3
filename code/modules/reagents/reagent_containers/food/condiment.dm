@@ -111,6 +111,12 @@
 	fixed_state = TRUE
 	reagents_to_add = list(/singleton/reagent/nutriment/flour = 200)
 
+/obj/item/reagent_containers/food/condiment/flour/nfrihi
+	name = "blizzard ear flour sack"
+	desc = "Flour ground from pure Adhomian blizzard ears!"
+	icon_state = "flour_blizzard"
+	reagents_to_add = list(/singleton/reagent/nutriment/flour/nfrihi = 200)
+
 /obj/item/reagent_containers/food/condiment/barbecue
 	icon_state = "barbecue"
 	fixed_state = TRUE

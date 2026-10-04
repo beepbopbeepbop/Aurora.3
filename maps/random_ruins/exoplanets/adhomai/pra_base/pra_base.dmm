@@ -11,6 +11,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/presidium/antechamber)
+"ac" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/tank_wall/air{
+	icon_state = "air8"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "ae" = (
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside/cages)
@@ -43,15 +52,8 @@
 /turf/simulated/floor/exoplanet/mineral/cave/adhomai,
 /area/pra_base/outside/artillery)
 "ap" = (
-/obj/structure/table/reinforced/steel,
-/obj/structure/rod_railing,
-/obj/item/clothing/ears/earmuffs{
-	pixel_y = 7
-	},
-/obj/item/clothing/glasses/safety/goggles{
-	pixel_y = 6
-	},
-/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "ar" = (
 /obj/effect/decal/curb{
@@ -124,9 +126,10 @@
 /turf/simulated/floor/carpet/rubber,
 /area/pra_base/inside/garage)
 "aC" = (
-/obj/item/ammo_magazine/boltaction/adhomai/blank,
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
-/area/pra_base/outside/firing_range)
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/table/stone/marble,
+/turf/simulated/floor/tiled/white,
+/area/pra_base/inside/barracks/kitchen)
 "aE" = (
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/checkpoint)
@@ -227,11 +230,10 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "bj" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/tank_wall/air{
-	icon_state = "air16"
+/obj/structure/rod_railing/jailbar{
+	dir = 4
 	},
-/turf/simulated/floor/exoplanet/plating,
+/turf/simulated/floor/exoplanet/permafrost/cold,
 /area/pra_base/outside)
 "bk" = (
 /turf/simulated/floor/exoplanet/asphalt,
@@ -378,6 +380,11 @@
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/pra_base/outside)
+"bY" = (
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/machinery/chem_heater,
+/turf/simulated/floor/tiled/white,
+/area/pra_base/inside/barracks/kitchen)
 "bZ" = (
 /obj/structure/closet/secure_closet{
 	req_access = list(/datum/access/pra)
@@ -435,6 +442,11 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/barracks/bunks)
+"cc" = (
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/machinery/smartfridge/foodheater/buffet,
+/turf/simulated/floor/tiled/white,
+/area/pra_base/inside/barracks/kitchen)
 "ce" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -446,6 +458,10 @@
 /obj/random/dirt_75,
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/silo/blastdoor)
+"cf" = (
+/obj/item/storage/box/large/condiment,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/pra_base/outside)
 "ci" = (
 /obj/effect/map_effect/map_helper/ruler_tiles_3,
 /obj/effect/decal/curb{
@@ -453,6 +469,12 @@
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
+"ck" = (
+/obj/structure/machinery/atmospherics/binary/passive_gate/on{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/pra_base/inside/barracks/kitchen)
 "cl" = (
 /obj/effect/decal/road_marking,
 /obj/effect/decal/curb,
@@ -500,16 +522,13 @@
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/paf_transport)
 "cC" = (
-/obj/structure/tank_wall/carbon_dioxide{
-	density = 0;
-	icon_state = "co2-5";
-	opacity = 0
+/obj/structure/machinery/atmospherics/pipe/simple/visible/yellow,
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 8
 	},
-/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "cD" = (
 /obj/structure/platform/metal,
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
@@ -524,6 +543,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/pra_base/inside/barracks/kitchen)
+"cJ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/tank_wall/air{
+	icon_state = "air13"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "cL" = (
 /obj/structure/platform/column{
 	dir = 4
@@ -574,11 +602,11 @@
 /turf/simulated/floor/plating,
 /area/shuttle/paf_transport)
 "cZ" = (
-/obj/effect/decal/curb{
-	dir = 10
+/obj/effect/decal/curb,
+/obj/effect/floor_decal/concrete/gutter/corner{
+	dir = 1
 	},
-/obj/structure/rod_railing/jailbar,
-/turf/simulated/floor/exoplanet/snow/cold,
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
 /area/pra_base/outside)
 "db" = (
 /obj/structure/railing/mapped/no_density/low{
@@ -628,14 +656,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/paf_transport)
 "do" = (
-/obj/effect/floor_decal/industrial/warning{
+/obj/effect/floor_decal/spline/plain/corner/black{
 	dir = 4
 	},
-/obj/structure/tank_wall/air{
-	icon_state = "air13"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "dp" = (
 /obj/item/reagent_containers/food/snacks/hmatrrameat,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -934,9 +959,14 @@
 /turf/simulated/floor/exoplanet/mineral/cave/adhomai,
 /area/pra_base/outside/artillery)
 "fh" = (
-/obj/structure/machinery/atmospherics/pipe/manifold4w/visible/black,
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "fi" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor/asphalt,
@@ -972,20 +1002,17 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/pra_base/outside)
 "fA" = (
-/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/obj/structure/machinery/atmospherics/pipe/simple/visible/yellow,
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "fB" = (
 /turf/simulated/floor/tiled/light/full,
 /area/pra_base/inside/infirmary)
 "fE" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 9
-	},
+/obj/structure/machinery/atmospherics/binary/pump/high_power,
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "fH" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 10
@@ -998,6 +1025,15 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base/inside/silo/control)
+"fM" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-10"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "fP" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/effect/map_effect/window_spawner/full/shuttle/raider,
@@ -1147,6 +1183,20 @@
 "gU" = (
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/pra_base/outside)
+"gZ" = (
+/obj/effect/map_effect/marker/airlock/docking/pra_base/landing_pad,
+/obj/structure/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 4;
+	pixel_x = -21;
+	pixel_y = 6
+	},
+/obj/structure/machinery/airlock_sensor{
+	dir = 4;
+	pixel_x = -21;
+	pixel_y = -6
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "hb" = (
 /obj/structure/arch/gothic/northsouth/_single,
 /obj/effect/decal/road_marking{
@@ -1182,6 +1232,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/silo/hallway_lower)
+"hn" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/tank_wall/air{
+	icon_state = "air14"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "ho" = (
 /obj/structure/platform/rock/icy,
 /obj/structure/platform/rock/icy{
@@ -1221,11 +1278,9 @@
 	},
 /area/pra_base/inside/silo/blastdoor)
 "hC" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 6
-	},
-/turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/obj/structure/machinery/smartfridge/drying_rack,
+/turf/simulated/floor/plating,
+/area/pra_base/inside/barracks/kitchen)
 "hH" = (
 /obj/item/towel_flat/doormat,
 /obj/effect/floor_decal/spline/fancy/wood,
@@ -1285,11 +1340,10 @@
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/silo/blastdoor)
 "hY" = (
-/obj/structure/machinery/atmospherics/pipe/manifold/visible{
-	dir = 8
+/obj/effect/decal/curb{
+	dir = 6
 	},
-/obj/structure/machinery/meter,
-/turf/simulated/floor/exoplanet/asphalt,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
 "ic" = (
 /obj/effect/floor_decal/corner_wide/red{
@@ -1324,6 +1378,43 @@
 /obj/item/reagent_containers/food/snacks/avah,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
+"im" = (
+/obj/structure/bed/stool/chair/padded/brown,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base/inside/presidium/commissar_quarters)
+"in" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/closet/secure_closet/freezer,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/meat/adhomai,
+/obj/item/reagent_containers/food/snacks/spreads/lard,
+/obj/item/reagent_containers/food/snacks/spreads/lard,
+/obj/item/reagent_containers/food/snacks/spreads/lard,
+/obj/item/reagent_containers/food/snacks/spreads/lard,
+/obj/item/reagent_containers/food/snacks/spreads/lard,
+/obj/item/reagent_containers/food/snacks/hardbread,
+/obj/item/reagent_containers/food/snacks/hardbread,
+/obj/item/reagent_containers/food/snacks/hardbread,
+/obj/item/reagent_containers/food/snacks/tajaran_bread,
+/obj/item/reagent_containers/food/snacks/tajaran_bread,
+/obj/item/reagent_containers/food/snacks/tajaran_bread,
+/obj/item/reagent_containers/food/snacks/tajaran_bread,
+/obj/item/reagent_containers/food/snacks/flatbread,
+/obj/item/reagent_containers/food/snacks/flatbread,
+/obj/item/reagent_containers/food/snacks/flatbread,
+/obj/item/reagent_containers/food/snacks/sliceable/adhomian_cheese,
+/obj/item/reagent_containers/food/snacks/dip/sarmikhir,
+/obj/item/reagent_containers/food/snacks/dip/tajhummus,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base/inside/barracks/kitchen)
 "ip" = (
 /obj/structure/platform/rock/icy{
 	dir = 8
@@ -1352,15 +1443,39 @@
 	},
 /turf/simulated/floor/tiled/light/full,
 /area/pra_base/inside/infirmary)
+"iz" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/closet/secure_closet/freezer,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour/nfrihi,
+/obj/item/reagent_containers/food/condiment/flour/nfrihi,
+/obj/item/reagent_containers/food/condiment/gelatin,
+/obj/item/reagent_containers/food/condiment/gelatin,
+/obj/item/reagent_containers/food/condiment/sugar,
+/obj/item/reagent_containers/food/condiment/sugar,
+/obj/item/storage/box/fancy/egg_box,
+/obj/item/storage/box/fancy/egg_box,
+/obj/item/storage/box/fancy/egg_box/tunneler,
+/obj/item/storage/box/fancy/egg_box/tunneler,
+/obj/item/reagent_containers/food/drinks/carton/milk,
+/obj/item/reagent_containers/food/drinks/carton/milk,
+/obj/item/reagent_containers/food/drinks/carton/cream,
+/obj/item/reagent_containers/food/drinks/carton/cream,
+/obj/item/reagent_containers/food/drinks/carton/fatshouters,
+/obj/item/reagent_containers/food/drinks/carton/fatshouters,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base/inside/barracks/kitchen)
 "iB" = (
 /obj/effect/map_effect/window_spawner/full/reinforced/grille,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base/inside/presidium/hall)
 "iD" = (
-/obj/structure/table/stone/marble,
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/pra_base/inside/barracks/kitchen)
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "iE" = (
 /obj/item/reagent_containers/food/drinks/carton/mutthir,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -1385,16 +1500,12 @@
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/garage)
 "iS" = (
-/obj/structure/tank_wall/carbon_dioxide{
-	density = 0;
-	icon_state = "co2-6";
-	opacity = 0
+/obj/effect/floor_decal/industrial/warning/dust/corner,
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 4
 	},
-/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "iT" = (
 /obj/structure/bed/stool/chair{
 	dir = 1
@@ -1456,10 +1567,17 @@
 /turf/simulated/floor/exoplanet/mineral/cave/adhomai,
 /area/pra_base/outside/artillery)
 "jq" = (
-/obj/structure/machinery/appliance/cooker/fryer,
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/pra_base/inside/barracks/kitchen)
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "jr" = (
 /obj/structure/weapons_rack{
 	req_access = list(/datum/access/pra)
@@ -1471,9 +1589,13 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/armoury)
 "ju" = (
-/obj/structure/machinery/atmospherics/pipe/manifold4w/visible,
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "jw" = (
 /obj/effect/floor_decal/corner_wide/grey/diagonal,
 /obj/structure/machinery/washing_machine,
@@ -1529,21 +1651,21 @@
 /turf/simulated/floor/tiled/light/full,
 /area/pra_base/inside/infirmary)
 "jN" = (
-/obj/structure/tank_wall/carbon_dioxide{
-	density = 0;
-	icon_state = "co2-11";
-	opacity = 0
-	},
-/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/obj/structure/tank_wall/air{
+	icon_state = "air7"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "jO" = (
 /obj/effect/decal/curb{
-	dir = 9
+	dir = 1
 	},
-/obj/effect/floor_decal/concrete/gutter/corner,
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8
+	},
 /turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
 /area/pra_base/outside/firing_range)
 "jP" = (
@@ -1669,6 +1791,15 @@
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
+"kz" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/tank_wall/air{
+	icon_state = "air4"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "kA" = (
 /obj/effect/floor_decal/industrial/hatch_door/red,
 /obj/structure/machinery/door/airlock/external{
@@ -1685,20 +1816,24 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_base/inside/barracks/lavatory)
 "kE" = (
-/obj/structure/rod_railing/jailbar{
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 8
+	},
+/obj/effect/decal/road_marking{
 	dir = 4
 	},
 /obj/effect/decal/curb{
-	dir = 4
+	dir = 8
 	},
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "kF" = (
-/obj/structure/machinery/door/urban/metal_alt{
-	req_access = list(/datum/access/pra)
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
-/turf/simulated/floor/tiled/dark/full,
-/area/pra_base/inside/barracks/kitchen)
+/obj/structure/tank_wall/carbon_dioxide,
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "kH" = (
 /obj/structure/ship_weapon_dummy/icbm_dummy,
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -1771,14 +1906,13 @@
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/presidium/commissar_office)
 "kZ" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
+/obj/structure/machinery/atmospherics/pipe/simple/visible/supply{
+	dir = 5
 	},
-/obj/structure/tank_wall/air{
-	icon_state = "air2"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/effect/decal/curb/corner,
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "lc" = (
 /turf/space/transit/north,
 /area/space)
@@ -1827,6 +1961,12 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/presidium/commissar_quarters)
+"lk" = (
+/obj/structure/machinery/atmospherics/pipe/manifold/visible/black{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "lo" = (
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/presidium/commissar_office)
@@ -1897,10 +2037,11 @@
 /turf/simulated/wall/shuttle/raider,
 /area/shuttle/paf_transport)
 "lI" = (
-/obj/effect/floor_decal/corner/paleblue/diagonal,
-/obj/structure/closet/secure_closet/freezer,
-/turf/simulated/floor/tiled/freezer/cold,
-/area/pra_base/inside/barracks/kitchen)
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "lK" = (
 /obj/effect/floor_decal/industrial/hatch_door/yellow{
 	dir = 1;
@@ -1957,9 +2098,8 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/pra_base/outside)
 "lR" = (
-/obj/item/shovel,
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
-/area/pra_base/outside/firing_range)
+/turf/simulated/wall/r_wall,
+/area/pra_base/out_of_bounds)
 "lU" = (
 /obj/effect/floor_decal/corner_wide/red{
 	dir = 4
@@ -2029,10 +2169,7 @@
 /turf/simulated/floor/carpet/red,
 /area/pra_base/inside/presidium/commissar_office)
 "mi" = (
-/obj/item/gun/projectile/shotgun/pump/rifle/blank{
-	desc = "A cheap ballistic rifle, often found in the hands of Tajaran conscripts."
-	},
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "mj" = (
 /obj/structure/bed/stool/chair/folding,
@@ -2044,10 +2181,10 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_base/inside/barracks/lavatory)
 "mn" = (
-/obj/structure/shipping_container/refrigerated/orion,
-/obj/effect/decal/curb,
-/turf/simulated/floor/exoplanet/permafrost/cold,
-/area/pra_base/outside)
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/machinery/appliance/cooker/stove,
+/turf/simulated/floor/tiled/white,
+/area/pra_base/inside/barracks/kitchen)
 "mo" = (
 /obj/structure/machinery/door/urban/jail_door{
 	req_access = list(/datum/access/pra)
@@ -2058,9 +2195,17 @@
 /turf/simulated/floor/exoplanet/permafrost/cold,
 /area/pra_base/outside/cages)
 "mr" = (
-/obj/item/reagent_containers/food/condiment/gelatin,
-/turf/simulated/floor/tiled/dark,
-/area/pra_base/inside/barracks/kitchen)
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "mt" = (
 /obj/effect/floor_decal/corner_wide/dark_blue{
 	dir = 9
@@ -2069,12 +2214,15 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_base/inside/infirmary)
 "mv" = (
-/obj/effect/floor_decal/industrial/warning{
+/obj/effect/decal/curb/corner{
 	dir = 1
 	},
-/obj/structure/tank_wall/carbon_dioxide,
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/structure/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 6
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "mx" = (
 /obj/effect/floor_decal/corner_wide/red/full,
 /obj/structure/bed/stool/chair{
@@ -2083,16 +2231,18 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/presidium/hall)
 "mA" = (
-/obj/effect/map_effect/marker/landing_zone_border,
-/turf/simulated/floor/exoplanet/asphalt,
+/obj/item/storage/box/large/produce/adhomai,
+/turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "mC" = (
-/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
 /obj/structure/tank_wall/air{
-	icon_state = "air14"
+	icon_state = "air9"
 	},
 /turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "mD" = (
 /obj/item/reagent_containers/food/snacks/vegetable_rikazu,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -2129,11 +2279,18 @@
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/abyss,
 /area/pra_base/inside/silo/launch)
+"mW" = (
+/obj/structure/machinery/atmospherics/valve,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "mY" = (
-/obj/structure/barricade/wooden/road{
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
 	dir = 4
 	},
-/turf/simulated/floor/exoplanet/permafrost/cold,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "mZ" = (
 /obj/effect/floor_decal/spline/plain/black{
@@ -2167,13 +2324,17 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
 "nj" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-15"
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 1
 	},
-/obj/structure/machinery/atmospherics/pipe/simple/visible/black,
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "nm" = (
 /obj/structure/rod_railing/jailbar,
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
@@ -2220,14 +2381,12 @@
 /turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
 /area/pra_base/outside)
 "ny" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
 	},
-/obj/structure/tank_wall/air{
-	icon_state = "air7"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "nB" = (
 /obj/structure/closet/crate/secure/weapon/alt{
 	req_access = list(/datum/access/pra)
@@ -2246,14 +2405,31 @@
 	},
 /turf/simulated/floor/tiled/ridged,
 /area/pra_base/inside/silo/hallway_lower)
+"nE" = (
+/obj/item/reagent_containers/food/condiment/syrup_dirtberry,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/pra_base/outside)
 "nF" = (
-/obj/structure/machinery/atmospherics/valve,
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 5
+	},
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "nS" = (
-/obj/structure/lattice/catwalk/indoor/urban,
-/turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/table/stone/marble,
+/obj/item/reagent_containers/food/drinks/bottle/victorygin,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base/inside/barracks/kitchen)
 "nU" = (
 /obj/structure/machinery/computer/operating/terminal,
 /turf/simulated/floor/tiled/white,
@@ -2264,11 +2440,20 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/paf_transport)
-"nX" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible{
-	dir = 10
+"nW" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-7"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
+"nX" = (
 /obj/structure/machinery/meter,
+/obj/structure/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/pra_base/inside/barracks/kitchen)
 "nY" = (
@@ -2300,14 +2485,23 @@
 /turf/simulated/floor/tiled/bitile/middle,
 /area/pra_base/inside/silo/ai)
 "og" = (
-/obj/effect/floor_decal/industrial/warning{
+/obj/effect/floor_decal/corner_wide/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/pra_base/inside/silo/hallway_lower)
+"oh" = (
+/obj/effect/floor_decal/corner_wide/red{
 	dir = 8
 	},
-/obj/structure/tank_wall/air{
-	icon_state = "air10"
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 5
 	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/tiled/dark,
+/area/pra_base/inside/silo/hallway_lower)
 "oi" = (
 /obj/structure/machinery/door/airlock/highsecurity{
 	req_access = list(/datum/access/pra)
@@ -2345,6 +2539,13 @@
 /obj/effect/map_effect/window_spawner/full/shuttle/raider,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/paf_transport)
+"os" = (
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/floor_decal/concrete/gutter/corner,
+/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/area/pra_base/outside)
 "ot" = (
 /obj/effect/floor_decal/corner_wide/red,
 /obj/effect/floor_decal/spline/plain/black{
@@ -2405,6 +2606,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/silo/hallway_lower)
+"oF" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/tank_wall/air{
+	icon_state = "air3"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "oH" = (
 /obj/effect/floor_decal/snowdrift/large/random,
 /obj/effect/decal/curb{
@@ -2446,6 +2656,11 @@
 /obj/effect/decal/cleanable/floor_damage/random_burned,
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/silo/launch)
+"oU" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/machinery/atmospherics/pipe/simple/visible/yellow,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "oW" = (
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 9
@@ -2466,22 +2681,10 @@
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/silo/blastdoor)
 "pf" = (
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(/datum/access/pra)
-	},
-/obj/item/clothing/suit/armor/carrier/heavy{
-	starting_accessories = list(/obj/item/clothing/accessory/armor_plate/heavy,/obj/item/clothing/accessory/storage/modular_pouch/large)
-	},
-/obj/item/clothing/glasses/safety/goggles/tactical,
-/obj/item/clothing/mask/gas/half,
-/obj/item/gun/projectile/deagle/adhomai,
-/obj/item/ammo_magazine/a50,
-/obj/item/ammo_magazine/a50,
-/obj/item/ammo_magazine/a50,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
-/obj/item/material/knife/trench,
+/obj/structure/table/wood,
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/presidium/commissar_quarters)
 "pg" = (
@@ -2570,14 +2773,11 @@
 /turf/simulated/floor/tiled/light/full,
 /area/pra_base/inside/infirmary)
 "pK" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 10
 	},
-/obj/structure/tank_wall/air{
-	icon_state = "air4"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "pN" = (
 /obj/structure/platform/metal_alt,
 /obj/structure/platform/metal_alt{
@@ -2598,19 +2798,15 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
 "pQ" = (
-/obj/effect/map_effect/marker/airlock/docking/pra_base/landing_pad,
-/obj/structure/machinery/embedded_controller/radio/airlock/docking_port{
-	dir = 4;
-	pixel_x = -21;
-	pixel_y = 6
+/obj/effect/decal/road_marking{
+	dir = 8
 	},
-/obj/structure/machinery/airlock_sensor{
-	dir = 4;
-	pixel_x = -21;
-	pixel_y = -6
+/obj/effect/decal/curb{
+	dir = 4
 	},
+/obj/effect/floor_decal/spline/plain/corner/black,
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "pS" = (
 /obj/structure/platform/column{
 	dir = 1
@@ -2680,20 +2876,21 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
 "qq" = (
-/obj/effect/decal/curb{
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
-/area/pra_base/outside/firing_range)
-"qt" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-10"
-	},
-/turf/simulated/floor/exoplanet/plating,
+/obj/structure/rod_railing/jailbar,
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
+"qs" = (
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/machinery/vending/dinnerware,
+/turf/simulated/floor/tiled/white,
+/area/pra_base/inside/barracks/kitchen)
+"qt" = (
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "qv" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -2722,11 +2919,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/silo/control)
 "qE" = (
-/obj/structure/machinery/atmospherics/pipe/manifold/visible{
-	dir = 1
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 5
 	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "qF" = (
 /obj/effect/floor_decal/industrial/hatch_door/yellow{
 	dir = 1;
@@ -2779,7 +2976,9 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "qU" = (
-/obj/structure/machinery/atmospherics/pipe/manifold/visible,
+/obj/structure/machinery/atmospherics/pipe/simple/visible{
+	dir = 5
+	},
 /turf/simulated/floor/plating,
 /area/pra_base/inside/barracks/kitchen)
 "qW" = (
@@ -2846,9 +3045,9 @@
 /turf/simulated/floor/exoplanet/permafrost/cold,
 /area/pra_base/outside/cages)
 "ru" = (
-/obj/effect/floor_decal/corner/paleblue/diagonal,
-/obj/structure/reagent_dispensers/cookingoil,
-/turf/simulated/floor/tiled/freezer/cold,
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/machinery/appliance/cooker/oven,
+/turf/simulated/floor/tiled/white,
 /area/pra_base/inside/barracks/kitchen)
 "rw" = (
 /obj/effect/floor_decal/corner_wide/red{
@@ -2862,14 +3061,14 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "ry" = (
-/obj/effect/floor_decal/industrial/warning{
+/obj/effect/decal/road_marking/reflector{
 	dir = 1
 	},
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-3"
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
 	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "rz" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -2883,14 +3082,12 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_base/inside/infirmary)
 "rE" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
+/obj/structure/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 9
 	},
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-2"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "rK" = (
 /obj/effect/floor_decal/spline/plain/black,
 /obj/effect/floor_decal/corner_wide/red{
@@ -2963,6 +3160,16 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base/inside/barracks/lavatory)
+"sk" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "sm" = (
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/yellow,
 /turf/simulated/wall/shuttle/raider,
@@ -3001,13 +3208,13 @@
 /area/shuttle/paf_transport)
 "sz" = (
 /obj/effect/floor_decal/industrial/warning{
-	dir = 4
+	dir = 8
 	},
 /obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-9"
+	icon_state = "co2-8"
 	},
 /turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "sA" = (
 /obj/structure/platform/engineer{
 	dir = 8
@@ -3021,11 +3228,16 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "sG" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible{
-	dir = 10
+/obj/structure/tank_wall/carbon_dioxide{
+	density = 0;
+	icon_state = "co2-6";
+	opacity = 0
 	},
-/turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "sH" = (
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/universal,
 /obj/effect/floor_decal/industrial/outline_straight/operations{
@@ -3033,6 +3245,21 @@
 	},
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/paf_transport)
+"sI" = (
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "sK" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -3062,11 +3289,24 @@
 /obj/item/clothing/accessory/tajaran/hadii_badge/gold,
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/presidium/commissar_office)
+"sU" = (
+/obj/effect/floor_decal/snowdrift/random,
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/reflector{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "sX" = (
-/obj/structure/machinery/appliance/cooker/grill,
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/pra_base/inside/barracks/kitchen)
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "sY" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /obj/structure/sign/flag/pra,
@@ -3120,16 +3360,16 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "tg" = (
-/obj/structure/shipping_container/colored/red,
-/turf/simulated/floor/exoplanet/permafrost/cold,
-/area/pra_base/outside)
-"th" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-14"
+/obj/structure/machinery/atmospherics/pipe/manifold/visible/black{
+	dir = 4
 	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/structure/machinery/meter,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
+"th" = (
+/obj/effect/floor_decal/industrial/warning/dust/corner,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "tm" = (
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/aux{
 	dir = 4
@@ -3155,16 +3395,11 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/pra_base/outside)
 "ts" = (
-/obj/structure/tank_wall/air{
-	density = 0;
-	icon_state = "air6";
-	opacity = 0
-	},
-/obj/structure/machinery/atmospherics/pipe/tank/air{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/obj/structure/machinery/atmospherics/pipe/simple/visible/supply,
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/effect/floor_decal/industrial/warning/dust/corner,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "tu" = (
 /obj/item/reagent_containers/food/snacks/meat_rikazu,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -3187,8 +3422,9 @@
 /turf/simulated/floor/tiled/gridded,
 /area/pra_base/inside/armoury)
 "tE" = (
-/obj/structure/platform/column,
-/turf/simulated/floor/exoplanet/permafrost/cold,
+/obj/structure/machinery/atmospherics/pipe/manifold/visible,
+/obj/effect/floor_decal/spline/plain/black,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "tF" = (
 /obj/effect/decal/road_marking{
@@ -3218,6 +3454,21 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
+"tU" = (
+/obj/structure/machinery/atmospherics/binary/pump/high_power{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
+"ud" = (
+/obj/structure/shipping_container/refrigerated/orion,
+/turf/simulated/floor/exoplanet/permafrost/cold,
+/area/pra_base/outside)
+"uh" = (
+/turf/simulated/floor/tiled/bitile/middle{
+	dir = 4
+	},
+/area/pra_base/inside/silo/hallway_lower)
 "ui" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -3324,6 +3575,10 @@
 /obj/structure/platform_deco/engineer,
 /turf/simulated/floor/bluegrid/server,
 /area/pra_base/inside/silo/ai)
+"uS" = (
+/obj/effect/floor_decal/spline/plain/black,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "uV" = (
 /turf/simulated/floor/tiled/ridged,
 /area/pra_base/inside/presidium/antechamber)
@@ -3333,7 +3588,15 @@
 /turf/simulated/floor/foundation,
 /area/pra_base/inside/silo/launch)
 "vb" = (
-/turf/simulated/floor/exoplanet/permafrost/cold,
+/obj/structure/tank_wall/air{
+	density = 0;
+	icon_state = "air6";
+	opacity = 0
+	},
+/obj/structure/machinery/atmospherics/pipe/tank/air{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
 /area/pra_base/outside/firing_range)
 "vc" = (
 /obj/structure/machinery/atmospherics/unary/vent_pump/high_volume/aux,
@@ -3375,6 +3638,18 @@
 /obj/effect/map_effect/window_spawner/full/reinforced/grille,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base/inside/presidium/commissar_office)
+"vo" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "vt" = (
 /obj/structure/closet/wardrobe/orange,
 /obj/item/handcuffs/legcuffs,
@@ -3385,6 +3660,16 @@
 /obj/item/clothing/glasses/sunglasses/blindfold,
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/armoury)
+"vv" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "vw" = (
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(/datum/access/pra)
@@ -3430,14 +3715,14 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
 "vG" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
+/obj/effect/decal/road_marking,
+/obj/structure/machinery/atmospherics/pipe/simple/visible/supply{
+	dir = 10
 	},
-/obj/structure/tank_wall/air{
-	icon_state = "air3"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/effect/decal/curb,
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "vH" = (
 /mob/living/heavy_vehicle/premade/pra_egg/armored{
 	h_r_shoulder = /obj/item/mecha_equipment/mounted_system/combat/grenadesmoke
@@ -3448,9 +3733,16 @@
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/garage)
 "vJ" = (
-/obj/structure/machinery/atmospherics/portables_connector,
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/visible/supply,
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "vP" = (
 /obj/effect/floor_decal/spline/plain/white{
 	dir = 1
@@ -3470,6 +3762,12 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
+"vW" = (
+/obj/structure/machinery/atmospherics/pipe/tank/air{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "vY" = (
 /obj/effect/decal/road_marking/no_park,
 /obj/effect/decal/exterior_stairs/half/center{
@@ -3564,19 +3862,28 @@
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/presidium/commissar_office)
 "wv" = (
-/obj/effect/shuttle_landmark/paf_transport/landing_pad{
-	dir = 1
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/reflector{
+	dir = 8
 	},
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "ww" = (
-/obj/effect/decal/curb{
-	dir = 6
-	},
-/obj/effect/floor_decal/concrete/gutter/corner{
+/obj/effect/floor_decal/industrial/warning/dust/corner{
 	dir = 1
 	},
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "wx" = (
 /obj/item/reagent_containers/food/snacks/chipplate/miniavah_basket,
@@ -3692,6 +3999,12 @@
 "xb" = (
 /turf/simulated/floor/tiled/ridged,
 /area/pra_base/inside/silo/hallway_lower)
+"xc" = (
+/obj/structure/machinery/atmospherics/pipe/simple/visible{
+	dir = 9
+	},
+/turf/simulated/floor/plating,
+/area/pra_base/inside/barracks/kitchen)
 "xe" = (
 /obj/structure/platform/rock/icy,
 /obj/structure/platform/rock/icy{
@@ -3744,9 +4057,14 @@
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/barracks/bunks)
 "xo" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible/universal,
-/turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/tank_wall/air{
+	icon_state = "air2"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "xp" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
@@ -3755,6 +4073,12 @@
 /obj/structure/machinery/chemical_dispenser,
 /turf/simulated/floor/plating,
 /area/pra_base/inside/barracks/kitchen)
+"xs" = (
+/obj/structure/machinery/atmospherics/pipe/manifold/visible{
+	dir = 1
+	},
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "xt" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -3803,8 +4127,8 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/exoplanet/adhomai)
 "xI" = (
-/obj/structure/machinery/atmospherics/pipe/manifold/visible/black,
-/turf/simulated/floor/exoplanet/asphalt,
+/obj/structure/shipping_container/colored/red,
+/turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "xL" = (
 /obj/structure/chainlink_fence,
@@ -3849,11 +4173,11 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "xW" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible{
-	dir = 5
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 1
 	},
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "xX" = (
 /obj/item/storage/box/gloves/tajara,
 /turf/simulated/floor/tiled/light/full,
@@ -3990,6 +4314,13 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/pra_base/outside)
+"yM" = (
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/obj/structure/rod_railing/jailbar,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/area/pra_base/outside)
 "yN" = (
 /obj/effect/floor_decal/industrial/outline_door/red,
 /obj/effect/floor_decal/industrial/outline_straight/red{
@@ -4028,11 +4359,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/presidium/hall)
 "zd" = (
-/obj/effect/decal/curb{
-	dir = 4
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
-/area/pra_base/outside)
+/obj/structure/tank_wall/air,
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "ze" = (
 /obj/structure/closet/crate/secure/weapon/alt{
 	req_access = list(/datum/access/pra)
@@ -4064,17 +4396,16 @@
 /turf/simulated/floor/reinforced,
 /area/shuttle/paf_transport)
 "zj" = (
-/obj/effect/decal/curb{
-	dir = 8
+/obj/structure/tank_wall/carbon_dioxide{
+	density = 0;
+	icon_state = "co2-5";
+	opacity = 0
 	},
-/obj/effect/decal/curb{
+/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
 	dir = 4
 	},
-/obj/effect/decal/curb{
-	dir = 1
-	},
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base/outside)
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "zk" = (
 /obj/effect/floor_decal/corner_wide/grey/diagonal,
 /obj/structure/table/steel,
@@ -4165,10 +4496,10 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
 "zR" = (
-/obj/item/gun/projectile/shotgun/pump/rifle/scope{
-	ammo_type = /obj/item/ammo_casing/a68/blank
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
 	},
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "zT" = (
 /obj/effect/floor_decal/industrial/warning{
@@ -4195,25 +4526,22 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "Ac" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
+/obj/effect/map_effect/marker/landing_zone_border,
+/obj/structure/machinery/light/small/floor,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
 	},
-/obj/structure/tank_wall/air{
-	icon_state = "air9"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Ad" = (
-/obj/structure/tank_wall/air{
-	density = 0;
-	icon_state = "air5";
-	opacity = 0
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 8
 	},
-/obj/structure/machinery/atmospherics/pipe/tank/air{
-	dir = 4
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 1
 	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Al" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -4402,16 +4730,15 @@
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/presidium/commissar_office)
 "BD" = (
-/obj/structure/tank_wall/air{
-	density = 0;
-	icon_state = "air11";
-	opacity = 0
+/obj/effect/floor_decal/industrial/warning/dust/corner,
+/obj/effect/decal/road_marking{
+	dir = 8
 	},
-/obj/structure/machinery/atmospherics/pipe/tank/air{
+/obj/effect/decal/curb{
 	dir = 4
 	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "BI" = (
 /obj/structure/bed/padded,
 /obj/structure/bed/padded/bunk,
@@ -4426,14 +4753,28 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/barracks/bunks)
 "BN" = (
-/obj/structure/shipping_container/corp/nanotrasen,
-/obj/effect/decal/curb,
-/turf/simulated/floor/exoplanet/permafrost/cold,
-/area/pra_base/outside)
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 4
+	},
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "BQ" = (
 /obj/item/reagent_containers/food/drinks/bottle/small/khlibnyz,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
+"BU" = (
+/obj/structure/machinery/atmospherics/pipe/simple/visible{
+	dir = 5
+	},
+/obj/effect/floor_decal/spline/plain/black,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "BV" = (
 /obj/effect/map_effect/map_helper/ruler_tiles_3{
 	dir = 4
@@ -4479,14 +4820,15 @@
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/silo/blastdoor)
 "Cg" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
+/obj/effect/decal/road_marking{
+	dir = 1
 	},
-/obj/structure/tank_wall/air{
-	icon_state = "air8"
+/obj/effect/decal/curb{
+	dir = 1
 	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/effect/decal/road_marking/reflector,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Ch" = (
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 6
@@ -4494,19 +4836,25 @@
 /turf/simulated/wall/shuttle/raider,
 /area/shuttle/paf_transport)
 "Cj" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
+/obj/effect/floor_decal/snowdrift/random,
+/obj/effect/floor_decal/industrial/warning/dust,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
 	},
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-4"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Cl" = (
 /turf/simulated/floor/tiled/bitile{
 	dir = 8
 	},
 /area/pra_base/inside/checkpoint)
+"Co" = (
+/obj/effect/shuttle_landmark/paf_transport/landing_pad{
+	dir = 1
+	},
+/obj/effect/decal/road_marking/no_park,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Cw" = (
 /obj/structure/machinery/shipsensors/weak,
 /obj/effect/floor_decal/industrial/warning{
@@ -4515,9 +4863,10 @@
 /turf/simulated/floor/reinforced,
 /area/shuttle/paf_transport)
 "Cx" = (
-/obj/structure/table/reinforced/steel,
-/obj/structure/rod_railing,
-/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/obj/structure/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "Cy" = (
 /obj/structure/cable{
@@ -4664,6 +5013,12 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
+"DC" = (
+/obj/structure/machinery/atmospherics/pipe/simple/visible/supply,
+/obj/effect/decal/curb/corner,
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "DD" = (
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/aux,
 /obj/structure/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4682,19 +5037,48 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base/inside/barracks/kitchen)
 "DI" = (
-/obj/structure/machinery/chem_master/condimaster,
-/turf/simulated/floor/plating,
-/area/pra_base/inside/barracks/kitchen)
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "DL" = (
 /obj/structure/platform_deco/metal_alt{
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
+"DM" = (
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 8
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "DQ" = (
 /obj/structure/machinery/door/urban/metal,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base/inside/presidium/commissar_quarters)
+"DS" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-9"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "DT" = (
 /obj/structure/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /turf/simulated/floor/plating,
@@ -4768,8 +5152,13 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base/inside/garage)
 "ED" = (
-/turf/simulated/wall/concrete,
-/area/pra_base/outside)
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "EE" = (
 /obj/structure/machinery/space_heater/industrial,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -4808,12 +5197,24 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
 "EN" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-16"
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(/datum/access/pra)
 	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/item/clothing/suit/armor/carrier/heavy{
+	starting_accessories = list(/obj/item/clothing/accessory/armor_plate/heavy,/obj/item/clothing/accessory/storage/modular_pouch/large)
+	},
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/mask/gas/half,
+/obj/item/gun/projectile/deagle/adhomai,
+/obj/item/ammo_magazine/a50,
+/obj/item/ammo_magazine/a50,
+/obj/item/ammo_magazine/a50,
+/obj/item/material/knife/trench,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_base/inside/presidium/commissar_quarters)
 "EO" = (
 /obj/item/stack/barricade/plasteel/full,
 /turf/simulated/wall/concrete,
@@ -4865,16 +5266,17 @@
 /turf/simulated/floor/plating,
 /area/pra_base/inside/barracks/kitchen)
 "Fd" = (
-/obj/structure/tank_wall/carbon_dioxide{
-	density = 0;
-	icon_state = "co2-12";
-	opacity = 0
-	},
-/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
+/obj/effect/decal/road_marking{
 	dir = 8
 	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 5
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Fe" = (
 /obj/effect/map_effect/marker/fake_wall,
 /turf/simulated/wall/brick,
@@ -4896,6 +5298,18 @@
 /obj/structure/lattice/catwalk/indoor/grate/old,
 /turf/simulated/open,
 /area/pra_base/inside/silo/blastdoor)
+"Fj" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/plain/corner/black{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Fk" = (
 /obj/structure/platform/metal,
 /obj/structure/chainlink_fence{
@@ -4904,11 +5318,10 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside)
 "Fl" = (
-/obj/structure/machinery/atmospherics/pipe/tank/air{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/machinery/chem_master/condimaster,
+/turf/simulated/floor/tiled/white,
+/area/pra_base/inside/barracks/kitchen)
 "Fo" = (
 /obj/effect/floor_decal/snowrocks,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -4961,6 +5374,15 @@
 	},
 /turf/simulated/floor/exoplanet/mineral/cave/adhomai,
 /area/pra_base/outside/artillery)
+"FK" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-3"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "FL" = (
 /obj/item/reagent_containers/food/snacks/sliceable/fatshouterbake,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -5064,6 +5486,18 @@
 /obj/structure/platform_deco/metal_alt,
 /turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/parade)
+"Gh" = (
+/obj/effect/floor_decal/industrial/warning/dust/corner{
+	dir = 4
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Gj" = (
 /obj/structure/machinery/atmospherics/binary/passive_gate/supply{
 	dir = 8
@@ -5079,6 +5513,22 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/paf_transport)
 "Gl" = (
+/obj/structure/closet/secure_closet/cabinet,
+/obj/item/storage/belt/military,
+/obj/item/clothing/accessory/storage/pouches/brown,
+/obj/item/clothing/accessory/holster/thigh/brown,
+/obj/item/clothing/accessory/flagpatch/pra,
+/obj/item/clothing/accessory/medal/pra_hero,
+/obj/item/clothing/accessory/medal/pra_courage,
+/obj/item/clothing/accessory/medal/dasnrra_evac,
+/obj/item/clothing/accessory/medal/homeland_defense,
+/obj/item/storage/box/fancy/cigarettes/pra,
+/obj/item/flame/lighter/adhomai,
+/obj/item/clothing/wrists/watch/pocketwatch/adhomai,
+/obj/item/storage/box/fancy/cigarettes/cigar,
+/obj/item/storage/box/hadii_card,
+/obj/item/storage/box/hadii_manifesto,
+/obj/item/clothing/accessory/tajaran/pra_brooch,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 9
 	},
@@ -5131,14 +5581,23 @@
 /turf/simulated/floor/carpet/red,
 /area/pra_base/inside/presidium/commissar_office)
 "GC" = (
-/turf/simulated/wall/r_wall,
-/area/pra_base/outside/firing_range)
-"GF" = (
-/obj/structure/machinery/atmospherics/pipe/manifold/visible/black{
-	dir = 1
+/turf/simulated/floor/tiled/bitile{
+	dir = 4
 	},
+/area/pra_base/inside/silo/hallway_lower)
+"GF" = (
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 9
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
+"GJ" = (
+/obj/effect/floor_decal/corner/white/diagonal,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/structure/machinery/atmospherics/pipe/manifold4w/visible,
 /turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "GM" = (
 /obj/structure/platform/ledge/dark{
 	dir = 1
@@ -5188,9 +5647,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/barracks/bunks)
 "Hh" = (
-/obj/structure/machinery/atmospherics/binary/pump/high_power,
+/obj/structure/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "Hi" = (
 /obj/item/storage/box/khlibnyz,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -5224,6 +5686,13 @@
 "Hr" = (
 /turf/simulated/wall/r_wall,
 /area/pra_base/inside/silo/control)
+"Hs" = (
+/obj/effect/floor_decal/corner/grey/diagonal,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/decal/fake_object/light_source/invisible,
+/obj/structure/machinery/atmospherics/pipe/manifold4w/visible/black,
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "Hv" = (
 /obj/structure/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1
@@ -5333,6 +5802,12 @@
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
+"HM" = (
+/obj/structure/machinery/atmospherics/tvalve/mirrored{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/pra_base/inside/barracks/kitchen)
 "HN" = (
 /obj/effect/floor_decal/spline/plain/black{
 	dir = 8
@@ -5451,6 +5926,15 @@
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor/exoplanet/mineral/cave/adhomai,
 /area/pra_base/outside/artillery)
+"Ih" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-4"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "Ii" = (
 /obj/item/flame/lighter/adhomai,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -5541,8 +6025,10 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "IH" = (
-/obj/effect/floor_decal/snowdrift/random,
-/turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
+/obj/structure/machinery/atmospherics/pipe/tank/air{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
 /area/pra_base/outside/firing_range)
 "II" = (
 /turf/simulated/floor/tiled/dark,
@@ -5562,10 +6048,14 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/paf_transport)
 "IN" = (
-/obj/structure/machinery/smartfridge/foodheater/buffet,
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/pra_base/inside/barracks/kitchen)
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "IU" = (
 /obj/structure/machinery/door/urban/metal{
 	req_access = list(/datum/access/pra)
@@ -5647,11 +6137,11 @@
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/silo/blastdoor)
 "Jk" = (
-/obj/structure/machinery/atmospherics/binary/pump/high_power{
-	dir = 1
+/obj/structure/machinery/atmospherics/binary/passive_gate/on{
+	name = "Air to Distro"
 	},
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "Jl" = (
 /obj/item/reagent_containers/food/drinks/bottle/small/midynhr_water,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -5670,11 +6160,16 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "Ju" = (
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/obj/structure/machinery/atmospherics/pipe/simple/visible/supply,
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "Jw" = (
-/obj/structure/structural_support,
-/turf/simulated/floor/exoplanet/permafrost/cold,
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-16"
+	},
+/turf/simulated/floor/exoplanet/plating,
 /area/pra_base/outside/firing_range)
 "JG" = (
 /obj/structure/machinery/atmospherics/portables_connector{
@@ -5712,6 +6207,10 @@
 /obj/item/clothing/accessory/tajaran/pra_brooch,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
+"JO" = (
+/obj/structure/machinery/atmospherics/pipe/manifold4w/visible/black,
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "JR" = (
 /obj/structure/platform/column{
 	dir = 4
@@ -5906,11 +6405,9 @@
 /turf/simulated/floor/tiled/ridged,
 /area/pra_base/inside/silo/ai)
 "La" = (
-/obj/effect/decal/curb{
-	dir = 10
-	},
-/obj/effect/floor_decal/concrete/gutter/corner{
-	dir = 1
+/obj/effect/decal/curb,
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8
 	},
 /turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
 /area/pra_base/outside/firing_range)
@@ -5923,6 +6420,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/presidium/hall)
+"Le" = (
+/obj/structure/machinery/atmospherics/pipe/manifold/visible{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/pra_base/inside/barracks/kitchen)
 "Li" = (
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
@@ -5948,7 +6451,7 @@
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/pra_base/outside)
 "Lq" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible{
+/obj/structure/machinery/atmospherics/binary/pump/high_power{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -6022,25 +6525,26 @@
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/barracks/bunks)
 "LN" = (
-/obj/effect/floor_decal/corner/paleblue/diagonal,
-/obj/structure/closet/secure_closet/freezer,
-/obj/item/reagent_containers/food/drinks/carton/mutthir,
-/turf/simulated/floor/tiled/freezer/cold,
-/area/pra_base/inside/barracks/kitchen)
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "LQ" = (
 /turf/simulated/floor/tiled/bitile/middle{
 	dir = 4
 	},
 /area/pra_base/inside/checkpoint)
 "LS" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-13"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/structure/machinery/smartfridge,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base/inside/barracks/kitchen)
 "LT" = (
 /obj/structure/platform/ledge/dark,
 /obj/structure/platform/ledge/dark{
@@ -6120,6 +6624,12 @@
 /obj/item/journal/filled,
 /turf/simulated/floor/carpet/red,
 /area/pra_base/inside/presidium/commissar_office)
+"Mm" = (
+/obj/structure/platform_deco/rock/icy{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/mineral/cave/adhomai,
+/area/pra_base/outside/artillery)
 "Mo" = (
 /obj/effect/decal/curb{
 	dir = 8
@@ -6305,11 +6815,9 @@
 /turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/parade)
 "NK" = (
-/obj/structure/machinery/atmospherics/pipe/tank/air{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/obj/effect/floor_decal/industrial/hatch_door/red,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base/inside/silo/hallway_lower)
 "NL" = (
 /obj/effect/decal/curb{
 	dir = 6
@@ -6388,12 +6896,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_base/inside/silo/control)
 "Om" = (
-/obj/structure/machinery/atmospherics/pipe/manifold/visible/black{
-	dir = 4
-	},
-/obj/structure/machinery/meter,
+/obj/structure/machinery/atmospherics/pipe/manifold/visible/black,
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "Op" = (
 /obj/item/storage/box/unique/tea/rasnif,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -6412,9 +6918,16 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/barracks/bunks)
 "Ot" = (
-/obj/structure/machinery/chem_heater,
-/turf/simulated/floor/plating,
-/area/pra_base/inside/barracks/kitchen)
+/obj/structure/tank_wall/carbon_dioxide{
+	density = 0;
+	icon_state = "co2-11";
+	opacity = 0
+	},
+/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "Oy" = (
 /obj/structure/table/rack/clothing{
 	dir = 4
@@ -6440,14 +6953,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/silo/launch)
 "OA" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 6
 	},
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-7"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "OE" = (
 /turf/simulated/wall/concrete,
 /area/pra_base/outside/firing_range)
@@ -6511,6 +7021,13 @@
 /obj/item/reagent_containers/food/snacks/sliceable/adhomian_cheese,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
+"Pc" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-14"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "Pd" = (
 /obj/effect/decal/road_marking{
 	dir = 4
@@ -6544,7 +7061,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "Pk" = (
 /obj/structure/machinery/howitzer/maivazh_a42_100mm{
 	dir = 2;
@@ -6573,6 +7090,17 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
 /area/pra_base/outside)
+"Px" = (
+/obj/structure/tank_wall/air{
+	density = 0;
+	icon_state = "air5";
+	opacity = 0
+	},
+/obj/structure/machinery/atmospherics/pipe/tank/air{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "Py" = (
 /turf/simulated/floor/bluegrid/server,
 /area/pra_base/inside/silo/ai)
@@ -6630,12 +7158,23 @@
 /obj/effect/map_effect/marker_helper/airlock/exterior,
 /turf/simulated/floor/tiled/dark/full,
 /area/shuttle/paf_transport)
-"PF" = (
-/obj/effect/decal/curb{
-	dir = 5
+"PE" = (
+/obj/structure/machinery/atmospherics/pipe/manifold/visible{
+	dir = 8
 	},
-/obj/effect/floor_decal/concrete/gutter/corner,
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
+/turf/simulated/floor/plating,
+/area/pra_base/inside/barracks/kitchen)
+"PF" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "PH" = (
 /obj/effect/floor_decal/corner_wide/red{
@@ -6677,9 +7216,12 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "PV" = (
-/obj/structure/machinery/atmospherics/pipe/manifold/visible,
-/turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/tank_wall/air{
+	icon_state = "air16"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "PX" = (
 /obj/effect/map_effect/map_helper/ruler_tiles_3,
 /obj/effect/decal/curb,
@@ -6692,8 +7234,15 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_base/inside/infirmary)
 "Qc" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/no_park,
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "Qe" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/curb{
@@ -6701,6 +7250,14 @@
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
+"Qg" = (
+/obj/structure/machinery/porta_turret/ballistic{
+	req_one_access = null;
+	req_access = list(/datum/access/pra)
+	},
+/obj/effect/floor_decal/industrial/warning/full,
+/turf/simulated/floor/tiled/dark/full,
+/area/pra_base/out_of_bounds)
 "Qi" = (
 /obj/effect/decal/road_marking/center{
 	dir = 1
@@ -6708,9 +7265,11 @@
 /turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/parade)
 "Qj" = (
-/obj/effect/decal/curb/corner,
-/turf/simulated/floor/exoplanet/permafrost/cold,
-/area/pra_base/outside)
+/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "Qk" = (
 /obj/structure/machinery/atmospherics/pipe/manifold4w/hidden/yellow,
 /turf/simulated/floor/plating,
@@ -6796,10 +7355,10 @@
 /turf/simulated/wall/brick,
 /area/pra_base/inside/presidium/antechamber)
 "QC" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible/yellow,
-/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/machinery/atmospherics/pipe/simple/visible/universal,
+/obj/effect/floor_decal/spline/plain/black,
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "QF" = (
 /obj/structure/rod_railing{
 	dir = 6
@@ -6808,12 +7367,10 @@
 /turf/simulated/floor/exoplanet/roofing_tiles,
 /area/pra_base/outside)
 "QG" = (
-/obj/effect/floor_decal/corner/white/diagonal,
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/structure/machinery/atmospherics/pipe/manifold4w/visible,
-/turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/obj/effect/map_effect/marker/landing_zone_border,
+/obj/item/hullbeacon/red,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "QH" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -6865,12 +7422,14 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete/dark,
 /area/pra_base/outside/parade)
 "QR" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 5
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
 	},
-/obj/structure/machinery/meter,
-/turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/obj/structure/tank_wall/air{
+	icon_state = "air10"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "QS" = (
 /obj/structure/ship_weapon_dummy/icbm_dummy,
 /obj/effect/floor_decal/industrial/warning/dust{
@@ -7027,6 +7586,15 @@
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
+"RE" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-2"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "RF" = (
 /obj/effect/floor_decal/corner_wide/red{
 	dir = 9
@@ -7043,18 +7611,20 @@
 /turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/parade)
 "RN" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/tank_wall/air{
-	icon_state = "air15"
+/obj/structure/machinery/atmospherics/pipe/simple/visible{
+	dir = 10
 	},
-/obj/structure/machinery/atmospherics/pipe/simple/visible,
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "RP" = (
-/obj/structure/machinery/appliance/cooker/oven,
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/pra_base/inside/barracks/kitchen)
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "RS" = (
 /obj/effect/decal/curb{
 	dir = 10
@@ -7075,12 +7645,13 @@
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/garage)
 "RU" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible{
-	dir = 9
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-15"
 	},
-/obj/structure/machinery/meter,
-/turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/obj/structure/machinery/atmospherics/pipe/simple/visible/black,
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "Sc" = (
 /obj/structure/stairs_railing{
 	dir = 4
@@ -7145,11 +7716,25 @@
 "Sr" = (
 /turf/simulated/floor/exoplanet/permafrost/cold,
 /area/pra_base/outside)
+"Ss" = (
+/obj/structure/machinery/atmospherics/pipe/manifold/visible{
+	dir = 8
+	},
+/obj/structure/machinery/meter,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "St" = (
-/obj/structure/rod_railing/jailbar,
-/obj/effect/decal/curb,
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base/outside)
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/dust{
+	dir = 9
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Sv" = (
 /obj/structure/machinery/atmospherics/binary/pump/high_power{
 	dir = 4
@@ -7168,10 +7753,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/paf_transport)
 "Sx" = (
-/obj/structure/barricade/wooden/road{
+/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
 	dir = 8
 	},
-/turf/simulated/floor/exoplanet/permafrost/cold,
+/turf/simulated/floor/reinforced,
 /area/pra_base/outside/firing_range)
 "Sy" = (
 /obj/structure/sign/flag/pra{
@@ -7191,6 +7776,13 @@
 	},
 /turf/simulated/abyss,
 /area/pra_base/inside/silo/launch)
+"SE" = (
+/obj/structure/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/structure/machinery/meter,
+/turf/simulated/floor/plating,
+/area/pra_base/inside/barracks/kitchen)
 "SF" = (
 /turf/unsimulated/wall/fakepdoor,
 /area/pra_base/out_of_bounds)
@@ -7207,12 +7799,14 @@
 /turf/simulated/floor/carpet/red,
 /area/pra_base/inside/presidium/commissar_office)
 "SM" = (
-/obj/effect/floor_decal/industrial/warning{
+/obj/effect/decal/road_marking/reflector{
 	dir = 1
 	},
-/obj/structure/tank_wall/air,
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "SO" = (
 /turf/simulated/floor/tiled/bitile/middle,
 /area/pra_base/inside/checkpoint)
@@ -7222,6 +7816,15 @@
 	},
 /turf/simulated/floor/bluegrid/server,
 /area/pra_base/inside/silo/ai)
+"SV" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/tank_wall/carbon_dioxide{
+	icon_state = "co2-13"
+	},
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "SY" = (
 /obj/effect/tent{
 	dir = 8
@@ -7252,6 +7855,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/paf_transport)
+"Th" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/tank_wall/air{
+	icon_state = "air15"
+	},
+/obj/structure/machinery/atmospherics/pipe/simple/visible,
+/turf/simulated/floor/exoplanet/plating,
+/area/pra_base/outside/firing_range)
 "Tn" = (
 /obj/structure/platform_deco/metal_alt{
 	dir = 8
@@ -7259,14 +7870,10 @@
 /turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/parade)
 "To" = (
-/obj/effect/decal/curb{
-	dir = 6
-	},
-/obj/effect/floor_decal/concrete/gutter/corner{
-	dir = 1
-	},
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
-/area/pra_base/outside)
+/obj/effect/map_effect/marker/landing_zone_border,
+/obj/item/hullbeacon/green,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Tp" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
@@ -7384,6 +7991,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/pra_base/inside/barracks/kitchen)
+"Uf" = (
+/obj/structure/machinery/atmospherics/pipe/tank/air,
+/turf/simulated/floor/plating,
+/area/pra_base/inside/barracks/kitchen)
 "Ug" = (
 /obj/structure/machinery/atmospherics/portables_connector/aux{
 	dir = 8
@@ -7480,6 +8091,21 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/pra_base/inside/presidium/commissar_quarters)
+"UI" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "UJ" = (
 /obj/effect/decal/curb{
 	dir = 9
@@ -7644,11 +8270,25 @@
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/abyss,
 /area/pra_base/inside/silo/launch)
+"Vn" = (
+/obj/structure/machinery/atmospherics/pipe/simple/visible/supply,
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "Vo" = (
-/obj/structure/machinery/vending/dinnerware,
-/obj/effect/floor_decal/corner/red/diagonal,
-/turf/simulated/floor/tiled/white,
-/area/pra_base/inside/barracks/kitchen)
+/obj/structure/tank_wall/carbon_dioxide{
+	density = 0;
+	icon_state = "co2-12";
+	opacity = 0
+	},
+/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/pra_base/outside/firing_range)
 "Vt" = (
 /obj/item/reagent_containers/food/snacks/stuffed_earthenroot,
 /turf/simulated/floor/exoplanet/snow/cold,
@@ -7736,16 +8376,15 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete,
 /area/pra_base/outside/parade)
 "We" = (
-/obj/effect/decal/curb{
+/obj/effect/decal/exterior_stairs/half/center{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
 /area/pra_base/outside/firing_range)
 "Wf" = (
-/obj/effect/floor_decal/corner/paleblue/diagonal,
-/obj/item/reagent_containers/food/drinks/carton/fatshouters,
-/turf/simulated/floor/tiled/freezer/cold,
-/area/pra_base/inside/barracks/kitchen)
+/obj/item/reagent_containers/food/condiment/blood,
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/pra_base/outside)
 "Wk" = (
 /obj/item/camera/adhomai,
 /obj/item/camera_film/taj_film,
@@ -7788,11 +8427,16 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "Ww" = (
-/obj/structure/machinery/atmospherics/pipe/tank/carbon_dioxide{
-	dir = 8
+/obj/structure/tank_wall/air{
+	density = 0;
+	icon_state = "air11";
+	opacity = 0
+	},
+/obj/structure/machinery/atmospherics/pipe/tank/air{
+	dir = 4
 	},
 /turf/simulated/floor/reinforced,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "Wz" = (
 /obj/effect/floor_decal/industrial/hatch_door/yellow{
 	dir = 1;
@@ -7850,8 +8494,8 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_base/outside)
 "WG" = (
-/obj/structure/target_stake,
-/turf/simulated/floor/exoplanet/permafrost/cold,
+/obj/structure/machinery/atmospherics/portables_connector,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "WH" = (
 /obj/structure/AIcore/deactivated,
@@ -7903,15 +8547,13 @@
 /turf/simulated/floor/foundation,
 /area/pra_base/inside/checkpoint)
 "WU" = (
-/obj/effect/decal/curb{
-	dir = 5
+/turf/simulated/floor/tiled/bitile{
+	dir = 8
 	},
-/obj/effect/floor_decal/concrete/gutter/corner,
-/turf/simulated/floor/exoplanet/sidewalk/paved/concrete,
-/area/pra_base/outside)
+/area/pra_base/inside/silo/hallway_lower)
 "WV" = (
-/obj/effect/decal/cleanable/draftingchalk,
-/turf/simulated/floor/exoplanet/permafrost/cold,
+/obj/structure/machinery/atmospherics/pipe/manifold4w/visible,
+/turf/simulated/floor/reinforced,
 /area/pra_base/outside/firing_range)
 "WX" = (
 /obj/effect/floor_decal/snowdrift/random,
@@ -8028,6 +8670,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/silo/control)
+"Xw" = (
+/obj/structure/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/pra_base/inside/barracks/kitchen)
 "Xx" = (
 /obj/structure/decor/suspension_cable/right{
 	dir = 1
@@ -8052,6 +8700,10 @@
 /obj/structure/machinery/iv_drip,
 /turf/simulated/floor/tiled/light/full,
 /area/pra_base/inside/infirmary)
+"XF" = (
+/obj/effect/decal/road_marking/no_park,
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "XH" = (
 /obj/structure/bed/stool/chair/padded/brown,
 /turf/simulated/floor/carpet/red,
@@ -8063,14 +8715,13 @@
 /turf/simulated/floor/plating,
 /area/pra_base/inside/barracks/kitchen)
 "XL" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
+/obj/effect/map_effect/marker/landing_zone_border,
+/obj/structure/machinery/light/small/floor,
+/obj/effect/floor_decal/spline/plain/black{
+	dir = 4
 	},
-/obj/structure/tank_wall/carbon_dioxide{
-	icon_state = "co2-8"
-	},
-/turf/simulated/floor/exoplanet/plating,
-/area/pra_base/outside)
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_base/outside/firing_range)
 "XR" = (
 /obj/structure/lattice/catwalk/indoor/urban,
 /turf/simulated/floor/exoplanet/sidewalk/concrete,
@@ -8199,23 +8850,8 @@
 /turf/simulated/floor/asphalt,
 /area/pra_base/inside/garage)
 "Yv" = (
-/obj/structure/closet/secure_closet/cabinet,
-/obj/item/storage/belt/military,
-/obj/item/clothing/accessory/storage/pouches/brown,
-/obj/item/clothing/accessory/holster/thigh/brown,
-/obj/item/clothing/accessory/flagpatch/pra,
-/obj/item/clothing/accessory/medal/pra_hero,
-/obj/item/clothing/accessory/medal/pra_courage,
-/obj/item/clothing/accessory/medal/dasnrra_evac,
-/obj/item/clothing/accessory/medal/homeland_defense,
-/obj/item/storage/box/fancy/cigarettes/pra,
-/obj/item/flame/lighter/adhomai,
-/obj/item/clothing/wrists/watch/pocketwatch/adhomai,
-/obj/item/storage/box/fancy/cigarettes/cigar,
-/obj/item/storage/box/hadii_card,
-/obj/item/storage/box/hadii_manifesto,
-/obj/item/clothing/accessory/tajaran/pra_brooch,
 /obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/table/wood,
 /turf/simulated/floor/wood/walnut,
 /area/pra_base/inside/presidium/commissar_quarters)
 "Yw" = (
@@ -8277,12 +8913,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/silo/hallway_lower)
 "YP" = (
-/obj/effect/floor_decal/snowdrift/random,
-/obj/effect/decal/curb{
+/obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
 	},
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/pra_base/outside)
+/obj/structure/table/wood,
+/turf/simulated/floor/wood/walnut,
+/area/pra_base/inside/presidium/commissar_quarters)
 "YR" = (
 /obj/structure/platform/column{
 	dir = 4
@@ -8324,11 +8960,8 @@
 /turf/simulated/wall/shuttle/raider,
 /area/shuttle/paf_transport)
 "Zb" = (
-/obj/effect/floor_decal/corner/grey/diagonal,
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/effect/decal/fake_object/light_source/invisible,
-/obj/structure/machinery/atmospherics/pipe/manifold4w/visible/black,
-/turf/simulated/floor/reinforced,
+/obj/structure/shipping_container/corp/nanotrasen,
+/turf/simulated/floor/exoplanet/permafrost/cold,
 /area/pra_base/outside)
 "Zc" = (
 /obj/effect/decal/curb{
@@ -8343,14 +8976,17 @@
 /turf/simulated/wall/r_wall,
 /area/pra_base/inside/checkpoint)
 "Zi" = (
-/obj/structure/machinery/atmospherics/pipe/simple/visible/supply,
-/obj/structure/lattice/catwalk/indoor/urban,
-/turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/obj/structure/reagent_dispensers/keg/mead,
+/turf/simulated/floor/tiled/freezer/cold,
+/area/pra_base/inside/barracks/kitchen)
 "Zj" = (
-/obj/structure/platform/column,
-/obj/effect/decal/cleanable/draftingchalk,
-/turf/simulated/floor/exoplanet/permafrost/cold,
+/obj/structure/machinery/atmospherics/pipe/simple/visible/black{
+	dir = 5
+	},
+/obj/structure/machinery/meter,
+/obj/effect/floor_decal/spline/plain/black,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "Zk" = (
 /obj/structure/closet/secure_closet/medical/offship/anaesthetic,
@@ -8400,9 +9036,12 @@
 /turf/simulated/floor/tiled/gridded,
 /area/pra_base/inside/armoury)
 "ZB" = (
-/obj/effect/decal/exterior_stairs/half/center,
-/obj/effect/decal/cleanable/draftingchalk,
-/turf/simulated/floor/exoplanet/permafrost/cold,
+/obj/structure/machinery/atmospherics/pipe/simple/visible{
+	dir = 9
+	},
+/obj/structure/machinery/meter,
+/obj/effect/floor_decal/spline/plain/black,
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_base/outside/firing_range)
 "ZD" = (
 /obj/structure/machinery/atmospherics/unary/vent_pump/high_volume{
@@ -8441,9 +9080,17 @@
 /turf/simulated/floor/tiled/dark,
 /area/pra_base/inside/silo/control)
 "ZN" = (
-/obj/effect/floor_decal/snowdrift/random,
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/road_marking/reflector{
+	dir = 4
+	},
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "ZO" = (
 /obj/structure/table/reinforced/steel,
 /obj/effect/floor_decal/corner_wide/red{
@@ -8494,11 +9141,15 @@
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/paf_transport)
 "ZW" = (
-/obj/structure/machinery/atmospherics/binary/passive_gate/on{
-	name = "Air to Distro"
+/obj/effect/decal/road_marking{
+	dir = 4
 	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/obj/effect/decal/road_marking/no_park,
 /turf/simulated/floor/exoplanet/asphalt,
-/area/pra_base/outside)
+/area/pra_base/outside/firing_range)
 "ZZ" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
@@ -13012,10 +13663,10 @@ VE
 xb
 wX
 rW
-aa
-aa
-aa
-aa
+rW
+rW
+rW
+rW
 aa
 aa
 aa
@@ -13108,11 +13759,11 @@ SG
 VE
 xb
 wX
+wX
+wX
+wX
+wX
 rW
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -13204,12 +13855,12 @@ YL
 YL
 Jh
 xb
+oh
+YL
+YL
+YL
 wX
 rW
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -13301,12 +13952,12 @@ xb
 xb
 xb
 xb
+xb
+xb
+xb
+xb
 wX
 rW
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -13395,15 +14046,15 @@ CJ
 CJ
 wX
 wX
+wX
+wX
+wX
+wX
 fc
 nC
 av
 wX
 rW
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -13492,16 +14143,16 @@ GV
 CJ
 rW
 rW
-SF
-SF
-SF
 rW
 rW
-aa
-aa
-aa
-aa
-aa
+rW
+wX
+NK
+NK
+NK
+wX
+rW
+rW
 aa
 aa
 aa
@@ -13588,18 +14239,18 @@ Py
 Sd
 CJ
 rW
+aa
 rW
 rW
+lR
+wX
+VE
+xb
+og
+wX
+lR
 rW
 rW
-rW
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -13686,17 +14337,17 @@ CJ
 CJ
 rW
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+rW
+lR
+lR
+WU
+VE
+xb
+og
+WU
+lR
+lR
+rW
 aa
 aa
 aa
@@ -13783,17 +14434,17 @@ CJ
 rW
 rW
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+rW
+lR
+Qg
+uh
+VE
+xb
+og
+uh
+Qg
+lR
+rW
 aa
 aa
 aa
@@ -13880,17 +14531,17 @@ CJ
 rW
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+rW
+lR
+lR
+GC
+VE
+xb
+og
+GC
+lR
+lR
+rW
 aa
 aa
 aa
@@ -13977,17 +14628,17 @@ CJ
 rW
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+rW
+rW
+lR
+wX
+VE
+xb
+og
+wX
+lR
+rW
+rW
 aa
 aa
 aa
@@ -14074,17 +14725,17 @@ rW
 rW
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+rW
+rW
+lR
+wX
+VE
+xb
+og
+wX
+lR
+rW
+rW
 aa
 aa
 aa
@@ -14171,17 +14822,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+rW
+lR
+lR
+WU
+VE
+xb
+og
+WU
+lR
+lR
+rW
 aa
 aa
 aa
@@ -14268,17 +14919,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+rW
+lR
+Qg
+uh
+VE
+xb
+og
+uh
+Qg
+lR
+rW
 aa
 aa
 aa
@@ -14365,17 +15016,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+rW
+lR
+lR
+GC
+VE
+xb
+og
+GC
+lR
+lR
+rW
 aa
 aa
 aa
@@ -14462,17 +15113,17 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
 rW
 rW
+lR
+wX
+VE
+xb
+og
+wX
+lR
 rW
 rW
-rW
-aa
-aa
-aa
 aa
 aa
 aa
@@ -14562,11 +15213,11 @@ rW
 rW
 rW
 rW
-rW
-SF
-SF
-SF
-rW
+wX
+NK
+NK
+NK
+wX
 rW
 rW
 rW
@@ -18479,14 +19130,14 @@ tc
 tc
 tc
 tc
-tc
-tc
-tc
-tc
-tc
-tc
-tc
-zj
+gf
+gf
+gf
+gf
+gf
+gf
+gf
+QX
 NW
 Zh
 Zh
@@ -18554,7 +19205,28 @@ KU
 KU
 KU
 KU
-KU
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
 KU
 KU
 KU
@@ -18563,27 +19235,6 @@ KU
 KU
 KU
 ky
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
 NW
 Zh
 tT
@@ -18636,51 +19287,51 @@ KU
 KU
 KU
 KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-KU
-Jt
+KR
+KR
+KR
+KR
+KR
+KR
+KR
+KR
+KR
+KR
 KR
 KR
 KR
 bh
 KR
-KR
-KR
-KR
-KR
-KR
-KR
-KR
-YP
-KT
-NW
-Qc
-Qc
-Qc
-Qc
+FA
+sk
+BD
+BN
+jq
+sU
+mY
 ZN
+BD
+LN
 Qc
 Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
+Fd
+jq
+ZN
+mY
+mY
+ZN
+BD
+BN
+nF
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Hm
@@ -18727,22 +19378,22 @@ KU
 KU
 KU
 KU
-vb
-vb
-vb
-vb
-vb
-vb
-vb
 KU
 KU
 KU
 KU
-dy
 KU
 KU
-KU
-ky
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
 FA
 FA
 FA
@@ -18753,31 +19404,31 @@ ED
 Cj
 XL
 qt
-ED
-NW
-NW
-NW
-NW
-Qc
-ZN
-mA
-Qc
-Qc
-Qc
-Qc
-Qc
+mi
+mi
+mi
+mi
 Wm
 WB
 PD
 Wm
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-mA
-Qc
+mi
+mi
+mi
+mi
+mi
+mi
+To
+nj
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Dv
@@ -18819,45 +19470,36 @@ KU
 KU
 KU
 KU
-OE
-OE
-OE
-OE
-Sx
-vb
-Sx
-vb
-vb
-Sx
-Sx
-vb
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-IH
-ww
-qq
-qq
-PF
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
 FA
+OE
+Ih
+sz
+fM
+OE
+mY
+mY
+pQ
+PF
+PF
+PF
+PF
+PF
+PF
+vo
 mv
 cC
 fA
-jN
-th
-hC
-Hh
-xo
-QC
-QC
-QC
-QC
 sm
 sm
 sm
@@ -18868,13 +19510,22 @@ cY
 LX
 Wm
 zi
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
+mi
+mi
+mi
+mi
+mi
+mi
+DI
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Dv
@@ -18916,44 +19567,35 @@ KU
 KU
 KU
 KU
-OE
-GC
-GC
-GC
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-Jw
-vb
-OE
-OE
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
 FA
-Ju
-Ju
-Ju
-Ju
-FA
+kF
+zj
+Qj
+Ot
+Pc
+Cx
+fE
+QC
+fA
+fA
+fA
+fA
+fA
+fA
+oU
 rE
 GF
-Zb
-fh
-nj
-Om
-nF
-QR
-nS
-Qc
-Qc
 dL
 rT
 JK
@@ -18971,7 +19613,16 @@ Wm
 Qq
 Qq
 gd
-Qc
+RP
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Dv
@@ -19013,44 +19664,35 @@ KU
 KU
 KU
 KU
-OE
-GC
-GC
-GC
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-WV
-WV
-WV
-WV
-WV
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+FA
+RE
+lk
+Hs
+JO
+RU
+tg
+mW
 Zj
 ap
-FA
-Ju
-Ju
-Ju
-Ju
-FA
+GF
+zR
+zR
+zR
+zR
+zR
 ry
 iS
-Ww
-Fd
-EN
-vJ
-Hh
-xI
-nS
-Qc
-Qc
 pO
 rT
 YT
@@ -19068,7 +19710,16 @@ Wm
 fP
 Wm
 ne
-Qc
+Cg
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Dv
@@ -19110,44 +19761,35 @@ KU
 TZ
 KU
 KU
-OE
-GC
-GC
-GC
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-WV
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+FA
+FK
+sG
+Sx
+Vo
 Jw
 WG
-vb
-tE
-ap
-FA
-Ju
-zR
-mi
-Ju
-FA
-ED
-OA
-sz
-LS
-ED
-vJ
-Jk
 fE
-nS
-Qc
-Qc
+Om
+ap
+xW
+mi
+mi
+mi
+mi
+mi
+th
+OA
 YZ
 Wm
 Nb
@@ -19165,7 +19807,16 @@ ZO
 KP
 IL
 ne
-Qc
+RP
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Dv
@@ -19207,44 +19858,35 @@ KU
 KU
 KU
 KU
+KU
+KU
+KU
+dy
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+FA
 OE
-GC
-GC
-GC
-vb
-Jw
+nW
+DS
+SV
+OE
 WG
-vb
-vb
-vb
-vb
-vb
-WV
-WV
-WV
-WV
-WV
-WV
-WV
-Zj
+tU
+Hh
 ap
-FA
-Ju
-Ju
-aC
-Ju
-FA
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-nS
-Qc
-Qc
+xW
+mi
+mi
+mi
+mi
+mi
+mi
+XF
 pI
 Hv
 FZ
@@ -19262,7 +19904,16 @@ Sw
 Lz
 IL
 ne
-Qc
+RP
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Dv
@@ -19304,44 +19955,35 @@ KU
 KU
 KU
 Or
-OE
-GC
-GC
-GC
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-WV
-Jw
-WG
-vb
-vb
-vb
-tE
-Cx
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
 FA
-Ju
-lR
-Ju
-Ju
-FA
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-pQ
-nS
-Qc
-wv
+sX
+mi
+mi
+mi
+mi
+mi
+mi
+uS
+ap
+xW
+mi
+mi
+mi
+mi
+mi
+gZ
+Co
 FW
 vc
 GP
@@ -19359,7 +20001,16 @@ Da
 IY
 Wm
 ne
-Qc
+Cg
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Dv
@@ -19401,44 +20052,35 @@ KU
 KU
 KU
 KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+FA
 OE
-GC
-GC
-GC
-vb
-vb
-vb
-vb
-vb
-Jw
-vb
+kz
+ac
+QR
+OE
 WG
-WV
-WV
-WV
-WV
-WV
-WV
-WV
-Zj
-Cx
-FA
-Ju
-Ju
-Ju
-Ju
-FA
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-nS
-Qc
-Qc
+tU
+BU
+ap
+xW
+mi
+mi
+mi
+mi
+mi
+mi
+XF
 Si
 ZD
 Ta
@@ -19456,7 +20098,16 @@ Sw
 Hp
 IL
 ne
-Qc
+RP
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Dv
@@ -19498,44 +20149,35 @@ KU
 KU
 KU
 KU
-OE
-GC
-GC
-GC
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-WV
-Jw
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+FA
+zd
+Px
+IH
+Ww
+hn
 WG
-vb
-vb
+fE
 tE
-Cx
-FA
-Ju
-Ju
-Ju
-Ju
-FA
-ED
-pK
-Cg
-og
-ED
-vJ
-Jk
+ap
 xW
-nS
-Qc
-Qc
+mi
+mi
+mi
+mi
+mi
+lI
+pK
 Wm
 Wm
 Ch
@@ -19553,7 +20195,16 @@ QL
 Gs
 IL
 ne
-Qc
+RP
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Dv
@@ -19595,44 +20246,35 @@ mN
 KU
 KU
 KU
-OE
-GC
-GC
-GC
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+FA
+xo
+xs
+GJ
 WV
-WV
-WV
-WV
-WV
-WV
+Th
+Ss
+mW
 ZB
-FA
-FA
-Ju
-Ju
-Ju
-Ju
-FA
+ap
+qE
+IN
+IN
+IN
+IN
+iD
 SM
 Ad
-Fl
-BD
-mC
-vJ
-Hh
-PV
-nS
-Qc
-Qc
 dL
 rT
 YT
@@ -19650,7 +20292,16 @@ Wm
 fP
 Wm
 ne
-Qc
+Cg
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 zC
@@ -19692,44 +20343,35 @@ KU
 KU
 KU
 KU
-OE
-GC
-GC
-GC
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-vb
-Jw
-vb
-OE
-OE
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+KU
 FA
+oF
+vb
+vW
+Pj
+PV
+RN
+Jk
+QC
+Vn
+vJ
+DC
 Ju
 Ju
-Ju
-Ju
-FA
+Vn
+vJ
 kZ
 qE
-QG
-ju
-RN
-hY
-nF
-RU
-nS
-Qc
-Qc
 dL
 rT
 Xm
@@ -19747,7 +20389,16 @@ Wm
 CF
 CF
 zT
-Qc
+RP
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 vQ
@@ -19789,27 +20440,27 @@ KU
 KU
 KU
 KU
+KU
+KU
+KU
+dy
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+FA
 OE
+jN
+mC
+cJ
 OE
-OE
-OE
-mY
-vb
-mY
-vb
-vb
-mY
-mY
-vb
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
-OE
+fh
+fh
+Fj
+UI
 FA
 La
 We
@@ -19818,16 +20469,7 @@ jO
 FA
 vG
 ts
-NK
-Pj
-bj
-sG
-ZW
-xo
-Zi
-Zi
-Zi
-Zi
+Ju
 hq
 hq
 hq
@@ -19838,13 +20480,22 @@ Ri
 yI
 Wm
 mL
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
+mi
+mi
+mi
+mi
+mi
+mi
+Gh
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Zh
@@ -19889,11 +20540,11 @@ KU
 TZ
 KU
 KU
-vb
-vb
 KU
-vb
-vb
+KU
+KU
+KU
+KU
 ky
 Nn
 Nn
@@ -19908,40 +20559,40 @@ Nn
 Nn
 Nn
 Nn
-NW
-NW
-NW
-NW
-NW
-ED
+cZ
+ZT
+ZT
+os
+FA
+ju
 ny
 Ac
 do
-ED
-NW
-NW
-NW
-NW
-Qc
-Qc
-mA
-Qc
-Qc
-Qc
-Qc
-Qc
+mi
+mi
+mi
+mi
 Wm
 kA
 QI
 Wm
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-mA
-Qc
+mi
+mi
+mi
+mi
+mi
+mi
+QG
+nj
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Zh
@@ -20005,40 +20656,40 @@ jj
 jj
 co
 Nn
-To
-zd
-zd
-WU
-NW
-YD
+xp
+ZT
+ZT
+nw
+FA
+vv
+DM
 kE
+ww
+wv
+fh
+wv
+DM
+mr
+ZW
+ZW
+St
+ww
+wv
+fh
+fh
+wv
+DM
 kE
-kE
-kE
-kE
-gf
-QX
-NW
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
-Qc
+sI
+FA
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Zh
@@ -20106,36 +20757,36 @@ xp
 ZT
 ZT
 nw
-NW
-St
-NB
-sg
-NB
-NB
-rt
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+FA
+KU
+KU
+KU
+KU
+KU
+KU
 KU
 ky
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
-NW
 NW
 Zh
 Zh
@@ -20204,12 +20855,12 @@ ZT
 ZT
 nw
 NW
-St
-NB
-rt
-If
-BZ
-Vy
+KU
+KU
+KU
+KU
+KU
+KU
 KU
 wJ
 gf
@@ -20225,14 +20876,14 @@ gf
 gf
 gf
 gf
-gf
-gf
-gf
-gf
-gf
-gf
-gf
-QX
+KU
+KU
+KU
+KU
+KU
+KU
+KU
+ky
 NW
 Zh
 Zh
@@ -20301,12 +20952,12 @@ ZT
 ZT
 nw
 NW
-St
-NB
-sg
-NB
-NB
-rt
+KU
+KU
+KU
+KU
+KU
+KU
 KU
 KU
 KU
@@ -20398,12 +21049,12 @@ xC
 ZT
 nw
 NW
-St
-NB
-rt
-If
-BZ
-Vy
+KU
+KU
+KU
+KU
+KU
+KU
 KU
 KU
 TZ
@@ -20495,12 +21146,12 @@ xp
 ZT
 nw
 NW
-cZ
-kK
-mo
-kK
-kK
-FT
+KU
+KU
+KU
+KU
+KU
+KU
 KR
 KR
 KR
@@ -20592,12 +21243,12 @@ xp
 ZT
 nw
 LZ
-nm
-ae
-lA
-ae
-HD
-lA
+NW
+NW
+NW
+NW
+NW
+NW
 NW
 NW
 NW
@@ -20701,7 +21352,7 @@ NW
 dQ
 Sr
 Sr
-tg
+Sr
 Sr
 Sr
 Sr
@@ -20794,12 +21445,12 @@ CZ
 HY
 kM
 Xz
-NW
-Dv
-Sr
-Sr
-Sr
-Sr
+hY
+bj
+bj
+bj
+bj
+bj
 Sr
 Sr
 EH
@@ -20891,12 +21542,12 @@ Br
 tD
 KH
 Xz
-NW
-mn
-Sr
-Sr
-Sr
-Sr
+qq
+NB
+sg
+NB
+NB
+rt
 Sr
 Sr
 EH
@@ -20988,15 +21639,15 @@ Mq
 Mq
 oD
 Xz
-NW
-Dv
+qq
+NB
+rt
+If
+BZ
+Vy
 Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-EH
+xe
+qH
 WC
 Ig
 ML
@@ -21085,15 +21736,15 @@ DX
 Mq
 xZ
 Xz
-NW
-Dv
+qq
+NB
+sg
+NB
+NB
+rt
 Sr
-Sr
-Sr
-Sr
-Sr
-Sr
-EH
+uC
+Mm
 WC
 Ig
 Ig
@@ -21182,12 +21833,12 @@ Xz
 Xz
 Xz
 Xz
-NW
-Dv
-Sr
-Sr
-Sr
-Sr
+qq
+NB
+rt
+If
+BZ
+Vy
 Sr
 Sr
 EH
@@ -21279,12 +21930,12 @@ nc
 nc
 lU
 Xz
-NW
-zC
-Rs
-Rs
-Rs
-Qj
+yM
+kK
+mo
+kK
+kK
+FT
 Sr
 Sr
 EH
@@ -21292,9 +21943,9 @@ MW
 MW
 MW
 MW
-MW
-MW
-MW
+AT
+EI
+Mm
 aj
 FI
 KU
@@ -21376,22 +22027,22 @@ Kf
 TL
 Np
 Xz
-NW
-NW
-NW
-NW
-NW
-BN
+nm
+ae
+lA
+ae
+HD
+lA
 Sr
-Sr
+ud
 uC
 Gq
 Yl
 Yl
 BX
-EI
-EI
-EI
+UW
+Sr
+uC
 EI
 UW
 Jt
@@ -21683,7 +22334,7 @@ Sr
 Sr
 Sr
 Sr
-Sr
+Zb
 KU
 ky
 NW
@@ -21775,7 +22426,7 @@ Sr
 Sr
 KU
 Sr
-KU
+xI
 KU
 KU
 Sr
@@ -22803,9 +23454,9 @@ nr
 Hr
 fY
 Gl
+EN
 oA
-oA
-oA
+YP
 pf
 fY
 fY
@@ -22902,7 +23553,7 @@ Fe
 mG
 na
 na
-na
+im
 Yv
 fY
 sZ
@@ -23000,7 +23651,7 @@ mG
 na
 na
 na
-Et
+Yv
 fY
 we
 if
@@ -23994,9 +24645,9 @@ qc
 qc
 qc
 qc
-qc
-qc
-qc
+NW
+NW
+NW
 NW
 xj
 NW
@@ -24085,15 +24736,15 @@ Ec
 Ec
 Ec
 qc
-Yw
-Yw
+nS
+tS
+Zi
+eX
+PC
 qc
-Vo
-NP
-NP
-NP
-sX
-qc
+NW
+NW
+NW
 NW
 xj
 NW
@@ -24181,16 +24832,16 @@ wV
 Ec
 wV
 Ec
-kF
-JV
-JV
-IU
-NP
-NP
-iD
-NP
-jq
 qc
+tS
+eX
+eX
+eX
+iz
+qc
+NW
+NW
+NW
 NW
 xj
 NW
@@ -24279,15 +24930,15 @@ Ec
 Ec
 fV
 qc
-Yw
-JV
+tS
+UQ
+eX
+eX
+in
 qc
-NP
-NP
-iD
-NP
-RP
-qc
+NW
+NW
+NW
 NW
 xj
 NW
@@ -24376,14 +25027,14 @@ qc
 Yb
 qc
 qc
-Yw
-JV
-IN
-NP
-NP
-iD
-NP
-RP
+qc
+qc
+qc
+Yb
+qc
+qc
+qc
+qc
 qc
 NW
 AO
@@ -24467,19 +25118,19 @@ Bh
 nq
 nq
 YA
-Yw
 JV
-Yw
 JV
-Yw
-Yw
-Yw
 JV
-IN
+JV
+JV
+JV
+JV
+IU
 NP
 NP
-NP
-NP
+qs
+Fl
+bY
 NP
 qc
 NW
@@ -24565,19 +25216,19 @@ Xc
 nq
 YA
 JV
-JV
-JV
-JV
-JV
-JV
-JV
-JV
-iD
-iD
+Yw
+Yw
+Yw
+Yw
+Yw
+Ka
 qc
-qc
-Yb
-qc
+NP
+NP
+NP
+NP
+NP
+NP
 qc
 NW
 dQ
@@ -24662,26 +25313,26 @@ nq
 nq
 YA
 JV
-Yw
 Bi
 Bi
 Bi
 Bi
 Yw
-JV
 Yw
-mr
-qc
+cc
+NP
+NP
+aC
 ru
-eX
-lI
+NP
+NP
 qc
 NW
 dQ
 KU
-KU
-KU
-KU
+cf
+NM
+nE
 KU
 KU
 KU
@@ -24759,26 +25410,26 @@ Xc
 nq
 YA
 JV
-Yw
 vf
 vf
 vf
 vf
 Yw
-JV
 Yw
-Yw
-qc
-eX
-eX
-LN
+aC
+NP
+NP
+aC
+mn
+NP
+NP
 qc
 NW
 dQ
 KU
-KU
-KU
-KU
+mA
+Hi
+Wf
 TZ
 KU
 KU
@@ -24856,23 +25507,23 @@ nq
 nq
 bt
 JV
-Yw
 EG
 EG
 EG
 EG
 Yw
-JV
 Yw
-Yw
-qc
-UQ
-eX
-Wf
+aC
+NP
+NP
+aC
+mn
+NP
+NP
 qc
 NW
 dQ
-dy
+KU
 KU
 KU
 KU
@@ -24959,13 +25610,13 @@ Yw
 Yw
 Yw
 Yw
-JV
-Yw
-Ka
-qc
-tS
-tS
-PC
+aC
+NP
+NP
+NP
+NP
+NP
+NP
 qc
 NW
 dQ
@@ -25056,10 +25707,10 @@ qc
 qc
 qc
 qc
+qc
+qc
 VO
-qc
-qc
-qc
+LS
 qc
 qc
 qc
@@ -25154,10 +25805,10 @@ UB
 UB
 UB
 sw
-sw
+hC
 XI
+sw
 qc
-NW
 NW
 NW
 NW
@@ -25248,15 +25899,15 @@ cI
 vA
 CG
 CG
+vA
 CG
 qU
 sw
-sw
 Ue
+sw
 qc
 NW
 YD
-gf
 gf
 gf
 JH
@@ -25340,20 +25991,20 @@ ml
 qf
 qf
 YA
-Ot
-sw
+Uf
+PE
+HM
+DG
+DG
+DG
+DG
 rg
-DG
-DG
-DG
-DG
-sw
 sw
 UY
+sw
 qc
 NW
 dQ
-KU
 KU
 KU
 KU
@@ -25438,19 +26089,19 @@ YA
 YA
 YA
 qc
-DI
+ck
 Lq
 UB
 UB
 UB
 UB
-sw
+SE
 sw
 Xd
+sw
 qc
 NW
 Xr
-KU
 KU
 KU
 KU
@@ -25535,19 +26186,19 @@ NW
 NW
 NW
 qc
-xq
 nX
+nX
+Le
+vA
 CG
 CG
-CG
-qU
+xc
 sw
-sw
+xq
 sw
 qc
 NW
 dQ
-KU
 KU
 KU
 KU
@@ -25632,19 +26283,19 @@ gf
 QX
 NW
 qc
+Xw
+Xw
+DG
+DG
+DG
+DG
+sw
+sw
 TY
-sw
-DG
-DG
-DG
-DG
-sw
-sw
 sw
 qc
 NW
 dQ
-KU
 KU
 KU
 KU
@@ -25739,9 +26390,9 @@ qc
 qc
 qc
 qc
+qc
 NW
 dQ
-KU
 KU
 aJ
 KU
@@ -25837,8 +26488,8 @@ NW
 NW
 NW
 NW
+NW
 GQ
-KU
 KU
 KU
 KU
@@ -25932,11 +26583,11 @@ gf
 gf
 gf
 gf
+gf
 oH
 gf
 ZZ
 TZ
-KU
 KU
 KU
 KU
