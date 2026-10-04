@@ -938,6 +938,21 @@
 	name = "chapel crate - parent"
 	desc = "chapel!"
 
+/obj/structure/closet/crate/chapel
+	name = "human chapel crate"
+
+/obj/structure/closet/crate/chapel/fill()
+	new /obj/item/storage/box/fancy/matches(src)
+	new /obj/item/tray(src)
+	new /obj/item/storage/stickersheet/religion(src)
+	for(var/i = 1 to 2)
+		new /obj/item/reagent_containers/food/drinks/bottle/holywater(src)
+	for(var/i = 1 to 4)
+		new /obj/item/storage/box/drinkingglasses(src)
+		new /obj/item/material/folding_table(src)
+	for(var/i = 1 to 10)
+		new /obj/item/storage/box/fancy/candle_box(src)
+
 // Human faiths
 /obj/structure/closet/crate/chapel/human
 	name = "human chapel crate"
@@ -953,18 +968,22 @@
 	new /obj/item/storage/box/necklace/tribunal(src)
 	new /obj/item/storage/box/necklace/luceism(src)
 	new /obj/item/storage/box/badge/trinary(src)
+	new /obj/item/storage/box/portrait/tribunal(src)
 	new /obj/item/flame/lighter/zippo/luceian(src)
 	new /obj/item/flame/lighter/zippo/dominia(src)
 	new /obj/item/deck/tarot(src)
-	new /obj/item/deck/lyodii(src)
+	new /obj/item/storage/box/lyodii(src)
 	new /obj/item/storage/stickersheet/religion/abrahamic(src)
 	new /obj/item/storage/stickersheet/religion/tribunal(src)
 	new /obj/item/storage/stickersheet/religion/luceism(src)
 	new /obj/item/storage/stickersheet/religion/trinary(src)
-	new /obj/structure/flora/pottedplant/luce_vine(src)
 	for(var/i = 1 to 6)
-		new /obj/structure/flora/pottedplant_small/luce_vine(src)
+		new /obj/item/flora/pottedplant_small/luce_vine(src)
 		new /obj/item/storage/assunzionesheath/filled (src)
+	new /obj/item/reagent_containers/food/drinks/bottle/wine(src)
+	new /obj/item/reagent_containers/food/drinks/bottle/assunzione_wine(src)
+	new /obj/item/reagent_containers/food/drinks/bottle/dominian_wine(src)
+	new /obj/item/spirit_board(src)
 // ------------
 
 // Alien faiths
@@ -983,10 +1002,13 @@
 	for(var/i = 1 to 2)
 		new /obj/item/deck/tarot/adhomai(src)
 		new /obj/item/storage/pill_bottle/dice/tajara(src)
+		new /obj/item/reagent_containers/food/condiment/wulumunusha(src)
 	new /obj/item/storage/stickersheet/religion/tajara(src)
 	new /obj/item/storage/altar/kraszar(src)
 	new /obj/item/storage/altar/rredouane(src)
 	new /obj/item/storage/altar/dharmela(src)
 	new /obj/item/storage/altar/minharzzka(src)
 	new /obj/item/storage/altar/marryam(src)
+	new /obj/item/storage/box/unique/tea/messa(src)
+	new /obj/item/spirit_board/tajara(src)
 // ------------

@@ -1227,6 +1227,17 @@
 	illustration = "paper"
 	starts_with = list(/obj/item/versebook/matake = 6)
 
+/obj/item/storage/box/portrait/tribunal
+	name = "\improper Tribunal portraits box"
+	desc = "A box filled with portraits of the Goddess."
+	illustration = "paper"
+	starts_with = list(
+		/obj/item/sign/painting_frame/goddess = 3,
+		/obj/item/sign/painting_frame/goddess/artisan = 1,
+		/obj/item/sign/painting_frame/goddess/scholar = 1,
+		/obj/item/sign/painting_frame/goddess/soldier = 1
+	)
+
 /obj/item/storage/box/necklace/christianity
 	name = "\improper Crucifix box"
 	desc = "A box filled with Crucifix necklaces."
