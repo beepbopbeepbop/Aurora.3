@@ -6,7 +6,7 @@
 	tags = list("External")
 
 	spawnpoints = list("pra_base_trooper")
-	max_count = 4
+	max_count = 3
 
 	extra_languages = list(LANGUAGE_SIIK_MAAS)
 	outfit = /obj/outfit/admin/pra_base/trooper
@@ -121,6 +121,64 @@
 	)
 // -------------
 
+// Specialist
+/datum/ghostspawner/human/pra_base_trooper/spec
+	short_name = "pra_base_spec"
+	name = "Grand People's Army Specialist"
+	desc = "You are either a missile engineer, military doctor, or PAF gunship pilot."
+
+	spawnpoints = list("pra_base_spec")
+	max_count = 1
+
+	outfit = /obj/outfit/admin/pra_base/spec
+	possible_species = list(
+		SPECIES_TAJARA,
+		SPECIES_TAJARA_MSAI,
+	)
+	uses_species_whitelist = FALSE
+
+	assigned_role = "GPASRF Base 611-5748 - Missile Trooper"
+	special_role = "Grand People's Kra'Zirmroii"
+	faction = "PRA"
+	mob_name_prefix = "Dkt. " // Dranalket - Specialist Trooper
+	respawn_flag = null
+
+	recognition_group = "pra_base"
+	recognition_message = "You recognise this person as one of the military staff assigned to the base."
+
+/obj/outfit/admin/pra_base/spec
+	name = "Grand People's Army Specialist"
+
+	uniform = /obj/item/clothing/under/tajaran/pra_trooper
+	suit = /obj/item/clothing/suit/storage/tajaran/pra_jacket/armored
+	belt = null
+	gloves = null
+	wrist = null
+	pants = null
+	shoes = /obj/item/clothing/shoes/workboots/tajara/dark
+
+	head = /obj/item/clothing/head/beret/tajaran/pra
+	mask = /obj/item/clothing/accessory/dogtags/adhomai
+	l_ear = /obj/item/radio/headset/ship
+	r_ear = null
+	glasses = null
+
+	l_pocket = /obj/item/storage/wallet/random_adhomian_knuckle
+	r_pocket = null
+
+	l_hand = /obj/item/martial_manual/tajara
+	r_hand = null
+
+	id = /obj/item/card/id
+
+	backpack = /obj/item/storage/backpack/rucksack/green
+	backpack_contents = list(
+		/obj/item/storage/firstaid/light/offship,
+		/obj/item/clothing/accessory/badge/hadii_card,
+		/obj/item/clothing/accessory/badge/pra_passport
+	)
+// -------------
+
 // Officer
 /datum/ghostspawner/human/pra_base_trooper/officer
 	short_name = "pra_army_officer"
@@ -137,7 +195,7 @@
 	)
 	uses_species_whitelist = TRUE
 
-	assigned_role = "GPASRF Base 611-5748 - Commander"
+	assigned_role = "GPASRF Base 611-5748 - Missile Commander"
 	special_role = "Grand People's Army Kazarr'Akhran"
 	faction = "PRA"
 	mob_name_prefix = "Zkr. " // Zarkir - Captain
@@ -198,7 +256,7 @@
 	assigned_role = "GPASRF Base 611-5748 - Political Commissar"
 	special_role = "Grand People's Army Political Commissar"
 	faction = "PRA"
-	mob_name_prefix = "Mhr. " // Mahmahdar - Colonel
+	mob_name_prefix = "Cmr. " // Commissar - TBD
 	respawn_flag = null
 
 	recognition_group = "pra_base"
