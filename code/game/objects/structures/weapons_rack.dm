@@ -251,7 +251,7 @@
 		return FALSE
 
 /obj/structure/weapons_rack/security/short_arms
-	name = "weapons rack - Shot Arms"
+	name = "weapons rack - Short Arms"
 	req_one_access = list(/datum/access/armory::id)
 	contents = list(
 		/obj/item/gun/energy/gun = 2,
