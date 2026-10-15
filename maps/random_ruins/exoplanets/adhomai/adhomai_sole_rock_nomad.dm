@@ -46,8 +46,8 @@
 	l_ear = null
 
 	id = null
-	l_pocket = /obj/item/ammo_magazine/boltaction
-	r_pocket = /obj/item/ammo_magazine/boltaction
+	l_pocket = /obj/item/ammo_magazine/boltaction/adhomai
+	r_pocket = /obj/item/ammo_magazine/boltaction/adhomai
 
 	belt = /obj/item/material/knife/trench
 	back = /obj/item/gun/projectile/shotgun/pump/rifle

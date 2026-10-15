@@ -11,10 +11,8 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "ak" = (
-/obj/structure/sign/painting_frame/shumaila{
-	pixel_y = 31
-	},
-/turf/simulated/floor/exoplanet/tiled,
+/obj/structure/bed/padded,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "bK" = (
 /obj/item/reagent_containers/glass/bucket/wood{
@@ -24,27 +22,31 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "bR" = (
-/obj/structure/machinery/light/small{
-	dir = 8
+/obj/structure/rod_railing/jailbar{
+	dir = 6
 	},
-/turf/simulated/floor/exoplanet/wood,
+/turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "bU" = (
-/obj/structure/simple_door/wood{
-	initial_lock_value = "nka_commander"
-	},
-/turf/simulated/floor/exoplanet/wood,
+/obj/structure/machinery/light/small,
+/obj/item/gun/projectile/shotgun/pump/rifle/scope,
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "cM" = (
-/obj/structure/simple_door/iron{
-	initial_lock_value = "nka_cell";
-	name = "cell"
+/turf/simulated/floor/exoplanet/permafrost,
+/area/nka_base)
+"dW" = (
+/obj/structure/machinery/door/urban/jail_door/rusted{
+	dir = 1;
+	req_one_access = list(/datum/access/nka_trooper,/datum/access/nka_officer)
 	},
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "eh" = (
-/obj/structure/machinery/door/urban,
-/turf/simulated/floor/exoplanet/wood,
+/obj/structure/rod_railing/jailbar{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "eF" = (
 /obj/structure/sign/emergency/meetingpoint{
@@ -69,17 +71,19 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "gF" = (
-/obj/structure/bed/stool/chair/wood,
-/obj/item/handcuffs,
-/obj/item/handcuffs/legcuffs,
-/obj/effect/decal/cleanable/blood,
-/turf/simulated/floor/exoplanet/tiled,
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/obj/item/trash/tray,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "gU" = (
-/obj/structure/blocker/steel/fence{
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/snow/cold,
+/obj/structure/rod_railing/jailbar,
+/turf/simulated/floor/exoplanet/permafrost,
+/area/nka_base)
+"hn" = (
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "hK" = (
 /obj/item/stack/material/wood/log/full,
@@ -108,62 +112,76 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "ka" = (
-/obj/structure/bed/padded,
-/turf/simulated/floor/exoplanet/tiled,
+/obj/structure/rod_railing/jailbar/rusted,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "kO" = (
-/obj/structure/bed/stool/chair/wood{
+/obj/structure/rod_railing/jailbar{
 	dir = 8
 	},
-/obj/effect/ghostspawpoint{
-	identifier = "nka_base_commander";
-	name = "igs - nka_base_commander"
+/turf/simulated/floor/exoplanet/permafrost,
+/area/nka_base)
+"lB" = (
+/obj/structure/closet/cabinet,
+/obj/item/clothing/shoes/jackboots/tajara/cavalry,
+/obj/item/clothing/under/tajaran/nka_uniform/commander,
+/obj/item/clothing/head/tajaran/nka_cap/commander,
+/obj/structure/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/exoplanet/wood,
+/area/nka_base)
+"lN" = (
+/obj/structure/machinery/door/urban/metal_alt{
+	req_one_access = list(/datum/access/nka_trooper,/datum/access/nka_officer)
+	},
+/turf/simulated/floor/exoplanet/tiled/dark/full,
 /area/nka_base)
 "lX" = (
-/obj/structure/machinery/light/small,
-/turf/simulated/floor/exoplanet/snow/cold,
-/area/exoplanet/adhomai)
-"mf" = (
-/obj/structure/closet/secure_closet/cabinet{
-	req_access = list(213);
-	name = "rifle cabinet"
+/obj/structure/machinery/light/small{
+	dir = 8
 	},
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/tiled/dark,
+/area/nka_base)
+"mf" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
+/turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "mj" = (
-/obj/structure/window/reinforced{
-	dir = 4
+/obj/structure/rod_railing/jailbar/rusted{
+	dir = 6
 	},
-/obj/structure/table/wood,
-/obj/item/key{
-	key_data = "nka_base_entry";
-	name = "gate key"
-	},
-/obj/item/key{
-	key_data = "nka_base_entry";
-	name = "gate key"
-	},
-/turf/simulated/floor/exoplanet/wood,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "mB" = (
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "nc" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/brown,
-/obj/structure/curtain/open/bed,
-/obj/effect/ghostspawpoint{
-	identifier = "nka_base_soldier";
-	name = "igs - nka_base_soldier"
-	},
+/obj/structure/closet/cabinet,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/shoes/workboots/tajara/dark,
+/obj/item/clothing/under/tajaran/nka_uniform,
+/obj/item/clothing/under/tajaran/nka_uniform,
+/obj/item/clothing/under/tajaran/nka_uniform,
+/obj/item/clothing/under/tajaran/nka_uniform,
+/obj/item/clothing/under/tajaran/nka_uniform,
+/obj/item/clothing/head/tajaran/nka_cap,
+/obj/item/clothing/head/tajaran/nka_cap,
+/obj/item/clothing/head/tajaran/nka_cap,
+/obj/item/clothing/head/tajaran/nka_cap,
+/obj/item/clothing/head/tajaran/nka_cap,
 /turf/simulated/floor/exoplanet/wood,
+/area/nka_base)
+"nq" = (
+/obj/structure/machinery/door/urban/metal_alt{
+	dir = 4;
+	req_one_access = list(/datum/access/nka_trooper,/datum/access/nka_officer)
+	},
+/turf/simulated/floor/exoplanet/tiled/dark/full,
 /area/nka_base)
 "nA" = (
 /obj/structure/machinery/shower{
@@ -178,12 +196,10 @@
 	},
 /area/nka_base)
 "oA" = (
-/obj/structure/simple_door/iron{
-	initial_lock_value = "nka_base_entry"
+/obj/structure/rod_railing/jailbar{
+	dir = 4
 	},
-/turf/simulated/floor/exoplanet/barren{
-	temperature = 268.15
-	},
+/turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "pb" = (
 /obj/structure/table/rack,
@@ -192,18 +208,19 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "pB" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/shoes/jackboots/tajara,
-/obj/item/clothing/under/tajaran/nka_uniform,
-/obj/item/clothing/head/tajaran/nka_cap,
-/obj/item/clothing/accessory/badge/nka_passport,
+/obj/item/reagent_containers/glass/bucket/wood{
+	pixel_y = 19
+	},
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "pV" = (
+/obj/structure/machinery/door/urban/jail_door{
+	req_one_access = list(/datum/access/nka_trooper,/datum/access/nka_officer)
+	},
 /turf/simulated/floor/exoplanet/barren{
 	temperature = 268.15
 	},
-/area/exoplanet/adhomai)
+/area/nka_base)
 "qa" = (
 /obj/structure/reagent_dispensers/keg/mead,
 /obj/structure/machinery/light/small{
@@ -218,6 +235,14 @@
 	desc = "A tank of water filed by melting local snow."
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
+/area/nka_base)
+"ra" = (
+/obj/structure/machinery/door/urban{
+	req_one_access = list(/datum/access/nka_trooper,/datum/access/nka_officer)
+	},
+/turf/simulated/floor/exoplanet/barren{
+	temperature = 268.15
+	},
 /area/nka_base)
 "rV" = (
 /obj/structure/machinery/light/small{
@@ -241,18 +266,18 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "tT" = (
-/obj/effect/floor_decal/industrial/outline/blue,
 /obj/structure/closet/secure_closet/cabinet{
 	req_access = list(213);
-	name = "bayonet cabinet"
+	name = "submachine gun ammunition cabinet"
 	},
-/obj/item/clothing/accessory/storage/bayonet,
-/obj/item/clothing/accessory/storage/bayonet,
-/obj/item/clothing/accessory/storage/bayonet,
-/obj/item/clothing/accessory/storage/bayonet,
-/obj/item/clothing/accessory/storage/bayonet,
-/obj/item/clothing/accessory/storage/bayonet,
-/turf/simulated/floor/exoplanet/tiled,
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/exoplanet/tiled/dark,
+/area/nka_base)
+"uj" = (
+/obj/structure/bed/stool/bar/padded/brown{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "uO" = (
 /obj/structure/table/wood,
@@ -290,16 +315,11 @@
 "vQ" = (
 /obj/structure/closet/secure_closet/cabinet{
 	req_access = list(213);
-	name = "revolver ammunition cabinet"
+	name = "rifle ammunition cabinet"
 	},
 /obj/effect/floor_decal/industrial/outline/blue,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38,
-/turf/simulated/floor/exoplanet/tiled,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "vX" = (
 /obj/structure/reagent_dispensers/keg/mead{
@@ -322,34 +342,22 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "wC" = (
+/obj/effect/floor_decal/industrial/outline/blue,
 /obj/structure/closet/secure_closet/cabinet{
 	req_access = list(213);
-	name = "explosive cabinet"
+	name = "armor cabinet"
 	},
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/grenade/frag,
-/obj/item/landmine,
-/obj/item/landmine,
-/obj/item/landmine,
-/obj/item/landmine,
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/exoplanet/tiled,
+/obj/structure/sign/flag/nka{
+	pixel_x = -32
+	},
+/obj/item/clothing/gloves/tajaran_gauntlets,
+/obj/item/clothing/head/helmet/kettle,
+/obj/item/clothing/shoes/tajara/armored,
+/obj/item/clothing/suit/armor/cuirass,
+/obj/item/clothing/accessory/storage/bandolier,
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "xj" = (
-/obj/item/gun/projectile/automatic/tommygun,
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/structure/closet/secure_closet/cabinet{
-	req_access = list(213);
-	name = "revolver ammunition cabinet"
-	},
-/obj/structure/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor/exoplanet/tiled,
-/area/nka_base)
-"xN" = (
 /obj/item/gun/projectile/revolver/adhomian,
 /obj/item/gun/projectile/revolver/adhomian,
 /obj/item/gun/projectile/revolver/adhomian,
@@ -362,11 +370,23 @@
 /obj/structure/sign/flag/nka{
 	pixel_x = -32
 	},
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/tiled/dark,
+/area/nka_base)
+"xN" = (
+/obj/structure/closet/secure_closet/cabinet{
+	req_access = list(213);
+	name = "rifle cabinet"
+	},
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/item/gun/projectile/shotgun/pump/rifle,
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "xQ" = (
-/obj/structure/machinery/door/urban{
-	dir = 4
+/obj/structure/bed/stool/chair/wood{
+	dir = 8
 	},
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
@@ -391,32 +411,32 @@
 "yB" = (
 /turf/simulated/wall/wood,
 /area/nka_base)
+"zh" = (
+/obj/structure/closet/secure_closet/cabinet{
+	req_access = list(213);
+	name = "explosive cabinet"
+	},
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
+/obj/item/grenade/frag,
+/obj/item/landmine,
+/obj/item/landmine,
+/obj/item/landmine,
+/obj/item/landmine,
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/exoplanet/tiled/dark,
+/area/nka_base)
 "zC" = (
-/obj/item/clothing/head/helmet/kettle,
-/obj/item/clothing/head/helmet/kettle,
-/obj/item/clothing/head/helmet/kettle,
-/obj/item/clothing/head/helmet/kettle,
-/obj/item/clothing/suit/armor/cuirass,
-/obj/item/clothing/suit/armor/cuirass,
-/obj/item/clothing/suit/armor/cuirass,
-/obj/item/clothing/suit/armor/cuirass,
-/obj/item/clothing/gloves/tajaran_gauntlets,
-/obj/item/clothing/gloves/tajaran_gauntlets,
-/obj/item/clothing/gloves/tajaran_gauntlets,
-/obj/item/clothing/gloves/tajaran_gauntlets,
-/obj/item/clothing/shoes/tajara/armored,
-/obj/item/clothing/shoes/tajara/armored,
-/obj/item/clothing/shoes/tajara/armored,
-/obj/item/clothing/shoes/tajara/armored,
 /obj/effect/floor_decal/industrial/outline/blue,
 /obj/structure/closet/secure_closet/cabinet{
 	req_access = list(213);
-	name = "armor cabinet"
+	name = "revolver ammunition cabinet"
 	},
-/obj/structure/sign/flag/nka{
-	pixel_x = -32
+/obj/structure/machinery/light/small{
+	dir = 8
 	},
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "Ab" = (
 /obj/structure/bonfire/fireplace{
@@ -432,54 +452,55 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "AC" = (
-/obj/item/reagent_containers/glass/bucket/wood{
-	pixel_y = 6;
-	pixel_x = 10
+/obj/structure/rod_railing/jailbar/rusted{
+	dir = 8
 	},
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "BZ" = (
-/obj/structure/closet/secure_closet/cabinet{
-	req_access = list(213);
-	name = "rifle ammunition cabinet"
+/obj/structure/rod_railing/jailbar/rusted{
+	dir = 10
 	},
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "CO" = (
 /turf/unsimulated/wall/steel,
 /area/nka_base)
 "CW" = (
-/obj/structure/machinery/light/small,
-/turf/simulated/floor/exoplanet/tiled,
+/obj/structure/bed/padded,
+/obj/item/bedsheet/black,
+/obj/structure/bed/padded/bunk,
+/obj/item/bedsheet/brown{
+	pixel_y = 16
+	},
+/turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "DB" = (
-/obj/structure/simple_door/iron{
-	initial_lock_value = "nka_armory"
+/obj/structure/rod_railing/jailbar{
+	dir = 4
 	},
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "DL" = (
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "Ec" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/shoes/jackboots/tajara,
-/obj/item/clothing/under/tajaran/nka_uniform,
-/obj/item/clothing/head/tajaran/nka_cap,
-/obj/item/clothing/accessory/badge/nka_passport,
-/obj/structure/machinery/light/small{
-	dir = 8
+/obj/structure/machinery/door/window/brigdoor{
+	dir = 4;
+	req_access = list(213);
+	name = "checkpoint"
 	},
-/turf/simulated/floor/exoplanet/wood,
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen/black,
+/turf/simulated/floor/exoplanet/tiled/dark,
+/area/nka_base)
+"Ei" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "Em" = (
 /obj/structure/table/standard,
@@ -499,18 +520,15 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "Et" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/shoes/jackboots/tajara,
-/obj/item/clothing/under/tajaran/nka_uniform,
-/obj/item/clothing/head/tajaran/nka_cap,
-/obj/item/clothing/accessory/badge/nka_passport,
-/obj/structure/machinery/light/small{
+/obj/structure/rod_railing/jailbar/rusted{
 	dir = 4
 	},
-/turf/simulated/floor/exoplanet/wood,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "EK" = (
-/obj/structure/blocker/steel/fence,
+/obj/structure/rod_railing/jailbar{
+	dir = 8
+	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "EP" = (
@@ -519,12 +537,26 @@
 	},
 /area/nka_base)
 "Fo" = (
-/obj/structure/curtain/black{
-	pixel_y = -33
+/obj/structure/rod_railing/jailbar/rusted{
+	dir = 1
 	},
-/turf/simulated/floor/exoplanet/barren{
-	temperature = 268.15
+/turf/simulated/floor/exoplanet/permafrost,
+/area/nka_base)
+"Gs" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/brown,
+/obj/structure/bed/padded/bunk,
+/obj/item/bedsheet/black{
+	pixel_y = 16
 	},
+/turf/simulated/floor/exoplanet/wood,
+/area/nka_base)
+"Iy" = (
+/obj/item/reagent_containers/glass/bucket/wood{
+	pixel_y = 6;
+	pixel_x = 10
+	},
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "IG" = (
 /obj/structure/closet/outhouse,
@@ -541,21 +573,41 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "Jg" = (
-/obj/structure/closet/secure_closet/cabinet{
-	req_access = list(213);
-	name = "submachine gun ammunition cabinet"
+/turf/simulated/floor/exoplanet/tiled/dark,
+/area/nka_base)
+"JB" = (
+/obj/structure/rod_railing/jailbar{
+	dir = 6
 	},
-/obj/effect/floor_decal/industrial/outline/blue,
-/obj/item/ammo_magazine/submachinemag,
-/obj/item/ammo_magazine/submachinemag,
-/obj/item/ammo_magazine/submachinedrum,
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/permafrost,
+/area/nka_base)
+"KM" = (
+/obj/structure/bed/stool/bar/padded/brown,
+/obj/structure/sign/flag/nka{
+	pixel_y = 32
+	},
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "Md" = (
+/obj/item/storage/box/shells/slugs,
+/obj/item/gun/projectile/shotgun/pump/combat,
+/turf/simulated/floor/exoplanet/tiled/dark,
+/area/nka_base)
+"No" = (
+/obj/structure/table/wood,
+/obj/item/binoculars/spyglass,
+/obj/item/storage/box/fancy/cigarettes/cigar,
+/obj/item/flame/lighter/adhomai,
+/obj/structure/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/wood,
+/area/nka_base)
+"NF" = (
 /obj/structure/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "NP" = (
 /obj/structure/table/wood,
@@ -567,27 +619,8 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "NW" = (
-/obj/structure/table/wood,
-/obj/item/binoculars/spyglass,
-/obj/item/storage/box/fancy/cigarettes/cigar,
-/obj/item/flame/lighter/adhomai,
 /obj/structure/machinery/light/small{
-	dir = 8
-	},
-/obj/item/key{
-	key_data = "nka_armory";
-	name = "armory key";
-	pixel_x = 5
-	},
-/obj/item/key{
-	key_data = "nka_cell";
-	name = "cell key";
-	pixel_x = -5
-	},
-/obj/item/key{
-	key_data = "nka_commander";
-	name = "officer room key";
-	pixel_x = -5
+	dir = 4
 	},
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
@@ -597,27 +630,43 @@
 	},
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
+"QU" = (
+/obj/structure/machinery/door/urban{
+	dir = 4;
+	req_one_access = list(/datum/access/nka_officer)
+	},
+/turf/simulated/floor/exoplanet/wood,
+/area/nka_base)
 "Rb" = (
-/turf/simulated/floor/exoplanet/tiled,
+/obj/structure/closet/secure_closet/cabinet{
+	req_access = list(213);
+	name = "revolver ammunition cabinet"
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/nka_base)
 "Rg" = (
-/obj/structure/blocker/steel/fence{
-	dir = 4
-	},
-/turf/simulated/floor/exoplanet/tiled,
+/obj/structure/bed/stool/chair/wood,
+/obj/item/handcuffs,
+/obj/item/handcuffs/legcuffs,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "Sr" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/brown,
-/obj/structure/curtain/open/bed,
-/turf/simulated/floor/exoplanet/wood,
+/obj/structure/rod_railing/jailbar/rusted{
+	dir = 9
+	},
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "St" = (
-/obj/structure/bed/stool/bar/padded/brown,
-/obj/structure/sign/flag/nka{
-	pixel_y = 32
-	},
-/turf/simulated/floor/exoplanet/wood,
+/obj/structure/rod_railing/jailbar,
+/turf/simulated/floor/exoplanet/snow/cold,
 /area/nka_base)
 "SZ" = (
 /obj/structure/table/standard,
@@ -635,7 +684,7 @@
 /area/nka_base)
 "Up" = (
 /obj/structure/table/wood,
-/obj/item/flashlight/lamp,
+/obj/item/flashlight/lamp/green,
 /obj/structure/sign/flag/nka/large/north{
 	pixel_y = 32
 	},
@@ -651,10 +700,11 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "Vn" = (
-/obj/structure/machinery/door/urban,
-/turf/simulated/floor/exoplanet/barren{
-	temperature = 268.15
+/obj/structure/machinery/door/urban{
+	dir = 4;
+	req_one_access = list(/datum/access/nka_trooper,/datum/access/nka_officer)
 	},
+/turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "Vy" = (
 /obj/structure/table/wood,
@@ -662,20 +712,14 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "VN" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/shoes/jackboots/tajara,
-/obj/item/clothing/under/tajaran/nka_uniform/commander,
-/obj/item/clothing/head/tajaran/nka_cap/commander,
-/obj/item/ammo_magazine/c38,
-/obj/item/ammo_magazine/c38,
-/obj/structure/machinery/light/small{
-	dir = 1
-	},
+/obj/structure/table/wood,
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "WG" = (
-/obj/structure/simple_door/wood,
-/turf/simulated/floor/exoplanet/wood,
+/obj/structure/rod_railing/jailbar{
+	dir = 10
+	},
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "WS" = (
 /obj/structure/closet/crate/freezer,
@@ -691,15 +735,10 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "Xb" = (
-/obj/structure/machinery/door/window/brigdoor{
-	dir = 4;
-	req_access = list(213);
-	name = "checkpoint"
+/obj/structure/rod_railing/jailbar/rusted{
+	dir = 5
 	},
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen/black,
-/turf/simulated/floor/exoplanet/wood,
+/turf/simulated/floor/exoplanet/permafrost,
 /area/nka_base)
 "Yr" = (
 /obj/structure/sign/flag/nka/large/north{
@@ -719,11 +758,10 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "YC" = (
-/obj/structure/machinery/light/small{
-	dir = 8
+/obj/structure/machinery/door/urban{
+	req_one_access = list(/datum/access/nka_trooper,/datum/access/nka_officer)
 	},
-/obj/item/trash/tray,
-/turf/simulated/floor/exoplanet/tiled,
+/turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "YD" = (
 /obj/structure/table/wood,
@@ -735,9 +773,7 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 "YT" = (
-/obj/item/reagent_containers/glass/bucket/wood{
-	pixel_y = 19
-	},
+/obj/structure/undies_wardrobe,
 /turf/simulated/floor/exoplanet/wood,
 /area/nka_base)
 
@@ -810,44 +846,42 @@ vi
 vi
 "}
 (3,1,1) = {"
-vi
-vi
-hT
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-hT
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+St
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+kO
+WG
 "}
 (4,1,1) = {"
-vi
-vi
-vi
-CO
+St
+gU
 EK
 EK
 EK
@@ -875,12 +909,11 @@ EK
 EK
 EK
 EK
-CO
+EK
+eh
+gU
 "}
 (5,1,1) = {"
-vi
-vi
-vi
 CO
 CO
 CO
@@ -909,16 +942,18 @@ DL
 DL
 DL
 DL
+DL
+DL
+St
 gU
 "}
 (6,1,1) = {"
-hT
-vi
-lX
 CO
-St
-bR
-WG
+KM
+lX
+lN
+EP
+DL
 DL
 DL
 DL
@@ -943,16 +978,15 @@ yB
 yB
 yB
 DL
+St
 gU
 "}
 (7,1,1) = {"
-vi
-vi
-vi
 CO
-Xb
-mj
+Ec
+Ei
 CO
+EP
 DL
 DL
 DL
@@ -973,20 +1007,21 @@ DL
 DL
 DL
 DL
-Vn
+DL
+ra
 yk
 yB
 DL
+St
 gU
 "}
 (8,1,1) = {"
 pV
-pV
-pV
-oA
 EP
 EP
-oA
+pV
+EP
+EP
 EP
 EP
 EP
@@ -1011,16 +1046,16 @@ yB
 yB
 yB
 DL
+St
 gU
 "}
 (9,1,1) = {"
-pV
-pV
-pV
-gU
+St
 DL
 DL
-gU
+St
+EP
+EP
 EP
 EP
 EP
@@ -1041,20 +1076,20 @@ EP
 EP
 EP
 DL
-Vn
+ra
 nA
 yB
 DL
+St
 gU
 "}
 (10,1,1) = {"
 pV
-pV
-pV
-oA
 EP
 EP
-oA
+pV
+EP
+EP
 EP
 EP
 EP
@@ -1079,16 +1114,16 @@ yB
 yB
 yB
 DL
+St
 gU
 "}
 (11,1,1) = {"
-vi
-vi
-vi
 CO
-EK
-EK
 CO
+CO
+CO
+DL
+DL
 DL
 DL
 DL
@@ -1102,7 +1137,7 @@ DL
 DL
 DL
 DL
-DL
+EP
 pb
 jN
 DL
@@ -1113,12 +1148,11 @@ DL
 DL
 DL
 DL
+St
 gU
 "}
 (12,1,1) = {"
-vi
-vi
-vi
+St
 gU
 DL
 DL
@@ -1127,16 +1161,17 @@ DL
 DL
 DL
 DL
+DL
 yB
-xQ
-yB
-yB
-yB
+Vn
 yB
 yB
 yB
 yB
 yB
+yB
+yB
+Vn
 yB
 yB
 DL
@@ -1147,13 +1182,13 @@ yB
 yB
 yB
 yB
+St
 gU
 "}
 (13,1,1) = {"
-vi
-vi
-vi
+St
 gU
+DL
 DL
 DL
 DL
@@ -1165,13 +1200,13 @@ yB
 mB
 WS
 qa
-pB
-Sr
-Ec
-nc
 vX
+pB
+uO
+yB
+nc
+mB
 YT
-UX
 yB
 DL
 EP
@@ -1181,13 +1216,13 @@ tI
 mB
 rV
 yB
+St
 gU
 "}
 (14,1,1) = {"
-vi
-vi
-vi
+St
 gU
+DL
 DL
 DL
 DL
@@ -1200,28 +1235,28 @@ Yr
 mB
 mB
 mB
+UX
+aa
+yB
+CW
 mB
-mB
-mB
-mB
-mB
-uO
+Gs
 yB
 DL
 EP
 EP
-eh
+YC
 mB
 mB
 vd
 yB
+St
 gU
 "}
 (15,1,1) = {"
-vi
-vi
-vi
+St
 gU
+DL
 DL
 DL
 DL
@@ -1235,11 +1270,11 @@ UX
 mB
 mB
 mB
+uj
+yB
+mf
 mB
-mB
-mB
-mB
-aa
+VN
 yB
 DL
 EP
@@ -1249,13 +1284,13 @@ Em
 TH
 SZ
 yB
+St
 gU
 "}
 (16,1,1) = {"
-vi
-vi
-vi
+St
 gU
+DL
 DL
 DL
 DL
@@ -1267,13 +1302,13 @@ yB
 Ab
 Vy
 UX
-pB
-nc
-Et
-nc
 mB
 mB
-UX
+NW
+yB
+Gs
+mB
+CW
 yB
 DL
 EP
@@ -1283,13 +1318,13 @@ yB
 yB
 yB
 yB
+St
 gU
 "}
 (17,1,1) = {"
-vi
-vi
-vi
+St
 gU
+DL
 DL
 DL
 DL
@@ -1317,13 +1352,13 @@ DL
 yx
 DL
 DL
+St
 gU
 "}
 (18,1,1) = {"
-vi
-vi
-vi
+St
 gU
+DL
 DL
 DL
 DL
@@ -1351,13 +1386,13 @@ mB
 mB
 Yv
 DL
+St
 gU
 "}
 (19,1,1) = {"
-vi
-hT
-vi
+St
 gU
+DL
 DL
 DL
 CO
@@ -1385,30 +1420,30 @@ mB
 mB
 Yv
 DL
+St
 gU
 "}
 (20,1,1) = {"
-vi
-vi
-vi
+St
 gU
+DL
 DL
 DL
 CO
 Up
 mB
-NW
+No
 NP
 YD
 CO
 DL
 DL
 CO
+zh
 wC
 zC
 xj
 xN
-mf
 CO
 DL
 DL
@@ -1419,30 +1454,30 @@ vl
 mB
 Yv
 DL
+St
 gU
 "}
 (21,1,1) = {"
-vi
-vi
-vi
+St
 gU
+DL
 DL
 DL
 CO
 fq
 mB
 mB
-kO
+xQ
 Qx
 CO
 DL
 DL
 CO
+NF
 Md
-Rb
-Rb
-Rb
-CW
+Jg
+Jg
+bU
 CO
 DL
 DL
@@ -1453,17 +1488,17 @@ vs
 mB
 Yv
 DL
+St
 gU
 "}
 (22,1,1) = {"
-vi
-vi
-vi
+St
 gU
 DL
 DL
+DL
 CO
-VN
+lB
 mB
 mB
 mB
@@ -1472,11 +1507,11 @@ CO
 DL
 DL
 CO
+hn
 tT
 Jg
 Rb
 vQ
-BZ
 CO
 DL
 DL
@@ -1487,19 +1522,19 @@ DL
 ji
 DL
 DL
+St
 gU
 "}
 (23,1,1) = {"
-vi
-vi
-vi
+St
 gU
 DL
 DL
+DL
 CO
 CO
 CO
-bU
+QU
 CO
 CO
 CO
@@ -1508,7 +1543,7 @@ DL
 CO
 CO
 CO
-DB
+nq
 CO
 CO
 CO
@@ -1516,22 +1551,22 @@ DL
 DL
 EP
 EP
-CO
-CO
-CO
-CO
+Sr
+AC
+AC
+BZ
 DL
+St
 gU
 "}
 (24,1,1) = {"
-vi
-vi
-vi
+St
 gU
 DL
 DL
 DL
 DL
+DL
 fY
 EP
 yx
@@ -1548,58 +1583,58 @@ DL
 DL
 DL
 DL
+EP
 EP
 Fo
 Rg
 gF
-YC
-CO
+ka
 DL
+St
 gU
 "}
 (25,1,1) = {"
-vi
-vi
-vi
+St
 gU
 DL
 DL
 DL
 DL
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-cM
-Rb
-AC
-CO
 DL
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+dW
+cM
+Iy
+ka
+DL
+St
 gU
 "}
 (26,1,1) = {"
-vi
-vi
-vi
+St
 gU
 DL
 DL
 DL
 DL
+DL
 EP
 EP
 EP
@@ -1618,51 +1653,50 @@ EP
 EP
 EP
 EP
-CO
+Fo
+cM
 ak
 ka
-CO
 DL
+St
 gU
 "}
 (27,1,1) = {"
-vi
-vi
-vi
+St
 gU
 DL
 DL
 DL
 DL
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-EP
-CO
-CO
-CO
-CO
 DL
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+EP
+Xb
+Et
+Et
+mj
+DL
+St
 gU
 "}
 (28,1,1) = {"
-vi
-vi
-vi
+St
 gU
 DL
 DL
@@ -1691,75 +1725,77 @@ DL
 DL
 DL
 DL
+DL
+St
 gU
 "}
 (29,1,1) = {"
-vi
-hT
-vi
-CO
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-EK
-CO
+St
+gU
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+oA
+bR
+gU
 "}
 (30,1,1) = {"
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-hT
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
-vi
+St
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+DB
+JB
 "}
 (31,1,1) = {"
 vi

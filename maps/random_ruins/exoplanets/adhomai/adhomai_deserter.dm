@@ -45,7 +45,7 @@
 						/obj/item/gun/projectile/pistol/adhomai = 1,
 						/obj/item/ammo_magazine/mc9mm = 2,
 						/obj/item/grenade/frag = 1,
-						/obj/item/ammo_magazine/boltaction = 3
+						/obj/item/ammo_magazine/boltaction/adhomai = 3
 						)
 
 	l_ear = null

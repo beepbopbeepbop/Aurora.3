@@ -1161,6 +1161,12 @@
 	illustration = "paper"
 	starts_with = list(/obj/item/versebook/pra = 6)
 
+/obj/item/storage/box/zbrojny_badge
+	name = "PSIS Zbrojny badge box"
+	desc = "A box filled with badges issued to members of the People's Strategic Intelligence Service Zbrojny program."
+	illustration = "paper"
+	starts_with = list(/obj/item/clothing/accessory/tajaran/zbrojny_badge = 6)
+
 /obj/item/storage/box/dpra_manifesto
 	name = "al'mariist manifesto box"
 	desc = "A box filled with copies of 'In Defense of Al'mari's Legacy'."

@@ -855,3 +855,13 @@
 /datum/access/crevus_clothing_store
 	id = 266
 	desc = "Clothing Store Access"
+
+/datum/access/nka_trooper
+	id = 267
+	desc = "NKA Imperial Army Trooper Access"
+	access_type = ACCESS_TYPE_CENTCOM
+
+/datum/access/nka_officer
+	id = 268
+	desc = "NKA Imperial Army Officer Access"
+	access_type = ACCESS_TYPE_CENTCOM

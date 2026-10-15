@@ -250,6 +250,10 @@
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
 /obj/item/bedsheet/black,
+/obj/effect/ghostspawpoint{
+	identifier = "ala_base_soldier";
+	name = "igs - ala_base_soldier"
+	},
 /turf/simulated/floor/exoplanet/wood,
 /area/ala_base)
 "nu" = (
@@ -321,13 +325,14 @@
 	req_access = list(214);
 	name = "ammunition cabinet (rifle)"
 	},
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
 /obj/structure/machinery/light/small{
 	dir = 1
 	},
@@ -367,15 +372,6 @@
 /obj/item/ammo_magazine/c45m,
 /obj/structure/machinery/light/small{
 	dir = 1
-	},
-/turf/simulated/floor/exoplanet/tiled/dark,
-/area/ala_base)
-"tT" = (
-/obj/structure/machinery/button/remote/blast_door{
-	id = "ala_garage";
-	name = "Garage Door";
-	req_access = list(214);
-	pixel_x = 32
 	},
 /turf/simulated/floor/exoplanet/tiled/dark,
 /area/ala_base)
@@ -463,8 +459,18 @@
 /obj/effect/floor_decal/industrial/outline/blue,
 /obj/structure/closet/secure_closet/guncabinet{
 	req_access = list(214);
-	name = "ammunition cabinet (automatic rifle)"
+	name = "ammunition cabinet (rifle)"
 	},
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
 /obj/item/ammo_magazine/a68,
 /obj/item/ammo_magazine/a68,
 /obj/item/ammo_magazine/a68,
@@ -485,10 +491,19 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/ala_base)
 "vP" = (
-/obj/structure/barricade/metal/wired{
-	pixel_y = 16
+/obj/structure/machinery/door/blast/shutters{
+	id = "ala_garage";
+	dir = 4
 	},
-/turf/unsimulated/wall/steel,
+/obj/structure/machinery/button/remote/blast_door{
+	id = "ala_garage";
+	name = "Garage Door";
+	req_access = list(214);
+	dir = 4;
+	pixel_y = -23;
+	pixel_x = -12
+	},
+/turf/simulated/floor/exoplanet/tiled/dark,
 /area/ala_base)
 "vT" = (
 /obj/structure/machinery/light{
@@ -619,8 +634,10 @@
 	req_access = list(214);
 	name = "ammunition cabinet (marksman)"
 	},
-/obj/item/ammo_magazine/d762,
-/obj/item/ammo_magazine/d762,
+/obj/item/ammo_magazine/a68/hotaki,
+/obj/item/ammo_magazine/a68/hotaki,
+/obj/item/ammo_magazine/a68/hotaki,
+/obj/item/ammo_magazine/a68/hotaki,
 /turf/simulated/floor/exoplanet/tiled/dark,
 /area/ala_base)
 "zC" = (
@@ -668,14 +685,24 @@
 	req_access = list(214);
 	name = "armor cabinet"
 	},
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/head/helmet/merc,
-/obj/item/clothing/head/helmet/merc,
-/obj/item/clothing/head/helmet/merc,
-/obj/item/clothing/head/helmet/merc,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
 /turf/simulated/floor/exoplanet/tiled/dark,
 /area/ala_base)
 "AW" = (
@@ -705,13 +732,6 @@
 "Bl" = (
 /obj/structure/simple_door/iron,
 /turf/simulated/floor/exoplanet/tiled/dark,
-/area/ala_base)
-"BV" = (
-/obj/structure/noticeboard{
-	icon_state = "nboard03";
-	pixel_x = 32
-	},
-/turf/simulated/floor/exoplanet/wood,
 /area/ala_base)
 "Ci" = (
 /obj/structure/table/wood/gamblingtable,
@@ -1123,13 +1143,6 @@
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/ala_base)
-"VN" = (
-/obj/structure/noticeboard{
-	icon_state = "nboard04";
-	pixel_x = -32
-	},
-/turf/simulated/floor/exoplanet/wood,
-/area/ala_base)
 "Wl" = (
 /obj/structure/sign/painting_frame/nated{
 	pixel_x = -32
@@ -1429,7 +1442,7 @@ KV
 Rg
 wB
 Md
-ne
+DL
 gV
 DL
 DL
@@ -1535,7 +1548,7 @@ vi
 ut
 Hq
 DU
-VN
+zp
 uk
 DB
 DB
@@ -1596,7 +1609,7 @@ Hq
 zA
 om
 dF
-vP
+Hq
 ah
 DB
 DB
@@ -1730,7 +1743,7 @@ vi
 ut
 Hq
 LW
-BV
+zp
 uk
 DB
 qA
@@ -2017,7 +2030,7 @@ IO
 iY
 iY
 iY
-tT
+om
 iM
 Hq
 DB
@@ -2055,7 +2068,7 @@ Hq
 Hq
 eh
 eh
-eh
+vP
 Hq
 Hq
 Hq

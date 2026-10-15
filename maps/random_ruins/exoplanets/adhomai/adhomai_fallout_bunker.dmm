@@ -764,14 +764,16 @@
 	name = "ammo cabinet"
 	},
 /obj/effect/floor_decal/industrial/outline/blue,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
 /obj/structure/machinery/light,
 /obj/effect/floor_decal/corner/red{
 	dir = 10
 	},
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
 /turf/simulated/floor/tiled{
 	temperature = 278.15
 	},

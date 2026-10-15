@@ -53,6 +53,9 @@
 	icon_state = "television";
 	name = "adhomian television"
 	},
+/obj/structure/weapon_rack/double_pellet{
+	pixel_y = 32
+	},
 /turf/simulated/floor/exoplanet/wood,
 /area/adhomai_raskariim_hideout)
 "da" = (
@@ -232,6 +235,9 @@
 /obj/item/clothing/suit/storage/tajaran/raskara,
 /obj/item/clothing/head/tajaran/raskara,
 /obj/item/melee/whip,
+/obj/item/storage/box/shells/buckshot,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
 /turf/simulated/floor/exoplanet/wood,
 /area/adhomai_raskariim_hideout)
 "tv" = (
@@ -515,6 +521,7 @@
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/storage/tajaran/raskara,
 /obj/item/clothing/head/tajaran/raskara,
+/obj/item/clothing/accessory/storage/bandolier,
 /turf/simulated/floor/exoplanet/wood,
 /area/adhomai_raskariim_hideout)
 "Ja" = (

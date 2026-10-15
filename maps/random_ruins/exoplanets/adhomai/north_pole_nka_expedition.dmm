@@ -18,6 +18,9 @@
 /obj/item/ammo_magazine/c38,
 /obj/item/ammo_magazine/c38,
 /obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
 /turf/simulated/floor/exoplanet/carpet/rubber,
 /area/adhomai_archeology)
 "e" = (
@@ -79,10 +82,11 @@
 	name = "secure locker (rifle)";
 	req_access = list(213)
 	},
-/obj/item/gun/projectile/shotgun/pump/rifle,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
-/obj/item/ammo_magazine/boltaction,
+/obj/item/gun/projectile/shotgun/pump/rifle/scope,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
 /turf/simulated/floor/exoplanet/carpet/rubber,
 /area/adhomai_archeology)
 "n" = (

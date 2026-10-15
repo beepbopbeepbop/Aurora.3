@@ -662,13 +662,13 @@
 	name = "president hadii medal for courage"
 	desc = "A medal awarded to the soldiers and PSIS agents who performed acts of bravery during the war, security operations, or during military duties."
 	icon_state = "hadii_courage"
-	overlay_state = "iron"
+	overlay_state = "silver"
 
 /obj/item/clothing/accessory/medal/pra_hero
 	name = "hero of the people's republic medal"
 	desc = "The highest distinction in the People's Republic of Adhomai, awarded for great service or heroic act while in duty to the nation. It can be bestowed to civilian and military recipients."
 	icon_state = "pra_hero"
-	overlay_state = "iron"
+	overlay_state = "gold"
 
 /obj/item/clothing/accessory/medal/messa_virtue
 	name = "messa's virtue medal"
@@ -685,8 +685,8 @@
 /obj/item/clothing/accessory/medal/homeland_defense
 	name = "medal for the defense of the homeland"
 	desc = "A medal awarded to those who fought alongside the S'rand'marr Coalition in 2461. This was the last medal issued concerning the Second Revolution."
-	icon_state = "homeland_defense"
-	overlay_state = "gold"
+	icon_state = "homeland_defence"
+	overlay_state = "iron"
 
 /obj/item/clothing/accessory/medal/dpra_liberation
 	name = "adhomai hero of the liberation medal"

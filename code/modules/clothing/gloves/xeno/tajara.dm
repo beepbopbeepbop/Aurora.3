@@ -44,6 +44,9 @@
 	desc = "White gloves made for Tajaran use."
 	species_restricted = list (BODYTYPE_TAJARA)
 
+/obj/item/clothing/gloves/white/tajara/dress
+	desc = "A pair of white dress gloves made for tajaran use."
+
 /obj/item/clothing/gloves/rainbow/tajara
 	desc = "Rainbow gloves made for Tajaran use."
 	species_restricted = list(BODYTYPE_TAJARA)

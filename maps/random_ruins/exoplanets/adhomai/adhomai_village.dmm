@@ -11,6 +11,7 @@
 /obj/structure/machinery/light/small{
 	dir = 8
 	},
+/obj/item/clothing/suit/storage/tajaran/hunting,
 /turf/simulated/floor/exoplanet/wood,
 /area/adhomai_village)
 "am" = (
@@ -149,6 +150,17 @@
 	temperature = 278.15
 	},
 /area/adhomai_village)
+"jp" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	pixel_y = 12;
+	pixel_x = 5
+	},
+/obj/item/gun/projectile/revolver/adhomian{
+	pixel_y = -3
+	},
+/turf/simulated/floor/exoplanet/wood,
+/area/adhomai_village)
 "jr" = (
 /obj/structure/railing/fence{
 	dir = 8
@@ -193,12 +205,14 @@
 /area/adhomai_village)
 "mf" = (
 /obj/structure/closet/cabinet,
-/obj/item/ammo_casing/shotgun/pellet,
-/obj/item/ammo_casing/shotgun/pellet,
-/obj/item/ammo_casing/shotgun/pellet,
-/obj/item/ammo_casing/shotgun/pellet,
-/obj/item/ammo_casing/shotgun/pellet,
-/obj/item/clothing/accessory/storage/bandolier,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/gun/projectile/shotgun/pump/rifle/scope,
+/obj/item/clothing/accessory/storage/bayonet,
 /turf/simulated/floor/exoplanet/wood,
 /area/adhomai_village)
 "mF" = (
@@ -266,7 +280,7 @@
 /obj/item/clothing/shoes/workboots/tajara/adhomian_boots,
 /obj/item/clothing/suit/storage/toggle/tajaran/wool,
 /obj/item/clothing/pants/tajaran,
-/obj/item/gun/projectile/shotgun/pump/rifle/obrez,
+/obj/item/clothing/suit/storage/tajaran/hunting,
 /turf/simulated/floor/exoplanet/wood,
 /area/adhomai_village)
 "qm" = (
@@ -410,6 +424,8 @@
 /obj/item/clothing/shoes/winter/tajara,
 /obj/item/clothing/shoes/workboots/tajara,
 /obj/item/clothing/accessory/tajaran/charm,
+/obj/item/ammo_magazine/c38,
+/obj/item/ammo_magazine/c38,
 /turf/simulated/floor/exoplanet/wood,
 /area/adhomai_village)
 "yV" = (
@@ -569,6 +585,7 @@
 /turf/simulated/floor/exoplanet/wood,
 /area/adhomai_village)
 "GR" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/weapon_rack/double_pellet{
 	pixel_y = 32
 	},
@@ -693,6 +710,13 @@
 "LL" = (
 /obj/structure/table/wood,
 /obj/item/clothing/wrists/watch/pocketwatch/adhomai,
+/turf/simulated/floor/exoplanet/wood,
+/area/adhomai_village)
+"LW" = (
+/obj/structure/closet/cabinet,
+/obj/item/storage/box/shells/buckshot,
+/obj/item/storage/box/shells/buckshot,
+/obj/item/clothing/accessory/storage/bandolier,
 /turf/simulated/floor/exoplanet/wood,
 /area/adhomai_village)
 "Mv" = (
@@ -1184,7 +1208,7 @@ xc
 xc
 xc
 Gu
-Wa
+GR
 iM
 ko
 Gu
@@ -1218,7 +1242,7 @@ xc
 xc
 Gu
 Gu
-TQ
+LW
 TQ
 Gu
 Gu
@@ -1430,7 +1454,7 @@ Jb
 (15,1,1) = {"
 xc
 Gu
-na
+jp
 qm
 qm
 LL
@@ -1814,7 +1838,7 @@ TQ
 TQ
 Gk
 Gu
-GR
+TQ
 TQ
 Wa
 Gu

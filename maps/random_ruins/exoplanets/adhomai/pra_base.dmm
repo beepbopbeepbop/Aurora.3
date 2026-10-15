@@ -289,13 +289,14 @@
 	req_access = list(209);
 	name = "ammunition cabinet (rifle)"
 	},
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
-/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
+/obj/item/ammo_magazine/boltaction/adhomai,
 /turf/simulated/floor/concrete/square{
 	temperature = 268.15
 	},
@@ -628,6 +629,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
+/obj/item/gun/projectile/pistol/adhomai,
 /turf/simulated/floor/concrete/square{
 	temperature = 268.15
 	},
@@ -942,6 +944,32 @@
 /obj/item/portable_typewriter,
 /turf/simulated/floor/wood,
 /area/pra_base)
+"KT" = (
+/obj/effect/floor_decal/industrial/outline/blue,
+/obj/structure/closet/secure_closet/guncabinet{
+	req_access = list(209);
+	name = "ammunition cabinet (rifle)"
+	},
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/obj/item/ammo_magazine/a68,
+/turf/simulated/floor/concrete/square{
+	temperature = 268.15
+	},
+/area/pra_base)
 "Lb" = (
 /obj/structure/machinery/light,
 /obj/structure/sign/flag/pra{
@@ -1010,14 +1038,21 @@
 	req_access = list(209);
 	name = "armor cabinet"
 	},
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/suit/armor/carrier/heavy,
-/obj/item/clothing/head/helmet/merc,
-/obj/item/clothing/head/helmet/merc,
-/obj/item/clothing/head/helmet/merc,
-/obj/item/clothing/head/helmet/merc,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/suit/armor/tajaran_snowsuit,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/glasses/safety/goggles/tactical,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
 /turf/simulated/floor/concrete/square{
 	temperature = 268.15
 	},
@@ -1288,6 +1323,10 @@
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
 /obj/item/bedsheet/brown,
+/obj/effect/ghostspawpoint{
+	identifier = "pra_base_soldier";
+	name = "igs - pra_base_soldier"
+	},
 /turf/simulated/floor/concrete/square{
 	temperature = 268.15
 	},
@@ -1885,7 +1924,7 @@ gU
 gU
 NP
 xj
-mb
+KT
 mb
 gU
 gU
