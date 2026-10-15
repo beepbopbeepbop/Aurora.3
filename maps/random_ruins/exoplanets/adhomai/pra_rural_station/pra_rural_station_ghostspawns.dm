@@ -1,30 +1,8 @@
-/datum/map_template/ruin/exoplanet/pra_rural_station
-	name = "PRA Rural Station"
-	id = "pra_rural_station"
-	description = "An advanced outpost of the People's Republic of Adhomai's intelligence service."
+//						//
+//	--- GHOSTROLES ---	//
+//						//
 
-	spawn_weight = 1
-	spawn_cost = 2
-	template_flags = TEMPLATE_FLAG_NO_RUINS|TEMPLATE_FLAG_RUIN_STARTS_DISALLOWED
-	sectors = list(SECTOR_SRANDMARR)
-
-	prefix = "adhomai/"
-	suffix = "pra_rural_station.dmm"
-
-	unit_test_groups = list(3)
-
-/area/pra_rural_station
-	name = "PRA Rural Station"
-	icon_state = "bluenew"
-	requires_power = FALSE
-	no_light_control = FALSE
-	base_turf = /turf/simulated/floor/exoplanet/mineral/adhomai
-	area_flags = AREA_FLAG_RAD_SHIELDED
-	ambience = AMBIENCE_HIGHSEC
-	area_blurb = "You feel watched inside this ominous compound."
-
-//ghost roles
-
+// NPD Trooper
 /datum/ghostspawner/human/pra_rural_station/npd_trooper
 	short_name = "npd_trooper"
 	name = "PRA National Police Department Trooper"
@@ -104,8 +82,12 @@
 	)
 
 /obj/outfit/admin/pra_rural_station/npd_trooper/get_id_access()
-	return list(/datum/access/pra::id)
+	return list(
+		/datum/access/pra::id,
+		/datum/access/npd_rural_station::id
+	)
 
+// PSIS Agent
 /datum/ghostspawner/human/pra_rural_station/psis_agent
 	short_name = "psis_agent"
 	name = "PRA People's Strategic Intelligence Service Agent"
@@ -191,4 +173,8 @@
 	)
 
 /obj/outfit/admin/pra_rural_station/psis_agent/get_id_access()
-	return list(/datum/access/pra::id)
+	return list(
+		/datum/access/pra::id,
+		/datum/access/npd_rural_station::id,
+		/datum/access/psis_field_office::id
+	)

@@ -3012,10 +3012,6 @@
 	req_access = list(209);
 	name = "gun cabinet (equipment)"
 	},
-/obj/structure/closet/secure_closet/guncabinet{
-	req_access = list(209);
-	name = "gun cabinet (equipment)"
-	},
 /obj/item/storage/belt/security/full/alt,
 /obj/item/storage/belt/security/full/alt,
 /obj/item/storage/box/handcuffs,
@@ -9191,9 +9187,6 @@
 	},
 /area/headmaster_ship/lavatory)
 "Ls" = (
-/obj/effect/landmark{
-	name = "carpspawn"
-	},
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/white{
 	temperature = 278.15

@@ -5,8 +5,28 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete/dark,
 /area/pra_rural_station)
+"bc" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/reagent_containers/glass/bucket/wood,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
 "bE" = (
 /turf/simulated/floor/lino/diamond,
+/area/pra_rural_station)
+"bX" = (
+/obj/vehicle/bike/snow,
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/turf/simulated/floor/asphalt,
+/area/pra_rural_station)
+"cb" = (
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
 /area/pra_rural_station)
 "ch" = (
 /obj/effect/decal/exterior_stairs/half/left,
@@ -22,6 +42,18 @@
 /obj/structure/table/reinforced/steel,
 /obj/structure/machinery/door/window/desk/eastright,
 /turf/simulated/floor/tiled/dark/full,
+/area/pra_rural_station)
+"cD" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/storage/box/gloves{
+	pixel_x = 3;
+	pixel_y = 12
+	},
+/obj/item/storage/box/masks{
+	pixel_x = 4;
+	pixel_y = 19
+	},
+/turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "dd" = (
 /obj/structure/platform_deco/column{
@@ -62,27 +94,52 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
+"fd" = (
+/obj/effect/floor_decal/corner_wide/grey/diagonal,
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_rural_station)
+"fj" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - psis_agent";
+	identifier = "psis_agent"
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
 "ft" = (
 /obj/item/gun/projectile/tanto,
 /obj/item/ammo_magazine/a10mm,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
+"fw" = (
+/obj/effect/floor_decal/corner_wide/grey/diagonal,
+/obj/structure/machinery/light/small{
+	dir = 1
+	},
+/obj/structure/closet/crate/bin,
+/obj/random/junk,
+/obj/random/junk,
+/turf/simulated/floor/tiled/white,
+/area/pra_rural_station)
 "fF" = (
 /obj/item/gun/energy/pistol,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
+"fK" = (
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -21;
+	name = "sink"
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
 "fL" = (
-/obj/structure/table/glass,
-/obj/item/healthanalyzer{
-	pixel_x = -5;
-	pixel_y = -2
+/obj/structure/rod_railing/jailbar{
+	dir = 1
 	},
-/obj/item/flashlight/lamp{
-	on = 0;
-	pixel_x = 5;
-	pixel_y = 13
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "gi" = (
 /obj/structure/rod_railing/jailbar/rusted{
@@ -91,9 +148,30 @@
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete/dark,
 /area/pra_rural_station)
 "gq" = (
-/turf/simulated/floor/tiled/bitile/middle{
-	dir = 4
+/obj/structure/table/wood,
+/obj/structure/curtain/black{
+	pixel_x = -32
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"gL" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/storage/box/slides{
+	pixel_y = 13;
+	pixel_x = -7
+	},
+/obj/item/storage/box/evidence{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/storage/box/fancy/vials{
+	pixel_x = 8;
+	pixel_y = 1
+	},
+/turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "hd" = (
 /obj/structure/rod_railing/jailbar/rusted{
@@ -101,50 +179,91 @@
 	},
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete/dark,
 /area/pra_rural_station)
+"hf" = (
+/obj/effect/floor_decal/corner_wide/grey/diagonal,
+/obj/structure/extinguisher_cabinet/east,
+/turf/simulated/floor/tiled/white,
+/area/pra_rural_station)
 "hQ" = (
 /obj/effect/decal/curb,
 /turf/simulated/floor/exoplanet/snow/cold,
+/area/pra_rural_station)
+"hV" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "ig" = (
 /obj/item/clothing/suit/armor/carrier/riot,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
 "iI" = (
-/obj/structure/table/glass,
-/obj/item/folder/white{
-	pixel_x = 4;
-	pixel_y = 11
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
 	},
-/obj/item/mass_spectrometer/adv{
-	pixel_y = 7;
-	pixel_x = -5
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"iL" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/storage/box/fancy/tray/autopsy{
+	pixel_y = 9
 	},
 /turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "jt" = (
 /obj/structure/table/wood,
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "jx" = (
 /obj/effect/decal/exterior_stairs/half/center,
 /turf/simulated/floor/exoplanet/roofing_tiles,
 /area/pra_rural_station)
 "jF" = (
-/obj/item/roller{
-	pixel_x = -4;
-	pixel_y = -5
+/obj/effect/decal/road_marking,
+/obj/effect/decal/curb,
+/turf/simulated/floor/asphalt,
+/area/pra_rural_station)
+"jH" = (
+/obj/structure/rod_railing/jailbar/rusted{
+	dir = 9
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/exoplanet/sidewalk/flat/concrete/dark,
+/area/pra_rural_station)
+"jM" = (
+/obj/structure/machinery/space_heater/industrial,
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "jO" = (
 /obj/structure/machinery/door/urban{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"km" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "lf" = (
 /obj/effect/decal/curb{
-	dir = 4
+	dir = 6
+	},
+/obj/effect/decal/road_marking,
+/obj/effect/decal/road_marking{
+	dir = 8
 	},
 /turf/simulated/floor/exoplanet/asphalt,
 /area/pra_rural_station)
@@ -152,24 +271,36 @@
 /obj/item/storage/box/shells/buckshot,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
+"ly" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/material/ashtray/bronze,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
 "lH" = (
-/obj/structure/table/steel,
-/obj/item/storage/box/masks{
-	pixel_x = 4;
-	pixel_y = 19
+/obj/structure/platform/metal{
+	dir = 8
 	},
-/obj/item/storage/box/gloves{
-	pixel_x = 3;
-	pixel_y = 12
-	},
-/obj/item/storage/box/evidence{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "ml" = (
+/obj/effect/decal/curb,
+/obj/effect/decal/road_marking,
 /turf/simulated/floor/exoplanet/asphalt,
+/area/pra_rural_station)
+"na" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"oj" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "om" = (
 /obj/structure/table/reinforced/steel,
@@ -187,16 +318,36 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
 "oR" = (
-/obj/effect/decal/curb/corner{
-	dir = 8
+/obj/effect/decal/curb{
+	dir = 10
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_rural_station)
 "pa" = (
 /obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_rural_station)
+"pE" = (
+/obj/structure/rod_railing/jailbar,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"pS" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/road_marking{
 	dir = 8
 	},
 /turf/simulated/floor/exoplanet/asphalt,
+/area/pra_rural_station)
+"qs" = (
+/obj/effect/map_effect/window_spawner/full/reinforced/grille/firedoor,
+/turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
 "qx" = (
 /obj/structure/sink/kitchen{
@@ -210,37 +361,80 @@
 	},
 /area/pra_rural_station)
 "qO" = (
-/obj/effect/decal/curb{
+/obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "rM" = (
 /obj/item/gun/launcher/grenade,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
-"sW" = (
-/obj/effect/decal/curb/corner{
-	dir = 4
+"sc" = (
+/obj/structure/machinery/telecomms/allinone/ship,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"sf" = (
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8;
+	pixel_x = -6
 	},
-/turf/simulated/floor/exoplanet/snow/cold,
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"sq" = (
+/obj/structure/machinery/porta_turret/ballistic,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"su" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/turf/simulated/floor/foundation,
+/area/pra_rural_station)
+"sW" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "to" = (
-/obj/item/gun/projectile/pistol/adhomai,
-/obj/item/ammo_magazine/mc9mm,
-/turf/simulated/floor/tiled/dark/full,
+/obj/structure/rod_railing/jailbar{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"tt" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "tu" = (
 /obj/structure/weapons_rack,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
-"up" = (
-/obj/structure/table/steel,
-/obj/structure/machinery/dnaforensics{
-	pixel_x = -1;
-	pixel_y = 2
+"uf" = (
+/obj/effect/decal/curb{
+	dir = 5
 	},
-/turf/simulated/floor/tiled/white,
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_rural_station)
+"up" = (
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"ut" = (
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "uN" = (
 /turf/simulated/floor/tiled/bitile{
@@ -252,9 +446,10 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "vd" = (
-/obj/structure/table/steel,
-/obj/structure/machinery/microscope,
-/turf/simulated/floor/tiled/white,
+/obj/structure/rod_railing/jailbar{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "vL" = (
 /obj/effect/decal/exterior_stairs/half/right,
@@ -262,20 +457,22 @@
 	temperature = 268.15
 	},
 /area/pra_rural_station)
+"vW" = (
+/obj/structure/lattice/catwalk/indoor/urban,
+/obj/structure/bed/stool/chair/folding{
+	dir = 8
+	},
+/turf/simulated/floor/foundation,
+/area/pra_rural_station)
 "wx" = (
-/obj/structure/table/steel,
-/obj/item/paper_bin{
-	pixel_x = -5;
-	pixel_y = 5
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
 	},
-/obj/item/pen/black{
-	pixel_x = -5;
-	pixel_y = 5
-	},
-/obj/item/storage/briefcase/crimekit{
-	pixel_x = 13;
-	pixel_y = 9
-	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"wD" = (
+/obj/structure/table/reinforced/steel,
+/obj/structure/machinery/microscope,
 /turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "wW" = (
@@ -283,6 +480,19 @@
 	dir = 5
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
+/area/pra_rural_station)
+"xy" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/storage/box/fancy/csi_markers{
+	pixel_x = 8;
+	pixel_y = 5
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_rural_station)
+"xz" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/flashlight/lamp,
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "yD" = (
 /obj/structure/bed/stool/chair/office/light{
@@ -295,6 +505,10 @@
 /obj/item/ammo_magazine/c45m,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
+"yX" = (
+/obj/structure/table/rack/retail_shelf,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
 "zs" = (
 /obj/effect/decal/curb/corner{
 	dir = 1
@@ -304,13 +518,26 @@
 "zx" = (
 /obj/structure/table/wood,
 /obj/item/portable_typewriter,
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"zE" = (
+/obj/structure/machinery/door/urban/jail_door{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "An" = (
+/obj/structure/machinery/door/urban/jail_door,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"Ao" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 4
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "AS" = (
 /obj/effect/decal/exterior_stairs/half/left,
@@ -338,47 +565,117 @@
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_rural_station)
-"BW" = (
-/obj/structure/bed/stool/chair{
-	dir = 8
+"BE" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"BI" = (
+/obj/structure/table/wood,
+/obj/structure/curtain/black{
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"BJ" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/storage/box/unique/sharps{
+	pixel_x = 2;
+	pixel_y = -1
+	},
+/turf/simulated/floor/tiled/white,
+/area/pra_rural_station)
+"BW" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/paper_bin{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/pen/black{
+	pixel_x = -5;
+	pixel_y = 5
+	},
+/obj/item/flashlight/lamp{
+	on = 0;
+	pixel_x = 5;
+	pixel_y = 13
+	},
+/turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "Cg" = (
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete/dark,
 /area/pra_rural_station)
-"Cz" = (
-/obj/structure/machinery/door/urban,
-/obj/structure/sign/urban/staff{
-	pixel_y = 22;
-	pixel_x = -1
+"Cl" = (
+/obj/structure/morgue/crematorium{
+	dir = 4
 	},
-/turf/simulated/floor/tiled/dark/full,
+/turf/simulated/floor/tiled/white,
+/area/pra_rural_station)
+"Cz" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "CC" = (
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_rural_station)
 "CR" = (
-/obj/effect/floor_decal/corner_wide/grey/diagonal,
-/obj/structure/extinguisher_cabinet/west,
-/turf/simulated/floor/tiled/white,
+/obj/effect/decal/curb/corner{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
+/area/pra_rural_station)
+"Ed" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/structure/bed/stool/chair{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "Fc" = (
-/obj/effect/decal/curb/corner{
-	dir = 1
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"FH" = (
+/obj/structure/morgue{
+	dir = 8
 	},
-/turf/simulated/floor/wood,
+/turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "Gq" = (
 /obj/structure/bed/stool/chair/office/dark{
 	dir = 1
 	},
-/turf/simulated/floor/wood,
+/obj/effect/ghostspawpoint{
+	name = "igs - npd_trooper";
+	identifier = "npd_trooper"
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "Gu" = (
 /obj/structure/bed/stool/chair,
-/turf/simulated/floor/wood,
+/obj/structure/curtain/black{
+	pixel_x = 32
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"Ha" = (
+/obj/structure/machinery/atm,
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "Hc" = (
 /obj/structure/filingcabinet/filingcabinet{
@@ -388,11 +685,29 @@
 /obj/structure/machinery/papershredder{
 	pixel_x = 6
 	},
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "Hg" = (
 /obj/structure/rod_railing/jailbar/rusted,
 /turf/simulated/floor/exoplanet/sidewalk/flat/concrete/dark,
+/area/pra_rural_station)
+"Hi" = (
+/obj/structure/machinery/shipsensors/strong,
+/turf/simulated/floor/reinforced/airless,
+/area/pra_rural_station)
+"HM" = (
+/obj/structure/machinery/computer/ship/sensors/terminal,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"Ih" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "Iy" = (
 /obj/effect/decal/curb{
@@ -401,16 +716,14 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_rural_station)
 "ID" = (
-/obj/structure/table/glass,
-/obj/item/storage/box/syringes{
-	pixel_x = -4;
-	pixel_y = 6
-	},
-/obj/item/storage/box/unique/sharps{
-	pixel_x = 2;
-	pixel_y = -1
-	},
+/obj/structure/table/reinforced/steel,
 /turf/simulated/floor/tiled/white,
+/area/pra_rural_station)
+"JF" = (
+/obj/structure/machinery/door/urban/metal{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
 "JG" = (
 /obj/structure/machinery/door/urban{
@@ -430,9 +743,10 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
 "Ke" = (
-/obj/item/gun/projectile/sec,
-/obj/item/ammo_magazine/c45m,
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "Kh" = (
 /obj/item/gun/energy/rifle/icelance,
@@ -455,7 +769,16 @@
 /area/pra_rural_station)
 "Lo" = (
 /obj/structure/machinery/photocopier,
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"Lp" = (
+/obj/item/storage/briefcase/crimekit{
+	pixel_x = 13;
+	pixel_y = 9
+	},
+/obj/structure/table/reinforced/steel,
+/turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "LV" = (
 /turf/simulated/floor/tiled/bitile{
@@ -463,16 +786,22 @@
 	},
 /area/pra_rural_station)
 "Mm" = (
-/obj/structure/table/glass,
-/obj/item/storage/box/fancy/vials{
-	pixel_x = 4;
-	pixel_y = 6
+/obj/effect/decal/curb{
+	dir = 8
 	},
-/obj/item/storage/box/slides,
-/turf/simulated/floor/tiled/white,
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_rural_station)
 "Mq" = (
 /turf/simulated/wall/brick,
+/area/pra_rural_station)
+"Mv" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/melee/hammer,
+/obj/item/wirecutters,
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "MW" = (
 /obj/structure/toilet{
@@ -485,11 +814,13 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "Nf" = (
-/obj/effect/decal/exterior_stairs/half/center{
-	dir = 8;
-	pixel_x = -6
+/obj/structure/curtain/black{
+	pixel_x = 32
 	},
-/turf/simulated/floor/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "NA" = (
 /obj/structure/table/steel,
@@ -507,6 +838,12 @@
 	temperature = 268.15
 	},
 /area/pra_rural_station)
+"OD" = (
+/obj/effect/decal/curb{
+	dir = 6
+	},
+/turf/simulated/floor/exoplanet/snow/cold,
+/area/pra_rural_station)
 "OX" = (
 /obj/effect/decal/exterior_stairs/half/center,
 /turf/simulated/floor/exoplanet/barren{
@@ -514,25 +851,38 @@
 	},
 /area/pra_rural_station)
 "Pk" = (
-/obj/effect/floor_decal/corner_wide/grey/diagonal,
-/obj/structure/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/sign/nosmoking_1{
-	pixel_x = -32
-	},
-/obj/structure/closet/crate/bin,
-/obj/random/junk,
-/obj/random/junk,
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "PL" = (
-/obj/item/gun/energy/stunrevolver,
-/turf/simulated/floor/tiled/dark/full,
+/obj/vehicle/bike/snow,
+/obj/effect/decal/road_marking,
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 10
+	},
+/turf/simulated/floor/asphalt,
 /area/pra_rural_station)
 "PT" = (
 /obj/structure/closet/crate/freezer,
 /turf/simulated/floor/tiled/white,
+/area/pra_rural_station)
+"Qp" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/road_marking{
+	dir = 4
+	},
+/obj/effect/decal/curb{
+	dir = 9
+	},
+/obj/vehicle/bike/snow{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
 /area/pra_rural_station)
 "Qq" = (
 /obj/structure/machinery/door/urban/metal_alt,
@@ -548,11 +898,47 @@
 	},
 /turf/simulated/floor/lino/diamond,
 /area/pra_rural_station)
+"QB" = (
+/obj/effect/decal/curb/corner{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_rural_station)
+"QC" = (
+/obj/structure/closet/wardrobe/orange,
+/obj/item/clothing/mask/muzzle,
+/obj/item/clothing/mask/muzzle,
+/obj/item/clothing/mask/muzzle,
+/obj/item/clothing/glasses/sunglasses/blindfold,
+/obj/item/clothing/glasses/sunglasses/blindfold,
+/obj/item/clothing/glasses/sunglasses/blindfold,
+/obj/item/handcuffs/legcuffs,
+/obj/item/handcuffs/legcuffs,
+/obj/item/handcuffs/legcuffs,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
 "Rc" = (
 /obj/effect/decal/curb/corner,
 /turf/simulated/floor/exoplanet/barren{
 	temperature = 268.15
 	},
+/area/pra_rural_station)
+"Rh" = (
+/obj/structure/machinery/door/urban,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"RK" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "RM" = (
 /obj/effect/decal/curb{
@@ -570,6 +956,22 @@
 	dir = 1
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
+/area/pra_rural_station)
+"RR" = (
+/obj/structure/table/rack/retail_shelf,
+/obj/item/storage/box/syringes{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/healthanalyzer{
+	pixel_x = -5;
+	pixel_y = -2
+	},
+/obj/item/mass_spectrometer/adv{
+	pixel_y = 7;
+	pixel_x = -5
+	},
+/turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "Ss" = (
 /obj/structure/rod_railing/jailbar/rusted{
@@ -593,8 +995,10 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "Tx" = (
-/obj/item/gun/energy/taser,
-/turf/simulated/floor/tiled/dark/full,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "TJ" = (
 /turf/simulated/floor/tiled/white,
@@ -603,23 +1007,77 @@
 /obj/item/storage/box/shells/slugs,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
+"TU" = (
+/obj/structure/hadii_statue,
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"Ud" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/obj/effect/decal/exterior_stairs/half/center{
+	dir = 8
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_rural_station)
 "Up" = (
 /obj/effect/decal/curb{
 	dir = 9
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_rural_station)
+"UK" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
 "UM" = (
 /obj/item/gun/projectile/shotgun/pump/rifle,
 /obj/item/ammo_magazine/boltaction/adhomai,
 /turf/simulated/floor/tiled/dark/full,
+/area/pra_rural_station)
+"Va" = (
+/obj/structure/machinery/door/urban,
+/obj/structure/sign/urban/staff{
+	pixel_y = 22;
+	pixel_x = -1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "Vr" = (
 /obj/item/gun/projectile/shotgun/pump/combat,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
 "VE" = (
-/turf/simulated/floor/wood,
+/obj/structure/rod_railing/jailbar{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"VS" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_rural_station)
+"Wc" = (
+/obj/effect/decal/curb/corner{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/asphalt,
 /area/pra_rural_station)
 "WA" = (
 /obj/effect/floor_decal/corner_wide/grey/diagonal,
@@ -633,17 +1091,21 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "WD" = (
-/obj/structure/table/steel,
-/obj/item/storage/box/fancy/csi_markers{
-	pixel_x = 8;
-	pixel_y = 5
+/obj/structure/table/reinforced/steel,
+/obj/structure/machinery/dnaforensics{
+	pixel_x = -1;
+	pixel_y = 2
 	},
 /turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "WP" = (
-/obj/item/gun/projectile/deagle/adhomai,
-/obj/item/ammo_magazine/a50,
-/turf/simulated/floor/tiled/dark/full,
+/obj/structure/curtain/black{
+	pixel_x = -32
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "WW" = (
 /obj/structure/rod_railing/jailbar/rusted{
@@ -658,8 +1120,19 @@
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_rural_station)
 "Xm" = (
-/obj/structure/machinery/door/urban,
-/turf/simulated/floor/tiled/dark/full,
+/obj/structure/bed/stool/chair/folding{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"Xt" = (
+/mob/living/simple_animal/hostile/commanded/dog/harron/cybernetic,
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"XB" = (
+/obj/structure/table/reinforced/steel,
+/obj/item/lore_radio,
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "XH" = (
 /obj/item/storage/box/shells/beanbags,
@@ -680,6 +1153,15 @@
 /obj/item/clothing/suit/armor/carrier/officer,
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
+"Yi" = (
+/obj/effect/decal/road_marking{
+	dir = 8
+	},
+/obj/effect/decal/curb{
+	dir = 4
+	},
+/turf/simulated/floor/asphalt,
+/area/pra_rural_station)
 "Ys" = (
 /obj/effect/decal/curb{
 	dir = 4
@@ -696,17 +1178,25 @@
 /turf/simulated/floor/asphalt,
 /area/pra_rural_station)
 "ZG" = (
-/obj/vehicle/bike/snow{
+/obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"ZH" = (
+/obj/effect/decal/road_marking{
+	dir = 1
+	},
+/obj/effect/decal/curb{
+	dir = 1
+	},
+/obj/vehicle/bike/snow{
+	dir = 1
 	},
 /turf/simulated/floor/asphalt,
 /area/pra_rural_station)
 "ZP" = (
-/obj/structure/table/glass,
-/obj/item/storage/box/fancy/tray/autopsy{
-	pixel_y = 9
-	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 
 (1,1,1) = {"
@@ -730,9 +1220,9 @@ Xc
 Xc
 Xc
 Xc
-Kl
-Kl
-Kl
+Xc
+Xc
+CC
 Kl
 Kl
 Kl
@@ -745,15 +1235,16 @@ Kl
 "}
 (2,1,1) = {"
 Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+jH
 ct
 ct
 ct
@@ -762,15 +1253,14 @@ ct
 ct
 ct
 ct
-ct
-ct
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
+gi
+Cg
+Cg
+oR
+Xc
+Xc
+Xc
+CC
 Kl
 Kl
 Kl
@@ -779,7 +1269,7 @@ Kl
 "}
 (3,1,1) = {"
 Kl
-Kl
+Cg
 Mq
 Mq
 Mq
@@ -799,12 +1289,12 @@ JZ
 JZ
 Mq
 Mq
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
+Cg
+Cg
+Cg
+Cg
+Cg
+hQ
 Kl
 Kl
 Kl
@@ -813,7 +1303,7 @@ Kl
 "}
 (4,1,1) = {"
 Kl
-Kl
+Cg
 Mq
 KF
 NA
@@ -823,22 +1313,22 @@ XR
 XR
 ig
 Mq
-jt
-jt
-VE
+BI
+gq
+WP
 Hc
 Mq
-jt
-jt
-VE
+BI
+gq
+WP
 Hc
 Mq
 Mq
 Mq
 Mq
 Mq
-Kl
-Kl
+Cg
+hQ
 Kl
 Kl
 Kl
@@ -847,32 +1337,32 @@ Kl
 "}
 (5,1,1) = {"
 Kl
-Kl
+Cg
 Mq
 tu
-XR
-XR
+NH
+Vr
 ft
-WP
+rM
 XR
 XU
 Mq
 zx
 Gq
-VE
+up
 Lo
 Mq
 zx
 Gq
-VE
+up
 Lo
 Mq
 Qx
 on
 bE
 Mq
-Kl
-Kl
+Cg
+hQ
 Kl
 Kl
 Kl
@@ -881,33 +1371,33 @@ Kl
 "}
 (6,1,1) = {"
 Kl
-Kl
+Cg
 Mq
 dw
-XR
+lg
 UM
-Ke
-to
+AW
+yM
 XR
 XR
 Mq
 jt
-VE
-VE
-VE
+up
+up
+Fc
 Mq
 jt
-VE
-VE
-VE
+up
+up
+Fc
 Mq
 Qx
 on
 bE
 Mq
-Kl
-Kl
-Kl
+Cg
+oR
+CC
 Kl
 Kl
 Kl
@@ -915,33 +1405,33 @@ Kl
 "}
 (7,1,1) = {"
 Kl
-Kl
+Cg
 Mq
 XH
 TS
-Vr
+Kh
+fF
 XR
-rM
 XR
 XR
 Mq
 Gu
-VE
-VE
-VE
+Nf
+sW
+Ke
 Mq
 Gu
-VE
-VE
-VE
+Nf
+sW
+Ke
 Mq
 Qx
 on
 bE
 Mq
+Cg
+Cg
 oR
-Xc
-Xc
 Xc
 Xc
 CC
@@ -949,14 +1439,19 @@ Kl
 "}
 (8,1,1) = {"
 Kl
-Kl
+Cg
 Mq
-XR
-lg
-NH
-XR
-XR
 Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+JF
+Mq
+JZ
+JZ
+jO
 Mq
 Mq
 JZ
@@ -964,14 +1459,9 @@ JZ
 jO
 Mq
 Mq
-JZ
-JZ
-jO
-Mq
-Mq
-bE
-on
-bE
+ut
+sf
+ut
 Mq
 Mq
 ct
@@ -983,30 +1473,30 @@ Kl
 "}
 (9,1,1) = {"
 Kl
-Kl
+Cg
 Mq
-XR
-AW
-Kh
-XR
-XR
-Tl
-XR
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
+BW
+Lp
+xy
+gL
+TJ
 Mq
+BE
+wx
+wx
+wx
+Cz
+wx
+wx
+wx
+wx
+Cz
+RK
+Rh
 qO
-Nf
-qO
-Fc
+up
+up
+up
 JZ
 Iy
 Iy
@@ -1017,30 +1507,30 @@ Kl
 "}
 (10,1,1) = {"
 Kl
-Kl
+Cg
 Mq
-XR
-yM
-fF
-Tx
-PL
+WD
+yD
+TJ
+TJ
+TJ
+Tl
+iI
+ZG
+ZG
+UK
+up
+up
+up
+up
+up
+up
+Fc
 Mq
-XR
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-Xm
-VE
-VE
-VE
-VE
+up
+Ao
+up
+up
 JZ
 Kl
 Kl
@@ -1051,31 +1541,31 @@ Kl
 "}
 (11,1,1) = {"
 Kl
-Kl
+Cg
+Mq
+wD
+TJ
+TJ
+TJ
+TJ
 Mq
 Mq
 Mq
 Mq
+iI
+ZG
+ZG
+Ed
+km
+Ed
+UK
+Fc
+Mq
+el
+om
+cv
 Mq
 Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-VE
-VE
-Mq
-VE
-An
-VE
-VE
-JZ
 Kl
 Kl
 Bx
@@ -1085,30 +1575,30 @@ Kl
 "}
 (12,1,1) = {"
 Kl
-Kl
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-Mq
-TJ
-TJ
+RR
 TJ
 TJ
 TJ
 TJ
 Mq
-VE
-VE
+ID
+Cl
 Mq
-el
-om
-cv
 Mq
+op
+Mq
+Mq
+Mq
+Mq
+Tx
+Fc
+Mq
+BE
+wx
+wx
+tt
 Mq
 Bh
 dP
@@ -1119,30 +1609,30 @@ Kl
 "}
 (13,1,1) = {"
 Kl
-Kl
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-Mq
+qx
 TJ
+dO
 TJ
 TJ
 TJ
 TJ
 TJ
 Mq
-VE
-VE
+fw
+vc
+fd
+JG
+MW
 Mq
-VE
-VE
-VE
-VE
+Tx
+Ih
+Va
+qO
+up
+up
+Fc
 Mq
 ch
 AS
@@ -1153,30 +1643,30 @@ qB
 "}
 (14,1,1) = {"
 Kl
-Kl
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-Mq
+BJ
+TJ
+TJ
+TJ
+eJ
 TJ
 TJ
 TJ
 Mq
+Tn
+vc
+vc
 Mq
 Mq
 Mq
-VE
-VE
-Cz
-VE
-VE
-VE
-VE
+Tx
+Fc
+Mq
+Tx
+up
+up
+Fc
 Qq
 jx
 OX
@@ -1186,31 +1676,31 @@ qB
 qB
 "}
 (15,1,1) = {"
-Kl
-Kl
+Cg
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
-VE
+cD
+iL
+ID
+PT
+JI
 Mq
-TJ
-TJ
-TJ
+FH
+FH
 Mq
-VE
-VE
-VE
-VE
-VE
+WA
+hf
+vc
+JG
+MW
 Mq
-VE
-VE
-VE
-VE
+Tx
+Fc
+Mq
+oj
+Ed
+Ed
+hV
 Mq
 YB
 vL
@@ -1220,31 +1710,31 @@ Rc
 qB
 "}
 (16,1,1) = {"
-Kl
-Kl
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
-VE
 Mq
-TJ
-TJ
-TJ
 Mq
-VE
-VE
-VE
-VE
-VE
 Mq
-BW
-BW
-BW
-BW
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Tx
+Fc
+Mq
+Mq
+Mq
+Mq
+Mq
 Mq
 RO
 dd
@@ -1254,31 +1744,31 @@ hQ
 Kl
 "}
 (17,1,1) = {"
-Kl
-Kl
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
+xz
+bc
+fK
+yX
 Mq
+QC
+ZP
+fL
+ZP
+ZP
 Mq
-Mq
-Mq
-Mq
-Mq
-VE
-VE
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
+ZP
+ZP
+pE
+BE
+wx
+na
+Ih
+Rh
+qO
+up
+up
+up
 Mq
 Kl
 Kl
@@ -1288,32 +1778,32 @@ hQ
 Kl
 "}
 (18,1,1) = {"
-Kl
-Kl
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
-Mq
+ly
+Xm
+ZP
+ZP
+XR
+ZP
+ZP
+zE
+ZP
+ZP
+XR
+ZP
+ZP
+An
+Tx
 Pk
-CR
-JG
-MW
+ZG
+Ke
 Mq
-VE
-VE
-Mq
-ZG
-YO
-ZG
-YO
-ZG
-YO
-ZG
-Mq
+up
+Ha
+up
+up
+JZ
 Kl
 Kl
 Bx
@@ -1322,32 +1812,32 @@ hQ
 Kl
 "}
 (19,1,1) = {"
-Kl
-Kl
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
+Mv
+su
+su
+su
 Mq
-Tn
-vc
+ZP
+ZP
+to
+vd
+vd
 Mq
-Mq
-Mq
+vd
+vd
 VE
-VE
+Tx
+Fc
 Mq
-YO
-YO
-YO
-YO
-YO
-YO
-YO
 Mq
+Mq
+up
+up
+up
+up
+JZ
 Xc
 Xc
 Up
@@ -1356,167 +1846,235 @@ hQ
 Kl
 "}
 (20,1,1) = {"
-Kl
-Kl
-Mq
-VE
-VE
-VE
-VE
-VE
-VE
-Mq
-WA
-vc
-JG
-MW
-Mq
-VE
-VE
-Mq
-YO
-YO
-YO
-YO
-YO
-YO
-YO
-Mq
-ah
 Cg
-Cg
-Hg
+Mq
+XB
+su
+vW
+su
+Mq
+ZP
+ZP
+zE
+ZP
+ZP
+XR
+ZP
+ZP
+An
+Tx
+Fc
+Mq
+up
+up
+up
+up
+up
+up
+Mq
+hd
+hd
+hd
+WW
 hQ
 Kl
 "}
 (21,1,1) = {"
+Cg
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+ZP
+ZP
+to
+vd
+vd
+Mq
+vd
+vd
+VE
+Tx
+Fc
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+ah
+lf
+uf
+Hg
+hQ
 Kl
-Kl
+"}
+(22,1,1) = {"
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
+ZP
+ZP
+ZP
+ZP
 Mq
-Mq
-op
-Mq
-Mq
-Mq
-VE
-VE
+ZP
+ZP
+zE
+ZP
+ZP
+XR
+ZP
+ZP
+An
+Tx
+Fc
 Qq
-YO
-YO
-YO
-YO
-YO
-YO
-YO
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+Qq
+Cg
+ml
+pa
+Hg
+hQ
+Kl
+"}
+(23,1,1) = {"
+Cg
+Mq
+ZP
+ZP
+ZP
+ZP
+Mq
+XR
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Tx
+Fc
+Mq
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+Mq
+Cg
+ml
+pa
+Hg
+hQ
+Kl
+"}
+(24,1,1) = {"
+Cg
+Mq
+ZP
+ZP
+ZP
+ZP
+jM
+ZP
+ZP
+ZP
+ZP
+XR
+ZP
+ZP
+ZP
+XR
+iI
+Ke
+Mq
+ZP
+lf
+Ud
+Yi
+Yi
+Yi
 uN
-lf
-lf
-lf
-lf
+pS
+Wc
+CR
+pS
 XS
 qB
 "}
-(22,1,1) = {"
-Kl
-Kl
+(25,1,1) = {"
+Cg
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
 Mq
-YO
-YO
-YO
-YO
-YO
-YO
-YO
-gq
-ml
-ml
-ml
-ml
-qB
-qB
-"}
-(23,1,1) = {"
-Kl
-Kl
+lH
+lH
+lH
 Mq
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
-VE
 Mq
+Mq
+Mq
+Mq
+jF
 YO
 YO
 YO
-YO
-YO
-YO
-YO
+QB
 LV
-pa
-pa
-pa
-pa
+Mm
+Mm
+Mm
+Mm
 Rc
 qB
 "}
-(24,1,1) = {"
-Kl
-Kl
+(26,1,1) = {"
+Cg
 Mq
+ZP
+ZP
+ZP
+ZP
+ZP
+Xt
+ZP
+ZP
+ZP
 Mq
+ZP
+sq
+ZP
 Mq
+ZP
+ZP
+ZP
 Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
+bX
+YO
+YO
+YO
+ZH
 Mq
 Ss
 hd
@@ -1525,273 +2083,205 @@ WW
 hQ
 Kl
 "}
-(25,1,1) = {"
-Kl
-Kl
+(27,1,1) = {"
+Cg
 Mq
-ID
-iI
-PT
-fL
+up
+up
+up
+TU
+ZP
+ZP
+fj
+ZP
 ZP
 Mq
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-sW
-Iy
-Iy
+Mq
+Mq
+Mq
+Mq
+ZP
+ZP
+ZP
+Mq
+jF
+YO
+YO
+YO
+VS
+Mq
+Cg
+OD
 Iy
 Iy
 zs
 Kl
 "}
-(26,1,1) = {"
-Kl
-Kl
-Mq
-Mm
-TJ
-TJ
-TJ
-dO
-Mq
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-"}
-(27,1,1) = {"
-Kl
-Kl
-Mq
-qx
-TJ
-TJ
-TJ
-jF
-Mq
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-"}
 (28,1,1) = {"
-Kl
-Kl
+Cg
 Mq
 up
-yD
-wx
-TJ
-eJ
+up
+up
+up
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
 Mq
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
+bX
+YO
+YO
+YO
+ZH
+Mq
+Cg
+hQ
 Kl
 Kl
 Kl
 Kl
 "}
 (29,1,1) = {"
-Kl
-Kl
+Cg
 Mq
-vd
-WD
-lH
-TJ
-JI
+up
+up
+up
+up
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+HM
+qs
+Hi
+ZP
+ZP
 Mq
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
+jF
+YO
+YO
+YO
+VS
+Mq
+Cg
+hQ
 Kl
 Kl
 Kl
 Kl
 "}
 (30,1,1) = {"
-Kl
-Kl
+Cg
 Mq
+up
+up
+up
+up
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+ZP
+sc
+ZP
+ZP
+ZP
+ZP
 Mq
+PL
+cb
+cb
+cb
+Qp
 Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Kl
-Kl
+Cg
+hQ
 Kl
 Kl
 Kl
 Kl
 "}
 (31,1,1) = {"
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
+Cg
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Cg
+hQ
 Kl
 Kl
 Kl
 Kl
 "}
 (32,1,1) = {"
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
-Kl
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+Cg
+hQ
 Kl
 Kl
 Kl

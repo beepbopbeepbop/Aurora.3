@@ -865,3 +865,13 @@
 	id = 268
 	desc = "NKA Imperial Army Officer Access"
 	access_type = ACCESS_TYPE_CENTCOM
+
+/datum/access/npd_rural_station
+	id = 269
+	desc = "NPD Rural Station Access"
+	access_type = ACCESS_TYPE_CENTCOM
+
+/datum/access/psis_field_office
+	id = 270
+	desc = "PSIS Field Office Access"
+	access_type = ACCESS_TYPE_CENTCOM
