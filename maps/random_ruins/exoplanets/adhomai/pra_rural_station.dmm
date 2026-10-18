@@ -77,6 +77,12 @@
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
 /area/pra_rural_station)
+"dV" = (
+/obj/structure/bed/stool/chair/folding{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
 "el" = (
 /obj/structure/machinery/door/urban{
 	dir = 4
@@ -102,10 +108,7 @@
 /turf/simulated/floor/tiled/white,
 /area/pra_rural_station)
 "fj" = (
-/obj/effect/ghostspawpoint{
-	name = "igs - psis_agent";
-	identifier = "psis_agent"
-	},
+/obj/structure/table/reinforced/steel,
 /turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "ft" = (
@@ -238,7 +241,7 @@
 /area/pra_rural_station)
 "jM" = (
 /obj/structure/machinery/space_heater/industrial,
-/turf/simulated/floor/tiled/gridded,
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "jO" = (
 /obj/structure/machinery/door/urban{
@@ -277,15 +280,26 @@
 /turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "lH" = (
-/obj/structure/platform/metal{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/gridded,
+/obj/structure/table/wood,
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "ml" = (
 /obj/effect/decal/curb,
 /obj/effect/decal/road_marking,
 /turf/simulated/floor/exoplanet/asphalt,
+/area/pra_rural_station)
+"mm" = (
+/obj/structure/bed/stool/chair/folding{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"mG" = (
+/obj/effect/ghostspawpoint{
+	name = "igs - psis_agent";
+	identifier = "psis_agent"
+	},
+/turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "na" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -385,7 +399,9 @@
 /turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "sq" = (
-/obj/structure/machinery/porta_turret/ballistic,
+/obj/structure/bed/stool/chair/office/dark{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "su" = (
@@ -480,6 +496,10 @@
 	dir = 5
 	},
 /turf/simulated/floor/exoplanet/snow/cold,
+/area/pra_rural_station)
+"xa" = (
+/obj/structure/hadii_statue,
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "xy" = (
 /obj/structure/table/reinforced/steel,
@@ -634,6 +654,20 @@
 	},
 /turf/simulated/floor/exoplanet/asphalt,
 /area/pra_rural_station)
+"CX" = (
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = -10
+	},
+/obj/structure/filingcabinet/filingcabinet,
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 10
+	},
+/turf/simulated/floor/tiled/gridded,
+/area/pra_rural_station)
+"DY" = (
+/obj/structure/machinery/photocopier,
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
 "Ed" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
@@ -645,6 +679,16 @@
 /area/pra_rural_station)
 "Fc" = (
 /obj/effect/floor_decal/spline/fancy/wood,
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"FC" = (
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = -9;
+	pixel_y = 1
+	},
+/obj/structure/machinery/papershredder{
+	pixel_x = 6
+	},
 /turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "FH" = (
@@ -699,11 +743,23 @@
 /turf/simulated/floor/reinforced/airless,
 /area/pra_rural_station)
 "HM" = (
-/obj/structure/machinery/computer/ship/sensors/terminal,
-/turf/simulated/floor/tiled/gridded,
+/turf/space,
 /area/pra_rural_station)
 "Ih" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/pra_rural_station)
+"Im" = (
+/obj/structure/machinery/door/urban{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
 	},
@@ -718,6 +774,12 @@
 "ID" = (
 /obj/structure/table/reinforced/steel,
 /turf/simulated/floor/tiled/white,
+/area/pra_rural_station)
+"Jx" = (
+/obj/structure/machinery/computer/ship/sensors/terminal{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/gridded,
 /area/pra_rural_station)
 "JF" = (
 /obj/structure/machinery/door/urban/metal{
@@ -1008,7 +1070,8 @@
 /turf/simulated/floor/tiled/dark/full,
 /area/pra_rural_station)
 "TU" = (
-/obj/structure/hadii_statue,
+/obj/structure/table/wood,
+/obj/item/portable_typewriter,
 /turf/simulated/floor/wood/walnut,
 /area/pra_rural_station)
 "Ud" = (
@@ -1210,6 +1273,16 @@ Kl
 Kl
 Kl
 Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Xc
 Xc
 Xc
@@ -1234,6 +1307,16 @@ Kl
 Kl
 "}
 (2,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Kl
 Cg
 Cg
@@ -1269,6 +1352,16 @@ Kl
 "}
 (3,1,1) = {"
 Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 Mq
@@ -1302,6 +1395,16 @@ Kl
 Kl
 "}
 (4,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Kl
 Cg
 Mq
@@ -1337,6 +1440,16 @@ Kl
 "}
 (5,1,1) = {"
 Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 tu
@@ -1370,6 +1483,16 @@ Kl
 Kl
 "}
 (6,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Kl
 Cg
 Mq
@@ -1405,6 +1528,16 @@ Kl
 "}
 (7,1,1) = {"
 Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 XH
@@ -1439,6 +1572,16 @@ Kl
 "}
 (8,1,1) = {"
 Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 Mq
@@ -1456,7 +1599,7 @@ Mq
 Mq
 JZ
 JZ
-jO
+Im
 Mq
 Mq
 ut
@@ -1472,6 +1615,16 @@ hQ
 Kl
 "}
 (9,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Kl
 Cg
 Mq
@@ -1490,7 +1643,7 @@ wx
 wx
 wx
 wx
-Cz
+na
 RK
 Rh
 qO
@@ -1506,6 +1659,16 @@ hQ
 Kl
 "}
 (10,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Kl
 Cg
 Mq
@@ -1541,6 +1704,16 @@ Kl
 "}
 (11,1,1) = {"
 Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 wD
@@ -1574,6 +1747,16 @@ hQ
 Kl
 "}
 (12,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Kl
 Cg
 Mq
@@ -1609,6 +1792,16 @@ Kl
 "}
 (13,1,1) = {"
 Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 qx
@@ -1643,6 +1836,16 @@ qB
 "}
 (14,1,1) = {"
 Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 BJ
@@ -1676,7 +1879,17 @@ qB
 qB
 "}
 (15,1,1) = {"
-Cg
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 cD
@@ -1710,8 +1923,18 @@ Rc
 qB
 "}
 (16,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
-Mq
 Mq
 Mq
 Mq
@@ -1744,6 +1967,17 @@ hQ
 Kl
 "}
 (17,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 xz
@@ -1761,7 +1995,6 @@ ZP
 ZP
 pE
 BE
-wx
 na
 Ih
 Rh
@@ -1778,6 +2011,17 @@ hQ
 Kl
 "}
 (18,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 ly
@@ -1796,7 +2040,6 @@ ZP
 An
 Tx
 Pk
-ZG
 Ke
 Mq
 up
@@ -1812,6 +2055,17 @@ hQ
 Kl
 "}
 (19,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 Mv
@@ -1832,7 +2086,6 @@ Tx
 Fc
 Mq
 Mq
-Mq
 up
 up
 up
@@ -1846,6 +2099,17 @@ hQ
 Kl
 "}
 (20,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 XB
@@ -1870,7 +2134,6 @@ up
 up
 up
 up
-up
 Mq
 hd
 hd
@@ -1880,6 +2143,17 @@ hQ
 Kl
 "}
 (21,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 Mq
@@ -1899,12 +2173,11 @@ VE
 Tx
 Fc
 Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
+up
+up
+up
+up
+up
 Mq
 ah
 lf
@@ -1914,12 +2187,23 @@ hQ
 Kl
 "}
 (22,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
+Xm
+Xm
 ZP
-ZP
-ZP
-ZP
+mm
 Mq
 ZP
 ZP
@@ -1930,16 +2214,15 @@ XR
 ZP
 ZP
 An
-Tx
-Fc
-Qq
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-Qq
+iI
+Ke
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
 Cg
 ml
 pa
@@ -1948,12 +2231,23 @@ hQ
 Kl
 "}
 (23,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
+fj
+fj
 ZP
-ZP
-ZP
-ZP
+mm
 Mq
 XR
 Mq
@@ -1964,11 +2258,54 @@ Mq
 Mq
 Mq
 Mq
-Tx
-Fc
+ZP
+ZP
+ZP
+Qq
+ZP
+ZP
+ZP
+ZP
+Qq
+Cg
+ml
+pa
+Hg
+hQ
+Kl
+"}
+(24,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Cg
+Mq
+dV
+dV
+ZP
+ZP
 Mq
 ZP
 ZP
+ZP
+Xt
+ZP
+ZP
+ZP
+ZP
+XR
+ZP
+ZP
+ZP
+Mq
 ZP
 ZP
 ZP
@@ -1981,30 +2318,40 @@ Hg
 hQ
 Kl
 "}
-(24,1,1) = {"
+(25,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 ZP
 ZP
 ZP
 ZP
-jM
-ZP
-ZP
-ZP
-ZP
 XR
 ZP
 ZP
 ZP
-XR
-iI
-Ke
+xa
+ZP
+ZP
+ZP
+ZP
 Mq
 ZP
+ZP
+ZP
+Mq
 lf
 Ud
-Yi
 Yi
 Yi
 uN
@@ -2015,29 +2362,39 @@ pS
 XS
 qB
 "}
-(25,1,1) = {"
+(26,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-Mq
-lH
-lH
-lH
 Mq
 Mq
 Mq
 Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+ZP
+ZP
 Mq
 jF
-YO
 YO
 YO
 QB
@@ -2049,29 +2406,39 @@ Mm
 Rc
 qB
 "}
-(26,1,1) = {"
+(27,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
-ZP
-ZP
-ZP
-ZP
-ZP
-Xt
-ZP
-ZP
-ZP
+up
+up
+up
+up
+up
+up
+up
+up
+up
+HM
+HM
+HM
+HM
+HM
 Mq
-ZP
-sq
-ZP
-Mq
-ZP
 ZP
 ZP
 Mq
 bX
-YO
 YO
 YO
 ZH
@@ -2083,29 +2450,39 @@ WW
 hQ
 Kl
 "}
-(27,1,1) = {"
+(28,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 up
 up
 up
-TU
-ZP
-ZP
-fj
-ZP
-ZP
+up
+up
+up
+up
+up
+up
+HM
+HM
+HM
+HM
+HM
 Mq
-Mq
-Mq
-Mq
-Mq
-ZP
 ZP
 ZP
 Mq
 jF
-YO
 YO
 YO
 VS
@@ -2117,29 +2494,39 @@ Iy
 zs
 Kl
 "}
-(28,1,1) = {"
+(29,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 up
 up
 up
 up
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
+up
+FC
+up
+up
+up
+HM
+HM
+HM
+HM
+HM
+Mq
 ZP
 ZP
 Mq
 bX
-YO
 YO
 YO
 ZH
@@ -2151,29 +2538,39 @@ Kl
 Kl
 Kl
 "}
-(29,1,1) = {"
+(30,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
+jM
+up
+mG
+up
+up
+DY
 up
 up
 up
-up
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
 HM
-qs
-Hi
+HM
+HM
+HM
+HM
+Mq
 ZP
 ZP
 Mq
 jF
-YO
 YO
 YO
 VS
@@ -2185,29 +2582,39 @@ Kl
 Kl
 Kl
 "}
-(30,1,1) = {"
+(31,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
 up
 up
 up
 up
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-ZP
-sc
-ZP
-ZP
-ZP
-ZP
+up
+up
+up
+up
+up
+HM
+HM
+HM
+HM
+HM
+Mq
+XR
+Mq
 Mq
 PL
-cb
 cb
 cb
 Qp
@@ -2219,27 +2626,37 @@ Kl
 Kl
 Kl
 "}
-(31,1,1) = {"
+(32,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
 Cg
 Mq
+lH
+lH
+lH
+up
+up
+lH
+lH
+lH
+up
+HM
+HM
+HM
+HM
+HM
 Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
-Mq
+Kl
+Cg
 Mq
 Mq
 Mq
@@ -2253,26 +2670,36 @@ Kl
 Kl
 Kl
 "}
-(32,1,1) = {"
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
-Cg
+(33,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Mq
+TU
+up
+up
+up
+up
+TU
+up
+up
+up
+HM
+HM
+HM
+HM
+HM
+Mq
+Kl
 Cg
 Cg
 Cg
@@ -2282,6 +2709,402 @@ Cg
 Cg
 Cg
 hQ
+Kl
+Kl
+Kl
+Kl
+"}
+(34,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Mq
+lH
+up
+up
+up
+up
+lH
+up
+up
+up
+HM
+HM
+HM
+HM
+HM
+Mq
+Kl
+Mq
+sc
+sq
+ZP
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+"}
+(35,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Kl
+Mq
+fj
+fj
+Jx
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+"}
+(36,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Mq
+Mq
+Mq
+Mq
+Mq
+Mq
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Mq
+Mq
+Mq
+qs
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+"}
+(37,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+ZP
+ZP
+Mq
+Hi
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+"}
+(38,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+ZP
+ZP
+Mq
+Mq
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+"}
+(39,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+ZP
+ZP
+ZP
+CX
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+"}
+(40,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+ZP
+ZP
+ZP
+CX
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+"}
+(41,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+ZP
+ZP
+ZP
+ZP
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+"}
+(42,1,1) = {"
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+Kl
+ZP
+ZP
+ZP
+ZP
+Kl
+Kl
+Kl
+Kl
+Kl
 Kl
 Kl
 Kl
